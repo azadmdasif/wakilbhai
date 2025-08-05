@@ -66,7 +66,7 @@ const HomePage: React.FC = () => {
         style={{ backgroundImage: "url('/hero.png')" }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
-        <div className="relative text-center pt-24 pb-28 px-4">
+        <div className="relative text-center pt-32 pb-40 px-4">
             <h1 className="text-5xl md:text-7xl font-extrabold text-white font-display tracking-tight mb-4">
               {T.heroTitle}
             </h1>
