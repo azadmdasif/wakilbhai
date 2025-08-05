@@ -113,7 +113,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
             <NavLink to="/" className="flex items-center space-x-3">
-              <img src="/logo.png" alt="WakilBhai Logo" className="h-10 w-auto" />
+              <img src="/logo.png" alt="WakilBhai Logo" className="h-14 w-auto" />
               <span className="font-display text-2xl font-bold tracking-wider">
                 <span className="text-white">Wakil</span>
                 <span className="text-brand-gold">Bhai</span>
