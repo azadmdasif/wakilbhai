@@ -33,13 +33,13 @@ const Footer: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="space-y-4 md:col-span-2">
               <NavLink to="/" className="flex items-center space-x-3">
-                  <img src="/logo.png" alt="WakilBhai Logo" className="h-10 w-auto" />
+                  <img src="/logo.png" alt="WakilBhai Logo" className="h-14 w-auto" />
                   <span className="font-display text-2xl font-bold tracking-wider">
                       <span className="text-white">Wakil</span>
                       <span className="text-brand-gold">Bhai</span>
                   </span>
               </NavLink>
-              <p className="text-sm">Documents. Drafts. Delivered. Your trusted partner for legal paperwork.</p>
+              <p className="text-sm"> Your Local Lawyer!</p>
               <div className="flex space-x-4">
                 <a href="#" className="hover:text-brand-gold transition-colors"><TwitterIcon className="h-6 w-6" /></a>
                 <a href="#" className="hover:text-brand-gold transition-colors"><FacebookIcon className="h-6 w-6" /></a>
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
           <div className="mt-12 border-t border-gray-800 pt-8 text-center text-sm">
             <p>&copy; {year} WakilBhai. All Rights Reserved.</p>
             <p className="mt-2 text-xs max-w-2xl mx-auto">
-              <strong>Disclaimer:</strong> WakilBhai is a documentation service platform. We are not a law firm and do not provide legal advice. The information on this website is for informational purposes only. We connect users with legal professionals only when necessary for document attestation or specific legal consultation.
+              <strong>Disclaimer:</strong> WakilBhai is a documentation service platform. The information on this website is for informational purposes only. We connect users with legal professionals only when necessary for document attestation or specific legal consultation.
             </p>
           </div>
         </div>
