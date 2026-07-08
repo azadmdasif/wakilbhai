@@ -1,0 +1,192 @@
+[
+  {
+    "id": "rent-agreement",
+    "category": "property-tenancy",
+    "title": {
+      "en": "Rental Agreement (Residential & Commercial)",
+      "hi": "किराया समझौता (आवासीय और वाणिज्यिक)",
+      "ur": "کرایہ کا معاہدہ (رہائشی اور تجارتی)",
+      "bn": "ভাড়া চুক্তি (আবাসিক ও বাণিজ্যিক)"
+    },
+    "description": {
+      "en": "Drafting agreements for renting residential or commercial properties.",
+      "hi": "आवासीय या वाणिज्यिक संपत्तियों को किराए पर देने के लिए समझौतों का मसौदा तैयार करना।",
+      "ur": "رہائشی یا تجارتی جائیدادوں کو کرائے پر دینے کے لیے معاہدوں کا مسودہ تیار کرنا۔",
+      "bn": "আবাসিক বা বাণিজ্যিক সম্পত্তি ভাড়ার জন্য চুক্তির খসড়া তৈরি করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "lease-agreement",
+    "category": "property-tenancy",
+    "title": {
+      "en": "Lease Agreement",
+      "hi": "पट्टा समझौता",
+      "ur": "لیز کا معاہدہ",
+      "bn": "লীজ চুক্তি"
+    },
+    "description": {
+      "en": "Formalizing long-term property lease contracts.",
+      "hi": "दीर्घकालिक संपत्ति पट्टा अनुबंधों को औपचारिक बनाना।",
+      "ur": "طویل مدتی پراپرٹی لیز کے معاہدوں کو باقاعدہ بنانا۔",
+      "bn": "দীর্ঘমেয়াদী সম্পত্তি ইজারা চুক্তি আনুষ্ঠানিক করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "sale-deed",
+    "category": "property-tenancy",
+    "title": {
+      "en": "Sale Deed",
+      "hi": "बिक्री विलेख",
+      "ur": "فروخت کا معاہدہ",
+      "bn": "বিক্রয় দলিল"
+    },
+    "description": {
+      "en": "Preparing the primary legal document for property sale.",
+      "hi": "संपत्ति की बिक्री के लिए प्राथमिक कानूनी दस्तावेज तैयार करना।",
+      "ur": "جائیداد کی فروخت کے لیے بنیادی قانونی دستاویز تیار کرنا۔",
+      "bn": "সম্পত্তি বিক্রয়ের জন্য প্রাথমিক আইনি নথি প্রস্তুত করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "gift-deed",
+    "category": "property-tenancy",
+    "title": {
+      "en": "Gift Deed (Property)",
+      "hi": "उपहार विलेख (संपत्ति)",
+      "ur": "گفٹ ڈیڈ (جائیداد)",
+      "bn": "উপহার দলিল (সম্পত্তি)"
+    },
+    "description": {
+      "en": "Drafting deeds for voluntarily gifting a property.",
+      "hi": "स्वेच्छा से संपत्ति उपहार में देने के लिए विलेखों का मसौदा तैयार करना।",
+      "ur": "رضاکارانہ طور پر جائیداد تحفے میں دینے کے لیے ڈیڈ کا مسودہ تیار کرنا۔",
+      "bn": "স্বেচ্ছায় সম্পত্তি উপহার দেওয়ার জন্য দলিলের খসড়া তৈরি করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "property-partition-agreement",
+    "category": "property-tenancy",
+    "title": {
+      "en": "Property Partition Agreement",
+      "hi": "संपत्ति विभाजन समझौता",
+      "ur": "جائیداد کی تقسیم کا معاہدہ",
+      "bn": "সম্পত্তি বিভাজন চুক্তি"
+    },
+    "description": {
+      "en": "Creating agreements for dividing property among co-owners.",
+      "hi": "सह-मालिकों के बीच संपत्ति के बंटवारे के लिए समझौते बनाना।",
+      "ur": "شریک مالکان کے درمیان جائیداد کی تقسیم کے لیے معاہدے بنانا۔",
+      "bn": "সহ-মালিকদের মধ্যে সম্পত্তি ভাগের জন্য চুক্তি তৈরি করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "builder-buyer-agreement",
+    "category": "property-tenancy",
+    "title": {
+      "en": "Builder-Buyer Agreement",
+      "hi": "बिल्डर-क्रेता समझौता",
+      "ur": "بلڈر-خریدار معاہدہ",
+      "bn": "বিল্ডার-ক্রেতা চুক্তি"
+    },
+    "description": {
+      "en": "Securing the terms between a property developer and a buyer.",
+      "hi": "एक संपत्ति डेवलपर और एक खरीदार के बीच शर्तों को सुरक्षित करना।",
+      "ur": "ایک پراپرٹی ڈویلپر اور خریدار کے درمیان شرائط کو محفوظ بنانا۔",
+      "bn": "একজন সম্পত্তি বিকাশকারী এবং একজন ক্রেতার মধ্যে শর্তাবলী সুরক্ষিত করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "landlord-notice-tenant",
+    "category": "property-tenancy",
+    "title": {
+      "en": "Landlord Notice to Tenant",
+      "hi": "मकान मालिक द्वारा किरायेदार को नोटिस",
+      "ur": "مکان مالک کا کرایہ دار کو نوٹس",
+      "bn": "মালিক কর্তৃক ভাড়াটিয়াকে নোটিশ"
+    },
+    "description": {
+      "en": "Drafting official notices from a landlord to a tenant.",
+      "hi": "मकान मालिक से किरायेदार को आधिकारिक नोटिस का मसौदा तैयार करना।",
+      "ur": "مکان مالک کی طرف سے کرایہ دار کو سرکاری نوٹس کا مسودہ تیار کرنا۔",
+      "bn": "একজন বাড়িওয়ালার কাছ থেকে একজন ভাড়াটিয়ার কাছে অফিসিয়াল নোটিশের খসড়া তৈরি করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 3,
+    "type": "legal-notice"
+  },
+  {
+    "id": "leave-license-agreement",
+    "category": "property-tenancy",
+    "title": {
+      "en": "Leave & License Agreement",
+      "hi": "छुट्टी और लाइसेंस समझौता",
+      "ur": "چھٹی اور لائسنس کا معاہدہ",
+      "bn": "লিভ ও লাইসেন্স চুক্তি"
+    },
+    "description": {
+      "en": "Creating agreements for short-term occupancy of a property.",
+      "hi": "किसी संपत्ति पर अल्पकालिक कब्जे के लिए समझौते बनाना।",
+      "ur": "کسی پراپرٹی پر قلیل مدتی قبضے کے لیے معاہدے بنانا۔",
+      "bn": "একটি সম্পত্তির স্বল্পমেয়াদী দখলের জন্য চুক্তি তৈরি করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "rera-complaint",
+    "category": "property-tenancy",
+    "title": {
+      "en": "RERA Complaint Draft",
+      "hi": "रेरा शिकायत का मसौदा",
+      "ur": "ریرا شکایت کا مسودہ",
+      "bn": "RERA অভিযোগের খসড়া"
+    },
+    "description": {
+      "en": "Drafting complaints under the Real Estate (Regulation and Development) Act.",
+      "hi": "रियल एस्टेट (विनियमन और विकास) अधिनियम के तहत शिकायतों का मसौदा तैयार करना।",
+      "ur": "ریل اسٹیٹ (ریگولیشن اینڈ ڈیولپمنٹ) ایکٹ کے تحت شکایات کا مسودہ تیار کرنا۔",
+      "bn": "রিয়েল এস্টেট (নিয়ন্ত্রণ ও উন্নয়ন) আইনের অধীনে অভিযোগের খসড়া তৈরি করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "legal-notice-security-deposit",
+    "category": "property-tenancy",
+    "type": "legal-notice",
+    "priceINR": 999,
+    "deliveryDays": 3,
+    "title": {
+      "en": "Security Deposit Recovery Notice",
+      "hi": "सिक्योरिटी डिपॉज़िट वसूली नोटिस",
+      "ur": "سیکیورٹی ڈپازٹ کی واپسی کا نوٹس",
+      "bn": "সিকিউরিটি ডিপোজিট ফেরতের নোটিশ"
+    },
+    "description": {
+      "en": "An advocate sends a formal demand notice to your landlord for the return of your security deposit, citing the agreement terms and applicable tenancy law.",
+      "hi": "एक वकील आपके मकान मालिक को सिक्योरिटी डिपॉज़िट लौटाने के लिए औपचारिक डिमांड नोटिस भेजता है, जिसमें एग्रीमेंट की शर्तों और लागू किरायेदारी कानून का हवाला होता है।",
+      "ur": "ایک وکیل آپ کے مالک مکان کو سیکیورٹی ڈپازٹ واپس کرنے کے لیے باضابطہ ڈیمانڈ نوٹس بھیجتا ہے، جس میں معاہدے کی شرائط اور متعلقہ کرایہ داری قانون کا حوالہ ہوتا ہے۔",
+      "bn": "একজন উকিল আপনার বাড়িওয়ালাকে সিকিউরিটি ডিপোজিট ফেরত দেওয়ার জন্য আনুষ্ঠানিক ডিমান্ড নোটিশ পাঠান, যাতে চুক্তির শর্ত এবং প্রযোজ্য ভাড়াটিয়া আইনের উল্লেখ থাকে।"
+    }
+  }
+]

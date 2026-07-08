@@ -1,0 +1,40 @@
+[
+  {
+    "id": "consumer-complaint-draft",
+    "category": "consumer-complaints",
+    "title": {
+      "en": "Consumer Complaint Draft",
+      "hi": "उपभोक्ता शिकायत का मसौदा",
+      "ur": "صارفین کی شکایت کا مسودہ",
+      "bn": "ভোক্তা অভিযোগের খসড়া"
+    },
+    "description": {
+      "en": "Preparing complaints for filing in consumer courts.",
+      "hi": "उपभोक्ता अदालतों में दाखिल करने के लिए शिकायतें तैयार करना।",
+      "ur": "صارفین کی عدالتوں میں دائر کرنے کے لیے شکایات تیار کرنا۔",
+      "bn": "ভোক্তা আদালতে দাখিলের জন্য অভিযোগ প্রস্তুত করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "legal-notice-consumer",
+    "category": "consumer-complaints",
+    "type": "legal-notice",
+    "priceINR": 999,
+    "deliveryDays": 3,
+    "title": {
+      "en": "Consumer Complaint Legal Notice",
+      "hi": "उपभोक्ता शिकायत कानूनी नोटिस",
+      "ur": "صارف شکایت کا قانونی نوٹس",
+      "bn": "ভোক্তা অভিযোগের আইনি নোটিশ"
+    },
+    "description": {
+      "en": "An advocate sends a formal notice to the seller or service provider demanding refund, replacement or compensation — the usual first step before a consumer forum complaint.",
+      "hi": "एक वकील विक्रेता या सेवा प्रदाता को रिफंड, रिप्लेसमेंट या मुआवज़े की मांग करते हुए औपचारिक नोटिस भेजता है — उपभोक्ता फोरम में शिकायत से पहले का सामान्य पहला कदम।",
+      "ur": "ایک وکیل بیچنے والے یا سروس فراہم کنندہ کو رقم کی واپسی، تبدیلی یا معاوضے کے مطالبے کا باضابطہ نوٹس بھیجتا ہے — کنزیومر فورم میں شکایت سے پہلے کا عام پہلا قدم۔",
+      "bn": "একজন উকিল বিক্রেতা বা পরিষেবা প্রদানকারীকে রিফান্ড, প্রতিস্থাপন বা ক্ষতিপূরণ দাবি করে আনুষ্ঠানিক নোটিশ পাঠান — ভোক্তা ফোরামে অভিযোগের আগের স্বাভাবিক প্রথম ধাপ।"
+    }
+  }
+]

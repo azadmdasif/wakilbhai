@@ -1,0 +1,17 @@
+{
+  "slug": "family-personal",
+  "icon": "family",
+  "order": 2,
+  "title": {
+    "en": "Family & Personal",
+    "hi": "परिवार और व्यक्तिगत",
+    "ur": "خاندان اور ذاتی",
+    "bn": "পরিবার ও ব্যক্তিগত"
+  },
+  "description": {
+    "en": "Marriage, divorce, maintenance, wills, inheritance and personal documentation.",
+    "hi": "विवाह, तलाक, भरण-पोषण, वसीयत, विरासत और व्यक्तिगत दस्तावेज़।",
+    "ur": "شادی، طلاق، نان نفقہ، وصیت، وراثت اور ذاتی دستاویزات۔",
+    "bn": "বিবাহ, বিবাহবিচ্ছেদ, খোরপোষ, উইল, উত্তরাধিকার এবং ব্যক্তিগত নথিপত্র।"
+  }
+}

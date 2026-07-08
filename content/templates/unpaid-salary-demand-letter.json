@@ -1,0 +1,22 @@
+{
+  "slug": "unpaid-salary-demand-letter",
+  "category": "job-salary",
+  "gated": true,
+  "relatedServiceId": "legal-notice-unpaid-salary",
+  "title": {
+    "en": "Unpaid Salary Demand Letter",
+    "hi": "बकाया वेतन डिमांड लेटर",
+    "ur": "واجب الادا تنخواہ کا ڈیمانڈ لیٹر",
+    "bn": "বকেয়া বেতনের ডিমান্ড লেটার"
+  },
+  "description": {
+    "en": "A formal letter to your employer demanding pending salary or full-and-final settlement, with space for amounts and dates.",
+    "hi": "नियोक्ता से बकाया वेतन या फुल-एंड-फाइनल सेटलमेंट की मांग करने वाला औपचारिक पत्र, जिसमें राशि और तारीखों के लिए जगह है।",
+    "ur": "آجر سے بقایا تنخواہ یا فل اینڈ فائنل سیٹلمنٹ کا مطالبہ کرنے والا باضابطہ خط، جس میں رقم اور تاریخوں کے لیے جگہ ہے۔",
+    "bn": "নিয়োগকর্তার কাছে বকেয়া বেতন বা ফুল-অ্যান্ড-ফাইনাল সেটেলমেন্ট দাবি করে আনুষ্ঠানিক চিঠি, যাতে পরিমাণ ও তারিখের জায়গা আছে।"
+  },
+  "fileFormats": [
+    "pdf",
+    "docx"
+  ]
+}

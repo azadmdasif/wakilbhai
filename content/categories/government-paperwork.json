@@ -1,0 +1,17 @@
+{
+  "slug": "government-paperwork",
+  "icon": "government",
+  "order": 10,
+  "title": {
+    "en": "Government Paperwork",
+    "hi": "सरकारी कागजात",
+    "ur": "سرکاری کاغذات",
+    "bn": "সরকারি কাগজপত্র"
+  },
+  "description": {
+    "en": "Affidavits, RTI applications, name change, certificates and notarization support.",
+    "hi": "शपथ पत्र, RTI आवेदन, नाम परिवर्तन, प्रमाण पत्र और नोटरी सहायता।",
+    "ur": "حلف نامے، آر ٹی آئی درخواستیں، نام کی تبدیلی، سرٹیفکیٹ اور نوٹری معاونت۔",
+    "bn": "হলফনামা, RTI আবেদন, নাম পরিবর্তন, সার্টিফিকেট এবং নোটারি সহায়তা।"
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "legal-notice-dispute",
+    "category": "money-recovery",
+    "title": {
+      "en": "Legal Notice Draft (for disputes)",
+      "hi": "कानूनी नोटिस का मसौदा (विवादों के लिए)",
+      "ur": "قانونی نوٹس کا مسودہ (تنازعات کے لیے)",
+      "bn": "আইনি নোটিশের খসড়া (বিরোধের জন্য)"
+    },
+    "description": {
+      "en": "Drafting formal legal notices to address disputes.",
+      "hi": "विवादों को दूर करने के लिए औपचारिक कानूनी नोटिस का मसौदा तैयार करना।",
+      "ur": "تنازعات کو حل کرنے کے لیے رسمی قانونی نوٹس کا مسودہ تیار کرنا۔",
+      "bn": "বিরোধ নিষ্পত্তির জন্য আনুষ্ঠানিক আইনি নোটিশের খসড়া তৈরি করা।"
+    },
+    "priceINR": 999,
+    "deliveryDays": 3,
+    "type": "legal-notice"
+  },
+  {
+    "id": "legal-notice-cheque-bounce",
+    "category": "money-recovery",
+    "type": "legal-notice",
+    "priceINR": 999,
+    "deliveryDays": 2,
+    "title": {
+      "en": "Cheque Bounce Legal Notice (Section 138)",
+      "hi": "चेक बाउंस कानूनी नोटिस (धारा 138)",
+      "ur": "چیک باؤنس قانونی نوٹس (دفعہ 138)",
+      "bn": "চেক বাউন্স আইনি নোটিশ (ধারা ১৩৮)"
+    },
+    "description": {
+      "en": "An advocate drafts and sends a demand notice under Section 138 of the Negotiable Instruments Act to the cheque issuer on your behalf, within the statutory 30-day window.",
+      "hi": "एक वकील आपकी ओर से चेक जारी करने वाले को नेगोशिएबल इंस्ट्रूमेंट्स एक्ट की धारा 138 के तहत डिमांड नोटिस तैयार करके भेजता है — कानूनी 30 दिन की समय-सीमा के भीतर।",
+      "ur": "ایک وکیل آپ کی طرف سے چیک جاری کرنے والے کو نیگوشی ایبل انسٹرومینٹس ایکٹ کی دفعہ 138 کے تحت ڈیمانڈ نوٹس تیار کر کے بھیجتا ہے — قانونی 30 دن کی مدت کے اندر۔",
+      "bn": "একজন উকিল আপনার পক্ষে চেক প্রদানকারীকে নেগোশিয়েবল ইনস্ট্রুমেন্টস আইনের ধারা ১৩৮ অনুযায়ী ডিমান্ড নোটিশ তৈরি করে পাঠান — আইনি ৩০ দিনের সময়সীমার মধ্যে।"
+    }
+  }
+]

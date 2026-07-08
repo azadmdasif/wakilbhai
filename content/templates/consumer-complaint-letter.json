@@ -1,0 +1,22 @@
+{
+  "slug": "consumer-complaint-letter",
+  "category": "consumer-complaints",
+  "gated": true,
+  "relatedServiceId": "legal-notice-consumer",
+  "title": {
+    "en": "Consumer Complaint Letter to Seller",
+    "hi": "विक्रेता को उपभोक्ता शिकायत पत्र",
+    "ur": "بیچنے والے کو صارف شکایتی خط",
+    "bn": "বিক্রেতাকে ভোক্তা অভিযোগপত্র"
+  },
+  "description": {
+    "en": "A complaint letter to a seller or service provider demanding refund, replacement or repair — the written record you need before a consumer forum case.",
+    "hi": "विक्रेता या सेवा प्रदाता से रिफंड, रिप्लेसमेंट या मरम्मत की मांग करने वाला शिकायत पत्र — उपभोक्ता फोरम केस से पहले जरूरी लिखित रिकॉर्ड।",
+    "ur": "بیچنے والے یا سروس فراہم کنندہ سے رقم کی واپسی، تبدیلی یا مرمت کا مطالبہ کرنے والا شکایتی خط — کنزیومر فورم کیس سے پہلے ضروری تحریری ریکارڈ۔",
+    "bn": "বিক্রেতা বা পরিষেবা প্রদানকারীর কাছে রিফান্ড, প্রতিস্থাপন বা মেরামত দাবি করে অভিযোগপত্র — ভোক্তা ফোরাম মামলার আগে প্রয়োজনীয় লিখিত রেকর্ড।"
+  },
+  "fileFormats": [
+    "pdf",
+    "docx"
+  ]
+}

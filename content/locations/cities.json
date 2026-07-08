@@ -1,0 +1,502 @@
+[
+  {
+    "slug": "mumbai",
+    "name": {
+      "en": "Mumbai",
+      "hi": "मुंबई",
+      "ur": "ممبئی",
+      "bn": "মুম্বই"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "delhi",
+    "name": {
+      "en": "Delhi",
+      "hi": "दिल्ली",
+      "ur": "دہلی",
+      "bn": "দিল্লি"
+    },
+    "state": "delhi"
+  },
+  {
+    "slug": "bengaluru",
+    "name": {
+      "en": "Bengaluru",
+      "hi": "बेंगलुरु",
+      "ur": "بنگلورو",
+      "bn": "বেঙ্গালুরু"
+    },
+    "state": "karnataka"
+  },
+  {
+    "slug": "hyderabad",
+    "name": {
+      "en": "Hyderabad",
+      "hi": "हैदराबाद",
+      "ur": "حیدرآباد",
+      "bn": "হায়দরাবাদ"
+    },
+    "state": "telangana"
+  },
+  {
+    "slug": "ahmedabad",
+    "name": {
+      "en": "Ahmedabad",
+      "hi": "अहमदाबाद",
+      "ur": "احمد آباد",
+      "bn": "আহমেদাবাদ"
+    },
+    "state": "gujarat"
+  },
+  {
+    "slug": "chennai",
+    "name": {
+      "en": "Chennai",
+      "hi": "चेन्नई",
+      "ur": "چنئی",
+      "bn": "চেন্নাই"
+    },
+    "state": "tamil-nadu"
+  },
+  {
+    "slug": "kolkata",
+    "name": {
+      "en": "Kolkata",
+      "hi": "कोलकाता",
+      "ur": "کولکاتا",
+      "bn": "কলকাতা"
+    },
+    "state": "west-bengal"
+  },
+  {
+    "slug": "surat",
+    "name": {
+      "en": "Surat",
+      "hi": "सूरत",
+      "ur": "سورت",
+      "bn": "সুরাট"
+    },
+    "state": "gujarat"
+  },
+  {
+    "slug": "pune",
+    "name": {
+      "en": "Pune",
+      "hi": "पुणे",
+      "ur": "پونے",
+      "bn": "পুনে"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "jaipur",
+    "name": {
+      "en": "Jaipur",
+      "hi": "जयपुर",
+      "ur": "جے پور",
+      "bn": "জয়পুর"
+    },
+    "state": "rajasthan"
+  },
+  {
+    "slug": "lucknow",
+    "name": {
+      "en": "Lucknow",
+      "hi": "लखनऊ",
+      "ur": "لکھنؤ",
+      "bn": "লখনউ"
+    },
+    "state": "uttar-pradesh"
+  },
+  {
+    "slug": "kanpur",
+    "name": {
+      "en": "Kanpur",
+      "hi": "कानपुर",
+      "ur": "کانپور",
+      "bn": "কানপুর"
+    },
+    "state": "uttar-pradesh"
+  },
+  {
+    "slug": "nagpur",
+    "name": {
+      "en": "Nagpur",
+      "hi": "नागपुर",
+      "ur": "ناگپور",
+      "bn": "নাগপুর"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "indore",
+    "name": {
+      "en": "Indore",
+      "hi": "इंदौर",
+      "ur": "اندور",
+      "bn": "ইন্দোর"
+    },
+    "state": "madhya-pradesh"
+  },
+  {
+    "slug": "thane",
+    "name": {
+      "en": "Thane",
+      "hi": "ठाणे",
+      "ur": "تھانے",
+      "bn": "থানে"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "bhopal",
+    "name": {
+      "en": "Bhopal",
+      "hi": "भोपाल",
+      "ur": "بھوپال",
+      "bn": "ভোপাল"
+    },
+    "state": "madhya-pradesh"
+  },
+  {
+    "slug": "visakhapatnam",
+    "name": {
+      "en": "Visakhapatnam",
+      "hi": "विशाखापत्तनम",
+      "ur": "وشاکھاپٹنم",
+      "bn": "বিশাখাপত্তনম"
+    },
+    "state": "andhra-pradesh"
+  },
+  {
+    "slug": "pimpri-chinchwad",
+    "name": {
+      "en": "Pimpri-Chinchwad",
+      "hi": "पिंपरी-चिंचवड",
+      "ur": "پمپری چنچواڑ",
+      "bn": "পিম্পরি-চিঞ্চওয়াড়"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "patna",
+    "name": {
+      "en": "Patna",
+      "hi": "पटना",
+      "ur": "پٹنہ",
+      "bn": "পাটনা"
+    },
+    "state": "bihar"
+  },
+  {
+    "slug": "vadodara",
+    "name": {
+      "en": "Vadodara",
+      "hi": "वडोदरा",
+      "ur": "وڈودرا",
+      "bn": "ভাদোদরা"
+    },
+    "state": "gujarat"
+  },
+  {
+    "slug": "ghaziabad",
+    "name": {
+      "en": "Ghaziabad",
+      "hi": "गाज़ियाबाद",
+      "ur": "غازی آباد",
+      "bn": "গাজিয়াবাদ"
+    },
+    "state": "uttar-pradesh"
+  },
+  {
+    "slug": "ludhiana",
+    "name": {
+      "en": "Ludhiana",
+      "hi": "लुधियाना",
+      "ur": "لدھیانہ",
+      "bn": "লুধিয়ানা"
+    },
+    "state": "punjab"
+  },
+  {
+    "slug": "agra",
+    "name": {
+      "en": "Agra",
+      "hi": "आगरा",
+      "ur": "آگرہ",
+      "bn": "আগ্রা"
+    },
+    "state": "uttar-pradesh"
+  },
+  {
+    "slug": "nashik",
+    "name": {
+      "en": "Nashik",
+      "hi": "नासिक",
+      "ur": "ناسک",
+      "bn": "নাসিক"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "faridabad",
+    "name": {
+      "en": "Faridabad",
+      "hi": "फरीदाबाद",
+      "ur": "فرید آباد",
+      "bn": "ফরিদাবাদ"
+    },
+    "state": "haryana"
+  },
+  {
+    "slug": "meerut",
+    "name": {
+      "en": "Meerut",
+      "hi": "मेरठ",
+      "ur": "میرٹھ",
+      "bn": "মিরাট"
+    },
+    "state": "uttar-pradesh"
+  },
+  {
+    "slug": "rajkot",
+    "name": {
+      "en": "Rajkot",
+      "hi": "राजकोट",
+      "ur": "راجکوٹ",
+      "bn": "রাজকোট"
+    },
+    "state": "gujarat"
+  },
+  {
+    "slug": "kalyan-dombivli",
+    "name": {
+      "en": "Kalyan-Dombivli",
+      "hi": "कल्याण-डोंबिवली",
+      "ur": "کلیان ڈومبیولی",
+      "bn": "কল্যাণ-ডোম্বিভলি"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "vasai-virar",
+    "name": {
+      "en": "Vasai-Virar",
+      "hi": "वसई-विरार",
+      "ur": "وسئی ویرار",
+      "bn": "ভাসাই-ভিরার"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "varanasi",
+    "name": {
+      "en": "Varanasi",
+      "hi": "वाराणसी",
+      "ur": "وارانسی",
+      "bn": "বারাণসী"
+    },
+    "state": "uttar-pradesh"
+  },
+  {
+    "slug": "srinagar",
+    "name": {
+      "en": "Srinagar",
+      "hi": "श्रीनगर",
+      "ur": "سرینگر",
+      "bn": "শ্রীনগর"
+    },
+    "state": "jammu-kashmir"
+  },
+  {
+    "slug": "chhatrapati-sambhajinagar",
+    "name": {
+      "en": "Chhatrapati Sambhajinagar (Aurangabad)",
+      "hi": "छत्रपति संभाजीनगर (औरंगाबाद)",
+      "ur": "چھترپتی سنبھاجی نگر (اورنگ آباد)",
+      "bn": "ছত্রপতি সম্ভাজিনগর (ঔরঙ্গাবাদ)"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "dhanbad",
+    "name": {
+      "en": "Dhanbad",
+      "hi": "धनबाद",
+      "ur": "دھنباد",
+      "bn": "ধানবাদ"
+    },
+    "state": "jharkhand"
+  },
+  {
+    "slug": "amritsar",
+    "name": {
+      "en": "Amritsar",
+      "hi": "अमृतसर",
+      "ur": "امرتسر",
+      "bn": "অমৃতসর"
+    },
+    "state": "punjab"
+  },
+  {
+    "slug": "navi-mumbai",
+    "name": {
+      "en": "Navi Mumbai",
+      "hi": "नवी मुंबई",
+      "ur": "نوی ممبئی",
+      "bn": "নবি মুম্বই"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "prayagraj",
+    "name": {
+      "en": "Prayagraj",
+      "hi": "प्रयागराज",
+      "ur": "پریاگ راج",
+      "bn": "প্রয়াগরাজ"
+    },
+    "state": "uttar-pradesh"
+  },
+  {
+    "slug": "howrah",
+    "name": {
+      "en": "Howrah",
+      "hi": "हावड़ा",
+      "ur": "ہاوڑہ",
+      "bn": "হাওড়া"
+    },
+    "state": "west-bengal"
+  },
+  {
+    "slug": "ranchi",
+    "name": {
+      "en": "Ranchi",
+      "hi": "रांची",
+      "ur": "رانچی",
+      "bn": "রাঁচি"
+    },
+    "state": "jharkhand"
+  },
+  {
+    "slug": "gwalior",
+    "name": {
+      "en": "Gwalior",
+      "hi": "ग्वालियर",
+      "ur": "گوالیار",
+      "bn": "গোয়ালিয়র"
+    },
+    "state": "madhya-pradesh"
+  },
+  {
+    "slug": "jabalpur",
+    "name": {
+      "en": "Jabalpur",
+      "hi": "जबलपुर",
+      "ur": "جبل پور",
+      "bn": "জবলপুর"
+    },
+    "state": "madhya-pradesh"
+  },
+  {
+    "slug": "coimbatore",
+    "name": {
+      "en": "Coimbatore",
+      "hi": "कोयंबटूर",
+      "ur": "کوئمبٹور",
+      "bn": "কোয়েম্বাটুর"
+    },
+    "state": "tamil-nadu"
+  },
+  {
+    "slug": "vijayawada",
+    "name": {
+      "en": "Vijayawada",
+      "hi": "विजयवाड़ा",
+      "ur": "وجئے واڑہ",
+      "bn": "বিজয়ওয়াড়া"
+    },
+    "state": "andhra-pradesh"
+  },
+  {
+    "slug": "jodhpur",
+    "name": {
+      "en": "Jodhpur",
+      "hi": "जोधपुर",
+      "ur": "جودھپور",
+      "bn": "যোধপুর"
+    },
+    "state": "rajasthan"
+  },
+  {
+    "slug": "madurai",
+    "name": {
+      "en": "Madurai",
+      "hi": "मदुरै",
+      "ur": "مدورائی",
+      "bn": "মাদুরাই"
+    },
+    "state": "tamil-nadu"
+  },
+  {
+    "slug": "raipur",
+    "name": {
+      "en": "Raipur",
+      "hi": "रायपुर",
+      "ur": "رائے پور",
+      "bn": "রায়পুর"
+    },
+    "state": "chhattisgarh"
+  },
+  {
+    "slug": "kota",
+    "name": {
+      "en": "Kota",
+      "hi": "कोटा",
+      "ur": "کوٹا",
+      "bn": "কোটা"
+    },
+    "state": "rajasthan"
+  },
+  {
+    "slug": "chandigarh",
+    "name": {
+      "en": "Chandigarh",
+      "hi": "चंडीगढ़",
+      "ur": "چنڈی گڑھ",
+      "bn": "চণ্ডীগড়"
+    },
+    "state": "chandigarh"
+  },
+  {
+    "slug": "guwahati",
+    "name": {
+      "en": "Guwahati",
+      "hi": "गुवाहाटी",
+      "ur": "گوہاٹی",
+      "bn": "গুয়াহাটি"
+    },
+    "state": "assam"
+  },
+  {
+    "slug": "solapur",
+    "name": {
+      "en": "Solapur",
+      "hi": "सोलापुर",
+      "ur": "سولاپور",
+      "bn": "সোলাপুর"
+    },
+    "state": "maharashtra"
+  },
+  {
+    "slug": "hubballi-dharwad",
+    "name": {
+      "en": "Hubballi-Dharwad",
+      "hi": "हुबली-धारवाड़",
+      "ur": "ہبلی دھارواڑ",
+      "bn": "হুবলি-ধারওয়াড়"
+    },
+    "state": "karnataka"
+  }
+]

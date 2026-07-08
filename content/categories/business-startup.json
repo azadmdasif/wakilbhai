@@ -1,0 +1,17 @@
+{
+  "slug": "business-startup",
+  "icon": "business",
+  "order": 9,
+  "title": {
+    "en": "Business & Startup",
+    "hi": "व्यवसाय और स्टार्टअप",
+    "ur": "کاروبار اور اسٹارٹ اپ",
+    "bn": "ব্যবসা ও স্টার্টআপ"
+  },
+  "description": {
+    "en": "Partnership deeds, NDAs, founder agreements, website policies and registrations.",
+    "hi": "साझेदारी विलेख, NDA, संस्थापक समझौते, वेबसाइट नीतियां और पंजीकरण।",
+    "ur": "شراکت نامے، این ڈی اے، بانیوں کے معاہدے، ویب سائٹ پالیسیاں اور رجسٹریشن۔",
+    "bn": "অংশীদারি দলিল, NDA, প্রতিষ্ঠাতা চুক্তি, ওয়েবসাইট নীতি এবং নিবন্ধন।"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "loan-repayment-demand-letter",
+  "category": "money-recovery",
+  "gated": true,
+  "relatedServiceId": "legal-notice-dispute",
+  "title": {
+    "en": "Personal Loan Repayment Demand Letter",
+    "hi": "व्यक्तिगत उधार वापसी डिमांड लेटर",
+    "ur": "ذاتی قرض کی واپسی کا ڈیمانڈ لیٹر",
+    "bn": "ব্যক্তিগত ঋণ ফেরতের ডিমান্ড লেটার"
+  },
+  "description": {
+    "en": "A formal letter demanding repayment of money lent to a friend, relative or business contact, creating a written record before legal action.",
+    "hi": "दोस्त, रिश्तेदार या कारोबारी संपर्क को दिए गए पैसे की वापसी मांगने वाला औपचारिक पत्र, जो कानूनी कार्रवाई से पहले लिखित रिकॉर्ड बनाता है।",
+    "ur": "دوست، رشتہ دار یا کاروباری رابطے کو دیے گئے پیسے کی واپسی کا مطالبہ کرنے والا باضابطہ خط، جو قانونی کارروائی سے پہلے تحریری ریکارڈ بناتا ہے۔",
+    "bn": "বন্ধু, আত্মীয় বা ব্যবসায়িক পরিচিতকে ধার দেওয়া টাকা ফেরত চেয়ে আনুষ্ঠানিক চিঠি, যা আইনি পদক্ষেপের আগে লিখিত রেকর্ড তৈরি করে।"
+  },
+  "fileFormats": [
+    "pdf",
+    "docx"
+  ]
+}

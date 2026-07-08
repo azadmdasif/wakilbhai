@@ -1,0 +1,344 @@
+[
+  {
+    "id": "partnership-deed",
+    "category": "business-startup",
+    "title": {
+      "en": "Partnership Deed",
+      "hi": "साझेदारी विलेख",
+      "ur": "شراکت کا معاہدہ",
+      "bn": "অংশীদারি দলিল"
+    },
+    "description": {
+      "en": "Creating the foundational legal document for a partnership firm.",
+      "hi": "एक साझेदारी फर्म के लिए मूलभूत कानूनी दस्तावेज बनाना।",
+      "ur": "شراکت داری فرم کے لیے بنیادی قانونی دستاویز بنانا۔",
+      "bn": "একটি অংশীদারি সংস্থার জন্য ভিত্তিগত আইনি নথি তৈরি করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "llp-agreement",
+    "category": "business-startup",
+    "title": {
+      "en": "LLP Agreement",
+      "hi": "एलएलपी समझौता",
+      "ur": "ایل ایل پی معاہدہ",
+      "bn": "এলএলপি চুক্তি"
+    },
+    "description": {
+      "en": "Preparing agreements for Limited Liability Partnerships.",
+      "hi": "सीमित देयता भागीदारी के लिए समझौते तैयार करना।",
+      "ur": "محدود ذمہ داری شراکت داری کے لیے معاہدے تیار کرنا۔",
+      "bn": "লিমিটেড লায়াবিলিটি পার্টনারশিপের জন্য চুক্তি প্রস্তুত করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "founders-agreement",
+    "category": "business-startup",
+    "title": {
+      "en": "Founders Agreement",
+      "hi": "संस्थापक समझौता",
+      "ur": "بانیوں کا معاہدہ",
+      "bn": "প্রতিষ্ঠাতা চুক্তি"
+    },
+    "description": {
+      "en": "Defining roles, responsibilities, and equity among co-founders.",
+      "hi": "सह-संस्थापकों के बीच भूमिकाओं, जिम्मेदारियों और इक्विटी को परिभाषित करना।",
+      "ur": "شریک بانیوں کے درمیان کردار، ذمہ داریاں اور ایکویٹی کی وضاحت کرنا۔",
+      "bn": "সহ-প্রতিষ্ঠাতাদের মধ্যে ভূমিকা, দায়িত্ব এবং ইক্যুইটি সংজ্ঞায়িত করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "freelancer-agreement",
+    "category": "business-startup",
+    "title": {
+      "en": "Freelancer Agreement",
+      "hi": "फ्रीलांसर समझौता",
+      "ur": "فری لانسر معاہدہ",
+      "bn": "ফ্রিল্যান্সার চুক্তি"
+    },
+    "description": {
+      "en": "Contracts to define the terms of work with freelancers.",
+      "hi": "फ्रीलांसरों के साथ काम की शर्तों को परिभाषित करने के लिए अनुबंध।",
+      "ur": "فری لانسرز کے ساتھ کام کی شرائط کی وضاحت کے لیے معاہدے۔",
+      "bn": "ফ্রিল্যান্সারদের সাথে কাজের শর্তাবলী সংজ্ঞায়িত করার জন্য চুক্তি।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "vendor-agreement",
+    "category": "business-startup",
+    "title": {
+      "en": "Vendor/Supplier Agreement",
+      "hi": "विक्रेता/आपूर्तिकर्ता समझौता",
+      "ur": "وینڈر/سپلائر معاہدہ",
+      "bn": "ভেন্ডর/সরবরাহকারী চুক্তি"
+    },
+    "description": {
+      "en": "Securing terms with your vendors and suppliers.",
+      "hi": "अपने विक्रेताओं और आपूर्तिकर्ताओं के साथ शर्तों को सुरक्षित करना।",
+      "ur": "اپنے وینڈرز اور سپلائرز کے ساتھ شرائط کو محفوظ بنانا۔",
+      "bn": "আপনার বিক্রেতা এবং সরবরাহকারীদের সাথে শর্তাবলী সুরক্ষিত করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "franchise-agreement",
+    "category": "business-startup",
+    "title": {
+      "en": "Franchise Agreement",
+      "hi": "फ्रैंचाइज़ समझौता",
+      "ur": "فرنچائز معاہدہ",
+      "bn": "ফ্র্যাঞ্চাইজি চুক্তি"
+    },
+    "description": {
+      "en": "Legal agreements for franchising your business.",
+      "hi": "अपने व्यवसाय की फ्रेंचाइजी के लिए कानूनी समझौते।",
+      "ur": "اپنے کاروبار کی فرنچائزنگ کے لیے قانونی معاہدے۔",
+      "bn": "আপনার ব্যবসা ফ্র্যাঞ্চাইজ করার জন্য আইনি চুক্তি।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "service-level-agreement",
+    "category": "business-startup",
+    "title": {
+      "en": "Service Level Agreement (SLA)",
+      "hi": "सेवा स्तर समझौता (एसएलए)",
+      "ur": "سروس لیول ایگریمنٹ (SLA)",
+      "bn": "সার্ভিস লেভেল এগ্রিমেন্ট (SLA)"
+    },
+    "description": {
+      "en": "Defining the level of service between a provider and a client.",
+      "hi": "एक प्रदाता और एक ग्राहक के बीच सेवा के स्तर को परिभाषित करना।",
+      "ur": "ایک فراہم کنندہ اور ایک کلائنٹ کے درمیان سروس کی سطح کی وضاحت کرنا۔",
+      "bn": "একজন প্রদানকারী এবং একজন ক্লায়েন্টের মধ্যে পরিষেবার স্তর সংজ্ঞায়িত করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "nda",
+    "category": "business-startup",
+    "title": {
+      "en": "Non-Disclosure Agreement (NDA)",
+      "hi": "गैर-प्रकटीकरण समझौता (एनडीए)",
+      "ur": "رازداری کا معاہدہ (NDA)",
+      "bn": "নন-ডিসক্লোজার এগ্রিমেন্ট (NDA)"
+    },
+    "description": {
+      "en": "Protecting confidential information shared with third parties.",
+      "hi": "तीसरे पक्षों के साथ साझा की गई गोपनीय जानकारी की सुरक्षा करना।",
+      "ur": "تیسرے فریق کے ساتھ اشتراک کردہ خفیہ معلومات کی حفاظت کرنا۔",
+      "bn": "তৃতীয় পক্ষের সাথে শেয়ার করা গোপনীয় তথ্য রক্ষা করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "mou",
+    "category": "business-startup",
+    "title": {
+      "en": "Memorandum of Understanding (MoU)",
+      "hi": "समझौता ज्ञापन (एमओयू)",
+      "ur": "مفاہمت کی یادداشت (ایم او یو)",
+      "bn": "সমঝোতা স্মারক (MoU)"
+    },
+    "description": {
+      "en": "Outlining the terms of a bilateral agreement.",
+      "hi": "एक द्विपक्षीय समझौते की शर्तों को रेखांकित करना।",
+      "ur": "دو طرفہ معاہدے کی شرائط کا خاکہ پیش کرنا۔",
+      "bn": "একটি দ্বিপাক্ষিক চুক্তির শর্তাবলী রূপরেখা করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "website-terms-conditions",
+    "category": "business-startup",
+    "title": {
+      "en": "Website Terms & Conditions",
+      "hi": "वेबसाइट के नियम और शर्तें",
+      "ur": "ویب سائٹ کی شرائط و ضوابط",
+      "bn": "ওয়েবসাইটের শর্তাবলী"
+    },
+    "description": {
+      "en": "Drafting comprehensive Terms & Conditions for your website.",
+      "hi": "आपकी वेबसाइट के लिए व्यापक नियम और शर्तें तैयार करना।",
+      "ur": "آپ کی ویب سائٹ کے لیے جامع شرائط و ضوابط کا مسودہ تیار کرنا۔",
+      "bn": "আপনার ওয়েবসাইটের জন্য ব্যাপক শর্তাবলী খসড়া করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "privacy-policy-drafting",
+    "category": "business-startup",
+    "title": {
+      "en": "Privacy Policy Drafting",
+      "hi": "गोपनीयता नीति का मसौदा",
+      "ur": "پرائیویسی پالیسی کا مسودہ",
+      "bn": "গোপনীয়তা নীতি খসড়া"
+    },
+    "description": {
+      "en": "Creating a compliant Privacy Policy for your online business.",
+      "hi": "आपके ऑनलाइन व्यवसाय के लिए एक अनुपालन गोपनीयता नीति बनाना।",
+      "ur": "آپ کے آن لائن کاروبار کے لیے ایک مطابق پرائیویسی پالیسی بنانا۔",
+      "bn": "আপনার অনলাইন ব্যবসার জন্য একটি সঙ্গতিপূর্ণ গোপনীয়তা নীতি তৈরি করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "refund-policy",
+    "category": "business-startup",
+    "title": {
+      "en": "Refund & Cancellation Policy",
+      "hi": "धनवापसी और रद्दीकरण नीति",
+      "ur": "رقم کی واپسی اور منسوخی کی پالیسی",
+      "bn": "ফেরত ও বাতিলকরণ নীতি"
+    },
+    "description": {
+      "en": "Defining clear refund and cancellation terms for customers.",
+      "hi": "ग्राहकों के लिए स्पष्ट धनवापसी और रद्दीकरण की शर्तें परिभाषित करना।",
+      "ur": "صارفین کے لیے واضح رقم کی واپسی اور منسوخی کی شرائط کی وضاحت کرنا۔",
+      "bn": "গ্রাহকদের জন্য স্পষ্ট ফেরত এবং বাতিলকরণের শর্তাবলী সংজ্ঞায়িত করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "freelancer-service-agreement",
+    "category": "business-startup",
+    "title": {
+      "en": "Freelancer Service Agreement",
+      "hi": "फ्रीलांसर सेवा समझौता",
+      "ur": "فری لانسر سروس کا معاہدہ",
+      "bn": "ফ্রিল্যান্সার পরিষেবা চুক্তি"
+    },
+    "description": {
+      "en": "Contracts for procuring services from freelancers for your startup.",
+      "hi": "अपने स्टार्टअप के लिए फ्रीलांसरों से सेवाएं प्राप्त करने के लिए अनुबंध।",
+      "ur": "اپنے اسٹارٹ اپ کے لیے فری لانسرز سے خدمات حاصل کرنے کے لیے معاہدے۔",
+      "bn": "আপনার স্টার্টআপের জন্য ফ্রিল্যান্সারদের কাছ থেকে পরিষেবা সংগ্রহের জন্য চুক্তি।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "startup-founder-agreement",
+    "category": "business-startup",
+    "title": {
+      "en": "Startup Founder Agreement",
+      "hi": "स्टार्टअप संस्थापक समझौता",
+      "ur": "اسٹارٹ اپ بانی کا معاہدہ",
+      "bn": "স্টার্টআপ প্রতিষ্ঠাতা চুক্তি"
+    },
+    "description": {
+      "en": "Key legal document outlining the roles and equity of founders.",
+      "hi": "संस्थापकों की भूमिकाओं और इक्विटी को रेखांकित करने वाला प्रमुख कानूनी दस्तावेज।",
+      "ur": "بانیوں کے کردار اور ایکویٹی کا خاکہ پیش کرنے والی کلیدی قانونی دستاویز۔",
+      "bn": "প্রতিষ্ঠাতাদের ভূমিকা এবং ইক্যুইটির রূপরেখা সম্বলিত মূল আইনি নথি।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "investor-agreement",
+    "category": "business-startup",
+    "title": {
+      "en": "Investor Agreement Draft",
+      "hi": "निवेशक समझौते का मसौदा",
+      "ur": "سرمایہ کار کے معاہدے کا مسودہ",
+      "bn": "বিনিয়োগকারী চুক্তির খসড়া"
+    },
+    "description": {
+      "en": "Preparing agreements for bringing investors into your startup.",
+      "hi": "अपने स्टार्टअप में निवेशकों को लाने के लिए समझौते तैयार करना।",
+      "ur": "اپنے اسٹارٹ اپ میں سرمایہ کاروں کو لانے کے لیے معاہدے تیار کرنا۔",
+      "bn": "আপনার স্টার্টআপে বিনিয়োগকারীদের আনার জন্য চুক্তি প্রস্তুত করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "vendor-onboarding-docs",
+    "category": "business-startup",
+    "title": {
+      "en": "Vendor Onboarding Documents",
+      "hi": "विक्रेता ऑनबोर्डिंग दस्तावेज़",
+      "ur": "وینڈر آن بورڈنگ دستاویزات",
+      "bn": "ভেন্ডর অনবোর্ডিং ডকুমেন্টস"
+    },
+    "description": {
+      "en": "Creating a set of documents for onboarding new vendors.",
+      "hi": "नए विक्रेताओं को ऑनबोर्ड करने के लिए दस्तावेजों का एक सेट बनाना।",
+      "ur": "نئے وینڈرز کو آن بورڈ کرنے کے لیے دستاویزات کا ایک سیٹ بنانا۔",
+      "bn": "নতুন বিক্রেতাদের অনবোর্ড করার জন্য একটি নথি সেট তৈরি করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "udyam-registration",
+    "category": "business-startup",
+    "title": {
+      "en": "Udyam Registration Draft",
+      "hi": "उद्यम पंजीकरण मसौदा",
+      "ur": "ادیم رجسٹریشن کا مسودہ",
+      "bn": "উদ্যম নিবন্ধন খসড়া"
+    },
+    "description": {
+      "en": "Assistance with drafting for Udyam registration (MSME).",
+      "hi": "उद्यम पंजीकरण (एमएसएमई) के लिए मसौदा तैयार करने में सहायता।",
+      "ur": "ادیم رجسٹریشن (MSME) کے لیے مسودہ تیار کرنے میں مدد۔",
+      "bn": "উদ্যম নিবন্ধনের (MSME) জন্য খসড়া তৈরিতে সহায়তা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 3,
+    "type": "registration"
+  },
+  {
+    "id": "cofounder-equity-agreement",
+    "category": "business-startup",
+    "title": {
+      "en": "Co-founder Equity Agreement",
+      "hi": "सह-संस्थापक इक्विटी समझौता",
+      "ur": "شریک بانی ایکویٹی معاہدہ",
+      "bn": "সহ-প্রতিষ্ঠাতা ইক্যুইটি চুক্তি"
+    },
+    "description": {
+      "en": "Defining how equity is divided and vested among co-founders.",
+      "hi": "यह परिभाषित करना कि सह-संस्थापकों के बीच इक्विटी कैसे विभाजित और निहित है।",
+      "ur": "یہ وضاحت کرنا کہ شریک بانیوں کے درمیان ایکویٹی کو کیسے تقسیم اور ویسٹ کیا جاتا ہے۔",
+      "bn": "সহ-প্রতিষ্ঠাতাদের মধ্যে ইক্যুইটি কীভাবে বিভক্ত এবং ন্যস্ত করা হয় তা সংজ্ঞায়িত করা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 2,
+    "type": "drafting"
+  }
+]

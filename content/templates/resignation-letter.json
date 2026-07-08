@@ -1,0 +1,21 @@
+{
+  "slug": "resignation-letter",
+  "category": "job-salary",
+  "gated": false,
+  "title": {
+    "en": "Resignation Letter with Notice Period",
+    "hi": "नोटिस पीरियड के साथ इस्तीफा पत्र",
+    "ur": "نوٹس پیریڈ کے ساتھ استعفیٰ نامہ",
+    "bn": "নোটিশ পিরিয়ড সহ পদত্যাগপত্র"
+  },
+  "description": {
+    "en": "A clean resignation letter format that records your notice period, last working day and handover commitment.",
+    "hi": "एक साफ-सुथरा इस्तीफा पत्र फॉर्मेट जो आपका नोटिस पीरियड, अंतिम कार्य-दिवस और हैंडओवर दर्ज करता है।",
+    "ur": "ایک صاف ستھرا استعفیٰ نامہ فارمیٹ جو آپ کا نوٹس پیریڈ، آخری کام کا دن اور ہینڈ اوور درج کرتا ہے۔",
+    "bn": "একটি পরিচ্ছন্ন পদত্যাগপত্রের ফরম্যাট যা আপনার নোটিশ পিরিয়ড, শেষ কর্মদিবস এবং হ্যান্ডওভার নথিভুক্ত করে।"
+  },
+  "fileFormats": [
+    "pdf",
+    "docx"
+  ]
+}

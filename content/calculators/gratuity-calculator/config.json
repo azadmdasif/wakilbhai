@@ -1,0 +1,64 @@
+{
+  "slug": "gratuity-calculator",
+  "widget": "gratuity",
+  "serviceId": "legal-notice-unpaid-salary",
+  "relatedGuideSlug": "unpaid-salary-what-to-do",
+  "faqs": {
+    "en": [
+      {
+        "q": "Which salary is used for gratuity?",
+        "a": "The last drawn basic salary plus dearness allowance (DA) — not your full CTC. For piece-rated and some other categories the computation differs slightly."
+      },
+      {
+        "q": "Is 4 years 7 months enough for gratuity?",
+        "a": "The Act requires 5 years of continuous service for eligibility (except on death or disablement). Some High Court decisions have treated 4 years and 240 days as sufficient — the position varies, so take advice for borderline cases."
+      },
+      {
+        "q": "What if my employer refuses to pay gratuity?",
+        "a": "Apply to the Controlling Authority under the Payment of Gratuity Act (usually the area labour office). The employer can be directed to pay with interest, and non-payment is punishable."
+      }
+    ],
+    "hi": [
+      {
+        "q": "ग्रेच्युटी किस वेतन पर बनती है?",
+        "a": "अंतिम आहरित बेसिक वेतन + महंगाई भत्ता (DA) पर — पूरे CTC पर नहीं। पीस-रेटेड और कुछ अन्य श्रेणियों में गणना थोड़ी अलग है।"
+      },
+      {
+        "q": "क्या 4 साल 7 महीने ग्रेच्युटी के लिए काफी हैं?",
+        "a": "कानून पात्रता के लिए 5 साल की निरंतर सेवा मांगता है (मृत्यु या अपंगता को छोड़कर)। कुछ हाईकोर्ट फैसलों में 4 साल 240 दिन को पर्याप्त माना गया है — स्थिति अलग-अलग है, सीमावर्ती मामलों में सलाह लें।"
+      },
+      {
+        "q": "नियोक्ता ग्रेच्युटी देने से मना करे तो?",
+        "a": "Payment of Gratuity Act की नियंत्रक प्राधिकारी (आम तौर पर क्षेत्रीय श्रम कार्यालय) के पास आवेदन करें। नियोक्ता को ब्याज सहित भुगतान का निर्देश मिल सकता है, और न देना दंडनीय है।"
+      }
+    ],
+    "ur": [
+      {
+        "q": "گریچویٹی کس تنخواہ پر بنتی ہے؟",
+        "a": "آخری بنیادی تنخواہ + مہنگائی الاؤنس (DA) پر — پورے CTC پر نہیں۔ پیس ریٹڈ اور کچھ دیگر زمروں میں حساب تھوڑا مختلف ہے۔"
+      },
+      {
+        "q": "کیا 4 سال 7 ماہ گریچویٹی کے لیے کافی ہیں؟",
+        "a": "قانون اہلیت کے لیے 5 سال کی مسلسل ملازمت مانگتا ہے (موت یا معذوری کے سوا)۔ کچھ ہائی کورٹ فیصلوں میں 4 سال 240 دن کو کافی مانا گیا ہے — صورتحال مختلف ہے، سرحدی معاملات میں مشورہ لیں۔"
+      },
+      {
+        "q": "آجر گریچویٹی دینے سے انکار کرے تو؟",
+        "a": "Payment of Gratuity Act کی کنٹرولنگ اتھارٹی (عام طور پر علاقائی لیبر آفس) کے پاس درخواست دیں۔ آجر کو سود سمیت ادائیگی کا حکم مل سکتا ہے، اور نہ دینا قابل سزا ہے۔"
+      }
+    ],
+    "bn": [
+      {
+        "q": "গ্র্যাচুইটি কোন বেতনের উপর হয়?",
+        "a": "শেষ পাওয়া বেসিক বেতন + মহার্ঘ ভাতা (DA)-র উপর — পুরো CTC-র উপর নয়। পিস-রেটেড ও কিছু অন্য শ্রেণিতে হিসাব সামান্য আলাদা।"
+      },
+      {
+        "q": "৪ বছর ৭ মাস কি গ্র্যাচুইটির জন্য যথেষ্ট?",
+        "a": "আইনে যোগ্যতার জন্য ৫ বছরের একটানা চাকরি দরকার (মৃত্যু বা অক্ষমতা ছাড়া)। কিছু হাইকোর্টের রায়ে ৪ বছর ২৪০ দিনকে যথেষ্ট ধরা হয়েছে — অবস্থান ভিন্ন, সীমান্তবর্তী ক্ষেত্রে পরামর্শ নিন।"
+      },
+      {
+        "q": "নিয়োগকর্তা গ্র্যাচুইটি দিতে অস্বীকার করলে?",
+        "a": "Payment of Gratuity Act-এর কন্ট্রোলিং অথরিটির (সাধারণত এলাকার শ্রম অফিস) কাছে আবেদন করুন। নিয়োগকর্তাকে সুদসহ দিতে নির্দেশ দেওয়া যায়, এবং না দেওয়া শাস্তিযোগ্য।"
+      }
+    ]
+  }
+}
