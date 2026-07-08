@@ -1,6 +1,5 @@
-'use client';
 
-import { ReactNode, useEffect, useState } from 'react';
+import React, { ReactNode, useEffect, useState } from 'react';
 import { XIcon } from './Icons';
 
 interface ModalProps {
@@ -10,23 +9,30 @@ interface ModalProps {
   children: ReactNode;
 }
 
-export default function Modal({ isOpen, onClose, title, children }: ModalProps) {
+const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }) => {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
-      const timer = setTimeout(() => setShow(true), 10);
-      return () => clearTimeout(timer);
+        // Delay showing to allow for mounting and transition
+        const timer = setTimeout(() => setShow(true), 10);
+        return () => clearTimeout(timer);
+    } else {
+        setShow(false);
     }
-    setShow(false);
   }, [isOpen]);
 
   useEffect(() => {
     const handleEsc = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') onClose();
+      if (event.key === 'Escape') {
+        onClose();
+      }
     };
     window.addEventListener('keydown', handleEsc);
-    return () => window.removeEventListener('keydown', handleEsc);
+
+    return () => {
+      window.removeEventListener('keydown', handleEsc);
+    };
   }, [onClose]);
 
   if (!isOpen) return null;
@@ -37,7 +43,6 @@ export default function Modal({ isOpen, onClose, title, children }: ModalProps) 
       onClick={onClose}
       aria-modal="true"
       role="dialog"
-      aria-label={title}
     >
       <div
         className={`bg-gray-900 rounded-2xl shadow-xl w-full max-w-3xl m-4 max-h-[90vh] flex flex-col transform transition-all duration-300 ease-out ${show ? 'scale-100 opacity-100 translate-y-0' : 'scale-95 opacity-0 -translate-y-10'}`}
@@ -54,9 +59,13 @@ export default function Modal({ isOpen, onClose, title, children }: ModalProps) 
           </button>
         </div>
         <div className="p-8 overflow-y-auto">
-          <div className="text-gray-300 leading-relaxed space-y-4">{children}</div>
+          <div className="text-gray-300 leading-relaxed space-y-4">
+            {children}
+          </div>
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default Modal;

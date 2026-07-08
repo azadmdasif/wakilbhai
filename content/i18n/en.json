@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "ask": "Talk to Lawyer",
+    "contact": "Contact",
+    "findLawyer": "Find a Lawyer",
+    "resources": "Resources",
+    "blog": "Blog",
+    "guides": "Help Guides",
+    "documents": "Free Documents",
+    "whyUs": "Why Us"
+  },
+  "home": {
+    "heroTitle": "Legal Work. Without Tension.",
+    "heroSubtitle": "Every Document. Every Lawyer. Whenever You Need.",
+    "ctaDocuments": "Need a Document",
+    "ctaAsk": "Talk to a Lawyer",
+    "howItWorksTitle": "How It Works",
+    "howItWorksStep1Title": "Tell Us Your Need",
+    "howItWorksStep1Desc": "Choose a service or tell us what document you need drafted.",
+    "howItWorksStep2Title": "We Prepare It",
+    "howItWorksStep2Desc": "Our experts draft your document with precision and care.",
+    "howItWorksStep3Title": "Receive Your Document",
+    "howItWorksStep3Desc": "Get your finalized documents digitally through our secure portal or physically at our office.",
+    "servicesTitle": "Popular Services",
+    "testimonialsTitle": "What Our Clients Say"
+  },
+  "services": {
+    "title": "Our Document Services",
+    "subtitle": "We offer a wide range of legal documentation services to meet your needs."
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "No hidden fees. Choose a category to see our straightforward starting prices.",
+    "onwards": "onwards",
+    "viewServices": "View Services in this category"
+  },
+  "ask": {
+    "title": "Talk to a Lawyer",
+    "subtitle": "Choose how you want to connect. Get an instant free call for quick questions or book a physical meeting for in-depth discussions.",
+    "instantConsultationTitle": "Instant Free Consultation",
+    "instantConsultationDesc": "Get a free 10-minute call for immediate advice on your legal questions.",
+    "callButtonText": "Call Lawyer Now",
+    "physicalMeetingTitle": "Book a Physical Meeting",
+    "physicalMeetingDesc": "For more detailed matters, fill out the form to schedule an in-person meeting at our office.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "legalIssue": "What is your legal issue about?",
+    "issueDescription": "Briefly describe your issue (Optional)",
+    "selectDefault": "Select an issue...",
+    "legalIssuesList": [
+      {
+        "value": "Property Dispute",
+        "label": "Property Dispute"
+      },
+      {
+        "value": "Family Matter (Divorce, Custody)",
+        "label": "Family Matter (Divorce, Custody)"
+      },
+      {
+        "value": "Criminal Case",
+        "label": "Criminal Case"
+      },
+      {
+        "value": "Consumer Complaint",
+        "label": "Consumer Complaint"
+      },
+      {
+        "value": "Business/Corporate Matter",
+        "label": "Business/Corporate Matter"
+      },
+      {
+        "value": "Other",
+        "label": "Other"
+      }
+    ],
+    "send": "Request Meeting",
+    "sending": "Submitting Request...",
+    "success": "Thank you! Your meeting request has been sent. We will contact you shortly to confirm.",
+    "error": "Oops! Something went wrong. Please try again."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Visit us, call us, or send a message. We are here to help you with all your documentation needs.",
+    "formTitle": "Send us a Message",
+    "replyTime": "We usually reply within a few business hours.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Thank you! Your message has been sent.",
+    "error": "Oops! Something went wrong. Please try again.",
+    "ourInfo": "Our Information",
+    "address": "Shop No. 42, Legal Lane, New Delhi, India 110001",
+    "hours": "Mon - Sat: 10:00 AM - 7:00 PM",
+    "phoneNo": "+91-7686022245",
+    "altPhoneNo": "+91-9831846183",
+    "emailAd": "contact@wakilbhai.com",
+    "whatsapp": "WhatsApp"
+  },
+  "request": {
+    "title": "Request a Service",
+    "subtitle": "Please fill out the form below to request the selected document service. We will get back to you shortly.",
+    "formTitle": "Service Request Form",
+    "serviceName": "Selected Service",
+    "costInfo": "This service starts from ₹{price} onwards.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Your Message (Optional)",
+    "send": "Submit Request",
+    "sending": "Submitting...",
+    "success": "Thank you for your request!",
+    "error": "Oops! Something went wrong. Please try again.",
+    "callback": "We have received your request and will give you a callback soon to confirm the details."
+  },
+  "book": {
+    "title": "Book a Home Visit",
+    "subtitle": "Our executive can visit you to collect documents and details.",
+    "formTitle": "Visit Request Form",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "address": "Your Full Address",
+    "documentType": "Type of Document Required",
+    "preferredTime": "Preferred Time for Visit (e.g., Tomorrow, 2-4 PM)",
+    "send": "Request Visit",
+    "sending": "Submitting...",
+    "success": "Thank you! Your visit request has been sent. We will call you to confirm.",
+    "error": "Oops! Something went wrong. Please try again."
+  },
+  "whyUs": {
+    "title": "Why Choose WakilBhai?",
+    "subtitle": "We simplify legal documentation with a focus on convenience, transparency, and professional quality.",
+    "feature1Title": "Expert-Drafted Documents",
+    "feature1Desc": "Every document is prepared by experienced professionals, ensuring accuracy and legal compliance.",
+    "feature2Title": "Transparent Pricing",
+    "feature2Desc": "No hidden costs. We provide clear, upfront pricing for all our services so you know exactly what you're paying for.",
+    "feature3Title": "Convenient Process",
+    "feature3Desc": "From online requests to home visits for document collection, we make the entire process hassle-free for you.",
+    "feature4Title": "Dedicated Support",
+    "feature4Desc": "Our team is always available to answer your questions and guide you at every step of the way."
+  },
+  "legal": {
+    "disclaimerTitle": "Disclaimer",
+    "disclaimerContent": "\n**Effective Date: August 1, 2024**\n\nPlease read these Terms of Service (\"Terms\") carefully before using the WakilBhai website and services (the \"Service\") operated by us. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.\n\n**1. Acknowledgment and Agreement**\n\nBy accessing or using the Service, you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service.\n\n**2. Nature of Service and Disclaimer**\n\nWakilBhai is a legal documentation service company. We are NOT a law firm and do NOT provide any legal advice. Our services are limited to the drafting of legal documents based on the information and requirements you provide. The information on our website is for general informational purposes only and should not be considered legal advice. The engagement with WakilBhai does not create an attorney-client relationship. For legal advice or representation, you should consult with a qualified advocate.\n\n**3. Our Services**\n\n*   We will prepare your documents based on the information you provide. You are solely responsible for the accuracy, completeness, and truthfulness of the information you submit.\n*   The fees for our services are for the drafting and preparation of documents. They do not include any applicable government fees, stamp duties, or other third-party charges, which are your responsibility.\n*   While we strive for accuracy, we do not guarantee the legal validity or suitability of any document for your specific circumstances. It is your responsibility to review the final documents and, if necessary, seek independent legal advice.\n\n**4. Payments**\n\nAll fees are due upon ordering a service. Payments are processed through a secure third-party payment gateway. We are not responsible for any issues arising from the payment gateway's services. All fees are non-refundable once work has commenced on your document.\n\n**5. User Responsibilities**\n\nYou agree not to use the Service for any unlawful purpose or to submit any false, misleading, or fraudulent information. You are responsible for maintaining the confidentiality of any information you provide.\n\n**6. Limitation of Liability**\n\nTo the fullest extent permitted by law, in no event will WakilBhai, its affiliates, officers, or employees be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any errors or omissions in the documents prepared; (iii) any unauthorized access to or use of our servers and/or any and all personal information stored therein. Our liability is strictly limited to the amount you paid for the Service.\n\n**7. Intellectual Property**\n\nThe Service and its original content, features, and functionality are and will remain the exclusive property of WakilBhai. The Service is protected by copyright, trademark, and other laws of India.\n\n**8. Governing Law and Jurisdiction**\n\nThese Terms shall be governed and construed in accordance with the laws of India, without regard to its conflict of law provisions. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts in New Delhi, India.\n\n**9. Changes to These Terms**\n\nWe reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will provide notice of any changes by posting the new Terms on this page.\n\n**10. Contact Us**\n\nIf you have any questions about these Terms, please contact us at: contact@wakilbhai.com\n",
+    "privacyTitle": "Privacy Policy",
+    "privacyContent": "\n**Effective Date: August 1, 2024**\n\nWelcome to WakilBhai (\"we,\" \"our,\" \"us\"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services. Please read this privacy policy carefully.\n\n**1. Information We Collect**\n\nWe may collect information about you in a variety of ways. The information we may collect on the Site includes:\n\n*   **Personal Data:** Personally identifiable information, such as your name, shipping address, email address, and telephone number, that you voluntarily give to us when you request a service or contact us.\n*   **Document Information:** Specific details, facts, and data you provide for the purpose of drafting your legal documents. This is highly sensitive information, and we treat it with the utmost confidentiality.\n*   **Derivative Data:** Information our servers automatically collect when you access the Site, such as your IP address, browser type, operating system, access times, and the pages you have viewed directly before and after accessing the Site.\n*   **Financial Data:** We do not collect or store any financial information. All payments are processed through a secure third-party payment gateway.\n\n**2. How We Use Your Information**\n\nHaving accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you to:\n\n*   Create and manage your service request.\n*   Draft and deliver the legal documents you have requested.\n*   Communicate with you regarding your request, including confirmations and follow-ups.\n*   Respond to your comments and questions and provide customer support.\n*   Improve our website and service offerings.\n*   Comply with legal and regulatory requirements.\n\n**3. Disclosure of Your Information**\n\nWe do not sell, trade, rent, or otherwise share your Personal Information for marketing purposes. We may share information we have collected about you in certain situations:\n\n*   **By Law or to Protect Rights:** If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation.\n*   **Third-Party Service Providers:** We may share your information with third parties that perform services for us or on our behalf, including payment processing, data analysis, email delivery, and customer service.\n*   **With Your Consent:** We may share your information with lawyers or other professionals for attestation or specific legal consultation, but only after receiving your explicit consent to do so.\n\n**4. Security of Your Information**\n\nWe use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.\n\n**5. Data Retention**\n\nWe will retain your personal information and document details only for as long as is necessary for the purposes set out in this Privacy Policy, including for the purposes of satisfying any legal, accounting, or reporting requirements.\n\n**6. Your Rights**\n\nYou have the right to request access to the personal data we hold about you, to have any inaccuracies corrected, and to request the deletion of your data once our service is complete, subject to our legal obligations.\n\n**7. Changes to This Privacy Policy**\n\nWe may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.\n\n**8. Contact Us**\n\nIf you have questions or comments about this Privacy Policy, please contact us at: contact@wakilbhai.com\n",
+    "termsTitle": "Terms of Service",
+    "termsContent": "\n**Effective Date: August 1, 2024**\n\nPlease read these Terms of Service (\"Terms\") carefully before using the WakilBhai website and services (the \"Service\") operated by us. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.\n\n**1. Acknowledgment and Agreement**\n\nBy accessing or using the Service, you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service.\n\n**2. Nature of Service and Disclaimer**\n\nWakilBhai is a legal documentation service company. We are NOT a law firm and do NOT provide any legal advice. Our services are limited to the drafting of legal documents based on the information and requirements you provide. The information on our website is for general informational purposes only and should not be considered legal advice. The engagement with WakilBhai does not create an attorney-client relationship. For legal advice or representation, you should consult with a qualified advocate.\n\n**3. Our Services**\n\n*   We will prepare your documents based on the information you provide. You are solely responsible for the accuracy, completeness, and truthfulness of the information you submit.\n*   The fees for our services are for the drafting and preparation of documents. They do not include any applicable government fees, stamp duties, or other third-party charges, which are your responsibility.\n*   While we strive for accuracy, we do not guarantee the legal validity or suitability of any document for your specific circumstances. It is your responsibility to review the final documents and, if necessary, seek independent legal advice.\n\n**4. Payments**\n\nAll fees are due upon ordering a service. Payments are processed through a secure third-party payment gateway. We are not responsible for any issues arising from the payment gateway's services. All fees are non-refundable once work has commenced on your document.\n\n**5. User Responsibilities**\n\nYou agree not to use the Service for any unlawful purpose or to submit any false, misleading, or fraudulent information. You are responsible for maintaining the confidentiality of any information you provide.\n\n**6. Limitation of Liability**\n\nTo the fullest extent permitted by law, in no event will WakilBhai, its affiliates, officers, or employees be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any errors or omissions in the documents prepared; (iii) any unauthorized access to or use of our servers and/or any and all personal information stored therein. Our liability is strictly limited to the amount you paid for the Service.\n\n**7. Intellectual Property**\n\nThe Service and its original content, features, and functionality are and will remain the exclusive property of WakilBhai. The Service is protected by copyright, trademark, and other laws of India.\n\n**8. Governing Law and Jurisdiction**\n\nThese Terms shall be governed and construed in accordance with the laws of India, without regard to its conflict of law provisions. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts in New Delhi, India.\n\n**9. Changes to These Terms**\n\nWe reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will provide notice of any changes by posting the new Terms on this page.\n\n**10. Contact Us**\n\nIf you have any questions about these Terms, please contact us at: contact@wakilbhai.com\n"
+  },
+  "common": {
+    "tagline": "Your Local Lawyer!",
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "allRightsReserved": "All Rights Reserved.",
+    "disclaimer": "WakilBhai is a documentation service, not a law firm. Nothing on this site is legal advice.",
+    "whatsappCta": "Chat on WhatsApp",
+    "updatedOn": "Updated on",
+    "learnMore": "Learn More",
+    "notFoundTitle": "Page not found",
+    "notFoundDesc": "The page you are looking for does not exist or has moved.",
+    "backHome": "Back to homepage"
+  }
+}
