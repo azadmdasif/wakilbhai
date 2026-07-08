@@ -242,6 +242,50 @@
       "location": "Location",
       "viewProfile": "View profile",
       "note": "Listings appear in alphabetical order. Advocates are independent professionals; fees are settled directly with them."
+    },
+    "calc": {
+      "toolsTitle": "Free legal tools",
+      "toolsSubtitle": "Quick calculators for common legal costs and deadlines. Estimates only — not legal advice.",
+      "calculate": "Calculate",
+      "result": "Result",
+      "estimateNote": "Indicative estimate. Rates and rules change — verify with the official state schedule before paying.",
+      "whatsappResult": "Get help with this — WhatsApp us",
+      "stamp": {
+        "title": "Stamp Duty Calculator",
+        "state": "State",
+        "docType": "Document type",
+        "docRent": "Rent agreement",
+        "docSale": "Sale deed",
+        "docGift": "Gift deed",
+        "monthlyRent": "Monthly rent (₹)",
+        "tenure": "Tenure (months)",
+        "deposit": "Security deposit (₹, optional)",
+        "propertyValue": "Property value (₹)",
+        "dutyResult": "Estimated stamp duty",
+        "baseResult": "Calculated on"
+      },
+      "cheque": {
+        "title": "Cheque Bounce Deadline Calculator",
+        "amount": "Cheque amount (₹)",
+        "memoDate": "Date you received the return memo",
+        "noticeDate": "Date the legal notice is (or will be) sent",
+        "noticeDeadline": "Last date to send the demand notice",
+        "payWindow": "Drawer's 15-day payment window ends",
+        "complaintDeadline": "Last date to file the complaint",
+        "maxFine": "Fine on conviction can extend to",
+        "interim": "Interim compensation (up to 20%) can be",
+        "expired": "The 30-day notice window has passed for this presentation. If the cheque is still within its 3-month validity, you can present it again to restart the timeline."
+      },
+      "gratuity": {
+        "title": "Gratuity Calculator",
+        "salary": "Last drawn monthly salary — basic + DA (₹)",
+        "years": "Completed years of service",
+        "months": "Extra months (beyond completed years)",
+        "result": "Gratuity payable",
+        "notEligible": "Gratuity generally requires at least 5 years of continuous service.",
+        "countedYears": "Years counted (6+ extra months round up)",
+        "capNote": "Capped at the statutory maximum of ₹20,00,000."
+      }
     }
   }
 }

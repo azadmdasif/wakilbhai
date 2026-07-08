@@ -1,4 +1,6 @@
 import { getGuideMetas, getServices, getTemplates } from './content';
+import { getTools, toolTitle } from './tools';
+import { getDict } from './dictionaries';
 import { localePath, type Locale } from './i18n';
 
 export interface SearchDoc {
@@ -36,6 +38,16 @@ export function buildSearchIndex(locale: Locale): SearchDoc[] {
       keywords: [service.title.en],
       url: localePath(locale, `/services/${service.id}`),
       priceINR: service.priceINR,
+    });
+  }
+  const dict = getDict(locale);
+  const enDict = getDict('en');
+  for (const tool of getTools()) {
+    docs.push({
+      type: 'tool',
+      title: toolTitle(dict, tool.widget),
+      keywords: [toolTitle(enDict, tool.widget)],
+      url: localePath(locale, `/tools/${tool.slug}`),
     });
   }
   return docs;

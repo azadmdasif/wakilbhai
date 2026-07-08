@@ -1,0 +1,53 @@
+{
+  "_comment": "ALL rates are indicative and flagged verify:true — check current state schedules before relying on them (tracked in VERIFY.md). Adding a state = adding a data entry; no code changes needed.",
+  "states": {
+    "delhi": {
+      "name": { "en": "Delhi", "hi": "दिल्ली", "ur": "دہلی", "bn": "দিল্লি" },
+      "rentAgreement": { "base": "avgAnnualRent", "pct": 2, "verify": true },
+      "saleDeed": { "base": "propertyValue", "pct": 6, "verify": true },
+      "giftDeed": { "base": "propertyValue", "pct": 6, "verify": true }
+    },
+    "maharashtra": {
+      "name": { "en": "Maharashtra", "hi": "महाराष्ट्र", "ur": "مہاراشٹر", "bn": "মহারাষ্ট্র" },
+      "rentAgreement": { "base": "totalRentPlusDeposit", "pct": 0.25, "verify": true },
+      "saleDeed": { "base": "propertyValue", "pct": 6, "verify": true },
+      "giftDeed": { "base": "propertyValue", "pct": 3, "verify": true }
+    },
+    "karnataka": {
+      "name": { "en": "Karnataka", "hi": "कर्नाटक", "ur": "کرناٹک", "bn": "কর্ণাটক" },
+      "rentAgreement": { "base": "avgAnnualRent", "pct": 0.5, "verify": true },
+      "saleDeed": { "base": "propertyValue", "pct": 5.6, "verify": true },
+      "giftDeed": { "base": "propertyValue", "pct": 5.6, "verify": true }
+    },
+    "uttar-pradesh": {
+      "name": { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश", "ur": "اتر پردیش", "bn": "উত্তরপ্রদেশ" },
+      "rentAgreement": { "base": "avgAnnualRent", "pct": 2, "verify": true },
+      "saleDeed": { "base": "propertyValue", "pct": 7, "verify": true },
+      "giftDeed": { "base": "propertyValue", "pct": 7, "verify": true }
+    },
+    "west-bengal": {
+      "name": { "en": "West Bengal", "hi": "पश्चिम बंगाल", "ur": "مغربی بنگال", "bn": "পশ্চিমবঙ্গ" },
+      "rentAgreement": { "base": "avgAnnualRent", "pct": 0.5, "verify": true },
+      "saleDeed": { "base": "propertyValue", "pct": 6, "verify": true },
+      "giftDeed": { "base": "propertyValue", "pct": 6, "verify": true }
+    },
+    "tamil-nadu": {
+      "name": { "en": "Tamil Nadu", "hi": "तमिलनाडु", "ur": "تمل ناڈو", "bn": "তামিলনাড়ু" },
+      "rentAgreement": { "base": "totalRentPlusDeposit", "pct": 1, "verify": true },
+      "saleDeed": { "base": "propertyValue", "pct": 7, "verify": true },
+      "giftDeed": { "base": "propertyValue", "pct": 7, "verify": true }
+    },
+    "telangana": {
+      "name": { "en": "Telangana", "hi": "तेलंगाना", "ur": "تلنگانہ", "bn": "তেলেঙ্গানা" },
+      "rentAgreement": { "base": "avgAnnualRent", "pct": 0.4, "verify": true },
+      "saleDeed": { "base": "propertyValue", "pct": 4, "verify": true },
+      "giftDeed": { "base": "propertyValue", "pct": 4, "verify": true }
+    },
+    "gujarat": {
+      "name": { "en": "Gujarat", "hi": "गुजरात", "ur": "گجرات", "bn": "গুজরাট" },
+      "rentAgreement": { "base": "avgAnnualRent", "pct": 1, "verify": true },
+      "saleDeed": { "base": "propertyValue", "pct": 4.9, "verify": true },
+      "giftDeed": { "base": "propertyValue", "pct": 4.9, "verify": true }
+    }
+  }
+}

@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { locales, localePath } from '@/lib/i18n';
 import { SITE_URL } from '@/lib/site';
 import { getCategories, getGuideMetas, getServices, getTemplates } from '@/lib/content';
+import { getTools } from '@/lib/tools';
 
 // Split sitemaps by content type: /sitemap/static.xml, /sitemap/guides.xml,
 // /sitemap/templates.xml, /sitemap/services.xml
@@ -52,6 +53,8 @@ export default function sitemap({ id }: { id: string }): MetadataRoute.Sitemap {
     default:
       return entriesFor([
         { path: '/', priority: 1 },
+        { path: '/tools', priority: 0.8 },
+        ...getTools().map((t) => ({ path: `/tools/${t.slug}`, priority: 0.8 })),
         { path: '/pricing' },
         { path: '/talk-to-a-lawyer' },
         { path: '/contact', priority: 0.5 },

@@ -34,6 +34,14 @@ Remove entries as they are verified.
       (District ≤ ₹50 lakh, State ≤ ₹2 cr per 2021 notification); current
       e-Daakhil fee slabs (nil up to ₹5 lakh claims).
 
+## Calculator data (flagged `verify: true` in JSON)
+
+- [ ] **content/calculators/stamp-duty.json** — every rate for all 8 seed
+      states is indicative and must be checked against the current state
+      stamp schedules (rent agreement, sale deed, gift deed rates).
+- [ ] **Gratuity cap** — lib/calculators.ts assumes the ₹20 lakh statutory
+      maximum; confirm the current notified ceiling.
+
 ## Deliberate migration decisions (for the owner to confirm)
 
 - [ ] **Legacy blog not ported.** All three legacy blog posts contained

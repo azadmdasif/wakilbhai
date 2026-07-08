@@ -5,6 +5,7 @@ import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { localeAlternates } from '@/lib/seo';
 import { getCategories, getGuideMetas, getTemplates, getTestimonials } from '@/lib/content';
+import { getTools, toolTitle } from '@/lib/tools';
 import SearchBox from '@/components/SearchBox';
 import CategoryIcon from '@/components/CategoryIcon';
 import { StarIcon, DownloadIcon, ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon } from '@/components/Icons';
@@ -120,7 +121,18 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           </Link>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {templates.slice(0, 4).map((template) => (
+          {getTools().map((tool) => (
+            <Link
+              key={tool.slug}
+              href={href(`/tools/${tool.slug}`)}
+              className="bg-gray-900 border border-brand-gold/30 rounded-2xl p-5 hover:border-brand-gold transition-colors"
+            >
+              <RupeeIcon className="w-6 h-6 text-brand-gold mb-3" />
+              <p className="font-bold text-white text-sm">{toolTitle(dict, tool.widget)}</p>
+              <p className="text-xs text-brand-gold mt-2">{dict.ui.template.free}</p>
+            </Link>
+          ))}
+          {templates.slice(0, 1).map((template) => (
             <Link
               key={template.slug}
               href={href(`/templates/${template.slug}`)}

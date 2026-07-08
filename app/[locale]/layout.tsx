@@ -64,6 +64,7 @@ export default async function LocaleLayout({
     label: navT.resources,
     items: [
       { path: '/templates', text: navT.documents },
+      { path: '/tools', text: dict.ui.calc.toolsTitle },
       { path: '/lawyers', text: navT.findLawyer },
       { path: '/why-wakilbhai', text: navT.whyUs },
       { path: '/contact', text: navT.contact },
