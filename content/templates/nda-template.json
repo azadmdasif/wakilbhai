@@ -1,0 +1,22 @@
+{
+  "slug": "nda-template",
+  "category": "business-startup",
+  "gated": true,
+  "relatedServiceId": "nda",
+  "title": {
+    "en": "Non-Disclosure Agreement (NDA) Template",
+    "hi": "गोपनीयता समझौता (NDA) टेम्पलेट",
+    "ur": "رازداری معاہدہ (NDA) ٹیمپلیٹ",
+    "bn": "নন-ডিসক্লোজার এগ্রিমেন্ট (NDA) টেমপ্লেট"
+  },
+  "description": {
+    "en": "A mutual NDA template for protecting confidential business information shared with partners, vendors or employees.",
+    "hi": "पार्टनर, वेंडर या कर्मचारियों के साथ साझा गोपनीय व्यावसायिक जानकारी की सुरक्षा के लिए आपसी NDA टेम्पलेट।",
+    "ur": "پارٹنرز، وینڈرز یا ملازمین کے ساتھ شیئر کی گئی خفیہ کاروباری معلومات کے تحفظ کے لیے باہمی NDA ٹیمپلیٹ۔",
+    "bn": "পার্টনার, ভেন্ডর বা কর্মীদের সাথে শেয়ার করা গোপনীয় ব্যবসায়িক তথ্য রক্ষার জন্য পারস্পরিক NDA টেমপ্লেট।"
+  },
+  "fileFormats": [
+    "pdf",
+    "docx"
+  ]
+}

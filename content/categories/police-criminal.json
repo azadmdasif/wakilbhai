@@ -1,0 +1,18 @@
+{
+  "slug": "police-criminal",
+  "icon": "police",
+  "order": 6,
+  "referralOnly": true,
+  "title": {
+    "en": "Police & Criminal",
+    "hi": "पुलिस और आपराधिक",
+    "ur": "پولیس اور فوجداری",
+    "bn": "পুলিশ ও ফৌজদারি"
+  },
+  "description": {
+    "en": "FIR basics, bail information and what the law says — information and lawyer referral only.",
+    "hi": "FIR की जानकारी, ज़मानत की बुनियादी बातें और कानून क्या कहता है — केवल जानकारी और वकील रेफरल।",
+    "ur": "ایف آئی آر کی معلومات، ضمانت کی بنیادی باتیں اور قانون کیا کہتا ہے — صرف معلومات اور وکیل ریفرل۔",
+    "bn": "FIR-এর তথ্য, জামিনের প্রাথমিক বিষয় এবং আইন কী বলে — শুধুমাত্র তথ্য ও উকিল রেফারেল।"
+  }
+}

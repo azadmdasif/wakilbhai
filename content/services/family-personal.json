@@ -1,0 +1,116 @@
+[
+  {
+    "id": "will-drafting",
+    "category": "family-personal",
+    "title": {
+      "en": "Will Drafting",
+      "hi": "वसीयत का मसौदा तैयार करना",
+      "ur": "وصیت کا مسودہ تیار کرنا",
+      "bn": "উইল খসড়া"
+    },
+    "description": {
+      "en": "Drafting a legal will for asset distribution after death.",
+      "hi": "मृत्यु के बाद संपत्ति वितरण के लिए एक कानूनी वसीयत का मसौदा तैयार करना।",
+      "ur": "موت کے بعد اثاثوں کی تقسیم کے لیے قانونی وصیت کا مسودہ تیار کرنا۔",
+      "bn": "মৃত্যুর পর সম্পদ বন্টনের জন্য একটি আইনি উইল খসড়া করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "inheritance-declaration",
+    "category": "family-personal",
+    "title": {
+      "en": "Inheritance Declaration",
+      "hi": "विरासत घोषणा",
+      "ur": "وراثت کا اعلان",
+      "bn": "উত্তরাধিকার ঘোষণা"
+    },
+    "description": {
+      "en": "Preparing documents to declare and claim inheritance.",
+      "hi": "विरासत की घोषणा और दावा करने के लिए दस्तावेज तैयार करना।",
+      "ur": "وراثت کا اعلان اور دعویٰ کرنے کے لیے دستاویزات تیار کرنا۔",
+      "bn": "উত্তরাধিকার ঘোষণা এবং দাবি করার জন্য নথি প্রস্তুত করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "marriage-affidavit",
+    "category": "family-personal",
+    "title": {
+      "en": "Marriage Affidavit",
+      "hi": "विवाह शपथ पत्र",
+      "ur": "شادی کا حلف نامہ",
+      "bn": "বিবাহের হলফনামা"
+    },
+    "description": {
+      "en": "Preparing affidavits to declare marital status.",
+      "hi": "वैवाहिक स्थिति घोषित करने के लिए शपथ पत्र तैयार करना।",
+      "ur": "ازدواجی حیثیت کا اعلان کرنے کے لیے حلف نامے تیار کرنا۔",
+      "bn": "বৈবাহিক অবস্থা ঘোষণার জন্য হলফনামা প্রস্তুত করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "mutual-divorce-draft",
+    "category": "family-personal",
+    "title": {
+      "en": "Divorce Mutual Consent Draft",
+      "hi": "तलाक आपसी सहमति का मसौदा",
+      "ur": "طلاق باہمی رضامندی کا مسودہ",
+      "bn": "পারস্পরিক সম্মতিতে বিবাহবিচ্ছেদের খসড়া"
+    },
+    "description": {
+      "en": "Drafting petitions for divorce by mutual consent.",
+      "hi": "आपसी सहमति से तलाक के लिए याचिकाओं का मसौदा तैयार करना।",
+      "ur": "باہمی رضامندی سے طلاق کے لیے درخواستوں کا مسودہ تیار کرنا۔",
+      "bn": "পারস্পরিক সম্মতিতে বিবাহবিচ্ছেদের জন্য আবেদনের খসড়া তৈরি করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "domestic-violence-complaint",
+    "category": "family-personal",
+    "title": {
+      "en": "Domestic Violence Complaint Draft",
+      "hi": "घरेलू हिंसा शिकायत का मसौदा",
+      "ur": "گھریلو تشدد کی شکایت کا مسودہ",
+      "bn": "গার্হস্থ্য সহিংসতা অভিযোগের খসড়া"
+    },
+    "description": {
+      "en": "Preparing drafts for filing domestic violence complaints.",
+      "hi": "घरेलू हिंसा की शिकायत दर्ज करने के लिए मसौदा तैयार करना।",
+      "ur": "گھریلو تشدد کی شکایات درج کرنے کے لیے مسودے تیار کرنا۔",
+      "bn": "গার্হস্থ্য সহিংসতার অভিযোগ দায়ের করার জন্য খসড়া প্রস্তুত করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "live-in-agreement",
+    "category": "family-personal",
+    "title": {
+      "en": "Live-in Relationship Agreement",
+      "hi": "लिव-इन रिलेशनशिप समझौता",
+      "ur": "لیو ان ریلیشن شپ کا معاہدہ",
+      "bn": "লিভ-ইন রিলেশনশিপ চুক্তি"
+    },
+    "description": {
+      "en": "Formalizing the terms of a live-in relationship.",
+      "hi": "लिव-इन रिलेशनशिप की शर्तों को औपचारिक बनाना।",
+      "ur": "لیو ان ریلیشن شپ کی شرائط کو باقاعدہ بنانا۔",
+      "bn": "লিভ-ইন সম্পর্কের শর্তাবলী আনুষ্ঠানিক করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  }
+]

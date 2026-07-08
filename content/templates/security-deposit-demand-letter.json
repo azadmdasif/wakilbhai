@@ -1,0 +1,22 @@
+{
+  "slug": "security-deposit-demand-letter",
+  "category": "property-tenancy",
+  "gated": true,
+  "relatedServiceId": "legal-notice-security-deposit",
+  "title": {
+    "en": "Security Deposit Demand Letter",
+    "hi": "सिक्योरिटी डिपॉज़िट डिमांड लेटर",
+    "ur": "سیکیورٹی ڈپازٹ ڈیمانڈ لیٹر",
+    "bn": "সিকিউরিটি ডিপোজিট ডিমান্ড লেটার"
+  },
+  "description": {
+    "en": "A ready-to-send letter demanding return of your security deposit from the landlord, with space for agreement details and a response deadline.",
+    "hi": "मकान मालिक से सिक्योरिटी डिपॉज़िट वापस मांगने के लिए तैयार पत्र, जिसमें एग्रीमेंट विवरण और जवाब की समय-सीमा के लिए जगह है।",
+    "ur": "مالک مکان سے سیکیورٹی ڈپازٹ کی واپسی کا مطالبہ کرنے کے لیے تیار خط، جس میں معاہدے کی تفصیلات اور جواب کی آخری تاریخ کے لیے جگہ ہے۔",
+    "bn": "বাড়িওয়ালার কাছ থেকে সিকিউরিটি ডিপোজিট ফেরত চেয়ে পাঠানোর জন্য প্রস্তুত চিঠি, যাতে চুক্তির বিবরণ এবং উত্তরের সময়সীমার জায়গা আছে।"
+  },
+  "fileFormats": [
+    "pdf",
+    "docx"
+  ]
+}

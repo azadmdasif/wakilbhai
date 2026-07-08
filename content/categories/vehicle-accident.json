@@ -1,0 +1,17 @@
+{
+  "slug": "vehicle-accident",
+  "icon": "vehicle",
+  "order": 8,
+  "title": {
+    "en": "Vehicle & Accident",
+    "hi": "वाहन और दुर्घटना",
+    "ur": "گاڑی اور حادثہ",
+    "bn": "গাড়ি ও দুর্ঘটনা"
+  },
+  "description": {
+    "en": "Accident claims, insurance disputes, challans and vehicle transfer paperwork.",
+    "hi": "दुर्घटना दावे, बीमा विवाद, चालान और वाहन ट्रांसफर के कागजात।",
+    "ur": "حادثے کے دعوے، انشورنس تنازعات، چالان اور گاڑی کی منتقلی کے کاغذات۔",
+    "bn": "দুর্ঘটনার দাবি, বিমা বিরোধ, চালান এবং গাড়ি হস্তান্তরের কাগজপত্র।"
+  }
+}

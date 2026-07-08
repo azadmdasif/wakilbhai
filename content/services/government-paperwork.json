@@ -1,0 +1,230 @@
+[
+  {
+    "id": "affidavit-general",
+    "category": "government-paperwork",
+    "title": {
+      "en": "Affidavit (General Purpose)",
+      "hi": "शपथ पत्र (सामान्य प्रयोजन)",
+      "ur": "حلف نامہ (عام مقصد)",
+      "bn": "হলফনামা (সাধারণ উদ্দেশ্য)"
+    },
+    "description": {
+      "en": "Creating general-purpose sworn statements for various needs.",
+      "hi": "विभिन्न आवश्यकताओं के लिए सामान्य प्रयोजन के शपथ पत्र बनाना।",
+      "ur": "مختلف ضروریات کے لیے عام مقصد کے حلف نامے بنانا۔",
+      "bn": "বিভিন্ন প্রয়োজনে সাধারণ উদ্দেশ্যের হলফনামা তৈরি করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "name-change-affidavit",
+    "category": "government-paperwork",
+    "title": {
+      "en": "Name Change Affidavit",
+      "hi": "नाम परिवर्तन शपथ पत्र",
+      "ur": "نام کی تبدیلی کا حلف نامہ",
+      "bn": "নাম পরিবর্তনের হলফনামা"
+    },
+    "description": {
+      "en": "Official document for legally changing your name.",
+      "hi": "कानूनी रूप से अपना नाम बदलने के लिए आधिकारिक दस्तावेज़।",
+      "ur": "قانونی طور پر اپنا نام تبدیل کرنے کے لیے سرکاری دستاویز۔",
+      "bn": "আইনগতভাবে আপনার নাম পরিবর্তন করার জন্য অফিসিয়াল নথি।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "birth-certificate-correction-affidavit",
+    "category": "government-paperwork",
+    "title": {
+      "en": "Birth Certificate Correction Affidavit",
+      "hi": "जन्म प्रमाण पत्र सुधार शपथ पत्र",
+      "ur": "پیدائش کے سرٹیفکیٹ میں ترمیم کا حلف نامہ",
+      "bn": "জন্ম সনদ সংশোধন হলফনামা"
+    },
+    "description": {
+      "en": "Affidavit for correcting details in a birth certificate.",
+      "hi": "जन्म प्रमाण पत्र में विवरण सुधारने के लिए शपथ पत्र।",
+      "ur": "پیدائش کے سرٹیفیکیٹ میں تفصیلات درست کرنے کے لیے حلف نامہ۔",
+      "bn": "জন্ম সনদে বিশদ সংশোধন করার জন্য হলফনামা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "lost-document-affidavit",
+    "category": "government-paperwork",
+    "title": {
+      "en": "Lost Document Affidavit (PAN, Aadhar, etc.)",
+      "hi": "खोए हुए दस्तावेज़ का शपथ पत्र (पैन, आधार, आदि)",
+      "ur": "گمشدہ دستاویز کا حلف نامہ (پین، آدھار، وغیرہ)",
+      "bn": "হারানো নথির হলফনামা (প্যান, আধার, ইত্যাদি)"
+    },
+    "description": {
+      "en": "Creating affidavits to report lost official documents.",
+      "hi": "खोए हुए आधिकारिक दस्तावेजों की रिपोर्ट करने के लिए शपथ पत्र बनाना।",
+      "ur": "گمشدہ سرکاری دستاویزات کی اطلاع دینے کے لیے حلف نامے بنانا۔",
+      "bn": "হারিয়ে যাওয়া অফিসিয়াল নথি রিপোর্ট করার জন্য হলফনামা তৈরি করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "passport-annexures",
+    "category": "government-paperwork",
+    "title": {
+      "en": "Passport Annexures A/B/C",
+      "hi": "पासपोर्ट अनुबंध ए/बी/सी",
+      "ur": "پاسپورٹ انیکچرز A/B/C",
+      "bn": "পাসপোর্ট অ্যানেক্সার A/B/C"
+    },
+    "description": {
+      "en": "Assistance with various annexures required for passports.",
+      "hi": "पासपोर्ट के लिए आवश्यक विभिन्न अनुबंधों में सहायता।",
+      "ur": "پاسپورٹ کے لیے درکار مختلف انیکچرز میں مدد۔",
+      "bn": "পাসপোর্টের জন্য প্রয়োজনীয় বিভিন্ন অ্যানেক্সারে সহায়তা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "notarization-facilitation",
+    "category": "government-paperwork",
+    "title": {
+      "en": "Notarization Facilitation (Offline)",
+      "hi": "नोटरीकरण सुविधा (ऑफलाइन)",
+      "ur": "نوٹرائزیشن کی سہولت (آف لائن)",
+      "bn": "নোটারাইজেশন সুবিধা (অফলাইন)"
+    },
+    "description": {
+      "en": "Assisting with the process of getting documents notarized.",
+      "hi": "दस्तावेजों को नोटरीकृत करवाने की प्रक्रिया में सहायता करना।",
+      "ur": "دستاویزات کو نوٹرائز کروانے کے عمل میں مدد کرنا۔",
+      "bn": "নথি নোটারাইজড করার প্রক্রিয়ায় সহায়তা করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 3,
+    "type": "registration"
+  },
+  {
+    "id": "rti-application",
+    "category": "government-paperwork",
+    "title": {
+      "en": "RTI Application Draft",
+      "hi": "आरटीआई आवेदन का मसौदा",
+      "ur": "آر ٹی آئی درخواست کا مسودہ",
+      "bn": "আরটিআই আবেদন খসড়া"
+    },
+    "description": {
+      "en": "Drafting applications for Right to Information requests.",
+      "hi": "सूचना का अधिकार अनुरोधों के लिए आवेदन का मसौदा तैयार करना।",
+      "ur": "معلومات تک رسائی کے حق کی درخواستوں کا مسودہ تیار کرنا۔",
+      "bn": "তথ্যের অধিকার অনুরোধের জন্য আবেদন খসড়া করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "noc-drafting",
+    "category": "government-paperwork",
+    "title": {
+      "en": "NOC (No Objection Certificate)",
+      "hi": "अनापत्ति प्रमाण पत्र (एनओसी)",
+      "ur": "عدم اعتراض کا سرٹیفکیٹ (این او سی)",
+      "bn": "এনওসি (কোনও আপত্তি নেই प्रमाणपत्र)"
+    },
+    "description": {
+      "en": "Preparation of various No Objection Certificates.",
+      "hi": "विभिन्न अनापत्ति प्रमाण पत्र तैयार करना।",
+      "ur": "مختلف عدم اعتراض سرٹیفکیٹ کی تیاری۔",
+      "bn": "বিভিন্ন কোনও আপত্তি নেই प्रमाणपत्र প্রস্তুত করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "power-of-attorney",
+    "category": "government-paperwork",
+    "title": {
+      "en": "Power of Attorney",
+      "hi": "मुख्तारनामा",
+      "ur": "پاور آف اٹارنی",
+      "bn": "পাওয়ার অফ অ্যাটর্নি"
+    },
+    "description": {
+      "en": "Granting legal authority to another person to act on your behalf.",
+      "hi": "अपनी ओर से कार्य करने के लिए किसी अन्य व्यक्ति को कानूनी अधिकार प्रदान करना।",
+      "ur": "اپنی طرف سے کام کرنے کے لیے کسی دوسرے شخص کو قانونی اختیار دینا۔",
+      "bn": "আপনার পক্ষে কাজ করার জন্য অন্য ব্যক্তিকে আইনি কর্তৃত্ব প্রদান করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "court-petition-help",
+    "category": "government-paperwork",
+    "title": {
+      "en": "Court Petition Format Help",
+      "hi": "न्यायालय याचिका प्रारूप सहायता",
+      "ur": "عدالتی درخواست فارمیٹ میں مدد",
+      "bn": "আদালতের পিটিশন ফরম্যাট সহায়তা"
+    },
+    "description": {
+      "en": "Assistance with formatting various court petitions.",
+      "hi": "विभिन्न न्यायालय याचिकाओं के प्रारूपण में सहायता।",
+      "ur": "مختلف عدالتی درخواستوں کی فارمیٹنگ میں مدد۔",
+      "bn": "বিভিন্ন আদালতের পিটিশন ফরম্যাট করার জন্য সহায়তা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "self-declaration-form",
+    "category": "government-paperwork",
+    "title": {
+      "en": "Self-Declaration Forms",
+      "hi": "स्व-घोषणा पत्र",
+      "ur": "خود اعلانیہ فارم",
+      "bn": "স্ব-ঘোষণা ফর্ম"
+    },
+    "description": {
+      "en": "Preparing self-declaration forms for various schemes and purposes.",
+      "hi": "विभिन्न योजनाओं और उद्देश्यों के लिए स्व-घोषणा पत्र तैयार करना।",
+      "ur": "مختلف اسکیموں اور مقاصد کے لیے خود اعلانیہ فارم تیار کرنا۔",
+      "bn": "বিভিন্ন স্কিম এবং উদ্দেশ্যের জন্য স্ব-ঘোষণাপত্র প্রস্তুত করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  },
+  {
+    "id": "dsc-assistance",
+    "category": "government-paperwork",
+    "title": {
+      "en": "Digital Signature Certificate (DSC) Assistance",
+      "hi": "डिजिटल हस्ताक्षर प्रमाणपत्र (डीएससी) सहायता",
+      "ur": "ڈیجیٹل دستخط سرٹیفکیٹ (DSC) میں مدد",
+      "bn": "ডিজিটাল স্বাক্ষর সার্টিফিকেট (DSC) সহায়তা"
+    },
+    "description": {
+      "en": "Guidance and assistance in obtaining a DSC.",
+      "hi": "डीएससी प्राप्त करने में मार्गदर्शन और सहायता।",
+      "ur": "ڈی ایس سی حاصل کرنے میں رہنمائی اور مدد۔",
+      "bn": "ডিএসসি পেতে নির্দেশিকা এবং সহায়তা।"
+    },
+    "priceINR": 499,
+    "deliveryDays": 3,
+    "type": "registration"
+  }
+]

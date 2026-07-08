@@ -1,0 +1,22 @@
+{
+  "slug": "general-affidavit-format",
+  "category": "government-paperwork",
+  "gated": false,
+  "relatedServiceId": "affidavit-general",
+  "title": {
+    "en": "General Affidavit Format",
+    "hi": "सामान्य शपथ पत्र फॉर्मेट",
+    "ur": "عام حلف نامہ فارمیٹ",
+    "bn": "সাধারণ হলফনামার ফরম্যাট"
+  },
+  "description": {
+    "en": "A general-purpose affidavit format for sworn declarations, ready to customise and notarise on stamp paper.",
+    "hi": "शपथ घोषणाओं के लिए सामान्य प्रयोजन शपथ पत्र फॉर्मेट, स्टांप पेपर पर कस्टमाइज़ और नोटरी कराने के लिए तैयार।",
+    "ur": "حلفیہ اعلانات کے لیے عام مقصد کا حلف نامہ فارمیٹ، اسٹامپ پیپر پر حسب ضرورت تبدیلی اور نوٹری کے لیے تیار۔",
+    "bn": "শপথ ঘোষণার জন্য সাধারণ উদ্দেশ্যের হলফনামা ফরম্যাট, স্ট্যাম্প পেপারে কাস্টমাইজ ও নোটারি করার জন্য প্রস্তুত।"
+  },
+  "fileFormats": [
+    "pdf",
+    "docx"
+  ]
+}

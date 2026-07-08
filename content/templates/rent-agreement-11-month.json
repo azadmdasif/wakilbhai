@@ -1,0 +1,22 @@
+{
+  "slug": "rent-agreement-11-month",
+  "category": "property-tenancy",
+  "gated": false,
+  "relatedServiceId": "rent-agreement",
+  "title": {
+    "en": "11-Month Rent Agreement Format",
+    "hi": "11 महीने का किराया एग्रीमेंट फॉर्मेट",
+    "ur": "11 ماہ کا کرایہ نامہ فارمیٹ",
+    "bn": "১১ মাসের ভাড়া চুক্তির ফরম্যাট"
+  },
+  "description": {
+    "en": "Standard 11-month residential rent agreement format with clauses for rent, deposit, notice period and maintenance. Fill in your details and print on stamp paper.",
+    "hi": "किराया, डिपॉज़िट, नोटिस पीरियड और मेंटेनेंस की धाराओं वाला मानक 11 महीने का आवासीय किराया एग्रीमेंट फॉर्मेट। अपना विवरण भरें और स्टांप पेपर पर प्रिंट करें।",
+    "ur": "کرایہ، ڈپازٹ، نوٹس کی مدت اور دیکھ بھال کی شقوں کے ساتھ معیاری 11 ماہ کا رہائشی کرایہ نامہ فارمیٹ۔ اپنی تفصیلات بھریں اور اسٹامپ پیپر پر پرنٹ کریں۔",
+    "bn": "ভাড়া, ডিপোজিট, নোটিশ পিরিয়ড এবং রক্ষণাবেক্ষণের ধারা সহ স্ট্যান্ডার্ড ১১ মাসের আবাসিক ভাড়া চুক্তির ফরম্যাট। আপনার বিবরণ পূরণ করে স্ট্যাম্প পেপারে প্রিন্ট করুন।"
+  },
+  "fileFormats": [
+    "pdf",
+    "docx"
+  ]
+}

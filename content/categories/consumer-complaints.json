@@ -1,0 +1,17 @@
+{
+  "slug": "consumer-complaints",
+  "icon": "consumer",
+  "order": 4,
+  "title": {
+    "en": "Consumer Complaints",
+    "hi": "उपभोक्ता शिकायतें",
+    "ur": "صارفین کی شکایات",
+    "bn": "ভোক্তা অভিযোগ"
+  },
+  "description": {
+    "en": "Defective products, poor service, refund disputes and consumer forum complaints.",
+    "hi": "खराब सामान, घटिया सेवा, रिफंड विवाद और उपभोक्ता फोरम की शिकायतें।",
+    "ur": "ناقص مصنوعات، خراب سروس، رقم کی واپسی کے تنازعات اور کنزیومر فورم کی شکایات۔",
+    "bn": "ত্রুটিপূর্ণ পণ্য, খারাপ পরিষেবা, রিফান্ড বিরোধ এবং ভোক্তা ফোরামে অভিযোগ।"
+  }
+}

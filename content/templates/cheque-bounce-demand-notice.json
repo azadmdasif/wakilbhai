@@ -1,0 +1,22 @@
+{
+  "slug": "cheque-bounce-demand-notice",
+  "category": "money-recovery",
+  "gated": true,
+  "relatedServiceId": "legal-notice-cheque-bounce",
+  "title": {
+    "en": "Cheque Bounce Demand Notice Format (Sec 138)",
+    "hi": "चेक बाउंस डिमांड नोटिस फॉर्मेट (धारा 138)",
+    "ur": "چیک باؤنس ڈیمانڈ نوٹس فارمیٹ (دفعہ 138)",
+    "bn": "চেক বাউন্স ডিমান্ড নোটিশ ফরম্যাট (ধারা ১৩৮)"
+  },
+  "description": {
+    "en": "Format of the statutory demand notice under Section 138 of the Negotiable Instruments Act, to be sent within 30 days of the cheque return memo.",
+    "hi": "नेगोशिएबल इंस्ट्रूमेंट्स एक्ट की धारा 138 के तहत कानूनी डिमांड नोटिस का फॉर्मेट, जिसे चेक रिटर्न मेमो के 30 दिनों के भीतर भेजना होता है।",
+    "ur": "نیگوشی ایبل انسٹرومینٹس ایکٹ کی دفعہ 138 کے تحت قانونی ڈیمانڈ نوٹس کا فارمیٹ، جو چیک ریٹرن میمو کے 30 دن کے اندر بھیجنا ہوتا ہے۔",
+    "bn": "নেগোশিয়েবল ইনস্ট্রুমেন্টস আইনের ধারা ১৩৮ অনুযায়ী আইনি ডিমান্ড নোটিশের ফরম্যাট, যা চেক রিটার্ন মেমোর ৩০ দিনের মধ্যে পাঠাতে হয়।"
+  },
+  "fileFormats": [
+    "pdf",
+    "docx"
+  ]
+}

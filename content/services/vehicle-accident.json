@@ -1,0 +1,21 @@
+[
+  {
+    "id": "accident-affidavit",
+    "category": "vehicle-accident",
+    "title": {
+      "en": "Traffic/Accident Affidavit",
+      "hi": "यातायात/दुर्घटना शपथ पत्र",
+      "ur": "ٹریفک/حادثہ کا حلف نامہ",
+      "bn": "ট্রাফিক/দুর্ঘটনা হলফনামা"
+    },
+    "description": {
+      "en": "Preparing affidavits related to traffic incidents or accidents.",
+      "hi": "यातायात की घटनाओं या दुर्घटनाओं से संबंधित शपथ पत्र तैयार करना।",
+      "ur": "ٹریفک کے واقعات یا حادثات سے متعلق حلف نامے تیار کرنا۔",
+      "bn": "ট্রাফিক ঘটনা বা দুর্ঘটনা সম্পর্কিত হলফনামা প্রস্তুত করা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  }
+]

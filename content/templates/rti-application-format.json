@@ -1,0 +1,22 @@
+{
+  "slug": "rti-application-format",
+  "category": "government-paperwork",
+  "gated": false,
+  "relatedServiceId": "rti-application",
+  "title": {
+    "en": "RTI Application Format",
+    "hi": "RTI आवेदन फॉर्मेट",
+    "ur": "آر ٹی آئی درخواست فارمیٹ",
+    "bn": "RTI আবেদনের ফরম্যাট"
+  },
+  "description": {
+    "en": "Right to Information application format addressed to a Public Information Officer, with the standard fee and appeal structure explained.",
+    "hi": "जन सूचना अधिकारी को संबोधित सूचना का अधिकार आवेदन फॉर्मेट, मानक शुल्क और अपील प्रक्रिया की जानकारी के साथ।",
+    "ur": "پبلک انفارمیشن آفیسر کے نام معلومات تک رسائی کے حق کی درخواست کا فارمیٹ، معیاری فیس اور اپیل کے طریقہ کار کی وضاحت کے ساتھ۔",
+    "bn": "জনতথ্য আধিকারিককে সম্বোধন করা তথ্যের অধিকার আবেদনের ফরম্যাট, স্ট্যান্ডার্ড ফি এবং আপিল কাঠামোর ব্যাখ্যা সহ।"
+  },
+  "fileFormats": [
+    "pdf",
+    "docx"
+  ]
+}

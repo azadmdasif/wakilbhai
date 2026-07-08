@@ -1,0 +1,21 @@
+[
+  {
+    "id": "police-complaint-draft",
+    "category": "police-criminal",
+    "title": {
+      "en": "Police Complaint/FIR Draft",
+      "hi": "पुलिस शिकायत/एफआईआर का मसौदा",
+      "ur": "پولیس شکایت/ایف آئی آر کا مسودہ",
+      "bn": "পুলিশ অভিযোগ/এফআইআর খসড়া"
+    },
+    "description": {
+      "en": "Help with drafting police complaints and First Information Reports.",
+      "hi": "पुलिस शिकायतों और प्रथम सूचना रिपोर्ट का मसौदा तैयार करने में मदद।",
+      "ur": "پولیس شکایات اور فرسٹ انفارمیشن رپورٹس کا مسودہ تیار کرنے میں مدد۔",
+      "bn": "পুলিশি অভিযোগ এবং প্রথম তথ্য প্রতিবেদন খসড়া করতে সহায়তা।"
+    },
+    "priceINR": 199,
+    "deliveryDays": 2,
+    "type": "drafting"
+  }
+]

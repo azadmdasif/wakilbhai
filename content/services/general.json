@@ -1,0 +1,21 @@
+[
+  {
+    "id": "consultation-call",
+    "category": "general",
+    "type": "consultation",
+    "priceINR": 299,
+    "deliveryDays": 1,
+    "title": {
+      "en": "Consultation Call with an Advocate",
+      "hi": "वकील से परामर्श कॉल",
+      "ur": "وکیل سے مشاورتی کال",
+      "bn": "উকিলের সাথে পরামর্শ কল"
+    },
+    "description": {
+      "en": "A 20-minute phone consultation with a verified advocate to discuss your situation and understand your options. Scheduled within one working day.",
+      "hi": "अपनी स्थिति पर चर्चा करने और अपने विकल्प समझने के लिए एक सत्यापित वकील से 20 मिनट की फोन परामर्श। एक कार्य-दिवस के भीतर शेड्यूल।",
+      "ur": "اپنی صورتحال پر بات کرنے اور اپنے اختیارات سمجھنے کے لیے ایک تصدیق شدہ وکیل سے 20 منٹ کی فون مشاورت۔ ایک کاروباری دن کے اندر شیڈول۔",
+      "bn": "আপনার পরিস্থিতি নিয়ে আলোচনা এবং আপনার বিকল্পগুলি বোঝার জন্য একজন যাচাইকৃত উকিলের সাথে ২০ মিনিটের ফোন পরামর্শ। এক কর্মদিবসের মধ্যে নির্ধারিত।"
+    }
+  }
+]
