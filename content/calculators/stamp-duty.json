@@ -2,52 +2,236 @@
   "_comment": "ALL rates are indicative and flagged verify:true — check current state schedules before relying on them (tracked in VERIFY.md). Adding a state = adding a data entry; no code changes needed.",
   "states": {
     "delhi": {
-      "name": { "en": "Delhi", "hi": "दिल्ली", "ur": "دہلی", "bn": "দিল্লি" },
-      "rentAgreement": { "base": "avgAnnualRent", "pct": 2, "verify": true },
-      "saleDeed": { "base": "propertyValue", "pct": 6, "verify": true },
-      "giftDeed": { "base": "propertyValue", "pct": 6, "verify": true }
+      "name": {
+        "en": "Delhi",
+        "hi": "दिल्ली",
+        "ur": "دہلی",
+        "bn": "দিল্লি"
+      },
+      "rentAgreement": {
+        "base": "avgAnnualRent",
+        "pct": 2,
+        "verify": true
+      },
+      "saleDeed": {
+        "base": "propertyValue",
+        "pct": 6,
+        "verify": true
+      },
+      "giftDeed": {
+        "base": "propertyValue",
+        "pct": 6,
+        "verify": true
+      },
+      "rentNote": {
+        "en": "In Delhi, rent agreements are commonly executed on e-stamp paper (SHCIL). Agreements up to 11 months are usually notarised; 12 months or longer must be registered at the sub-registrar office.",
+        "hi": "दिल्ली में किराया एग्रीमेंट आम तौर पर ई-स्टांप पेपर (SHCIL) पर बनते हैं। 11 महीने तक के एग्रीमेंट अक्सर नोटरी कराए जाते हैं; 12 महीने या लंबे एग्रीमेंट का सब-रजिस्ट्रार कार्यालय में रजिस्ट्रेशन अनिवार्य है।",
+        "ur": "دہلی میں کرایہ نامے عام طور پر ای-اسٹامپ پیپر (SHCIL) پر بنتے ہیں۔ 11 ماہ تک کے معاہدے اکثر نوٹری کرائے جاتے ہیں؛ 12 ماہ یا لمبے معاہدے کی سب رجسٹرار دفتر میں رجسٹریشن لازمی ہے۔",
+        "bn": "দিল্লিতে ভাড়া চুক্তি সাধারণত ই-স্ট্যাম্প পেপারে (SHCIL) হয়। ১১ মাস পর্যন্ত চুক্তি সাধারণত নোটারি করানো হয়; ১২ মাস বা তার বেশি হলে সাব-রেজিস্ট্রার অফিসে রেজিস্ট্রেশন বাধ্যতামূলক।"
+      }
     },
     "maharashtra": {
-      "name": { "en": "Maharashtra", "hi": "महाराष्ट्र", "ur": "مہاراشٹر", "bn": "মহারাষ্ট্র" },
-      "rentAgreement": { "base": "totalRentPlusDeposit", "pct": 0.25, "verify": true },
-      "saleDeed": { "base": "propertyValue", "pct": 6, "verify": true },
-      "giftDeed": { "base": "propertyValue", "pct": 3, "verify": true }
+      "name": {
+        "en": "Maharashtra",
+        "hi": "महाराष्ट्र",
+        "ur": "مہاراشٹر",
+        "bn": "মহারাষ্ট্র"
+      },
+      "rentAgreement": {
+        "base": "totalRentPlusDeposit",
+        "pct": 0.25,
+        "verify": true
+      },
+      "saleDeed": {
+        "base": "propertyValue",
+        "pct": 6,
+        "verify": true
+      },
+      "giftDeed": {
+        "base": "propertyValue",
+        "pct": 3,
+        "verify": true
+      },
+      "rentNote": {
+        "en": "Maharashtra requires every leave-and-licence agreement to be registered regardless of duration, and offers convenient online e-registration with Aadhaar e-KYC — no sub-registrar visit needed in most cases.",
+        "hi": "महाराष्ट्र में हर लीव-एंड-लाइसेंस एग्रीमेंट का रजिस्ट्रेशन अनिवार्य है, अवधि चाहे जो हो। आधार e-KYC के साथ सुविधाजनक ऑनलाइन ई-रजिस्ट्रेशन उपलब्ध है — ज़्यादातर मामलों में सब-रजिस्ट्रार जाने की ज़रूरत नहीं।",
+        "ur": "مہاراشٹر میں ہر لیو اینڈ لائسنس معاہدے کی رجسٹریشن لازمی ہے، مدت کچھ بھی ہو۔ آدھار e-KYC کے ساتھ آسان آن لائن ای-رجسٹریشن دستیاب ہے — زیادہ تر معاملات میں سب رجسٹرار جانے کی ضرورت نہیں۔",
+        "bn": "মহারাষ্ট্রে প্রতিটি লিভ-অ্যান্ড-লাইসেন্স চুক্তির রেজিস্ট্রেশন বাধ্যতামূলক, মেয়াদ যাই হোক। আধার e-KYC সহ সুবিধাজনক অনলাইন ই-রেজিস্ট্রেশন আছে — বেশিরভাগ ক্ষেত্রে সাব-রেজিস্ট্রার অফিসে যেতে হয় না।"
+      }
     },
     "karnataka": {
-      "name": { "en": "Karnataka", "hi": "कर्नाटक", "ur": "کرناٹک", "bn": "কর্ণাটক" },
-      "rentAgreement": { "base": "avgAnnualRent", "pct": 0.5, "verify": true },
-      "saleDeed": { "base": "propertyValue", "pct": 5.6, "verify": true },
-      "giftDeed": { "base": "propertyValue", "pct": 5.6, "verify": true }
+      "name": {
+        "en": "Karnataka",
+        "hi": "कर्नाटक",
+        "ur": "کرناٹک",
+        "bn": "কর্ণাটক"
+      },
+      "rentAgreement": {
+        "base": "avgAnnualRent",
+        "pct": 0.5,
+        "verify": true
+      },
+      "saleDeed": {
+        "base": "propertyValue",
+        "pct": 5.6,
+        "verify": true
+      },
+      "giftDeed": {
+        "base": "propertyValue",
+        "pct": 5.6,
+        "verify": true
+      },
+      "rentNote": {
+        "en": "In Karnataka (including Bengaluru), 11-month agreements on e-stamp paper are the norm, and large security deposits (often 5–10 months of rent) are a local peculiarity — make sure the refund clause is explicit.",
+        "hi": "कर्नाटक (बेंगलुरु समेत) में ई-स्टांप पेपर पर 11 महीने के एग्रीमेंट प्रचलित हैं, और बड़ा सिक्योरिटी डिपॉज़िट (अक्सर 5–10 महीने का किराया) स्थानीय चलन है — वापसी की धारा स्पष्ट लिखवाएं।",
+        "ur": "کرناٹک (بنگلورو سمیت) میں ای-اسٹامپ پیپر پر 11 ماہ کے معاہدے رائج ہیں، اور بڑا سیکیورٹی ڈپازٹ (اکثر 5–10 ماہ کا کرایہ) مقامی رواج ہے — واپسی کی شق واضح لکھوائیں۔",
+        "bn": "কর্ণাটকে (বেঙ্গালুরুসহ) ই-স্ট্যাম্প পেপারে ১১ মাসের চুক্তিই প্রচলিত, আর বড় সিকিউরিটি ডিপোজিট (প্রায়ই ৫–১০ মাসের ভাড়া) স্থানীয় রীতি — ফেরতের ধারা স্পষ্টভাবে লেখান।"
+      }
     },
     "uttar-pradesh": {
-      "name": { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश", "ur": "اتر پردیش", "bn": "উত্তরপ্রদেশ" },
-      "rentAgreement": { "base": "avgAnnualRent", "pct": 2, "verify": true },
-      "saleDeed": { "base": "propertyValue", "pct": 7, "verify": true },
-      "giftDeed": { "base": "propertyValue", "pct": 7, "verify": true }
+      "name": {
+        "en": "Uttar Pradesh",
+        "hi": "उत्तर प्रदेश",
+        "ur": "اتر پردیش",
+        "bn": "উত্তরপ্রদেশ"
+      },
+      "rentAgreement": {
+        "base": "avgAnnualRent",
+        "pct": 2,
+        "verify": true
+      },
+      "saleDeed": {
+        "base": "propertyValue",
+        "pct": 7,
+        "verify": true
+      },
+      "giftDeed": {
+        "base": "propertyValue",
+        "pct": 7,
+        "verify": true
+      },
+      "rentNote": {
+        "en": "In Uttar Pradesh, 11-month notarised agreements on stamp paper are standard for residential lets; longer leases need registration with duty on the rent value.",
+        "hi": "उत्तर प्रदेश में आवासीय किरायेदारी के लिए स्टांप पेपर पर 11 महीने के नोटरीकृत एग्रीमेंट मानक हैं; लंबी लीज़ के लिए किराया मूल्य पर ड्यूटी के साथ रजिस्ट्रेशन ज़रूरी है।",
+        "ur": "اتر پردیش میں رہائشی کرایہ داری کے لیے اسٹامپ پیپر پر 11 ماہ کے نوٹری شدہ معاہدے معیاری ہیں؛ لمبی لیز کے لیے کرائے کی مالیت پر ڈیوٹی کے ساتھ رجسٹریشن ضروری ہے۔",
+        "bn": "উত্তরপ্রদেশে আবাসিক ভাড়ায় স্ট্যাম্প পেপারে ১১ মাসের নোটারি করা চুক্তিই মানক; লম্বা লিজে ভাড়ার মূল্যের উপর ডিউটিসহ রেজিস্ট্রেশন লাগে।"
+      }
     },
     "west-bengal": {
-      "name": { "en": "West Bengal", "hi": "पश्चिम बंगाल", "ur": "مغربی بنگال", "bn": "পশ্চিমবঙ্গ" },
-      "rentAgreement": { "base": "avgAnnualRent", "pct": 0.5, "verify": true },
-      "saleDeed": { "base": "propertyValue", "pct": 6, "verify": true },
-      "giftDeed": { "base": "propertyValue", "pct": 6, "verify": true }
+      "name": {
+        "en": "West Bengal",
+        "hi": "पश्चिम बंगाल",
+        "ur": "مغربی بنگال",
+        "bn": "পশ্চিমবঙ্গ"
+      },
+      "rentAgreement": {
+        "base": "avgAnnualRent",
+        "pct": 0.5,
+        "verify": true
+      },
+      "saleDeed": {
+        "base": "propertyValue",
+        "pct": 6,
+        "verify": true
+      },
+      "giftDeed": {
+        "base": "propertyValue",
+        "pct": 6,
+        "verify": true
+      },
+      "rentNote": {
+        "en": "In West Bengal, short residential agreements are usually notarised on stamp paper; registration applies to leases of a year or more, and Kolkata deals often route through local registration offices for longer terms.",
+        "hi": "पश्चिम बंगाल में छोटे आवासीय एग्रीमेंट आम तौर पर स्टांप पेपर पर नोटरी होते हैं; एक साल या लंबी लीज़ पर रजिस्ट्रेशन लागू है।",
+        "ur": "مغربی بنگال میں مختصر رہائشی معاہدے عام طور پر اسٹامپ پیپر پر نوٹری ہوتے ہیں؛ ایک سال یا لمبی لیز پر رجسٹریشن لاگو ہے۔",
+        "bn": "পশ্চিমবঙ্গে ছোট আবাসিক চুক্তি সাধারণত স্ট্যাম্প পেপারে নোটারি হয়; এক বছর বা বেশি মেয়াদের লিজে রেজিস্ট্রেশন প্রযোজ্য, কলকাতায় লম্বা মেয়াদের চুক্তি স্থানীয় রেজিস্ট্রেশন অফিসের মাধ্যমেই হয়।"
+      }
     },
     "tamil-nadu": {
-      "name": { "en": "Tamil Nadu", "hi": "तमिलनाडु", "ur": "تمل ناڈو", "bn": "তামিলনাড়ু" },
-      "rentAgreement": { "base": "totalRentPlusDeposit", "pct": 1, "verify": true },
-      "saleDeed": { "base": "propertyValue", "pct": 7, "verify": true },
-      "giftDeed": { "base": "propertyValue", "pct": 7, "verify": true }
+      "name": {
+        "en": "Tamil Nadu",
+        "hi": "तमिलनाडु",
+        "ur": "تمل ناڈو",
+        "bn": "তামিলনাড়ু"
+      },
+      "rentAgreement": {
+        "base": "totalRentPlusDeposit",
+        "pct": 1,
+        "verify": true
+      },
+      "saleDeed": {
+        "base": "propertyValue",
+        "pct": 7,
+        "verify": true
+      },
+      "giftDeed": {
+        "base": "propertyValue",
+        "pct": 7,
+        "verify": true
+      },
+      "rentNote": {
+        "en": "Tamil Nadu computes duty on rent plus deposit (subject to caps), and Chennai landlords commonly take sizeable advances — record the advance and its refund timeline explicitly in the agreement.",
+        "hi": "तमिलनाडु में ड्यूटी किराया + डिपॉज़िट पर (सीमा सहित) लगती है, और चेन्नई में मकान मालिक अक्सर बड़ा एडवांस लेते हैं — एडवांस और उसकी वापसी की समय-सीमा एग्रीमेंट में स्पष्ट दर्ज कराएं।",
+        "ur": "تمل ناڈو میں ڈیوٹی کرایہ + ڈپازٹ پر (حد کے ساتھ) لگتی ہے، اور چنئی میں مالک مکان اکثر بڑا ایڈوانس لیتے ہیں — ایڈوانس اور اس کی واپسی کی مدت معاہدے میں واضح درج کرائیں۔",
+        "bn": "তামিলনাড়ুতে ডিউটি ভাড়া + ডিপোজিটের উপর (ঊর্ধ্বসীমাসহ) হয়, আর চেন্নাইয়ে বাড়িওয়ালারা প্রায়ই বড় অ্যাডভান্স নেন — অ্যাডভান্স ও তার ফেরতের সময়সীমা চুক্তিতে স্পষ্ট লেখান।"
+      }
     },
     "telangana": {
-      "name": { "en": "Telangana", "hi": "तेलंगाना", "ur": "تلنگانہ", "bn": "তেলেঙ্গানা" },
-      "rentAgreement": { "base": "avgAnnualRent", "pct": 0.4, "verify": true },
-      "saleDeed": { "base": "propertyValue", "pct": 4, "verify": true },
-      "giftDeed": { "base": "propertyValue", "pct": 4, "verify": true }
+      "name": {
+        "en": "Telangana",
+        "hi": "तेलंगाना",
+        "ur": "تلنگانہ",
+        "bn": "তেলেঙ্গানা"
+      },
+      "rentAgreement": {
+        "base": "avgAnnualRent",
+        "pct": 0.4,
+        "verify": true
+      },
+      "saleDeed": {
+        "base": "propertyValue",
+        "pct": 4,
+        "verify": true
+      },
+      "giftDeed": {
+        "base": "propertyValue",
+        "pct": 4,
+        "verify": true
+      },
+      "rentNote": {
+        "en": "In Telangana (including Hyderabad), 11-month agreements on stamp paper are standard; duty on short residential agreements is modest, and registration applies to longer leases.",
+        "hi": "तेलंगाना (हैदराबाद समेत) में स्टांप पेपर पर 11 महीने के एग्रीमेंट मानक हैं; छोटे आवासीय एग्रीमेंट पर ड्यूटी मामूली है, लंबी लीज़ पर रजिस्ट्रेशन लागू है।",
+        "ur": "تلنگانہ (حیدرآباد سمیت) میں اسٹامپ پیپر پر 11 ماہ کے معاہدے معیاری ہیں؛ مختصر رہائشی معاہدوں پر ڈیوٹی معمولی ہے، لمبی لیز پر رجسٹریشن لاگو ہے۔",
+        "bn": "তেলেঙ্গানায় (হায়দরাবাদসহ) স্ট্যাম্প পেপারে ১১ মাসের চুক্তিই মানক; ছোট আবাসিক চুক্তিতে ডিউটি সামান্য, লম্বা লিজে রেজিস্ট্রেশন প্রযোজ্য।"
+      }
     },
     "gujarat": {
-      "name": { "en": "Gujarat", "hi": "गुजरात", "ur": "گجرات", "bn": "গুজরাট" },
-      "rentAgreement": { "base": "avgAnnualRent", "pct": 1, "verify": true },
-      "saleDeed": { "base": "propertyValue", "pct": 4.9, "verify": true },
-      "giftDeed": { "base": "propertyValue", "pct": 4.9, "verify": true }
+      "name": {
+        "en": "Gujarat",
+        "hi": "गुजरात",
+        "ur": "گجرات",
+        "bn": "গুজরাট"
+      },
+      "rentAgreement": {
+        "base": "avgAnnualRent",
+        "pct": 1,
+        "verify": true
+      },
+      "saleDeed": {
+        "base": "propertyValue",
+        "pct": 4.9,
+        "verify": true
+      },
+      "giftDeed": {
+        "base": "propertyValue",
+        "pct": 4.9,
+        "verify": true
+      },
+      "rentNote": {
+        "en": "In Gujarat, residential rent agreements are usually executed on e-stamp paper and notarised; Ahmedabad and Surat also see registered leases for commercial premises where terms run longer.",
+        "hi": "गुजरात में आवासीय किराया एग्रीमेंट आम तौर पर ई-स्टांप पेपर पर बनाकर नोटरी कराए जाते हैं; लंबी अवधि के व्यावसायिक परिसरों के लिए अहमदाबाद और सूरत में रजिस्टर्ड लीज़ भी आम हैं।",
+        "ur": "گجرات میں رہائشی کرایہ نامے عام طور پر ای-اسٹامپ پیپر پر بنا کر نوٹری کرائے جاتے ہیں؛ لمبی مدت کے تجارتی مقامات کے لیے احمد آباد اور سورت میں رجسٹرڈ لیز بھی عام ہیں۔",
+        "bn": "গুজরাটে আবাসিক ভাড়া চুক্তি সাধারণত ই-স্ট্যাম্প পেপারে করে নোটারি করানো হয়; লম্বা মেয়াদের বাণিজ্যিক জায়গায় আহমেদাবাদ ও সুরাটে রেজিস্টার্ড লিজও প্রচলিত।"
+      }
     }
   }
 }

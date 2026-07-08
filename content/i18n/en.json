@@ -286,6 +286,25 @@
         "countedYears": "Years counted (6+ extra months round up)",
         "capNote": "Capped at the statutory maximum of ₹20,00,000."
       }
+    },
+    "city": {
+      "title": "Rent Agreement in {city} — Stamp Duty, Process and Online Drafting",
+      "metaDesc": "How to make a rent agreement in {city}, {state}: stamp duty, notarisation vs registration, and professional drafting delivered online.",
+      "intro": "Making a rent agreement in {city} follows {state} rules: the agreement is drafted, printed on stamp paper of the correct value, signed by landlord and tenant with two witnesses, and then notarised or registered as required. WakilBhai drafts rent agreements for {city} online — you receive a ready-to-print draft with the exact stamp value to buy, without visiting an office.",
+      "dutyHeading": "Stamp duty on rent agreements in {state}",
+      "dutyAnnual": "In {state}, stamp duty on a residential rent agreement is typically {pct}% of the annual rent.",
+      "dutyTotal": "In {state}, stamp duty is typically {pct}% of the total rent for the term plus the security deposit.",
+      "dutyExample": "Example: for a monthly rent of ₹{rent} on an 11-month agreement, that works out to roughly ₹{duty}.",
+      "processHeading": "How it works for {city}",
+      "faq1q": "Is an online rent agreement valid in {city}?",
+      "faq1a": "Yes. An agreement drafted online and executed on stamp paper of the correct value for {state}, signed by both parties with two witnesses and notarised or registered as required, is fully valid in {city}.",
+      "faq2q": "How much stamp duty will I pay in {city}?",
+      "faq2a": "For a typical residential agreement in {state}: {dutyLine} Registration fees and notary charges are extra. Verify current rates before buying stamp paper.",
+      "faq3q": "How fast can WakilBhai deliver a rent agreement draft for {city}?",
+      "faq3a": "Drafts are typically delivered within 2 working days for ₹199, including the clause checklist and the exact stamp value to buy for {state}.",
+      "linksHeading": "Useful next steps",
+      "guideLink": "Read the full rent agreement guide",
+      "calcLink": "Calculate your exact stamp duty"
     }
   }
 }

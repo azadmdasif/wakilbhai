@@ -13,6 +13,7 @@ export default function robots(): MetadataRoute.Robots {
       `${SITE_URL}/sitemap/guides.xml`,
       `${SITE_URL}/sitemap/templates.xml`,
       `${SITE_URL}/sitemap/services.xml`,
+      `${SITE_URL}/sitemap/locations.xml`,
     ],
   };
 }

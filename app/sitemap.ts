@@ -3,11 +3,12 @@ import { locales, localePath } from '@/lib/i18n';
 import { SITE_URL } from '@/lib/site';
 import { getCategories, getGuideMetas, getServices, getTemplates } from '@/lib/content';
 import { getTools } from '@/lib/tools';
+import { getBuildableCities } from '@/lib/locations';
 
 // Split sitemaps by content type: /sitemap/static.xml, /sitemap/guides.xml,
 // /sitemap/templates.xml, /sitemap/services.xml
 export function generateSitemaps() {
-  return [{ id: 'static' }, { id: 'guides' }, { id: 'templates' }, { id: 'services' }];
+  return [{ id: 'static' }, { id: 'guides' }, { id: 'templates' }, { id: 'services' }, { id: 'locations' }];
 }
 
 function entriesFor(paths: { path: string; lastModified?: string; priority?: number }[]): MetadataRoute.Sitemap {
@@ -45,6 +46,8 @@ export default function sitemap({ id }: { id: string }): MetadataRoute.Sitemap {
         { path: '/templates', priority: 0.8 },
         ...getTemplates().map((t) => ({ path: `/templates/${t.slug}` })),
       ]);
+    case 'locations':
+      return entriesFor(getBuildableCities().map((city) => ({ path: `/rent-agreement/${city.slug}`, priority: 0.8 })));
     case 'services':
       return entriesFor([
         { path: '/services', priority: 0.8 },
