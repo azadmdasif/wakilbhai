@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { localeAlternates } from '@/lib/seo';
@@ -42,7 +43,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <div className="space-y-20 md:space-y-24">
       {/* Search-first hero */}
-      <section className="relative bg-cover bg-center rounded-3xl overflow-hidden" style={{ backgroundImage: "url('/hero.png')" }}>
+      <section className="relative rounded-3xl overflow-hidden">
+        <Image src="/hero.png" alt="" fill priority sizes="100vw" className="object-cover" aria-hidden />
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative text-center pt-20 pb-24 px-4">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white font-display tracking-tight mb-3">

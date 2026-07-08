@@ -2,12 +2,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { localePath, type Locale } from '@/lib/i18n';
 import type { Dict } from '@/lib/dictionaries';
+import { getGuideMetas } from '@/lib/content';
 import { TwitterIcon, FacebookIcon, LinkedInIcon } from './Icons';
 
 export default function Footer({ locale, dict }: { locale: Locale; dict: Dict }) {
   const year = new Date().getFullYear();
   const navT = dict.nav;
   const href = (path: string) => localePath(locale, path);
+  // Internal linking: surface the top guides on every page.
+  const topGuides = getGuideMetas().slice(0, 10);
 
   return (
     <footer className="bg-black text-gray-400">
@@ -50,6 +53,20 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: Dict })
             </ul>
           </div>
         </div>
+        {topGuides.length > 0 && (
+          <div className="mt-12 border-t border-gray-800 pt-8">
+            <h3 className="text-sm font-semibold text-white mb-4">{dict.ui.guide.breadcrumbHelp}</h3>
+            <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm">
+              {topGuides.map((guide) => (
+                <li key={guide.slug}>
+                  <Link href={href(`/help/${guide.category}/${guide.slug}`)} className="hover:text-brand-gold transition-colors">
+                    {guide.title[locale]}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
         <div className="mt-12 border-t border-gray-800 pt-8 text-center text-sm">
           <p>&copy; {year} WakilBhai. {dict.common.allRightsReserved}</p>
           <p className="mt-2 text-xs max-w-2xl mx-auto">

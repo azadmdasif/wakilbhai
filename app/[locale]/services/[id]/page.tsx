@@ -7,6 +7,8 @@ import { localeAlternates } from '@/lib/seo';
 import { getCategory, getGuideMetas, getService, getServices } from '@/lib/content';
 import { whatsAppUrlFor } from '@/lib/whatsapp';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd from '@/components/JsonLd';
+import { serviceJsonLd } from '@/lib/jsonld';
 import { ClockIcon, WhatsAppIcon } from '@/components/Icons';
 
 export function generateStaticParams() {
@@ -47,6 +49,7 @@ export default async function ServicePage({ params }: { params: Promise<{ locale
 
   return (
     <div className="max-w-3xl mx-auto pb-24 lg:pb-0">
+      <JsonLd data={serviceJsonLd(service, locale)} />
       <Breadcrumbs
         crumbs={[
           { label: dict.ui.guide.breadcrumbHome, href: href('/') },

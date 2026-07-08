@@ -9,6 +9,8 @@ import { SITE_URL, GTAG_ID } from '@/lib/site';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import JsonLd from '@/components/JsonLd';
+import { organizationJsonLd } from '@/lib/jsonld';
 import '../globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
@@ -70,6 +72,16 @@ export default async function LocaleLayout({
 
   return (
     <html lang={localeLang[locale]} dir={dir(locale)} className={`${inter.variable} ${exo2.variable}`}>
+      <head>
+        {/* Legacy SPA used hash routing (/#/services); hashes never reach the
+            server, so map them to real paths on first paint. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `if(location.hash.indexOf('#/')===0){location.replace(location.hash.slice(1))}`,
+          }}
+        />
+        <JsonLd data={organizationJsonLd()} />
+      </head>
       <body className="font-sans bg-brand-dark text-gray-100">
         <div className="min-h-screen flex flex-col">
           <Header locale={locale} nav={nav} resources={resources} />

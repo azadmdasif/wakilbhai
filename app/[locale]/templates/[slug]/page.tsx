@@ -6,6 +6,8 @@ import { getDict } from '@/lib/dictionaries';
 import { localeAlternates } from '@/lib/seo';
 import { getCategory, getService, getTemplate, getTemplates, getGuideMetas } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd from '@/components/JsonLd';
+import { templateJsonLd } from '@/lib/jsonld';
 import TemplateDownload from '@/components/TemplateDownload';
 import ConversionRail from '@/components/ConversionRail';
 
@@ -43,6 +45,7 @@ export default async function TemplatePage({ params }: { params: Promise<{ local
 
   return (
     <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-10 pb-24 lg:pb-0">
+      <JsonLd data={templateJsonLd(template, locale)} />
       <article>
         <Breadcrumbs
           crumbs={[

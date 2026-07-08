@@ -7,6 +7,8 @@ import { localeAlternates } from '@/lib/seo';
 import { SITE_URL } from '@/lib/site';
 import { getCategory, getGuide, getGuideMeta, getGuideMetas, getService, getTemplate } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd from '@/components/JsonLd';
+import { breadcrumbJsonLd, faqJsonLd, guideArticleJsonLd } from '@/lib/jsonld';
 import MdxContent from '@/components/MdxContent';
 import FaqAccordion from '@/components/FaqAccordion';
 import ConversionRail from '@/components/ConversionRail';
@@ -60,6 +62,18 @@ export default async function GuidePage({
 
   return (
     <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-10 pb-24 lg:pb-0">
+      <JsonLd
+        data={[
+          guideArticleJsonLd(guide, locale),
+          faqJsonLd(guide.faqs[locale]),
+          breadcrumbJsonLd([
+            { name: dict.ui.guide.breadcrumbHome, url: `${SITE_URL}${href('/')}` },
+            { name: dict.ui.guide.breadcrumbHelp, url: `${SITE_URL}${href('/help')}` },
+            { name: category.title[locale], url: `${SITE_URL}${href(`/help/${categorySlug}`)}` },
+            { name: guide.title[locale] },
+          ]),
+        ]}
+      />
       <article>
         <Breadcrumbs
           crumbs={[
