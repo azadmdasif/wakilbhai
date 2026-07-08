@@ -12,6 +12,7 @@ import { breadcrumbJsonLd, faqJsonLd, guideArticleJsonLd } from '@/lib/jsonld';
 import MdxContent from '@/components/MdxContent';
 import FaqAccordion from '@/components/FaqAccordion';
 import ConversionRail from '@/components/ConversionRail';
+import AskWidget from '@/components/AskWidget';
 import { DownloadIcon } from '@/components/Icons';
 
 export function generateStaticParams() {
@@ -135,6 +136,8 @@ export default async function GuidePage({
               </div>
             </section>
           )}
+
+          <AskWidget locale={locale} strings={dict.ui.askWidget} source={`guide:${guide.slug}`} />
 
           <p className="text-xs text-gray-500 border-t border-gray-800 pt-6">{dict.ui.guide.disclaimer}</p>
         </div>

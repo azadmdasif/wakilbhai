@@ -305,6 +305,21 @@
       "linksHeading": "Useful next steps",
       "guideLink": "Read the full rent agreement guide",
       "calcLink": "Calculate your exact stamp duty"
+    },
+    "askWidget": {
+      "title": "Ask WakilBhai",
+      "subtitle": "Free AI helper for general questions about Indian legal processes.",
+      "placeholder": "Type your question…",
+      "send": "Send",
+      "thinking": "Thinking…",
+      "error": "Something went wrong. Please try again, or ask us on WhatsApp.",
+      "phonePrompt": "Share your WhatsApp number so we can follow up with the right help.",
+      "phonePlaceholder": "WhatsApp number",
+      "phoneSubmit": "Save",
+      "phoneThanks": "Thanks! We will follow up on WhatsApp.",
+      "capReached": "Let us take this ahead personally — message us on WhatsApp and a documentation expert will pick it up.",
+      "disclaimer": "AI answers are general information, not legal advice.",
+      "open": "Ask a question"
     }
   }
 }

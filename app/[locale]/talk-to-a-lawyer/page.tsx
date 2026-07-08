@@ -6,6 +6,7 @@ import { localeAlternates } from '@/lib/seo';
 import { whatsAppUrlFor } from '@/lib/whatsapp';
 import PageHeading from '@/components/PageHeading';
 import LeadForm from '@/components/LeadForm';
+import AskWidget from '@/components/AskWidget';
 import { WhatsAppIcon, PhoneIcon } from '@/components/Icons';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -80,6 +81,9 @@ export default async function TalkToLawyerPage({ params }: { params: Promise<{ l
             selectPlaceholder={T.selectDefault}
           />
         </div>
+      </div>
+      <div className="max-w-5xl mx-auto mt-8">
+        <AskWidget locale={locale} strings={dict.ui.askWidget} source="talk-to-a-lawyer" />
       </div>
       <p className="text-xs text-gray-500 text-center max-w-2xl mx-auto mt-10">{dict.ui.guide.disclaimer}</p>
     </div>

@@ -42,6 +42,18 @@ Remove entries as they are verified.
 - [ ] **Gratuity cap** — lib/calculators.ts assumes the ₹20 lakh statutory
       maximum; confirm the current notified ceiling.
 
+## Deployment prerequisites
+
+- [ ] Set `GEMINI_API_KEY` in the Vercel project environment (server-side
+      only). Without it, /api/ask returns 503 and the chat widget shows
+      its error + WhatsApp fallback. The key was previously in
+      `.env.local` for the Vite app and is not committed.
+- [ ] Optionally set `WEB3FORMS_ACCESS_KEY` to override the public site
+      key baked into the forms (carried over from the legacy SPA).
+- [ ] Assistant live behaviour (answers in 4 languages, refusal of
+      case-specific advice, handoff) is encoded in the system prompt in
+      lib/assistant.ts but needs a smoke test once the key is set.
+
 ## Deliberate migration decisions (for the owner to confirm)
 
 - [ ] **Legacy blog not ported.** All three legacy blog posts contained

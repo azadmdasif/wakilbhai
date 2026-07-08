@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import type { Locale } from '@/lib/i18n';
 import { whatsAppUrlFor } from '@/lib/whatsapp';
+import { trackEvent } from '@/lib/analytics';
 import Modal from './Modal';
 import { DownloadIcon } from './Icons';
 
@@ -45,6 +46,7 @@ export default function TemplateDownload({ locale, slug, title, gated, formats, 
 
   const startDownload = (format: string) => {
     if (!gated) {
+      trackEvent('template_download', { template: slug, format, gated: false });
       triggerDownload(fileUrl(slug, format));
       return;
     }
@@ -69,6 +71,8 @@ export default function TemplateDownload({ locale, slug, title, gated, formats, 
       });
       if (!res.ok) throw new Error('lead-failed');
       setState('done');
+      trackEvent('template_download', { template: slug, format: pendingFormat, gated: true });
+      trackEvent('lead_submitted', { source: 'template' });
       triggerDownload(fileUrl(slug, pendingFormat));
       // Follow-up channel: open WhatsApp with a thank-you/upsell message.
       window.open(whatsAppUrlFor(locale, { kind: 'template', title }), '_blank', 'noopener');

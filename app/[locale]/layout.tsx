@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Script from 'next/script';
+import { Analytics } from '@vercel/analytics/next';
 import { Inter, Exo_2 } from 'next/font/google';
 import { locales, isLocale, dir, localeLang, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
@@ -90,6 +91,7 @@ export default async function LocaleLayout({
           <Footer locale={locale} dict={dict} />
           <WhatsAppButton label={dict.common.whatsappCta} />
         </div>
+        <Analytics />
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GTAG_ID}`} strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];

@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import type { Locale } from '@/lib/i18n';
 import { computeStampDuty, type StampDocType, type StampDutyData } from '@/lib/calculators';
 import { whatsAppUrlFor } from '@/lib/whatsapp';
+import { trackEvent } from '@/lib/analytics';
 import type { Dict } from '@/lib/dictionaries';
 import { WhatsAppIcon } from '../Icons';
 
@@ -50,6 +51,7 @@ export default function StampDutyCalculator({ locale, data, strings }: Props) {
         onSubmit={(e) => {
           e.preventDefault();
           setSubmitted(true);
+          trackEvent('calculator_complete', { calculator: 'stamp-duty', state, docType });
         }}
       >
         <div className="grid sm:grid-cols-2 gap-5">

@@ -6,6 +6,7 @@ import type Fuse from 'fuse.js';
 import type { Locale } from '@/lib/i18n';
 import type { SearchDoc } from '@/lib/search';
 import { whatsAppUrlFor } from '@/lib/whatsapp';
+import { trackEvent } from '@/lib/analytics';
 import { SearchIcon, WhatsAppIcon } from './Icons';
 
 interface SearchBoxProps {
@@ -57,6 +58,8 @@ export default function SearchBox({ locale, placeholder, label, noResultsText, a
     return () => document.removeEventListener('mousedown', onClickOutside);
   }, []);
 
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
   const onChange = async (value: string) => {
     setQuery(value);
     setOpen(true);
@@ -65,7 +68,13 @@ export default function SearchBox({ locale, placeholder, label, noResultsText, a
       setResults([]);
       return;
     }
-    setResults(fuseRef.current.search(value).slice(0, 8).map((r) => r.item));
+    const found = fuseRef.current.search(value).slice(0, 8).map((r) => r.item);
+    setResults(found);
+    // Debounced funnel events: what people search, and what we miss.
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => {
+      trackEvent(found.length === 0 ? 'search_zero_results' : 'search', { query: value.trim().slice(0, 100), locale });
+    }, 800);
   };
 
   const showNoResults = open && query.trim().length >= 2 && results.length === 0 && fuseRef.current !== null;

@@ -5,6 +5,7 @@ import type { Locale } from '@/lib/i18n';
 import { localeLang } from '@/lib/i18n';
 import { computeChequeBounce } from '@/lib/calculators';
 import { whatsAppUrlFor } from '@/lib/whatsapp';
+import { trackEvent } from '@/lib/analytics';
 import type { Dict } from '@/lib/dictionaries';
 import { WhatsAppIcon } from '../Icons';
 
@@ -46,6 +47,7 @@ export default function ChequeBounceCalculator({ locale, strings }: Props) {
         onSubmit={(e) => {
           e.preventDefault();
           setSubmitted(true);
+          trackEvent('calculator_complete', { calculator: 'cheque-bounce' });
         }}
       >
         <div>
