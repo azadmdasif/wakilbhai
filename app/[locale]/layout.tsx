@@ -53,6 +53,7 @@ export default async function LocaleLayout({
 
   const nav = [
     { path: '/', text: navT.home },
+    { path: '/help', text: navT.guides },
     { path: '/services', text: navT.services },
     { path: '/pricing', text: navT.pricing },
     { path: '/talk-to-a-lawyer', text: navT.ask },
@@ -60,6 +61,8 @@ export default async function LocaleLayout({
   const resources = {
     label: navT.resources,
     items: [
+      { path: '/templates', text: navT.documents },
+      { path: '/lawyers', text: navT.findLawyer },
       { path: '/why-wakilbhai', text: navT.whyUs },
       { path: '/contact', text: navT.contact },
     ],

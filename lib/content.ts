@@ -61,6 +61,56 @@ export const serviceSchema: z.ZodType<PaidService> = z.object({
   type: z.enum(['drafting', 'legal-notice', 'consultation', 'registration']),
 });
 
+export interface Lawyer {
+  id: string;
+  name: string;
+  practiceAreas: string[];
+  bio: Record<'en' | 'hi' | 'ur' | 'bn', string>;
+  location: string;
+  languages: string[];
+}
+
+export interface Testimonial {
+  id: number;
+  name: string;
+  location: string;
+  feedback: Record<'en' | 'hi' | 'ur' | 'bn', string>;
+}
+
+const lawyerSchema: z.ZodType<Lawyer> = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  practiceAreas: z.array(z.string()),
+  bio: localizedString,
+  location: z.string().min(1),
+  languages: z.array(z.string()),
+});
+
+const testimonialSchema: z.ZodType<Testimonial> = z.object({
+  id: z.number(),
+  name: z.string().min(1),
+  location: z.string().min(1),
+  feedback: localizedString,
+});
+
+export const getLawyers = cache((): Lawyer[] => {
+  const file = path.join(CONTENT_DIR, 'lawyers.json');
+  if (!fs.existsSync(file)) return [];
+  const data = JSON.parse(fs.readFileSync(file, 'utf8')) as unknown[];
+  return data
+    .map((item) => lawyerSchema.parse(item))
+    .sort((a, b) => a.name.localeCompare(b.name)); // neutral listing: alphabetical
+});
+
+export const getLawyer = (id: string): Lawyer | undefined => getLawyers().find((l) => l.id === id);
+
+export const getTestimonials = cache((): Testimonial[] => {
+  const file = path.join(CONTENT_DIR, 'testimonials.json');
+  if (!fs.existsSync(file)) return [];
+  const data = JSON.parse(fs.readFileSync(file, 'utf8')) as unknown[];
+  return data.map((item) => testimonialSchema.parse(item));
+});
+
 function readJsonFiles(dir: string): { file: string; data: unknown }[] {
   const abs = path.join(CONTENT_DIR, dir);
   if (!fs.existsSync(abs)) return [];

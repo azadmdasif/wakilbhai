@@ -3,7 +3,10 @@ import Link from 'next/link';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { localeAlternates } from '@/lib/seo';
-import { HelpIcon, PenSquareIcon, DocumentIcon } from '@/components/Icons';
+import { getCategories, getGuideMetas, getTemplates, getTestimonials } from '@/lib/content';
+import SearchBox from '@/components/SearchBox';
+import CategoryIcon from '@/components/CategoryIcon';
+import { StarIcon, DownloadIcon, ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon } from '@/components/Icons';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -16,82 +19,141 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-function HowItWorksStep({
-  icon,
-  title,
-  description,
-  step,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-  step: number;
-}) {
-  return (
-    <div className="text-center relative">
-      <div className="flex items-center justify-center w-24 h-24 mx-auto mb-4 bg-gray-800 rounded-full border-2 border-brand-gold relative">
-        {icon}
-        <span className="absolute -top-2 -end-2 bg-brand-gold text-brand-dark w-8 h-8 rounded-full flex items-center justify-center font-bold text-lg">
-          {step}
-        </span>
-      </div>
-      <h3 className="text-2xl font-bold mb-2 text-white font-display">{title}</h3>
-      <p className="text-gray-400">{description}</p>
-    </div>
-  );
-}
-
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  const dict = getDict(locale as Locale);
-  const T = dict.home;
-  const href = (path: string) => localePath(locale as Locale, path);
+  const { locale: rawLocale } = await params;
+  const locale = rawLocale as Locale;
+  const dict = getDict(locale);
+  const href = (path: string) => localePath(locale, path);
+
+  const guides = getGuideMetas();
+  const templates = getTemplates();
+  const chips = [
+    ...guides.slice(0, 6).map((g) => ({ label: g.title[locale], href: href(`/help/${g.category}/${g.slug}`) })),
+    ...templates.slice(0, 8 - Math.min(guides.length, 6)).map((t) => ({ label: t.title[locale], href: href(`/templates/${t.slug}`) })),
+  ].slice(0, 8);
+
+  const trust = [
+    { icon: DocumentIcon, text: dict.ui.home.trust1 },
+    { icon: ShieldIcon, text: dict.ui.home.trust2 },
+    { icon: GlobeIcon, text: dict.ui.home.trust3 },
+    { icon: RupeeIcon, text: dict.ui.home.trust4 },
+  ];
 
   return (
-    <div className="space-y-24">
+    <div className="space-y-20 md:space-y-24">
+      {/* Search-first hero */}
       <section className="relative bg-cover bg-center rounded-3xl overflow-hidden" style={{ backgroundImage: "url('/hero.png')" }}>
-        <div className="absolute inset-0 bg-black/60"></div>
-        <div className="relative text-center pt-32 pb-40 px-4">
-          <h1 className="text-5xl md:text-7xl font-extrabold text-white font-display tracking-tight mb-4">{T.heroTitle}</h1>
-          <p className="max-w-3xl mx-auto text-lg md:text-xl text-gray-200 mb-10">{T.heroSubtitle}</p>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-            <Link
-              href={href('/services')}
-              className="font-bold py-3 px-8 rounded-full text-lg transition-transform transform hover:scale-105 bg-brand-red text-white hover:bg-red-700"
-            >
-              {T.ctaDocuments}
-            </Link>
-            <Link
-              href={href('/talk-to-a-lawyer')}
-              className="font-bold py-3 px-8 rounded-full text-lg transition-transform transform hover:scale-105 bg-gray-700 text-white hover:bg-gray-600"
-            >
-              {T.ctaAsk}
-            </Link>
-          </div>
+        <div className="absolute inset-0 bg-black/70"></div>
+        <div className="relative text-center pt-20 pb-24 px-4">
+          <h1 className="text-4xl md:text-6xl font-extrabold text-white font-display tracking-tight mb-3">
+            {dict.home.heroTitle}
+          </h1>
+          <p className="max-w-2xl mx-auto text-lg text-gray-200 mb-8">{dict.home.heroSubtitle}</p>
+          <SearchBox
+            locale={locale}
+            placeholder={dict.ui.search.placeholder}
+            label={dict.ui.search.label}
+            noResultsText={dict.ui.search.noResults}
+            askWhatsAppText={dict.ui.search.askWhatsApp}
+            typeLabels={{
+              guide: dict.ui.search.guides,
+              template: dict.ui.search.templates,
+              service: dict.ui.search.services,
+            }}
+          />
+          {chips.length > 0 && (
+            <div className="flex flex-wrap justify-center gap-2 mt-6 max-w-3xl mx-auto">
+              <span className="text-sm text-gray-400 w-full mb-1">{dict.ui.search.popular}</span>
+              {chips.map((chip) => (
+                <Link
+                  key={chip.href}
+                  href={chip.href}
+                  className="bg-white/10 hover:bg-white/20 border border-white/20 text-gray-100 text-sm rounded-full px-4 py-2 transition-colors"
+                >
+                  {chip.label}
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
+      {/* Trust strip */}
+      <section className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        {trust.map((item) => (
+          <div key={item.text} className="flex items-center gap-3 bg-gray-900 border border-gray-800 rounded-2xl p-4">
+            <item.icon className="w-7 h-7 text-brand-gold shrink-0" />
+            <p className="text-sm text-gray-300">{item.text}</p>
+          </div>
+        ))}
+      </section>
+
+      {/* Category grid */}
       <section>
-        <h2 className="text-4xl font-bold text-center text-white mb-16 font-display">{T.howItWorksTitle}</h2>
-        <div className="grid md:grid-cols-3 gap-12 items-start relative">
-          <HowItWorksStep
-            icon={<HelpIcon className="w-12 h-12 text-brand-gold" />}
-            title={T.howItWorksStep1Title}
-            description={T.howItWorksStep1Desc}
-            step={1}
-          />
-          <HowItWorksStep
-            icon={<PenSquareIcon className="w-12 h-12 text-brand-gold" />}
-            title={T.howItWorksStep2Title}
-            description={T.howItWorksStep2Desc}
-            step={2}
-          />
-          <HowItWorksStep
-            icon={<DocumentIcon className="w-12 h-12 text-brand-gold" />}
-            title={T.howItWorksStep3Title}
-            description={T.howItWorksStep3Desc}
-            step={3}
-          />
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12 font-display">
+          {dict.ui.home.categoriesTitle}
+        </h2>
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
+          {getCategories().map((category) => (
+            <Link
+              key={category.slug}
+              href={href(`/help/${category.slug}`)}
+              className="group bg-gray-900 border border-gray-800 rounded-2xl p-5 text-center hover:border-brand-gold/60 transition-colors"
+            >
+              <CategoryIcon icon={category.icon} className="w-9 h-9 text-brand-gold mx-auto mb-3" />
+              <p className="font-bold text-white text-sm group-hover:text-brand-gold transition-colors">
+                {category.title[locale]}
+              </p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Free tools & templates */}
+      <section>
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-white font-display">{dict.ui.home.toolsTitle}</h2>
+          <Link href={href('/templates')} className="text-brand-gold font-semibold hover:underline text-sm">
+            {dict.ui.home.viewAll} →
+          </Link>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {templates.slice(0, 4).map((template) => (
+            <Link
+              key={template.slug}
+              href={href(`/templates/${template.slug}`)}
+              className="bg-gray-900 border border-gray-800 rounded-2xl p-5 hover:border-brand-gold/50 transition-colors"
+            >
+              <DownloadIcon className="w-6 h-6 text-brand-gold mb-3" />
+              <p className="font-bold text-white text-sm">{template.title[locale]}</p>
+              <p className="text-xs text-brand-gold mt-2">{dict.ui.template.free}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section>
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12 font-display">
+          {dict.home.testimonialsTitle}
+        </h2>
+        <div className="grid md:grid-cols-3 gap-8">
+          {getTestimonials().map((testimonial) => (
+            <div key={testimonial.id} className="bg-gray-900 p-8 rounded-2xl shadow-lg h-full flex flex-col">
+              <div className="flex-grow">
+                <div className="flex mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <StarIcon key={i} className="w-5 h-5 text-brand-gold" />
+                  ))}
+                </div>
+                <p className="text-gray-300 italic">“{testimonial.feedback[locale]}”</p>
+              </div>
+              <div className="mt-6">
+                <p className="font-bold text-white">{testimonial.name}</p>
+                <p className="text-sm text-gray-500">{testimonial.location}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
     </div>

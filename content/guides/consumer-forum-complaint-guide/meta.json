@@ -1,0 +1,139 @@
+{
+  "slug": "consumer-forum-complaint-guide",
+  "category": "consumer-complaints",
+  "title": {
+    "en": "How to File a Consumer Forum Complaint — e-Daakhil, Fees and Process",
+    "hi": "उपभोक्ता फोरम में शिकायत कैसे करें — e-Daakhil, फीस और प्रक्रिया",
+    "ur": "کنزیومر فورم میں شکایت کیسے کریں — ای-داخل، فیس اور طریقہ کار",
+    "bn": "ভোক্তা ফোরামে অভিযোগ কীভাবে করবেন — e-Daakhil, ফি ও প্রক্রিয়া"
+  },
+  "answerBox": {
+    "en": "To file a consumer complaint, first send the seller a written complaint or legal notice demanding a remedy. If that fails, file before the consumer commission — District Commission for claims up to ₹50 lakh, State Commission up to ₹2 crore, National Commission above that — within 2 years of the problem. Filing can be done online through the e-Daakhil portal, and no lawyer is required.",
+    "hi": "उपभोक्ता शिकायत के लिए पहले विक्रेता को समाधान की मांग वाला लिखित शिकायत-पत्र या कानूनी नोटिस भेजें। बात न बने तो उपभोक्ता आयोग में शिकायत दर्ज करें — ₹50 लाख तक के दावे ज़िला आयोग में, ₹2 करोड़ तक राज्य आयोग में, उससे ऊपर राष्ट्रीय आयोग में — समस्या के 2 साल के भीतर। फाइलिंग e-Daakhil पोर्टल से ऑनलाइन हो सकती है, और वकील ज़रूरी नहीं है।",
+    "ur": "صارف شکایت کے لیے پہلے بیچنے والے کو حل کے مطالبے والا تحریری شکایتی خط یا قانونی نوٹس بھیجیں۔ بات نہ بنے تو کنزیومر کمیشن میں شکایت دائر کریں — ₹50 لاکھ تک کے دعوے ضلع کمیشن میں، ₹2 کروڑ تک ریاستی کمیشن میں، اس سے اوپر قومی کمیشن میں — مسئلے کے 2 سال کے اندر۔ فائلنگ ای-داخل پورٹل سے آن لائن ہو سکتی ہے، اور وکیل ضروری نہیں۔",
+    "bn": "ভোক্তা অভিযোগের জন্য প্রথমে বিক্রেতাকে প্রতিকার চেয়ে লিখিত অভিযোগপত্র বা আইনি নোটিশ পাঠান। কাজ না হলে ভোক্তা কমিশনে অভিযোগ দায়ের করুন — ₹৫০ লাখ পর্যন্ত দাবি জেলা কমিশনে, ₹২ কোটি পর্যন্ত রাজ্য কমিশনে, তার উপরে জাতীয় কমিশনে — সমস্যার ২ বছরের মধ্যে। e-Daakhil পোর্টালে অনলাইনে ফাইল করা যায়, উকিল বাধ্যতামূলক নয়।"
+  },
+  "searchKeywords": {
+    "en": [
+      "how to file consumer complaint india",
+      "consumer forum complaint online",
+      "e daakhil complaint process",
+      "consumer court fees india",
+      "district consumer commission jurisdiction",
+      "consumer complaint against online shopping"
+    ],
+    "hi": [
+      "consumer court me complaint kaise kare",
+      "उपभोक्ता फोरम में शिकायत कैसे करें",
+      "e daakhil se शिकायत कैसे करें",
+      "उपभोक्ता अदालत की फीस",
+      "ऑनलाइन शॉपिंग की शिकायत कहां करें"
+    ],
+    "ur": [
+      "کنزیومر کورٹ میں شکایت کیسے کریں",
+      "ای داخل سے شکایت",
+      "صارف عدالت کی فیس",
+      "آن لائن شاپنگ کی شکایت کہاں کریں"
+    ],
+    "bn": [
+      "ভোক্তা আদালতে অভিযোগ কীভাবে করব",
+      "e daakhil-এ অভিযোগ",
+      "ভোক্তা আদালতের ফি",
+      "অনলাইন শপিংয়ের অভিযোগ কোথায় করব"
+    ]
+  },
+  "relatedServiceIds": ["legal-notice-consumer", "consumer-complaint-draft"],
+  "relatedTemplateSlugs": ["consumer-complaint-letter"],
+  "relatedGuideSlugs": ["cheque-bounce-what-to-do", "security-deposit-not-returned"],
+  "faqs": {
+    "en": [
+      {
+        "q": "Do I need a lawyer for a consumer forum case?",
+        "a": "No. The Consumer Protection Act allows you to appear in person, and consumer commissions are designed to be accessible. For higher-value or contested claims, professional drafting of the complaint still pays for itself."
+      },
+      {
+        "q": "What are the court fees for a consumer complaint?",
+        "a": "Fees are slab-based and modest. Complaints with a claim value up to ₹5 lakh currently require no fee; higher slabs attract fees of a few hundred to a few thousand rupees, paid electronically on e-Daakhil."
+      },
+      {
+        "q": "What is the time limit for filing?",
+        "a": "Two years from the date the cause of action arose — the defect, deficiency or unfair practice. Commissions can condone delay for sufficient cause, but do not rely on it."
+      },
+      {
+        "q": "Can I complain against an e-commerce platform for a seller's fault?",
+        "a": "Yes. The Consumer Protection (E-Commerce) Rules make platforms responsible for grievance redressal, and complaints are routinely filed against both the platform and the seller. File where you live or work — the 2019 Act lets the complainant choose their own district."
+      },
+      {
+        "q": "What relief can the consumer commission give?",
+        "a": "Refund or replacement, removal of defects, compensation for loss and harassment, litigation costs, and orders to discontinue unfair practices. Punitive damages are possible in fit cases."
+      }
+    ],
+    "hi": [
+      {
+        "q": "क्या उपभोक्ता फोरम केस के लिए वकील ज़रूरी है?",
+        "a": "नहीं। उपभोक्ता संरक्षण अधिनियम आपको खुद पेश होने की अनुमति देता है, और उपभोक्ता आयोग सुलभ बनाए गए हैं। बड़ी राशि या विवादित दावों में शिकायत की पेशेवर ड्राफ्टिंग अपनी कीमत वसूल कर देती है।"
+      },
+      {
+        "q": "उपभोक्ता शिकायत की कोर्ट फीस कितनी है?",
+        "a": "फीस स्लैब-आधारित और मामूली है। ₹5 लाख तक के दावों पर फिलहाल कोई फीस नहीं; ऊंचे स्लैब पर कुछ सौ से कुछ हज़ार रुपये की फीस है, जो e-Daakhil पर ऑनलाइन जमा होती है।"
+      },
+      {
+        "q": "शिकायत दर्ज करने की समय-सीमा क्या है?",
+        "a": "कारण उत्पन्न होने की तारीख से दो साल — यानी खराबी, सेवा में कमी या अनुचित व्यवहार से। पर्याप्त कारण पर आयोग देरी माफ कर सकते हैं, पर उस पर निर्भर न रहें।"
+      },
+      {
+        "q": "क्या विक्रेता की गलती पर ई-कॉमर्स प्लेटफॉर्म के खिलाफ शिकायत हो सकती है?",
+        "a": "हां। उपभोक्ता संरक्षण (ई-कॉमर्स) नियम प्लेटफॉर्म को शिकायत निवारण के लिए ज़िम्मेदार बनाते हैं, और शिकायतें नियमित रूप से प्लेटफॉर्म और विक्रेता दोनों के खिलाफ होती हैं। जहां आप रहते या काम करते हैं वहीं दर्ज करें — 2019 का कानून शिकायतकर्ता को अपना ज़िला चुनने देता है।"
+      },
+      {
+        "q": "उपभोक्ता आयोग क्या-क्या राहत दे सकता है?",
+        "a": "रिफंड या रिप्लेसमेंट, खराबी दूर करना, नुकसान और परेशानी का मुआवज़ा, मुकदमे का खर्च, और अनुचित व्यवहार रोकने के आदेश। उपयुक्त मामलों में दंडात्मक हर्जाना भी संभव है।"
+      }
+    ],
+    "ur": [
+      {
+        "q": "کیا کنزیومر فورم کیس کے لیے وکیل ضروری ہے؟",
+        "a": "نہیں۔ صارف تحفظ قانون آپ کو خود پیش ہونے کی اجازت دیتا ہے، اور کنزیومر کمیشن قابل رسائی بنائے گئے ہیں۔ بڑی رقم یا متنازع دعووں میں شکایت کی پیشہ ورانہ ڈرافٹنگ اپنی قیمت وصول کر دیتی ہے۔"
+      },
+      {
+        "q": "صارف شکایت کی کورٹ فیس کتنی ہے؟",
+        "a": "فیس سلیب کی بنیاد پر اور معمولی ہے۔ ₹5 لاکھ تک کے دعووں پر فی الحال کوئی فیس نہیں؛ اونچے سلیب پر چند سو سے چند ہزار روپے فیس ہے، جو ای-داخل پر آن لائن جمع ہوتی ہے۔"
+      },
+      {
+        "q": "شکایت دائر کرنے کی مدت کیا ہے؟",
+        "a": "وجہ پیدا ہونے کی تاریخ سے دو سال — یعنی خرابی، خدمت میں کمی یا غیر منصفانہ رویے سے۔ مناسب وجہ پر کمیشن تاخیر معاف کر سکتے ہیں، مگر اس پر بھروسہ نہ کریں۔"
+      },
+      {
+        "q": "کیا بیچنے والے کی غلطی پر ای کامرس پلیٹ فارم کے خلاف شکایت ہو سکتی ہے؟",
+        "a": "ہاں۔ صارف تحفظ (ای کامرس) رولز پلیٹ فارم کو شکایت کے ازالے کا ذمہ دار بناتے ہیں، اور شکایتیں عام طور پر پلیٹ فارم اور بیچنے والے دونوں کے خلاف ہوتی ہیں۔ جہاں آپ رہتے یا کام کرتے ہیں وہیں دائر کریں — 2019 کا قانون شکایت کنندہ کو اپنا ضلع چننے دیتا ہے۔"
+      },
+      {
+        "q": "کنزیومر کمیشن کیا کیا ریلیف دے سکتا ہے؟",
+        "a": "رقم کی واپسی یا تبدیلی، خرابی دور کرنا، نقصان اور پریشانی کا معاوضہ، مقدمے کا خرچ، اور غیر منصفانہ رویہ روکنے کے احکامات۔ مناسب معاملات میں تادیبی ہرجانہ بھی ممکن ہے۔"
+      }
+    ],
+    "bn": [
+      {
+        "q": "ভোক্তা ফোরামের মামলায় কি উকিল লাগবে?",
+        "a": "না। ভোক্তা সুরক্ষা আইন আপনাকে নিজে হাজির হতে দেয়, এবং ভোক্তা কমিশন সহজগম্য করে তৈরি। বড় অঙ্ক বা বিতর্কিত দাবিতে অভিযোগের পেশাদার খসড়া নিজের দাম উশুল করে দেয়।"
+      },
+      {
+        "q": "ভোক্তা অভিযোগের কোর্ট ফি কত?",
+        "a": "ফি স্ল্যাবভিত্তিক ও সামান্য। ₹৫ লাখ পর্যন্ত দাবিতে বর্তমানে কোনো ফি নেই; উঁচু স্ল্যাবে কয়েকশো থেকে কয়েক হাজার টাকা ফি, যা e-Daakhil-এ অনলাইনে জমা হয়।"
+      },
+      {
+        "q": "অভিযোগ দায়েরের সময়সীমা কত?",
+        "a": "কারণ উদ্ভবের তারিখ থেকে দুই বছর — অর্থাৎ ত্রুটি, পরিষেবার ঘাটতি বা অন্যায্য আচরণ থেকে। যথেষ্ট কারণে কমিশন দেরি মার্জনা করতে পারে, কিন্তু তার ভরসায় থাকবেন না।"
+      },
+      {
+        "q": "বিক্রেতার দোষে কি ই-কমার্স প্ল্যাটফর্মের বিরুদ্ধে অভিযোগ করা যায়?",
+        "a": "হ্যাঁ। ভোক্তা সুরক্ষা (ই-কমার্স) বিধি প্ল্যাটফর্মকে অভিযোগ নিষ্পত্তির দায়িত্ব দেয়, এবং অভিযোগ নিয়মিতভাবে প্ল্যাটফর্ম ও বিক্রেতা দুজনের বিরুদ্ধেই হয়। যেখানে থাকেন বা কাজ করেন সেখানেই দায়ের করুন — ২০১৯-এর আইন অভিযোগকারীকে নিজের জেলা বেছে নিতে দেয়।"
+      },
+      {
+        "q": "ভোক্তা কমিশন কী কী প্রতিকার দিতে পারে?",
+        "a": "রিফান্ড বা প্রতিস্থাপন, ত্রুটি সারানো, ক্ষতি ও হয়রানির ক্ষতিপূরণ, মামলার খরচ, এবং অন্যায্য আচরণ বন্ধের নির্দেশ। উপযুক্ত ক্ষেত্রে শাস্তিমূলক ক্ষতিপূরণও সম্ভব।"
+      }
+    ]
+  },
+  "updatedAt": "2026-07-07"
+}

@@ -41,6 +41,9 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: Dict })
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">{dict.common.resources}</h3>
             <ul className="space-y-2">
+              <li><Link href={href('/help')} className="hover:text-brand-gold transition-colors">{navT.guides}</Link></li>
+              <li><Link href={href('/templates')} className="hover:text-brand-gold transition-colors">{navT.documents}</Link></li>
+              <li><Link href={href('/lawyers')} className="hover:text-brand-gold transition-colors">{navT.findLawyer}</Link></li>
               <li><Link href={href('/contact')} className="hover:text-brand-gold transition-colors">{navT.contact}</Link></li>
               <li><Link href={href('/privacy')} className="hover:text-brand-gold transition-colors">{dict.legal.privacyTitle}</Link></li>
               <li><Link href={href('/terms')} className="hover:text-brand-gold transition-colors">{dict.legal.termsTitle}</Link></li>

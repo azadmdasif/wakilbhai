@@ -165,5 +165,83 @@
     "notFoundTitle": "Page not found",
     "notFoundDesc": "The page you are looking for does not exist or has moved.",
     "backHome": "Back to homepage"
+  },
+  "ui": {
+    "search": {
+      "placeholder": "What's your legal problem?",
+      "label": "Search legal guides, templates and services",
+      "popular": "Common problems",
+      "noResults": "No results found for",
+      "askWhatsApp": "Ask us on WhatsApp",
+      "guides": "Guides",
+      "templates": "Templates",
+      "services": "Services"
+    },
+    "home": {
+      "categoriesTitle": "Browse by problem",
+      "toolsTitle": "Free tools & templates",
+      "trust1": "Documents delivered across India",
+      "trust2": "Advocate-sent legal notices",
+      "trust3": "Help in 4 languages",
+      "trust4": "Starting at ₹199",
+      "viewAll": "View all"
+    },
+    "rail": {
+      "heading": "Get this done for you",
+      "orderCta": "Order now",
+      "whatsappCta": "Ask on WhatsApp",
+      "delivery": "Delivered in {days} working days",
+      "referralHeading": "Need a lawyer?",
+      "referralText": "For police and criminal matters you need a practising advocate. We can connect you to one for a consultation.",
+      "referralCta": "Book a consultation"
+    },
+    "guide": {
+      "faqTitle": "Frequently asked questions",
+      "relatedGuides": "Related guides",
+      "relatedTemplates": "Free formats for this problem",
+      "allGuides": "All guides",
+      "disclaimer": "This page explains the typical legal process for general information only. It is not legal advice. For advice on your specific situation, consult a qualified advocate.",
+      "breadcrumbHome": "Home",
+      "breadcrumbHelp": "Legal help"
+    },
+    "template": {
+      "indexTitle": "Free legal document templates",
+      "indexSubtitle": "Download ready-to-use formats. Fill in your details, print, and use — or get the same document professionally drafted.",
+      "download": "Download",
+      "free": "Free",
+      "getDrafted": "Get this professionally drafted",
+      "gatedTitle": "Get the download link",
+      "gatedName": "Your name",
+      "gatedPhone": "WhatsApp number",
+      "gatedSubmit": "Get download",
+      "gatedNote": "We will send the file and next-step tips on WhatsApp. No spam.",
+      "gatedSuccess": "Thanks! Your download is starting…",
+      "allTemplates": "All templates",
+      "filterAll": "All",
+      "formats": "Formats"
+    },
+    "service": {
+      "included": "What's included",
+      "price": "Price",
+      "delivery": "Delivery",
+      "deliveryDays": "{days} working days",
+      "orderNow": "Order now",
+      "process": "How it works",
+      "step1": "Tell us your requirement and share details on WhatsApp or the form.",
+      "step2": "We prepare your document and share a draft for review.",
+      "step3": "Final document is delivered — with printing/notary guidance where needed.",
+      "faqTitle": "Frequently asked questions",
+      "relatedGuides": "Read before you order",
+      "sameDay": "Scheduled within 1 working day"
+    },
+    "lawyers": {
+      "title": "Lawyer Directory",
+      "subtitle": "A neutral listing of independent advocates. WakilBhai does not rank, recommend or endorse any advocate.",
+      "practiceAreas": "Practice areas",
+      "languages": "Languages",
+      "location": "Location",
+      "viewProfile": "View profile",
+      "note": "Listings appear in alphabetical order. Advocates are independent professionals; fees are settled directly with them."
+    }
   }
 }

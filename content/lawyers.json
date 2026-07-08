@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Adv. Rajesh Sharma",
+    "practiceAreas": [
+      "Property Law",
+      "Family Law",
+      "Corporate Law"
+    ],
+    "bio": {
+      "en": "Rajesh Sharma is a seasoned lawyer with over 15 years of experience in property disputes and family matters. He is known for his meticulous approach and client-centric advice.",
+      "hi": "राजेश शर्मा संपत्ति विवादों और पारिवारिक मामलों में 15 से अधिक वर्षों के अनुभव के साथ एक अनुभवी वकील हैं। वह अपने सूक्ष्म दृष्टिकोण और ग्राहक-केंद्रित सलाह के लिए जाने जाते हैं।",
+      "ur": "راجیش شرما پراپرٹی کے تنازعات اور خاندانی معاملات میں 15 سال سے زیادہ کا تجربہ رکھنے والے ایک تجربہ کار وکیل ہیں۔ وہ اپنے محتاط انداز اور کلائنٹ پر مبنی مشورے کے لیے جانے جاتے ہیں۔",
+      "bn": "রাজেশ শর্মা সম্পত্তি বিরোধ এবং পারিবারিক বিষয়ে 15 বছরেরও বেশি অভিজ্ঞতার সাথে একজন অভিজ্ঞ আইনজীবী। তিনি তার সূক্ষ্ম দৃষ্টিভঙ্গি এবং ক্লায়েন্ট-কেন্দ্রিক পরামর্শের জন্য পরিচিত।"
+    },
+    "location": "Delhi",
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Adv. Priya Singh",
+    "practiceAreas": [
+      "Criminal Law",
+      "Consumer Rights",
+      "Startup Legal"
+    ],
+    "bio": {
+      "en": "Priya Singh is a dynamic lawyer specializing in criminal defense and consumer protection cases. She is passionate about upholding justice and providing robust legal representation.",
+      "hi": "प्रिया सिंह एक गतिशील वकील हैं जो आपराधिक बचाव और उपभोक्ता संरक्षण मामलों में विशेषज्ञता रखती हैं। वह न्याय को बनाए रखने और मजबूत कानूनी प्रतिनिधित्व प्रदान करने के प्रति जुनूनी हैं।",
+      "ur": "پریا سنگھ ایک متحرک وکیل ہیں جو فوجداری دفاع اور صارفین کے تحفظ کے مقدمات میں مہارت رکھتی ہیں۔ وہ انصاف کو برقرار رکھنے اور مضبوط قانونی نمائندگی فراہم کرنے کا شوق رکھتی ہیں۔",
+      "bn": "প্রিয়া সিং একজন গতিশীল আইনজীবী যিনি ফৌজদারি প্রতিরক্ষা এবং ভোক্তা সুরক্ষা মামলায় বিশেষজ্ঞ। তিনি ন্যায়বিচার বজায় রাখতে এবং শক্তিশালী আইনি প্রতিনিধিত্ব প্রদানে আগ্রহী।"
+    },
+    "location": "Mumbai",
+    "languages": [
+      "English",
+      "Hindi",
+      "Marathi"
+    ]
+  }
+]
