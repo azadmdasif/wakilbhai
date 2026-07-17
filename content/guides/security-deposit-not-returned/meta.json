@@ -41,9 +41,18 @@
       "ডিপোজিট ফেরতের আইন"
     ]
   },
-  "relatedServiceIds": ["legal-notice-security-deposit", "consultation-call"],
-  "relatedTemplateSlugs": ["security-deposit-demand-letter", "rent-agreement-11-month"],
-  "relatedGuideSlugs": ["rent-agreement-guide", "consumer-forum-complaint-guide"],
+  "relatedServiceIds": [
+    "legal-notice-security-deposit",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "security-deposit-demand-letter",
+    "rent-agreement-11-month"
+  ],
+  "relatedGuideSlugs": [
+    "rent-agreement-guide",
+    "consumer-forum-complaint-guide"
+  ],
   "faqs": {
     "en": [
       {
@@ -134,5 +143,8 @@
       }
     ]
   },
-  "updatedAt": "2026-07-07"
+  "updatedAt": "2026-07-07",
+  "publishedAt": "2025-12-03",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016"
 }

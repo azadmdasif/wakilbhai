@@ -41,9 +41,18 @@
       "বেতনের জন্য আইনি নোটিশ"
     ]
   },
-  "relatedServiceIds": ["legal-notice-unpaid-salary", "consultation-call"],
-  "relatedTemplateSlugs": ["unpaid-salary-demand-letter", "resignation-letter"],
-  "relatedGuideSlugs": ["cheque-bounce-what-to-do", "consumer-forum-complaint-guide"],
+  "relatedServiceIds": [
+    "legal-notice-unpaid-salary",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "unpaid-salary-demand-letter",
+    "resignation-letter"
+  ],
+  "relatedGuideSlugs": [
+    "cheque-bounce-what-to-do",
+    "consumer-forum-complaint-guide"
+  ],
   "faqs": {
     "en": [
       {
@@ -134,5 +143,8 @@
       }
     ]
   },
-  "updatedAt": "2026-07-07"
+  "updatedAt": "2026-07-07",
+  "publishedAt": "2025-11-05",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012"
 }

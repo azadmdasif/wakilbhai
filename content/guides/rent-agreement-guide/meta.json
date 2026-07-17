@@ -45,9 +45,17 @@
       "ভাড়া চুক্তির ফরম্যাট"
     ]
   },
-  "relatedServiceIds": ["rent-agreement", "leave-license-agreement"],
-  "relatedTemplateSlugs": ["rent-agreement-11-month", "security-deposit-demand-letter"],
-  "relatedGuideSlugs": ["security-deposit-not-returned"],
+  "relatedServiceIds": [
+    "rent-agreement",
+    "leave-license-agreement"
+  ],
+  "relatedTemplateSlugs": [
+    "rent-agreement-11-month",
+    "security-deposit-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "security-deposit-not-returned"
+  ],
   "faqs": {
     "en": [
       {
@@ -138,5 +146,8 @@
       }
     ]
   },
-  "updatedAt": "2026-07-07"
+  "updatedAt": "2026-07-07",
+  "publishedAt": "2025-10-28",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016"
 }

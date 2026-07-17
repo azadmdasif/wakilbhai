@@ -25,7 +25,12 @@ export interface GuideMeta {
   relatedTemplateSlugs: string[];
   relatedGuideSlugs: string[];
   faqs: Localized<{ q: string; a: string }[]>;
-  updatedAt: string; // ISO date
+  updatedAt: string; // ISO date (dateModified)
+  publishedAt: string; // ISO date (datePublished)
+  /** Byline shown on the guide and emitted as the Article author. */
+  author: string;
+  /** Legal reviewer: "Adv. [name], [Bar Council], [enrolment no.]". */
+  reviewer: string;
 }
 
 export interface Guide extends GuideMeta {

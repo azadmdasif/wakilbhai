@@ -4,9 +4,12 @@ import { notFound } from 'next/navigation';
 import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { buildMetadata } from '@/lib/seo/metadata';
+import { SITE_URL } from '@/lib/site';
 import { getCategories, getCategory, getGuidesByCategory, getServices, getTemplates } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import CategoryIcon from '@/components/CategoryIcon';
+import JsonLd from '@/components/seo/JsonLd';
+import { breadcrumbSchema } from '@/lib/seo/schemas';
 
 export function generateStaticParams() {
   return locales.flatMap((locale) => getCategories().map((category) => ({ locale, category: category.slug })));
@@ -43,6 +46,13 @@ export default async function CategoryHubPage({ params }: { params: Promise<{ lo
 
   return (
     <div className="max-w-5xl mx-auto">
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: dict.ui.guide.breadcrumbHome, url: `${SITE_URL}${href('/')}` },
+          { name: dict.ui.guide.breadcrumbHelp, url: `${SITE_URL}${href('/help')}` },
+          { name: category.title[locale] },
+        ])}
+      />
       <Breadcrumbs
         crumbs={[
           { label: dict.ui.guide.breadcrumbHome, href: href('/') },

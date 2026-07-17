@@ -45,9 +45,18 @@
       "চেক বাউন্সের আইনি নোটিশ"
     ]
   },
-  "relatedServiceIds": ["legal-notice-cheque-bounce", "consultation-call"],
-  "relatedTemplateSlugs": ["cheque-bounce-demand-notice", "loan-repayment-demand-letter"],
-  "relatedGuideSlugs": ["consumer-forum-complaint-guide", "unpaid-salary-what-to-do"],
+  "relatedServiceIds": [
+    "legal-notice-cheque-bounce",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "cheque-bounce-demand-notice",
+    "loan-repayment-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "consumer-forum-complaint-guide",
+    "unpaid-salary-what-to-do"
+  ],
   "faqs": {
     "en": [
       {
@@ -138,5 +147,8 @@
       }
     ]
   },
-  "updatedAt": "2026-07-07"
+  "updatedAt": "2026-07-07",
+  "publishedAt": "2025-11-12",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011"
 }

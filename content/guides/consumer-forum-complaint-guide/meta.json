@@ -42,9 +42,17 @@
       "অনলাইন শপিংয়ের অভিযোগ কোথায় করব"
     ]
   },
-  "relatedServiceIds": ["legal-notice-consumer", "consumer-complaint-draft"],
-  "relatedTemplateSlugs": ["consumer-complaint-letter"],
-  "relatedGuideSlugs": ["cheque-bounce-what-to-do", "security-deposit-not-returned"],
+  "relatedServiceIds": [
+    "legal-notice-consumer",
+    "consumer-complaint-draft"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "cheque-bounce-what-to-do",
+    "security-deposit-not-returned"
+  ],
   "faqs": {
     "en": [
       {
@@ -135,5 +143,8 @@
       }
     ]
   },
-  "updatedAt": "2026-07-07"
+  "updatedAt": "2026-07-07",
+  "publishedAt": "2025-11-20",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013"
 }

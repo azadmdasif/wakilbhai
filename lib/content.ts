@@ -39,6 +39,9 @@ export const guideMetaSchema: z.ZodType<GuideMeta> = z.object({
   relatedGuideSlugs: z.array(z.string()),
   faqs: localizedFaqs,
   updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD expected'),
+  publishedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD expected'),
+  author: z.string().min(1),
+  reviewer: z.string().min(1),
 });
 
 export const templateSchema: z.ZodType<DocTemplate> = z.object({

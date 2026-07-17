@@ -10,8 +10,8 @@ import { SITE_URL, GTAG_ID } from '@/lib/site';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
-import JsonLd from '@/components/JsonLd';
-import { organizationJsonLd } from '@/lib/jsonld';
+import JsonLd from '@/components/seo/JsonLd';
+import { organizationSchema } from '@/lib/seo/schemas';
 import '../globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
@@ -82,7 +82,7 @@ export default async function LocaleLayout({
             __html: `if(location.hash.indexOf('#/')===0){location.replace(location.hash.slice(1))}`,
           }}
         />
-        <JsonLd data={organizationJsonLd()} />
+        <JsonLd data={organizationSchema()} />
       </head>
       <body className="font-sans bg-brand-dark text-gray-100">
         <div className="min-h-screen flex flex-col">
