@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Script from 'next/script';
 import { Analytics } from '@vercel/analytics/next';
 import { Inter, Exo_2 } from 'next/font/google';
-import { locales, isLocale, dir, localeLang, type Locale } from '@/lib/i18n';
+import { locales, isLocale, dir, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { localeAlternates } from '@/lib/seo';
 import { SITE_URL, GTAG_ID } from '@/lib/site';
@@ -73,7 +73,7 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={localeLang[locale]} dir={dir(locale)} className={`${inter.variable} ${exo2.variable}`}>
+    <html lang={locale} dir={dir(locale)} className={`${inter.variable} ${exo2.variable}`}>
       <head>
         {/* Legacy SPA used hash routing (/#/services); hashes never reach the
             server, so map them to real paths on first paint. */}
