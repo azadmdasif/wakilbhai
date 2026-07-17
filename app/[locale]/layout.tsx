@@ -9,7 +9,7 @@ import { localeAlternates } from '@/lib/seo';
 import { SITE_URL, GTAG_ID } from '@/lib/site';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import WhatsAppButton from '@/components/WhatsAppButton';
+import WhatsAppLawyerButton from '@/components/cta/WhatsAppLawyerButton';
 import JsonLd from '@/components/seo/JsonLd';
 import { organizationSchema } from '@/lib/seo/schemas';
 import '../globals.css';
@@ -130,7 +130,7 @@ export default async function LocaleLayout({
           <Header locale={locale} nav={nav} resources={resources} />
           <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">{children}</main>
           <Footer locale={locale} dict={dict} />
-          <WhatsAppButton label={dict.common.whatsappCta} />
+          <WhatsAppLawyerButton label={dict.common.whatsappLawyerFree} />
         </div>
         <Analytics />
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GTAG_ID}`} strategy="afterInteractive" />
