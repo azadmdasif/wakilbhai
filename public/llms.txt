@@ -1,0 +1,48 @@
+# WakilBhai
+
+> Legal documentation service and lawyer connect for India — "Legal Work. Without Tension." Free, plain-language guides to common legal problems, ready-to-use document formats, and advocate help on WhatsApp. WakilBhai is a documentation service with advocate partners, not a law firm; nothing here is legal advice.
+
+## How it works (the funnel)
+
+- **Free guides & tools** — step-by-step help for everyday legal problems (cheque bounce, rent, salary, consumer complaints), with real deadlines and costs.
+- **Free WhatsApp lawyer** — a 10-minute consult on WhatsApp: https://wa.me/917686022245
+- **Documents from ₹199** — notices, agreements and affidavits drafted and delivered in 1–3 working days (₹199–₹999).
+- **Advocate consult / case handling** — paid advocate help for complex matters.
+
+Content is available in English, Hindi, Bengali and Urdu. English lives at the root; other locales use a `/{locale}/` prefix (e.g. `/hi/...`).
+
+## Best guides
+
+- [Cheque bounced? What to do](https://www.wakilbhai.com/help/money-recovery/cheque-bounce-what-to-do): The Section 138 process — send a demand notice within 30 days of the bank's return memo, the issuer gets 15 days to pay, then a criminal complaint within 30 days.
+- [Unpaid salary — what to do](https://www.wakilbhai.com/help/job-salary/unpaid-salary-what-to-do): Recovering unpaid salary or full-and-final dues — demand letter, labour authorities, and the legal routes for different kinds of employees.
+- [Security deposit not returned](https://www.wakilbhai.com/help/property-tenancy/security-deposit-not-returned): What to do when a landlord won't return your deposit after you vacate — demand letter, timelines, and small-cause/consumer options.
+- [How to make a rent agreement](https://www.wakilbhai.com/help/property-tenancy/rent-agreement-guide): Writing the terms, stamp paper and registration, and why the 11-month format is standard — with the costs involved.
+- [Consumer forum complaint guide](https://www.wakilbhai.com/help/consumer-complaints/consumer-forum-complaint-guide): Filing a consumer complaint — written complaint/legal notice first, then e-Daakhil, the forum tiers, and the compensation you can claim.
+
+## Free document templates
+
+- [Cheque bounce demand notice (Sec 138)](https://www.wakilbhai.com/templates/cheque-bounce-demand-notice)
+- [Unpaid salary demand letter](https://www.wakilbhai.com/templates/unpaid-salary-demand-letter)
+- [Security deposit demand letter](https://www.wakilbhai.com/templates/security-deposit-demand-letter)
+- [11-month rent agreement format](https://www.wakilbhai.com/templates/rent-agreement-11-month)
+- [Consumer complaint letter to seller](https://www.wakilbhai.com/templates/consumer-complaint-letter)
+- [Personal loan repayment demand letter](https://www.wakilbhai.com/templates/loan-repayment-demand-letter)
+- [RTI application format](https://www.wakilbhai.com/templates/rti-application-format)
+- [General affidavit format](https://www.wakilbhai.com/templates/general-affidavit-format)
+
+## Free tools
+
+- [Cheque bounce interest/compensation calculator](https://www.wakilbhai.com/tools/cheque-bounce-calculator)
+- [Stamp duty calculator](https://www.wakilbhai.com/tools/stamp-duty-calculator)
+- [Gratuity calculator](https://www.wakilbhai.com/tools/gratuity-calculator)
+
+## Browse
+
+- [All guides](https://www.wakilbhai.com/help)
+- [Document services & pricing](https://www.wakilbhai.com/pricing)
+- [Talk to a lawyer](https://www.wakilbhai.com/talk-to-a-lawyer)
+
+## Contact
+
+- WhatsApp (free 10-minute consult): https://wa.me/917686022245
+- Website: https://www.wakilbhai.com
