@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { isLocale, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import PageHeading from '@/components/PageHeading';
 import LeadForm from '@/components/LeadForm';
 import { PhoneIcon, MailIcon, MapPinIcon, ClockIcon } from '@/components/Icons';
@@ -10,11 +10,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
+  return buildMetadata({
     title: dict.contact.title,
     description: dict.contact.subtitle,
-    alternates: localeAlternates(locale, '/contact'),
-  };
+    path: '/contact',
+    locale,
+  });
 }
 
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {

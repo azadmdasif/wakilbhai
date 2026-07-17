@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       default: 'WakilBhai — Your Local Lawyer',
       template: '%s | WakilBhai',
     },
-    description: dict.home.heroSubtitle,
+    description: dict.meta.homeDescription,
     alternates: localeAlternates(locale, '/'),
     openGraph: {
       type: 'website',

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { SITE_URL } from '@/lib/site';
 import { getCategory, getGuide, getGuideMeta, getGuideMetas, getService, getTemplate } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -30,12 +30,12 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const meta = getGuideMeta(guideSlug);
   if (!meta || meta.category !== category) return {};
-  return {
+  return buildMetadata({
     title: meta.title[locale],
     description: meta.answerBox[locale],
-    alternates: localeAlternates(locale, `/help/${category}/${guideSlug}`),
-    openGraph: { title: meta.title[locale], description: meta.answerBox[locale] },
-  };
+    path: `/help/${category}/${guideSlug}`,
+    locale,
+  });
 }
 
 function formatDate(iso: string, locale: Locale): string {

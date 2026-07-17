@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getCategories, getGuideMetas, getTemplates, getTestimonials } from '@/lib/content';
 import { getTools, toolTitle } from '@/lib/tools';
 import SearchBox from '@/components/SearchBox';
@@ -14,11 +14,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
-    title: { absolute: 'WakilBhai — Your Local Lawyer' },
-    description: dict.home.heroSubtitle,
-    alternates: localeAlternates(locale, '/'),
-  };
+  return buildMetadata({
+    title: 'WakilBhai — Your Local Lawyer',
+    description: dict.meta.homeDescription,
+    path: '/',
+    locale,
+  });
 }
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {

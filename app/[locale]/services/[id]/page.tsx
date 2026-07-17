@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getCategory, getGuideMetas, getService, getServices } from '@/lib/content';
 import { whatsAppUrlFor } from '@/lib/whatsapp';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -24,11 +24,12 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const service = getService(id);
   if (!service) return {};
-  return {
+  return buildMetadata({
     title: `${service.title[locale]} — ₹${service.priceINR}`,
     description: service.description[locale],
-    alternates: localeAlternates(locale, `/services/${id}`),
-  };
+    path: `/services/${id}`,
+    locale,
+  });
 }
 
 export default async function ServicePage({ params }: { params: Promise<{ locale: string; id: string }> }) {

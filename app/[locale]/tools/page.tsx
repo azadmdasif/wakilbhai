@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getTools, toolTitle } from '@/lib/tools';
 import PageHeading from '@/components/PageHeading';
 import { RupeeIcon } from '@/components/Icons';
@@ -11,11 +11,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
+  return buildMetadata({
     title: dict.ui.calc.toolsTitle,
     description: dict.ui.calc.toolsSubtitle,
-    alternates: localeAlternates(locale, '/tools'),
-  };
+    path: '/tools',
+    locale,
+  });
 }
 
 export default async function ToolsIndexPage({ params }: { params: Promise<{ locale: string }> }) {

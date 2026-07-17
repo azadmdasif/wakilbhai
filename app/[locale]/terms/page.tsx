@@ -1,16 +1,18 @@
 import type { Metadata } from 'next';
 import { isLocale, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
+  return buildMetadata({
     title: dict.legal.termsTitle,
-    alternates: localeAlternates(locale, '/terms'),
-  };
+    description: dict.meta.termsDescription,
+    path: '/terms',
+    locale,
+  });
 }
 
 export default async function TermsPage({ params }: { params: Promise<{ locale: string }> }) {

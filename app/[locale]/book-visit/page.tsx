@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { isLocale, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import PageHeading from '@/components/PageHeading';
 import LeadForm from '@/components/LeadForm';
 
@@ -9,11 +9,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
+  return buildMetadata({
     title: dict.book.title,
     description: dict.book.subtitle,
-    alternates: localeAlternates(locale, '/book-visit'),
-  };
+    path: '/book-visit',
+    locale,
+  });
 }
 
 export default async function BookVisitPage({ params }: { params: Promise<{ locale: string }> }) {

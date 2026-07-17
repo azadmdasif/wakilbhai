@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getLawyers } from '@/lib/content';
 import PageHeading from '@/components/PageHeading';
 import { MapPinIcon } from '@/components/Icons';
@@ -11,11 +11,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
+  return buildMetadata({
     title: dict.ui.lawyers.title,
     description: dict.ui.lawyers.subtitle,
-    alternates: localeAlternates(locale, '/lawyers'),
-  };
+    path: '/lawyers',
+    locale,
+  });
 }
 
 function initials(name: string): string {

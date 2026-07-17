@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import { isLocale, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getServices } from '@/lib/content';
 import PageHeading from '@/components/PageHeading';
 import ServiceRequestForm from '@/components/ServiceRequestForm';
@@ -12,9 +12,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
   return {
-    title: dict.request.title,
-    description: dict.request.subtitle,
-    alternates: localeAlternates(locale, '/request-service'),
+    ...buildMetadata({
+      title: dict.request.title,
+      description: dict.request.subtitle,
+      path: '/request-service',
+      locale,
+    }),
     robots: { index: false }, // checkout-style page, not a landing page
   };
 }

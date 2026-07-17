@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { whatsAppUrlFor } from '@/lib/whatsapp';
 import PageHeading from '@/components/PageHeading';
 import LeadForm from '@/components/LeadForm';
@@ -13,11 +13,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
+  return buildMetadata({
     title: dict.ask.title,
     description: dict.ask.subtitle,
-    alternates: localeAlternates(locale, '/talk-to-a-lawyer'),
-  };
+    path: '/talk-to-a-lawyer',
+    locale,
+  });
 }
 
 export default async function TalkToLawyerPage({ params }: { params: Promise<{ locale: string }> }) {

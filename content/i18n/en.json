@@ -321,5 +321,11 @@
       "disclaimer": "AI answers are general information, not legal advice.",
       "open": "Ask a question"
     }
+  },
+  "meta": {
+    "homeDescription": "Free step-by-step legal guides for India, documents from ₹199, and advocate help on WhatsApp. Cheque bounce, rent agreement, consumer complaint, unpaid salary and more — in English, Hindi, Bengali, Urdu.",
+    "helpDescription": "Step-by-step guides for India's common legal problems — cheque bounce, rent agreements, unpaid salary, consumer complaints and more. Free formats, clear costs, real deadlines.",
+    "termsDescription": "The terms that govern WakilBhai's services. WakilBhai is a legal documentation service with advocate partners — not a law firm.",
+    "privacyDescription": "How WakilBhai collects, uses and protects your personal information when you use our legal documentation and lawyer-connect services."
   }
 }

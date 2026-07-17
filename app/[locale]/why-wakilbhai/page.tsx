@@ -1,18 +1,19 @@
 import type { Metadata } from 'next';
 import { isLocale, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import PageHeading from '@/components/PageHeading';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
+  return buildMetadata({
     title: dict.whyUs.title,
     description: dict.whyUs.subtitle,
-    alternates: localeAlternates(locale, '/why-wakilbhai'),
-  };
+    path: '/why-wakilbhai',
+    locale,
+  });
 }
 
 export default async function WhyWakilBhaiPage({ params }: { params: Promise<{ locale: string }> }) {

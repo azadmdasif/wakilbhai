@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getCategory, getService, getTemplate, getTemplates, getGuideMetas } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import JsonLd from '@/components/JsonLd';
@@ -24,11 +24,12 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const template = getTemplate(slug);
   if (!template) return {};
-  return {
+  return buildMetadata({
     title: template.title[locale],
     description: template.description[locale],
-    alternates: localeAlternates(locale, `/templates/${slug}`),
-  };
+    path: `/templates/${slug}`,
+    locale,
+  });
 }
 
 export default async function TemplatePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {

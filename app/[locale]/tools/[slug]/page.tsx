@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getService } from '@/lib/content';
 import { getGuideMeta } from '@/lib/content';
 import { getTool, getToolBody, getTools, toolTitle } from '@/lib/tools';
@@ -34,11 +34,12 @@ export async function generateMetadata({
   const tool = getTool(slug);
   if (!tool) return {};
   const dict = getDict(locale);
-  return {
+  return buildMetadata({
     title: toolTitle(dict, tool.widget),
     description: dict.ui.calc.toolsSubtitle,
-    alternates: localeAlternates(locale, `/tools/${slug}`),
-  };
+    path: `/tools/${slug}`,
+    locale,
+  });
 }
 
 export default async function ToolPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {

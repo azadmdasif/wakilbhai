@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getCategories, getCategory, getGuidesByCategory, getServices, getTemplates } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import CategoryIcon from '@/components/CategoryIcon';
@@ -21,11 +21,12 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const category = getCategory(categorySlug);
   if (!category) return {};
-  return {
+  return buildMetadata({
     title: category.title[locale],
     description: category.description[locale],
-    alternates: localeAlternates(locale, `/help/${categorySlug}`),
-  };
+    path: `/help/${categorySlug}`,
+    locale,
+  });
 }
 
 export default async function CategoryHubPage({ params }: { params: Promise<{ locale: string; category: string }> }) {
