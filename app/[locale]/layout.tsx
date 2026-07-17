@@ -46,6 +46,21 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+/**
+ * Search-engine ownership verification, read from env so tokens never live in
+ * the repo. Emits <meta name="google-site-verification"> and
+ * <meta name="msvalidate.01"> (Bing) only when their tokens are set.
+ */
+function verificationMeta(): Metadata['verification'] {
+  const google = process.env.NEXT_PUBLIC_GSC_TOKEN;
+  const bing = process.env.NEXT_PUBLIC_BING_TOKEN;
+  if (!google && !bing) return undefined;
+  return {
+    ...(google ? { google } : {}),
+    ...(bing ? { other: { 'msvalidate.01': bing } } : {}),
+  };
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
@@ -64,6 +79,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       images: ['/hero.png'],
     },
     icons: { icon: '/logo.png' },
+    verification: verificationMeta(),
   };
 }
 
