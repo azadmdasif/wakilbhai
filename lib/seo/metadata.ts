@@ -5,7 +5,16 @@ import { SITE_NAME, SITE_URL } from '@/lib/site';
 
 /** Hard SEO ceiling for <title> (see CLAUDE.md: unique title ≤60 chars). */
 const TITLE_MAX = 60;
-const DEFAULT_OG_IMAGE = '/hero.png';
+const OG_WIDTH = 1200;
+const OG_HEIGHT = 630;
+
+/** Build the dynamic OG image URL (app/api/og) for a page's title + category. */
+function ogImageUrl(title: string, category?: string): string {
+  const url = new URL('/api/og', SITE_URL);
+  url.searchParams.set('title', title);
+  if (category) url.searchParams.set('category', category);
+  return url.toString();
+}
 
 const ogLocales: Record<Locale, string> = {
   en: 'en_IN',
@@ -22,7 +31,9 @@ export interface BuildMetadataInput {
   /** Locale-less path, e.g. '/' or '/help/money-recovery'. */
   path: string;
   locale: Locale;
-  /** Path or absolute URL of the OG image; defaults to the site hero. */
+  /** Category name for the OG image's stamp chip (e.g. guide category). */
+  ogCategory?: string;
+  /** Override the OG image entirely; defaults to a generated /api/og card. */
   ogImage?: string;
 }
 
@@ -47,10 +58,13 @@ function fullTitle(raw: string): string {
  * description, locale-aware canonical + hreflang alternates, and matching
  * Open Graph / Twitter cards.
  */
-export function buildMetadata({ title, description, path, locale, ogImage }: BuildMetadataInput): Metadata {
+export function buildMetadata({ title, description, path, locale, ogCategory, ogImage }: BuildMetadataInput): Metadata {
   const resolvedTitle = fullTitle(title);
   const canonical = `${SITE_URL}${localePath(locale, path)}`;
-  const image = ogImage ?? DEFAULT_OG_IMAGE;
+  // The card shows the human title (no "| WakilBhai" suffix — the brand row
+  // already carries it). Explicit ogImage still wins.
+  const image = ogImage ?? ogImageUrl(title, ogCategory);
+  const images = [{ url: image, width: OG_WIDTH, height: OG_HEIGHT, alt: resolvedTitle }];
   return {
     title: { absolute: resolvedTitle },
     description,
@@ -62,13 +76,13 @@ export function buildMetadata({ title, description, path, locale, ogImage }: Bui
       description,
       url: canonical,
       locale: ogLocales[locale],
-      images: [image],
+      images,
     },
     twitter: {
       card: 'summary_large_image',
       title: resolvedTitle,
       description,
-      images: [image],
+      images,
     },
   };
 }

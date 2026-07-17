@@ -30,11 +30,13 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const meta = getGuideMeta(guideSlug);
   if (!meta || meta.category !== category) return {};
+  const cat = getCategory(category);
   return buildMetadata({
     title: meta.title[locale],
     description: meta.answerBox[locale],
     path: `/help/${category}/${guideSlug}`,
     locale,
+    ogCategory: cat?.title[locale],
   });
 }
 
