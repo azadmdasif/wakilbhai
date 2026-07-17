@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Script from 'next/script';
 import { Analytics } from '@vercel/analytics/next';
-import { Inter, Exo_2 } from 'next/font/google';
+import { Anek_Latin, Noto_Sans, Noto_Sans_Devanagari, Noto_Sans_Bengali, Noto_Nastaliq_Urdu } from 'next/font/google';
 import { locales, isLocale, dir, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { localeAlternates } from '@/lib/seo';
@@ -14,8 +14,33 @@ import JsonLd from '@/components/seo/JsonLd';
 import { organizationSchema } from '@/lib/seo/schemas';
 import '../globals.css';
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
-const exo2 = Exo_2({ subsets: ['latin'], weight: ['700', '800'], variable: '--font-exo2', display: 'swap' });
+// Body/primary text face (Noto Sans, Latin). The ONLY face we preload — it's
+// what most above-the-fold text renders in. Everything else loads on demand.
+const notoSans = Noto_Sans({ subsets: ['latin'], variable: '--font-sans', display: 'swap', preload: true });
+
+// Display face for headings (Anek). Not the primary text face → not preloaded.
+const anek = Anek_Latin({ subsets: ['latin'], variable: '--font-display', display: 'swap', preload: false });
+
+// Per-script body faces. Each shares the --font-script slot and is applied only
+// on its own locale route (subset-per-locale), so English visitors never fetch
+// Devanagari/Bengali/Nastaliq. None are preloaded.
+const notoDevanagari = Noto_Sans_Devanagari({ subsets: ['devanagari'], variable: '--font-script', display: 'swap', preload: false });
+const notoBengali = Noto_Sans_Bengali({ subsets: ['bengali'], variable: '--font-script', display: 'swap', preload: false });
+const notoNastaliqUrdu = Noto_Nastaliq_Urdu({ subsets: ['arabic'], weight: ['400', '700'], variable: '--font-script', display: 'swap', preload: false });
+
+/** The script font class to apply for a locale (empty for Latin/en). */
+function scriptFontClass(locale: Locale): string {
+  switch (locale) {
+    case 'hi':
+      return notoDevanagari.variable;
+    case 'bn':
+      return notoBengali.variable;
+    case 'ur':
+      return notoNastaliqUrdu.variable;
+    default:
+      return '';
+  }
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -73,7 +98,7 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={locale} dir={dir(locale)} className={`${inter.variable} ${exo2.variable}`}>
+    <html lang={locale} dir={dir(locale)} className={`${notoSans.variable} ${anek.variable} ${scriptFontClass(locale)}`.trim()}>
       <head>
         {/* Legacy SPA used hash routing (/#/services); hashes never reach the
             server, so map them to real paths on first paint. */}

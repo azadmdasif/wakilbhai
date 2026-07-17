@@ -15,8 +15,10 @@ const config: Config = {
         whatsapp: '#25D366',
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'sans-serif'],
-        display: ['var(--font-exo2)', 'sans-serif'],
+        // --font-script is only set on non-Latin locale routes; the var()
+        // fallback keeps the declaration valid on the en route.
+        sans: ['var(--font-sans)', 'var(--font-script, ui-sans-serif)', 'ui-sans-serif', 'sans-serif'],
+        display: ['var(--font-display)', 'var(--font-script, ui-sans-serif)', 'ui-sans-serif', 'sans-serif'],
       },
     },
   },

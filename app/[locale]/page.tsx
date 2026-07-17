@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
+import heroImg from '@/public/hero.png';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { buildMetadata } from '@/lib/seo/metadata';
@@ -46,7 +47,20 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <div className="space-y-20 md:space-y-24">
       {/* Search-first hero */}
       <section className="relative rounded-3xl overflow-hidden">
-        <Image src="/hero.png" alt="" fill priority sizes="100vw" className="object-cover" aria-hidden />
+        {/* Decorative hero: static import gives intrinsic dimensions + a blur
+            placeholder (no CLS). priority because it's the homepage LCP area;
+            quality 60 and a container-accurate `sizes` keep the 4G payload small. */}
+        <Image
+          src={heroImg}
+          alt=""
+          fill
+          priority
+          quality={60}
+          placeholder="blur"
+          sizes="(max-width: 1280px) 100vw, 1216px"
+          className="object-cover"
+          aria-hidden
+        />
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative text-center pt-20 pb-24 px-4">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white font-display tracking-tight mb-3">
