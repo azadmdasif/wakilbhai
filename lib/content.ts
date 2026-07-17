@@ -23,6 +23,7 @@ export const categorySchema: z.ZodType<Category> = z.object({
   slug,
   title: localizedString,
   description: localizedString,
+  intro: localizedString,
   icon: z.string().min(1),
   order: z.number().int().nonnegative(),
   referralOnly: z.boolean().optional(),

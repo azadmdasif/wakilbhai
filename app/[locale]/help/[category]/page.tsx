@@ -60,13 +60,16 @@ export default async function CategoryHubPage({ params }: { params: Promise<{ lo
           { label: category.title[locale] },
         ]}
       />
-      <div className="flex items-start gap-4 mb-10">
+      <div className="flex items-start gap-4 mb-6">
         <CategoryIcon icon={category.icon} className="w-12 h-12 text-brand-gold shrink-0 mt-1" />
         <div>
           <h1 className="text-4xl font-extrabold text-white font-display mb-2">{category.title[locale]}</h1>
           <p className="text-lg text-gray-400">{category.description[locale]}</p>
         </div>
       </div>
+
+      {/* SEO intro: prose so the hub page can rank (what belongs here, cost, timelines). */}
+      <p className="text-base text-gray-300 leading-relaxed max-w-3xl mb-10">{category.intro[locale]}</p>
 
       {guides.length > 0 && (
         <section className="mb-12">

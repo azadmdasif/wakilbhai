@@ -13,6 +13,8 @@ import MdxContent from '@/components/MdxContent';
 import FaqAccordion from '@/components/FaqAccordion';
 import ConversionRail from '@/components/ConversionRail';
 import AskWidget from '@/components/AskWidget';
+import RelatedGuides from '@/components/guide/RelatedGuides';
+import ShareOnWhatsApp from '@/components/ShareOnWhatsApp';
 import { DownloadIcon } from '@/components/Icons';
 
 export function generateStaticParams() {
@@ -60,7 +62,6 @@ export default async function GuidePage({
 
   const primaryService = guide.relatedServiceIds.map(getService).find(Boolean);
   const templates = guide.relatedTemplateSlugs.map(getTemplate).filter((t) => t !== undefined);
-  const relatedGuides = guide.relatedGuideSlugs.map(getGuideMeta).filter((g) => g !== undefined);
   const canonicalUrl = `${SITE_URL}${href(`/help/${categorySlug}/${guideSlug}`)}`;
 
   return (
@@ -130,24 +131,19 @@ export default async function GuidePage({
             </section>
           )}
 
-          {relatedGuides.length > 0 && (
-            <section>
-              <h2 className="text-2xl font-bold text-white font-display mb-6">{dict.ui.guide.relatedGuides}</h2>
-              <div className="space-y-3">
-                {relatedGuides.map((related) => (
-                  <Link
-                    key={related.slug}
-                    href={href(`/help/${related.category}/${related.slug}`)}
-                    className="block bg-gray-900 border border-gray-800 rounded-2xl p-5 hover:border-brand-gold/50 transition-colors"
-                  >
-                    <p className="font-bold text-white">{related.title[locale]}</p>
-                  </Link>
-                ))}
-              </div>
-            </section>
-          )}
+          <RelatedGuides slugs={guide.relatedGuideSlugs} locale={locale} heading={dict.ui.guide.relatedGuides} />
 
           <AskWidget locale={locale} strings={dict.ui.askWidget} source={`guide:${guide.slug}`} />
+
+          {/* Growth loop: forward the guide into family/community WhatsApp groups. */}
+          <div className="border-t border-gray-800 pt-8">
+            <ShareOnWhatsApp
+              locale={locale}
+              title={guide.title[locale]}
+              url={canonicalUrl}
+              label={dict.ui.guide.shareOnWhatsApp}
+            />
+          </div>
 
           <p className="text-xs text-gray-500 border-t border-gray-800 pt-6">{dict.ui.guide.disclaimer}</p>
         </div>

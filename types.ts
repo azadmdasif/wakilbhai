@@ -6,6 +6,8 @@ export interface Category {
   slug: string; // e.g. 'money-recovery'
   title: Localized;
   description: Localized;
+  /** 60–100 word SEO intro: what problems belong here, cost range, timelines. */
+  intro: Localized;
   icon: string; // key resolved by components/CategoryIcon
   order: number;
   /** Bar Council constraint: informational + lawyer referral only, no drafting CTA. */
