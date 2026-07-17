@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { splitLocaleFromPath } from '@/lib/i18n';
 import { SITE_URL } from '@/lib/site';
-import { buildWhatsAppUrl } from '@/lib/whatsapp';
+import { buildWhatsAppUrl, whatsAppLawyerMessage } from '@/lib/whatsapp';
 import { trackEvent } from '@/lib/analytics';
 import { WhatsAppIcon } from '@/components/Icons';
 
@@ -55,9 +55,7 @@ export default function WhatsAppLawyerButton({ label }: { label: string }) {
   if (RAIL_PATTERNS.some((pattern) => pattern.test(path))) return null;
 
   const hasContext = path !== '/' && pageTitle.length > 0;
-  const message = hasContext
-    ? `Hi WakilBhai! I need help with: ${pageTitle} (${SITE_URL}${pathname}). Please tell me about the free 10-minute consultation.`
-    : 'Hi WakilBhai! I have a legal problem and want the free 10-minute consultation.';
+  const message = whatsAppLawyerMessage(hasContext ? { title: pageTitle, url: `${SITE_URL}${pathname}` } : undefined);
 
   return (
     <a

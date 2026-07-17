@@ -13,6 +13,8 @@ interface ConversionRailProps {
   referralOnly?: boolean;
   /** Context appended to the WhatsApp prefill, e.g. the guide title. */
   whatsappContext?: { title: string; url: string };
+  /** Suppress the mobile fixed bottom bar (guide pages use StickyGuideBar instead). */
+  hideMobileBar?: boolean;
 }
 
 /**
@@ -20,7 +22,7 @@ interface ConversionRailProps {
  * WhatsApp CTA. Renders as a sticky sidebar card on desktop (place inside a
  * sidebar column) and a fixed bottom bar on mobile.
  */
-export default function ConversionRail({ locale, dict, service, referralOnly, whatsappContext }: ConversionRailProps) {
+export default function ConversionRail({ locale, dict, service, referralOnly, whatsappContext, hideMobileBar }: ConversionRailProps) {
   const rail = dict.ui.rail;
   const whatsappUrl = whatsappContext
     ? whatsAppUrlFor(locale, { kind: 'guide', title: whatsappContext.title, url: whatsappContext.url })
@@ -55,26 +57,28 @@ export default function ConversionRail({ locale, dict, service, referralOnly, wh
             {rail.whatsappCta}
           </TrackedLink>
         </aside>
-        <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-gray-950/95 backdrop-blur border-t border-gray-800 p-3 flex gap-3">
-          <TrackedLink
-            href={consultHref}
-            event="cta_click"
-            props={{ cta: 'consultation', context }}
-            className="flex-1 text-center font-bold py-3 px-4 rounded-full bg-brand-red text-white text-sm"
-          >
-            {rail.referralCta}
-          </TrackedLink>
-          <TrackedLink
-            href={whatsappUrl}
-            event="whatsapp_click"
-            props={{ context }}
-            external
-            ariaLabel={rail.whatsappCta}
-            className="flex items-center justify-center w-12 h-12 rounded-full bg-whatsapp text-white shrink-0"
-          >
-            <WhatsAppIcon className="w-6 h-6" />
-          </TrackedLink>
-        </div>
+        {!hideMobileBar && (
+          <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-gray-950/95 backdrop-blur border-t border-gray-800 p-3 flex gap-3">
+            <TrackedLink
+              href={consultHref}
+              event="cta_click"
+              props={{ cta: 'consultation', context }}
+              className="flex-1 text-center font-bold py-3 px-4 rounded-full bg-brand-red text-white text-sm"
+            >
+              {rail.referralCta}
+            </TrackedLink>
+            <TrackedLink
+              href={whatsappUrl}
+              event="whatsapp_click"
+              props={{ context }}
+              external
+              ariaLabel={rail.whatsappCta}
+              className="flex items-center justify-center w-12 h-12 rounded-full bg-whatsapp text-white shrink-0"
+            >
+              <WhatsAppIcon className="w-6 h-6" />
+            </TrackedLink>
+          </div>
+        )}
       </>
     );
   }
@@ -113,26 +117,28 @@ export default function ConversionRail({ locale, dict, service, referralOnly, wh
           {rail.whatsappCta}
         </TrackedLink>
       </aside>
-      <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-gray-950/95 backdrop-blur border-t border-gray-800 p-3 flex items-center gap-3">
-        <TrackedLink
-          href={orderHref}
-          event="cta_click"
-          props={{ cta: 'order', service: service.id, context }}
-          className="flex-1 text-center font-bold py-3 px-4 rounded-full bg-brand-red text-white text-sm"
-        >
-          {rail.orderCta} · ₹{service.priceINR}
-        </TrackedLink>
-        <TrackedLink
-          href={whatsappUrl}
-          event="whatsapp_click"
-          props={{ context }}
-          external
-          ariaLabel={rail.whatsappCta}
-          className="flex items-center justify-center w-12 h-12 rounded-full bg-whatsapp text-white shrink-0"
-        >
-          <WhatsAppIcon className="w-6 h-6" />
-        </TrackedLink>
-      </div>
+      {!hideMobileBar && (
+        <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-gray-950/95 backdrop-blur border-t border-gray-800 p-3 flex items-center gap-3">
+          <TrackedLink
+            href={orderHref}
+            event="cta_click"
+            props={{ cta: 'order', service: service.id, context }}
+            className="flex-1 text-center font-bold py-3 px-4 rounded-full bg-brand-red text-white text-sm"
+          >
+            {rail.orderCta} · ₹{service.priceINR}
+          </TrackedLink>
+          <TrackedLink
+            href={whatsappUrl}
+            event="whatsapp_click"
+            props={{ context }}
+            external
+            ariaLabel={rail.whatsappCta}
+            className="flex items-center justify-center w-12 h-12 rounded-full bg-whatsapp text-white shrink-0"
+          >
+            <WhatsAppIcon className="w-6 h-6" />
+          </TrackedLink>
+        </div>
+      )}
     </>
   );
 }

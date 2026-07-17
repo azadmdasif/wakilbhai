@@ -15,6 +15,7 @@ import ConversionRail from '@/components/ConversionRail';
 import AskWidget from '@/components/AskWidget';
 import RelatedGuides from '@/components/guide/RelatedGuides';
 import ShareOnWhatsApp from '@/components/ShareOnWhatsApp';
+import StickyGuideBar from '@/components/cta/StickyGuideBar';
 import { DownloadIcon } from '@/components/Icons';
 
 export function generateStaticParams() {
@@ -97,8 +98,9 @@ export default async function GuidePage({
         />
         <h1 className="text-3xl md:text-4xl font-extrabold text-white font-display mb-4">{guide.title[locale]}</h1>
 
-        {/* Answer box: the featured-snippet target, first thing rendered. */}
-        <div className="bg-gray-900 border-s-4 border-brand-gold rounded-e-2xl p-5 mb-4">
+        {/* Answer box: the featured-snippet target, first thing rendered.
+            id is the scroll anchor the StickyGuideBar watches. */}
+        <div id="guide-quick-answer" className="bg-gray-900 border-s-4 border-brand-gold rounded-e-2xl p-5 mb-4">
           <p className="text-lg text-gray-100 leading-relaxed">{guide.answerBox[locale]}</p>
         </div>
         <p className="text-sm text-gray-500 mb-8">
@@ -156,8 +158,26 @@ export default async function GuidePage({
           service={category.referralOnly ? undefined : primaryService}
           referralOnly={category.referralOnly}
           whatsappContext={{ title: guide.title[locale], url: canonicalUrl }}
+          hideMobileBar
         />
       </div>
+
+      {/* Mobile-only sticky conversion bar (replaces ConversionRail's mobile bar). */}
+      <StickyGuideBar
+        locale={locale}
+        title={guide.title[locale]}
+        url={canonicalUrl}
+        service={
+          category.referralOnly || !primaryService
+            ? undefined
+            : { slug: primaryService.id, price: primaryService.priceINR, name: primaryService.title[locale] }
+        }
+        labels={{
+          whatsApp: dict.common.whatsappLawyerFree,
+          getItDone: dict.ui.rail.getItDone,
+          dismiss: dict.ui.rail.dismiss,
+        }}
+      />
     </div>
   );
 }

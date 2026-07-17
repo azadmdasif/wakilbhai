@@ -194,7 +194,10 @@
       "delivery": "Delivered in {days} working days",
       "referralHeading": "Need a lawyer?",
       "referralText": "For police and criminal matters you need a practising advocate. We can connect you to one for a consultation.",
-      "referralCta": "Book a consultation"
+      "referralCta": "Book a consultation",
+      "getItDone": "Get it done",
+      "freeConsult": "Free consult",
+      "dismiss": "Dismiss"
     },
     "guide": {
       "faqTitle": "Frequently asked questions",

@@ -8,6 +8,17 @@ export function buildWhatsAppUrl(message?: string, phone: string = WHATSAPP_NUMB
   return `${base}?text=${encodeURIComponent(message)}`;
 }
 
+/**
+ * "WhatsApp Lawyer — Free" prefill (shared by the global CTA and the sticky
+ * guide bar). Contextual when a page title + URL are supplied, otherwise a
+ * generic ask. English by design — WakilBhai staff read the incoming message.
+ */
+export function whatsAppLawyerMessage(ctx?: { title: string; url: string }): string {
+  return ctx
+    ? `Hi WakilBhai! I need help with: ${ctx.title} (${ctx.url}). Please tell me about the free 10-minute consultation.`
+    : 'Hi WakilBhai! I have a legal problem and want the free 10-minute consultation.';
+}
+
 type MessageContext =
   | { kind: 'general' }
   | { kind: 'guide'; title: string; url: string }
