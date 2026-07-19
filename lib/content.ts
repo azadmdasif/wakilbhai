@@ -53,6 +53,7 @@ export const templateSchema: z.ZodType<DocTemplate> = z.object({
   fileFormats: z.array(z.enum(['docx', 'pdf'])).min(1),
   gated: z.boolean(),
   relatedServiceId: z.string().optional(),
+  preview: z.string().optional(),
 });
 
 export const serviceSchema: z.ZodType<PaidService> = z.object({

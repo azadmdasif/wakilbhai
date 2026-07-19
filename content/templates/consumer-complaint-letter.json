@@ -18,5 +18,6 @@
   "fileFormats": [
     "pdf",
     "docx"
-  ]
+  ],
+  "preview": "<p><strong>CONSUMER COMPLAINT / LEGAL NOTICE TO SELLER</strong></p><p>To,<br>______ (Seller / service provider)</p><p>I purchased ______ vide invoice no. ______ dated ______ for ₹______. The product / service is defective because ______.</p><p>I demand a refund / replacement / rectification within 15 days, failing which I shall file a complaint before the Consumer Disputes Redressal Commission via e-Daakhil, with a claim for compensation.</p><p>______</p>"
 }

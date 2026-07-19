@@ -233,7 +233,11 @@
       "gatedSuccess": "Thanks! Your download is starting…",
       "allTemplates": "All templates",
       "filterAll": "All",
-      "formats": "Formats"
+      "formats": "Formats",
+      "previewTitle": "Sample preview",
+      "downloadFree": "Download free format",
+      "upsellTitle": "Want it advocate-drafted and sent for you?",
+      "askFits": "Ask a lawyer if this format fits your case — free"
     },
     "service": {
       "included": "What's included",

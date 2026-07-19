@@ -27,7 +27,8 @@ type MessageContext =
   | { kind: 'searchMiss'; query: string }
   | { kind: 'calculator'; title: string; result: string }
   | { kind: 'share'; title: string; url: string }
-  | { kind: 'serviceOrder'; title: string; priceINR: number; name?: string; city?: string };
+  | { kind: 'serviceOrder'; title: string; priceINR: number; name?: string; city?: string }
+  | { kind: 'templateFit'; title: string };
 
 /**
  * Peer-to-peer share link (no recipient number). Opens WhatsApp's contact
@@ -48,6 +49,7 @@ const T: Record<Locale, Record<string, string>> = {
     calculator: 'Hi WakilBhai! I used the {title} tool. My result: {result}. I need help with this.',
     share: '{title} — free step-by-step guide: {url} (via WakilBhai)',
     serviceOrder: 'Hi WakilBhai! I want to order: {title} (₹{price}). My name: {name} My city: {city}',
+    templateFit: 'Hi WakilBhai! I found the "{title}" format on your site. Can a lawyer check for free if it fits my case?',
   },
   hi: {
     general: 'नमस्ते WakilBhai! मुझे एक कानूनी दस्तावेज़ के मामले में मदद चाहिए।',
@@ -58,6 +60,7 @@ const T: Record<Locale, Record<string, string>> = {
     calculator: 'नमस्ते WakilBhai! मैंने {title} टूल इस्तेमाल किया। मेरा परिणाम: {result}। मुझे इसमें मदद चाहिए।',
     share: '{title} — मुफ़्त स्टेप-बाय-स्टेप गाइड: {url} (WakilBhai से)',
     serviceOrder: 'नमस्ते WakilBhai! मुझे यह ऑर्डर करना है: {title} (₹{price})। मेरा नाम: {name} मेरा शहर: {city}',
+    templateFit: 'नमस्ते WakilBhai! मुझे आपकी साइट पर "{title}" फॉर्मेट मिला। क्या कोई वकील मुफ़्त में देख सकता है कि यह मेरे केस के लिए सही है?',
   },
   ur: {
     general: 'السلام علیکم WakilBhai! مجھے ایک قانونی دستاویز کے معاملے میں مدد چاہیے۔',
@@ -68,6 +71,7 @@ const T: Record<Locale, Record<string, string>> = {
     calculator: 'السلام علیکم WakilBhai! میں نے {title} ٹول استعمال کیا۔ میرا نتیجہ: {result}۔ مجھے اس میں مدد چاہیے۔',
     share: '{title} — مفت مرحلہ وار گائیڈ: {url} (WakilBhai کی طرف سے)',
     serviceOrder: 'السلام علیکم WakilBhai! میں یہ آرڈر کرنا چاہتا/چاہتی ہوں: {title} (₹{price})۔ میرا نام: {name} میرا شہر: {city}',
+    templateFit: 'السلام علیکم WakilBhai! مجھے آپ کی سائٹ پر "{title}" فارمیٹ ملا۔ کیا کوئی وکیل مفت میں دیکھ سکتا ہے کہ یہ میرے کیس کے لیے درست ہے؟',
   },
   bn: {
     general: 'নমস্কার WakilBhai! আমার একটি আইনি নথির বিষয়ে সাহায্য দরকার।',
@@ -78,6 +82,7 @@ const T: Record<Locale, Record<string, string>> = {
     calculator: 'নমস্কার WakilBhai! আমি {title} টুল ব্যবহার করেছি। আমার ফলাফল: {result}। আমার সাহায্য দরকার।',
     share: '{title} — বিনামূল্যে ধাপে ধাপে গাইড: {url} (WakilBhai থেকে)',
     serviceOrder: 'নমস্কার WakilBhai! আমি অর্ডার করতে চাই: {title} (₹{price})। আমার নাম: {name} আমার শহর: {city}',
+    templateFit: 'নমস্কার WakilBhai! আমি আপনাদের সাইটে "{title}" ফরম্যাট পেয়েছি। একজন উকিল কি বিনামূল্যে দেখতে পারেন এটি আমার কেসে মানানসই কিনা?',
   },
 };
 
@@ -110,6 +115,8 @@ export function whatsAppMessage(locale: Locale, ctx: MessageContext): string {
         name: ctx.name ?? '___',
         city: ctx.city ?? '___',
       });
+    case 'templateFit':
+      return fill(templates.templateFit, { title: ctx.title });
   }
 }
 

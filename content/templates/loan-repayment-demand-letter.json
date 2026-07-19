@@ -18,5 +18,6 @@
   "fileFormats": [
     "pdf",
     "docx"
-  ]
+  ],
+  "preview": "<p><strong>DEMAND NOTICE FOR REPAYMENT OF LOAN</strong></p><p>To,<br>______ (Borrower)</p><p>You borrowed ₹______ from me on ______, agreed to be repaid by ______. Despite repeated reminders, the amount remains unpaid.</p><p>You are called upon to repay ₹______ (with agreed interest) within 15 days of this notice, failing which I shall initiate civil / criminal proceedings for recovery.</p><p>______</p>"
 }

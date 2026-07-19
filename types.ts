@@ -46,10 +46,12 @@ export interface DocTemplate {
   title: Localized;
   description: Localized;
   fileFormats: ('docx' | 'pdf')[];
-  /** true = requires WhatsApp number before download. */
+  /** Legacy gate flag; downloads are now free/instant regardless. */
   gated: boolean;
   /** Upsell: "get this professionally drafted". */
   relatedServiceId?: string;
+  /** Watermarked sample of the format (HTML). Legal formats are English. */
+  preview?: string;
 }
 
 export type ServiceType = 'drafting' | 'legal-notice' | 'consultation' | 'registration';

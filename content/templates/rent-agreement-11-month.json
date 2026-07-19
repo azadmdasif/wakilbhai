@@ -18,5 +18,6 @@
   "fileFormats": [
     "pdf",
     "docx"
-  ]
+  ],
+  "preview": "<p><strong>RENT AGREEMENT (11 MONTHS)</strong></p><p>This agreement is made on ______ between ______ (\"Owner\") and ______ (\"Tenant\").</p><p>1. Premises: ______.<br>2. Term: 11 months from ______.<br>3. Rent: ₹______ per month, payable by the ____ of each month.<br>4. Security deposit: ₹______, refundable on vacating.<br>5. ______ (other terms).</p><p>Owner: ______   Tenant: ______   Witnesses: ______</p>"
 }
