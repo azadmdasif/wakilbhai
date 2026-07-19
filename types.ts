@@ -63,6 +63,12 @@ export interface PaidService {
   priceINR: number;
   deliveryDays: number;
   type: ServiceType;
+  /** Conversion template extras (optional; template falls back gracefully). */
+  whatYouGet?: Localized<string[]>;
+  documentsNeeded?: Localized<string[]>;
+  sampleImage?: string; // path under /public
+  relatedGuideSlug?: string;
+  faqs?: Localized<{ q: string; a: string }[]>;
 }
 
 export interface City {

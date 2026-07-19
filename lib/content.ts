@@ -63,6 +63,11 @@ export const serviceSchema: z.ZodType<PaidService> = z.object({
   priceINR: z.number().int().positive(),
   deliveryDays: z.number().int().nonnegative(),
   type: z.enum(['drafting', 'legal-notice', 'consultation', 'registration']),
+  whatYouGet: localizedStringArray.optional(),
+  documentsNeeded: localizedStringArray.optional(),
+  sampleImage: z.string().optional(),
+  relatedGuideSlug: z.string().optional(),
+  faqs: localizedFaqs.optional(),
 });
 
 export interface Lawyer {

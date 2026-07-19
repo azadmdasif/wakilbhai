@@ -247,7 +247,21 @@
       "step3": "حتمی دستاویز فراہم کی جاتی ہے — جہاں ضروری ہو، پرنٹنگ/نوٹری رہنمائی کے ساتھ۔",
       "faqTitle": "اکثر پوچھے جانے والے سوالات",
       "relatedGuides": "آرڈر سے پہلے پڑھیں",
-      "sameDay": "1 کاروباری دن کے اندر شیڈول"
+      "sameDay": "1 کاروباری دن کے اندر شیڈول",
+      "whatYouGet": "آپ کو کیا ملے گا",
+      "documentsNeeded": "درکار دستاویزات",
+      "orderOnWhatsApp": "WhatsApp پر آرڈر کریں",
+      "sampleTitle": "نمونہ",
+      "readGuide": "مکمل گائیڈ پڑھیں",
+      "formTitle": "چاہیں تو ہم آپ کو پیغام کریں؟ اپنی تفصیلات دیں",
+      "formName": "آپ کا نام",
+      "formPhone": "فون / WhatsApp نمبر",
+      "formCity": "آپ کا شہر",
+      "formSubmit": "میری تفصیلات بھیجیں",
+      "formSending": "بھیجا جا رہا ہے…",
+      "formSuccess": "مل گیا! ہم رابطہ کریں گے۔ آپ ابھی WhatsApp پر بھی جاری رکھ سکتے ہیں:",
+      "formError": "کچھ خرابی ہوئی۔ براہ کرم WhatsApp استعمال کریں۔",
+      "continueOnWhatsApp": "WhatsApp پر جاری رکھیں"
     },
     "lawyers": {
       "title": "وکلاء کی ڈائریکٹری",

@@ -28,3 +28,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local leads store (dev stand-in)
+.leads/

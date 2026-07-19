@@ -26,7 +26,8 @@ type MessageContext =
   | { kind: 'template'; title: string }
   | { kind: 'searchMiss'; query: string }
   | { kind: 'calculator'; title: string; result: string }
-  | { kind: 'share'; title: string; url: string };
+  | { kind: 'share'; title: string; url: string }
+  | { kind: 'serviceOrder'; title: string; priceINR: number; name?: string; city?: string };
 
 /**
  * Peer-to-peer share link (no recipient number). Opens WhatsApp's contact
@@ -46,6 +47,7 @@ const T: Record<Locale, Record<string, string>> = {
     searchMiss: 'Hi WakilBhai! I searched for "{query}" on your site but did not find it. My problem is: ',
     calculator: 'Hi WakilBhai! I used the {title} tool. My result: {result}. I need help with this.',
     share: '{title} — free step-by-step guide: {url} (via WakilBhai)',
+    serviceOrder: 'Hi WakilBhai! I want to order: {title} (₹{price}). My name: {name} My city: {city}',
   },
   hi: {
     general: 'नमस्ते WakilBhai! मुझे एक कानूनी दस्तावेज़ के मामले में मदद चाहिए।',
@@ -55,6 +57,7 @@ const T: Record<Locale, Record<string, string>> = {
     searchMiss: 'नमस्ते WakilBhai! मैंने आपकी साइट पर "{query}" खोजा पर नहीं मिला। मेरी समस्या है: ',
     calculator: 'नमस्ते WakilBhai! मैंने {title} टूल इस्तेमाल किया। मेरा परिणाम: {result}। मुझे इसमें मदद चाहिए।',
     share: '{title} — मुफ़्त स्टेप-बाय-स्टेप गाइड: {url} (WakilBhai से)',
+    serviceOrder: 'नमस्ते WakilBhai! मुझे यह ऑर्डर करना है: {title} (₹{price})। मेरा नाम: {name} मेरा शहर: {city}',
   },
   ur: {
     general: 'السلام علیکم WakilBhai! مجھے ایک قانونی دستاویز کے معاملے میں مدد چاہیے۔',
@@ -64,6 +67,7 @@ const T: Record<Locale, Record<string, string>> = {
     searchMiss: 'السلام علیکم WakilBhai! میں نے آپ کی سائٹ پر "{query}" تلاش کیا لیکن نہیں ملا۔ میرا مسئلہ ہے: ',
     calculator: 'السلام علیکم WakilBhai! میں نے {title} ٹول استعمال کیا۔ میرا نتیجہ: {result}۔ مجھے اس میں مدد چاہیے۔',
     share: '{title} — مفت مرحلہ وار گائیڈ: {url} (WakilBhai کی طرف سے)',
+    serviceOrder: 'السلام علیکم WakilBhai! میں یہ آرڈر کرنا چاہتا/چاہتی ہوں: {title} (₹{price})۔ میرا نام: {name} میرا شہر: {city}',
   },
   bn: {
     general: 'নমস্কার WakilBhai! আমার একটি আইনি নথির বিষয়ে সাহায্য দরকার।',
@@ -73,6 +77,7 @@ const T: Record<Locale, Record<string, string>> = {
     searchMiss: 'নমস্কার WakilBhai! আমি আপনাদের সাইটে "{query}" খুঁজেছি কিন্তু পাইনি। আমার সমস্যা: ',
     calculator: 'নমস্কার WakilBhai! আমি {title} টুল ব্যবহার করেছি। আমার ফলাফল: {result}। আমার সাহায্য দরকার।',
     share: '{title} — বিনামূল্যে ধাপে ধাপে গাইড: {url} (WakilBhai থেকে)',
+    serviceOrder: 'নমস্কার WakilBhai! আমি অর্ডার করতে চাই: {title} (₹{price})। আমার নাম: {name} আমার শহর: {city}',
   },
 };
 
@@ -98,6 +103,13 @@ export function whatsAppMessage(locale: Locale, ctx: MessageContext): string {
       return fill(templates.calculator, { title: ctx.title, result: ctx.result });
     case 'share':
       return fill(templates.share, { title: ctx.title, url: ctx.url });
+    case 'serviceOrder':
+      return fill(templates.serviceOrder, {
+        title: ctx.title,
+        price: ctx.priceINR,
+        name: ctx.name ?? '___',
+        city: ctx.city ?? '___',
+      });
   }
 }
 

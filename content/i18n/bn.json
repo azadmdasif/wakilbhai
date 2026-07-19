@@ -247,7 +247,21 @@
       "step3": "চূড়ান্ত নথি ডেলিভার করা হয় — যেখানে প্রয়োজন, প্রিন্টিং/নোটারি নির্দেশনা সহ।",
       "faqTitle": "প্রায়শই জিজ্ঞাসিত প্রশ্ন",
       "relatedGuides": "অর্ডারের আগে পড়ুন",
-      "sameDay": "১ কর্মদিবসের মধ্যে নির্ধারিত"
+      "sameDay": "১ কর্মদিবসের মধ্যে নির্ধারিত",
+      "whatYouGet": "আপনি যা পাবেন",
+      "documentsNeeded": "প্রয়োজনীয় নথি",
+      "orderOnWhatsApp": "WhatsApp-এ অর্ডার করুন",
+      "sampleTitle": "নমুনা",
+      "readGuide": "সম্পূর্ণ গাইড পড়ুন",
+      "formTitle": "চাইলে আমরা আপনাকে মেসেজ করি? আপনার তথ্য দিন",
+      "formName": "আপনার নাম",
+      "formPhone": "ফোন / WhatsApp নম্বর",
+      "formCity": "আপনার শহর",
+      "formSubmit": "আমার তথ্য পাঠান",
+      "formSending": "পাঠানো হচ্ছে…",
+      "formSuccess": "পেয়েছি! আমরা যোগাযোগ করব। এখনই WhatsApp-এও চালিয়ে যেতে পারেন:",
+      "formError": "কিছু ভুল হয়েছে। অনুগ্রহ করে WhatsApp ব্যবহার করুন।",
+      "continueOnWhatsApp": "WhatsApp-এ চালিয়ে যান"
     },
     "lawyers": {
       "title": "উকিল ডিরেক্টরি",

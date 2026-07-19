@@ -247,7 +247,21 @@
       "step3": "अंतिम दस्तावेज़ डिलीवर होता है — जहां ज़रूरी हो, प्रिंटिंग/नोटरी मार्गदर्शन के साथ।",
       "faqTitle": "अक्सर पूछे जाने वाले सवाल",
       "relatedGuides": "ऑर्डर से पहले पढ़ें",
-      "sameDay": "1 कार्य-दिवस के भीतर शेड्यूल"
+      "sameDay": "1 कार्य-दिवस के भीतर शेड्यूल",
+      "whatYouGet": "आपको क्या मिलेगा",
+      "documentsNeeded": "ज़रूरी दस्तावेज़",
+      "orderOnWhatsApp": "WhatsApp पर ऑर्डर करें",
+      "sampleTitle": "नमूना",
+      "readGuide": "पूरी गाइड पढ़ें",
+      "formTitle": "चाहें तो हम आपको मैसेज करें? अपनी जानकारी दें",
+      "formName": "आपका नाम",
+      "formPhone": "फ़ोन / WhatsApp नंबर",
+      "formCity": "आपका शहर",
+      "formSubmit": "मेरी जानकारी भेजें",
+      "formSending": "भेजा जा रहा है…",
+      "formSuccess": "मिल गया! हम संपर्क करेंगे। आप अभी WhatsApp पर भी जारी रख सकते हैं:",
+      "formError": "कुछ गड़बड़ हुई। कृपया WhatsApp का उपयोग करें।",
+      "continueOnWhatsApp": "WhatsApp पर जारी रखें"
     },
     "lawyers": {
       "title": "वकील डायरेक्टरी",

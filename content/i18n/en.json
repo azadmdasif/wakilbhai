@@ -247,7 +247,21 @@
       "step3": "Final document is delivered — with printing/notary guidance where needed.",
       "faqTitle": "Frequently asked questions",
       "relatedGuides": "Read before you order",
-      "sameDay": "Scheduled within 1 working day"
+      "sameDay": "Scheduled within 1 working day",
+      "whatYouGet": "What you get",
+      "documentsNeeded": "Documents you'll need",
+      "orderOnWhatsApp": "Order on WhatsApp",
+      "sampleTitle": "Sample",
+      "readGuide": "Read the full guide",
+      "formTitle": "Prefer we message you? Leave your details",
+      "formName": "Your name",
+      "formPhone": "Phone / WhatsApp number",
+      "formCity": "Your city",
+      "formSubmit": "Send my details",
+      "formSending": "Sending…",
+      "formSuccess": "Got it! We'll be in touch. You can also continue on WhatsApp now:",
+      "formError": "Something went wrong. Please use WhatsApp instead.",
+      "continueOnWhatsApp": "Continue on WhatsApp"
     },
     "lawyers": {
       "title": "Lawyer Directory",
