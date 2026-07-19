@@ -325,6 +325,12 @@
       "capReached": "Let us take this ahead personally — message us on WhatsApp and a documentation expert will pick it up.",
       "disclaimer": "AI answers are general information, not legal advice.",
       "open": "Ask a question"
+    },
+    "ladder": {
+      "getItDone": "Get it done for me",
+      "delivered": "Delivered in {days} working days",
+      "talkFirst": "Talk to a lawyer first — free 10 min on WhatsApp",
+      "complex": "Complex matter? Book a full advocate consultation →"
     }
   },
   "meta": {

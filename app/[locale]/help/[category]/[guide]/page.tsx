@@ -16,6 +16,7 @@ import AskWidget from '@/components/AskWidget';
 import RelatedGuides from '@/components/guide/RelatedGuides';
 import ShareOnWhatsApp from '@/components/ShareOnWhatsApp';
 import StickyGuideBar from '@/components/cta/StickyGuideBar';
+import CtaLadder from '@/components/cta/CtaLadder';
 import { DownloadIcon } from '@/components/Icons';
 
 export function generateStaticParams() {
@@ -107,7 +108,27 @@ export default async function GuidePage({
           {dict.common.updatedOn}: <time dateTime={guide.updatedAt}>{formatDate(guide.updatedAt, locale)}</time>
         </p>
 
-        <MdxContent source={guide.body} />
+        <MdxContent
+          source={guide.body}
+          ctaLadder={
+            <CtaLadder
+              locale={locale}
+              service={
+                category.referralOnly || !primaryService
+                  ? undefined
+                  : {
+                      slug: primaryService.id,
+                      name: primaryService.title[locale],
+                      price: primaryService.priceINR,
+                      days: primaryService.deliveryDays,
+                    }
+              }
+              whatsappContext={{ title: guide.title[locale], url: canonicalUrl }}
+              consultHref={href('/talk-to-a-lawyer')}
+              strings={dict.ui.ladder}
+            />
+          }
+        />
 
         <div className="mt-12 space-y-12">
           <FaqAccordion title={dict.ui.guide.faqTitle} faqs={guide.faqs[locale]} />
