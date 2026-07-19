@@ -12,6 +12,13 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: Dict })
   // Internal linking: surface the top guides on every page.
   const topGuides = getGuideMetas().slice(0, 10);
 
+  // Social links come from env; an icon is shown only when its URL is set.
+  const socials = [
+    { url: process.env.NEXT_PUBLIC_TWITTER_URL, Icon: TwitterIcon, label: 'Twitter' },
+    { url: process.env.NEXT_PUBLIC_FACEBOOK_URL, Icon: FacebookIcon, label: 'Facebook' },
+    { url: process.env.NEXT_PUBLIC_LINKEDIN_URL, Icon: LinkedInIcon, label: 'LinkedIn' },
+  ].filter((s): s is { url: string; Icon: typeof TwitterIcon; label: string } => Boolean(s.url));
+
   return (
     <footer className="bg-black text-gray-400">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -25,11 +32,22 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: Dict })
               </span>
             </Link>
             <p className="text-sm">{dict.common.tagline}</p>
-            <div className="flex gap-4">
-              <a href="#" className="hover:text-brand-gold transition-colors" aria-label="Twitter"><TwitterIcon className="h-6 w-6" /></a>
-              <a href="#" className="hover:text-brand-gold transition-colors" aria-label="Facebook"><FacebookIcon className="h-6 w-6" /></a>
-              <a href="#" className="hover:text-brand-gold transition-colors" aria-label="LinkedIn"><LinkedInIcon className="h-6 w-6" /></a>
-            </div>
+            {socials.length > 0 && (
+              <div className="flex gap-4">
+                {socials.map(({ url, Icon, label }) => (
+                  <a
+                    key={label}
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer me"
+                    className="hover:text-brand-gold transition-colors"
+                    aria-label={label}
+                  >
+                    <Icon className="h-6 w-6" />
+                  </a>
+                ))}
+              </div>
+            )}
           </div>
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">{dict.common.quickLinks}</h3>

@@ -26,6 +26,9 @@ gracefully when a var is absent.
 | `NEXT_PUBLIC_GSC_TOKEN` | Google Search Console site verification | Emits `<meta name="google-site-verification">`. |
 | `NEXT_PUBLIC_BING_TOKEN` | Bing Webmaster Tools site verification | Emits `<meta name="msvalidate.01">`. |
 | `INDEXNOW_KEY` | IndexNow submissions | Any 8–128 char `[a-zA-Z0-9-]` string. Also served at `/{key}.txt`. |
+| `NEXT_PUBLIC_TWITTER_URL` | Footer Twitter/X link | Icon is hidden when unset. |
+| `NEXT_PUBLIC_FACEBOOK_URL` | Footer Facebook link | Icon is hidden when unset. |
+| `NEXT_PUBLIC_LINKEDIN_URL` | Footer LinkedIn link | Icon is hidden when unset. |
 
 `NEXT_PUBLIC_*` vars are inlined into the client bundle at build time, so a build
 is required after changing them.

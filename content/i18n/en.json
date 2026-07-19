@@ -181,11 +181,21 @@
     "home": {
       "categoriesTitle": "Browse by problem",
       "toolsTitle": "Free tools & templates",
-      "trust1": "Documents delivered across India",
-      "trust2": "Advocate-sent legal notices",
-      "trust3": "Help in 4 languages",
-      "trust4": "Starting at ₹199",
-      "viewAll": "View all"
+      "trust1": "Documents across India",
+      "trust2": "Advocate-sent notices",
+      "trust3": "10+ languages (coming)",
+      "trust4": "From ₹199",
+      "viewAll": "View all",
+      "whatsappPill": "WhatsApp Lawyer — Free · 10-minute consult",
+      "seeAllProblems": "See all problems",
+      "seeAllTemplates": "See all templates",
+      "howTitle": "How it works",
+      "step1": "Tell us on WhatsApp",
+      "step2": "We draft in 1–3 days",
+      "step3": "Advocate sends it",
+      "startOnWhatsApp": "Start free on WhatsApp",
+      "reviewsTitle": "Reviews",
+      "talkToLawyer": "Talk to a lawyer"
     },
     "rail": {
       "heading": "Get this done for you",
