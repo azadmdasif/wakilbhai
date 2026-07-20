@@ -386,6 +386,13 @@
     "step": {
       "seeDetails": "विवरण देखें",
       "weDoThis": "यह हम आपके लिए करते हैं — ₹{price}"
+    },
+    "decision": {
+      "yes": "हाँ",
+      "no": "नहीं",
+      "back": "पीछे",
+      "startOver": "फिर से शुरू करें",
+      "result": "परिणाम"
     }
   },
   "meta": {

@@ -235,6 +235,82 @@
       }
     ]
   },
+  "decisionFlow": {
+    "start": "q1",
+    "nodes": [
+      {
+        "id": "q1",
+        "yes": "q2",
+        "no": "notDebt",
+        "question": {
+          "en": "Was the cheque for a loan, goods, or rent — a real debt?",
+          "hi": "क्या चेक किसी उधार, सामान या किराए — यानी असली देनदारी के लिए था?",
+          "ur": "کیا چیک کسی قرض، سامان یا کرایہ — یعنی حقیقی واجب الادا رقم کے لیے تھا؟",
+          "bn": "চেকটি কি কোনো ঋণ, পণ্য বা ভাড়া — অর্থাৎ প্রকৃত দেনার জন্য ছিল?"
+        }
+      },
+      {
+        "id": "q2",
+        "yes": "q3",
+        "no": "expired",
+        "question": {
+          "en": "Did the cheque bounce within 3 months of its date?",
+          "hi": "क्या चेक अपनी तारीख से 3 महीने के भीतर बाउंस हुआ?",
+          "ur": "کیا چیک اپنی تاریخ سے 3 ماہ کے اندر باؤنس ہوا؟",
+          "bn": "চেকটি কি তার তারিখ থেকে ৩ মাসের মধ্যে বাউন্স হয়েছে?"
+        }
+      },
+      {
+        "id": "q3",
+        "yes": "sendNotice",
+        "no": "reviewTimeline",
+        "question": {
+          "en": "Are you still within 30 days of the bank return memo?",
+          "hi": "क्या आप अब भी बैंक रिटर्न मेमो के 30 दिनों के भीतर हैं?",
+          "ur": "کیا آپ اب بھی بینک ریٹرن میمو کے 30 دن کے اندر ہیں؟",
+          "bn": "আপনি কি এখনও ব্যাঙ্ক রিটার্ন মেমোর ৩০ দিনের মধ্যে আছেন?"
+        }
+      }
+    ],
+    "outcomes": {
+      "notDebt": {
+        "href": "whatsapp",
+        "label": {
+          "en": "Section 138 likely doesn't apply — ask a lawyer free",
+          "hi": "धारा 138 शायद लागू न हो — वकील से मुफ़्त पूछें",
+          "ur": "دفعہ 138 شاید لاگو نہ ہو — وکیل سے مفت پوچھیں",
+          "bn": "ধারা ১৩৮ সম্ভবত প্রযোজ্য নয় — উকিলকে বিনামূল্যে জিজ্ঞাসা করুন"
+        }
+      },
+      "expired": {
+        "href": "whatsapp",
+        "label": {
+          "en": "The cheque may be too old — re-issue or ask a lawyer free",
+          "hi": "चेक शायद बहुत पुराना है — दोबारा जारी कराएं या वकील से मुफ़्त पूछें",
+          "ur": "چیک شاید بہت پرانا ہے — دوبارہ جاری کرائیں یا وکیل سے مفت پوچھیں",
+          "bn": "চেকটি হয়তো অনেক পুরনো — পুনরায় ইস্যু করান বা উকিলকে বিনামূল্যে জিজ্ঞাসা করুন"
+        }
+      },
+      "reviewTimeline": {
+        "href": "#guide-quick-answer",
+        "label": {
+          "en": "You may have missed the notice window — re-check the timeline",
+          "hi": "आप शायद नोटिस की समय-सीमा चूक गए — समय-सीमा दोबारा देखें",
+          "ur": "آپ شاید نوٹس کی مدت سے چوک گئے — ٹائم لائن دوبارہ دیکھیں",
+          "bn": "আপনি হয়তো নোটিশের সময়সীমা মিস করেছেন — সময়সীমা আবার দেখুন"
+        }
+      },
+      "sendNotice": {
+        "href": "/services/legal-notice-cheque-bounce",
+        "label": {
+          "en": "Section 138 applies — send an advocate notice now (₹999)",
+          "hi": "धारा 138 लागू है — अभी वकील का नोटिस भेजें (₹999)",
+          "ur": "دفعہ 138 لاگو ہے — ابھی وکیل کا نوٹس بھیجیں (₹999)",
+          "bn": "ধারা ১৩৮ প্রযোজ্য — এখনই উকিলের নোটিশ পাঠান (₹৯৯৯)"
+        }
+      }
+    }
+  },
   "searchKeywords": {
     "en": [
       "cheque bounce what to do",

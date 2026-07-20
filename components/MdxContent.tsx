@@ -21,17 +21,20 @@ export default function MdxContent({
   ctaLadder,
   deadlineTimeline,
   stepCards,
+  decisionFlow,
 }: {
   source: string;
   ctaLadder?: React.ReactNode;
   deadlineTimeline?: React.ReactNode;
   stepCards?: React.ReactNode;
+  decisionFlow?: React.ReactNode;
 }) {
   const components = {
     ...baseComponents,
     CtaLadder: () => <>{ctaLadder ?? null}</>,
     DeadlineTimeline: () => <>{deadlineTimeline ?? null}</>,
     StepCards: () => <>{stepCards ?? null}</>,
+    DecisionFlow: () => <>{decisionFlow ?? null}</>,
   };
   return (
     <div className="prose prose-invert prose-headings:font-display prose-headings:text-white prose-a:text-brand-gold prose-strong:text-white prose-li:marker:text-brand-gold max-w-none">

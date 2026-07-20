@@ -15,7 +15,9 @@ import ConversionRail from '@/components/ConversionRail';
 import AskWidget from '@/components/AskWidget';
 import QuickAnswer from '@/components/guide/QuickAnswer';
 import DeadlineTimeline from '@/components/guide/DeadlineTimeline';
+import { buildWhatsAppUrl, whatsAppLawyerMessage } from '@/lib/whatsapp';
 import StepCards from '@/components/guide/StepCards';
+import DecisionFlow from '@/components/guide/DecisionFlow';
 import RelatedGuides from '@/components/guide/RelatedGuides';
 import ShareOnWhatsApp from '@/components/ShareOnWhatsApp';
 import StickyGuideBar from '@/components/cta/StickyGuideBar';
@@ -82,6 +84,27 @@ export default async function GuidePage({
     };
   });
   const stepCardsNode = stepItems.length > 0 ? <StepCards items={stepItems} seeDetailsLabel={dict.ui.step.seeDetails} /> : null;
+
+  // Resolve decision-flow outcome hrefs: whatsapp token, internal path, or anchor.
+  const resolveOutcomeHref = (h?: string): string | undefined => {
+    if (!h) return undefined;
+    if (h === 'whatsapp') return buildWhatsAppUrl(whatsAppLawyerMessage({ title: guide.title[locale], url: canonicalUrl }));
+    if (h.startsWith('/')) return href(h);
+    return h;
+  };
+  const df = guide.decisionFlow;
+  const decisionFlowNode = df ? (
+    <DecisionFlow
+      flow={{
+        start: df.start,
+        nodes: df.nodes.map((n) => ({ id: n.id, question: n.question[locale], yes: n.yes, no: n.no })),
+        outcomes: Object.fromEntries(
+          Object.entries(df.outcomes).map(([k, o]) => [k, { label: o.label[locale], href: resolveOutcomeHref(o.href) }]),
+        ),
+      }}
+      labels={dict.ui.decision}
+    />
+  ) : null;
 
   return (
     <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-10 pb-24 lg:pb-0">
@@ -150,6 +173,7 @@ export default async function GuidePage({
           }
           deadlineTimeline={<DeadlineTimeline items={guide.deadlines?.[locale]} label={dict.ui.guide.deadlineTimeline} />}
           stepCards={stepCardsNode}
+          decisionFlow={decisionFlowNode}
         />
 
         <div className="mt-12 space-y-12">

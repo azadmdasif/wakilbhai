@@ -34,6 +34,12 @@ const step = z.object({
 });
 const localizedSteps = z.object({ en: z.array(step), hi: z.array(step), ur: z.array(step), bn: z.array(step) });
 
+const decisionFlowSchema = z.object({
+  start: z.string().min(1),
+  nodes: z.array(z.object({ id: z.string().min(1), question: localizedString, yes: z.string().min(1), no: z.string().min(1) })).min(1),
+  outcomes: z.record(z.string(), z.object({ label: localizedString, href: z.string().optional() })),
+});
+
 const slug = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, 'kebab-case slug expected');
 
 export const categorySchema: z.ZodType<Category> = z.object({
@@ -54,6 +60,7 @@ export const guideMetaSchema: z.ZodType<GuideMeta> = z.object({
   keyNumbers: localizedStringArray.optional(),
   deadlines: localizedDeadlines.optional(),
   steps: localizedSteps.optional(),
+  decisionFlow: decisionFlowSchema.optional(),
   searchKeywords: localizedStringArray,
   relatedServiceIds: z.array(z.string()),
   relatedTemplateSlugs: z.array(z.string()),

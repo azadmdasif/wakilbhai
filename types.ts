@@ -26,6 +26,12 @@ export interface GuideMeta {
   deadlines?: Localized<{ label: string; duration: string; startsFrom: string }[]>;
   /** Sequenced how-to steps for StepCards. `detail` is MDX; `serviceHint` is a service id. */
   steps?: Localized<{ icon: string; title: string; summary: string; detail: string; serviceHint?: string }[]>;
+  /** Yes/no decision stepper. `yes`/`no` reference a node id or an outcome key. */
+  decisionFlow?: {
+    start: string;
+    nodes: { id: string; question: Localized; yes: string; no: string }[];
+    outcomes: Record<string, { label: Localized; href?: string }>;
+  };
   /** Vernacular long-tail queries this guide targets. */
   searchKeywords: Localized<string[]>;
   /** The money pages this guide sells. */
