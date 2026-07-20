@@ -15,6 +15,7 @@ import ConversionRail from '@/components/ConversionRail';
 import AskWidget from '@/components/AskWidget';
 import QuickAnswer from '@/components/guide/QuickAnswer';
 import DeadlineTimeline from '@/components/guide/DeadlineTimeline';
+import StepCards from '@/components/guide/StepCards';
 import RelatedGuides from '@/components/guide/RelatedGuides';
 import ShareOnWhatsApp from '@/components/ShareOnWhatsApp';
 import StickyGuideBar from '@/components/cta/StickyGuideBar';
@@ -67,6 +68,20 @@ export default async function GuidePage({
   const primaryService = guide.relatedServiceIds.map(getService).find(Boolean);
   const templates = guide.relatedTemplateSlugs.map(getTemplate).filter((t) => t !== undefined);
   const canonicalUrl = `${SITE_URL}${href(`/help/${categorySlug}/${guideSlug}`)}`;
+
+  const stepItems = (guide.steps?.[locale] ?? []).map((s) => {
+    const svc = s.serviceHint ? getService(s.serviceHint) : undefined;
+    return {
+      icon: s.icon,
+      title: s.title,
+      summary: s.summary,
+      detail: <MdxContent source={s.detail} />,
+      serviceHint: svc
+        ? { href: href(`/services/${svc.id}`), label: dict.ui.step.weDoThis.replace('{price}', String(svc.priceINR)) }
+        : undefined,
+    };
+  });
+  const stepCardsNode = stepItems.length > 0 ? <StepCards items={stepItems} seeDetailsLabel={dict.ui.step.seeDetails} /> : null;
 
   return (
     <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-10 pb-24 lg:pb-0">
@@ -134,6 +149,7 @@ export default async function GuidePage({
             />
           }
           deadlineTimeline={<DeadlineTimeline items={guide.deadlines?.[locale]} label={dict.ui.guide.deadlineTimeline} />}
+          stepCards={stepCardsNode}
         />
 
         <div className="mt-12 space-y-12">

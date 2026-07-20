@@ -25,6 +25,15 @@ const localizedDeadlines = z.object({
   bn: z.array(deadline),
 });
 
+const step = z.object({
+  icon: z.string().min(1),
+  title: z.string().min(1),
+  summary: z.string().min(1),
+  detail: z.string().min(1),
+  serviceHint: z.string().optional(),
+});
+const localizedSteps = z.object({ en: z.array(step), hi: z.array(step), ur: z.array(step), bn: z.array(step) });
+
 const slug = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, 'kebab-case slug expected');
 
 export const categorySchema: z.ZodType<Category> = z.object({
@@ -44,6 +53,7 @@ export const guideMetaSchema: z.ZodType<GuideMeta> = z.object({
   answerBox: localizedString,
   keyNumbers: localizedStringArray.optional(),
   deadlines: localizedDeadlines.optional(),
+  steps: localizedSteps.optional(),
   searchKeywords: localizedStringArray,
   relatedServiceIds: z.array(z.string()),
   relatedTemplateSlugs: z.array(z.string()),

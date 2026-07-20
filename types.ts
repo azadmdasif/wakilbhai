@@ -24,6 +24,8 @@ export interface GuideMeta {
   keyNumbers?: Localized<string[]>;
   /** Statutory-clock steps for the DeadlineTimeline. */
   deadlines?: Localized<{ label: string; duration: string; startsFrom: string }[]>;
+  /** Sequenced how-to steps for StepCards. `detail` is MDX; `serviceHint` is a service id. */
+  steps?: Localized<{ icon: string; title: string; summary: string; detail: string; serviceHint?: string }[]>;
   /** Vernacular long-tail queries this guide targets. */
   searchKeywords: Localized<string[]>;
   /** The money pages this guide sells. */
