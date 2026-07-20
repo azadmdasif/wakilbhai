@@ -35,6 +35,96 @@
       "₹৯৯৯ উকিল নোটিশ"
     ]
   },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Present cheque",
+        "duration": "3 months",
+        "startsFrom": "from the cheque date"
+      },
+      {
+        "label": "Send demand notice",
+        "duration": "30 days",
+        "startsFrom": "from the return memo"
+      },
+      {
+        "label": "Issuer may pay",
+        "duration": "15 days",
+        "startsFrom": "from notice receipt"
+      },
+      {
+        "label": "File complaint",
+        "duration": "1 month",
+        "startsFrom": "after the 15 days lapse"
+      }
+    ],
+    "hi": [
+      {
+        "label": "चेक प्रस्तुत करें",
+        "duration": "3 महीने",
+        "startsFrom": "चेक की तारीख से"
+      },
+      {
+        "label": "डिमांड नोटिस भेजें",
+        "duration": "30 दिन",
+        "startsFrom": "रिटर्न मेमो से"
+      },
+      {
+        "label": "जारीकर्ता भुगतान कर सकता है",
+        "duration": "15 दिन",
+        "startsFrom": "नोटिस मिलने से"
+      },
+      {
+        "label": "शिकायत दर्ज करें",
+        "duration": "1 महीना",
+        "startsFrom": "15 दिन बीतने के बाद"
+      }
+    ],
+    "ur": [
+      {
+        "label": "چیک پیش کریں",
+        "duration": "3 ماہ",
+        "startsFrom": "چیک کی تاریخ سے"
+      },
+      {
+        "label": "ڈیمانڈ نوٹس بھیجیں",
+        "duration": "30 دن",
+        "startsFrom": "ریٹرن میمو سے"
+      },
+      {
+        "label": "جاری کنندہ ادائیگی کر سکتا ہے",
+        "duration": "15 دن",
+        "startsFrom": "نوٹس ملنے سے"
+      },
+      {
+        "label": "شکایت درج کریں",
+        "duration": "1 ماہ",
+        "startsFrom": "15 دن گزرنے کے بعد"
+      }
+    ],
+    "bn": [
+      {
+        "label": "চেক জমা দিন",
+        "duration": "৩ মাস",
+        "startsFrom": "চেকের তারিখ থেকে"
+      },
+      {
+        "label": "ডিমান্ড নোটিশ পাঠান",
+        "duration": "৩০ দিন",
+        "startsFrom": "রিটার্ন মেমো থেকে"
+      },
+      {
+        "label": "প্রদানকারী পরিশোধ করতে পারেন",
+        "duration": "১৫ দিন",
+        "startsFrom": "নোটিশ পাওয়ার পর"
+      },
+      {
+        "label": "অভিযোগ দায়ের করুন",
+        "duration": "১ মাস",
+        "startsFrom": "১৫ দিন পেরোনোর পর"
+      }
+    ]
+  },
   "searchKeywords": {
     "en": [
       "cheque bounce what to do",

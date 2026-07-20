@@ -14,6 +14,7 @@ import FaqAccordion from '@/components/FaqAccordion';
 import ConversionRail from '@/components/ConversionRail';
 import AskWidget from '@/components/AskWidget';
 import QuickAnswer from '@/components/guide/QuickAnswer';
+import DeadlineTimeline from '@/components/guide/DeadlineTimeline';
 import RelatedGuides from '@/components/guide/RelatedGuides';
 import ShareOnWhatsApp from '@/components/ShareOnWhatsApp';
 import StickyGuideBar from '@/components/cta/StickyGuideBar';
@@ -132,6 +133,7 @@ export default async function GuidePage({
               strings={dict.ui.ladder}
             />
           }
+          deadlineTimeline={<DeadlineTimeline items={guide.deadlines?.[locale]} label={dict.ui.guide.deadlineTimeline} />}
         />
 
         <div className="mt-12 space-y-12">

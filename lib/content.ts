@@ -17,6 +17,14 @@ const localizedStringArray = z.object({
 const faq = z.object({ q: z.string().min(1), a: z.string().min(1) });
 const localizedFaqs = z.object({ en: z.array(faq), hi: z.array(faq), ur: z.array(faq), bn: z.array(faq) });
 
+const deadline = z.object({ label: z.string().min(1), duration: z.string().min(1), startsFrom: z.string().min(1) });
+const localizedDeadlines = z.object({
+  en: z.array(deadline),
+  hi: z.array(deadline),
+  ur: z.array(deadline),
+  bn: z.array(deadline),
+});
+
 const slug = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, 'kebab-case slug expected');
 
 export const categorySchema: z.ZodType<Category> = z.object({
@@ -35,6 +43,7 @@ export const guideMetaSchema: z.ZodType<GuideMeta> = z.object({
   title: localizedString,
   answerBox: localizedString,
   keyNumbers: localizedStringArray.optional(),
+  deadlines: localizedDeadlines.optional(),
   searchKeywords: localizedStringArray,
   relatedServiceIds: z.array(z.string()),
   relatedTemplateSlugs: z.array(z.string()),

@@ -22,6 +22,8 @@ export interface GuideMeta {
   answerBox: Localized;
   /** Up to 3 short stamp-chip facts, e.g. "30 days to send notice". */
   keyNumbers?: Localized<string[]>;
+  /** Statutory-clock steps for the DeadlineTimeline. */
+  deadlines?: Localized<{ label: string; duration: string; startsFrom: string }[]>;
   /** Vernacular long-tail queries this guide targets. */
   searchKeywords: Localized<string[]>;
   /** The money pages this guide sells. */
