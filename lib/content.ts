@@ -17,12 +17,36 @@ const localizedStringArray = z.object({
 const faq = z.object({ q: z.string().min(1), a: z.string().min(1) });
 const localizedFaqs = z.object({ en: z.array(faq), hi: z.array(faq), ur: z.array(faq), bn: z.array(faq) });
 
+const deadline = z.object({ label: z.string().min(1), duration: z.string().min(1), startsFrom: z.string().min(1) });
+const localizedDeadlines = z.object({
+  en: z.array(deadline),
+  hi: z.array(deadline),
+  ur: z.array(deadline),
+  bn: z.array(deadline),
+});
+
+const step = z.object({
+  icon: z.string().min(1),
+  title: z.string().min(1),
+  summary: z.string().min(1),
+  detail: z.string().min(1),
+  serviceHint: z.string().optional(),
+});
+const localizedSteps = z.object({ en: z.array(step), hi: z.array(step), ur: z.array(step), bn: z.array(step) });
+
+const decisionFlowSchema = z.object({
+  start: z.string().min(1),
+  nodes: z.array(z.object({ id: z.string().min(1), question: localizedString, yes: z.string().min(1), no: z.string().min(1) })).min(1),
+  outcomes: z.record(z.string(), z.object({ label: localizedString, href: z.string().optional() })),
+});
+
 const slug = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, 'kebab-case slug expected');
 
 export const categorySchema: z.ZodType<Category> = z.object({
   slug,
   title: localizedString,
   description: localizedString,
+  intro: localizedString,
   icon: z.string().min(1),
   order: z.number().int().nonnegative(),
   referralOnly: z.boolean().optional(),
@@ -33,12 +57,19 @@ export const guideMetaSchema: z.ZodType<GuideMeta> = z.object({
   category: slug,
   title: localizedString,
   answerBox: localizedString,
+  keyNumbers: localizedStringArray.optional(),
+  deadlines: localizedDeadlines.optional(),
+  steps: localizedSteps.optional(),
+  decisionFlow: decisionFlowSchema.optional(),
   searchKeywords: localizedStringArray,
   relatedServiceIds: z.array(z.string()),
   relatedTemplateSlugs: z.array(z.string()),
   relatedGuideSlugs: z.array(z.string()),
   faqs: localizedFaqs,
   updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD expected'),
+  publishedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD expected'),
+  author: z.string().min(1),
+  reviewer: z.string().min(1),
 });
 
 export const templateSchema: z.ZodType<DocTemplate> = z.object({
@@ -49,6 +80,7 @@ export const templateSchema: z.ZodType<DocTemplate> = z.object({
   fileFormats: z.array(z.enum(['docx', 'pdf'])).min(1),
   gated: z.boolean(),
   relatedServiceId: z.string().optional(),
+  preview: z.string().optional(),
 });
 
 export const serviceSchema: z.ZodType<PaidService> = z.object({
@@ -59,6 +91,11 @@ export const serviceSchema: z.ZodType<PaidService> = z.object({
   priceINR: z.number().int().positive(),
   deliveryDays: z.number().int().nonnegative(),
   type: z.enum(['drafting', 'legal-notice', 'consultation', 'registration']),
+  whatYouGet: localizedStringArray.optional(),
+  documentsNeeded: localizedStringArray.optional(),
+  sampleImage: z.string().optional(),
+  relatedGuideSlug: z.string().optional(),
+  faqs: localizedFaqs.optional(),
 });
 
 export interface Lawyer {

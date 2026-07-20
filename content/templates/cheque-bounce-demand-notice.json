@@ -18,5 +18,6 @@
   "fileFormats": [
     "pdf",
     "docx"
-  ]
+  ],
+  "preview": "<p><strong>LEGAL NOTICE under Section 138 of the Negotiable Instruments Act, 1881</strong></p><p>To,<br>______ (Name &amp; address of the drawer)</p><p>Under instructions from my client, ______, I serve you this notice:</p><p>1. You issued cheque no. ______ dated ______ for ₹______ drawn on ______ Bank towards ______.<br>2. The cheque was dishonoured vide bank return memo dated ______ for the reason \"______\".<br>3. You are called upon to pay ₹______ within 15 days of receipt of this notice, failing which my client shall initiate proceedings under Section 138.</p><p>______, Advocate</p>"
 }

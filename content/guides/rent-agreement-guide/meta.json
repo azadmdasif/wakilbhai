@@ -13,6 +13,28 @@
     "ur": "کرایہ نامہ بنانے کے لیے شرائط (کرایہ، ڈپازٹ، مدت، نوٹس) لکھی جاتی ہیں، اسے ریاست کے مطابق مقررہ مالیت کے اسٹامپ پیپر پر پرنٹ کیا جاتا ہے، اور دو گواہوں کے ساتھ دونوں فریق دستخط کرتے ہیں۔ 11 ماہ تک کے معاہدے عام طور پر صرف نوٹری کرائے جاتے ہیں؛ 12 ماہ یا اس سے لمبی لیز کی سب رجسٹرار دفتر میں رجسٹریشن قانوناً لازمی ہے۔",
     "bn": "ভাড়া চুক্তি বানাতে শর্তগুলি (ভাড়া, ডিপোজিট, মেয়াদ, নোটিশ) লেখা হয়, রাজ্য অনুযায়ী নির্ধারিত মূল্যের স্ট্যাম্প পেপারে প্রিন্ট করা হয়, এবং দুইজন সাক্ষীসহ উভয় পক্ষ স্বাক্ষর করেন। ১১ মাস পর্যন্ত চুক্তি সাধারণত শুধু নোটারি করানো হয়; ১২ মাস বা তার বেশি মেয়াদের লিজ সাব-রেজিস্ট্রার অফিসে রেজিস্ট্রেশন করা আইনত বাধ্যতামূলক।"
   },
+  "keyNumbers": {
+    "en": [
+      "11-month term",
+      "Stamp + registration",
+      "₹199 drafting"
+    ],
+    "hi": [
+      "11-महीने की अवधि",
+      "स्टांप + रजिस्ट्रेशन",
+      "₹199 ड्राफ्टिंग"
+    ],
+    "ur": [
+      "11 ماہ کی مدت",
+      "اسٹامپ + رجسٹریشن",
+      "₹199 ڈرافٹنگ"
+    ],
+    "bn": [
+      "১১-মাসের মেয়াদ",
+      "স্ট্যাম্প + রেজিস্ট্রেশন",
+      "₹১৯৯ ড্রাফটিং"
+    ]
+  },
   "searchKeywords": {
     "en": [
       "how to make rent agreement",
@@ -45,9 +67,17 @@
       "ভাড়া চুক্তির ফরম্যাট"
     ]
   },
-  "relatedServiceIds": ["rent-agreement", "leave-license-agreement"],
-  "relatedTemplateSlugs": ["rent-agreement-11-month", "security-deposit-demand-letter"],
-  "relatedGuideSlugs": ["security-deposit-not-returned"],
+  "relatedServiceIds": [
+    "rent-agreement",
+    "leave-license-agreement"
+  ],
+  "relatedTemplateSlugs": [
+    "rent-agreement-11-month",
+    "security-deposit-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "security-deposit-not-returned"
+  ],
   "faqs": {
     "en": [
       {
@@ -138,5 +168,8 @@
       }
     ]
   },
-  "updatedAt": "2026-07-07"
+  "updatedAt": "2026-07-07",
+  "publishedAt": "2025-10-28",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016"
 }

@@ -1,24 +1,40 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
+import heroImg from '@/public/hero.png';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getCategories, getGuideMetas, getTemplates, getTestimonials } from '@/lib/content';
 import { getTools, toolTitle } from '@/lib/tools';
+import { buildWhatsAppUrl, whatsAppLawyerMessage } from '@/lib/whatsapp';
 import SearchBox from '@/components/SearchBox';
 import CategoryIcon from '@/components/CategoryIcon';
-import { StarIcon, DownloadIcon, ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon } from '@/components/Icons';
+import TrackedLink from '@/components/TrackedLink';
+import { StarIcon, DownloadIcon, ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon, WhatsAppIcon, PenSquareIcon, GavelIcon } from '@/components/Icons';
+
+/** Section header: title (start) + exactly one action link (end). */
+function SectionHeader({ title, action }: { title: string; action: React.ReactNode }) {
+  return (
+    <div className="flex items-end justify-between gap-4 mb-8">
+      <h2 className="text-2xl md:text-3xl font-bold text-white font-display">{title}</h2>
+      {action}
+    </div>
+  );
+}
+
+const actionLinkClass = 'shrink-0 text-brand-gold font-semibold hover:underline text-sm whitespace-nowrap';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
-    title: { absolute: 'WakilBhai — Your Local Lawyer' },
-    description: dict.home.heroSubtitle,
-    alternates: localeAlternates(locale, '/'),
-  };
+  return buildMetadata({
+    title: 'WakilBhai — Your Local Lawyer',
+    description: dict.meta.homeDescription,
+    path: '/',
+    locale,
+  });
 }
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
@@ -34,18 +50,40 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     ...templates.slice(0, 8 - Math.min(guides.length, 6)).map((t) => ({ label: t.title[locale], href: href(`/templates/${t.slug}`) })),
   ].slice(0, 8);
 
-  const trust = [
+  const proof = [
     { icon: DocumentIcon, text: dict.ui.home.trust1 },
     { icon: ShieldIcon, text: dict.ui.home.trust2 },
     { icon: GlobeIcon, text: dict.ui.home.trust3 },
     { icon: RupeeIcon, text: dict.ui.home.trust4 },
   ];
 
+  const steps = [
+    { icon: WhatsAppIcon, text: dict.ui.home.step1 },
+    { icon: PenSquareIcon, text: dict.ui.home.step2 },
+    { icon: GavelIcon, text: dict.ui.home.step3 },
+  ];
+
+  // Homepage has no guide context → the generic free-consult prefill.
+  const whatsappHref = buildWhatsAppUrl(whatsAppLawyerMessage());
+
   return (
     <div className="space-y-20 md:space-y-24">
       {/* Search-first hero */}
       <section className="relative rounded-3xl overflow-hidden">
-        <Image src="/hero.png" alt="" fill priority sizes="100vw" className="object-cover" aria-hidden />
+        {/* Decorative hero: static import gives intrinsic dimensions + a blur
+            placeholder (no CLS). priority because it's the homepage LCP area;
+            quality 60 and a container-accurate `sizes` keep the 4G payload small. */}
+        <Image
+          src={heroImg}
+          alt=""
+          fill
+          priority
+          quality={60}
+          placeholder="blur"
+          sizes="(max-width: 1280px) 100vw, 1216px"
+          className="object-cover"
+          aria-hidden
+        />
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative text-center pt-20 pb-24 px-4">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white font-display tracking-tight mb-3">
@@ -78,24 +116,46 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               ))}
             </div>
           )}
+
+          {/* The free path, visible above the fold. */}
+          <div className="mt-8">
+            <TrackedLink
+              href={whatsappHref}
+              event="whatsapp_cta_click"
+              props={{ context: 'home-hero' }}
+              external
+              className="inline-flex items-center gap-2 rounded-full bg-whatsapp px-6 py-3 text-base font-bold text-white shadow-lg hover:bg-green-700 transition-colors min-h-[48px]"
+            >
+              <WhatsAppIcon className="w-5 h-5 shrink-0" />
+              {dict.ui.home.whatsappPill}
+            </TrackedLink>
+          </div>
         </div>
       </section>
 
-      {/* Trust strip */}
-      <section className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        {trust.map((item) => (
-          <div key={item.text} className="flex items-center gap-3 bg-gray-900 border border-gray-800 rounded-2xl p-4">
-            <item.icon className="w-7 h-7 text-brand-gold shrink-0" />
-            <p className="text-sm text-gray-300">{item.text}</p>
+      {/* Proof chips */}
+      <section className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+        {proof.map((item) => (
+          <div
+            key={item.text}
+            className="flex items-center gap-2.5 bg-gray-900 border border-gray-800 rounded-full px-4 py-3"
+          >
+            <item.icon className="w-5 h-5 text-brand-gold shrink-0" />
+            <p className="text-sm font-medium text-gray-200">{item.text}</p>
           </div>
         ))}
       </section>
 
-      {/* Category grid */}
+      {/* Browse by problem */}
       <section>
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12 font-display">
-          {dict.ui.home.categoriesTitle}
-        </h2>
+        <SectionHeader
+          title={dict.ui.home.categoriesTitle}
+          action={
+            <Link href={href('/help')} className={actionLinkClass}>
+              {dict.ui.home.seeAllProblems} →
+            </Link>
+          }
+        />
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
           {getCategories().map((category) => (
             <Link
@@ -114,12 +174,14 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
       {/* Free tools & templates */}
       <section>
-        <div className="flex items-center justify-between mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-white font-display">{dict.ui.home.toolsTitle}</h2>
-          <Link href={href('/templates')} className="text-brand-gold font-semibold hover:underline text-sm">
-            {dict.ui.home.viewAll} →
-          </Link>
-        </div>
+        <SectionHeader
+          title={dict.ui.home.toolsTitle}
+          action={
+            <Link href={href('/templates')} className={actionLinkClass}>
+              {dict.ui.home.seeAllTemplates} →
+            </Link>
+          }
+        />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {getTools().map((tool) => (
             <Link
@@ -146,11 +208,47 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* How it works */}
       <section>
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12 font-display">
-          {dict.home.testimonialsTitle}
-        </h2>
+        <SectionHeader
+          title={dict.ui.home.howTitle}
+          action={
+            <TrackedLink
+              href={whatsappHref}
+              event="whatsapp_cta_click"
+              props={{ context: 'home-how-it-works' }}
+              external
+              className={actionLinkClass}
+            >
+              {dict.ui.home.startOnWhatsApp} →
+            </TrackedLink>
+          }
+        />
+        <div className="grid sm:grid-cols-3 gap-4">
+          {steps.map((step, i) => (
+            <div key={step.text} className="flex items-center gap-4 bg-gray-900 border border-gray-800 rounded-2xl p-5">
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-red/15 text-brand-red font-extrabold font-display">
+                {i + 1}
+              </span>
+              <div className="flex items-center gap-2">
+                <step.icon className="w-5 h-5 text-brand-gold shrink-0" />
+                <p className="font-bold text-white text-sm">{step.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Reviews */}
+      <section>
+        <SectionHeader
+          title={dict.ui.home.reviewsTitle}
+          action={
+            <Link href={href('/talk-to-a-lawyer')} className={actionLinkClass}>
+              {dict.ui.home.talkToLawyer} →
+            </Link>
+          }
+        />
         <div className="grid md:grid-cols-3 gap-8">
           {getTestimonials().map((testimonial) => (
             <div key={testimonial.id} className="bg-gray-900 p-8 rounded-2xl shadow-lg h-full flex flex-col">

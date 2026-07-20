@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getLawyer, getLawyers } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { MapPinIcon } from '@/components/Icons';
@@ -21,11 +21,12 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const lawyer = getLawyer(id);
   if (!lawyer) return {};
-  return {
+  return buildMetadata({
     title: lawyer.name,
     description: lawyer.bio[locale],
-    alternates: localeAlternates(locale, `/lawyers/${id}`),
-  };
+    path: `/lawyers/${id}`,
+    locale,
+  });
 }
 
 export default async function LawyerProfilePage({ params }: { params: Promise<{ locale: string; id: string }> }) {

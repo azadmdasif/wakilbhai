@@ -6,6 +6,8 @@ export interface Category {
   slug: string; // e.g. 'money-recovery'
   title: Localized;
   description: Localized;
+  /** 60–100 word SEO intro: what problems belong here, cost range, timelines. */
+  intro: Localized;
   icon: string; // key resolved by components/CategoryIcon
   order: number;
   /** Bar Council constraint: informational + lawyer referral only, no drafting CTA. */
@@ -16,8 +18,20 @@ export interface GuideMeta {
   slug: string; // e.g. 'cheque-bounce-what-to-do'
   category: string; // category slug
   title: Localized;
-  /** 2–3 sentence direct answer (featured snippet target). */
+  /** 40–60 word direct answer (featured snippet + AI quote target). */
   answerBox: Localized;
+  /** Up to 3 short stamp-chip facts, e.g. "30 days to send notice". */
+  keyNumbers?: Localized<string[]>;
+  /** Statutory-clock steps for the DeadlineTimeline. */
+  deadlines?: Localized<{ label: string; duration: string; startsFrom: string }[]>;
+  /** Sequenced how-to steps for StepCards. `detail` is MDX; `serviceHint` is a service id. */
+  steps?: Localized<{ icon: string; title: string; summary: string; detail: string; serviceHint?: string }[]>;
+  /** Yes/no decision stepper. `yes`/`no` reference a node id or an outcome key. */
+  decisionFlow?: {
+    start: string;
+    nodes: { id: string; question: Localized; yes: string; no: string }[];
+    outcomes: Record<string, { label: Localized; href?: string }>;
+  };
   /** Vernacular long-tail queries this guide targets. */
   searchKeywords: Localized<string[]>;
   /** The money pages this guide sells. */
@@ -25,7 +39,12 @@ export interface GuideMeta {
   relatedTemplateSlugs: string[];
   relatedGuideSlugs: string[];
   faqs: Localized<{ q: string; a: string }[]>;
-  updatedAt: string; // ISO date
+  updatedAt: string; // ISO date (dateModified)
+  publishedAt: string; // ISO date (datePublished)
+  /** Byline shown on the guide and emitted as the Article author. */
+  author: string;
+  /** Legal reviewer: "Adv. [name], [Bar Council], [enrolment no.]". */
+  reviewer: string;
 }
 
 export interface Guide extends GuideMeta {
@@ -39,10 +58,12 @@ export interface DocTemplate {
   title: Localized;
   description: Localized;
   fileFormats: ('docx' | 'pdf')[];
-  /** true = requires WhatsApp number before download. */
+  /** Legacy gate flag; downloads are now free/instant regardless. */
   gated: boolean;
   /** Upsell: "get this professionally drafted". */
   relatedServiceId?: string;
+  /** Watermarked sample of the format (HTML). Legal formats are English. */
+  preview?: string;
 }
 
 export type ServiceType = 'drafting' | 'legal-notice' | 'consultation' | 'registration';
@@ -56,6 +77,12 @@ export interface PaidService {
   priceINR: number;
   deliveryDays: number;
   type: ServiceType;
+  /** Conversion template extras (optional; template falls back gracefully). */
+  whatYouGet?: Localized<string[]>;
+  documentsNeeded?: Localized<string[]>;
+  sampleImage?: string; // path under /public
+  relatedGuideSlug?: string;
+  faqs?: Localized<{ q: string; a: string }[]>;
 }
 
 export interface City {

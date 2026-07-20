@@ -1,7 +1,8 @@
 'use client';
 
 import { usePathname, useRouter } from 'next/navigation';
-import { locales, localeLabels, localePath, splitLocaleFromPath, type Locale } from '@/lib/i18n';
+import { localePath, splitLocaleFromPath, type Locale } from '@/lib/i18n';
+import { enabledLocales } from '@/lib/i18n/locales';
 
 /**
  * Swaps the locale prefix of the current URL while preserving the path,
@@ -20,17 +21,18 @@ export default function LocaleSwitcher({ currentLocale }: { currentLocale: Local
 
   return (
     <div className="flex items-center gap-1 bg-gray-800 rounded-full p-1" role="group" aria-label="Language">
-      {locales.map((locale) => (
+      {enabledLocales.map(({ code, native, dir }) => (
         <button
-          key={locale}
-          onClick={() => switchTo(locale)}
+          key={code}
+          onClick={() => switchTo(code as Locale)}
           className={`px-3 py-1 text-sm rounded-full transition-colors duration-300 ${
-            currentLocale === locale ? 'bg-brand-red text-white' : 'text-gray-300 hover:bg-gray-700'
+            currentLocale === code ? 'bg-brand-red text-white' : 'text-gray-300 hover:bg-gray-700'
           }`}
-          title={localeLabels[locale].native}
-          lang={locale}
+          title={native}
+          lang={code}
+          dir={dir}
         >
-          {localeLabels[locale].label}
+          {native}
         </button>
       ))}
     </div>

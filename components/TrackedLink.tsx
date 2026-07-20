@@ -5,7 +5,7 @@ import { trackEvent } from '@/lib/analytics';
 
 interface TrackedLinkProps {
   href: string;
-  event: 'cta_click' | 'whatsapp_click';
+  event: 'cta_click' | 'whatsapp_click' | 'whatsapp_cta_click';
   props?: Record<string, string | number | boolean>;
   external?: boolean;
   className?: string;

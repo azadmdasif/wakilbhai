@@ -1,16 +1,18 @@
 import type { Metadata } from 'next';
 import { isLocale, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
+  return buildMetadata({
     title: dict.legal.privacyTitle,
-    alternates: localeAlternates(locale, '/privacy'),
-  };
+    description: dict.meta.privacyDescription,
+    path: '/privacy',
+    locale,
+  });
 }
 
 export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {

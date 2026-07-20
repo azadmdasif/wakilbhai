@@ -18,5 +18,6 @@
   "fileFormats": [
     "pdf",
     "docx"
-  ]
+  ],
+  "preview": "<p><strong>AFFIDAVIT</strong></p><p>I, ______, aged ______ years, resident of ______, do solemnly affirm and declare:</p><p>1. That I am the deponent and competent to swear this affidavit.<br>2. That ______ (statement of facts).<br>3. That the contents above are true to the best of my knowledge and belief.</p><p>DEPONENT</p><p>Verified at ______ on this ____ day of ______, 20__.</p>"
 }

@@ -3,16 +3,25 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { SITE_URL } from '@/lib/site';
 import { getCategory, getGuide, getGuideMeta, getGuideMetas, getService, getTemplate } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import JsonLd from '@/components/JsonLd';
-import { breadcrumbJsonLd, faqJsonLd, guideArticleJsonLd } from '@/lib/jsonld';
+import JsonLd from '@/components/seo/JsonLd';
+import { articleSchema, breadcrumbSchema, faqSchema } from '@/lib/seo/schemas';
 import MdxContent from '@/components/MdxContent';
 import FaqAccordion from '@/components/FaqAccordion';
 import ConversionRail from '@/components/ConversionRail';
 import AskWidget from '@/components/AskWidget';
+import QuickAnswer from '@/components/guide/QuickAnswer';
+import DeadlineTimeline from '@/components/guide/DeadlineTimeline';
+import { buildWhatsAppUrl, whatsAppLawyerMessage } from '@/lib/whatsapp';
+import StepCards from '@/components/guide/StepCards';
+import DecisionFlow from '@/components/guide/DecisionFlow';
+import RelatedGuides from '@/components/guide/RelatedGuides';
+import ShareOnWhatsApp from '@/components/ShareOnWhatsApp';
+import StickyGuideBar from '@/components/cta/StickyGuideBar';
+import CtaLadder from '@/components/cta/CtaLadder';
 import { DownloadIcon } from '@/components/Icons';
 
 export function generateStaticParams() {
@@ -30,12 +39,14 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const meta = getGuideMeta(guideSlug);
   if (!meta || meta.category !== category) return {};
-  return {
+  const cat = getCategory(category);
+  return buildMetadata({
     title: meta.title[locale],
     description: meta.answerBox[locale],
-    alternates: localeAlternates(locale, `/help/${category}/${guideSlug}`),
-    openGraph: { title: meta.title[locale], description: meta.answerBox[locale] },
-  };
+    path: `/help/${category}/${guideSlug}`,
+    locale,
+    ogCategory: cat?.title[locale],
+  });
 }
 
 function formatDate(iso: string, locale: Locale): string {
@@ -58,16 +69,58 @@ export default async function GuidePage({
 
   const primaryService = guide.relatedServiceIds.map(getService).find(Boolean);
   const templates = guide.relatedTemplateSlugs.map(getTemplate).filter((t) => t !== undefined);
-  const relatedGuides = guide.relatedGuideSlugs.map(getGuideMeta).filter((g) => g !== undefined);
   const canonicalUrl = `${SITE_URL}${href(`/help/${categorySlug}/${guideSlug}`)}`;
+
+  const stepItems = (guide.steps?.[locale] ?? []).map((s) => {
+    const svc = s.serviceHint ? getService(s.serviceHint) : undefined;
+    return {
+      icon: s.icon,
+      title: s.title,
+      summary: s.summary,
+      detail: <MdxContent source={s.detail} />,
+      serviceHint: svc
+        ? { href: href(`/services/${svc.id}`), label: dict.ui.step.weDoThis.replace('{price}', String(svc.priceINR)) }
+        : undefined,
+    };
+  });
+  const stepCardsNode = stepItems.length > 0 ? <StepCards items={stepItems} seeDetailsLabel={dict.ui.step.seeDetails} /> : null;
+
+  // Resolve decision-flow outcome hrefs: whatsapp token, internal path, or anchor.
+  const resolveOutcomeHref = (h?: string): string | undefined => {
+    if (!h) return undefined;
+    if (h === 'whatsapp') return buildWhatsAppUrl(whatsAppLawyerMessage({ title: guide.title[locale], url: canonicalUrl }));
+    if (h.startsWith('/')) return href(h);
+    return h;
+  };
+  const df = guide.decisionFlow;
+  const decisionFlowNode = df ? (
+    <DecisionFlow
+      flow={{
+        start: df.start,
+        nodes: df.nodes.map((n) => ({ id: n.id, question: n.question[locale], yes: n.yes, no: n.no })),
+        outcomes: Object.fromEntries(
+          Object.entries(df.outcomes).map(([k, o]) => [k, { label: o.label[locale], href: resolveOutcomeHref(o.href) }]),
+        ),
+      }}
+      labels={dict.ui.decision}
+    />
+  ) : null;
 
   return (
     <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-10 pb-24 lg:pb-0">
       <JsonLd
         data={[
-          guideArticleJsonLd(guide, locale),
-          faqJsonLd(guide.faqs[locale]),
-          breadcrumbJsonLd([
+          articleSchema({
+            title: guide.title[locale],
+            description: guide.answerBox[locale],
+            datePublished: guide.publishedAt,
+            dateModified: guide.updatedAt,
+            authorName: guide.author,
+            reviewerName: guide.reviewer,
+            url: canonicalUrl,
+          }),
+          faqSchema(guide.faqs[locale]),
+          breadcrumbSchema([
             { name: dict.ui.guide.breadcrumbHome, url: `${SITE_URL}${href('/')}` },
             { name: dict.ui.guide.breadcrumbHelp, url: `${SITE_URL}${href('/help')}` },
             { name: category.title[locale], url: `${SITE_URL}${href(`/help/${categorySlug}`)}` },
@@ -86,15 +139,42 @@ export default async function GuidePage({
         />
         <h1 className="text-3xl md:text-4xl font-extrabold text-white font-display mb-4">{guide.title[locale]}</h1>
 
-        {/* Answer box: the featured-snippet target, first thing rendered. */}
-        <div className="bg-gray-900 border-s-4 border-brand-gold rounded-e-2xl p-5 mb-4">
-          <p className="text-lg text-gray-100 leading-relaxed">{guide.answerBox[locale]}</p>
-        </div>
-        <p className="text-sm text-gray-500 mb-8">
+        {/* 60-second answer: the featured-snippet + AI-quote target, first thing
+            rendered. id is the scroll anchor the StickyGuideBar watches. */}
+        <QuickAnswer
+          id="guide-quick-answer"
+          quickAnswer={guide.answerBox[locale]}
+          keyNumbers={guide.keyNumbers?.[locale]}
+          label={dict.ui.guide.sixtySecond}
+        />
+        <p className="text-sm text-gray-500 mb-8 mt-4">
           {dict.common.updatedOn}: <time dateTime={guide.updatedAt}>{formatDate(guide.updatedAt, locale)}</time>
         </p>
 
-        <MdxContent source={guide.body} />
+        <MdxContent
+          source={guide.body}
+          ctaLadder={
+            <CtaLadder
+              locale={locale}
+              service={
+                category.referralOnly || !primaryService
+                  ? undefined
+                  : {
+                      slug: primaryService.id,
+                      name: primaryService.title[locale],
+                      price: primaryService.priceINR,
+                      days: primaryService.deliveryDays,
+                    }
+              }
+              whatsappContext={{ title: guide.title[locale], url: canonicalUrl }}
+              consultHref={href('/talk-to-a-lawyer')}
+              strings={dict.ui.ladder}
+            />
+          }
+          deadlineTimeline={<DeadlineTimeline items={guide.deadlines?.[locale]} label={dict.ui.guide.deadlineTimeline} />}
+          stepCards={stepCardsNode}
+          decisionFlow={decisionFlowNode}
+        />
 
         <div className="mt-12 space-y-12">
           <FaqAccordion title={dict.ui.guide.faqTitle} faqs={guide.faqs[locale]} />
@@ -120,24 +200,19 @@ export default async function GuidePage({
             </section>
           )}
 
-          {relatedGuides.length > 0 && (
-            <section>
-              <h2 className="text-2xl font-bold text-white font-display mb-6">{dict.ui.guide.relatedGuides}</h2>
-              <div className="space-y-3">
-                {relatedGuides.map((related) => (
-                  <Link
-                    key={related.slug}
-                    href={href(`/help/${related.category}/${related.slug}`)}
-                    className="block bg-gray-900 border border-gray-800 rounded-2xl p-5 hover:border-brand-gold/50 transition-colors"
-                  >
-                    <p className="font-bold text-white">{related.title[locale]}</p>
-                  </Link>
-                ))}
-              </div>
-            </section>
-          )}
+          <RelatedGuides slugs={guide.relatedGuideSlugs} locale={locale} heading={dict.ui.guide.relatedGuides} />
 
           <AskWidget locale={locale} strings={dict.ui.askWidget} source={`guide:${guide.slug}`} />
+
+          {/* Growth loop: forward the guide into family/community WhatsApp groups. */}
+          <div className="border-t border-gray-800 pt-8">
+            <ShareOnWhatsApp
+              locale={locale}
+              title={guide.title[locale]}
+              url={canonicalUrl}
+              label={dict.ui.guide.shareOnWhatsApp}
+            />
+          </div>
 
           <p className="text-xs text-gray-500 border-t border-gray-800 pt-6">{dict.ui.guide.disclaimer}</p>
         </div>
@@ -150,8 +225,26 @@ export default async function GuidePage({
           service={category.referralOnly ? undefined : primaryService}
           referralOnly={category.referralOnly}
           whatsappContext={{ title: guide.title[locale], url: canonicalUrl }}
+          hideMobileBar
         />
       </div>
+
+      {/* Mobile-only sticky conversion bar (replaces ConversionRail's mobile bar). */}
+      <StickyGuideBar
+        locale={locale}
+        title={guide.title[locale]}
+        url={canonicalUrl}
+        service={
+          category.referralOnly || !primaryService
+            ? undefined
+            : { slug: primaryService.id, price: primaryService.priceINR, name: primaryService.title[locale] }
+        }
+        labels={{
+          whatsApp: dict.common.whatsappLawyerFree,
+          getItDone: dict.ui.rail.getItDone,
+          dismiss: dict.ui.rail.dismiss,
+        }}
+      />
     </div>
   );
 }

@@ -1,26 +1,7 @@
 import type { Locale } from './i18n';
 import { localePath } from './i18n';
-import { SITE_NAME, SITE_URL, WHATSAPP_NUMBER } from './site';
-import type { DocTemplate, GuideMeta, PaidService } from '@/types';
-
-// NOTE: deliberately ProfessionalService, not LegalService/Attorney —
-// WakilBhai is a documentation service, not a law firm.
-export function organizationJsonLd() {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'ProfessionalService',
-    name: SITE_NAME,
-    url: SITE_URL,
-    logo: `${SITE_URL}/logo.png`,
-    image: `${SITE_URL}/hero.png`,
-    description:
-      'WakilBhai is an Indian legal documentation service: document drafting, advocate-sent legal notices, and consultations. Not a law firm; nothing on the site is legal advice.',
-    telephone: `+${WHATSAPP_NUMBER}`,
-    areaServed: 'IN',
-    availableLanguage: ['en', 'hi', 'ur', 'bn'],
-    priceRange: '₹199 - ₹1499',
-  };
-}
+import { SITE_NAME, SITE_URL } from './site';
+import type { DocTemplate, PaidService } from '@/types';
 
 export function breadcrumbJsonLd(items: { name: string; url?: string }[]) {
   return {
@@ -32,25 +13,6 @@ export function breadcrumbJsonLd(items: { name: string; url?: string }[]) {
       name: item.name,
       ...(item.url ? { item: item.url } : {}),
     })),
-  };
-}
-
-export function guideArticleJsonLd(guide: GuideMeta, locale: Locale) {
-  const url = `${SITE_URL}${localePath(locale, `/help/${guide.category}/${guide.slug}`)}`;
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: guide.title[locale],
-    description: guide.answerBox[locale],
-    inLanguage: locale === 'en' ? 'en-IN' : `${locale}-IN`,
-    dateModified: guide.updatedAt,
-    mainEntityOfPage: url,
-    author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
-    publisher: {
-      '@type': 'Organization',
-      name: SITE_NAME,
-      logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` },
-    },
   };
 }
 

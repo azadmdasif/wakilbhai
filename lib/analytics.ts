@@ -8,6 +8,7 @@ type EventName =
   | 'template_download'
   | 'cta_click'
   | 'whatsapp_click'
+  | 'whatsapp_cta_click'
   | 'calculator_complete'
   | 'assistant_message'
   | 'assistant_handoff'

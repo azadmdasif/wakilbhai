@@ -1,26 +1,24 @@
-export const locales = ['en', 'hi', 'ur', 'bn'] as const;
-export type Locale = (typeof locales)[number];
+import { DEFAULT_LOCALE, enabledLocaleCodes, getLocaleMeta, type EnabledLocale } from './i18n/locales';
+
+/** A live locale code. Derives from the locale registry (lib/i18n/locales). */
+export type Locale = EnabledLocale;
 export type Localized<T = string> = Record<Locale, T>;
 
-export const defaultLocale: Locale = 'en';
+/** Live locale codes, in registry order. Single source of truth: the registry. */
+export const locales: readonly Locale[] = enabledLocaleCodes;
+
+export const defaultLocale: Locale = DEFAULT_LOCALE;
 
 export function isLocale(value: string): value is Locale {
   return (locales as readonly string[]).includes(value);
 }
 
-/** Urdu is written right-to-left; everything else is LTR. */
+/** Writing direction for a locale, read from the registry. */
 export function dir(locale: Locale): 'rtl' | 'ltr' {
-  return locale === 'ur' ? 'rtl' : 'ltr';
+  return getLocaleMeta(locale)?.dir ?? 'ltr';
 }
 
-export const localeLabels: Record<Locale, { label: string; native: string }> = {
-  en: { label: 'EN', native: 'English' },
-  hi: { label: 'हिंदी', native: 'Hindi' },
-  ur: { label: 'اُردُو', native: 'Urdu' },
-  bn: { label: 'বাংলা', native: 'Bengali' },
-};
-
-/** BCP-47 lang attribute values. */
+/** BCP-47 tags for Intl formatting (dates, numbers). */
 export const localeLang: Record<Locale, string> = {
   en: 'en-IN',
   hi: 'hi-IN',

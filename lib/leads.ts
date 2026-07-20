@@ -1,3 +1,5 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import { z } from 'zod';
 
 /**
@@ -15,6 +17,38 @@ export const leadSchema = z.object({
 });
 
 export type Lead = z.infer<typeof leadSchema>;
+
+/** Service-order lead from the /services/[id] page's quiet form fallback. */
+export const serviceLeadSchema = z.object({
+  name: z.string().min(1).max(120),
+  phone: z.string().regex(/^[+]?[0-9][0-9\s-]{7,14}$/, 'valid phone number expected'),
+  city: z.string().min(1).max(120),
+  locale: z.enum(['en', 'hi', 'ur', 'bn']),
+  serviceId: z.string().min(1).max(120),
+  serviceTitle: z.string().min(1).max(300),
+  priceINR: z.number().int().positive(),
+});
+
+export type ServiceLead = z.infer<typeof serviceLeadSchema>;
+
+/**
+ * Append a lead as one JSON line to a local file. Best-effort and non-fatal:
+ * a stand-in "leads table" until a real DB is wired. Note serverless disks are
+ * ephemeral, so this is durable only in a persistent environment — the
+ * Web3Forms forward below is the reliable inbox for now.
+ */
+export function appendLeadFile(record: Record<string, unknown>): void {
+  try {
+    const dir = path.join(process.cwd(), '.leads');
+    fs.mkdirSync(dir, { recursive: true });
+    fs.appendFileSync(
+      path.join(dir, 'leads.jsonl'),
+      `${JSON.stringify({ ...record, at: new Date().toISOString() })}\n`,
+    );
+  } catch {
+    /* non-fatal: never block the lead flow on disk issues */
+  }
+}
 
 const WEB3FORMS_ENDPOINT = 'https://api.web3forms.com/submit';
 // Public site key (also embedded in the legacy client bundle).

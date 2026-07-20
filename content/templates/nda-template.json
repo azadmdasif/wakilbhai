@@ -18,5 +18,6 @@
   "fileFormats": [
     "pdf",
     "docx"
-  ]
+  ],
+  "preview": "<p><strong>NON-DISCLOSURE AGREEMENT</strong></p><p>This NDA is made on ______ between ______ (\"Disclosing Party\") and ______ (\"Receiving Party\").</p><p>1. Confidential Information means ______.<br>2. The Receiving Party shall not disclose or use the Confidential Information except for the Purpose.<br>3. This obligation survives for ______ years.</p><p>Signed:<br>______ (Disclosing Party)   ______ (Receiving Party)</p>"
 }

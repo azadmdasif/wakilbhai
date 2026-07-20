@@ -2,8 +2,9 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import type Fuse from 'fuse.js';
-import type { Locale } from '@/lib/i18n';
+import { localePath, type Locale } from '@/lib/i18n';
 import type { SearchDoc } from '@/lib/search';
 import { whatsAppUrlFor } from '@/lib/whatsapp';
 import { trackEvent } from '@/lib/analytics';
@@ -19,12 +20,24 @@ interface SearchBoxProps {
 }
 
 export default function SearchBox({ locale, placeholder, label, noResultsText, askWhatsAppText, typeLabels }: SearchBoxProps) {
+  const router = useRouter();
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchDoc[]>([]);
   const [open, setOpen] = useState(false);
   const fuseRef = useRef<Fuse<SearchDoc> | null>(null);
   const loadingRef = useRef(false);
   const rootRef = useRef<HTMLDivElement>(null);
+
+  // On submit (Enter / search button), log the query and route to /help.
+  // Prompt 42 will replace this with a real /search?q= results page.
+  const onSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const q = query.trim();
+    if (!q) return;
+    trackEvent('search', { query: q.slice(0, 100), locale, submitted: true });
+    setOpen(false);
+    router.push(`${localePath(locale, '/help')}?q=${encodeURIComponent(q)}`);
+  };
 
   // Lazy-load the index + Fuse.js only when the user engages with search,
   // keeping it out of the critical JS path.
@@ -81,7 +94,7 @@ export default function SearchBox({ locale, placeholder, label, noResultsText, a
 
   return (
     <div ref={rootRef} className="relative max-w-2xl mx-auto">
-      <div className="relative">
+      <form onSubmit={onSubmit} role="search" className="relative">
         <SearchIcon className="absolute start-5 top-1/2 -translate-y-1/2 w-6 h-6 text-gray-500 pointer-events-none" />
         <input
           type="search"
@@ -93,9 +106,10 @@ export default function SearchBox({ locale, placeholder, label, noResultsText, a
           }}
           placeholder={placeholder}
           aria-label={label}
+          enterKeyHint="search"
           className="w-full bg-white text-gray-900 placeholder-gray-500 rounded-full py-4 ps-14 pe-6 text-lg shadow-xl focus:outline-none focus:ring-4 focus:ring-brand-gold/50"
         />
-      </div>
+      </form>
       {open && (results.length > 0 || showNoResults) && (
         <div className="absolute z-30 mt-2 w-full bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl overflow-hidden text-start">
           {results.map((doc) => (

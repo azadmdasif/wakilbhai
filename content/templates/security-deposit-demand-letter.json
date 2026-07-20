@@ -18,5 +18,6 @@
   "fileFormats": [
     "pdf",
     "docx"
-  ]
+  ],
+  "preview": "<p><strong>DEMAND FOR REFUND OF SECURITY DEPOSIT</strong></p><p>To,<br>______ (Landlord name &amp; address)</p><p>I, ______, was your tenant at ______ under a rent agreement dated ______. I vacated the premises on ______ and handed over peaceful possession.</p><p>Despite this, my security deposit of ₹______ has not been refunded. I demand refund of the full amount within 15 days of this letter, failing which I will pursue legal remedies including recovery with interest.</p><p>Yours faithfully,<br>______</p>"
 }

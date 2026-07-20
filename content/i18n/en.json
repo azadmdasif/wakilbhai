@@ -164,7 +164,10 @@
     "learnMore": "Learn More",
     "notFoundTitle": "Page not found",
     "notFoundDesc": "The page you are looking for does not exist or has moved.",
-    "backHome": "Back to homepage"
+    "backHome": "Back to homepage",
+    "whatsappLawyerFree": "WhatsApp Lawyer — Free",
+    "about": "About",
+    "editorialPolicy": "Editorial Policy"
   },
   "ui": {
     "search": {
@@ -180,11 +183,21 @@
     "home": {
       "categoriesTitle": "Browse by problem",
       "toolsTitle": "Free tools & templates",
-      "trust1": "Documents delivered across India",
-      "trust2": "Advocate-sent legal notices",
-      "trust3": "Help in 4 languages",
-      "trust4": "Starting at ₹199",
-      "viewAll": "View all"
+      "trust1": "Documents across India",
+      "trust2": "Advocate-sent notices",
+      "trust3": "10+ languages (coming)",
+      "trust4": "From ₹199",
+      "viewAll": "View all",
+      "whatsappPill": "WhatsApp Lawyer — Free · 10-minute consult",
+      "seeAllProblems": "See all problems",
+      "seeAllTemplates": "See all templates",
+      "howTitle": "How it works",
+      "step1": "Tell us on WhatsApp",
+      "step2": "We draft in 1–3 days",
+      "step3": "Advocate sends it",
+      "startOnWhatsApp": "Start free on WhatsApp",
+      "reviewsTitle": "Reviews",
+      "talkToLawyer": "Talk to a lawyer"
     },
     "rail": {
       "heading": "Get this done for you",
@@ -193,7 +206,10 @@
       "delivery": "Delivered in {days} working days",
       "referralHeading": "Need a lawyer?",
       "referralText": "For police and criminal matters you need a practising advocate. We can connect you to one for a consultation.",
-      "referralCta": "Book a consultation"
+      "referralCta": "Book a consultation",
+      "getItDone": "Get it done",
+      "freeConsult": "Free consult",
+      "dismiss": "Dismiss"
     },
     "guide": {
       "faqTitle": "Frequently asked questions",
@@ -202,7 +218,10 @@
       "allGuides": "All guides",
       "disclaimer": "This page explains the typical legal process for general information only. It is not legal advice. For advice on your specific situation, consult a qualified advocate.",
       "breadcrumbHome": "Home",
-      "breadcrumbHelp": "Legal help"
+      "breadcrumbHelp": "Legal help",
+      "shareOnWhatsApp": "Share this guide on WhatsApp",
+      "sixtySecond": "60-second answer",
+      "deadlineTimeline": "Statutory deadlines"
     },
     "template": {
       "indexTitle": "Free legal document templates",
@@ -218,7 +237,11 @@
       "gatedSuccess": "Thanks! Your download is starting…",
       "allTemplates": "All templates",
       "filterAll": "All",
-      "formats": "Formats"
+      "formats": "Formats",
+      "previewTitle": "Sample preview",
+      "downloadFree": "Download free format",
+      "upsellTitle": "Want it advocate-drafted and sent for you?",
+      "askFits": "Ask a lawyer if this format fits your case — free"
     },
     "service": {
       "included": "What's included",
@@ -232,7 +255,21 @@
       "step3": "Final document is delivered — with printing/notary guidance where needed.",
       "faqTitle": "Frequently asked questions",
       "relatedGuides": "Read before you order",
-      "sameDay": "Scheduled within 1 working day"
+      "sameDay": "Scheduled within 1 working day",
+      "whatYouGet": "What you get",
+      "documentsNeeded": "Documents you'll need",
+      "orderOnWhatsApp": "Order on WhatsApp",
+      "sampleTitle": "Sample",
+      "readGuide": "Read the full guide",
+      "formTitle": "Prefer we message you? Leave your details",
+      "formName": "Your name",
+      "formPhone": "Phone / WhatsApp number",
+      "formCity": "Your city",
+      "formSubmit": "Send my details",
+      "formSending": "Sending…",
+      "formSuccess": "Got it! We'll be in touch. You can also continue on WhatsApp now:",
+      "formError": "Something went wrong. Please use WhatsApp instead.",
+      "continueOnWhatsApp": "Continue on WhatsApp"
     },
     "lawyers": {
       "title": "Lawyer Directory",
@@ -320,6 +357,48 @@
       "capReached": "Let us take this ahead personally — message us on WhatsApp and a documentation expert will pick it up.",
       "disclaimer": "AI answers are general information, not legal advice.",
       "open": "Ask a question"
+    },
+    "ladder": {
+      "getItDone": "Get it done for me",
+      "delivered": "Delivered in {days} working days",
+      "talkFirst": "Talk to a lawyer first — free 10 min on WhatsApp",
+      "complex": "Complex matter? Book a full advocate consultation →"
+    },
+    "deadEnd": {
+      "title": "Can't find your problem?",
+      "subtitle": "Tell us on WhatsApp — a lawyer replies free."
+    },
+    "notFound": {
+      "heading": "Page not found",
+      "blurb": "This page doesn't exist or may have moved.",
+      "popular": "Popular guides"
+    },
+    "emptyCategory": {
+      "comingSoon": "Guides coming soon",
+      "nearby": "Meanwhile, start with these"
+    },
+    "pages": {
+      "aboutTitle": "About WakilBhai",
+      "aboutBody": "WakilBhai is a legal documentation and lawyer-connect service for India — free guides, ready-to-use formats, and advocate help on WhatsApp. We are a documentation service with advocate partners, not a law firm. More about our team and mission is coming soon.",
+      "editorialTitle": "Editorial Policy",
+      "editorialBody": "Our guides are written in plain language and reviewed by practising advocates before publishing. We cite official sources, show the last-updated date, and correct errors quickly. Nothing on this site is legal advice. Our full editorial and review process will be published here soon."
+    },
+    "step": {
+      "seeDetails": "See details",
+      "weDoThis": "We do this for you — ₹{price}"
+    },
+    "decision": {
+      "yes": "Yes",
+      "no": "No",
+      "back": "Back",
+      "startOver": "Start over",
+      "result": "Result"
     }
+  },
+  "meta": {
+    "homeDescription": "Free step-by-step legal guides for India, documents from ₹199, and advocate help on WhatsApp. Cheque bounce, rent agreement, consumer complaint, unpaid salary and more — in English, Hindi, Bengali, Urdu.",
+    "helpDescription": "Step-by-step guides for India's common legal problems — cheque bounce, rent agreements, unpaid salary, consumer complaints and more. Free formats, clear costs, real deadlines.",
+    "termsDescription": "The terms that govern WakilBhai's services. WakilBhai is a legal documentation service with advocate partners — not a law firm.",
+    "privacyDescription": "How WakilBhai collects, uses and protects your personal information when you use our legal documentation and lawyer-connect services."
   }
 }

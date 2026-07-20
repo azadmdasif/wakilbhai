@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { getCategories, getServices } from '@/lib/content';
 import PageHeading from '@/components/PageHeading';
 import CategoryIcon from '@/components/CategoryIcon';
@@ -11,11 +11,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
-  return {
+  return buildMetadata({
     title: dict.pricing.title,
     description: dict.pricing.subtitle,
-    alternates: localeAlternates(locale, '/pricing'),
-  };
+    path: '/pricing',
+    locale,
+  });
 }
 
 export default async function PricingPage({ params }: { params: Promise<{ locale: string }> }) {

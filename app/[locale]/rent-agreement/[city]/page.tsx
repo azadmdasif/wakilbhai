@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { SITE_URL } from '@/lib/site';
 import { getService, getGuideMeta } from '@/lib/content';
 import { getBuildableCities, getCity, getStampDutyData } from '@/lib/locations';
@@ -81,11 +81,12 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const strings = buildStrings(locale, city);
   if (!strings) return {};
-  return {
+  return buildMetadata({
     title: strings.title,
     description: strings.metaDesc,
-    alternates: localeAlternates(locale, `/rent-agreement/${city}`),
-  };
+    path: `/rent-agreement/${city}`,
+    locale,
+  });
 }
 
 export default async function RentAgreementCityPage({

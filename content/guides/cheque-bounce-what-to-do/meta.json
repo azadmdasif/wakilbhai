@@ -13,6 +13,304 @@
     "ur": "اگر آپ کو دیا گیا چیک باؤنس ہو جائے تو قانون سخت وقت کی حد دیتا ہے: بینک کا ریٹرن میمو ملنے کے 30 دن کے اندر چیک جاری کرنے والے کو تحریری ڈیمانڈ نوٹس بھیجیں۔ اس کے بعد جاری کنندہ کو ادائیگی کے لیے 15 دن ملتے ہیں۔ پھر بھی ادائیگی نہ ہونے پر اگلے 30 دن کے اندر نیگوشی ایبل انسٹرومینٹس ایکٹ کی دفعہ 138 کے تحت فوجداری شکایت دائر کی جا سکتی ہے۔",
     "bn": "আপনাকে দেওয়া চেক বাউন্স হলে আইন কঠোর সময়সীমা দেয়: ব্যাঙ্কের রিটার্ন মেমো পাওয়ার ৩০ দিনের মধ্যে চেক প্রদানকারীকে লিখিত ডিমান্ড নোটিশ পাঠান। এরপর প্রদানকারী টাকা দেওয়ার জন্য ১৫ দিন সময় পান। তারপরও টাকা না দিলে, পরবর্তী ৩০ দিনের মধ্যে নেগোশিয়েবল ইনস্ট্রুমেন্টস আইনের ধারা ১৩৮-এর অধীনে ফৌজদারি অভিযোগ দায়ের করা যায়।"
   },
+  "keyNumbers": {
+    "en": [
+      "30 days to send notice",
+      "15 days to pay",
+      "₹999 advocate notice"
+    ],
+    "hi": [
+      "नोटिस भेजने को 30 दिन",
+      "भुगतान को 15 दिन",
+      "₹999 वकील नोटिस"
+    ],
+    "ur": [
+      "نوٹس بھیجنے کو 30 دن",
+      "ادائیگی کو 15 دن",
+      "₹999 وکیل نوٹس"
+    ],
+    "bn": [
+      "নোটিশ পাঠাতে ৩০ দিন",
+      "পরিশোধে ১৫ দিন",
+      "₹৯৯৯ উকিল নোটিশ"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Present cheque",
+        "duration": "3 months",
+        "startsFrom": "from the cheque date"
+      },
+      {
+        "label": "Send demand notice",
+        "duration": "30 days",
+        "startsFrom": "from the return memo"
+      },
+      {
+        "label": "Issuer may pay",
+        "duration": "15 days",
+        "startsFrom": "from notice receipt"
+      },
+      {
+        "label": "File complaint",
+        "duration": "1 month",
+        "startsFrom": "after the 15 days lapse"
+      }
+    ],
+    "hi": [
+      {
+        "label": "चेक प्रस्तुत करें",
+        "duration": "3 महीने",
+        "startsFrom": "चेक की तारीख से"
+      },
+      {
+        "label": "डिमांड नोटिस भेजें",
+        "duration": "30 दिन",
+        "startsFrom": "रिटर्न मेमो से"
+      },
+      {
+        "label": "जारीकर्ता भुगतान कर सकता है",
+        "duration": "15 दिन",
+        "startsFrom": "नोटिस मिलने से"
+      },
+      {
+        "label": "शिकायत दर्ज करें",
+        "duration": "1 महीना",
+        "startsFrom": "15 दिन बीतने के बाद"
+      }
+    ],
+    "ur": [
+      {
+        "label": "چیک پیش کریں",
+        "duration": "3 ماہ",
+        "startsFrom": "چیک کی تاریخ سے"
+      },
+      {
+        "label": "ڈیمانڈ نوٹس بھیجیں",
+        "duration": "30 دن",
+        "startsFrom": "ریٹرن میمو سے"
+      },
+      {
+        "label": "جاری کنندہ ادائیگی کر سکتا ہے",
+        "duration": "15 دن",
+        "startsFrom": "نوٹس ملنے سے"
+      },
+      {
+        "label": "شکایت درج کریں",
+        "duration": "1 ماہ",
+        "startsFrom": "15 دن گزرنے کے بعد"
+      }
+    ],
+    "bn": [
+      {
+        "label": "চেক জমা দিন",
+        "duration": "৩ মাস",
+        "startsFrom": "চেকের তারিখ থেকে"
+      },
+      {
+        "label": "ডিমান্ড নোটিশ পাঠান",
+        "duration": "৩০ দিন",
+        "startsFrom": "রিটার্ন মেমো থেকে"
+      },
+      {
+        "label": "প্রদানকারী পরিশোধ করতে পারেন",
+        "duration": "১৫ দিন",
+        "startsFrom": "নোটিশ পাওয়ার পর"
+      },
+      {
+        "label": "অভিযোগ দায়ের করুন",
+        "duration": "১ মাস",
+        "startsFrom": "১৫ দিন পেরোনোর পর"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Collect the return memo & cheque",
+        "summary": "Keep the bank's return memo and the original cheque — your core evidence.",
+        "detail": "When the cheque is dishonoured, your bank gives you a **cheque return memo** with the date and reason. Keep the original memo and the cheque safe — both are core evidence. If you deposited via an app or CTS clearing, ask the branch for the physical memo or system advice."
+      },
+      {
+        "icon": "send",
+        "title": "Send the demand notice in 30 days",
+        "summary": "A written notice demanding payment within 15 days, sent within 30 days of the memo.",
+        "detail": "The notice must identify the cheque (number, date, amount, bank) and the debt, state the dishonour and reason, and **demand payment within 15 days**. Send it within **30 days** of receiving the return memo by registered post (RPAD) — ideally also courier and email. Keep every dispatch receipt.",
+        "serviceHint": "legal-notice-cheque-bounce"
+      },
+      {
+        "icon": "clock",
+        "title": "Wait 15 days for payment",
+        "summary": "The issuer has 15 days from receiving the notice to pay in full.",
+        "detail": "The issuer has **15 days** from receiving the notice to pay. If they pay the full cheque amount, the matter ends. If they pay only part, refuse in writing to treat it as full settlement unless you agree, and consult an advocate first."
+      },
+      {
+        "icon": "gavel",
+        "title": "File the complaint within a month",
+        "summary": "If unpaid, file a Section 138 complaint in the next 30 days.",
+        "detail": "If the 15 days lapse without payment, a **Section 138** complaint is filed before the Judicial Magistrate for the area of *your* bank branch, within **30 days**. File through an advocate with the original cheque and memo, the notice with dispatch proof, proof of the debt, and your affidavit."
+      }
+    ],
+    "hi": [
+      {
+        "icon": "file-text",
+        "title": "रिटर्न मेमो और चेक संभालें",
+        "summary": "बैंक का रिटर्न मेमो और असली चेक रखें — यही मुख्य सबूत हैं।",
+        "detail": "चेक अस्वीकार होने पर बैंक आपको तारीख और कारण के साथ **चेक रिटर्न मेमो** देता है। असली मेमो और चेक सुरक्षित रखें — दोनों मुख्य सबूत हैं। ऐप या CTS क्लियरिंग से जमा किया हो तो शाखा से फिज़िकल मेमो मांगें।"
+      },
+      {
+        "icon": "send",
+        "title": "30 दिनों में डिमांड नोटिस भेजें",
+        "summary": "15 दिनों में भुगतान की मांग वाला लिखित नोटिस, मेमो के 30 दिनों के भीतर भेजें।",
+        "detail": "नोटिस में चेक (नंबर, तारीख, राशि, बैंक) और उधार की पहचान हो, अस्वीकृति और कारण बताया हो, और **15 दिनों में भुगतान की मांग** हो। रिटर्न मेमो मिलने के **30 दिनों** के भीतर रजिस्टर्ड डाक (RPAD) से भेजें — साथ में कूरियर और ईमेल भी। हर रसीद रखें।",
+        "serviceHint": "legal-notice-cheque-bounce"
+      },
+      {
+        "icon": "clock",
+        "title": "15 दिन भुगतान का इंतज़ार",
+        "summary": "जारीकर्ता को नोटिस मिलने से 15 दिन में पूरा भुगतान करना होता है।",
+        "detail": "जारीकर्ता को नोटिस मिलने से **15 दिन** मिलते हैं। पूरी राशि दे दे तो मामला खत्म। आंशिक भुगतान करे तो लिखित में मना करें कि यह पूर्ण निपटान नहीं, और पहले वकील से सलाह लें।"
+      },
+      {
+        "icon": "gavel",
+        "title": "एक महीने में शिकायत दर्ज करें",
+        "summary": "भुगतान न होने पर अगले 30 दिनों में धारा 138 की शिकायत करें।",
+        "detail": "15 दिन बिना भुगतान बीतने पर, *आपके* बैंक शाखा के क्षेत्र के न्यायिक मजिस्ट्रेट के सामने **30 दिनों** में **धारा 138** की शिकायत दर्ज होती है। वकील के ज़रिए असली चेक व मेमो, डिस्पैच प्रूफ सहित नोटिस, उधार का प्रमाण और अपना शपथपत्र लगाएं।"
+      }
+    ],
+    "ur": [
+      {
+        "icon": "file-text",
+        "title": "ریٹرن میمو اور چیک سنبھالیں",
+        "summary": "بینک کا ریٹرن میمو اور اصل چیک رکھیں — یہی بنیادی ثبوت ہیں۔",
+        "detail": "چیک مسترد ہونے پر بینک آپ کو تاریخ اور وجہ کے ساتھ **چیک ریٹرن میمو** دیتا ہے۔ اصل میمو اور چیک محفوظ رکھیں — دونوں بنیادی ثبوت ہیں۔ ایپ یا CTS کلیئرنگ سے جمع کیا ہو تو شاخ سے فزیکل میمو مانگیں۔"
+      },
+      {
+        "icon": "send",
+        "title": "30 دن میں ڈیمانڈ نوٹس بھیجیں",
+        "summary": "15 دن میں ادائیگی کا مطالبہ کرنے والا تحریری نوٹس، میمو کے 30 دن میں بھیجیں۔",
+        "detail": "نوٹس میں چیک (نمبر، تاریخ، رقم، بینک) اور قرض کی شناخت ہو، مستردی اور وجہ درج ہو، اور **15 دن میں ادائیگی کا مطالبہ** ہو۔ ریٹرن میمو ملنے کے **30 دن** میں رجسٹرڈ ڈاک (RPAD) سے بھیجیں — ساتھ کورئیر اور ای میل بھی۔ ہر رسید رکھیں۔",
+        "serviceHint": "legal-notice-cheque-bounce"
+      },
+      {
+        "icon": "clock",
+        "title": "15 دن ادائیگی کا انتظار",
+        "summary": "جاری کنندہ کو نوٹس ملنے سے 15 دن میں مکمل ادائیگی کرنی ہوتی ہے۔",
+        "detail": "جاری کنندہ کو نوٹس ملنے سے **15 دن** ملتے ہیں۔ پوری رقم دے دے تو معاملہ ختم۔ جزوی ادائیگی کرے تو تحریری طور پر انکار کریں کہ یہ مکمل تصفیہ نہیں، اور پہلے وکیل سے مشورہ کریں۔"
+      },
+      {
+        "icon": "gavel",
+        "title": "ایک ماہ میں شکایت درج کریں",
+        "summary": "ادائیگی نہ ہونے پر اگلے 30 دن میں دفعہ 138 کی شکایت کریں۔",
+        "detail": "15 دن بغیر ادائیگی گزرنے پر، *آپ کے* بینک شاخ کے علاقے کے جوڈیشل مجسٹریٹ کے سامنے **30 دن** میں **دفعہ 138** کی شکایت درج ہوتی ہے۔ وکیل کے ذریعے اصل چیک و میمو، ڈسپیچ ثبوت سمیت نوٹس، قرض کا ثبوت اور اپنا حلف نامہ لگائیں۔"
+      }
+    ],
+    "bn": [
+      {
+        "icon": "file-text",
+        "title": "রিটার্ন মেমো ও চেক সংরক্ষণ করুন",
+        "summary": "ব্যাঙ্কের রিটার্ন মেমো ও আসল চেক রাখুন — এগুলোই মূল প্রমাণ।",
+        "detail": "চেক প্রত্যাখ্যাত হলে ব্যাঙ্ক আপনাকে তারিখ ও কারণসহ **চেক রিটার্ন মেমো** দেয়। আসল মেমো ও চেক নিরাপদে রাখুন — দুটোই মূল প্রমাণ। অ্যাপ বা CTS ক্লিয়ারিংয়ে জমা দিলে শাখা থেকে ফিজিক্যাল মেমো চান।"
+      },
+      {
+        "icon": "send",
+        "title": "৩০ দিনে ডিমান্ড নোটিশ পাঠান",
+        "summary": "১৫ দিনে পরিশোধের দাবি জানিয়ে লিখিত নোটিশ, মেমোর ৩০ দিনের মধ্যে পাঠান।",
+        "detail": "নোটিশে চেক (নম্বর, তারিখ, পরিমাণ, ব্যাঙ্ক) ও ঋণ শনাক্ত হবে, প্রত্যাখ্যান ও কারণ উল্লেখ থাকবে, এবং **১৫ দিনে পরিশোধের দাবি** থাকবে। রিটার্ন মেমো পাওয়ার **৩০ দিনের** মধ্যে রেজিস্টার্ড ডাকে (RPAD) পাঠান — সঙ্গে কুরিয়ার ও ইমেলও। প্রতিটি রসিদ রাখুন।",
+        "serviceHint": "legal-notice-cheque-bounce"
+      },
+      {
+        "icon": "clock",
+        "title": "১৫ দিন পরিশোধের অপেক্ষা",
+        "summary": "প্রদানকারী নোটিশ পাওয়ার ১৫ দিনের মধ্যে সম্পূর্ণ পরিশোধ করবেন।",
+        "detail": "প্রদানকারী নোটিশ পাওয়ার পর **১৫ দিন** পান। পুরো টাকা দিলে বিষয়টি শেষ। আংশিক দিলে লিখিতভাবে অস্বীকার করুন যে এটি সম্পূর্ণ নিষ্পত্তি নয়, এবং আগে উকিলের পরামর্শ নিন।"
+      },
+      {
+        "icon": "gavel",
+        "title": "এক মাসের মধ্যে অভিযোগ দায়ের করুন",
+        "summary": "পরিশোধ না হলে পরবর্তী ৩০ দিনে ধারা ১৩৮-এর অভিযোগ করুন।",
+        "detail": "১৫ দিন পরিশোধ ছাড়া পেরোলে, *আপনার* ব্যাঙ্ক শাখার এলাকার জুডিশিয়াল ম্যাজিস্ট্রেটের কাছে **৩০ দিনের** মধ্যে **ধারা ১৩৮**-এর অভিযোগ দায়ের হয়। উকিলের মাধ্যমে আসল চেক ও মেমো, ডিসপ্যাচ প্রমাণসহ নোটিশ, ঋণের প্রমাণ ও আপনার হলফনামা দিন।"
+      }
+    ]
+  },
+  "decisionFlow": {
+    "start": "q1",
+    "nodes": [
+      {
+        "id": "q1",
+        "yes": "q2",
+        "no": "notDebt",
+        "question": {
+          "en": "Was the cheque for a loan, goods, or rent — a real debt?",
+          "hi": "क्या चेक किसी उधार, सामान या किराए — यानी असली देनदारी के लिए था?",
+          "ur": "کیا چیک کسی قرض، سامان یا کرایہ — یعنی حقیقی واجب الادا رقم کے لیے تھا؟",
+          "bn": "চেকটি কি কোনো ঋণ, পণ্য বা ভাড়া — অর্থাৎ প্রকৃত দেনার জন্য ছিল?"
+        }
+      },
+      {
+        "id": "q2",
+        "yes": "q3",
+        "no": "expired",
+        "question": {
+          "en": "Did the cheque bounce within 3 months of its date?",
+          "hi": "क्या चेक अपनी तारीख से 3 महीने के भीतर बाउंस हुआ?",
+          "ur": "کیا چیک اپنی تاریخ سے 3 ماہ کے اندر باؤنس ہوا؟",
+          "bn": "চেকটি কি তার তারিখ থেকে ৩ মাসের মধ্যে বাউন্স হয়েছে?"
+        }
+      },
+      {
+        "id": "q3",
+        "yes": "sendNotice",
+        "no": "reviewTimeline",
+        "question": {
+          "en": "Are you still within 30 days of the bank return memo?",
+          "hi": "क्या आप अब भी बैंक रिटर्न मेमो के 30 दिनों के भीतर हैं?",
+          "ur": "کیا آپ اب بھی بینک ریٹرن میمو کے 30 دن کے اندر ہیں؟",
+          "bn": "আপনি কি এখনও ব্যাঙ্ক রিটার্ন মেমোর ৩০ দিনের মধ্যে আছেন?"
+        }
+      }
+    ],
+    "outcomes": {
+      "notDebt": {
+        "href": "whatsapp",
+        "label": {
+          "en": "Section 138 likely doesn't apply — ask a lawyer free",
+          "hi": "धारा 138 शायद लागू न हो — वकील से मुफ़्त पूछें",
+          "ur": "دفعہ 138 شاید لاگو نہ ہو — وکیل سے مفت پوچھیں",
+          "bn": "ধারা ১৩৮ সম্ভবত প্রযোজ্য নয় — উকিলকে বিনামূল্যে জিজ্ঞাসা করুন"
+        }
+      },
+      "expired": {
+        "href": "whatsapp",
+        "label": {
+          "en": "The cheque may be too old — re-issue or ask a lawyer free",
+          "hi": "चेक शायद बहुत पुराना है — दोबारा जारी कराएं या वकील से मुफ़्त पूछें",
+          "ur": "چیک شاید بہت پرانا ہے — دوبارہ جاری کرائیں یا وکیل سے مفت پوچھیں",
+          "bn": "চেকটি হয়তো অনেক পুরনো — পুনরায় ইস্যু করান বা উকিলকে বিনামূল্যে জিজ্ঞাসা করুন"
+        }
+      },
+      "reviewTimeline": {
+        "href": "#guide-quick-answer",
+        "label": {
+          "en": "You may have missed the notice window — re-check the timeline",
+          "hi": "आप शायद नोटिस की समय-सीमा चूक गए — समय-सीमा दोबारा देखें",
+          "ur": "آپ شاید نوٹس کی مدت سے چوک گئے — ٹائم لائن دوبارہ دیکھیں",
+          "bn": "আপনি হয়তো নোটিশের সময়সীমা মিস করেছেন — সময়সীমা আবার দেখুন"
+        }
+      },
+      "sendNotice": {
+        "href": "/services/legal-notice-cheque-bounce",
+        "label": {
+          "en": "Section 138 applies — send an advocate notice now (₹999)",
+          "hi": "धारा 138 लागू है — अभी वकील का नोटिस भेजें (₹999)",
+          "ur": "دفعہ 138 لاگو ہے — ابھی وکیل کا نوٹس بھیجیں (₹999)",
+          "bn": "ধারা ১৩৮ প্রযোজ্য — এখনই উকিলের নোটিশ পাঠান (₹৯৯৯)"
+        }
+      }
+    }
+  },
   "searchKeywords": {
     "en": [
       "cheque bounce what to do",
@@ -45,9 +343,18 @@
       "চেক বাউন্সের আইনি নোটিশ"
     ]
   },
-  "relatedServiceIds": ["legal-notice-cheque-bounce", "consultation-call"],
-  "relatedTemplateSlugs": ["cheque-bounce-demand-notice", "loan-repayment-demand-letter"],
-  "relatedGuideSlugs": ["consumer-forum-complaint-guide", "unpaid-salary-what-to-do"],
+  "relatedServiceIds": [
+    "legal-notice-cheque-bounce",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "cheque-bounce-demand-notice",
+    "loan-repayment-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "consumer-forum-complaint-guide",
+    "unpaid-salary-what-to-do"
+  ],
   "faqs": {
     "en": [
       {
@@ -138,5 +445,8 @@
       }
     ]
   },
-  "updatedAt": "2026-07-07"
+  "updatedAt": "2026-07-07",
+  "publishedAt": "2025-11-12",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011"
 }

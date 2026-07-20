@@ -3,10 +3,14 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
-import { localeAlternates } from '@/lib/seo';
-import { getCategories, getCategory, getGuidesByCategory, getServices, getTemplates } from '@/lib/content';
+import { buildMetadata } from '@/lib/seo/metadata';
+import { SITE_URL } from '@/lib/site';
+import { getCategories, getCategory, getGuideMetas, getGuidesByCategory, getServices, getTemplates } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import CategoryIcon from '@/components/CategoryIcon';
+import JsonLd from '@/components/seo/JsonLd';
+import { breadcrumbSchema } from '@/lib/seo/schemas';
+import WhatsAppConsultBlock from '@/components/WhatsAppConsultBlock';
 
 export function generateStaticParams() {
   return locales.flatMap((locale) => getCategories().map((category) => ({ locale, category: category.slug })));
@@ -21,11 +25,12 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const category = getCategory(categorySlug);
   if (!category) return {};
-  return {
+  return buildMetadata({
     title: category.title[locale],
     description: category.description[locale],
-    alternates: localeAlternates(locale, `/help/${categorySlug}`),
-  };
+    path: `/help/${categorySlug}`,
+    locale,
+  });
 }
 
 export default async function CategoryHubPage({ params }: { params: Promise<{ locale: string; category: string }> }) {
@@ -42,6 +47,13 @@ export default async function CategoryHubPage({ params }: { params: Promise<{ lo
 
   return (
     <div className="max-w-5xl mx-auto">
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: dict.ui.guide.breadcrumbHome, url: `${SITE_URL}${href('/')}` },
+          { name: dict.ui.guide.breadcrumbHelp, url: `${SITE_URL}${href('/help')}` },
+          { name: category.title[locale] },
+        ])}
+      />
       <Breadcrumbs
         crumbs={[
           { label: dict.ui.guide.breadcrumbHome, href: href('/') },
@@ -49,7 +61,7 @@ export default async function CategoryHubPage({ params }: { params: Promise<{ lo
           { label: category.title[locale] },
         ]}
       />
-      <div className="flex items-start gap-4 mb-10">
+      <div className="flex items-start gap-4 mb-6">
         <CategoryIcon icon={category.icon} className="w-12 h-12 text-brand-gold shrink-0 mt-1" />
         <div>
           <h1 className="text-4xl font-extrabold text-white font-display mb-2">{category.title[locale]}</h1>
@@ -57,7 +69,10 @@ export default async function CategoryHubPage({ params }: { params: Promise<{ lo
         </div>
       </div>
 
-      {guides.length > 0 && (
+      {/* SEO intro: prose so the hub page can rank (what belongs here, cost, timelines). */}
+      <p className="text-base text-gray-300 leading-relaxed max-w-3xl mb-10">{category.intro[locale]}</p>
+
+      {guides.length > 0 ? (
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-white font-display mb-6">{dict.ui.search.guides}</h2>
           <div className="space-y-4">
@@ -72,6 +87,36 @@ export default async function CategoryHubPage({ params }: { params: Promise<{ lo
               </Link>
             ))}
           </div>
+        </section>
+      ) : (
+        // No guides yet: never a dead end — nearest guides + free WhatsApp consult.
+        <section className="mb-12 space-y-8">
+          <div>
+            <h2 className="text-2xl font-bold text-white font-display mb-2">{dict.ui.emptyCategory.comingSoon}</h2>
+            <p className="text-gray-400 mb-6">{dict.ui.emptyCategory.nearby}</p>
+            <div className="space-y-4">
+              {getGuideMetas()
+                .filter((g) => g.category !== category.slug)
+                .slice(0, 3)
+                .map((guide) => (
+                  <Link
+                    key={guide.slug}
+                    href={href(`/help/${guide.category}/${guide.slug}`)}
+                    className="block bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-brand-gold/50 transition-colors"
+                  >
+                    <h3 className="text-xl font-bold text-white font-display mb-2">{guide.title[locale]}</h3>
+                    <p className="text-sm text-gray-400 line-clamp-2">{guide.answerBox[locale]}</p>
+                  </Link>
+                ))}
+            </div>
+          </div>
+          <WhatsAppConsultBlock
+            title={dict.ui.deadEnd.title}
+            subtitle={dict.ui.deadEnd.subtitle}
+            cta={dict.common.whatsappLawyerFree}
+            context={{ title: category.title[locale], url: `${SITE_URL}${href(`/help/${category.slug}`)}` }}
+            source={`empty-category:${category.slug}`}
+          />
         </section>
       )}
 
