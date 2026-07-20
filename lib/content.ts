@@ -34,6 +34,11 @@ const step = z.object({
 });
 const localizedSteps = z.object({ en: z.array(step), hi: z.array(step), ur: z.array(step), bn: z.array(step) });
 
+const costsSchema = z.object({
+  rows: z.array(z.object({ label: z.string().min(1), amount: z.string().min(1), note: z.string().optional() })).min(1),
+  footnote: z.string().optional(),
+});
+
 const decisionFlowSchema = z.object({
   start: z.string().min(1),
   nodes: z.array(z.object({ id: z.string().min(1), question: localizedString, yes: z.string().min(1), no: z.string().min(1) })).min(1),
@@ -58,6 +63,14 @@ export const guideMetaSchema: z.ZodType<GuideMeta> = z.object({
   title: localizedString,
   answerBox: localizedString,
   keyNumbers: localizedStringArray.optional(),
+  costs: z
+    .object({
+      en: costsSchema,
+      hi: costsSchema,
+      ur: costsSchema,
+      bn: costsSchema,
+    })
+    .optional(),
   deadlines: localizedDeadlines.optional(),
   steps: localizedSteps.optional(),
   decisionFlow: decisionFlowSchema.optional(),

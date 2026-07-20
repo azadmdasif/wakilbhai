@@ -22,6 +22,8 @@ export interface GuideMeta {
   answerBox: Localized;
   /** Up to 3 short stamp-chip facts, e.g. "30 days to send notice". */
   keyNumbers?: Localized<string[]>;
+  /** CostCard: line-item costs + optional footnote. */
+  costs?: Localized<{ rows: { label: string; amount: string; note?: string }[]; footnote?: string }>;
   /** Statutory-clock steps for the DeadlineTimeline. */
   deadlines?: Localized<{ label: string; duration: string; startsFrom: string }[]>;
   /** Sequenced how-to steps for StepCards. `detail` is MDX; `serviceHint` is a service id. */

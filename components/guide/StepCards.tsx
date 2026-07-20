@@ -98,28 +98,28 @@ export default function StepCards({ items, seeDetailsLabel }: { items: StepCardI
               refs.current[i] = el;
             }}
             style={{ transitionDelay: `${(i % 3) * 90}ms` }}
-            className={`rounded-2xl border border-gray-800 bg-gray-900 p-5 transition-all duration-500 ease-out motion-reduce:!transition-none ${
+            className={`rounded-2xl border border-black/10 bg-white/70 p-5 transition-all duration-500 ease-out motion-reduce:!transition-none ${
               hidden[i] ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
             }`}
           >
             <div className="flex items-start gap-4">
-              <span className="relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-red/15 text-brand-red">
+              <span className="relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-red/10 text-brand-red">
                 <Icon className="h-5 w-5" aria-hidden />
                 <span className="absolute -end-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-brand-red text-[11px] font-extrabold text-white">
                   {i + 1}
                 </span>
               </span>
               <div className="min-w-0 flex-1">
-                <h3 className="font-display font-bold text-white">{item.title}</h3>
-                <p className="mt-1 text-sm text-gray-400">{item.summary}</p>
+                <h3 className="font-display font-bold text-[#1A1D23]">{item.title}</h3>
+                <p className="mt-1 text-sm text-[#6B7280]">{item.summary}</p>
                 <details className="group mt-3">
-                  <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-sm font-semibold text-brand-gold">
+                  <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-sm font-semibold text-brand-red">
                     {seeDetailsLabel}
                     <span className="transition-transform group-open:rotate-90" aria-hidden>
                       →
                     </span>
                   </summary>
-                  <div className="mt-3 border-t border-gray-800 pt-3 text-gray-300">
+                  <div className="mt-3 border-t border-black/10 pt-3 text-[#1A1D23]">
                     {item.detail}
                     {item.serviceHint && (
                       <Link

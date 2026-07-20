@@ -221,7 +221,12 @@
       "breadcrumbHelp": "আইনি সহায়তা",
       "shareOnWhatsApp": "এই গাইড WhatsApp-এ শেয়ার করুন",
       "sixtySecond": "৬০-সেকেন্ড উত্তর",
-      "deadlineTimeline": "আইনি সময়সীমা"
+      "deadlineTimeline": "আইনি সময়সীমা",
+      "writtenBy": "লিখেছেন",
+      "reviewedBy": "পর্যালোচনা",
+      "costsTitle": "খরচ ও কী আশা করবেন",
+      "decisionTitle": "আপনার ক্ষেত্রে কোন পথটি প্রযোজ্য?",
+      "stepsTitle": "ধাপে ধাপে: কী করবেন"
     },
     "template": {
       "indexTitle": "ফ্রি আইনি নথির টেমপ্লেট",

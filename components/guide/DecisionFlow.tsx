@@ -81,14 +81,14 @@ export default function DecisionFlow({
   }`;
 
   return (
-    <div className="not-prose rounded-2xl border border-gray-800 bg-gray-900 p-6">
+    <div className="not-prose rounded-2xl border border-black/10 bg-white/70 p-6">
       {/* Progress dots */}
       <div className="mb-5 flex items-center gap-1.5">
         {Array.from({ length: Math.max(maxDepth, 1) }).map((_, i) => (
           <span
             key={i}
             className={`h-2 rounded-full transition-all duration-300 ${
-              i < answered || (i === answered && node) ? 'w-6 bg-brand-red' : 'w-2 bg-gray-700'
+              i < answered || (i === answered && node) ? 'w-6 bg-brand-red' : 'w-2 bg-[#1A1D23]/20'
             }`}
           />
         ))}
@@ -96,17 +96,17 @@ export default function DecisionFlow({
 
       {node ? (
         <>
-          <p className="text-lg font-bold text-white font-display sm:text-xl">{node.question}</p>
+          <p className="text-lg font-bold text-[#1A1D23] font-display sm:text-xl">{node.question}</p>
           <div className="mt-6 grid grid-cols-2 gap-3">
             <button
               onClick={() => answer('yes')}
-              className="min-h-[52px] rounded-xl border-2 border-gray-700 bg-gray-800 text-base font-bold text-white transition-colors hover:border-brand-red hover:bg-brand-red"
+              className="min-h-[52px] rounded-xl border-2 border-[#1A1D23]/20 bg-white text-base font-bold text-[#1A1D23] transition-colors hover:border-brand-red hover:bg-brand-red hover:text-white"
             >
               {labels.yes}
             </button>
             <button
               onClick={() => answer('no')}
-              className="min-h-[52px] rounded-xl border-2 border-gray-700 bg-gray-800 text-base font-bold text-white transition-colors hover:border-brand-red hover:bg-brand-red"
+              className="min-h-[52px] rounded-xl border-2 border-[#1A1D23]/20 bg-white text-base font-bold text-[#1A1D23] transition-colors hover:border-brand-red hover:bg-brand-red hover:text-white"
             >
               {labels.no}
             </button>
@@ -114,7 +114,7 @@ export default function DecisionFlow({
         </>
       ) : outcome ? (
         <>
-          <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">{labels.result}</p>
+          <p className="text-xs font-semibold uppercase tracking-wide text-[#6B7280]">{labels.result}</p>
           {/* The label doubles as the CTA when there's a link; plain text otherwise. */}
           {outcome.href ? (
             outcomeInternal ? (
@@ -134,7 +134,7 @@ export default function DecisionFlow({
               </a>
             )
           ) : (
-            <p className="mt-1 text-lg font-bold text-white font-display sm:text-xl">{outcome.label}</p>
+            <p className="mt-1 text-lg font-bold text-[#1A1D23] font-display sm:text-xl">{outcome.label}</p>
           )}
         </>
       ) : null}
@@ -142,12 +142,12 @@ export default function DecisionFlow({
       {(answered > 0 || !node) && (
         <div className="mt-5 flex items-center gap-5 text-sm">
           {answered > 0 && (
-            <button onClick={back} className="text-gray-400 transition-colors hover:text-white">
+            <button onClick={back} className="text-[#6B7280] transition-colors hover:text-[#1A1D23]">
               ← {labels.back}
             </button>
           )}
           {(answered > 0 || !node) && (
-            <button onClick={reset} className="text-gray-400 transition-colors hover:text-white">
+            <button onClick={reset} className="text-[#6B7280] transition-colors hover:text-[#1A1D23]">
               {labels.startOver}
             </button>
           )}

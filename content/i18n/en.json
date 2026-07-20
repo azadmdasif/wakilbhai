@@ -221,7 +221,12 @@
       "breadcrumbHelp": "Legal help",
       "shareOnWhatsApp": "Share this guide on WhatsApp",
       "sixtySecond": "60-second answer",
-      "deadlineTimeline": "Statutory deadlines"
+      "deadlineTimeline": "Statutory deadlines",
+      "writtenBy": "Written by",
+      "reviewedBy": "Reviewed by",
+      "costsTitle": "Costs & what to expect",
+      "decisionTitle": "Which path applies to you?",
+      "stepsTitle": "Step-by-step: what to do"
     },
     "template": {
       "indexTitle": "Free legal document templates",

@@ -8,37 +8,19 @@ const baseComponents = {
   ),
 };
 
+const darkProse =
+  'prose prose-invert prose-headings:font-display prose-headings:text-white prose-a:text-brand-gold prose-strong:text-white prose-li:marker:text-brand-gold max-w-none';
+const paperProse =
+  'prose prose-headings:font-display prose-headings:text-[#1A1D23] prose-p:text-[#1A1D23] prose-li:text-[#1A1D23] prose-a:text-brand-red prose-strong:text-[#1A1D23] prose-li:marker:text-brand-red max-w-none';
+
 /**
- * Server-rendered MDX body for guides and other long-form content.
- * Tables must scroll on small screens, hence the wrapper.
- *
- * `ctaLadder` and `deadlineTimeline` are pre-configured nodes exposed to MDX as
- * `<CtaLadder />` and `<DeadlineTimeline />`, so a guide can drop them into the
- * right section (conversion block after costs; clock in the timeline section).
+ * Server-rendered MDX body for long-form content. `paper` switches from the
+ * dark reading surface (tools) to the warm paper surface (guides).
  */
-export default function MdxContent({
-  source,
-  ctaLadder,
-  deadlineTimeline,
-  stepCards,
-  decisionFlow,
-}: {
-  source: string;
-  ctaLadder?: React.ReactNode;
-  deadlineTimeline?: React.ReactNode;
-  stepCards?: React.ReactNode;
-  decisionFlow?: React.ReactNode;
-}) {
-  const components = {
-    ...baseComponents,
-    CtaLadder: () => <>{ctaLadder ?? null}</>,
-    DeadlineTimeline: () => <>{deadlineTimeline ?? null}</>,
-    StepCards: () => <>{stepCards ?? null}</>,
-    DecisionFlow: () => <>{decisionFlow ?? null}</>,
-  };
+export default function MdxContent({ source, paper = false }: { source: string; paper?: boolean }) {
   return (
-    <div className="prose prose-invert prose-headings:font-display prose-headings:text-white prose-a:text-brand-gold prose-strong:text-white prose-li:marker:text-brand-gold max-w-none">
-      <MDXRemote source={source} components={components} />
+    <div className={paper ? paperProse : darkProse}>
+      <MDXRemote source={source} components={baseComponents} />
     </div>
   );
 }

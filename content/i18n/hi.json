@@ -221,7 +221,12 @@
       "breadcrumbHelp": "कानूनी मदद",
       "shareOnWhatsApp": "यह गाइड WhatsApp पर शेयर करें",
       "sixtySecond": "60-सेकंड जवाब",
-      "deadlineTimeline": "कानूनी समय-सीमाएँ"
+      "deadlineTimeline": "कानूनी समय-सीमाएँ",
+      "writtenBy": "लिखा",
+      "reviewedBy": "समीक्षा",
+      "costsTitle": "खर्च और क्या उम्मीद करें",
+      "decisionTitle": "आप पर कौन सा रास्ता लागू होता है?",
+      "stepsTitle": "चरण-दर-चरण: क्या करें"
     },
     "template": {
       "indexTitle": "मुफ्त कानूनी दस्तावेज़ टेम्पलेट",
