@@ -42,6 +42,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/talk-to-a-lawyer' },
     { path: '/lawyers', priority: 0.5 },
     { path: '/why-wakilbhai', priority: 0.5 },
+    { path: '/about', priority: 0.4 },
+    { path: '/editorial-policy', priority: 0.4 },
     { path: '/contact', priority: 0.5 },
     { path: '/book-visit', priority: 0.5 },
     { path: '/privacy', priority: 0.3 },
