@@ -18,8 +18,10 @@ export interface GuideMeta {
   slug: string; // e.g. 'cheque-bounce-what-to-do'
   category: string; // category slug
   title: Localized;
-  /** 2–3 sentence direct answer (featured snippet target). */
+  /** 40–60 word direct answer (featured snippet + AI quote target). */
   answerBox: Localized;
+  /** Up to 3 short stamp-chip facts, e.g. "30 days to send notice". */
+  keyNumbers?: Localized<string[]>;
   /** Vernacular long-tail queries this guide targets. */
   searchKeywords: Localized<string[]>;
   /** The money pages this guide sells. */

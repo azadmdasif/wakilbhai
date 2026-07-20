@@ -13,6 +13,7 @@ import MdxContent from '@/components/MdxContent';
 import FaqAccordion from '@/components/FaqAccordion';
 import ConversionRail from '@/components/ConversionRail';
 import AskWidget from '@/components/AskWidget';
+import QuickAnswer from '@/components/guide/QuickAnswer';
 import RelatedGuides from '@/components/guide/RelatedGuides';
 import ShareOnWhatsApp from '@/components/ShareOnWhatsApp';
 import StickyGuideBar from '@/components/cta/StickyGuideBar';
@@ -99,12 +100,15 @@ export default async function GuidePage({
         />
         <h1 className="text-3xl md:text-4xl font-extrabold text-white font-display mb-4">{guide.title[locale]}</h1>
 
-        {/* Answer box: the featured-snippet target, first thing rendered.
-            id is the scroll anchor the StickyGuideBar watches. */}
-        <div id="guide-quick-answer" className="bg-gray-900 border-s-4 border-brand-gold rounded-e-2xl p-5 mb-4">
-          <p className="text-lg text-gray-100 leading-relaxed">{guide.answerBox[locale]}</p>
-        </div>
-        <p className="text-sm text-gray-500 mb-8">
+        {/* 60-second answer: the featured-snippet + AI-quote target, first thing
+            rendered. id is the scroll anchor the StickyGuideBar watches. */}
+        <QuickAnswer
+          id="guide-quick-answer"
+          quickAnswer={guide.answerBox[locale]}
+          keyNumbers={guide.keyNumbers?.[locale]}
+          label={dict.ui.guide.sixtySecond}
+        />
+        <p className="text-sm text-gray-500 mb-8 mt-4">
           {dict.common.updatedOn}: <time dateTime={guide.updatedAt}>{formatDate(guide.updatedAt, locale)}</time>
         </p>
 

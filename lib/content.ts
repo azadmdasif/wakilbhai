@@ -34,6 +34,7 @@ export const guideMetaSchema: z.ZodType<GuideMeta> = z.object({
   category: slug,
   title: localizedString,
   answerBox: localizedString,
+  keyNumbers: localizedStringArray.optional(),
   searchKeywords: localizedStringArray,
   relatedServiceIds: z.array(z.string()),
   relatedTemplateSlugs: z.array(z.string()),
