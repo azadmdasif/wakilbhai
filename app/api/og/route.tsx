@@ -12,8 +12,9 @@ const MUTED = '#6B7280';
 const WIDTH = 1200;
 const HEIGHT = 630;
 
-// Fonts are bundled (no runtime network dependency). Latin only for now —
-// Indic/Urdu titles need their Noto fonts added to the `fonts` array below.
+// Fonts are bundled Latin subsets (~40 KB each) so the whole Edge function
+// stays under Vercel's 1 MB limit — Indic/Urdu titles need their Noto fonts
+// added here. Loaded via fetch of the traced asset (works in the Edge runtime).
 const fontBold = fetch(new URL('./fonts/Inter-800.ttf', import.meta.url)).then((r) => r.arrayBuffer());
 const fontMedium = fetch(new URL('./fonts/Inter-500.ttf', import.meta.url)).then((r) => r.arrayBuffer());
 
