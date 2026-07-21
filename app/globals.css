@@ -6,3 +6,43 @@ body {
   background-color: #030712;
   color: #f3f4f6;
 }
+
+/* --- Indic & Nastaliq typography ------------------------------------------
+   Devanagari/Bengali/etc. stack matras, reph and conjuncts well above and
+   below the baseline; Nastaliq cascades diagonally. At Latin leading these
+   marks clip against the line above. Give body copy a taller line-box on
+   these locales (>= 1.8; Nastaliq more). Headings keep their tighter,
+   size-derived leading. Selectors carry attribute+element specificity so they
+   win over Tailwind's leading-* utilities and the Typography plugin.        */
+[lang='hi'] :is(p, li),
+[lang='bn'] :is(p, li),
+[lang='mr'] :is(p, li),
+[lang='te'] :is(p, li),
+[lang='ta'] :is(p, li),
+[lang='gu'] :is(p, li),
+[lang='kn'] :is(p, li),
+[lang='or'] :is(p, li),
+[lang='ml'] :is(p, li),
+[lang='pa'] :is(p, li) {
+  line-height: 1.85;
+}
+
+[lang='ur'] :is(p, li) {
+  line-height: 2.1;
+}
+
+/* Do not clip tall stacked marks where a line-box is otherwise tight. */
+[lang='hi'] :is(h1, h2, h3, h4, h5, h6),
+[lang='bn'] :is(h1, h2, h3, h4, h5, h6),
+[lang='mr'] :is(h1, h2, h3, h4, h5, h6),
+[lang='te'] :is(h1, h2, h3, h4, h5, h6),
+[lang='ta'] :is(h1, h2, h3, h4, h5, h6),
+[lang='gu'] :is(h1, h2, h3, h4, h5, h6),
+[lang='kn'] :is(h1, h2, h3, h4, h5, h6),
+[lang='or'] :is(h1, h2, h3, h4, h5, h6),
+[lang='ml'] :is(h1, h2, h3, h4, h5, h6),
+[lang='pa'] :is(h1, h2, h3, h4, h5, h6),
+[lang='ur'] :is(h1, h2, h3, h4, h5, h6) {
+  line-height: 1.35;
+  padding-block: 0.04em;
+}

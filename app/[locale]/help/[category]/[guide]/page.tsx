@@ -50,7 +50,15 @@ export async function generateMetadata({
 
 function formatDate(iso: string, locale: Locale): string {
   const lang = { en: 'en-IN', hi: 'hi-IN', ur: 'ur-IN', bn: 'bn-IN' }[locale];
-  return new Date(`${iso}T00:00:00Z`).toLocaleDateString(lang, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+  // numberingSystem: 'latn' keeps digits Latin (₹/dates read the same across
+  // scripts) even where the locale's default numbering is native.
+  return new Date(`${iso}T00:00:00Z`).toLocaleDateString(lang, {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    timeZone: 'UTC',
+    numberingSystem: 'latn',
+  });
 }
 
 /** Body is "real" prose only if something survives stripping MDX comments/whitespace. */

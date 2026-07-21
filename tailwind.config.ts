@@ -15,10 +15,13 @@ const config: Config = {
         whatsapp: '#25D366',
       },
       fontFamily: {
-        // --font-script is only set on non-Latin locale routes; the var()
-        // fallback keeps the declaration valid on the en route.
-        sans: ['var(--font-sans)', 'var(--font-script, ui-sans-serif)', 'ui-sans-serif', 'sans-serif'],
-        display: ['var(--font-display)', 'var(--font-script, ui-sans-serif)', 'ui-sans-serif', 'sans-serif'],
+        // Both vars are set per-locale by localeFontClass() (lib/fonts.ts):
+        //   --font-body    = Noto Sans {Script}   (Nastaliq for ur)
+        //   --font-display = Anek {Script}        (Nastaliq for ur)
+        // Body falls back to the display face (covers ur, which sets only
+        // --font-display), then to system sans.
+        sans: ['var(--font-body)', 'var(--font-display)', 'ui-sans-serif', 'sans-serif'],
+        display: ['var(--font-display)', 'var(--font-body)', 'ui-sans-serif', 'sans-serif'],
       },
     },
   },

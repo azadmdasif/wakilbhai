@@ -25,7 +25,7 @@ export default function ChequeBounceCalculator({ locale, strings }: Props) {
   const [submitted, setSubmitted] = useState(false);
 
   const fmt = (date: Date) =>
-    date.toLocaleDateString(localeLang[locale], { year: 'numeric', month: 'long', day: 'numeric' });
+    date.toLocaleDateString(localeLang[locale], { year: 'numeric', month: 'long', day: 'numeric', numberingSystem: 'latn' });
 
   const result =
     submitted && amount && memoDate
