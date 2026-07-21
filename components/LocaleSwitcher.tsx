@@ -21,18 +21,18 @@ export default function LocaleSwitcher({ currentLocale }: { currentLocale: Local
 
   return (
     <div className="flex items-center gap-1 bg-gray-800 rounded-full p-1" role="group" aria-label="Language">
-      {enabledLocales.map(({ code, native, dir }) => (
+      {enabledLocales.map(({ code, nativeName, dir }) => (
         <button
           key={code}
           onClick={() => switchTo(code as Locale)}
           className={`px-3 py-1 text-sm rounded-full transition-colors duration-300 ${
             currentLocale === code ? 'bg-brand-red text-white' : 'text-gray-300 hover:bg-gray-700'
           }`}
-          title={native}
+          title={nativeName}
           lang={code}
           dir={dir}
         >
-          {native}
+          {nativeName}
         </button>
       ))}
     </div>
