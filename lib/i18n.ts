@@ -22,6 +22,8 @@ export function dir(locale: Locale): 'rtl' | 'ltr' {
 export const localeLang: Record<Locale, string> = {
   en: 'en-IN',
   hi: 'hi-IN',
+  mr: 'mr-IN',
+  te: 'te-IN',
   ur: 'ur-IN',
   bn: 'bn-IN',
 };

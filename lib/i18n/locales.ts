@@ -31,9 +31,9 @@ export const LOCALES = [
   { code: 'hi', nativeName: 'हिंदी', dir: 'ltr', displayFont: ANEK_DEVANAGARI, font: DEVANAGARI, enabled: true },
   { code: 'ur', nativeName: 'اردو', dir: 'rtl', displayFont: NASTALIQ, font: NASTALIQ, enabled: true },
   { code: 'bn', nativeName: 'বাংলা', dir: 'ltr', displayFont: `'Anek Bangla', 'Noto Sans Bengali', ${SANS}`, font: `'Noto Sans Bengali', ${SANS}`, enabled: true },
-  // Rollout order (not yet live): mr, te, ta, gu, kn, or, ml
-  { code: 'mr', nativeName: 'मराठी', dir: 'ltr', displayFont: ANEK_DEVANAGARI, font: DEVANAGARI, enabled: false },
-  { code: 'te', nativeName: 'తెలుగు', dir: 'ltr', displayFont: `'Anek Telugu', 'Noto Sans Telugu', ${SANS}`, font: `'Noto Sans Telugu', ${SANS}`, enabled: false },
+  // Rollout order: mr, te live; ta, gu, kn, or, ml pending.
+  { code: 'mr', nativeName: 'मराठी', dir: 'ltr', displayFont: ANEK_DEVANAGARI, font: DEVANAGARI, enabled: true },
+  { code: 'te', nativeName: 'తెలుగు', dir: 'ltr', displayFont: `'Anek Telugu', 'Noto Sans Telugu', ${SANS}`, font: `'Noto Sans Telugu', ${SANS}`, enabled: true },
   { code: 'ta', nativeName: 'தமிழ்', dir: 'ltr', displayFont: `'Anek Tamil', 'Noto Sans Tamil', ${SANS}`, font: `'Noto Sans Tamil', ${SANS}`, enabled: false },
   { code: 'gu', nativeName: 'ગુજરાતી', dir: 'ltr', displayFont: `'Anek Gujarati', 'Noto Sans Gujarati', ${SANS}`, font: `'Noto Sans Gujarati', ${SANS}`, enabled: false },
   { code: 'kn', nativeName: 'ಕನ್ನಡ', dir: 'ltr', displayFont: `'Anek Kannada', 'Noto Sans Kannada', ${SANS}`, font: `'Noto Sans Kannada', ${SANS}`, enabled: false },

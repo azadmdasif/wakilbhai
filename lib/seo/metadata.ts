@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { localePath, type Locale } from '@/lib/i18n';
 import { localeAlternates } from '@/lib/seo';
+import { enabledLocaleCodes } from '@/lib/i18n/locales';
 import { SITE_NAME, SITE_URL } from '@/lib/site';
 
 /** Hard SEO ceiling for <title> (see CLAUDE.md: unique title ≤60 chars). */
@@ -19,6 +20,8 @@ function ogImageUrl(title: string, category?: string): string {
 const ogLocales: Record<Locale, string> = {
   en: 'en_IN',
   hi: 'hi_IN',
+  mr: 'mr_IN',
+  te: 'te_IN',
   ur: 'ur_IN',
   bn: 'bn_IN',
 };
@@ -35,6 +38,11 @@ export interface BuildMetadataInput {
   ogCategory?: string;
   /** Override the OG image entirely; defaults to a generated /api/og card. */
   ogImage?: string;
+  /** Locales this page is actually available in (defaults to all live locales).
+   *  Narrow it for pages with drafted/untranslated locales. */
+  availableLocales?: readonly Locale[];
+  /** Keep the page out of the index (e.g. a locale still in draft). */
+  noindex?: boolean;
 }
 
 /**
@@ -58,7 +66,16 @@ function fullTitle(raw: string): string {
  * description, locale-aware canonical + hreflang alternates, and matching
  * Open Graph / Twitter cards.
  */
-export function buildMetadata({ title, description, path, locale, ogCategory, ogImage }: BuildMetadataInput): Metadata {
+export function buildMetadata({
+  title,
+  description,
+  path,
+  locale,
+  ogCategory,
+  ogImage,
+  availableLocales = enabledLocaleCodes,
+  noindex,
+}: BuildMetadataInput): Metadata {
   const resolvedTitle = fullTitle(title);
   const canonical = `${SITE_URL}${localePath(locale, path)}`;
   // The card shows the human title (no "| WakilBhai" suffix — the brand row
@@ -68,7 +85,8 @@ export function buildMetadata({ title, description, path, locale, ogCategory, og
   return {
     title: { absolute: resolvedTitle },
     description,
-    alternates: localeAlternates(locale, path),
+    ...(noindex ? { robots: { index: false, follow: true } } : {}),
+    alternates: localeAlternates(locale, path, availableLocales),
     openGraph: {
       type: 'website',
       siteName: SITE_NAME,

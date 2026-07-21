@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { locales, localePath, isLocale, type Locale } from '@/lib/i18n';
+import { locales, localePath, isLocale, localeLang, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { SITE_URL } from '@/lib/site';
-import { getCategory, getGuide, getGuideMeta, getGuideMetas, getService, getTemplate } from '@/lib/content';
+import { getCategory, getGuide, getGuideMeta, getGuideMetas, getService, getTemplate, guideLocales } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import JsonLd from '@/components/seo/JsonLd';
 import { articleSchema, breadcrumbSchema, faqSchema } from '@/lib/seo/schemas';
@@ -39,20 +39,23 @@ export async function generateMetadata({
   const meta = getGuideMeta(guideSlug);
   if (!meta || meta.category !== category) return {};
   const cat = getCategory(category);
+  const available = guideLocales(meta);
+  const isDraftLocale = !available.includes(locale);
   return buildMetadata({
     title: meta.title[locale],
     description: meta.answerBox[locale],
     path: `/help/${category}/${guideSlug}`,
     locale,
     ogCategory: cat?.title[locale],
+    availableLocales: available,
+    noindex: isDraftLocale,
   });
 }
 
 function formatDate(iso: string, locale: Locale): string {
-  const lang = { en: 'en-IN', hi: 'hi-IN', ur: 'ur-IN', bn: 'bn-IN' }[locale];
   // numberingSystem: 'latn' keeps digits Latin (₹/dates read the same across
   // scripts) even where the locale's default numbering is native.
-  return new Date(`${iso}T00:00:00Z`).toLocaleDateString(lang, {
+  return new Date(`${iso}T00:00:00Z`).toLocaleDateString(localeLang[locale], {
     year: 'numeric',
     month: 'long',
     day: 'numeric',

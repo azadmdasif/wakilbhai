@@ -2,9 +2,11 @@ import {
   Anek_Latin,
   Anek_Devanagari,
   Anek_Bangla,
+  Anek_Telugu,
   Noto_Sans,
   Noto_Sans_Devanagari,
   Noto_Sans_Bengali,
+  Noto_Sans_Telugu,
   Noto_Nastaliq_Urdu,
 } from 'next/font/google';
 import type { Locale } from './i18n';
@@ -28,9 +30,13 @@ import type { Locale } from './i18n';
 const enBody = Noto_Sans({ subsets: ['latin'], variable: '--font-body', display: 'swap', preload: true });
 const enDisplay = Anek_Latin({ subsets: ['latin'], variable: '--font-display', display: 'swap', preload: false });
 
-// Hindi (Marathi later) — Devanagari. Latin subset kept for ₹ figures / brand.
+// Hindi & Marathi — Devanagari. Latin subset kept for ₹ figures / brand.
 const hiBody = Noto_Sans_Devanagari({ subsets: ['devanagari', 'latin'], variable: '--font-body', display: 'swap', preload: false });
 const hiDisplay = Anek_Devanagari({ subsets: ['devanagari', 'latin'], variable: '--font-display', display: 'swap', preload: false });
+
+// Telugu.
+const teBody = Noto_Sans_Telugu({ subsets: ['telugu', 'latin'], variable: '--font-body', display: 'swap', preload: false });
+const teDisplay = Anek_Telugu({ subsets: ['telugu', 'latin'], variable: '--font-display', display: 'swap', preload: false });
 
 // Bengali — Bangla. Latin subset kept for ₹ figures / brand.
 const bnBody = Noto_Sans_Bengali({ subsets: ['bengali', 'latin'], variable: '--font-body', display: 'swap', preload: false });
@@ -47,6 +53,8 @@ const urBody = Noto_Nastaliq_Urdu({ subsets: ['arabic'], weight: ['400', '700'],
 const FONT_CLASS: Record<Locale, string> = {
   en: `${enBody.variable} ${enDisplay.variable}`,
   hi: `${hiBody.variable} ${hiDisplay.variable}`,
+  mr: `${hiBody.variable} ${hiDisplay.variable}`, // Marathi shares the Devanagari faces
+  te: `${teBody.variable} ${teDisplay.variable}`,
   bn: `${bnBody.variable} ${bnDisplay.variable}`,
   ur: `${urBody.variable} ${urDisplay.variable}`,
 };

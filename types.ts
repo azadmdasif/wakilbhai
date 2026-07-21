@@ -47,6 +47,10 @@ export interface GuideMeta {
   author: string;
   /** Legal reviewer: "Adv. [name], [Bar Council], [enrolment no.]". */
   reviewer: string;
+  /** Locales whose translation is scaffolded but pending human review. Those
+   *  locales are kept out of hreflang + sitemap and rendered noindex until the
+   *  code is removed here ("mark draft:false"). en is never draft. */
+  draftLocales?: string[];
 }
 
 export interface Guide extends GuideMeta {
