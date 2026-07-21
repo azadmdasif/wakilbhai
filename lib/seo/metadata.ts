@@ -22,6 +22,8 @@ const ogLocales: Record<Locale, string> = {
   hi: 'hi_IN',
   mr: 'mr_IN',
   te: 'te_IN',
+  ta: 'ta_IN',
+  gu: 'gu_IN',
   ur: 'ur_IN',
   bn: 'bn_IN',
 };

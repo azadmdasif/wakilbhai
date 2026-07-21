@@ -24,6 +24,8 @@ export const localeLang: Record<Locale, string> = {
   hi: 'hi-IN',
   mr: 'mr-IN',
   te: 'te-IN',
+  ta: 'ta-IN',
+  gu: 'gu-IN',
   ur: 'ur-IN',
   bn: 'bn-IN',
 };

@@ -106,6 +106,28 @@ const T: Record<Locale, Record<string, string>> = {
     serviceOrder: 'నమస్తే WakilBhai! నేను దీన్ని ఆర్డర్ చేయాలనుకుంటున్నాను: {title} (₹{price}). నా పేరు: {name} నా నగరం: {city}',
     templateFit: 'నమస్తే WakilBhai! నేను మీ సైట్‌లో "{title}" ఫార్మాట్ చూశాను. ఇది నా కేసుకు సరిపోతుందో లేదో ఒక లాయర్ ఉచితంగా చూడగలరా?',
   },
+  ta: {
+    general: 'வணக்கம் WakilBhai! எனக்கு ஒரு சட்ட ஆவணம் தொடர்பாக உதவி தேவை.',
+    guide: 'வணக்கம் WakilBhai! நான் "{title}" ({url}) படித்துக்கொண்டிருந்தேன், இந்தப் பிரச்சினையில் உதவி தேவை.',
+    service: 'வணக்கம் WakilBhai! நான் இதை ஆர்டர் செய்ய விரும்புகிறேன்: {title} (₹{price}). தயவுசெய்து வழிகாட்டுங்கள்.',
+    template: 'வணக்கம் WakilBhai! நான் "{title}" வடிவமைப்பைப் பதிவிறக்கினேன். அடுத்த படிகளுக்கு உதவி தேவை.',
+    searchMiss: 'வணக்கம் WakilBhai! நான் உங்கள் தளத்தில் "{query}" தேடினேன் ஆனால் கிடைக்கவில்லை. என் பிரச்சினை: ',
+    calculator: 'வணக்கம் WakilBhai! நான் {title} கருவியைப் பயன்படுத்தினேன். என் முடிவு: {result}. இதில் எனக்கு உதவி தேவை.',
+    share: '{title} — இலவச படிப்படியான வழிகாட்டி: {url} (WakilBhai வழியாக)',
+    serviceOrder: 'வணக்கம் WakilBhai! நான் இதை ஆர்டர் செய்ய விரும்புகிறேன்: {title} (₹{price}). என் பெயர்: {name} என் நகரம்: {city}',
+    templateFit: 'வணக்கம் WakilBhai! உங்கள் தளத்தில் "{title}" வடிவமைப்பைக் கண்டேன். இது என் வழக்குக்குப் பொருந்துமா என்று ஒரு வழக்கறிஞர் இலவசமாகப் பார்க்க முடியுமா?',
+  },
+  gu: {
+    general: 'નમસ્તે WakilBhai! મને એક કાનૂની દસ્તાવેજની બાબતમાં મદદ જોઈએ છે.',
+    guide: 'નમસ્તે WakilBhai! હું "{title}" ({url}) વાંચી રહ્યો/રહી હતી અને મને આ સમસ્યામાં મદદ જોઈએ છે.',
+    service: 'નમસ્તે WakilBhai! મારે આ ઓર્ડર કરવું છે: {title} (₹{price}). કૃપા કરીને માર્ગદર્શન આપો.',
+    template: 'નમસ્તે WakilBhai! મેં "{title}" ફોર્મેટ ડાઉનલોડ કર્યું છે. આગળના પગલાંમાં મદદ જોઈએ છે.',
+    searchMiss: 'નમસ્તે WakilBhai! મેં તમારી સાઇટ પર "{query}" શોધ્યું પણ મળ્યું નહીં. મારી સમસ્યા છે: ',
+    calculator: 'નમસ્તે WakilBhai! મેં {title} ટૂલ વાપર્યું. મારું પરિણામ: {result}. મને આમાં મદદ જોઈએ છે.',
+    share: '{title} — મફત પગલાવાર માર્ગદર્શિકા: {url} (WakilBhai તરફથી)',
+    serviceOrder: 'નમસ્તે WakilBhai! મારે આ ઓર્ડર કરવું છે: {title} (₹{price}). મારું નામ: {name} મારું શહેર: {city}',
+    templateFit: 'નમસ્તે WakilBhai! મને તમારી સાઇટ પર "{title}" ફોર્મેટ મળ્યું. શું કોઈ વકીલ મફતમાં જોઈ શકે કે તે મારા કેસ માટે યોગ્ય છે?',
+  },
 };
 
 function fill(templateStr: string, vars: Record<string, string | number>): string {

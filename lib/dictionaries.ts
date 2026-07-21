@@ -4,6 +4,8 @@ import ur from '@/messages/ur.json';
 import bn from '@/messages/bn.json';
 import mr from '@/messages/mr.json';
 import te from '@/messages/te.json';
+import ta from '@/messages/ta.json';
+import gu from '@/messages/gu.json';
 import type { Locale } from './i18n';
 
 /**
@@ -41,6 +43,8 @@ const dicts: Record<Locale, Dict> = {
   bn: bn as Dict,
   mr: deepMerge(en, mr as DeepPartial<Dict>),
   te: deepMerge(en, te as DeepPartial<Dict>),
+  ta: deepMerge(en, ta as DeepPartial<Dict>),
+  gu: deepMerge(en, gu as DeepPartial<Dict>),
 };
 
 export function getDict(locale: Locale): Dict {

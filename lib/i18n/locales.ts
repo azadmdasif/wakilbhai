@@ -34,8 +34,8 @@ export const LOCALES = [
   // Rollout order: mr, te live; ta, gu, kn, or, ml pending.
   { code: 'mr', nativeName: 'मराठी', dir: 'ltr', displayFont: ANEK_DEVANAGARI, font: DEVANAGARI, enabled: true },
   { code: 'te', nativeName: 'తెలుగు', dir: 'ltr', displayFont: `'Anek Telugu', 'Noto Sans Telugu', ${SANS}`, font: `'Noto Sans Telugu', ${SANS}`, enabled: true },
-  { code: 'ta', nativeName: 'தமிழ்', dir: 'ltr', displayFont: `'Anek Tamil', 'Noto Sans Tamil', ${SANS}`, font: `'Noto Sans Tamil', ${SANS}`, enabled: false },
-  { code: 'gu', nativeName: 'ગુજરાતી', dir: 'ltr', displayFont: `'Anek Gujarati', 'Noto Sans Gujarati', ${SANS}`, font: `'Noto Sans Gujarati', ${SANS}`, enabled: false },
+  { code: 'ta', nativeName: 'தமிழ்', dir: 'ltr', displayFont: `'Anek Tamil', 'Noto Sans Tamil', ${SANS}`, font: `'Noto Sans Tamil', ${SANS}`, enabled: true },
+  { code: 'gu', nativeName: 'ગુજરાતી', dir: 'ltr', displayFont: `'Anek Gujarati', 'Noto Sans Gujarati', ${SANS}`, font: `'Noto Sans Gujarati', ${SANS}`, enabled: true },
   { code: 'kn', nativeName: 'ಕನ್ನಡ', dir: 'ltr', displayFont: `'Anek Kannada', 'Noto Sans Kannada', ${SANS}`, font: `'Noto Sans Kannada', ${SANS}`, enabled: false },
   { code: 'or', nativeName: 'ଓଡ଼ିଆ', dir: 'ltr', displayFont: `'Anek Odia', 'Noto Sans Oriya', ${SANS}`, font: `'Noto Sans Oriya', ${SANS}`, enabled: false },
   { code: 'ml', nativeName: 'മലയാളം', dir: 'ltr', displayFont: `'Anek Malayalam', 'Noto Sans Malayalam', ${SANS}`, font: `'Noto Sans Malayalam', ${SANS}`, enabled: false },
