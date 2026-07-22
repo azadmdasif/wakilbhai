@@ -1,0 +1,155 @@
+{
+  "slug": "freelance-contract-essentials",
+  "category": "business-startup",
+  "title": {
+    "en": "Freelance Contract Essentials — Scope, Payment Terms and Getting Paid on Time"
+  },
+  "answerBox": {
+    "en": "Every freelance engagement needs a written contract fixing: precise scope and revision limits, milestone-linked payments (advance of 25–50% is standard), late-payment interest, IP transfer only on full payment, and termination/kill-fee terms. With it, an unpaid invoice is a clean recovery case — a ₹999 legal notice, then summary suit or MSME Samadhaan if you're Udyam-registered."
+  },
+  "keyNumbers": {
+    "en": [
+      "25–50% advance",
+      "IP passes on FULL payment",
+      "₹999 recovery notice"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Contract before work starts",
+        "duration": "Day 0",
+        "startsFrom": "emails can form it, but sign properly"
+      },
+      {
+        "label": "Invoice payment window",
+        "duration": "15–30 days",
+        "startsFrom": "state it + late interest (1.5–2%/month)"
+      },
+      {
+        "label": "Follow-up + legal notice",
+        "duration": "15 days",
+        "startsFrom": "after the due date lapses"
+      },
+      {
+        "label": "Suit limitation",
+        "duration": "3 years",
+        "startsFrom": "from the invoice falling due"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Scope in numbers, revisions capped",
+        "summary": "Deliverables, timelines, and what counts as \"extra\".",
+        "detail": "Write deliverables measurably — \"5-page website: home, about, services, blog, contact; 2 revision rounds included; further revisions at ₹X/round\". Add client dependencies (content, approvals within N days) so their delays don't become your breach. **Scope creep is the #1 freelance dispute** — the revision cap and change-request pricing clause are what prevent it."
+      },
+      {
+        "icon": "banknote",
+        "title": "Payment architecture that protects you",
+        "summary": "Advance + milestones + late interest + kill fee.",
+        "detail": "Standard protective structure: **25–50% advance** before starting, milestone payments on defined deliveries, balance before final handover; invoices due in **15–30 days** with late interest of **1.5–2% per month** stated; a **kill fee** (e.g. 50% of remaining milestone) if the client cancels mid-project. Never deliver final files against a promise — see the IP step.",
+        "serviceHint": "freelancer-agreement"
+      },
+      {
+        "icon": "shield",
+        "title": "IP transfers only on full payment",
+        "summary": "Your leverage clause — the work stays yours until paid.",
+        "detail": "State expressly: **all IP in the deliverables assigns to the client only upon receipt of full payment**; until then you retain ownership and licence nothing. Add your right to portfolio display (unless NDA'd), and moral-rights/credit terms if you care. This clause converts \"pay when we feel like it\" into \"no payment, no rights\" — the single strongest lever a freelancer holds."
+      },
+      {
+        "icon": "gavel",
+        "title": "When they don't pay: the recovery ladder",
+        "summary": "Reminder → legal notice → summary suit / MSME route.",
+        "detail": "Send a dated payment reminder, then an **advocate's legal notice (₹999)** — most agencies and startups pay on the notice. Escalation: with your written contract + invoices, a **summary suit under Order 37 CPC** (leave-to-defend hurdle for the client); or if you hold **Udyam (MSME) registration**, file on **[MSME Samadhaan](https://samadhaan.msme.gov.in)** — the facilitation council route with compound interest at 3× bank rate under the MSMED Act. Cheque given and bounced? The Section 138 criminal route (see our cheque bounce guide) runs in parallel."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Freelance contract drafting",
+          "amount": "₹499",
+          "note": "WakilBhai; scope + IP + payment armour"
+        },
+        {
+          "label": "Stamp duty",
+          "amount": "₹100–500",
+          "note": "State-wise; e-sign valid"
+        },
+        {
+          "label": "Recovery legal notice",
+          "amount": "₹999",
+          "note": "Advocate-sent; most disputes end here"
+        },
+        {
+          "label": "Udyam registration (unlocks MSME route)",
+          "amount": "Free (govt)",
+          "note": "Assistance ₹499 if wanted"
+        }
+      ],
+      "footnote": "Register on Udyam even as a solo freelancer — service providers qualify as micro enterprises, and the MSMED Act's 45-day payment rule + compound interest is the strongest unpaid-invoice remedy in Indian law."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "freelance contract india template",
+      "freelancer agreement clauses",
+      "client not paying freelancer india",
+      "freelance payment terms contract",
+      "freelancer ip rights contract",
+      "msme samadhaan freelancer"
+    ]
+  },
+  "relatedServiceIds": [
+    "freelancer-agreement",
+    "legal-notice-dispute"
+  ],
+  "relatedTemplateSlugs": [
+    "nda-template"
+  ],
+  "relatedGuideSlugs": [
+    "friend-not-returning-money",
+    "cheque-bounce-what-to-do"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "The client and I only have emails and WhatsApp — is there a contract?",
+        "a": "Probably yes: offer, acceptance and consideration over email/chat form a contract, and courts accept the trail as evidence. It is just messier to prove scope and terms. Going forward, send a one-page terms note and get a written \"confirmed\" — or use a proper signed agreement."
+      },
+      {
+        "q": "Client took the delivered work and vanished without paying. What now?",
+        "a": "Recovery ladder: reminder, ₹999 advocate notice, then summary suit (your invoices + delivery proof are the written contract Order 37 loves) or MSME Samadhaan if Udyam-registered. If your contract had the IP-on-payment clause, their continued use of the work is also infringement — a separate, powerful pressure point."
+      },
+      {
+        "q": "What is a kill fee and is it enforceable?",
+        "a": "A pre-agreed amount payable if the client cancels mid-project — compensating booked time and lost opportunities. As liquidated damages under Section 74 Contract Act, reasonable pre-estimates are enforceable. 25–50% of the unbilled remainder is the common range."
+      },
+      {
+        "q": "Can I charge interest on late payments?",
+        "a": "Yes if the contract says so — 1.5–2% per month is standard and enforceable as a contractual term. Udyam-registered freelancers get the statutory override: payment due within 45 days regardless of contract, with compound interest at three times the RBI bank rate on delays."
+      },
+      {
+        "q": "Should I work through an LLP/company or as an individual?",
+        "a": "Start individual (with contracts + Udyam); consider an LLP when annual revenue is significant, clients demand entity invoicing, or liability exposure grows (software with damages risk). GST registration triggers at ₹20 lakh services turnover (₹10 lakh special states) or on interstate B2B in some cases — plan invoicing accordingly."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
