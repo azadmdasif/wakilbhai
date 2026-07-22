@@ -1,0 +1,155 @@
+{
+  "slug": "gym-coaching-fee-refund",
+  "category": "consumer-complaints",
+  "title": {
+    "en": "Gym or Coaching Centre Refusing a Fee Refund? Your Consumer Rights"
+  },
+  "answerBox": {
+    "en": "Coaching centres and gyms taking lump-sum fees are service providers under consumer law — \"no refund under any circumstances\" clauses are unfair contract terms the 2019 Act lets commissions strike down. For coaching, UGC/regulator rules and the 2024 coaching guidelines back proportionate refunds on withdrawal. Demand in writing, escalate via 1915, then e-Daakhil — most fee disputes are small-value and cost nothing to file."
+  },
+  "keyNumbers": {
+    "en": [
+      "\"No refund\" ≠ enforceable",
+      "Proportionate refund rule",
+      "₹0 filing to ₹5 lakh"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Written withdrawal + refund demand",
+        "duration": "Immediately",
+        "startsFrom": "date your exit clearly"
+      },
+      {
+        "label": "Provider response deadline",
+        "duration": "15 days",
+        "startsFrom": "set it in your demand"
+      },
+      {
+        "label": "1915 / legal notice",
+        "duration": "Next",
+        "startsFrom": "free mediation, then ₹999 notice"
+      },
+      {
+        "label": "e-Daakhil complaint",
+        "duration": "2 years",
+        "startsFrom": "from the refusal"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Date your exit and compute the proportion",
+        "summary": "Refund maths: fees paid minus services actually availed.",
+        "detail": "Withdraw **in writing** (email + WhatsApp) stating the last date of attendance/service and demand the **proportionate refund** — total paid minus a reasonable charge for the period actually used and genuine one-time costs. Consumer commissions consistently order proportionate refunds against lump-sum forfeitures; the Supreme Court and UGC have condemned full-fee forfeiture in education, and the **2024 central coaching-centre guidelines** prescribe pro-rata refunds on withdrawal."
+      },
+      {
+        "icon": "shield",
+        "title": "\"No refund\" clauses don't end the matter",
+        "summary": "Unfair contract terms are voidable under the 2019 Act.",
+        "detail": "The Consumer Protection Act, 2019 expressly empowers commissions to declare **unfair contract terms** null — one-sided forfeitures, penalties disproportionate to loss, and terms letting one party alter unilaterally are the listed examples. A receipt stamped \"fees once paid are non-refundable\" is a negotiating posture, not the law. Misleading ads (topper photos, \"guaranteed selection\") add an unfair-trade-practice count."
+      },
+      {
+        "icon": "send",
+        "title": "Escalate: 1915, then the ₹999 notice",
+        "summary": "Small operators fold at the notice; chains at the docket.",
+        "detail": "Register on **[1915 / consumerhelpline.gov.in](https://consumerhelpline.gov.in)** — chains and ed-tech companies respond to NCH dockets. Then an **advocate's legal notice** demanding the computed refund with a 15-day deadline. For ed-tech/EMI-financed courses (loan-linked subscriptions), also write to the lending NBFC disputing further EMIs on the withdrawn service — RBI-regulated lenders take documented service-withdrawal disputes seriously.",
+        "serviceHint": "legal-notice-consumer"
+      },
+      {
+        "icon": "gavel",
+        "title": "File on e-Daakhil — small claims are the point",
+        "summary": "Zero fee up to ₹5 lakh; claim refund + interest + costs.",
+        "detail": "File on **[e-Daakhil](https://edaakhil.nic.in)** from your city (process in our [consumer forum guide](/help/consumer-complaints/consumer-forum-complaint-guide)): the fee receipt, brochure/ad screenshots, your withdrawal letter and the refusal are the whole evidence set. Claim the proportionate refund with interest, compensation for harassment and litigation costs. Gym closures/relocations mid-membership are straightforward deficiency — the unserved period is refundable as of right."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Written demand + 1915",
+          "amount": "Free",
+          "note": "Most disputes resolve here"
+        },
+        {
+          "label": "Advocate's legal notice",
+          "amount": "₹999",
+          "note": "WakilBhai; computed refund demand"
+        },
+        {
+          "label": "e-Daakhil filing",
+          "amount": "₹0 up to ₹5L",
+          "note": "Typical fee disputes fit the zero slab"
+        },
+        {
+          "label": "Complaint drafting help",
+          "amount": "₹499",
+          "note": "Full complaint set for e-Daakhil"
+        }
+      ],
+      "footnote": "Enrolling? Pay term-wise rather than multi-year lump sums, and screenshot the promises (batch size, faculty, hours) — the ad is evidence when the service shrinks after payment."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "coaching fee refund rules",
+      "coaching centre fees wapas kaise le",
+      "gym membership refund india",
+      "no refund policy legal india",
+      "coaching institute complaint consumer court",
+      "edtech course refund emi"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-consumer",
+    "consumer-complaint-draft"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "consumer-forum-complaint-guide",
+    "online-seller-refund-not-given"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "I signed a form saying fees are non-refundable. Am I bound?",
+        "a": "Not absolutely. The 2019 Act lets commissions strike unfair contract terms, and disproportionate forfeiture of fees for unrendered services is the standard example. You remain liable for the period/services actually used — the rest is recoverable despite the clause."
+      },
+      {
+        "q": "How much refund can I realistically expect?",
+        "a": "The proportionate figure: total fees minus the used period (and genuinely incurred one-time costs like registration/kit at reasonable value). Leaving a 12-month course after 2 months typically supports ~10/12ths recovery, plus interest when litigated. Commission orders follow exactly this arithmetic."
+      },
+      {
+        "q": "The coaching centre shut down/shifted far away. Full refund?",
+        "a": "Yes for the unserved portion — closure or material relocation is deficiency in service; your remedy is refund of the balance with interest, and compensation where the disruption cost you (mid-session, exam year). File even if the operator claims \"adjustment in another branch\" you never agreed to."
+      },
+      {
+        "q": "My course was financed by an EMI/loan through the ed-tech. Do I keep paying?",
+        "a": "Dispute in writing with both the platform and the NBFC immediately on withdrawal — continued EMIs for a cancelled service are contestable, and RBI-regulated lenders must process such disputes. Do not simply default silently (credit score); create the written dispute record, then escalate as a consumer against both."
+      },
+      {
+        "q": "Can I also complain about fake \"toppers\" advertising?",
+        "a": "Yes — misleading advertisement is an unfair trade practice under the 2019 Act, with CCPA empowered to penalise institutes (and it has, repeatedly, in coaching). Add the ad screenshots to your complaint; it strengthens compensation and puts regulatory pressure behind your refund."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
