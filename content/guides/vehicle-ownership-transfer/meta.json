@@ -1,0 +1,155 @@
+{
+  "slug": "vehicle-ownership-transfer",
+  "category": "vehicle-accident",
+  "title": {
+    "en": "Vehicle Ownership Transfer (RC Transfer) — Forms 29/30, Fees and Online Process"
+  },
+  "answerBox": {
+    "en": "To transfer a vehicle's RC after sale: seller and buyer sign Forms 29 and 30, the buyer applies to the RTO within 14 days (30 days for inter-state sales) with the RC, insurance, PUC and address proof, and pays a modest fee (₹150–500 for most vehicles plus smart-card charges). Most states now take the application online on parivahan.gov.in. Insurance must be transferred within 14 days too."
+  },
+  "keyNumbers": {
+    "en": [
+      "14-day application window",
+      "Forms 29 + 30",
+      "₹150–500 typical fee"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Sign Forms 29/30 on sale day",
+        "duration": "Day 0",
+        "startsFrom": "with delivery note + payment proof"
+      },
+      {
+        "label": "Buyer applies to RTO",
+        "duration": "14 days",
+        "startsFrom": "from sale (30 days inter-state)"
+      },
+      {
+        "label": "Insurance transfer",
+        "duration": "14 days",
+        "startsFrom": "policy follows the vehicle, buyer must endorse"
+      },
+      {
+        "label": "New RC issued",
+        "duration": "2–6 weeks",
+        "startsFrom": "from a complete application"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Paperwork on the day of sale",
+        "summary": "Forms 29/30, delivery note, ID exchange — both sides keep copies.",
+        "detail": "Execute **Form 29** (notice of transfer, signed by both) and **Form 30** (report of transfer) — download from [parivahan.gov.in](https://parivahan.gov.in). Add a **sale/delivery note** recording price, odometer, date-time of handover, and exchange ID/address proofs. The seller keeps signed copies: if the buyer never completes the transfer, these papers are the seller's shield (see our [sold-but-not-transferred guide](/help/vehicle-accident/vehicle-sold-not-transferred))."
+      },
+      {
+        "icon": "send",
+        "title": "Apply on Parivahan or at the RTO",
+        "summary": "Online application, fee payment, then RTO verification.",
+        "detail": "On **parivahan.gov.in → Vehicle Related Services**, choose \"Transfer of Ownership\", fill the application, upload documents (RC, insurance, PUC, buyer's address proof, Forms 29/30) and pay the fee — roughly **₹150–300 for two-wheelers, ₹300–500 for cars** plus smart-card charges; states vary. Book the RTO slot where biometric/document verification is required. **Hypothecated vehicles** need the financier's NOC (Form 35 closure first if the loan is done)."
+      },
+      {
+        "icon": "check",
+        "title": "Clear the flags that block transfers",
+        "summary": "Pending challans, tax dues and hypothecation stall RCs.",
+        "detail": "Transfers stick on: **pending e-challans** (clear them first — our [challan guide](/help/police-criminal/traffic-challan-disputes)), road-tax arrears, an open **hypothecation** entry, or mismatch between the seller's RC address and records. Inter-state purchases additionally need an **NOC (Form 28)** from the origin RTO and re-registration in the new state. Fix these before applying; rejected applications forfeit time, not fees."
+      },
+      {
+        "icon": "shield",
+        "title": "Close the loop: insurance, records, both parties",
+        "summary": "Endorse the policy, verify the new RC, keep the trail.",
+        "detail": "The buyer must get the **insurance policy endorsed** in their name within 14 days (third-party cover transfers automatically for that window; own-damage needs endorsement). Verify the new RC details on the [VAHAN portal](https://vahan.parivahan.gov.in) once issued. Sellers: confirm the transfer completed on VAHAN — until the RC changes, challans and civil liability chase the registered owner. Our ₹199 documentation service prepares the complete transfer set including the seller-protection affidavit.",
+        "serviceHint": "affidavit-general"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "RTO transfer fee",
+          "amount": "₹150–500",
+          "note": "By vehicle class; plus smart-card charges"
+        },
+        {
+          "label": "Forms 29/30",
+          "amount": "Free",
+          "note": "Download from parivahan.gov.in"
+        },
+        {
+          "label": "NOC + re-registration (inter-state)",
+          "amount": "State-wise",
+          "note": "Road tax adjustment/refund applies"
+        },
+        {
+          "label": "Complete document set prepared",
+          "amount": "₹199",
+          "note": "WakilBhai incl. seller-protection affidavit"
+        }
+      ],
+      "footnote": "Never hand over a vehicle on a blank-signed RC or \"we'll transfer later\" promise — the registered owner remains liable for everything the vehicle does until the RC actually changes."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "vehicle ownership transfer online",
+      "rc transfer process india",
+      "gaadi transfer kaise kare",
+      "form 29 30 rc transfer",
+      "rc transfer fees",
+      "bike car transfer rto process"
+    ]
+  },
+  "relatedServiceIds": [
+    "affidavit-general",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "traffic-challan-disputes",
+    "property-registration-process"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Who is responsible for the RC transfer — buyer or seller?",
+        "a": "The buyer files the transfer application (Form 30 within 14 days), but the seller has a parallel duty to report the sale (Form 29) and every incentive to see it through — the registered owner stays liable for challans, taxes and accident claims until the RC changes. Both should track it to completion on VAHAN."
+      },
+      {
+        "q": "Can the transfer be done fully online?",
+        "a": "In most states the application, fee and document upload are online on parivahan.gov.in, with one RTO visit for verification where required; several states are fully faceless for transfers. Aadhaar-authenticated services skip the visit entirely where enabled."
+      },
+      {
+        "q": "What if the vehicle still has a loan (hypothecation)?",
+        "a": "The RC carries the financier's name; transfer needs either loan closure + Form 35 (hypothecation termination) with the bank NOC, or the financier's consent to transfer with the loan (rare). Close the hypothecation first — it is the most common reason applications bounce."
+      },
+      {
+        "q": "The seller/buyer is in another city and can't come to the RTO. Options?",
+        "a": "Forms 29/30 can be signed and couriered — physical presence of both parties is generally not required if documents are complete and attested. For inter-state moves, the origin-RTO NOC (Form 28) can also be applied online. A specific-purpose power of attorney handles truly absent parties."
+      },
+      {
+        "q": "How do I check if the transfer actually happened?",
+        "a": "Search the vehicle number on vahan.parivahan.gov.in — the owner name, hypothecation and fitness details are public. Sellers should screenshot the changed entry; that record is what ends your liability for the vehicle's future challans and accidents."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
