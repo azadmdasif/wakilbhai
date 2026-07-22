@@ -1,0 +1,152 @@
+{
+  "slug": "regular-bail-process",
+  "category": "police-criminal",
+  "title": {
+    "en": "Regular Bail After Arrest — Process, Timelines and What Families Should Do First"
+  },
+  "answerBox": {
+    "en": "After an arrest, bail is the immediate battle: for bailable offences it is a right — police/court must release on bond; for non-bailable offences, a bail application goes to the Magistrate, then the Sessions Court and High Court. The arrested person must be produced before a Magistrate within 24 hours, and if the chargesheet isn't filed in 60/90 days, default bail becomes an absolute right. Engage a criminal advocate the same day."
+  },
+  "keyNumbers": {
+    "en": [
+      "24-hour production rule",
+      "Default bail: 60/90 days",
+      "Advocate on day one"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Production before Magistrate",
+        "duration": "24 hours",
+        "startsFrom": "from arrest — constitutional"
+      },
+      {
+        "label": "First bail application",
+        "duration": "Immediately",
+        "startsFrom": "bailable: at the station itself"
+      },
+      {
+        "label": "Default bail right",
+        "duration": "60/90 days",
+        "startsFrom": "no chargesheet = bail as of right"
+      },
+      {
+        "label": "Higher courts",
+        "duration": "After rejection",
+        "startsFrom": "Sessions -> High Court ladder"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "phone",
+        "title": "Family's first hours: information and counsel",
+        "summary": "Know the FIR, the sections, the station — and get the advocate.",
+        "detail": "The arrested person has the right to know the grounds, to inform a relative (**Section 50A CrPC, now Section 48 BNSS**), and to meet an advocate. Family: get the **FIR number and sections** (station or state police portal — see our [FIR copy guide](/help/police-criminal/fir-copy-online)), note where he/she is held, and engage a **criminal advocate practising in that court immediately** — the same-day steps (remand hearing) shape the whole case. Our ₹299 consultation can triage urgency and connect you.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "scale",
+        "title": "Bailable vs non-bailable — two different worlds",
+        "summary": "Bailable: release on bond is a right. Non-bailable: argued.",
+        "detail": "For **bailable offences** (the First Schedule lists them), release on bail/bond is a **right** — at the police station itself or before the Magistrate (Section 436 CrPC, **now Section 478 BNSS**); indigent persons can be released on personal bond. For **non-bailable offences**, bail is judicial discretion (Section 437 CrPC/**480 BNSS**) weighing offence gravity, evidence, flight risk and tampering potential — this is where advocacy, framing and timing decide custody or liberty."
+      },
+      {
+        "icon": "gavel",
+        "title": "The remand hearing and the bail ladder",
+        "summary": "Magistrate → Sessions (439) → High Court; each rejection climbs.",
+        "detail": "At production, police seek custody (police/judicial remand); your advocate opposes excessive remand and moves **bail before the Magistrate**. If rejected, the application goes to the **Sessions Court under Section 439 CrPC (now Section 483 BNSS)**, then the **High Court** — successive applications on changed circumstances are permitted. Typical conditions on grant: bonds with sureties, passport deposit, marking attendance, no witness contact. Breach cancels bail — compliance is non-negotiable."
+      },
+      {
+        "icon": "clock",
+        "title": "Default bail: the statutory guillotine",
+        "summary": "No chargesheet in 60/90 days = bail cannot be refused.",
+        "detail": "If the investigation does not file its chargesheet within **60 days** (offences punishable under 10 years) or **90 days** (10 years-plus/life/death), the accused is entitled to **default bail** under Section 167(2) CrPC (**now Section 187 BNSS**) — an *indefeasible* right if claimed before the chargesheet lands. Diarise the date from the first remand; advocates file on day 61/91 at the morning bell. Bond amounts must be reasonable — excessive sureties can themselves be challenged."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Bail bonds/sureties",
+          "amount": "Court-set",
+          "note": "Refundable discipline, not a fee"
+        },
+        {
+          "label": "Advocate — Magistrate/Sessions bail",
+          "amount": "₹10,000–50,000+",
+          "note": "City and gravity dependent"
+        },
+        {
+          "label": "High Court bail",
+          "amount": "₹25,000–1,00,000+",
+          "note": "Senior counsel raises further"
+        },
+        {
+          "label": "Urgent consultation",
+          "amount": "₹299",
+          "note": "Same-day triage + advocate connect"
+        }
+      ],
+      "footnote": "Legal aid is a right: District Legal Services Authority panels represent those who cannot afford counsel, including at remand. This page is general information — bail is argued advocacy from hour one."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "bail process after arrest india",
+      "jamanat kaise hoti hai",
+      "bailable non bailable difference",
+      "default bail 60 90 days",
+      "section 439 bail application",
+      "family member arrested what to do"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "anticipatory-bail-basics",
+    "received-court-summons"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "How fast can bail actually happen?",
+        "a": "Bailable offences: same day, at the station or first production. Non-bailable: the Magistrate hearing happens within days of application; realistic grant timelines run days (minor offences) to weeks (Sessions/High Court rounds). The 24-hour production and remand hearings are where early advocacy compresses this."
+      },
+      {
+        "q": "What is interim bail?",
+        "a": "Short-duration release pending the main bail decision — for emergencies (medical, family death) or while a court reserves orders. It exists, is discretionary, and is worth asking for whenever the main application will take time."
+      },
+      {
+        "q": "The chargesheet deadline passed and no bail application was made. Is the right lost?",
+        "a": "Default bail must be availed before the chargesheet is actually filed — once filed, the indefeasible right lapses (regular bail merits take over). This is why the 60/90-day date is diarised and filed on immediately; a day's delay can cost the guillotine."
+      },
+      {
+        "q": "Can bail be cancelled after release?",
+        "a": "Yes — for breach of conditions (witness contact, absconding, fresh offences) on the prosecution's application, or by higher courts where the grant itself was perverse. Compliance and distance from witnesses/complainants are the practical rules of the bail period."
+      },
+      {
+        "q": "What are sureties, and what if we can't arrange them?",
+        "a": "Sureties are persons who bond to produce the accused; courts commonly ask 1–2 local sureties with ID and solvency proof. Where sureties are hard, advocates seek personal bonds or cash security in lieu — and for the indigent, Section 436/478 mandates relaxation. Excessive bond demands are appealable."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
