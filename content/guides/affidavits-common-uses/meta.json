@@ -1,0 +1,155 @@
+{
+  "slug": "affidavits-common-uses",
+  "category": "government-paperwork",
+  "title": {
+    "en": "Affidavits for Gap Year, Single Status, Income and More — Format, Stamp Paper and Notary"
+  },
+  "answerBox": {
+    "en": "An affidavit is a sworn written statement on stamp paper (₹10–100 in most states), signed before a notary or oath commissioner. Colleges, employers, embassies and departments demand them for gap years, single status, income declarations, address proof and lost documents. Making one takes an hour: correct format, stamp paper, notarisation — ₹199 gets it professionally drafted."
+  },
+  "keyNumbers": {
+    "en": [
+      "₹10–100 stamp paper",
+      "Same-day notarisation",
+      "₹199 drafting"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Draft + stamp paper",
+        "duration": "Same day",
+        "startsFrom": "e-stamp vendors everywhere"
+      },
+      {
+        "label": "Notarisation",
+        "duration": "Minutes",
+        "startsFrom": "notary attests your oath + ID"
+      },
+      {
+        "label": "Validity",
+        "duration": "Purpose-bound",
+        "startsFrom": "some offices want recent (3–6 months) ones"
+      },
+      {
+        "label": "False affidavit",
+        "duration": "Criminal",
+        "startsFrom": "perjury — 193 IPC, now 229 BNS"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Get the recital right for the purpose",
+        "summary": "Each affidavit type has expected contents — match them.",
+        "detail": "Common types and their core recitals: **gap-year** (period of gap, truthful reason — self-study/health/family, and no criminal proceedings during it); **single/unmarried status** (for visas/marriage abroad — status, sometimes parents' confirmation); **income affidavit** (annual income, sources — for scholarships/fee waivers/EWS); **address proof**, **name one-and-the-same**, **lost document** declarations. The receiving institution's format wins where prescribed — check their website first."
+      },
+      {
+        "icon": "signature",
+        "title": "Stamp paper + deponent details",
+        "summary": "₹10–100 non-judicial stamp paper; exact ID-matching names.",
+        "detail": "Buy **non-judicial stamp paper/e-stamp** of your state's affidavit denomination (commonly **₹10–₹100**). The affidavit opens with your name, parentage, age and address **exactly as per ID**, states the facts in numbered paragraphs in first person, and ends with the verification clause (\"verified that the contents are true to my knowledge\"). Our **₹199 service** drafts any affidavit to the receiving office's requirements.",
+        "serviceHint": "affidavit-general"
+      },
+      {
+        "icon": "check",
+        "title": "Swear it before the notary",
+        "summary": "Sign in the notary's presence with ID; get the register entry.",
+        "detail": "Sign before a **notary public or oath commissioner** with your original ID; the notary attests, stamps, and enters it in the notarial register (₹20–100 typical charge, regulated). For use **abroad**, you may instead need attestation chains — Home Department + **MEA apostille** (for Hague Convention countries) or embassy legalisation. Courts require oath-commissioner attestation for court affidavits — venue matters."
+      },
+      {
+        "icon": "shield",
+        "title": "Know the weight of what you sign",
+        "summary": "A false affidavit is perjury — not paperwork.",
+        "detail": "Affidavits are sworn statements: deliberate falsehood is punishable — **Section 193 IPC (now Section 229 BNS)**, up to 7 years where used in judicial proceedings, and Section 199/200 IPC (now 227/228 BNS) for false declarations. Institutions also cancel admissions/appointments gained on false affidavits years later. State facts you can stand behind; where truth is nuanced (gap year with a failed venture), state it truthfully — honest recitals are accepted daily."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Stamp paper",
+          "amount": "₹10–100",
+          "note": "State-wise affidavit denomination"
+        },
+        {
+          "label": "Notary charge",
+          "amount": "₹20–100",
+          "note": "Regulated scale; register entry included"
+        },
+        {
+          "label": "Professional drafting",
+          "amount": "₹199",
+          "note": "WakilBhai; any affidavit type, same day"
+        },
+        {
+          "label": "Apostille (for use abroad)",
+          "amount": "₹50/doc + service",
+          "note": "MEA e-Sanad/apostille where required"
+        }
+      ],
+      "footnote": "Institutions reject affidavits for stale dates, name mismatches with ID, and missing verification clauses more than anything else — the ₹199 draft exists to kill those rejections."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "gap year affidavit format",
+      "single status affidavit india",
+      "income affidavit format",
+      "affidavit kaise banta hai",
+      "affidavit stamp paper value",
+      "notary affidavit process"
+    ]
+  },
+  "relatedServiceIds": [
+    "affidavit-general",
+    "self-declaration-form"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "name-change-process",
+    "rti-application-how-to"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "What stamp paper value does an affidavit need?",
+        "a": "The state-notified denomination for affidavits — ₹10 in many states, ₹20–₹100 in others; e-stamps are equivalent. Higher denominations are never wrong, just wasteful. Court affidavits in some states go on plain paper with court-fee stamps — follow the court's practice."
+      },
+      {
+        "q": "Is notarisation compulsory, or is my signature enough?",
+        "a": "An affidavit is by definition sworn — attestation by a notary/oath commissioner is what converts your statement into an affidavit. Unattested \"affidavits\" are mere declarations; some schemes accept self-declarations instead (post-2014 self-attestation push), so check whether the office wants an affidavit or a self-declaration — the ₹199 covers either."
+      },
+      {
+        "q": "How recent must an affidavit be?",
+        "a": "The affidavit itself doesn't expire, but institutions commonly want one sworn within 3–6 months for status-type facts (single status, income) since those change. Date-sensitive purposes (visa files) should be sworn fresh close to submission."
+      },
+      {
+        "q": "Can an affidavit be made in English and Hindi both?",
+        "a": "Either language works across most of India; embassies typically want English. Bilingual affidavits (English with vernacular translation) are accepted and sometimes required for regional offices. What matters is the deponent understanding the contents — the notary is supposed to confirm this."
+      },
+      {
+        "q": "What happens if facts in my affidavit later turn out wrong?",
+        "a": "Innocent errors can be corrected by a fresh corrective affidavit explaining the mistake. Deliberate falsehood is perjury (193 IPC, now 229 BNS) and voids whatever was obtained on it — degrees, appointments, licences included, with no limitation on when institutions can act."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
