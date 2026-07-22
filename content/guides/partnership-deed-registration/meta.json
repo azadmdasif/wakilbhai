@@ -1,0 +1,155 @@
+{
+  "slug": "partnership-deed-registration",
+  "category": "business-startup",
+  "title": {
+    "en": "Partnership Deed — Clauses, Stamp Duty, and Whether to Register the Firm"
+  },
+  "answerBox": {
+    "en": "A partnership deed is executed on stamp paper (duty ₹500–5,000 by state), signed by all partners, and should fix capital, profit shares, drawings, duties and exit terms. Registering the firm with the Registrar of Firms is optional — but an unregistered firm cannot sue outsiders or its own partners (Section 69, Partnership Act), so registration is worth the modest fee."
+  },
+  "keyNumbers": {
+    "en": [
+      "Stamp duty ₹500–5,000",
+      "Registration optional-but-vital",
+      "₹499 deed drafting"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Deed executed on stamp paper",
+        "duration": "Day 1",
+        "startsFrom": "all partners sign with witnesses"
+      },
+      {
+        "label": "PAN + bank account for the firm",
+        "duration": "Days",
+        "startsFrom": "deed is the base document"
+      },
+      {
+        "label": "Registrar of Firms application",
+        "duration": "Anytime",
+        "startsFrom": "Form 1 + deed copy + fee"
+      },
+      {
+        "label": "GST/licences as applicable",
+        "duration": "Before trading",
+        "startsFrom": "threshold/state rules"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Decide the terms that cause fights later",
+        "summary": "Capital, profit share, drawings, roles, exit — in numbers.",
+        "detail": "The deed must fix: **capital contribution** of each partner (money/property/skill), **profit-loss ratio**, monthly **drawings** and partner remuneration/interest on capital (relevant for income-tax deduction under Section 40(b)), who signs the bank account and above what limit, **duties of each partner**, admission of new partners, and the **exit/retirement/death** mechanics — valuation and payout of a leaving partner's share. Vague deeds are why partnerships end in litigation instead of settlements."
+      },
+      {
+        "icon": "signature",
+        "title": "Execute on stamp paper, properly",
+        "summary": "State-specific duty; all partners sign before witnesses.",
+        "detail": "Print the deed on **non-judicial stamp paper** — duty varies by state (commonly **₹500–5,000**, capital-linked in some states) — and have **all partners sign every page** with two witnesses. Notarisation is customary. Under-stamped deeds attract penalties when produced in disputes or before authorities. Our **₹499 drafting service** prepares a complete deed with the tax-efficient remuneration clauses.",
+        "serviceHint": "partnership-deed"
+      },
+      {
+        "icon": "check",
+        "title": "Register the firm — Section 69 is the reason",
+        "summary": "Unregistered firms cannot sue; registration cures it cheaply.",
+        "detail": "File **Form 1** with the state **Registrar of Firms** (deed copy, ID/address proofs, fee — a few hundred to a couple of thousand rupees; several states online). Registration is optional, but **Section 69, Indian Partnership Act, 1932** bars an unregistered firm from suing third parties or partners suing each other on contract — a devastating disability discovered exactly when a dispute erupts. Register at formation; late registration is possible but pre-registration claims stay barred."
+      },
+      {
+        "icon": "banknote",
+        "title": "Operationalise: PAN, bank, GST, and the LLP question",
+        "summary": "The deed unlocks everything else — and consider an LLP.",
+        "detail": "With the deed: obtain the firm's **PAN**, open the current account, take **GST registration** if turnover/interstate rules require, plus shop & establishment and trade licences per state. Consider whether an **LLP** suits better — limited liability, ₹500–2,000 government fees, MCA filing — especially where partners are not family; conversion later is possible but messier than choosing right initially. A ₹299 consultation maps deed vs LLP for your facts."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Stamp duty on the deed",
+          "amount": "₹500–5,000",
+          "note": "State-wise; some link to capital"
+        },
+        {
+          "label": "Registrar of Firms fee",
+          "amount": "₹200–2,000",
+          "note": "State-wise; online in several states"
+        },
+        {
+          "label": "Deed drafting",
+          "amount": "₹499",
+          "note": "WakilBhai, all standard + tax clauses"
+        },
+        {
+          "label": "Deed vs LLP consultation",
+          "amount": "₹299",
+          "note": "Structure choice before you commit"
+        }
+      ],
+      "footnote": "Without any deed, the Partnership Act defaults apply: equal profit shares regardless of capital, no partner salary, and dissolution-at-will — rarely what partners actually intended."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "partnership deed format india",
+      "partnership deed registration process",
+      "partnership firm banane ka tarika",
+      "partnership deed stamp duty",
+      "unregistered partnership firm can sue",
+      "partnership deed clauses"
+    ]
+  },
+  "relatedServiceIds": [
+    "partnership-deed",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "nda-template"
+  ],
+  "relatedGuideSlugs": [
+    "friend-not-returning-money",
+    "unpaid-salary-what-to-do"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is registering the partnership firm compulsory?",
+        "a": "No, but Section 69 makes non-registration crippling: the firm cannot sue customers or vendors for recovery, and partners cannot sue each other to enforce the deed. Defending suits is allowed — you just cannot attack. The few-hundred-rupee registration is the cheapest litigation insurance a firm can buy."
+      },
+      {
+        "q": "What happens if we never made a written deed?",
+        "a": "An oral partnership is valid but governed by the Act's defaults — equal shares, no remuneration, interest rules, dissolution at will by any partner's notice. Reconstructing intentions later is litigation fuel. Execute a deed now; it can record the firm's existing start date."
+      },
+      {
+        "q": "How are partners taxed under a deed?",
+        "a": "The firm pays tax at 30%; partner remuneration and 12% interest on capital are deductible to the firm only if the deed authorises them within Section 40(b) limits — which is why drafting matters financially. Profit shares received by partners are exempt in their hands."
+      },
+      {
+        "q": "Can a partner just walk out with clients and money?",
+        "a": "A well-drafted deed answers this: notice periods for retirement, valuation of the outgoing share, restraints on soliciting firm clients (reasonable restraints during partnership are enforceable), and arbitration for disputes. Without those clauses, your remedies shrink to the Act's defaults and slow suits — if the firm is even registered to sue."
+      },
+      {
+        "q": "Partnership or LLP — which should a small business pick?",
+        "a": "LLP gives limited liability, perpetual existence and better credibility with lenders/clients for modest compliance (annual MCA filings); a plain firm is simpler and cheaper for small family-run operations. High-liability or outside-partner ventures should default to LLP. Decide before executing the deed — restructuring later costs more."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
