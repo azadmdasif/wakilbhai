@@ -1,0 +1,156 @@
+{
+  "slug": "wrongful-termination-options",
+  "category": "job-salary",
+  "title": {
+    "en": "Fired Unfairly? Wrongful Termination Options — Workman vs Manager, Notice Pay and Reinstatement"
+  },
+  "answerBox": {
+    "en": "Your remedies for unfair termination depend on your legal category: \"workmen\" (most non-managerial staff) get the Industrial Disputes Act's protections — retrenchment needs notice/pay and compensation (Section 25F), and labour courts can order reinstatement with back wages. Managerial employees rely on their contract: notice pay, damages, and discrimination/mala fide angles. Both start the same way: don't sign anything in anger, and get every communication in writing."
+  },
+  "keyNumbers": {
+    "en": [
+      "25F: notice + compensation",
+      "3-year contract claims",
+      "Don't sign under pressure"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Get the termination in writing",
+        "duration": "Immediately",
+        "startsFrom": "oral firings: confirm by email yourself"
+      },
+      {
+        "label": "Demand letter / conciliation",
+        "duration": "Weeks",
+        "startsFrom": "labour office for workmen"
+      },
+      {
+        "label": "Industrial dispute reference",
+        "duration": "3 years ideal",
+        "startsFrom": "delay weakens reinstatement"
+      },
+      {
+        "label": "Civil suit (managerial)",
+        "duration": "3 years",
+        "startsFrom": "from termination (limitation)"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Control the record on day one",
+        "summary": "Written termination, no coerced resignation, evidence saved.",
+        "detail": "If fired orally, email HR the same day: \"I was informed today that my services are terminated effective… please confirm in writing.\" **Do not resign** to \"keep the record clean\" — a resignation converts wrongful termination into voluntary exit and forfeits most remedies; forced resignations can be challenged but are harder. Forward (lawfully) your appraisals, targets, and the communications showing the real story before access is cut."
+      },
+      {
+        "icon": "scale",
+        "title": "Which track are you on: workman or managerial?",
+        "summary": "The single question that decides your remedies.",
+        "detail": "**Workmen** (Industrial Disputes Act s.2(s): most employees NOT in managerial/administrative/supervisory roles above wage thresholds — designation doesn't decide, actual duties do): retrenchment requires **Section 25F** compliance — one month's notice/pay + **15 days' wages per year of service**, and \"last come first go\" (s.25G); breach makes termination void, with labour courts ordering **reinstatement with back wages** or compensation in lieu. **Managerial/supervisory** employees: contract law governs — notice pay, bonus/ESOP terms, and damages for mala fide or stigmatic dismissal. An advocate classifies you in one consultation — it changes everything.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "gavel",
+        "title": "The forums, track-wise",
+        "summary": "Labour conciliation → labour court; or civil suit / negotiation.",
+        "detail": "**Workmen**: written demand to the employer, then a complaint to the **labour commissioner** (free conciliation — many terminations settle here with notice pay + compensation), then reference/direct application to the **labour court**. **Managerial**: a ₹999 **advocate's notice** claiming notice pay, FnF, and damages, followed by civil suit or negotiated exit (severance + clean documents + agreed references). Termination for misconduct without a **domestic enquiry** is vulnerable on process in both tracks."
+      },
+      {
+        "icon": "banknote",
+        "title": "What a realistic win looks like",
+        "summary": "Reinstatement is rare in practice — money and papers are the prize.",
+        "detail": "Even where reinstatement is legally available, most matters settle for: **notice pay + retrenchment compensation + FnF + gratuity + clean relieving documents** — and for managers, severance in the 1–6 month-salary range depending on tenure and leverage (mala fide evidence, discrimination angles, POSH-retaliation timing). Fights over pride burn years; fights over a computed number settle in months. Compute your number first (our [gratuity](/help/job-salary/gratuity-not-paid) and [unpaid salary](/help/job-salary/unpaid-salary-what-to-do) guides feed into it)."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Labour conciliation (workmen)",
+          "amount": "Free",
+          "note": "Commissioner's office; no lawyer needed"
+        },
+        {
+          "label": "Advocate's notice (managerial)",
+          "amount": "₹999",
+          "note": "WakilBhai; computed claim + documents"
+        },
+        {
+          "label": "Labour court / civil suit",
+          "amount": "Nominal / ad valorem",
+          "note": "Advocate fees are the real cost"
+        },
+        {
+          "label": "Strategy consultation",
+          "amount": "₹299",
+          "note": "Classification + claim computation"
+        }
+      ],
+      "footnote": "This page is general information. Termination disputes are fact-heavy — the classification, the process followed, and your documents decide outcomes; take the consultation before signing any settlement or \"resignation\"."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "wrongful termination india what to do",
+      "galat tarike se naukri se nikala",
+      "termination without notice legal",
+      "retrenchment compensation 25f",
+      "labour court complaint termination",
+      "forced resignation legal options"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "legal-notice-unpaid-salary"
+  ],
+  "relatedTemplateSlugs": [
+    "unpaid-salary-demand-letter",
+    "resignation-letter"
+  ],
+  "relatedGuideSlugs": [
+    "unpaid-salary-what-to-do",
+    "relieving-letter-not-given"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can a private company fire me without any notice?",
+        "a": "For workmen, no — retrenchment without Section 25F notice/pay and compensation is void, and misconduct termination needs an enquiry. For managerial staff, the contract governs: termination without the contractual notice creates a notice-pay claim, and stigmatic or mala fide dismissal supports damages. \"At-will\" employment does not exist in Indian law."
+      },
+      {
+        "q": "HR is pressuring me to resign instead of being terminated. Should I?",
+        "a": "Understand the trade before signing: resignation usually forfeits retrenchment compensation and weakens legal claims, in exchange for a \"clean\" record. If you resign, negotiate the consideration in writing first — severance amount, FnF timeline, relieving documents, agreed reference. Under pressure, ask for 48 hours and take the ₹299 consultation."
+      },
+      {
+        "q": "What is the difference between retrenchment and termination for misconduct?",
+        "a": "Retrenchment is ending surplus employment — it demands notice/pay + compensation but no fault. Misconduct termination alleges cause and demands due process: charge sheet, domestic enquiry, a reasoned order. Employers often dress retrenchment as \"performance termination\" to dodge 25F — labour courts see through it."
+      },
+      {
+        "q": "How strong is a \"performance\" termination against me?",
+        "a": "Depends on the record: documented PIPs, warnings and appraisals make it defensible; a sudden \"performance\" exit after years of good ratings (especially near appraisal/maternity/complaint events) looks mala fide. Your appraisal history is the battlefield — which is why saving documents on day one matters."
+      },
+      {
+        "q": "Mass layoffs — do the same rules apply?",
+        "a": "Yes, plus more: establishments with 100+ workmen (50+ in some states) need government permission for retrenchment/closure (Chapter V-B ID Act); \"last come first go\" applies within categories; and compensation math is per year of service. Collective complaints get faster conciliation traction than lone ones."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
