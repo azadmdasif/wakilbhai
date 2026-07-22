@@ -1,0 +1,155 @@
+{
+  "slug": "vehicle-insurance-claim-rejected",
+  "category": "vehicle-accident",
+  "title": {
+    "en": "Motor Insurance Claim Rejected? Grounds, Ombudsman Route and Legal Notice"
+  },
+  "answerBox": {
+    "en": "If your motor insurance claim is rejected, escalate in sequence: written complaint to the insurer's grievance officer (15 days to respond), then IRDAI's Bima Bharosa portal, then the Insurance Ombudsman — free, online at cioins.co.in, within 1 year of rejection, for claims up to ₹50 lakh. Many rejections (delay in intimation, minor breaches) do not survive a properly framed challenge."
+  },
+  "keyNumbers": {
+    "en": [
+      "15-day insurer window",
+      "Ombudsman within 1 year",
+      "Free up to ₹50 lakh"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Read the rejection letter",
+        "duration": "Day 1",
+        "startsFrom": "insurers must state written grounds"
+      },
+      {
+        "label": "Grievance officer complaint",
+        "duration": "15 days",
+        "startsFrom": "insurer must respond in this window"
+      },
+      {
+        "label": "IRDAI Bima Bharosa escalation",
+        "duration": "Next",
+        "startsFrom": "if rejected or ignored"
+      },
+      {
+        "label": "Insurance Ombudsman",
+        "duration": "1 year",
+        "startsFrom": "from the insurer's final rejection"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Decode the rejection ground",
+        "summary": "Most rejections cluster into a few — several are legally weak.",
+        "detail": "Common grounds: **delay in intimation**, driver's licence issues, **commercial use** of a private vehicle, modifications/CNG not declared, drunk driving, or \"pre-existing damage\". Courts and ombudsmen have repeatedly held **technical breaches that don't cause the loss cannot defeat genuine claims** (delay condoned where explained; *pay-and-recover* for licence breaches). Match the ground against your policy wording before conceding anything."
+      },
+      {
+        "icon": "send",
+        "title": "Written grievance to the insurer",
+        "summary": "The GRO complaint creates the record the Ombudsman later reads.",
+        "detail": "Write to the insurer's **Grievance Redressal Officer** (address on the policy/website) attaching the rejection letter, policy, claim documents, and your rebuttal of the stated ground. The insurer must resolve within **15 days**. Escalate in parallel on **[Bima Bharosa](https://bimabharosa.irdai.gov.in)** (IRDAI's grievance system, toll-free 155255) — insurer response there is tracked by the regulator.",
+        "serviceHint": "legal-notice-consumer"
+      },
+      {
+        "icon": "scale",
+        "title": "Insurance Ombudsman — free and binding on the insurer",
+        "summary": "cioins.co.in, within 1 year, claims up to ₹50 lakh.",
+        "detail": "File online at **[cioins.co.in](https://www.cioins.co.in)** with the rejection letter and grievance trail. The Ombudsman hears both sides (video hearings common), and can **award up to ₹50 lakh** — the award binds the insurer, not you. No court fee, no lawyer needed. Time limit: **1 year** from the insurer's final reply. Most motor rejection disputes end here, in months not years."
+      },
+      {
+        "icon": "gavel",
+        "title": "Consumer commission for the rest",
+        "summary": "Larger claims, compensation for harassment, or parallel pressure.",
+        "detail": "The consumer commission route (see our [consumer forum guide](/help/consumer-complaints/consumer-forum-complaint-guide)) remains open — deficiency in service covers wrongful repudiation, and commissions award the claim plus interest, harassment compensation and costs. A ₹999 **advocate's legal notice** before filing often triggers reassessment by the insurer's legal cell. Choose Ombudsman OR consumer forum for the same relief — not both simultaneously."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "GRO + Bima Bharosa + Ombudsman",
+          "amount": "Free",
+          "note": "No fees at any regulatory stage"
+        },
+        {
+          "label": "Advocate's legal notice to insurer",
+          "amount": "₹999",
+          "note": "WakilBhai; often triggers reassessment"
+        },
+        {
+          "label": "Consumer complaint (if chosen)",
+          "amount": "₹0–slab",
+          "note": "No fee up to ₹5 lakh claims"
+        },
+        {
+          "label": "Consultation on strategy",
+          "amount": "₹299",
+          "note": "Ground-by-ground rebuttal review"
+        }
+      ],
+      "footnote": "Keep repair estimates, surveyor reports and all communication — the surveyor's report is challengeable and not the last word. Total-loss and theft claims follow the same escalation with police-report additions."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "car insurance claim rejected what to do",
+      "bike insurance claim reject complaint",
+      "insurance ombudsman complaint online",
+      "irdai complaint insurance claim",
+      "insurance claim rejection reasons",
+      "motor insurance legal notice"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-consumer",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "accident-compensation-mact",
+    "consumer-forum-complaint-guide"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can the insurer reject my claim just because I informed them late?",
+        "a": "Not automatically. IRDAI has directed insurers not to reject genuine claims mechanically for delayed intimation where the delay is explained (hospitalisation, shock, police formalities) and doesn't prejudice investigation. Rebut this ground with your explanation and the IRDAI circular reference — it frequently succeeds."
+      },
+      {
+        "q": "My driving licence had expired on the accident date. Is the claim gone?",
+        "a": "Often not fully. Under the pay-and-recover doctrine, third-party liability is still paid by the insurer (recoverable from the owner), and for own-damage courts distinguish licence lapses that have no causal link to the accident. This ground deserves a fight, not surrender."
+      },
+      {
+        "q": "What can the Insurance Ombudsman award?",
+        "a": "The claim amount up to ₹50 lakh, with the insurer bound to comply within 30 days. It cannot award more than the policy entitlement plus limited compensation — for harassment damages beyond that, the consumer commission is the better forum."
+      },
+      {
+        "q": "The surveyor slashed my repair bill. Do I have to accept it?",
+        "a": "No. The surveyor's assessment is evidence, not an award — it can be countered with your garage's itemised estimate, invoices and photographs, and ombudsmen regularly override low-ball surveys. Depreciation applies per policy schedule unless you hold zero-dep cover."
+      },
+      {
+        "q": "Should I go to the Ombudsman or the consumer forum?",
+        "a": "Ombudsman first for straight repudiation/quantum disputes up to ₹50 lakh — faster, free, insurer-bound. Consumer forum where the claim is larger, you seek harassment compensation, or the Ombudsman route failed. You cannot run both for the same relief at once."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
