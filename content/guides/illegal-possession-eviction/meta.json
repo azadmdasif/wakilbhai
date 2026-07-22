@@ -1,0 +1,160 @@
+{
+  "slug": "illegal-possession-eviction",
+  "category": "property-tenancy",
+  "title": {
+    "en": "Illegal Possession of Your Property? Eviction Routes for Owners — the Basics"
+  },
+  "answerBox": {
+    "en": "If someone occupies your property without right — an overstaying tenant, a trespasser, or a relative refusing to leave — the law requires eviction through legal process, never force. Routes: a termination notice then an eviction suit for ex-tenants, a possession suit within 12 years for trespassers (or a fast summary suit under Section 6, Specific Relief Act within 6 months of dispossession), and police help only where the entry itself is criminal."
+  },
+  "keyNumbers": {
+    "en": [
+      "Never evict by force",
+      "6-month fast suit window",
+      "12-year outer limit"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Termination/quit notice to tenant",
+        "duration": "15–30 days",
+        "startsFrom": "per the agreement / Transfer of Property Act"
+      },
+      {
+        "label": "Section 6 summary possession suit",
+        "duration": "6 months",
+        "startsFrom": "from dispossession — fast, title not examined"
+      },
+      {
+        "label": "Title suit for possession",
+        "duration": "12 years",
+        "startsFrom": "from adverse possession starting"
+      },
+      {
+        "label": "Police complaint (criminal entry)",
+        "duration": "Immediately",
+        "startsFrom": "trespass, forgery, intimidation"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "shield",
+        "title": "First rule: no self-help eviction",
+        "summary": "Force, lock-outs and goons convert you into the accused.",
+        "detail": "However strong your title, Indian law protects **settled possession** — even a trespasser in settled possession can only be removed through due process, and forcible eviction exposes *you* to criminal complaints (house-trespass, intimidation) and a Section 6 suit that restores *their* possession. Cutting electricity/water to force tenants out is equally actionable. The path is paper: notice, suit, decree, court bailiff."
+      },
+      {
+        "icon": "file-text",
+        "title": "Overstaying tenant: notice, then eviction suit",
+        "summary": "Terminate the tenancy on paper, then sue for possession.",
+        "detail": "For a tenant whose lease expired or stands breached, serve a **termination/quit notice** (per the agreement, or 15 days under **Section 106, Transfer of Property Act** for month-to-month tenancies) demanding vacation and arrears. If they stay, file the **eviction suit** — civil court or the rent court/authority where your state's rent law applies (grounds there: default, subletting, bona fide need). Rent-controlled and Model Tenancy Act states differ materially — advocate advice on forum is step one.",
+        "serviceHint": "landlord-notice-tenant"
+      },
+      {
+        "icon": "gavel",
+        "title": "Trespasser/encroacher: possession suits",
+        "summary": "Fast lane within 6 months; title suit within 12 years.",
+        "detail": "Dispossessed by a trespasser? Within **6 months** you can file the summary suit under **Section 6, Specific Relief Act** — the court restores possession on proof of prior possession alone, without trying title. Beyond that, a **title suit for possession** (Article 65, Limitation Act) lies within **12 years** — after which a hostile occupier can claim **adverse possession**. This 12-year clock is why absentee owners must inspect, document and act on encroachments early. Criminal trespass — **Section 441/447 IPC (now Section 329 BNS)** — supports a parallel police complaint where entry was by force or fraud."
+      },
+      {
+        "icon": "scale",
+        "title": "Protect the property while the case runs",
+        "summary": "Injunctions, caretaker records, and the family-member case.",
+        "detail": "Alongside the suit, seek a **temporary injunction** restraining transfer/construction by the occupier, and put the world on notice (public notice in newspapers for attempted sales). Keep tax receipts, utility bills and photographs current — possession cases are won on records. For **relatives refusing to leave** (children in parents' homes, license arrangements), courts treat them as licensees whose licence is revocable — senior citizens have an additional fast eviction remedy through the maintenance tribunal under the Senior Citizens Act. Get the route mapped in a ₹299 consultation.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Quit/termination notice",
+          "amount": "₹199–999",
+          "note": "Landlord notice ₹199; advocate-sent versions higher"
+        },
+        {
+          "label": "Court fee on possession suits",
+          "amount": "Ad valorem",
+          "note": "On property value per state slabs"
+        },
+        {
+          "label": "Advocate for eviction/possession suit",
+          "amount": "₹15,000–1,00,000+",
+          "note": "By city, forum and contest level"
+        },
+        {
+          "label": "Consultation to choose the route",
+          "amount": "₹299",
+          "note": "Tenant vs trespasser vs licensee changes everything"
+        }
+      ],
+      "footnote": "Timelines are the honest caveat: contested evictions run 1–5 years depending on forum and state. This page is general information — possession litigation needs a practising advocate from the notice stage."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "illegal possession of property what to do",
+      "tenant not vacating house india",
+      "eviction process india owner",
+      "trespasser removal legal process",
+      "adverse possession 12 years rule",
+      "kirayedar ghar khali nahi kar raha"
+    ]
+  },
+  "relatedServiceIds": [
+    "landlord-notice-tenant",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "rent-agreement-11-month"
+  ],
+  "relatedGuideSlugs": [
+    "rent-agreement-guide",
+    "security-deposit-not-returned"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can I change the locks or use force to remove an occupier?",
+        "a": "No. Even against a trespasser in settled possession, self-help eviction is illegal — it invites criminal complaints against you and a Section 6 suit restoring their possession. Only a court decree executed through the court's bailiff lawfully removes an occupier."
+      },
+      {
+        "q": "My tenant's agreement expired but he won't leave. Is he a trespasser now?",
+        "a": "Legally he becomes a \"tenant at sufferance\" — you still must terminate on notice and obtain an eviction decree; police won't remove him. Keep accepting nothing beyond documented use-and-occupation charges (accepting \"rent\" can imply a fresh tenancy) and move the suit promptly."
+      },
+      {
+        "q": "What is adverse possession, and can a trespasser really own my land?",
+        "a": "Yes, if you sleep on it: open, continuous, hostile possession for 12 years (Article 65, Limitation Act) can ripen into ownership, and your title suit becomes time-barred. Periodic inspection, documented objections and a timely suit break the continuity — the 12-year clock is the single biggest reason to act early."
+      },
+      {
+        "q": "Someone occupied my property using forged papers. Civil or criminal?",
+        "a": "Both, in parallel. Criminally: forgery and cheating — Sections 420/467/468 IPC (now Sections 318/336-338 BNS) — via FIR; civilly: a suit for declaration, cancellation of the forged instrument and possession, with an injunction against further transfers. The FIR often accelerates the civil settlement."
+      },
+      {
+        "q": "My son/relatives live in my house and refuse to leave. What are my rights?",
+        "a": "Occupants by permission are licensees; revoke the licence in writing and they must vacate, failing which an eviction/mandatory-injunction suit lies. Senior citizens have a faster remedy — maintenance tribunals under the Senior Citizens Act, 2007 order eviction of children/relatives from the senior's property in months, not years."
+      },
+      {
+        "q": "How long does a real eviction case take?",
+        "a": "Honest ranges: uncontested exits after a strong notice, weeks; rent-court evictions, 6 months–2 years; contested title/possession suits, 2–5 years plus appeals. Interim injunctions protect the property meanwhile. The notice + suit started today beats the perfect case started next year."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
