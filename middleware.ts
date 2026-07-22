@@ -1,32 +1,23 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { defaultLocale, isLocale, locales, type Locale } from './lib/i18n';
+import { defaultLocale, isLocale, type Locale } from './lib/i18n';
 
 const LOCALE_COOKIE = 'NEXT_LOCALE';
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 365;
-
-function detectFromAcceptLanguage(header: string | null): Locale | null {
-  if (!header) return null;
-  const entries = header
-    .split(',')
-    .map((part) => {
-      const [tag, ...params] = part.trim().split(';');
-      const qParam = params.find((p) => p.trim().startsWith('q='));
-      const q = qParam ? parseFloat(qParam.split('=')[1]) : 1;
-      return { tag: tag.toLowerCase(), q: Number.isNaN(q) ? 0 : q };
-    })
-    .sort((a, b) => b.q - a.q);
-  for (const { tag } of entries) {
-    const base = tag.split('-')[0];
-    if (isLocale(base)) return base;
-  }
-  return null;
-}
 
 function withLocaleCookie(res: NextResponse, locale: Locale): NextResponse {
   res.cookies.set(LOCALE_COOKIE, locale, { path: '/', maxAge: COOKIE_MAX_AGE, sameSite: 'lax' });
   return res;
 }
 
+/**
+ * Locale routing.
+ *
+ * SEO stance: we NEVER auto-redirect by geography or Accept-Language — a stable
+ * URL must always serve the same language to crawlers and first-time visitors.
+ * The only signal we honour is the NEXT_LOCALE cookie, which is set only when a
+ * human explicitly picks a language in the switcher. Default is English, served
+ * unprefixed at the root.
+ */
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
   const firstSegment = pathname.split('/')[1];
@@ -38,25 +29,21 @@ export function middleware(req: NextRequest) {
     return withLocaleCookie(NextResponse.redirect(url, 308), defaultLocale);
   }
 
-  // Explicitly prefixed locale (hi/ur/bn): serve it and remember the choice.
+  // Explicitly prefixed non-default locale (hi/ur/bn): serve it and remember it.
   if (isLocale(firstSegment)) {
     return withLocaleCookie(NextResponse.next(), firstSegment);
   }
 
-  // Unprefixed path. First visit: honour Accept-Language for hi/ur/bn.
+  // Unprefixed path. Honour a previously chosen locale from the cookie only —
+  // no geo/Accept-Language sniffing. A returning visitor who picked hi/ur/bn is
+  // sent to their language; everyone else (incl. crawlers) gets English.
   const cookieValue = req.cookies.get(LOCALE_COOKIE)?.value;
   const cookieLocale = cookieValue && isLocale(cookieValue) ? cookieValue : null;
-  let target: Locale = defaultLocale;
-  if (cookieLocale) {
-    target = cookieLocale;
-  } else {
-    target = detectFromAcceptLanguage(req.headers.get('accept-language')) ?? defaultLocale;
-  }
 
-  if (target !== defaultLocale) {
+  if (cookieLocale && cookieLocale !== defaultLocale) {
     const url = req.nextUrl.clone();
-    url.pathname = pathname === '/' ? `/${target}` : `/${target}${pathname}`;
-    return withLocaleCookie(NextResponse.redirect(url, 307), target);
+    url.pathname = pathname === '/' ? `/${cookieLocale}` : `/${cookieLocale}${pathname}`;
+    return withLocaleCookie(NextResponse.redirect(url, 307), cookieLocale);
   }
 
   // Serve English: internal rewrite of / -> /en so the URL stays clean.

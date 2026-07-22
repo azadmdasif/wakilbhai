@@ -34,10 +34,10 @@ export default function DeadlineTimeline({ items, label }: { items?: Deadline[];
               <div className="relative flex w-3.5 justify-center sm:h-3.5 sm:w-full sm:items-center">
                 {!isLast && (
                   <span
-                    className="absolute left-1/2 top-1/2 h-full w-0.5 -translate-x-1/2 bg-gray-700 sm:left-1/2 sm:top-1/2 sm:h-0.5 sm:w-full sm:-translate-y-1/2"
+                    className="absolute left-1/2 top-1/2 h-full w-0.5 -translate-x-1/2 bg-[#1A1D23]/20 sm:left-1/2 sm:top-1/2 sm:h-0.5 sm:w-full sm:-translate-y-1/2"
                   />
                 )}
-                <span className="relative z-10 h-3.5 w-3.5 shrink-0 rounded-full bg-brand-red ring-4 ring-brand-dark" />
+                <span className="relative z-10 h-3.5 w-3.5 shrink-0 rounded-full bg-brand-red ring-4 ring-[#FAF8F3]" />
               </div>
 
               {/* Content */}
@@ -45,8 +45,8 @@ export default function DeadlineTimeline({ items, label }: { items?: Deadline[];
                 <span className="inline-flex -rotate-1 items-center rounded-md border-[1.5px] border-brand-red px-2.5 py-1 text-xs font-extrabold text-brand-red">
                   {d.duration}
                 </span>
-                <p className="mt-2 text-sm font-bold text-white">{d.label}</p>
-                <p className="mt-1 text-xs text-gray-500">{d.startsFrom}</p>
+                <p className="mt-2 text-sm font-bold text-[#1A1D23]">{d.label}</p>
+                <p className="mt-1 text-xs text-[#6B7280]">{d.startsFrom}</p>
               </div>
             </li>
           );

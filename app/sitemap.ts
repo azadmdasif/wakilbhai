@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
-import { locales, localePath } from '@/lib/i18n';
+import { locales, localePath, type Locale } from '@/lib/i18n';
 import { SITE_URL } from '@/lib/site';
-import { getCategories, getGuideMetas, getServices, getTemplates } from '@/lib/content';
+import { getCategories, getGuideMetas, getServices, getTemplates, guideLocales } from '@/lib/content';
 import { getTools } from '@/lib/tools';
 import { getBuildableCities } from '@/lib/locations';
 
@@ -12,18 +12,25 @@ import { getBuildableCities } from '@/lib/locations';
  * guide front-matter `updatedAt`; routes without a content date fall back to
  * build time.
  */
-function entriesFor(paths: { path: string; lastModified?: string; priority?: number }[]): MetadataRoute.Sitemap {
+interface SitemapPath {
+  path: string;
+  lastModified?: string;
+  priority?: number;
+  /** Locales this path is live in (defaults to all). Drafted guide locales are omitted. */
+  locales?: readonly Locale[];
+}
+
+function entriesFor(paths: SitemapPath[]): MetadataRoute.Sitemap {
   const out: MetadataRoute.Sitemap = [];
-  for (const { path, lastModified, priority } of paths) {
-    for (const locale of locales) {
+  for (const { path, lastModified, priority, locales: pathLocales = locales } of paths) {
+    const languages = Object.fromEntries(pathLocales.map((l) => [l, `${SITE_URL}${localePath(l, path)}`]));
+    for (const locale of pathLocales) {
       out.push({
         url: `${SITE_URL}${localePath(locale, path)}`,
         lastModified: lastModified ? new Date(`${lastModified}T00:00:00Z`) : new Date(),
         changeFrequency: 'weekly',
         priority: priority ?? 0.7,
-        alternates: {
-          languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}${localePath(l, path)}`])),
-        },
+        alternates: { languages },
       });
     }
   }
@@ -55,6 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       path: `/help/${g.category}/${g.slug}`,
       lastModified: g.updatedAt,
       priority: 0.9,
+      locales: guideLocales(g),
     })),
 
     // Templates, tools, services, city landing pages

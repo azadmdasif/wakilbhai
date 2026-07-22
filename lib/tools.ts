@@ -3,12 +3,13 @@ import path from 'node:path';
 import { cache } from 'react';
 import { z } from 'zod';
 import type { Locale, Localized } from './i18n';
+import { localized } from './i18n/localized';
 import type { Dict } from './dictionaries';
 
 const CALC_DIR = path.join(process.cwd(), 'content', 'calculators');
 
 const faq = z.object({ q: z.string().min(1), a: z.string().min(1) });
-const localizedFaqs = z.object({ en: z.array(faq), hi: z.array(faq), ur: z.array(faq), bn: z.array(faq) });
+const localizedFaqs = localized(z.array(faq));
 
 const toolConfigSchema = z.object({
   slug: z.string().min(1),

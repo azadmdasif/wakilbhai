@@ -9,7 +9,7 @@
 - **Documents from ₹199** — notices, agreements and affidavits drafted and delivered in 1–3 working days (₹199–₹999).
 - **Advocate consult / case handling** — paid advocate help for complex matters.
 
-Content is available in English, Hindi, Bengali and Urdu. English lives at the root; other locales use a `/{locale}/` prefix (e.g. `/hi/...`).
+Content is available in English, Hindi, Bengali, Urdu, Marathi, Telugu, Tamil and Gujarati. English lives at the root; other locales use a `/{locale}/` prefix (e.g. `/hi/...`). Guides are fully translated in English, Hindi, Bengali and Urdu; Marathi, Telugu, Tamil and Gujarati are rolling out.
 
 ## Best guides
 

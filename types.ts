@@ -22,6 +22,8 @@ export interface GuideMeta {
   answerBox: Localized;
   /** Up to 3 short stamp-chip facts, e.g. "30 days to send notice". */
   keyNumbers?: Localized<string[]>;
+  /** CostCard: line-item costs + optional footnote. */
+  costs?: Localized<{ rows: { label: string; amount: string; note?: string }[]; footnote?: string }>;
   /** Statutory-clock steps for the DeadlineTimeline. */
   deadlines?: Localized<{ label: string; duration: string; startsFrom: string }[]>;
   /** Sequenced how-to steps for StepCards. `detail` is MDX; `serviceHint` is a service id. */
@@ -45,6 +47,10 @@ export interface GuideMeta {
   author: string;
   /** Legal reviewer: "Adv. [name], [Bar Council], [enrolment no.]". */
   reviewer: string;
+  /** Locales whose translation is scaffolded but pending human review. Those
+   *  locales are kept out of hreflang + sitemap and rendered noindex until the
+   *  code is removed here ("mark draft:false"). en is never draft. */
+  draftLocales?: string[];
 }
 
 export interface Guide extends GuideMeta {

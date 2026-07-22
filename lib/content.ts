@@ -2,28 +2,20 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { cache } from 'react';
 import { z } from 'zod';
-import type { Category, DocTemplate, Guide, GuideMeta, PaidService } from '@/types';
+import type { Category, DocTemplate, Guide, GuideMeta, Localized, PaidService } from '@/types';
 import { locales, type Locale } from './i18n';
+import { localized as loc } from './i18n/localized';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content');
 
-const localizedString = z.object({ en: z.string().min(1), hi: z.string().min(1), ur: z.string().min(1), bn: z.string().min(1) });
-const localizedStringArray = z.object({
-  en: z.array(z.string()),
-  hi: z.array(z.string()),
-  ur: z.array(z.string()),
-  bn: z.array(z.string()),
-});
+const localizedString = loc(z.string().min(1));
+const localizedStringArray = loc(z.array(z.string()));
+
 const faq = z.object({ q: z.string().min(1), a: z.string().min(1) });
-const localizedFaqs = z.object({ en: z.array(faq), hi: z.array(faq), ur: z.array(faq), bn: z.array(faq) });
+const localizedFaqs = loc(z.array(faq));
 
 const deadline = z.object({ label: z.string().min(1), duration: z.string().min(1), startsFrom: z.string().min(1) });
-const localizedDeadlines = z.object({
-  en: z.array(deadline),
-  hi: z.array(deadline),
-  ur: z.array(deadline),
-  bn: z.array(deadline),
-});
+const localizedDeadlines = loc(z.array(deadline));
 
 const step = z.object({
   icon: z.string().min(1),
@@ -32,7 +24,13 @@ const step = z.object({
   detail: z.string().min(1),
   serviceHint: z.string().optional(),
 });
-const localizedSteps = z.object({ en: z.array(step), hi: z.array(step), ur: z.array(step), bn: z.array(step) });
+const localizedSteps = loc(z.array(step));
+
+const costsInner = z.object({
+  rows: z.array(z.object({ label: z.string().min(1), amount: z.string().min(1), note: z.string().optional() })).min(1),
+  footnote: z.string().optional(),
+});
+const localizedCosts = loc(costsInner);
 
 const decisionFlowSchema = z.object({
   start: z.string().min(1),
@@ -58,6 +56,7 @@ export const guideMetaSchema: z.ZodType<GuideMeta> = z.object({
   title: localizedString,
   answerBox: localizedString,
   keyNumbers: localizedStringArray.optional(),
+  costs: localizedCosts.optional(),
   deadlines: localizedDeadlines.optional(),
   steps: localizedSteps.optional(),
   decisionFlow: decisionFlowSchema.optional(),
@@ -70,6 +69,9 @@ export const guideMetaSchema: z.ZodType<GuideMeta> = z.object({
   publishedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD expected'),
   author: z.string().min(1),
   reviewer: z.string().min(1),
+  /** Locales whose translation is scaffolded but pending review: excluded from
+   *  hreflang/sitemap and rendered noindex until removed ("mark draft:false"). */
+  draftLocales: z.array(z.string()).optional(),
 });
 
 export const templateSchema: z.ZodType<DocTemplate> = z.object({
@@ -102,7 +104,7 @@ export interface Lawyer {
   id: string;
   name: string;
   practiceAreas: string[];
-  bio: Record<'en' | 'hi' | 'ur' | 'bn', string>;
+  bio: Localized;
   location: string;
   languages: string[];
 }
@@ -111,7 +113,7 @@ export interface Testimonial {
   id: number;
   name: string;
   location: string;
-  feedback: Record<'en' | 'hi' | 'ur' | 'bn', string>;
+  feedback: Localized;
 }
 
 const lawyerSchema: z.ZodType<Lawyer> = z.object({
@@ -209,6 +211,12 @@ export const getGuideMetas = cache((): GuideMeta[] => {
 });
 
 export const getGuideMeta = (slugValue: string): GuideMeta | undefined => getGuideMetas().find((g) => g.slug === slugValue);
+
+/** Live (non-draft) locales for a guide — drives its hreflang, sitemap and indexability. */
+export const guideLocales = (guide: GuideMeta): Locale[] => {
+  const draft = new Set(guide.draftLocales ?? []);
+  return (locales as Locale[]).filter((l) => !draft.has(l));
+};
 
 export const getGuidesByCategory = (category: string): GuideMeta[] => getGuideMetas().filter((g) => g.category === category);
 

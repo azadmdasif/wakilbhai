@@ -3,11 +3,12 @@ import path from 'node:path';
 import { cache } from 'react';
 import { z } from 'zod';
 import type { City } from '@/types';
+import { localized } from './i18n/localized';
 import type { StampDutyData } from './calculators';
 
 const citySchema: z.ZodType<City> = z.object({
   slug: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
-  name: z.object({ en: z.string().min(1), hi: z.string().min(1), ur: z.string().min(1), bn: z.string().min(1) }),
+  name: localized(z.string().min(1)),
   state: z.string().min(1),
 });
 

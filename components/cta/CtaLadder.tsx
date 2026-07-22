@@ -74,7 +74,7 @@ export default function CtaLadder({
         href={consultHref}
         event="cta_click"
         props={{ cta: 'ladder-tertiary' }}
-        className="py-1 text-center text-sm font-medium text-gray-400 underline-offset-4 hover:text-brand-gold hover:underline"
+        className="py-1 text-center text-sm font-medium text-[#6B7280] underline-offset-4 hover:text-brand-red hover:underline"
       >
         {strings.complex}
       </TrackedLink>

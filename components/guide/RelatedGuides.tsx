@@ -32,13 +32,13 @@ export default function RelatedGuides({
 
   return (
     <section aria-label={heading}>
-      <h2 className="text-2xl font-bold text-white font-display mb-6">{heading}</h2>
+      <h2 className="mb-6 font-display text-2xl font-bold text-[#1A1D23]">{heading}</h2>
       <div className="grid sm:grid-cols-2 gap-4">
         {guides.map((guide) => (
           <Link
             key={guide.slug}
             href={localePath(locale, `/help/${guide.category}/${guide.slug}`)}
-            className="block bg-[#FAF8F3] rounded-2xl p-5 border border-black/5 shadow-sm hover:shadow-md transition-shadow"
+            className="block rounded-2xl border border-black/10 bg-white/70 p-5 shadow-sm transition-shadow hover:shadow-md"
           >
             <p className="font-bold text-[#1A1D23] font-display mb-1">{guide.title[locale]}</p>
             <p className="text-sm text-[#6B7280] line-clamp-2">{oneLineBenefit(guide.answerBox[locale])}</p>
