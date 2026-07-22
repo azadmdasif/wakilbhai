@@ -10,7 +10,8 @@
     "blog": "Blog",
     "guides": "Help Guides",
     "documents": "Free Documents",
-    "whyUs": "Why Us"
+    "whyUs": "Why Us",
+    "howItWorks": "How It Works"
   },
   "home": {
     "heroTitle": "Legal Work. Without Tension.",
@@ -398,6 +399,26 @@
       "back": "Back",
       "startOver": "Start over",
       "result": "Result"
+    },
+    "about": {
+      "title": "About WakilBhai",
+      "metaDesc": "Who runs WakilBhai, how our documents are prepared and advocate-reviewed, the cities we serve — and what we are not: a documentation service, not a law firm.",
+      "positioning": "WakilBhai is a documentation service working with independent advocates — not a law firm.",
+      "whoHeading": "Who runs WakilBhai",
+      "whoBody": "WakilBhai is run by a small documentation team working with a network of independent practising advocates across India. We write plain-language legal guides, prepare documents, and connect people to advocates — in the languages India actually speaks.",
+      "networkHeading": "The advocate partner network",
+      "networkBody": "Our partner advocates are independent professionals enrolled with their State Bar Councils. They review our guides, review and sign legal notices sent through us, and take up consultations. They are not our employees, and your engagement for legal advice is with the advocate directly.",
+      "processHeading": "How documents are prepared",
+      "processStep1Title": "Drafted",
+      "processStep1Body": "Our documentation team prepares your document from your details, using formats refined across hundreds of matters.",
+      "processStep2Title": "Advocate-reviewed",
+      "processStep2Body": "A partner advocate reviews the draft. Legal notices go out under the advocate's name and signature.",
+      "processStep3Title": "Sent & delivered",
+      "processStep3Body": "You receive the final document in 1–3 working days — with dispatch proof for notices, and printing/notary guidance where needed.",
+      "citiesHeading": "Where we serve",
+      "citiesBody": "Documents and consultations are delivered online across India — every state, in English, Hindi, Bengali and Urdu (more languages rolling out). Court appearances, where needed, are by independent advocates in your city.",
+      "howHeading": "How it works",
+      "disclaimerNote": "We are not a law firm and do not give legal advice. Our guides are general information; for advice on your specific matter, consult a qualified advocate — we can connect you to one for free on WhatsApp."
     }
   },
   "meta": {

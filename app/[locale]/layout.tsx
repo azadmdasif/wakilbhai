@@ -81,6 +81,8 @@ export default async function LocaleLayout({
       { path: '/tools', text: dict.ui.calc.toolsTitle },
       { path: '/lawyers', text: navT.findLawyer },
       { path: '/why-wakilbhai', text: navT.whyUs },
+      { path: '/about', text: dict.common.about },
+      { path: '/how-it-works', text: navT.howItWorks },
       { path: '/contact', text: navT.contact },
     ],
   };

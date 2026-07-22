@@ -36,11 +36,14 @@ function deepMerge<T>(base: T, override: DeepPartial<T>): T {
   return (override ?? base) as T;
 }
 
+// Every non-English catalog deep-merges over en: fully-translated locales
+// (hi/ur/bn) get safety against newly-added keys, rollout locales get their
+// designed partial-translation behaviour. en stays the source of truth shape.
 const dicts: Record<Locale, Dict> = {
   en,
-  hi: hi as Dict,
-  ur: ur as Dict,
-  bn: bn as Dict,
+  hi: deepMerge(en, hi as DeepPartial<Dict>),
+  ur: deepMerge(en, ur as DeepPartial<Dict>),
+  bn: deepMerge(en, bn as DeepPartial<Dict>),
   mr: deepMerge(en, mr as DeepPartial<Dict>),
   te: deepMerge(en, te as DeepPartial<Dict>),
   ta: deepMerge(en, ta as DeepPartial<Dict>),

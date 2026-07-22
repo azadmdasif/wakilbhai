@@ -11,7 +11,8 @@ import { buildWhatsAppUrl, whatsAppLawyerMessage } from '@/lib/whatsapp';
 import SearchBox from '@/components/SearchBox';
 import CategoryIcon from '@/components/CategoryIcon';
 import TrackedLink from '@/components/TrackedLink';
-import { StarIcon, DownloadIcon, ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon, WhatsAppIcon, PenSquareIcon, GavelIcon } from '@/components/Icons';
+import HowItWorks from '@/components/HowItWorks';
+import { StarIcon, DownloadIcon, ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon, WhatsAppIcon } from '@/components/Icons';
 
 /** Section header: title (start) + exactly one action link (end). */
 function SectionHeader({ title, action }: { title: string; action: React.ReactNode }) {
@@ -55,12 +56,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     { icon: ShieldIcon, text: dict.ui.home.trust2 },
     { icon: GlobeIcon, text: dict.ui.home.trust3 },
     { icon: RupeeIcon, text: dict.ui.home.trust4 },
-  ];
-
-  const steps = [
-    { icon: WhatsAppIcon, text: dict.ui.home.step1 },
-    { icon: PenSquareIcon, text: dict.ui.home.step2 },
-    { icon: GavelIcon, text: dict.ui.home.step3 },
   ];
 
   // Homepage has no guide context → the generic free-consult prefill.
@@ -224,19 +219,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             </TrackedLink>
           }
         />
-        <div className="grid sm:grid-cols-3 gap-4">
-          {steps.map((step, i) => (
-            <div key={step.text} className="flex items-center gap-4 bg-gray-900 border border-gray-800 rounded-2xl p-5">
-              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-red/15 text-brand-red font-extrabold font-display">
-                {i + 1}
-              </span>
-              <div className="flex items-center gap-2">
-                <step.icon className="w-5 h-5 text-brand-gold shrink-0" />
-                <p className="font-bold text-white text-sm">{step.text}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <HowItWorks dict={dict} />
       </section>
 
       {/* Reviews */}

@@ -66,6 +66,7 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: Dict })
               <li><Link href={href('/templates')} className="hover:text-brand-gold transition-colors">{navT.documents}</Link></li>
               <li><Link href={href('/lawyers')} className="hover:text-brand-gold transition-colors">{navT.findLawyer}</Link></li>
               <li><Link href={href('/about')} className="hover:text-brand-gold transition-colors">{dict.common.about}</Link></li>
+              <li><Link href={href('/how-it-works')} className="hover:text-brand-gold transition-colors">{navT.howItWorks}</Link></li>
               <li><Link href={href('/editorial-policy')} className="hover:text-brand-gold transition-colors">{dict.common.editorialPolicy}</Link></li>
               <li><Link href={href('/contact')} className="hover:text-brand-gold transition-colors">{navT.contact}</Link></li>
               <li><Link href={href('/privacy')} className="hover:text-brand-gold transition-colors">{dict.legal.privacyTitle}</Link></li>
