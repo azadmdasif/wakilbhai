@@ -1,0 +1,155 @@
+{
+  "slug": "pf-withdrawal-problems",
+  "category": "job-salary",
+  "title": {
+    "en": "PF Withdrawal Stuck or Rejected? KYC Fixes, Claim Routes and EPFO Grievances"
+  },
+  "answerBox": {
+    "en": "Most PF claim rejections trace to fixable mismatches — name/DOB differing across Aadhaar, PAN and the UAN, unverified KYC, or the employer not approving your details. Fix the data (joint declaration for member-detail corrections), file the right claim form online (19/10C/31), and if it still sticks, escalate on EPFO's EPFiGMS grievance portal and to the Regional PF Commissioner. Interest accrues even on inoperative accounts."
+  },
+  "keyNumbers": {
+    "en": [
+      "KYC mismatch = #1 cause",
+      "Claims settle in ~20 days",
+      "EPFiGMS escalation"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "KYC verification on UAN",
+        "duration": "Before claiming",
+        "startsFrom": "Aadhaar-PAN-bank seeded + verified"
+      },
+      {
+        "label": "Claim settlement target",
+        "duration": "~20 days",
+        "startsFrom": "from a complete online claim"
+      },
+      {
+        "label": "Grievance on EPFiGMS",
+        "duration": "After delay",
+        "startsFrom": "reference number + escalation"
+      },
+      {
+        "label": "TDS threshold",
+        "duration": "5 years service",
+        "startsFrom": "withdrawals before it may face TDS"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Fix the data before you file",
+        "summary": "Name/DOB/Aadhaar/bank must match to the letter.",
+        "detail": "On the **[UAN member portal](https://unifiedportal-mem.epfindia.gov.in)**: seed and verify **Aadhaar, PAN and bank** (KYC tab), and compare your name/DOB/father's name against Aadhaar exactly — mismatches are the top rejection cause. Corrections use the **joint declaration** process (online now): you request, employer verifies, EPFO approves. Multiple UANs from job changes? **Transfer old accounts into the current UAN** (One Member One EPF option) before any withdrawal."
+      },
+      {
+        "icon": "send",
+        "title": "File the right claim, the right way",
+        "summary": "Form 19 (final PF), 10C (pension), 31 (advance) — online.",
+        "detail": "Online claims (Aadhaar-OTP signed): **Form 19** — final PF settlement (after 2 months of unemployment post-exit; **exit date must be marked** by the employer or by you via the portal after cooling period); **Form 10C** — EPS pension withdrawal benefit (under 10 years of service) or scheme certificate; **Form 31** — partial advances (illness, marriage, education, housing) while employed. Cheque leaf/passbook upload with visible IFSC + name is the small hurdle that bounces many claims — photograph it properly.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "scale",
+        "title": "When it sticks: the escalation ladder",
+        "summary": "EPFiGMS → RPFC → CPGRAMS; employer defaults have teeth.",
+        "detail": "Rejected with a vague reason or pending beyond ~20 days: file on **[EPFiGMS](https://epfigms.gov.in)** with your claim ID (grievances route to the exact field office and generate accountability); escalate unresolved grievances to the **Regional PF Commissioner** in writing and via **CPGRAMS**. If the **employer deducted PF but never deposited** it: that is a criminal default — EPFO recovers with damages (Section 14B) and prosecutes; report it specifically, with salary slips showing deductions. RTI applications ([guide](/help/government-paperwork/rti-application-how-to)) extract the file status when portals go quiet."
+      },
+      {
+        "icon": "banknote",
+        "title": "Know the money rules",
+        "summary": "Taxability, interest continuation, and the pension fork.",
+        "detail": "Withdrawals after **5 years of continuous service** (including transferred service) are tax-free; earlier withdrawals face **TDS** (10% with PAN; higher without) subject to thresholds — transfers, not withdrawals, preserve continuity when switching jobs. Accounts keep **earning interest** even after you leave (till closure/retirement age limits). EPS: under 10 years — withdraw via 10C or take a **scheme certificate**; 10+ years locks you into pension at 58 — a fork worth a ₹299 consult if you're near the boundary."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "All EPFO processes",
+          "amount": "Free",
+          "note": "Portal claims, corrections, grievances"
+        },
+        {
+          "label": "Joint declaration drafting help",
+          "amount": "₹199",
+          "note": "Correction documentation set"
+        },
+        {
+          "label": "Consultation (stuck/complex cases)",
+          "amount": "₹299",
+          "note": "Multi-UAN, employer-default strategy"
+        },
+        {
+          "label": "Employer-default legal notice",
+          "amount": "₹999",
+          "note": "Deducted-but-not-deposited cases"
+        }
+      ],
+      "footnote": "Never pay \"PF agents\" a percentage to withdraw your own money — every step is free and online; the agents just do the KYC fixes this page teaches."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "pf withdrawal rejected reason",
+      "pf claim stuck kya kare",
+      "uan kyc mismatch correction",
+      "form 19 10c 31 difference",
+      "epf grievance epfigms",
+      "employer pf deposit nahi kiya"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "legal-notice-unpaid-salary"
+  ],
+  "relatedTemplateSlugs": [
+    "unpaid-salary-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "gratuity-not-paid",
+    "unpaid-salary-what-to-do"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "My claim was rejected saying \"name mismatch with Aadhaar\". What exactly do I do?",
+        "a": "File the online joint declaration from the member portal choosing the fields to correct (name/DOB as per Aadhaar), upload Aadhaar; the employer approves digitally, then EPFO. Post-approval, re-file the claim. Ex-employer defunct? EPFO field offices process declarations with alternate verification — a grievance plus documentation gets it moving."
+      },
+      {
+        "q": "My old company never marked my exit date, so I can't claim. Fix?",
+        "a": "You can mark your own exit date on the portal (Manage → Mark Exit) once 2 months pass since the last contribution, using the last month's contribution date. No employer cooperation needed. Then file 19/10C."
+      },
+      {
+        "q": "Employer cut PF from salary but EPFO passbook shows nothing. What now?",
+        "a": "That is misappropriation: complain to EPFO (EPFiGMS + written complaint to the RPFC naming months and amounts, with salary slips) — EPFO assesses (7A), recovers with interest and damages, and prosecutes. A criminal breach-of-trust angle also exists. Group complaints from colleagues accelerate everything."
+      },
+      {
+        "q": "Should I withdraw or transfer PF when changing jobs?",
+        "a": "Transfer, almost always: continuity preserves the 5-year tax clock, keeps interest compounding, and maintains EPS service history toward pension. Withdraw only in genuine need or emigration-type exits. The portal's transfer claim (Form 13 flow) is straightforward once KYC is clean."
+      },
+      {
+        "q": "How long until money actually hits my bank?",
+        "a": "Clean Aadhaar-based claims commonly settle in 3–20 days. The distribution: KYC-clean claims are fast; anything with mismatches, unverified bank, or employer-approval dependencies queues until fixed — which is why step one of this guide is the data, not the claim."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
