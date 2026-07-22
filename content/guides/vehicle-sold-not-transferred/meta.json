@@ -1,0 +1,156 @@
+{
+  "slug": "vehicle-sold-not-transferred",
+  "category": "vehicle-accident",
+  "title": {
+    "en": "Sold Your Vehicle but Buyer Never Transferred the RC? Your Liability and the Fix"
+  },
+  "answerBox": {
+    "en": "Until the RC changes, the law treats the registered owner — you — as liable for the vehicle: challans arrive in your name and accident claims under the MV Act can be decreed against you (Supreme Court, Naveen Kumar v. Vijay Kumar). Fix it now: submit your signed Form 29 to the RTO with proof of sale, pursue the buyer with a legal notice, and keep the sale evidence permanently."
+  },
+  "keyNumbers": {
+    "en": [
+      "Registered owner = liable",
+      "Form 29 to RTO now",
+      "₹999 notice to buyer"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Intimate the RTO (Form 29)",
+        "duration": "Immediately",
+        "startsFrom": "your half of the transfer duty"
+      },
+      {
+        "label": "Legal notice to the buyer",
+        "duration": "15 days",
+        "startsFrom": "demand completion of transfer"
+      },
+      {
+        "label": "Challans in your name",
+        "duration": "Contest as they come",
+        "startsFrom": "with sale proof attached"
+      },
+      {
+        "label": "If buyer untraceable",
+        "duration": "Next",
+        "startsFrom": "police complaint + RTO representation"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "alert",
+        "title": "Understand the exposure — it is real",
+        "summary": "Challans, taxes, even MACT awards land on the registered owner.",
+        "detail": "In *Naveen Kumar v. Vijay Kumar* (2018) the Supreme Court held the person named in the RC is the \"owner\" for MV Act liability — **even after sale and delivery**. Practically: e-challans, road-tax arrears, and **accident compensation claims** from the buyer's driving can be pressed against you until the record changes. This is why \"RC transfer is the buyer's problem\" is the most expensive myth in used-vehicle sales."
+      },
+      {
+        "icon": "send",
+        "title": "File your Form 29 intimation with the RTO",
+        "summary": "Your statutory notice of sale — do it even years late.",
+        "detail": "Submit **Form 29** (in duplicate) to the RTO where the vehicle is registered, attaching the sale/delivery note, payment proof, and the buyer's ID/address you hold; take a stamped acknowledgement (or file via parivahan where enabled). This intimation under **Section 50, MV Act** puts the sale on record and is your primary defence exhibit for anything the vehicle does afterwards. Add a notarised **affidavit of sale** (₹199 with WakilBhai) recording the entire transaction.",
+        "serviceHint": "affidavit-general"
+      },
+      {
+        "icon": "gavel",
+        "title": "Legal notice — then pressure that works",
+        "summary": "A ₹999 advocate notice moves most buyers; escalation exists.",
+        "detail": "Send the buyer an **advocate's notice** demanding completion of the transfer within 15 days, failing which you will seek RTO action and hold him liable for all consequences. Most buyers comply — the transfer benefits them too. If ignored: a written complaint to the RTO seeking transfer/action on your Form 29 record, and for untraceable buyers a **police complaint** (the vehicle is effectively being used under your identity). Courts have directed RTOs to act on seller intimations in persistent cases.",
+        "serviceHint": "legal-notice-dispute"
+      },
+      {
+        "icon": "shield",
+        "title": "Contest what lands meanwhile",
+        "summary": "Every challan/claim gets the sale-proof response.",
+        "detail": "Contest challans (see our [challan guide](/help/police-criminal/traffic-challan-disputes)) with the Form 29 acknowledgement and sale note — Virtual Courts accept \"vehicle sold, intimation filed\" with proof. If a MACT claim arrives, appear through an advocate immediately and implead the buyer as the person in possession and control; your intimation record is what shifts the burden. Never ignore any notice about the vehicle — non-appearance converts defendable matters into decrees."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Form 29 filing + acknowledgement",
+          "amount": "Free–nominal",
+          "note": "Your statutory protection; do it first"
+        },
+        {
+          "label": "Affidavit of sale (notarised)",
+          "amount": "₹199",
+          "note": "WakilBhai drafting + guidance"
+        },
+        {
+          "label": "Advocate's notice to the buyer",
+          "amount": "₹999",
+          "note": "Completion demand with consequences"
+        },
+        {
+          "label": "Consultation (claim received)",
+          "amount": "₹299",
+          "note": "Urgent strategy if a MACT/challan case lands"
+        }
+      ],
+      "footnote": "Prevention for next time: complete the transfer at the RTO on sale day, or at minimum collect the buyer's Form 30 application receipt before handing over keys."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "vehicle sold but not transferred liability",
+      "gaadi bech di transfer nahi hua",
+      "old vehicle challan in my name",
+      "buyer not transferring rc what to do",
+      "form 29 intimation rto",
+      "accident by sold vehicle liability"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-dispute",
+    "affidavit-general"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "vehicle-ownership-transfer",
+    "accident-compensation-mact"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "I sold the vehicle years ago. Am I really liable for the buyer's accident?",
+        "a": "Potentially yes — Naveen Kumar holds the registered owner liable under the MV Act regardless of sale. Your defences are the Form 29 intimation, sale documents and impleading the actual possessor. File the intimation today even if the sale is old; late protection beats none."
+      },
+      {
+        "q": "Challans keep coming in my name for the sold vehicle. Do I pay them?",
+        "a": "Contest, don't pay: respond with the sale note and Form 29 acknowledgement, naming the buyer. Virtual Courts and traffic authorities accept documented \"sold and intimated\" responses. Paying silently, conversely, reinforces the record that the vehicle is yours."
+      },
+      {
+        "q": "The buyer has vanished with the vehicle. What are my options?",
+        "a": "File the Form 29 with everything you know of the buyer, lodge a police complaint recording that the vehicle is in unknown hands despite sale, and write to the RTO seeking notation/action. This trail — intimation + complaint — is what protects you when the vehicle surfaces in a wrong-doing."
+      },
+      {
+        "q": "Can the RTO transfer the RC without the buyer's cooperation?",
+        "a": "The scheme expects the buyer's Form 30, but on a seller's persistent representation with complete sale proof, RTOs can proceed against the buyer (show-cause, penalty) and courts have directed record corrections. It takes follow-up — the advocate's notice + RTO complaint combination is the practical lever."
+      },
+      {
+        "q": "Does informing my insurer matter too?",
+        "a": "Yes — tell the insurer of the sale and stop renewing the policy in your name. An active policy in your name reinforces registered-owner liability and pays claims that then get litigated around you. The buyer must insure it; that pressure also pushes the transfer."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
