@@ -1,0 +1,153 @@
+{
+  "slug": "sim-swap-fraud",
+  "category": "cyber-fraud",
+  "title": {
+    "en": "SIM Swap Fraud — Signs, Emergency Response and Getting Your Money Back"
+  },
+  "answerBox": {
+    "en": "In SIM swap fraud, criminals get a duplicate of your SIM and receive your OTPs — the tell-tale sign is your phone suddenly showing no network for hours. Act in minutes: call your telecom operator from another phone to block the duplicate, call bank hotlines to freeze accounts, then 1930 for any money moved. The RBI zero-liability rules apply — these are unauthorised transactions."
+  },
+  "keyNumbers": {
+    "en": [
+      "No-network = red alert",
+      "Block SIM in minutes",
+      "1930 for money moved"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Block the duplicate SIM",
+        "duration": "Minutes",
+        "startsFrom": "call the operator from any phone"
+      },
+      {
+        "label": "Freeze bank/UPI/cards",
+        "duration": "Same hour",
+        "startsFrom": "bank hotlines + apps"
+      },
+      {
+        "label": "Call 1930 + portal complaint",
+        "duration": "24 hours",
+        "startsFrom": "for transactions that went through"
+      },
+      {
+        "label": "Bank written complaint",
+        "duration": "3 working days",
+        "startsFrom": "zero-liability window"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "alert",
+        "title": "Recognise it fast",
+        "summary": "Dead network + OTP/debit alerts on email = swap in progress.",
+        "detail": "A SIM swap looks like: **no network for hours** where others have coverage, \"SIM registration failed\", or a sudden restart demanding activation — often preceded by phishing calls posing as telecom \"KYC upgrade\". Meanwhile debit alerts pile up on your **email** (which fraudsters may also try to lock). Any unexplained network death when others have signal deserves the emergency drill, not a wait for \"network to come back\"."
+      },
+      {
+        "icon": "phone",
+        "title": "Kill the duplicate SIM, then freeze money",
+        "summary": "Operator first (it stops the OTP tap), banks second.",
+        "detail": "From any phone: call your **operator's helpline** (Airtel 121/198, Jio 199, Vi 199) and report an unauthorised SIM swap — demand immediate **blocking of the duplicate** and reissue to you with in-store ID verification. Then bank hotlines/apps: **freeze cards, UPI and net-banking**; change email passwords and enable app-based 2FA (not SMS). Every minute of the duplicate SIM's life is an OTP the fraudster receives."
+      },
+      {
+        "icon": "file-text",
+        "title": "1930 + cybercrime portal + bank letter",
+        "summary": "The standard financial-fraud reporting chain applies.",
+        "detail": "For money already moved: **1930** immediately (freeze attempt), complaint on [cybercrime.gov.in](https://cybercrime.gov.in), and a **written bank complaint within 3 working days** — SIM-swap debits are unauthorised electronic transactions squarely inside [RBI's zero-liability circular](https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11040). SIM-swap fraud implicates cheating by personation — **Section 419/420 IPC (now Sections 319/318 BNS)** — and IT Act Sections 66C (identity theft) and 66D. Ask the operator in writing how the duplicate was issued: KYC lapses there support both your bank claim and liability of the telco.",
+        "serviceHint": "police-complaint-draft"
+      },
+      {
+        "icon": "shield",
+        "title": "Recover and harden",
+        "summary": "Ombudsman escalations both ways; kill SMS-OTP dependence.",
+        "detail": "Bank stalling? **RBI Ombudsman** at cms.rbi.org.in after 30 days. Operator stonewalling on how the swap happened? **Telecom consumer grievance** → appellate authority, and the DoT's Sanchar Saathi portal ([sancharsaathi.gov.in](https://sancharsaathi.gov.in)) to check/block connections issued in your name. Hardening: app-based authenticators over SMS OTPs, a SIM PIN, email recovery numbers reviewed, and never sharing the \"KYC update\" codes telecallers ask for — that code IS the swap authorisation."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Operator block + reissue",
+          "amount": "Free–₹50",
+          "note": "In-store duplicate with your ID"
+        },
+        {
+          "label": "1930 / portal / bank complaints",
+          "amount": "Free",
+          "note": "The standard chain"
+        },
+        {
+          "label": "Complaint documentation",
+          "amount": "₹199",
+          "note": "WakilBhai cyber-cell complaint set"
+        },
+        {
+          "label": "Consultation (large loss)",
+          "amount": "₹299",
+          "note": "Bank + telco dual-liability strategy"
+        }
+      ],
+      "footnote": "Check sancharsaathi.gov.in periodically for SIMs issued against your ID — fraudulent connections in your name are reportable and blockable there even before any fraud hits."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "sim swap fraud kya hai",
+      "sim card swap fraud complaint",
+      "phone network gone fraud otp",
+      "sim swap bank fraud recovery",
+      "duplicate sim fraud complaint",
+      "sanchar saathi sim check"
+    ]
+  },
+  "relatedServiceIds": [
+    "police-complaint-draft",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "upi-fraud-money-recovery",
+    "identity-theft-aadhaar-misuse"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "How do fraudsters get a duplicate of my SIM?",
+        "a": "Social engineering both ends: they phish your ID details and OTPs (\"KYC update\" calls), then request a swap/duplicate at the operator with forged documents — or trick YOU into initiating the swap by sharing the confirmation code. Operator KYC lapses feature in most cases, which is why their liability is worth pressing in writing."
+      },
+      {
+        "q": "Is the bank liable when OTPs went to the fraudster's SIM?",
+        "a": "The transactions are unauthorised — you neither made nor authorised them — which is the zero-liability scenario under RBI's circular if reported within 3 working days. Banks argue \"OTP was used\"; the answer is that the OTP channel itself was hijacked through no negligence of yours. Ombudsmen have repeatedly sided with SIM-swap victims on this."
+      },
+      {
+        "q": "My number was dead for 6 hours and money is gone. Reporting order?",
+        "a": "Operator (kill the duplicate) → banks (freeze) → 1930 (freeze the receiving accounts) → cybercrime portal (written record) → bank's formal complaint letter (zero-liability clock). Then the paper fight: operator's explanation of the swap, bank's response, Ombudsman escalations as needed."
+      },
+      {
+        "q": "What is Sanchar Saathi and how does it help?",
+        "a": "DoT's citizen portal: see every mobile connection issued against your identity, flag ones you never took, and block lost/stolen handsets by IMEI. For SIM-swap victims it documents the fraudulent issuance; for everyone it is a free periodic check that prevents identity-based SIM fraud."
+      },
+      {
+        "q": "Can I stop relying on SMS OTPs altogether?",
+        "a": "Largely yes: switch banking and email 2FA to authenticator apps/hardware where supported, set UPI limits, and use the bank's app-approve mechanisms instead of SMS where offered. SMS OTP is the single point of failure SIM swap exploits — reduce what one hijacked SIM can unlock."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
