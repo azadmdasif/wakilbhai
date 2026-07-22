@@ -1,0 +1,157 @@
+{
+  "slug": "fake-loan-app-harassment",
+  "category": "cyber-fraud",
+  "title": {
+    "en": "Loan App Harassment? RBI Rules, Where to Complain and How to Stop the Threats"
+  },
+  "answerBox": {
+    "en": "Illegal loan apps that morph your photos, call your contacts or threaten you are breaking the law — RBI's digital-lending rules bind legitimate lenders, and harassment is a criminal offence. Preserve the evidence, report on cybercrime.gov.in and to RBI's Sachet portal within 24–48 hours, and do not pay extortion demands beyond what you actually borrowed."
+  },
+  "keyNumbers": {
+    "en": [
+      "Report in 24–48 hours",
+      "RBI rules protect you",
+      "₹0 to complain"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Preserve evidence of threats",
+        "duration": "Immediately",
+        "startsFrom": "from the first abusive call/message"
+      },
+      {
+        "label": "Report on cybercrime.gov.in",
+        "duration": "24–48 hours",
+        "startsFrom": "from the harassment"
+      },
+      {
+        "label": "Report the app to RBI (Sachet)",
+        "duration": "Same week",
+        "startsFrom": "unregistered lender = report"
+      },
+      {
+        "label": "RBI Ombudsman (registered lenders)",
+        "duration": "After 30 days",
+        "startsFrom": "if the lender ignores your complaint"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Check the lender and preserve everything",
+        "summary": "Is it a real NBFC or an illegal app? The route depends on this.",
+        "detail": "Legitimate digital loans must come from an RBI-regulated bank/NBFC named in the loan agreement — check the entity on RBI's [NBFC list](https://www.rbi.org.in). Screenshot the app listing, the loan terms, every abusive call/message, morphed images, and calls made to your contacts. **Record caller numbers and dates** — this log is the backbone of every complaint that follows."
+      },
+      {
+        "icon": "shield",
+        "title": "Know what recovery is allowed to do",
+        "summary": "RBI's rules ban abuse, contact-list shaming and odd-hour calls.",
+        "detail": "Under RBI's [Digital Lending Guidelines](https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12382) and Fair Practices Code, recovery cannot use abuse or intimidation, cannot call your phone-book contacts, and must identify the lender. Morphing photos and threatening to send them is extortion — **Section 384 IPC (now Section 308 BNS)** — plus criminal intimidation **Section 503/506 IPC (now Section 351 BNS)** and IT Act Sections 66E/67. Owing money never legalises harassment."
+      },
+      {
+        "icon": "send",
+        "title": "Complain: cybercrime portal + RBI",
+        "summary": "Two tracks — criminal (portal/police) and regulatory (RBI).",
+        "detail": "File the harassment complaint with your evidence at [cybercrime.gov.in](https://cybercrime.gov.in); if extortion payments were made, call **1930** for a freeze attempt. In parallel: unregistered/illegal apps go to RBI's [Sachet portal](https://sachet.rbi.org.in); for a registered lender, complain to its grievance officer first and escalate to the **RBI Ombudsman** at [cms.rbi.org.in](https://cms.rbi.org.in) after 30 days. Report the app on the Play Store/App Store too — these listings do get pulled.",
+        "serviceHint": "police-complaint-draft"
+      },
+      {
+        "icon": "scale",
+        "title": "Handle the actual debt on your terms",
+        "summary": "Pay what you genuinely owe through traceable channels — nothing more.",
+        "detail": "Illegal apps inflate dues with fabricated \"penalties\". Compute what you actually took and reasonable interest; pay (if you choose to) only by traceable transfer against a written statement of account, never to personal UPI IDs under threat. Amounts extorted beyond the real debt are recoverable in your criminal complaint. If harassment continues after complaints, a lawyer's notice to the lender and its recovery agency creates strong pressure — and contacts being called can file their own complaints as well."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "cybercrime.gov.in / 1930 / Sachet / Ombudsman",
+          "amount": "Free",
+          "note": "All government channels"
+        },
+        {
+          "label": "Police/cyber cell complaint drafted for you",
+          "amount": "₹199",
+          "note": "Correct sections + evidence annexure"
+        },
+        {
+          "label": "Lawyer's notice to lender/recovery agency",
+          "amount": "₹999",
+          "note": "Advocate-sent; often stops the calls"
+        },
+        {
+          "label": "Advocate consultation",
+          "amount": "₹299",
+          "note": "For settlement strategy on the genuine dues"
+        }
+      ],
+      "footnote": "Do not borrow from a second loan app to pay the first — that spiral is the business model. The harassment is the crime here, and reporting it does not depend on the loan being repaid."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "loan app harassment complaint",
+      "fake loan app threatening contacts",
+      "loan app morphed photo blackmail",
+      "illegal loan app complaint rbi",
+      "loan recovery agent harassment what to do",
+      "loan app calling contacts complaint"
+    ]
+  },
+  "relatedServiceIds": [
+    "police-complaint-draft",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "sextortion-blackmail",
+    "upi-fraud-money-recovery"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "The loan app is threatening to send morphed photos to my contacts. Is that legal?",
+        "a": "No — it is extortion (Section 384 IPC, now Section 308 BNS), criminal intimidation (Section 506 IPC, now Section 351 BNS) and an IT Act offence (Sections 66E/67), regardless of whether you owe money. Preserve the threats and report on cybercrime.gov.in; do not pay the extortion demand."
+      },
+      {
+        "q": "Can recovery agents call my family and contacts?",
+        "a": "For RBI-regulated lenders, no — the Digital Lending Guidelines and Fair Practices Code confine recovery contact to the borrower, within civil hours, without abuse. Contact-list shaming is itself evidence of an illegal operation. Contacts who receive threats can file their own harassment complaints."
+      },
+      {
+        "q": "How do I check whether a loan app is legal?",
+        "a": "The loan agreement/app must name the RBI-regulated bank or NBFC actually lending; verify it against RBI's published NBFC list on rbi.org.in. No named regulated entity, sky-high processing fees deducted upfront, and demands into personal UPI IDs are the standard marks of an illegal app — report those on RBI's Sachet portal."
+      },
+      {
+        "q": "Do I still have to repay an illegal loan app?",
+        "a": "The harassment and inflated penalties are crimes, but money you genuinely received is a debt in principle. The practical approach: pay only the genuine principal with reasonable interest through traceable channels if you choose to settle, and let your complaint cover the extortion beyond it. Take the ₹299 consultation for a settlement strategy on larger amounts."
+      },
+      {
+        "q": "They accessed my contacts and gallery through app permissions. Is that allowed?",
+        "a": "RBI's guidelines bar lending apps from wide access to contacts and media — legitimate apps may access only what is needed (camera/mic for KYC with consent). Blanket harvesting of your phone book to shame you breaches both the guidelines and the IT Act. Uninstall the app after screenshotting its permissions page."
+      },
+      {
+        "q": "The lender is RBI-registered but recovery is still abusive. Where do I escalate?",
+        "a": "Complain in writing to the lender's grievance redressal officer (the app must publish one). If unresolved for 30 days, file free with the RBI Ombudsman at cms.rbi.org.in. Parallel criminal complaints for intimidation remain open — regulation does not immunise abusive agents."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
