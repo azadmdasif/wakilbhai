@@ -1,0 +1,152 @@
+{
+  "slug": "received-court-summons",
+  "category": "police-criminal",
+  "title": {
+    "en": "Received a Court Summons? Do Not Ignore It — First Steps and What Happens Next"
+  },
+  "answerBox": {
+    "en": "A court summons is an order to appear — ignoring it escalates to a bailable warrant, then a non-bailable warrant, and can add a separate offence. Read the case number and date, verify it is genuine on the eCourts portal, and consult an advocate before the appearance date. Appearing (personally or through counsel where permitted) on day one keeps every option open."
+  },
+  "keyNumbers": {
+    "en": [
+      "Never ignore it",
+      "Verify on eCourts",
+      "Advocate before the date"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Read + verify the summons",
+        "duration": "Same day",
+        "startsFrom": "case number on ecourts.gov.in"
+      },
+      {
+        "label": "Consult an advocate",
+        "duration": "Within days",
+        "startsFrom": "well before the appearance date"
+      },
+      {
+        "label": "Appear on the date",
+        "duration": "Fixed date",
+        "startsFrom": "printed on the summons — non-negotiable"
+      },
+      {
+        "label": "Ignoring it",
+        "duration": "Warrant next",
+        "startsFrom": "bailable, then non-bailable warrant"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Read it properly and verify it",
+        "summary": "Court, case number, capacity (accused/witness), date.",
+        "detail": "Note the **court name, case number, the capacity you are summoned in** (accused, witness, or party in a civil suit) and the appearance date. Verify the case on the [eCourts portal](https://ecourts.gov.in) or the court's own site using the case number — fake \"summons\" sent by fraudsters over WhatsApp demanding money are common; genuine summonses come from the court (CrPC Section 61, **now BNSS Section 63**, which also permits electronic service) and never ask for payment to \"settle\"."
+      },
+      {
+        "icon": "phone",
+        "title": "Get an advocate before the date",
+        "summary": "What the case is decides everything you do next.",
+        "detail": "Take the summons and any attached complaint copy to a practising advocate in that court — or start with WakilBhai's **₹299 consultation** to understand the case type and urgency. In summons-triable criminal cases the court may permit appearance **through counsel**; in others personal appearance is required and an exemption application is the tool. Which applies to you is precisely the advice to take before the date, not after.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "check",
+        "title": "Appear — prepared, on time",
+        "summary": "Day one is procedural; conduct on it sets the tone.",
+        "detail": "Reach the court early with the summons and ID. First dates are usually short: appearance is recorded, copies of the complaint/chargesheet are supplied (your right), and the next date is set — in criminal summons cases, bail on the spot is routine where required. Do not argue the merits at the counter or with the complainant; everything substantive happens through your advocate on later dates."
+      },
+      {
+        "icon": "alert",
+        "title": "Know the cost of ignoring it",
+        "summary": "Warrants, proclamation, and a separate offence.",
+        "detail": "Skip the date and the ladder is: **bailable warrant → non-bailable warrant → proclamation as an absconder (Section 82 CrPC, now Section 84 BNSS) and attachment of property**. Non-appearance in breach of a proclamation is itself an offence (Section 174A IPC, **now Section 209 BNS**). If you genuinely cannot attend (illness, travel), have your advocate move an exemption application *before* the date — courts accept genuine reasons, never silence."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Verifying the case on eCourts",
+          "amount": "Free",
+          "note": "ecourts.gov.in — case number search"
+        },
+        {
+          "label": "Advocate consultation first",
+          "amount": "₹299",
+          "note": "Understand the case before the date"
+        },
+        {
+          "label": "Advocate appearance (typical)",
+          "amount": "₹2,000–15,000+",
+          "note": "Per case stage, by city and court"
+        },
+        {
+          "label": "Certified copies of the case papers",
+          "amount": "Nominal",
+          "note": "Copying fees at the court"
+        }
+      ],
+      "footnote": "This page is general information, not legal advice. A summons means a live court case — the specific defence, exemption or settlement strategy must come from a practising advocate who has read your papers."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "court summons received what to do",
+      "court notice aya kya kare",
+      "ignore court summons consequences",
+      "verify court case number online",
+      "summons warrant difference",
+      "court date par nahi gaye to kya hoga"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "anticipatory-bail-basics",
+    "how-to-file-fir"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "What happens if I simply do not go?",
+        "a": "The court escalates: first a bailable warrant, then a non-bailable warrant, then proclamation as an absconder with property attachment (Section 82 CrPC, now Section 84 BNSS). Non-appearance after proclamation is a separate offence — Section 174A IPC, now Section 209 BNS. Silence converts a manageable case into a serious one."
+      },
+      {
+        "q": "How do I know the summons is genuine and not a scam?",
+        "a": "Search the case number on ecourts.gov.in or the court's website, or call your advocate. Genuine summonses identify the court and case and never demand money, gift cards or \"settlement fees\" over phone/WhatsApp — those are extortion scams (report them on cybercrime.gov.in)."
+      },
+      {
+        "q": "Can my lawyer attend instead of me?",
+        "a": "Sometimes. In many summons-triable criminal cases the Magistrate can dispense with personal attendance and allow appearance through counsel, and civil cases are argued by counsel as a rule. Whether your case qualifies — and moving the exemption application — is your advocate's first task."
+      },
+      {
+        "q": "I am summoned as a witness, not accused. Do the same rules apply?",
+        "a": "Attendance is equally mandatory — witness non-appearance also attracts warrants. But your role is limited to truthful testimony; you are entitled to travel expenses in many courts, and if you fear self-incrimination or harassment, tell your advocate before the date."
+      },
+      {
+        "q": "The date on the summons has already passed by the time I received it. Now what?",
+        "a": "Act immediately, not on the next date: have an advocate check the order sheet on eCourts for what the court did (adjourned, issued warrant), and appear voluntarily or move the appropriate application at once. Voluntary early appearance is treated far more kindly than being brought on a warrant."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
