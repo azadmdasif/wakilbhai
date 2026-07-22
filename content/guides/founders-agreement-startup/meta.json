@@ -1,0 +1,155 @@
+{
+  "slug": "founders-agreement-startup",
+  "category": "business-startup",
+  "title": {
+    "en": "Founders' Agreement for Startups — Equity Split, Vesting and Exit Clauses That Matter"
+  },
+  "answerBox": {
+    "en": "A founders' agreement fixes what co-founders fight about: equity split, vesting (typically 4 years with a 1-year cliff), roles and decision rights, IP assignment to the company, what happens when a founder quits, and dispute resolution. Sign it before incorporation or in the first month — the ₹499 draft costs less than one hour of the litigation it prevents."
+  },
+  "keyNumbers": {
+    "en": [
+      "4-year vesting, 1-year cliff",
+      "IP assigned to company",
+      "₹499 drafting"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Sign before/at incorporation",
+        "duration": "Month 0",
+        "startsFrom": "hardest to negotiate later"
+      },
+      {
+        "label": "Vesting cliff",
+        "duration": "1 year",
+        "startsFrom": "standard — leavers before it take nothing"
+      },
+      {
+        "label": "Full vesting",
+        "duration": "4 years",
+        "startsFrom": "monthly/quarterly thereafter"
+      },
+      {
+        "label": "Review at funding",
+        "duration": "Each round",
+        "startsFrom": "investors will re-paper key terms"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "scale",
+        "title": "Split equity deliberately, not equally-by-default",
+        "summary": "50-50 without thought is the most litigated number in startups.",
+        "detail": "Weigh **capital contributed, full-time vs part-time commitment, idea/IP brought in, and role criticality** — then document the reasoning. Unequal but reasoned splits survive; unexamined equal splits breed resentment when contributions diverge. Record also the **ESOP pool** intention (commonly 10–15%) so future dilution is expected, not disputed."
+      },
+      {
+        "icon": "clock",
+        "title": "Vesting: the clause that saves companies",
+        "summary": "Equity is earned over time — leavers don't keep dead weight.",
+        "detail": "Standard structure: **4-year vesting with a 1-year cliff** — a founder leaving in month 11 takes nothing; after the cliff, shares vest monthly/quarterly. Add **good-leaver/bad-leaver** terms (fraud/breach forfeits unvested and discounts vested shares) and a **buy-back right** for the company/continuing founders at fair value. Without vesting, a departed co-founder holding 33% forever is your cap table's permanent scar — the single most common startup legal disaster."
+      },
+      {
+        "icon": "file-text",
+        "title": "IP assignment and confidentiality — in writing",
+        "summary": "The company must own the code, brand and inventions.",
+        "detail": "Every founder **assigns all IP** — code, designs, the brand, pre-incorporation work — to the company, with confidentiality and (reasonable) non-compete/non-solicit undertakings. Investors' due diligence checks precisely this; a founder who personally owns the core IP is an unfundable company. Pair the agreement with employment/consultancy letters and our [NDA guide](/help/business-startup/nda-agreement-essentials) for third parties.",
+        "serviceHint": "founders-agreement"
+      },
+      {
+        "icon": "gavel",
+        "title": "Decision rights, deadlock and exit mechanics",
+        "summary": "Who decides what, and how founders part ways.",
+        "detail": "Fix **roles and reserved matters** (spending limits, hiring, fundraising need consent), board composition, and **deadlock resolution** (mediation → buy-out mechanisms like shotgun clauses for 50-50 splits). Add **tag-along/pre-emption** on share transfers and **arbitration** as the dispute forum. Align the articles of association with these terms at incorporation — the agreement binds signatories, but articles bind the company. Our ₹499 service drafts both consistently."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Founders' agreement drafting",
+          "amount": "₹499",
+          "note": "WakilBhai; vesting + IP + deadlock clauses"
+        },
+        {
+          "label": "Stamp duty",
+          "amount": "₹100–500",
+          "note": "Agreement stamping, state-wise"
+        },
+        {
+          "label": "Incorporation alignment (articles)",
+          "amount": "Varies",
+          "note": "With your CS/CA at incorporation"
+        },
+        {
+          "label": "Structure consultation",
+          "amount": "₹299",
+          "note": "Equity/vesting sanity check"
+        }
+      ],
+      "footnote": "The agreement is between founders; once the company exists, mirror key terms in a shareholders' agreement and the articles so they bind the company too — investors will insist on exactly this hygiene."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "founders agreement india startup",
+      "co-founder equity split agreement",
+      "founder vesting clause india",
+      "startup co-founder dispute agreement",
+      "founders agreement clauses",
+      "esop pool founders agreement"
+    ]
+  },
+  "relatedServiceIds": [
+    "founders-agreement",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "nda-template"
+  ],
+  "relatedGuideSlugs": [
+    "partnership-deed-registration",
+    "unpaid-salary-what-to-do"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "We are friends — do we really need this in writing?",
+        "a": "Friendship is why you need it: every co-founder dispute starts as \"we never discussed this\". The agreement is the discussion, held while everyone is aligned. Signing takes a day; untangling an undocumented 50-50 split after one founder disengages takes years and sometimes kills the company."
+      },
+      {
+        "q": "What is a vesting cliff and why one year?",
+        "a": "The cliff means zero shares vest until 12 months — a founder leaving early takes no equity at all, protecting the company from hit-and-run cap-table damage. After the cliff, the earned portion vests progressively. One year is the global standard investors expect to see."
+      },
+      {
+        "q": "A co-founder left in month 8 and claims his full 30%. What governs?",
+        "a": "Whatever you signed. With a vesting clause and cliff, he takes nothing (or only what vested). Without any agreement, his shareholding stands as issued — recovering it needs negotiation or litigation. This exact scenario is the founders' agreement's reason to exist."
+      },
+      {
+        "q": "Is a founders' agreement legally enforceable in India?",
+        "a": "Yes — it is a contract, enforceable like any other, and arbitration clauses make enforcement faster. Transfer/forfeiture mechanics are strongest when mirrored in the company's articles; restraints must be reasonable in scope to survive Section 27 Contract Act scrutiny — draft accordingly."
+      },
+      {
+        "q": "How does this differ from a shareholders' agreement?",
+        "a": "The founders' agreement is signed among founders, often pre-incorporation, covering the founding bargain. A shareholders' agreement includes the company (and later investors) and governs shareholding mechanics ongoing. Startups typically start with the first and graduate to the second at the seed round."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
