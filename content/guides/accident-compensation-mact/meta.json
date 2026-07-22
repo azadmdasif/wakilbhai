@@ -1,0 +1,155 @@
+{
+  "slug": "accident-compensation-mact",
+  "category": "vehicle-accident",
+  "title": {
+    "en": "Road Accident Compensation — MACT Claim Process, No-Fault Amounts and Time Limit"
+  },
+  "answerBox": {
+    "en": "Accident victims (or their families) claim compensation before the Motor Accidents Claims Tribunal (MACT). Two routes: the no-fault route pays fixed sums — ₹5 lakh for death, ₹2.5 lakh for grievous injury — without proving negligence; the full Section 166 claim has no cap but must be filed within 6 months of the accident. The insurer of the offending vehicle pays."
+  },
+  "keyNumbers": {
+    "en": [
+      "₹5 lakh no-fault (death)",
+      "File within 6 months",
+      "No cap on 166 claims"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "FIR + medical records",
+        "duration": "Immediately",
+        "startsFrom": "from the accident"
+      },
+      {
+        "label": "Police file the DAR",
+        "duration": "90 days",
+        "startsFrom": "Detailed Accident Report to the tribunal"
+      },
+      {
+        "label": "File the MACT claim",
+        "duration": "6 months",
+        "startsFrom": "from the accident (s.166(3) MV Act)"
+      },
+      {
+        "label": "Insurer offer / hearing",
+        "duration": "Months",
+        "startsFrom": "DAR system pushes early settlement"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Secure FIR, medical and vehicle papers",
+        "summary": "The claim is built on the FIR, injury records and the vehicle/insurer identity.",
+        "detail": "Ensure an **FIR** records the accident, vehicles and injuries; collect medical records and bills, disability certificate where applicable, the deceased/injured person's **income proof**, and the offending vehicle's number — police trace its **insurer**, who is the real paying party. Under the DAR system the police must file a **Detailed Accident Report** with the tribunal within ~90 days, which doubles as your evidence base."
+      },
+      {
+        "icon": "scale",
+        "title": "Choose the route: fixed no-fault or full claim",
+        "summary": "₹5L/₹2.5L fixed without proving fault — or an uncapped Section 166 claim.",
+        "detail": "Under **Section 164 MV Act** (post-2019), fixed compensation — **₹5,00,000 for death, ₹2,50,000 for grievous hurt** — is payable without proving negligence. A full **Section 166** claim instead computes real loss (income × multiplier + future prospects per *Pranay Sethi*, medical costs, consortium) with **no upper cap**, but requires establishing the accident and negligence. You elect one — an advocate's comparison of the two numbers is the first decision.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "gavel",
+        "title": "File before the MACT — flexible venue",
+        "summary": "Where the accident happened, or where you live — within 6 months.",
+        "detail": "File the claim petition (with the DAR, FIR, medical and income documents) before the **MACT of the district where the accident occurred, where you reside, or where the owner/insurer resides** — claimant's choice. The 2019 amendment added a **6-month limitation** (s.166(3)), so do not sit on it. Court fees are nominal; tribunals can award **interim compensation** while the claim runs."
+      },
+      {
+        "icon": "banknote",
+        "title": "Hearing, award and recovery",
+        "summary": "Insurers contest; awards carry interest and are enforceable.",
+        "detail": "The insurer will probe negligence, income proof and disability percentage — this is contested litigation where MACT advocates typically work on modest fees or a **percentage of the award**. Awards carry interest from the filing date and are recoverable directly from the insurer; appeal lies to the High Court. Do not accept an early \"full and final\" insurer offer without advice — structured awards routinely exceed first offers severalfold."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Court fee at MACT",
+          "amount": "Nominal",
+          "note": "Token amounts; claimant-friendly by design"
+        },
+        {
+          "label": "Advocate (typical)",
+          "amount": "10–20% of award",
+          "note": "Or fixed fees; agree the basis in writing"
+        },
+        {
+          "label": "No-fault fixed amounts",
+          "amount": "₹5L / ₹2.5L",
+          "note": "Death / grievous injury under s.164"
+        },
+        {
+          "label": "First consultation",
+          "amount": "₹299",
+          "note": "Route election + realistic award estimate"
+        }
+      ],
+      "footnote": "Claims against untraced hit-and-run vehicles follow a separate government scheme — see our hit-and-run guide. This page is general information; MACT claims are contested court proceedings that need a practising advocate."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "road accident compensation claim",
+      "mact claim process india",
+      "accident case me kitna paisa milta hai",
+      "motor accident claim time limit",
+      "section 166 mv act claim",
+      "accident compensation calculation"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "accident-affidavit"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "traffic-challan-disputes",
+    "how-to-file-fir"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Who can file the MACT claim?",
+        "a": "The injured person; for a death, the legal representatives — spouse, children, parents, and dependants. Claims survive even where the deceased was a bystander or pedestrian. Minors claim through a guardian, and the tribunal protects their share in fixed deposits."
+      },
+      {
+        "q": "How is death compensation actually calculated?",
+        "a": "Under the Sarla Verma/Pranay Sethi framework: annual income, minus one-third to one-half for personal expenses, plus future prospects (10–50% by age and job type), times an age-based multiplier (up to 18), plus fixed conventional heads — consortium, estate, funeral. A 30-year-old earning ₹30,000/month commonly yields ₹50–70 lakh."
+      },
+      {
+        "q": "What if the accident was partly the victim's fault?",
+        "a": "Contributory negligence reduces the award proportionately (say 20–50%) but does not bar the claim. The no-fault Section 164 route ignores fault entirely — which is precisely its value where negligence evidence is weak, like solo-witness night accidents."
+      },
+      {
+        "q": "The 6 months have passed. Is the claim dead?",
+        "a": "Not necessarily — tribunals and High Courts have condoned delay in deserving cases despite s.166(3), and the provision's rigidity is contested. But condonation is discretionary: treat 6 months as the real deadline and file fast rather than litigate about lateness."
+      },
+      {
+        "q": "Does the driver being uninsured or the policy lapsed kill the claim?",
+        "a": "No — the award then falls on the vehicle owner personally, and for insured vehicles insurers often must \"pay and recover\" from the owner even on policy breaches (invalid licence, overloading). The claim is filed the same way; recovery strategy is where the advocate earns the fee."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
