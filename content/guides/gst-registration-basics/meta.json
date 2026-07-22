@@ -1,0 +1,156 @@
+{
+  "slug": "gst-registration-basics",
+  "category": "business-startup",
+  "title": {
+    "en": "GST Registration Basics — Thresholds, Documents, and Whether You Even Need It"
+  },
+  "answerBox": {
+    "en": "GST registration is mandatory once turnover crosses ₹40 lakh for goods (₹20 lakh for services; ₹10–20 lakh in special-category states) — and immediately, regardless of turnover, for interstate goods supply and selling through e-commerce operators. Registration is free on gst.gov.in and takes about a week with Aadhaar authentication. Below thresholds, weigh voluntary registration: input credit and B2B credibility vs monthly compliance."
+  },
+  "keyNumbers": {
+    "en": [
+      "₹40L / ₹20L thresholds",
+      "Free on gst.gov.in",
+      "~1 week with Aadhaar"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Register within 30 days",
+        "duration": "30 days",
+        "startsFrom": "of becoming liable"
+      },
+      {
+        "label": "Application processing",
+        "duration": "~7 working days",
+        "startsFrom": "with Aadhaar authentication"
+      },
+      {
+        "label": "Returns after registration",
+        "duration": "Monthly/quarterly",
+        "startsFrom": "GSTR-1/3B cycles (QRMP option)"
+      },
+      {
+        "label": "Composition option",
+        "duration": "Fin-year based",
+        "startsFrom": "turnover to ₹1.5 crore, 1–6% rates"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "scale",
+        "title": "Do you actually need it?",
+        "summary": "Thresholds, compulsory categories, and the freelancer nuances.",
+        "detail": "Mandatory when: aggregate turnover crosses **₹40 lakh (goods)** / **₹20 lakh (services)** (₹20L/₹10L in special-category states); OR regardless of turnover for **interstate supply of goods**, **selling via e-commerce operators** (Amazon/Flipkart sellers), casual/non-resident taxable persons, and reverse-charge-liable recipients. Key service nuance: **interstate services** stay exempt up to ₹20 lakh — freelancers serving clients across India under that figure need not register. **Exports are interstate supplies** — but service exporters under ₹20 lakh remain exempt from registration."
+      },
+      {
+        "icon": "file-text",
+        "title": "Register: free, online, Aadhaar-fast",
+        "summary": "PAN, Aadhaar, bank, address proof — REG-01 on the portal.",
+        "detail": "On **[gst.gov.in](https://www.gst.gov.in)**: Part A (PAN + mobile/email OTP), Part B (REG-01) with the business details, **principal place of business proof** (electricity bill + rent agreement/NOC for rented premises — our ₹199 NOC/consent drafting helps here), bank details, photos, and authorised-signatory data. **Aadhaar-authenticate** for the ~7-working-day track (skipping it invites physical verification and ~30 days). GSTIN + certificate download on approval. The government charges **nothing** — \"GST registration fees\" quoted online are agent fees.",
+        "serviceHint": "noc-drafting"
+      },
+      {
+        "icon": "banknote",
+        "title": "Choose the scheme: regular vs composition",
+        "summary": "Input credit + B2B vs flat low tax and light filing.",
+        "detail": "**Regular**: charge GST at your rate, claim **input tax credit**, file GSTR-1/3B (monthly, or **QRMP** quarterly-with-monthly-payment below ₹5 crore). **Composition** (goods to ₹1.5 crore; services to ₹50 lakh): flat 1% (traders/manufacturers), 5% (restaurants), 6% (services) on turnover, minimal filing (CMP-08 quarterly) — but **no input credit, no interstate supply, no tax collection** from customers. B2B businesses and exporters live on the regular scheme; small local B2C often fits composition."
+      },
+      {
+        "icon": "shield",
+        "title": "After the GSTIN: the hygiene that avoids notices",
+        "summary": "Invoices, returns even if nil, e-way bills — and cancellation.",
+        "detail": "Compliance floor: GST-compliant **invoices** (GSTIN, HSN/SAC, rate-wise breakup), returns **even when nil** (non-filing auto-cancels registrations and blocks e-way bills), reconcile input credit against **GSTR-2B** monthly, and generate **e-way bills** for goods movement ₹50,000+. Display the certificate at premises and GSTIN on signage/website. Winding down or dipping below thresholds: apply for **cancellation** properly and file the final return — abandoned GSTINs breed notices for years. A ₹299 consultation maps your first-year calendar.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Registration on gst.gov.in",
+          "amount": "Free",
+          "note": "Agent \"fees\" are for their service, not govt"
+        },
+        {
+          "label": "Premises NOC/consent drafting",
+          "amount": "₹199",
+          "note": "The common documentation gap"
+        },
+        {
+          "label": "Monthly compliance (outsourced)",
+          "amount": "₹500–2,500/month",
+          "note": "Market accountant rates by volume"
+        },
+        {
+          "label": "Setup consultation",
+          "amount": "₹299",
+          "note": "Threshold check + scheme choice"
+        }
+      ],
+      "footnote": "This is a legal-process overview, not tax advice — rates, thresholds and scheme fit change with notifications and your specific supplies; confirm current positions with a GST practitioner before acting."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "gst registration limit turnover",
+      "gst registration process online",
+      "gst kiske liye zaroori hai",
+      "freelancer gst registration 20 lakh",
+      "composition scheme gst kya hai",
+      "gst registration documents required"
+    ]
+  },
+  "relatedServiceIds": [
+    "noc-drafting",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "nda-template"
+  ],
+  "relatedGuideSlugs": [
+    "udyam-msme-registration-benefits",
+    "freelance-contract-essentials"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "I freelance for clients in other states, earning ₹12 lakh. Must I register?",
+        "a": "No — interstate SERVICES enjoy the ₹20 lakh threshold exemption (unlike interstate goods, which trigger registration from rupee one). Track aggregate turnover across all your income sources though; crossing ₹20 lakh obliges registration within 30 days."
+      },
+      {
+        "q": "Do I need GST to sell on Amazon/Flipkart?",
+        "a": "For goods, yes — supplying through an e-commerce operator requires registration regardless of turnover (the platforms enforce it at onboarding). Limited relaxations exist for certain intra-state service suppliers via ECOs. Factor the monthly compliance before listing."
+      },
+      {
+        "q": "Should I register voluntarily below the threshold?",
+        "a": "Register if: your clients are B2B (they want your GSTIN and credit), you claim input credit on significant purchases, or tenders/platforms demand it. Stay out if you serve B2C locally under threshold — voluntary registration binds you to full compliance with no exit until cancellation."
+      },
+      {
+        "q": "What happens if I crossed the threshold months ago and never registered?",
+        "a": "Liability runs from the day you became liable: expect registration with effect from then, tax on the intervening supplies (possibly from your pocket — you didn't collect it), interest, and penalty (10% of tax or ₹10,000 minimum; higher for suppression). Regularise voluntarily before a notice finds you — the economics only worsen."
+      },
+      {
+        "q": "Rented office and the landlord won't give an electricity bill. What works as address proof?",
+        "a": "The standard stack: rent agreement + landlord's NOC/consent letter + any utility bill/property-tax receipt of the premises (in the landlord's name is fine). Our ₹199 drafting covers the NOC and consent formats registrars accept; co-working spaces issue their own standard letters."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
