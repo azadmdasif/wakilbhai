@@ -1,0 +1,159 @@
+{
+  "slug": "maintenance-wife-children",
+  "category": "family-personal",
+  "title": {
+    "en": "Maintenance for Wife and Children — Section 125 CrPC (Now BNSS 144), Who Can Claim and How"
+  },
+  "answerBox": {
+    "en": "A wife unable to maintain herself, minor children, and dependent parents can claim monthly maintenance from a person who neglects them — Section 125 CrPC, now Section 144 BNSS. The application is filed in the Magistrate's court where you reside, court fees are nominal, interim maintenance can be ordered while the case runs, and non-payment is enforceable by warrant."
+  },
+  "keyNumbers": {
+    "en": [
+      "File where YOU live",
+      "Interim maintenance possible",
+      "Nominal court fee"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "File the application",
+        "duration": "Anytime",
+        "startsFrom": "neglect/refusal to maintain"
+      },
+      {
+        "label": "Interim maintenance order",
+        "duration": "Early hearings",
+        "startsFrom": "payable while the case runs (60-day target)"
+      },
+      {
+        "label": "Income affidavits (both sides)",
+        "duration": "Court-set",
+        "startsFrom": "Rajnesh v. Neha format"
+      },
+      {
+        "label": "Enforcement of arrears",
+        "duration": "1 year",
+        "startsFrom": "apply within a year of each amount falling due"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "scale",
+        "title": "Check who can claim",
+        "summary": "Wife, minor children, disabled adult children, dependent parents.",
+        "detail": "Section 125 CrPC — **now Section 144 BNSS** — covers: a **wife** (including a divorced wife who has not remarried) unable to maintain herself; **minor children**, legitimate or illegitimate; adult children unable to maintain themselves due to disability; and **parents** unable to maintain themselves. It is a secular remedy, available regardless of religion, and runs alongside (not instead of) rights under personal laws, the Domestic Violence Act and HMA Section 24."
+      },
+      {
+        "icon": "file-text",
+        "title": "File where you reside, cheaply",
+        "summary": "Magistrate's court at your place of residence; legal aid available.",
+        "detail": "The application is filed before the Judicial Magistrate where **you** reside (not where the husband lives) — deliberately, so a wife sent away from the matrimonial home is not forced to litigate in his town. Court fees are nominal, and free legal aid through the **District Legal Services Authority ([nalsa.gov.in](https://nalsa.gov.in))** is a statutory right for women applicants. Attach marriage/birth proof, evidence of neglect, and your expenses.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "banknote",
+        "title": "Interim maintenance while the case runs",
+        "summary": "Courts order monthly interim amounts on income affidavits.",
+        "detail": "Following *Rajnesh v. Neha* (2020), both sides must file a standard **affidavit of income and assets**, and interim maintenance applications are to be decided quickly (a 4–6 month expectation was set). The amount weighs his income, your income and needs, the standard of living during marriage, and children's education costs. Hiding income is common — the affidavit format plus bank/ITR summons exist to counter it."
+      },
+      {
+        "icon": "gavel",
+        "title": "Orders and enforcement with teeth",
+        "summary": "Non-payment: warrant, attachment, even civil imprisonment.",
+        "detail": "The final order fixes a monthly amount from the application date (or order date, court's discretion). If he defaults, apply for **enforcement within 1 year** of each amount falling due: the court issues a recovery **warrant**, can attach salary/property, and can sentence up to **one month's imprisonment per month of unpaid maintenance**. Orders can later be altered on changed circumstances (job loss, remarriage) — by the court, never unilaterally."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Court fee on the application",
+          "amount": "Nominal",
+          "note": "A few rupees to a few hundred, by state"
+        },
+        {
+          "label": "Free legal aid (DLSA)",
+          "amount": "Free",
+          "note": "Women applicants qualify as of right"
+        },
+        {
+          "label": "Private advocate (typical)",
+          "amount": "₹5,000–₹40,000",
+          "note": "By city; many take these on modest fees"
+        },
+        {
+          "label": "Documentation + advocate consultation",
+          "amount": "₹199 / ₹299",
+          "note": "WakilBhai application drafting + strategy call"
+        }
+      ],
+      "footnote": "Maintenance amounts are case-specific — courts commonly award a fraction of the husband's established net income across all claimants. This page is general information; a practising advocate should frame your claim and quantum."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "wife maintenance case process",
+      "section 125 crpc maintenance",
+      "bnss 144 maintenance application",
+      "child maintenance from father india",
+      "husband not giving money legal rights",
+      "interim maintenance family court"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "domestic-violence-complaint"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "mutual-divorce-process-cost",
+    "received-court-summons"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can a working wife claim maintenance?",
+        "a": "Earning something does not bar the claim — the test is whether her income sustains a standard of living comparable to the marriage. Courts weigh both incomes; a wife earning modestly against a well-earning husband can still be awarded the difference, and children's costs are assessed separately."
+      },
+      {
+        "q": "How much maintenance do courts usually award?",
+        "a": "There is no fixed formula; a commonly seen benchmark is around one-fourth to one-third of the husband's net income across the claimants, adjusted for his liabilities and both parties' realistic needs per the Rajnesh v. Neha affidavits. Concealed income is attacked through bank records, ITRs and lifestyle evidence."
+      },
+      {
+        "q": "Can a divorced wife still claim under Section 125/BNSS 144?",
+        "a": "Yes — a divorced wife who has not remarried remains a \"wife\" for this remedy and can claim until remarriage. Claims under personal law (e.g. permanent alimony under HMA s.25) and the DV Act operate in parallel, though courts adjust amounts so reliefs are not duplicated."
+      },
+      {
+        "q": "What if he simply refuses to pay the ordered amount?",
+        "a": "File for enforcement within one year of each default: the Magistrate issues a warrant to levy the amount like a fine, can attach salary or property, and can imprison him up to a month per unpaid month. Employers honour salary-attachment orders — persistent defaulters usually pay once the warrant issues."
+      },
+      {
+        "q": "Where do I file if I have moved to my parents' city?",
+        "a": "There — the law lets the wife file where she resides, where he resides, or where they last resided together. Filing in your own city is the norm and he must contest it there, not the other way around."
+      },
+      {
+        "q": "Does claiming maintenance affect a later divorce case?",
+        "a": "The proceedings are independent: a 125/BNSS-144 order neither grants nor blocks divorce, and a divorce case does not stall maintenance. Amounts may be readjusted when permanent alimony is fixed in the divorce, so keep both advocates (if separate) aligned."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
