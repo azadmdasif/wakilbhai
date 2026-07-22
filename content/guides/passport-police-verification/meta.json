@@ -1,0 +1,156 @@
+{
+  "slug": "passport-police-verification",
+  "category": "government-paperwork",
+  "title": {
+    "en": "Passport Police Verification — Process, Adverse Reports and Fixing a Stuck Application"
+  },
+  "answerBox": {
+    "en": "After passport appointment formalities, the file goes for police verification: the local station confirms your address and checks criminal records — clear reports release the passport in days. Trouble comes from address mismatches, tenants without local proof, pending cases, and files sitting at the station. Fixes: watertight address documents, honest disclosure of any case (concealment is the real offence), status tracking, and the PSK grievance ladder."
+  },
+  "keyNumbers": {
+    "en": [
+      "Clear PV = passport in days",
+      "Concealment > case itself",
+      "mPassport status tracking"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "PV initiated",
+        "duration": "After PSK visit",
+        "startsFrom": "file reaches your police station"
+      },
+      {
+        "label": "Station verification",
+        "duration": "1–3 weeks typical",
+        "startsFrom": "constable visit / e-verification"
+      },
+      {
+        "label": "Stuck beyond a month",
+        "duration": "Escalate",
+        "startsFrom": "PSK grievance + SP office"
+      },
+      {
+        "label": "Adverse report response",
+        "duration": "Immediately",
+        "startsFrom": "representation to the RPO"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Set the verification up to succeed",
+        "summary": "Address documents that match, availability, local presence.",
+        "detail": "PV checks two things: **you live where you claim**, and **criminal antecedents**. Give the address you actually live at (current address matters; you can hold mail elsewhere), with **matching proofs** (Aadhaar updated to it helps everything — [update first](/help/government-paperwork/aadhaar-card-corrections) if needed); tenants: rent agreement + landlord contactability. Keep your phone reachable — constables call before visiting; missed contact = \"not found at address\" reports. References/neighbours being aware you exist at the address genuinely matters in some states."
+      },
+      {
+        "icon": "shield",
+        "title": "Pending or past cases: disclose, never conceal",
+        "summary": "The form's criminal-history questions are the real test.",
+        "detail": "Disclose FIRs/cases truthfully — **suppression is an offence under the Passports Act (Section 12)** and grounds for impounding later; disclosure, by contrast, routes you into a manageable process: pending-case applicants can get passports with **court permission** (a standard application in the pending case; courts grant travel-consistent permissions routinely) under the GSR exception framework, often as short-validity passports. Closed/acquitted cases: carry the final report/judgment copies for the verifying officer. An advocate's ₹299 consult before filing beats explanations after an adverse report.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "send",
+        "title": "Track and unstick the file",
+        "summary": "mPassport status → station follow-up → PSK/SP escalation.",
+        "detail": "Track on **[passportindia.gov.in](https://www.passportindia.gov.in)**/mPassport Seva (\"police verification initiated/completed\"). Sitting at the station beyond 2–4 weeks: visit politely with your documents (constables juggle piles; presence resolves most), then escalate — **grievance on the portal**, the **RPO's public grievance cell**, the district **SP's passport cell**, and CPGRAMS. States with **e-verification (mPassport Police app)** move in days; paper states need the follow-up. An [RTI](/help/government-paperwork/rti-application-how-to) asking the file's station-level status is the classic unsticker.",
+        "serviceHint": "passport-annexures"
+      },
+      {
+        "icon": "gavel",
+        "title": "Adverse reports: contest with paper",
+        "summary": "Representation to the RPO; annexures and affidavits cure most.",
+        "detail": "Adverse PV (\"not residing\", \"case pending\", document doubts) triggers an RPO show-cause/rejection — respond with a **written representation + evidence**: fresh address proofs and neighbour/landlord affidavits for residence issues; court orders/final reports for case issues (our **₹199 annexure/affidavit service** prepares the standard formats). Re-verification is ordered on good representations. Refusals under Section 6 are appealable to the **Chief Passport Officer** (and writ jurisdiction beyond) — but the paper-first representation resolves the bulk without appeals."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "PV itself",
+          "amount": "Included",
+          "note": "In passport fees; never pay constables"
+        },
+        {
+          "label": "Annexures/affidavits",
+          "amount": "₹199",
+          "note": "WakilBhai standard passport formats"
+        },
+        {
+          "label": "Court permission (pending case)",
+          "amount": "Advocate fees",
+          "note": "Routine application in your case"
+        },
+        {
+          "label": "Consultation",
+          "amount": "₹299",
+          "note": "Disclosure strategy / adverse-report response"
+        }
+      ],
+      "footnote": "Bribe demands at verification are reportable (state anti-corruption helplines) — and unnecessary: clean files clear on their own, and stuck files respond to the escalation ladder above."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "passport police verification process",
+      "passport police verification me kitna time",
+      "passport verification stuck what to do",
+      "passport pending case court permission",
+      "adverse police verification passport",
+      "passport verification tenant address proof"
+    ]
+  },
+  "relatedServiceIds": [
+    "passport-annexures",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "aadhaar-card-corrections",
+    "fir-copy-online"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "How long does police verification actually take?",
+        "a": "App-based e-verification states: days. Paper-file states: 1–3 weeks typically, plus RPO processing. The overall passport timeline is dominated by PV — which is why address-document hygiene and reachability are the real speed levers."
+      },
+      {
+        "q": "I'm a tenant and the landlord won't give documents. What works?",
+        "a": "A registered rent agreement is the cleanest; failing that, UIDAI-updated Aadhaar at the address plus bank/utility mail there builds the case, and a landlord's simple consent letter usually suffices where full documents are refused. Chronic mismatch cases should update Aadhaar first — it anchors every later verification."
+      },
+      {
+        "q": "There's an old closed FIR against me. Will my passport be refused?",
+        "a": "Closed/acquitted matters are not refusal grounds — but disclose them and carry the closure/acquittal papers for the verifying officer and RPO. Refusals and impoundings arise from PENDING proceedings without court permission, and from concealment. Honest disclosure + documents = manageable."
+      },
+      {
+        "q": "A criminal case is pending against me. Can I get a passport at all?",
+        "a": "Yes — with the criminal court's permission: a standard application in your pending case seeking leave to obtain/renew a passport (and travel, if needed). Courts grant these routinely for work/family travel with conditions. The GSR framework then lets the RPO issue, commonly a short-validity passport during the case."
+      },
+      {
+        "q": "The constable demanded money to file a \"good\" report. What should I do?",
+        "a": "You are not required to pay anything — PV is part of your paid passport service. Note the identifiers, report on the state anti-corruption/vigilance helpline and to the SP's office, and continue the normal process; files clear on documents. Paying invites repeat demands and validates the racket."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
