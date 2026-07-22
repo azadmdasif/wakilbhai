@@ -1,0 +1,160 @@
+{
+  "slug": "succession-certificate-legal-heir",
+  "category": "family-personal",
+  "title": {
+    "en": "Succession Certificate vs Legal Heir Certificate — When You Need Which, Process and Cost"
+  },
+  "answerBox": {
+    "en": "When someone dies without a will, two documents unlock their assets: a legal heir certificate (from the tehsildar/taluk office, ₹20–100, 2–8 weeks) identifies the heirs for pensions, jobs and small claims; a succession certificate (from the civil court under the Indian Succession Act, 2–3% court fee on the asset value, 4–8 months) is needed to claim debts and securities — bank deposits, shares, bonds."
+  },
+  "keyNumbers": {
+    "en": [
+      "Heir certificate: ₹20–100",
+      "Succession: court, 2–3% fee",
+      "45-day objection notice"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Legal heir certificate",
+        "duration": "2–8 weeks",
+        "startsFrom": "tehsildar/taluk application"
+      },
+      {
+        "label": "Succession petition filed",
+        "duration": "Anytime",
+        "startsFrom": "no limitation, but banks wait for it"
+      },
+      {
+        "label": "Court notice + objections",
+        "duration": "~45 days",
+        "startsFrom": "newspaper/gazette notice to invite claims"
+      },
+      {
+        "label": "Certificate issued",
+        "duration": "4–8 months",
+        "startsFrom": "typical uncontested timeline"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "scale",
+        "title": "Pick the right document first",
+        "summary": "Heir certificate for identity; succession certificate for debts/securities.",
+        "detail": "The **legal heir certificate** (revenue authorities — tehsildar/taluk/SDM; issued on varying state rules) establishes *who the heirs are*: used for family pension, government-job compassionate appointment, insurance and small balances. The **succession certificate** (civil court, Sections 370–390 **Indian Succession Act, 1925**) authorises heirs to *collect the deceased's debts and securities* — banks, shares, bonds, FDs — and is what institutions demand for substantial amounts. Immovable property transfer follows succession law/mutation, not these certificates alone. If there IS a will, the executor route (probate where applicable) replaces all this — see our will guide."
+      },
+      {
+        "icon": "file-text",
+        "title": "Legal heir certificate: the revenue route",
+        "summary": "Cheap, local, and enough for many purposes.",
+        "detail": "Apply to the tehsildar/taluk office (many states take it online through e-district portals) with the **death certificate**, your ID/address proof, the family details and a small fee (**₹20–100**). A revenue inspector may verify the family locally; the certificate listing all heirs issues in **2–8 weeks**. All heirs should be truthfully listed — omitting one is the classic seed of later litigation and cancellation.",
+        "serviceHint": "inheritance-declaration"
+      },
+      {
+        "icon": "gavel",
+        "title": "Succession certificate: the court route",
+        "summary": "District court petition, public notice, 2–3% court fee.",
+        "detail": "File a petition in the district court where the deceased ordinarily resided (or where the assets are), listing the death, the heirs, and **each debt/security with its value**. The court issues **notice** to heirs and publishes a newspaper citation inviting objections — commonly ~**45 days**. Uncontested, the certificate issues in about **4–8 months**, on payment of court fee of roughly **2–3% of the asset value** (state-specific slabs). Contested matters become full civil disputes — advocate territory from day one.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "banknote",
+        "title": "Use it to actually collect the assets",
+        "summary": "Certificate + death certificate + KYC unlocks each institution.",
+        "detail": "Take certified copies to each bank/company registrar: they transfer or release the funds/securities against the certificate — it fully protects the institution, which is why they insist on it. Note the shortcuts that avoid the whole process: **nominations** on accounts, joint holdings with survivorship, and small-balance settlement policies (many banks settle modest amounts on an indemnity + affidavit basis without a certificate). For the next generation: nominations + a will (see our guide) make these certificates unnecessary."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Legal heir certificate",
+          "amount": "₹20–100",
+          "note": "Revenue office fee; 2–8 weeks"
+        },
+        {
+          "label": "Succession certificate court fee",
+          "amount": "~2–3% of asset value",
+          "note": "State-slab based, often capped"
+        },
+        {
+          "label": "Advocate for the petition",
+          "amount": "₹10,000–50,000+",
+          "note": "By city and asset size; contested costs more"
+        },
+        {
+          "label": "Documentation + consultation",
+          "amount": "₹199 / ₹299",
+          "note": "Heir declaration drafting + strategy call"
+        }
+      ],
+      "footnote": "Court-fee percentages and caps vary by state — verify the local schedule before filing, since on large estates the fee is the dominant cost. This page is general information; the petition itself needs a practising advocate."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "succession certificate process india",
+      "legal heir certificate kaise banaye",
+      "succession certificate vs legal heir certificate",
+      "succession certificate court fees",
+      "bank account of deceased person claim",
+      "varisu certificate apply"
+    ]
+  },
+  "relatedServiceIds": [
+    "inheritance-declaration",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "how-to-make-a-will",
+    "maintenance-wife-children"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "What is the difference between a legal heir certificate and a succession certificate?",
+        "a": "The legal heir certificate (revenue office, cheap, weeks) identifies the heirs — enough for pension, compassionate appointment and small claims. The succession certificate (civil court, percentage court fee, months) legally authorises collection of the deceased's debts and securities — banks and registrars demand it for substantial movable assets. They are complementary, not interchangeable."
+      },
+      {
+        "q": "Do I need a succession certificate if there is a nominee on the account?",
+        "a": "Usually not for release of the money — the bank pays the nominee. But legally the nominee holds the funds as a trustee for all legal heirs; ownership still follows succession law. For distribution disputes among heirs, the certificate or a civil suit remains relevant."
+      },
+      {
+        "q": "Can one heir apply without the others?",
+        "a": "Yes — any heir can petition, but every other heir must be disclosed and receives court notice. Heirs can file consents/no-objections to speed things up, or the court can grant the certificate to one heir on behalf of all. Concealing an heir is the surest way to get the certificate revoked later."
+      },
+      {
+        "q": "Does a succession certificate cover house and land?",
+        "a": "No — it covers debts and securities (money claims). Immovable property passes by succession law directly; heirs record it through mutation in revenue/municipal records using the heir certificate, a registered family settlement, or a partition suit if disputed. Plan for both tracks when the estate has property and deposits."
+      },
+      {
+        "q": "How long is a legal heir certificate valid, and does it work across states?",
+        "a": "It has no expiry and is generally accepted across India for identification of heirs, though some institutions ask for a recent issue. Formats and issuing authorities differ by state (tehsildar, taluk office, e-district portals); apply where the deceased resided."
+      },
+      {
+        "q": "What if another person objects in the succession case?",
+        "a": "The summary proceeding turns contested: the court may still decide summarily or relegate the parties to a civil suit on title. Objections from rival claimants, second families, or creditors are exactly why the process has notice built in — and why an advocate should draft the petition anticipating them."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
