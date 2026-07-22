@@ -1,0 +1,155 @@
+{
+  "slug": "loan-given-without-paperwork",
+  "category": "money-recovery",
+  "title": {
+    "en": "Gave a Loan Without Any Paperwork? How to Still Recover Your Money"
+  },
+  "answerBox": {
+    "en": "A loan without documents is still a valid debt — the problem is proof, and proof can be built now: bank/UPI transfer records, witnesses, and above all a fresh written acknowledgement from the borrower (a WhatsApp \"I'll return your ₹2 lakh soon\" is evidence and resets the 3-year limitation). Engineer the acknowledgement first, then the ₹999 legal notice, then suit or Lok Adalat."
+  },
+  "keyNumbers": {
+    "en": [
+      "Oral loan = valid",
+      "Acknowledgement resets 3 yrs",
+      "₹999 notice"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Build the acknowledgement",
+        "duration": "Now",
+        "startsFrom": "before relations fully break"
+      },
+      {
+        "label": "Limitation",
+        "duration": "3 years",
+        "startsFrom": "from due date / each acknowledgement"
+      },
+      {
+        "label": "Legal notice",
+        "duration": "15 days",
+        "startsFrom": "deadline in the notice"
+      },
+      {
+        "label": "Suit / Lok Adalat",
+        "duration": "Next",
+        "startsFrom": "on the evidence assembled"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "phone",
+        "title": "Engineer the acknowledgement — your case depends on it",
+        "summary": "Get the debt admitted in writing before confrontation.",
+        "detail": "Before any legal threat, get the borrower to **admit the loan in writing**: a WhatsApp asking \"when can you return the ₹2,00,000 I gave you in March?\" answered with any variant of \"soon / after Diwali / give me time\" is an admission. Voice notes and recorded calls (you can lawfully record your own conversations) work too. Under **Section 18, Limitation Act**, each written acknowledgement restarts the 3-year clock — old loans revive this way."
+      },
+      {
+        "icon": "file-text",
+        "title": "Assemble the money trail",
+        "summary": "Transfers beat everything; cash needs circumstantial build-up.",
+        "detail": "**Bank/UPI/IMPS records** of the transfer are near-conclusive on the principal. Pure cash: reconstruct — your withdrawal records matching the date, witnesses to the handing over, the borrower's conduct (part-payments received, interest paid — each part-payment is also a Section 19 limitation reset). List every repayment received so your claim nets correctly; inflated claims damage credibility."
+      },
+      {
+        "icon": "send",
+        "title": "Legal notice with the evidence recited",
+        "summary": "The notice narrates the loan story the court will later read.",
+        "detail": "The **₹999 advocate's notice** recites: date and mode of the loan, the acknowledgements (quoted verbatim with dates), part-payments, and the demand with interest and a 15-day deadline. This does two jobs: settlement pressure now, and a contemporaneous narrative exhibit later. Many borrowers — especially relatives fearing family exposure — repay or restructure at this point.",
+        "serviceHint": "legal-notice-dispute"
+      },
+      {
+        "icon": "gavel",
+        "title": "Forum: suit, Lok Adalat — not the police",
+        "summary": "Civil recovery is the lane; criminal only in narrow cases.",
+        "detail": "With acknowledgements in hand, sue for recovery (small causes court for modest sums; regular suit otherwise — Order 37 is unavailable without a written contract/instrument, so the acknowledgements substitute as the evidence spine). **Pre-litigation Lok Adalat** is ideal for family/friend loans — settlement with decree force, relationships less scorched (see our [friend-loan guide](/help/money-recovery/friend-not-returning-money)). Police complaints work only where deception from inception is provable (borrowed with no intention to repay — Section 420 IPC, now Section 318 BNS) or a security cheque bounces."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Evidence building",
+          "amount": "Free",
+          "note": "Messages, records, witnesses"
+        },
+        {
+          "label": "Advocate's notice",
+          "amount": "₹999",
+          "note": "WakilBhai; acknowledgement-anchored"
+        },
+        {
+          "label": "Suit court fee",
+          "amount": "Ad valorem",
+          "note": "State slab on the amount claimed"
+        },
+        {
+          "label": "Lok Adalat",
+          "amount": "Free",
+          "note": "Settlement decree, fee refund if suit filed"
+        }
+      ],
+      "footnote": "For the next loan: even a two-line signed note (\"received ₹X from Y on date, to repay by date with Z% interest\") plus a bank transfer prevents this entire guide from being necessary. A promissory note costs ₹199 to draft."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "loan without agreement recovery",
+      "bina likha padhi ke udhar kaise wapas le",
+      "cash loan recovery proof",
+      "oral loan legal recovery india",
+      "whatsapp chat as evidence loan",
+      "limitation act acknowledgement debt"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-dispute",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "loan-repayment-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "friend-not-returning-money",
+    "cheque-bounce-what-to-do"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Are WhatsApp chats really admissible as evidence?",
+        "a": "Yes — electronic records are admissible with a Section 65B certificate (a routine formality your advocate handles), and courts decide loan cases on chat trails regularly. Preserve originals on the device; export with metadata rather than screenshots alone where possible."
+      },
+      {
+        "q": "The loan was 4 years ago. Is it time-barred?",
+        "a": "Only if nothing reset the clock: each written acknowledgement or part-payment within a 3-year window restarts limitation from that date. This is why engineering a fresh acknowledgement is step one — a message admitting the debt today makes a 4-year-old loan enforceable for 3 more years."
+      },
+      {
+        "q": "He is paying ₹2,000 occasionally and calling it \"adjustment\". Should I accept?",
+        "a": "Accept and document — every part-payment both reduces the claim honestly and resets limitation (Section 19, if recorded in writing or through banking channels). Acknowledge receipt in the chat naming it as part-payment of the loan, so the record compounds in your favour."
+      },
+      {
+        "q": "Can I charge interest on an undocumented loan?",
+        "a": "Courts can award reasonable interest (commonly 6–12%) from the demand date even absent an agreed rate, and from the loan date where circumstances imply interest was intended. State money-lending laws cap rates for lending as business — a one-off personal loan is outside them."
+      },
+      {
+        "q": "He says \"prove it\" and denies everything. How do courts weigh it?",
+        "a": "On preponderance of probabilities — not criminal-level proof. A transfer into his account + your demand messages + his evasive replies + no explanation of why he received the money typically outweighs a bare denial. His account statement (summonable) showing the credit is often the closing blow."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
