@@ -1,0 +1,155 @@
+{
+  "slug": "money-recovery-time-limits",
+  "category": "money-recovery",
+  "title": {
+    "en": "Time Limits for Money Recovery in India — The Limitation Rules That Decide Cases"
+  },
+  "answerBox": {
+    "en": "Most money claims die by delay, not merit: the Limitation Act gives 3 years for loans, invoices, and contract dues — counted from when payment fell due. Two lifelines reset the clock: a written acknowledgement of the debt (Section 18) and a part-payment (Section 19), each restarting 3 years. Cheque-bounce criminal complaints run on far shorter clocks (30 days after the notice window). Know your dates before you negotiate."
+  },
+  "keyNumbers": {
+    "en": [
+      "3 years — the default",
+      "Acknowledgement resets it",
+      "Cheque route: 30-day clocks"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Loans / invoices / contract dues",
+        "duration": "3 years",
+        "startsFrom": "from the due date"
+      },
+      {
+        "label": "Written acknowledgement",
+        "duration": "Resets 3 yrs",
+        "startsFrom": "from each signed/written admission"
+      },
+      {
+        "label": "Part-payment",
+        "duration": "Resets 3 yrs",
+        "startsFrom": "from each recorded payment"
+      },
+      {
+        "label": "Money decree execution",
+        "duration": "12 years",
+        "startsFrom": "from the decree"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "clock",
+        "title": "Find your Article and your start date",
+        "summary": "The schedule assigns each claim its period and trigger.",
+        "detail": "The **Limitation Act, 1963** schedule: money lent — **3 years from the loan/due date** (Articles 19–21); goods sold/services — **3 years from delivery/due date**; a loan with a fixed repayment date — from that date; on-demand loans — generally **from the date of the loan** (not the demand — a trap that kills stale claims). Written contracts don't extend this; only the resets below do. Interest claims travel with the principal."
+      },
+      {
+        "icon": "file-text",
+        "title": "The two resets: acknowledgement and part-payment",
+        "summary": "Sections 18 and 19 — the debt-reviver provisions.",
+        "detail": "**Section 18**: a written, signed acknowledgement of liability made **before expiry** restarts limitation — emails and WhatsApp messages qualify as writings (courts accept them with 65B certificates); \"I will clear your dues after March\" is enough, an exact figure is not required. **Section 19**: a part-payment of principal or interest, evidenced in writing/bank records, likewise restarts the clock. Strategy follows: keep the debtor talking on record, bank every rupee received, and never let a due date pass silently — send the dated demand."
+      },
+      {
+        "icon": "scale",
+        "title": "Special clocks that differ from 3 years",
+        "summary": "Cheques, MSME route, decrees, government claims.",
+        "detail": "Different regimes, different clocks: **cheque bounce** — present within validity (3 months), notice within 30 days of return memo, complaint within 30 days after the 15-day pay window ([full guide](/help/money-recovery/cheque-bounce-what-to-do)); **MSME Samadhaan** references are best filed while the underlying 3-year contract claim is alive; **executing a decree** — 12 years; **appeals** — 30–90 days by forum. Consumer complaints: 2 years. Missing a short clock can leave the longer civil route still open — check before giving up.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "gavel",
+        "title": "Expired limitation: what remains",
+        "summary": "Condonation is narrow for suits — but the debt isn't erased.",
+        "detail": "Courts **cannot condone delay in filing suits** (Section 5 applies to appeals/applications, not suits) — a time-barred suit fails even if the debtor admits owing. What remains: a **fresh written acknowledgement revives the claim** (Section 18 works only pre-expiry, but a time-barred debt acknowledged as a fresh promise under **Section 25(3), Contract Act** — a signed written promise to pay a time-barred debt — is enforceable as a new contract); set-off defences; and moral/settlement pressure via Lok Adalat. If your dates are borderline, file first and argue later — the plaint's filing date is what counts."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Date audit of your claims",
+          "amount": "Free",
+          "note": "List due dates, acknowledgements, payments"
+        },
+        {
+          "label": "Demand notice (clock discipline)",
+          "amount": "₹999",
+          "note": "Advocate-sent, dated, deadline-setting"
+        },
+        {
+          "label": "Consultation on borderline dates",
+          "amount": "₹299",
+          "note": "Article + reset analysis for your facts"
+        },
+        {
+          "label": "Filing before expiry",
+          "amount": "Court fee",
+          "note": "File first when in doubt — dates decide"
+        }
+      ],
+      "footnote": "This page states general limitation rules — computation on real facts (acknowledgements, part-payments, disability periods, court closures) has wrinkles; borderline cases deserve an advocate's date-math before you rely on it."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "limitation period money recovery india",
+      "udhar wapas lene ki time limit",
+      "time barred debt recovery",
+      "limitation act 3 years acknowledgement",
+      "section 18 limitation acknowledgement",
+      "decree execution limitation 12 years"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "legal-notice-dispute"
+  ],
+  "relatedTemplateSlugs": [
+    "loan-repayment-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "loan-given-without-paperwork",
+    "cheque-bounce-what-to-do"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is a time-barred debt legally dead?",
+        "a": "The remedy by suit is barred; the debt itself survives as a moral/imperfect obligation. Practical revivals: a signed written promise to pay it (enforceable as a fresh contract under Section 25(3), Contract Act), voluntary payment (irrecoverable by the debtor), and settlement forums like Lok Adalat where consent, not limitation, governs."
+      },
+      {
+        "q": "Does a WhatsApp message really reset limitation?",
+        "a": "Courts have accepted electronic messages as Section 18 acknowledgements — a writing evidencing subsistence of liability, attributable to the debtor. Keep the original device/export with a 65B certificate. A dated bank part-payment is even cleaner under Section 19."
+      },
+      {
+        "q": "My loan had no repayment date. When did limitation start?",
+        "a": "For money payable on demand, limitation generally runs from the date of the loan itself — not from when you eventually demanded. This surprises most lenders. If you are within 3 years of the loan, act now; if outside, work the acknowledgement/fresh-promise routes."
+      },
+      {
+        "q": "Do court vacations/COVID-type suspensions extend my deadline?",
+        "a": "Specific extensions have existed — the Supreme Court excluded the COVID window (Mar 2020–Feb 2022) from limitation computation, and Section 4 extends deadlines falling on court holidays to the next working day. These are computation details worth an advocate's check on borderline dates."
+      },
+      {
+        "q": "What is the limitation for executing a decree or award I already have?",
+        "a": "12 years for execution of a money decree (Article 136), and Lok Adalat awards/arbitral awards execute as decrees on the same footing. Even here, don't sit — assets and debtors move; execution filed early recovers, execution filed in year 11 usually chases shadows."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
