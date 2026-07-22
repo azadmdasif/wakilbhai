@@ -1,0 +1,155 @@
+{
+  "slug": "birth-certificate-correction",
+  "category": "government-paperwork",
+  "title": {
+    "en": "Birth Certificate Correction — Name, Date and Spelling Fixes, Step by Step"
+  },
+  "answerBox": {
+    "en": "Corrections to a birth certificate are made at the local registrar (municipality/panchayat) where the birth was registered: minor spelling/clerical fixes go on an application with documents and a small fee; substantive changes (name addition, parent details, date disputes) need an affidavit, supporting records, and sometimes a magistrate's order. Delayed registration (birth over 1 year old, never registered) now needs a District Magistrate's order."
+  },
+  "keyNumbers": {
+    "en": [
+      "Registrar of birth = venue",
+      "₹199 affidavit drafting",
+      "DM order if never registered"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Clerical correction application",
+        "duration": "2–8 weeks",
+        "startsFrom": "registrar processing, state-wise"
+      },
+      {
+        "label": "Name addition for a child",
+        "duration": "Within 15 years",
+        "startsFrom": "if born-unnamed entry (per RBD rules)"
+      },
+      {
+        "label": "Delayed registration (>1 year)",
+        "duration": "DM order first",
+        "startsFrom": "RBD Amendment Act, 2023 regime"
+      },
+      {
+        "label": "Use everywhere after",
+        "duration": "Ongoing",
+        "startsFrom": "birth certificate is now a single key document"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Identify the correction type — it decides the route",
+        "summary": "Clerical fix, name addition, or substantive change.",
+        "detail": "Three lanes: **(1) clerical/typographical** (spelling of names, transposed letters) — registrar corrects on application with proof under **Section 15, Registration of Births and Deaths Act, 1969**; **(2) name addition** — where the child was registered unnamed, the name can be entered later within the rule-bound window; **(3) substantive changes** (changing the recorded date of birth, parent name disputes) — these face strict scrutiny, need strong contemporaneous evidence (hospital records, school records), affidavits, and often a **declaration from a magistrate/court**. Date-of-birth changes to gain age advantages are routinely refused."
+      },
+      {
+        "icon": "send",
+        "title": "Apply to the registrar who issued it",
+        "summary": "Municipality/panchayat of the birthplace; many states online.",
+        "detail": "File the correction application at the **registrar (municipal corporation/panchayat) where the birth was registered** — jurisdiction stays with the original registrar even if you live elsewhere now; several states accept online applications through their civil-registration portals (linked from **[crsorgi.gov.in](https://crsorgi.gov.in)**, the national CRS). Attach the original certificate, the proposed correction, and supporting documents: hospital discharge/birth record, parents' IDs, school records, vaccination card."
+      },
+      {
+        "icon": "signature",
+        "title": "The affidavit + publication layer",
+        "summary": "Most non-clerical corrections ride on a sworn affidavit.",
+        "detail": "For name/spelling harmonisation and parent-detail fixes, registrars typically require a **notarised affidavit** from the parents (or the adult applicant) stating the error and the correct entry — our **₹199 service** drafts it to your municipality's format. Some states additionally want a newspaper publication for name-related corrections (akin to the [name change process](/help/family-personal/name-change-process)). Fees are small (₹25–200 typical, plus certificate copies).",
+        "serviceHint": "birth-certificate-correction-affidavit"
+      },
+      {
+        "icon": "check",
+        "title": "Never registered, or registered late?",
+        "summary": "The 2023 amendment tightened delayed registration — DM order.",
+        "detail": "Births never registered: under the **RBD Amendment Act, 2023** regime, registration after one year requires an order of the **District Magistrate/sub-divisional magistrate** on verification of the birth (older law allowed a first-class magistrate's order; states are aligning procedures). Expect: application, non-availability certificate from the registrar, affidavit, school/hospital evidence, and the DM office verification. Since the birth certificate is now the single foundational document for school, passport, Aadhaar and licences, fixing gaps early saves compounding pain."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Correction application fee",
+          "amount": "₹25–200",
+          "note": "State/municipality-wise, plus copies"
+        },
+        {
+          "label": "Affidavit (drafted + notarised)",
+          "amount": "₹199 + notary",
+          "note": "WakilBhai drafting service"
+        },
+        {
+          "label": "Newspaper publication (where asked)",
+          "amount": "₹300–800",
+          "note": "Some states, for name corrections"
+        },
+        {
+          "label": "Delayed-registration route",
+          "amount": "Varies",
+          "note": "DM-order process; consultation ₹299 helps"
+        }
+      ],
+      "footnote": "Keep every ID consistent after correction — mismatches between birth certificate, Aadhaar and school records are the root of most document rejections later in life."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "birth certificate correction process",
+      "birth certificate me naam kaise sudhare",
+      "birth certificate name spelling mistake",
+      "date of birth correction certificate",
+      "delayed birth registration process",
+      "birth certificate online correction"
+    ]
+  },
+  "relatedServiceIds": [
+    "birth-certificate-correction-affidavit",
+    "affidavit-general"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "name-change-process",
+    "affidavits-common-uses"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can I change the date of birth on a certificate?",
+        "a": "Only with compelling contemporaneous evidence that the recorded date is wrong (hospital register, discharge summary) — registrars and courts refuse changes aimed at age advantage for jobs/school. Genuine clerical date errors supported by the hospital record do get corrected."
+      },
+      {
+        "q": "The birth was registered but no name was entered. How is the name added?",
+        "a": "A born-unnamed entry can have the name entered later on the parents' application under the RBD rules — historically within 12–15 years. Take both parents' IDs, the certificate, and an affidavit; the registrar enters the name and issues a fresh certificate."
+      },
+      {
+        "q": "We've moved cities. Can the correction be done where I live now?",
+        "a": "No — jurisdiction lies with the registrar where the birth was registered. Most states now accept online/postal applications so travel is often avoidable; an authorised representative with a specific power of attorney can also appear."
+      },
+      {
+        "q": "What if there is no birth certificate at all (born at home, never registered)?",
+        "a": "Apply for delayed registration: non-availability certificate from the registrar, affidavit of the facts, supporting evidence (school records, vaccination card, ration/Aadhaar entries), and the District Magistrate's verification order under the current regime. It is paperwork-heavy but very doable — and worth doing before passport/visa needs force it under deadline."
+      },
+      {
+        "q": "Aadhaar/PAN/school records show a different spelling than the certificate. Which one do I fix?",
+        "a": "Fix towards one authoritative spelling — usually the birth certificate corrected first, then Aadhaar and the rest aligned to it, since the 2023 amendments make the birth certificate the foundational document. A one-and-the-same-person affidavit bridges the gap during the transition."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
