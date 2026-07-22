@@ -1,0 +1,156 @@
+{
+  "slug": "seized-vehicle-release",
+  "category": "vehicle-accident",
+  "title": {
+    "en": "Vehicle Seized by Police or RTO? Release Procedures That Actually Work"
+  },
+  "answerBox": {
+    "en": "How you free a seized vehicle depends on who seized it and why: document/permit violations resolve at the RTO/police by paying the compounding fee; vehicles seized in criminal cases or accidents need a release (superdari) application before the Magistrate — courts are directed to release vehicles quickly rather than let them rot in police yards. Bank repossessions follow a different lane entirely."
+  },
+  "keyNumbers": {
+    "en": [
+      "Superdari via Magistrate",
+      "Compounding at RTO",
+      "Courts favour quick release"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Get the seizure memo",
+        "duration": "On the spot",
+        "startsFrom": "why + under what provision"
+      },
+      {
+        "label": "Compound document violations",
+        "duration": "Days",
+        "startsFrom": "pay + produce papers at RTO/court"
+      },
+      {
+        "label": "Superdari application",
+        "duration": "Immediately",
+        "startsFrom": "criminal-case seizures — file fast"
+      },
+      {
+        "label": "Vehicle deterioration",
+        "duration": "Every week",
+        "startsFrom": "yards destroy value; speed matters"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Know why it was seized — the memo controls",
+        "summary": "Documents, crime involvement, accident, or loan default.",
+        "detail": "Demand the **seizure memo/receipt** naming the provision: MV Act document/permit violations (no RC/insurance/permit, underage driving), involvement in a **criminal case** (stolen property, used in an offence, accident vehicle held as evidence), or **financier repossession** (not a police matter at all). Each has a different door; pushing the wrong one wastes weeks. Photograph the vehicle's condition at seizure — yard damage claims need a baseline."
+      },
+      {
+        "icon": "banknote",
+        "title": "Document violations: compound and collect",
+        "summary": "Produce papers + pay the fee; challan portal or RTO.",
+        "detail": "For paper violations, produce the missing documents (or get duplicates — see our [lost documents guide](/help/government-paperwork/lost-documents-fir-duplicates)) and **pay the compounding fine** at the RTO/traffic court or via the [e-challan portal](https://echallan.parivahan.gov.in). Release follows on the spot or with a court release memo. Permit/tax seizures of commercial vehicles: clear the tax/permit dues; states release against payment plus penalty.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "gavel",
+        "title": "Criminal-case seizures: superdari, fast",
+        "summary": "Application under BNSS 497/503 (old 451/457 CrPC) to the Magistrate.",
+        "detail": "Vehicles seized as case property are released on **superdari** (interim custody) by the Magistrate — application under **Sections 451/457 CrPC (now Sections 497/503 BNSS)** with your RC, ID, and an undertaking/bond to produce the vehicle when required. The Supreme Court in *Sunderbhai Ambalal Desai* directed prompt release — vehicles rotting in yards serve no one; cite it. Accident vehicles: release follows the mechanical inspection report — push for the inspection date. An advocate files and argues this in one or two hearings; it is routine work.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "shield",
+        "title": "Special lanes: finance repossession and confiscation laws",
+        "summary": "Bank seizures and excise/mining confiscations differ.",
+        "detail": "**Financier repossession** for EMI default is contract enforcement — the remedy is with the lender (settle/regularise and recover the vehicle; forcible repossession without due process is challengeable — see our [recovery agent guide](/help/money-recovery/loan-recovery-agent-harassment)). Vehicles seized under **excise/prohibition/mining laws** face state confiscation proceedings with their own appeal ladders and strict timelines — that is immediate advocate territory; delay can convert seizure into permanent loss."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Compounding fines (document cases)",
+          "amount": "Per offence table",
+          "note": "MV Act schedules; portal-payable"
+        },
+        {
+          "label": "Superdari application",
+          "amount": "Nominal court fee",
+          "note": "Bond/surety as court directs"
+        },
+        {
+          "label": "Advocate for superdari",
+          "amount": "₹3,000–15,000",
+          "note": "Routine 1–2 hearing matter"
+        },
+        {
+          "label": "Yard/towing charges",
+          "amount": "State-fixed",
+          "note": "Payable at release; contest inflation"
+        }
+      ],
+      "footnote": "Speed is the strategy: yards strip and weather vehicles, and superdari granted in week one beats litigation over a corroded shell in month six."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "police ne gaadi seize kar li kya kare",
+      "seized vehicle release process",
+      "superdari application vehicle",
+      "rto seized vehicle release",
+      "accident vehicle release from police",
+      "court se gaadi kaise chhudaye"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "accident-affidavit"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "traffic-challan-disputes",
+    "accident-compensation-mact"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "How long can police legally keep my seized vehicle?",
+        "a": "For document violations — only until you compound and produce papers. As case property — until the court releases it, which is why you file superdari immediately rather than wait for the case to end (trials take years; Sunderbhai Ambalal says vehicles should not). There is no rule requiring the vehicle to stay till trial concludes."
+      },
+      {
+        "q": "What conditions come with superdari release?",
+        "a": "Typically: a bond (sometimes with surety) for the vehicle's value, undertaking to produce it before the court when required, not to alter its identity or transfer it during the case, and photographs/panchnama recording its condition. Breach forfeits the bond — treat conditions seriously."
+      },
+      {
+        "q": "The seized vehicle is deteriorating in the yard. Any remedy?",
+        "a": "Cite the deterioration in the superdari application with your seizure-day photos — courts accelerate release exactly on this ground. Post-release, damage attributable to negligent police custody can ground a compensation claim, but realistically the win is getting it out fast."
+      },
+      {
+        "q": "My vehicle was seized because the driver committed an offence. Am I stuck?",
+        "a": "The owner can seek superdari even when the driver faces prosecution — ownership and the offence are separate questions unless the vehicle itself is the crime's instrument in confiscation-type laws. Your RC + bond usually secures release while the driver's case proceeds."
+      },
+      {
+        "q": "Police refuse to give a seizure memo. What do I do?",
+        "a": "Insist in writing (station complaint naming date/time/officer), and apply to the Magistrate — an unreceipted seizure is itself irregular and helps your release application. Every seizure must be documented and reported to the court; undocumented \"parking\" of your vehicle at the station is pressure, not process."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
