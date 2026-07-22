@@ -1,0 +1,156 @@
+{
+  "slug": "court-marriage-process",
+  "category": "family-personal",
+  "title": {
+    "en": "Court Marriage Under the Special Marriage Act — Notice, 30 Days, Documents and Cost"
+  },
+  "answerBox": {
+    "en": "A court marriage (Special Marriage Act, 1954) works for any two adults — across religions, or anyone preferring a civil ceremony: give 30 days' written notice to the Marriage Officer of the district where either party has lived for 30+ days, and after the notice period (if no valid objection) the marriage is solemnised before the officer and three witnesses. Government fees are a few hundred rupees; the certificate issues the same day."
+  },
+  "keyNumbers": {
+    "en": [
+      "30-day notice period",
+      "3 witnesses",
+      "Fees: a few hundred ₹"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "30-day residence",
+        "duration": "Before notice",
+        "startsFrom": "either party, in the district"
+      },
+      {
+        "label": "Notice period",
+        "duration": "30 days",
+        "startsFrom": "from notice publication"
+      },
+      {
+        "label": "Objection window",
+        "duration": "Within the 30 days",
+        "startsFrom": "legal grounds only"
+      },
+      {
+        "label": "Solemnisation validity",
+        "duration": "3 months",
+        "startsFrom": "complete within 3 months of notice"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Check conditions and file the notice",
+        "summary": "Age, capacity, prohibited degrees — then Form + documents.",
+        "detail": "Conditions (Section 4, SMA): groom 21+, bride 18+, neither with a living spouse, both capable of consent, outside prohibited relationship degrees. File the **notice of intended marriage** with the **Marriage Officer** (SDM/registrar) of the district where **either** party has resided **30+ days**: passport photos, age proof (birth certificate/passport/10th certificate), address proof, affidavits of marital status (our **₹199 marriage affidavit** service), and divorce decree/death certificate where applicable. Many states accept online submission with an in-person verification visit.",
+        "serviceHint": "marriage-affidavit"
+      },
+      {
+        "icon": "clock",
+        "title": "The 30-day notice period — what it is and isn't",
+        "summary": "Public notice inviting objections on legal grounds only.",
+        "detail": "The notice is displayed at the office (and sent to the permanent-address district if different). **Objections** (Section 7) must allege a legal impediment — existing marriage, underage, prohibited degrees — and the officer inquires and decides within 30 days of the objection; rejection of frivolous objections is appealable in your favour. Family displeasure is NOT a legal objection. Couples fearing harassment: police protection can be sought (courts, following *Lata Singh*, protect adult couples' choices), and safety planning around the notice display is legitimate — take advice."
+      },
+      {
+        "icon": "signature",
+        "title": "Solemnisation and the certificate",
+        "summary": "Declarations before the officer + 3 witnesses; certificate same day.",
+        "detail": "After 30 days (and within **3 months** of the notice, else it lapses), the marriage is **solemnised at the office** (or within reasonable distance on payment): both parties declare in the prescribed words before the **Marriage Officer and three witnesses** (any adults with ID — friends work; parents are not required). Sign the register; the **marriage certificate** issues — conclusive proof for passports, visas, banks and everything after. Total government fees typically run **₹100–1,000** by state."
+      },
+      {
+        "icon": "shield",
+        "title": "Special situations",
+        "summary": "Interfaith notes, NRI timing, and registering an existing marriage.",
+        "detail": "**Interfaith couples**: SMA marriage requires no conversion — that is its purpose; personal-law succession consequences (Section 21/21A nuances) deserve a quick advice check. **NRIs**: the 30-day residence + 30-day notice needs calendar planning; some consulates solemnise under the Foreign Marriage Act abroad. Already married religiously? That marriage is **registered** (not re-solemnised) under state registration rules or SMA Section 15 — a different, shorter process (see our [marriage registration guide](/help/family-personal/marriage-registration)). Court marriage ≠ \"instant marriage\" — beware agents selling same-day certificates; those are frauds.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Government fees",
+          "amount": "₹100–1,000",
+          "note": "Notice + solemnisation + certificate, state-wise"
+        },
+        {
+          "label": "Affidavits (both parties)",
+          "amount": "₹199 + notary",
+          "note": "WakilBhai drafting; status/age declarations"
+        },
+        {
+          "label": "Documentation help end-to-end",
+          "amount": "₹199–499",
+          "note": "Notice pack + checklists"
+        },
+        {
+          "label": "Advice (objections/safety)",
+          "amount": "₹299",
+          "note": "Interfaith/NRI/protection situations"
+        }
+      ],
+      "footnote": "Timeline honestly stated: ~30–45 days from notice to certificate. Anyone promising a legal SMA marriage in a day is selling either a religious ceremony you'll still need to register — or a forgery."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "court marriage process india",
+      "court marriage kaise hoti hai",
+      "special marriage act 30 days notice",
+      "court marriage documents required",
+      "court marriage fees",
+      "interfaith marriage without conversion"
+    ]
+  },
+  "relatedServiceIds": [
+    "marriage-affidavit",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "marriage-registration",
+    "name-change-process"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can the 30-day notice period be skipped?",
+        "a": "No — it is statutory under the SMA. What varies is everything around it: online filing, appointment efficiency, and solemnisation promptly on day 31. Couples needing immediate marriage sometimes solemnise religiously first (valid under personal law) and register that marriage — different consequences; take advice for your facts."
+      },
+      {
+        "q": "Will my parents be informed of the notice?",
+        "a": "The notice is displayed publicly at the marriage office, and a copy goes to the permanent-address district office if different — the law does not send personal notices to parents, but public display means discovery is possible. Adult couples' right to marry is protected; if you apprehend interference or violence, protection mechanisms exist — plan with advice, not fear."
+      },
+      {
+        "q": "Who can object to the marriage, and on what grounds?",
+        "a": "Anyone may object within the 30 days, but only on legal grounds — existing spouse, age, prohibited relationship, incapacity. The officer inquires (max 30 days) and must reject non-legal objections; wrongful refusal is appealable to the district court. \"We disapprove\" has no legal standing."
+      },
+      {
+        "q": "Do witnesses have to be family members?",
+        "a": "No — any three adults with valid ID (friends, colleagues) serve as witnesses. This matters for couples marrying without family support; no parental consent or presence is legally required for adults."
+      },
+      {
+        "q": "Is a court marriage certificate valid for passports and visas?",
+        "a": "Fully — the SMA certificate is the gold-standard civil proof of marriage, accepted by passport offices, embassies and foreign registries (apostille it for use abroad). It also simplifies spouse-name changes — see our name change guide."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
