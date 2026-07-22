@@ -1,0 +1,155 @@
+{
+  "slug": "defective-product-replacement",
+  "category": "consumer-complaints",
+  "title": {
+    "en": "Defective Product? Your Rights to Replacement, Refund and Compensation"
+  },
+  "answerBox": {
+    "en": "A defective product entitles you to repair, replacement or refund — your election strengthens as the defect proves persistent. The Consumer Protection Act, 2019 added product liability: manufacturers and sellers answer for harm caused by defective goods. Complain in writing within the warranty, escalate via 1915, and file on e-Daakhil within 2 years; commissions can order testing of the product."
+  },
+  "keyNumbers": {
+    "en": [
+      "Repair → replace → refund",
+      "2-year filing window",
+      "Product liability (2019 Act)"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Report the defect in writing",
+        "duration": "Immediately",
+        "startsFrom": "within warranty; keep job sheets"
+      },
+      {
+        "label": "Brand escalation + 1915",
+        "duration": "15–30 days",
+        "startsFrom": "after failed service visits"
+      },
+      {
+        "label": "Legal notice",
+        "duration": "15 days",
+        "startsFrom": "deadline in the advocate notice"
+      },
+      {
+        "label": "e-Daakhil complaint",
+        "duration": "2 years",
+        "startsFrom": "from the defect/deficiency arising"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Document the defect trail",
+        "summary": "Invoice, warranty, job sheets — every service visit on paper.",
+        "detail": "Keep the invoice and warranty card, and for every service interaction insist on a **job sheet** recording the complaint and what was done. Photograph/video the defect. The pattern — **repeated repairs for the same defect** — is what converts a \"repair\" case into a **replacement/refund** case; commissions routinely order replacement where a product fails multiple times within warranty (the \"inherent manufacturing defect\" inference)."
+      },
+      {
+        "icon": "send",
+        "title": "Escalate: brand heads, then 1915",
+        "summary": "Skip the call-centre loop; write to nodal/appellate contacts.",
+        "detail": "Email the manufacturer's **nodal/grievance contact** (published on brand sites) with the trail and a clear election — replace or refund — and a 15-day deadline. Register on **[consumerhelpline.gov.in / 1915](https://consumerhelpline.gov.in)**: brands respond to NCH dockets far faster than to tickets. Under the **2019 Act's product-liability chapter**, manufacturer AND seller liability covers manufacturing defects, design defects, warranty deviations, and inadequate instructions/warnings."
+      },
+      {
+        "icon": "gavel",
+        "title": "Legal notice, then e-Daakhil with testing",
+        "summary": "Commissions can send the product for lab analysis.",
+        "detail": "A **₹999 advocate's notice** electing replacement/refund resolves many matters. Failing that, file on **[e-Daakhil](https://edaakhil.nic.in)** (see our [consumer forum guide](/help/consumer-complaints/consumer-forum-complaint-guide)) — where the defect is technical and disputed, **Section 38(2)(c)** lets the commission send the product to an appropriate **laboratory for testing** (small deposit, added to your claim). Claim: replacement or refund with interest, compensation for loss/harassment, and litigation costs.",
+        "serviceHint": "legal-notice-consumer"
+      },
+      {
+        "icon": "shield",
+        "title": "Know the seller's standard deflections",
+        "summary": "\"Physical damage\", \"warranty void\", \"only repair\" — and the answers.",
+        "detail": "Deflections and answers: **\"physical damage — warranty void\"** (they must prove the damage caused the defect; job sheets showing the defect predates any damage defeat this); **\"warranty only covers repair\"** — warranty terms cannot defeat statutory rights where the product has an inherent defect; **\"third-party service voided it\"** — post-2019 unfair-contract scrutiny cuts against blanket voiding. Refuse to hand over the *original* invoice/product without receipts, and never accept a refurbished unit as \"replacement\" unless you agree in writing."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Brand escalation + 1915",
+          "amount": "Free",
+          "note": "Written trail is the investment"
+        },
+        {
+          "label": "Advocate's legal notice",
+          "amount": "₹999",
+          "note": "Election of remedy + deadline"
+        },
+        {
+          "label": "e-Daakhil + lab testing",
+          "amount": "₹0–slab + deposit",
+          "note": "Testing costs claimable in the award"
+        },
+        {
+          "label": "Consultation (high-value goods)",
+          "amount": "₹299",
+          "note": "Cars/appliances strategy"
+        }
+      ],
+      "footnote": "For vehicles and high-value appliances with repeated failures, replacement-or-refund orders are common — persistence plus paper beats the service-loop attrition strategy every time."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "defective product replacement rights india",
+      "kharab product replace nahi kar rahe",
+      "product warranty claim rejected",
+      "consumer court defective product",
+      "replacement ya refund consumer rights",
+      "product liability india 2019"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-consumer",
+    "consumer-complaint-draft"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "consumer-forum-complaint-guide",
+    "online-seller-refund-not-given"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can I demand a refund instead of endless repairs?",
+        "a": "Yes, once the pattern shows an inherent defect — multiple failed repairs for the same fault within warranty. Commissions order replacement or refund with interest in exactly these cases; your job-sheet trail is the proof. Elect your remedy explicitly in the notice."
+      },
+      {
+        "q": "The defect appeared just after warranty expired. Any rights?",
+        "a": "Possibly — where the defect is latent/manufacturing in origin, courts have granted relief beyond warranty, especially for short-warranty durable goods, and the 2019 product-liability chapter is not warranty-bound. It is harder but not hopeless; the 2-year limitation runs from the defect surfacing."
+      },
+      {
+        "q": "Who do I sue — the seller, the brand, or both?",
+        "a": "Both (and the e-commerce platform if bought online). The 2019 Act's product-liability provisions reach manufacturers, product sellers and service providers; joint arraying prevents finger-pointing and maximises recovery."
+      },
+      {
+        "q": "What does product testing before the commission involve?",
+        "a": "Where the defect is disputed, the commission sends the product to an appropriate laboratory (Section 38(2)(c)) with a modest deposit from you; the report becomes the technical backbone of the case, and testing costs are added to compensation when you win."
+      },
+      {
+        "q": "The service centre kept my product and returns nothing. What now?",
+        "a": "Demand its return/replacement in writing with the job sheet number; retention beyond reasonable repair time is itself deficiency. Include it in the notice and complaint — commissions award the product's value plus compensation for the retention."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
