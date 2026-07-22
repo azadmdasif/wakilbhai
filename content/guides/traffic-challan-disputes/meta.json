@@ -1,0 +1,152 @@
+{
+  "slug": "traffic-challan-disputes",
+  "category": "police-criminal",
+  "title": {
+    "en": "Traffic Challan: Check, Pay or Contest Online — and the Lok Adalat Option"
+  },
+  "answerBox": {
+    "en": "Check any traffic challan free on echallan.parivahan.gov.in with your vehicle number. You can pay online in minutes, contest it before the Virtual Court or the traffic court named on the challan, or wait for a National Lok Adalat — held roughly every quarter — where pending challans are routinely settled at reduced amounts. Unpaid challans can block your vehicle's transfer and fitness records."
+  },
+  "keyNumbers": {
+    "en": [
+      "Check free online",
+      "Contest or pay online",
+      "Lok Adalat ~every quarter"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Check the challan details",
+        "duration": "Anytime",
+        "startsFrom": "echallan.parivahan.gov.in"
+      },
+      {
+        "label": "Pay or choose to contest",
+        "duration": "60–90 days",
+        "startsFrom": "typical window before court referral"
+      },
+      {
+        "label": "Virtual Court response",
+        "duration": "On the notice",
+        "startsFrom": "plead guilty online or contest"
+      },
+      {
+        "label": "National Lok Adalat",
+        "duration": "~Quarterly",
+        "startsFrom": "settle pending challans at reduced amounts"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Check what the challan actually says",
+        "summary": "Vehicle number on the national portal shows every pending challan.",
+        "detail": "Go to [echallan.parivahan.gov.in](https://echallan.parivahan.gov.in) and search by vehicle number or challan number. Open each entry: the offence section (Motor Vehicles Act, 1988 as amended in 2019), the fine, the **photo evidence** for camera challans, and the issuing authority. Check the basics first — wrong number plates read by cameras, a vehicle you had already sold, or duplicate entries are common and are exactly the challans worth contesting."
+      },
+      {
+        "icon": "banknote",
+        "title": "Paying: two minutes online",
+        "summary": "If the challan is fair, pay and close it — delays compound.",
+        "detail": "Pay on the same portal (or your state's traffic police site/app) by UPI or card and keep the receipt PDF. Unpaid challans do not disappear: they get referred to court, and they surface at every RTO touchpoint — **ownership transfer, fitness, and insurance claims can all snag** on pending challans. For compoundable offences, paying is legally the end of the matter."
+      },
+      {
+        "icon": "gavel",
+        "title": "Contesting: Virtual Court or traffic court",
+        "summary": "Camera challans routed to Virtual Courts can be contested online.",
+        "detail": "Many states route challans to **Virtual Courts** ([vcourts.gov.in](https://vcourts.gov.in)): the notice lets you either pay the proposed fine online or mark that you **wish to contest**, which lists the case before the real Magistrate. Grounds that work: you were not the driver/owner on that date (vehicle sold — attach Form 29/30), the photo shows a different vehicle, duplicate challan, or documents demanded (licence/insurance) that were actually valid — upload the proof. For serious charges (drunk driving, dangerous driving), treat it as a criminal case and take advocate advice first.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "scale",
+        "title": "The Lok Adalat route for pending piles",
+        "summary": "Quarterly National Lok Adalats settle challans at reduced amounts.",
+        "detail": "National Lok Adalats — organised by legal services authorities ([nalsa.gov.in](https://nalsa.gov.in)) roughly **every quarter** — take up pending traffic challans in bulk. You appear (often after online registration with your state authority), the settlement amount is usually **reduced substantially**, and the matter closes with no further record. It is the practical answer for old accumulated challans, at the cost of waiting for the next date and standing in a queue."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Checking challans",
+          "amount": "Free",
+          "note": "echallan.parivahan.gov.in / state portals"
+        },
+        {
+          "label": "Online payment",
+          "amount": "Fine amount",
+          "note": "No extra charge on the official portals"
+        },
+        {
+          "label": "Contesting in Virtual/traffic court",
+          "amount": "Free–nominal",
+          "note": "Your time is the real cost; advocate optional"
+        },
+        {
+          "label": "Lok Adalat settlement",
+          "amount": "Reduced fine",
+          "note": "Commonly settled below the listed amount"
+        }
+      ],
+      "footnote": "Pay only on official government portals — \"challan settlement\" websites and callers demanding UPI transfers are scams. Serious offences (drunk driving under Section 185 MV Act) are court matters where an advocate is strongly advised."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "traffic challan check online",
+      "e challan kaise bhare",
+      "challan contest kaise kare",
+      "wrong challan complaint",
+      "lok adalat traffic challan",
+      "virtual court challan pay"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "received-court-summons",
+    "how-to-file-fir"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "How do I check if my vehicle has pending challans?",
+        "a": "Enter the vehicle number on echallan.parivahan.gov.in (or your state traffic police portal). The list shows each challan's offence, amount, photo evidence and status. Checking is free and needs no login for basic search."
+      },
+      {
+        "q": "What happens if I just never pay a challan?",
+        "a": "It is referred to the court/Virtual Court and becomes a summons matter, and pending challans routinely block RTO services — ownership transfer, fitness certificates — plus renewals in some states. Old challans are better closed via payment or a Lok Adalat than left to compound."
+      },
+      {
+        "q": "The challan is for a vehicle I sold long ago. What do I do?",
+        "a": "Contest it with the sale proof — Form 29/30, the delivery note, or the RC transfer entry. This is a standard and successful ground. It is also the prompt to complete the pending ownership transfer at the RTO, or such challans will keep coming."
+      },
+      {
+        "q": "How does the Lok Adalat settlement actually work?",
+        "a": "Legal services authorities hold National Lok Adalats roughly every quarter, where listed challans are settled by mutual consent — in practice at meaningfully reduced amounts — and closed finally with no appeal. Watch your state legal services authority (SLSA) and traffic police announcements for dates and registration links."
+      },
+      {
+        "q": "Can a challan lead to arrest or licence suspension?",
+        "a": "Routine compoundable challans, no. But specific offences carry harder edges — drunk driving (Section 185 MV Act) is arrestable and court-triable, and offences like dangerous driving can trigger licence suspension. For anything beyond a fine notice, consult an advocate rather than paying blind or ignoring it."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
