@@ -5,7 +5,7 @@ import { locales, localePath, isLocale, localeLang, type Locale } from '@/lib/i1
 import { getDict } from '@/lib/dictionaries';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { SITE_URL } from '@/lib/site';
-import { getCategory, getGuide, getGuideMeta, getGuideMetas, getService, getTemplate, guideLocales } from '@/lib/content';
+import { getCategory, getLocalizedGuide, getGuideMeta, getGuideMetas, getService, getTemplate, guideLocales } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import JsonLd from '@/components/seo/JsonLd';
 import { articleSchema, breadcrumbSchema, faqSchema } from '@/lib/seo/schemas';
@@ -76,7 +76,7 @@ export default async function GuidePage({
 }) {
   const { locale: rawLocale, category: categorySlug, guide: guideSlug } = await params;
   const locale = rawLocale as Locale;
-  const guide = getGuide(guideSlug, locale);
+  const guide = getLocalizedGuide(guideSlug, locale);
   const category = getCategory(categorySlug);
   if (!guide || !category || guide.category !== categorySlug) notFound();
   const dict = getDict(locale);

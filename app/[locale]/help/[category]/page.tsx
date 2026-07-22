@@ -5,7 +5,7 @@ import { isLocale, locales, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { SITE_URL } from '@/lib/site';
-import { getCategories, getCategory, getGuideMetas, getGuidesByCategory, getServices, getTemplates } from '@/lib/content';
+import { getCategories, getCategory, getGuideMetas, getCategoryGuides, getServices, getTemplates } from '@/lib/content';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import CategoryIcon from '@/components/CategoryIcon';
 import JsonLd from '@/components/seo/JsonLd';
@@ -40,7 +40,7 @@ export default async function CategoryHubPage({ params }: { params: Promise<{ lo
   if (!category) notFound();
   const dict = getDict(locale);
 
-  const guides = getGuidesByCategory(category.slug);
+  const guides = getCategoryGuides(locale, category.slug);
   const services = getServices().filter((s) => s.category === category.slug);
   const templates = getTemplates().filter((t) => t.category === category.slug);
   const href = (path: string) => localePath(locale, path);
@@ -82,8 +82,8 @@ export default async function CategoryHubPage({ params }: { params: Promise<{ lo
                 href={href(`/help/${category.slug}/${guide.slug}`)}
                 className="block bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-brand-gold/50 transition-colors"
               >
-                <h3 className="text-xl font-bold text-white font-display mb-2">{guide.title[locale]}</h3>
-                <p className="text-sm text-gray-400 line-clamp-2">{guide.answerBox[locale]}</p>
+                <h3 className="text-xl font-bold text-white font-display mb-2">{guide.title}</h3>
+                <p className="text-sm text-gray-400 line-clamp-2">{guide.description}</p>
               </Link>
             ))}
           </div>

@@ -3,8 +3,11 @@ import path from 'node:path';
 import { cache } from 'react';
 import { z } from 'zod';
 import type { Category, DocTemplate, Guide, GuideMeta, Localized, PaidService } from '@/types';
-import { locales, type Locale } from './i18n';
-import { localized as loc } from './i18n/localized';
+import { locales, type Locale } from '../i18n';
+import { localized as loc } from '../i18n/localized';
+import { guideFrontmatterSchema, parseReviewer, type GuideFrontmatter } from './schema';
+
+export { guideFrontmatterSchema, type GuideFrontmatter } from './schema';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content');
 
@@ -220,13 +223,83 @@ export const guideLocales = (guide: GuideMeta): Locale[] => {
 
 export const getGuidesByCategory = (category: string): GuideMeta[] => getGuideMetas().filter((g) => g.category === category);
 
-export function getGuide(slugValue: string, locale: Locale): Guide | undefined {
+/**
+ * The full localized guide (all-locale meta + one locale's MDX body). This is
+ * the low-level view used by the guide-detail page, which renders locale-rich
+ * fields not carried by the flat `GuideFrontmatter` (decision flow, MDX body).
+ */
+export function getLocalizedGuide(slugValue: string, locale: Locale): Guide | undefined {
   const meta = getGuideMeta(slugValue);
   if (!meta) return undefined;
   const bodyPath = path.join(CONTENT_DIR, 'guides', slugValue, `${locale}.mdx`);
   if (!fs.existsSync(bodyPath)) return undefined;
   return { ...meta, body: fs.readFileSync(bodyPath, 'utf8') };
 }
+
+// ─── Typed per-locale content API (GuideFrontmatter) ──────────────────────────
+
+/**
+ * Resolve a localized guide meta into the flat, typed `GuideFrontmatter` for one
+ * locale, then validate it against the schema. A malformed guide throws a
+ * readable, guide+locale-scoped error — so `getAllGuides`/`getGuide`, which run
+ * during the build, fail the build instead of shipping broken content.
+ */
+function resolveFrontmatter(meta: GuideMeta, locale: Locale): GuideFrontmatter {
+  const category = getCategory(meta.category);
+  // Referral-only categories (e.g. police-criminal) surface no paid service.
+  const service = category?.referralOnly ? undefined : meta.relatedServiceIds.map(getService).find(Boolean);
+
+  const draft = new Set(meta.draftLocales ?? []).has(locale);
+
+  const candidate = {
+    title: meta.title[locale],
+    slug: meta.slug,
+    category: meta.category,
+    locale,
+    description: meta.answerBox[locale],
+    quickAnswer: meta.answerBox[locale],
+    keyNumbers: meta.keyNumbers?.[locale] ?? [],
+    deadlines: meta.deadlines?.[locale] ?? [],
+    steps: (meta.steps?.[locale] ?? []).map((s) => ({
+      icon: s.icon,
+      title: s.title,
+      summary: s.summary,
+      detail: s.detail,
+      ...(s.serviceHint ? { serviceHint: s.serviceHint } : {}),
+    })),
+    costs: meta.costs?.[locale],
+    faqs: meta.faqs[locale],
+    relatedSlugs: meta.relatedGuideSlugs,
+    serviceSlug: service?.id,
+    servicePrice: service?.priceINR,
+    templates: meta.relatedTemplateSlugs,
+    updated: meta.updatedAt,
+    author: meta.author,
+    reviewer: parseReviewer(meta.reviewer),
+    draft,
+  };
+
+  const result = guideFrontmatterSchema.safeParse(candidate);
+  if (!result.success) {
+    throw new Error(`Invalid guide front-matter for "${meta.slug}" [${locale}]: ${result.error.message}`);
+  }
+  return result.data;
+}
+
+/** Every guide as typed front-matter for `locale`, slug-sorted. */
+export const getAllGuides = (locale: Locale): GuideFrontmatter[] =>
+  getGuideMetas().map((meta) => resolveFrontmatter(meta, locale));
+
+/** One guide's typed front-matter, or undefined if the slug/category don't match. */
+export function getGuide(locale: Locale, category: string, slug: string): GuideFrontmatter | undefined {
+  const meta = getGuideMeta(slug);
+  if (!meta || meta.category !== category) return undefined;
+  return resolveFrontmatter(meta, locale);
+}
+
+/** Typed front-matter for every guide in a category, for `locale`. */
+export const getCategoryGuides = (locale: Locale, category: string): GuideFrontmatter[] =>
+  getGuidesByCategory(category).map((meta) => resolveFrontmatter(meta, locale));
 
 /**
  * Cross-reference integrity check for the whole content tree.
@@ -276,4 +349,8 @@ export function validateContent(): void {
       }
     }
   }
+
+  // Resolve + schema-validate every guide's typed front-matter, in every
+  // locale. Throws a readable guide+locale error on the first bad one.
+  for (const locale of locales) getAllGuides(locale);
 }
