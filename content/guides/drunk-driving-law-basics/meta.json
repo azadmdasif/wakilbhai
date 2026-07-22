@@ -1,0 +1,152 @@
+{
+  "slug": "drunk-driving-law-basics",
+  "category": "vehicle-accident",
+  "title": {
+    "en": "Drunk Driving Law in India — BAC Limits, Penalties and What Happens After You're Caught"
+  },
+  "answerBox": {
+    "en": "The legal limit is 30 mg of alcohol per 100 ml of blood (Section 185, MV Act) — roughly one drink puts most people over. First offence: up to 6 months' imprisonment and/or fine up to ₹10,000; repeat within 3 years: up to 2 years and/or ₹15,000, with licence suspension. Drunk driving is court-triable — it cannot be compounded on the spot — and an accident while drunk escalates everything, including insurance denial."
+  },
+  "keyNumbers": {
+    "en": [
+      "30 mg/100 ml limit",
+      "₹10,000 + 6 months (1st)",
+      "Court appearance mandatory"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Breathalyser/medical test",
+        "duration": "At the stop",
+        "startsFrom": "refusal has consequences too"
+      },
+      {
+        "label": "Vehicle custody + court date",
+        "duration": "Same day",
+        "startsFrom": "released to a sober person or held"
+      },
+      {
+        "label": "Court appearance",
+        "duration": "As summoned",
+        "startsFrom": "virtual courts in some states"
+      },
+      {
+        "label": "Licence suspension risk",
+        "duration": "On conviction",
+        "startsFrom": "and disqualification for repeats"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "scale",
+        "title": "Know the offence and the numbers",
+        "summary": "30mg/100ml — a limit lower than most people assume.",
+        "detail": "**Section 185, MV Act**: driving with blood alcohol exceeding **30 mg per 100 ml** (breathalyser or blood test) or under drugs. That is roughly a single drink for many adults — India's limit is among the world's strictest. Penalties: **first offence — up to 6 months and/or ₹10,000**; **second within 3 years — up to 2 years and/or ₹15,000**; courts also suspend/disqualify licences. Commercial licence holders face near-zero tolerance and permit consequences."
+      },
+      {
+        "icon": "file-text",
+        "title": "At the checkpoint: what happens, what to do",
+        "summary": "Test, memo, vehicle custody — conduct matters.",
+        "detail": "Police administer the **breathalyser** (you can be required to take it; refusal invites a presumption plus obstruction angles and medical-test compulsion under Section 203/204 MV Act procedures). If over the limit: the reading is recorded, the vehicle is detained or **released to a sober licensed companion**, and you get a court summons — Section 185 is **not compoundable on the spot**; no e-challan payment closes it. Stay civil; misbehaviour stacks separate offences (obstruction, assault) onto a bailable matter."
+      },
+      {
+        "icon": "gavel",
+        "title": "In court: plead or contest — with advice",
+        "summary": "Fines are the norm for clean first offences; defences are technical.",
+        "detail": "First-offenders with clean records typically face a **fine (₹2,000–10,000)** on a guilty plea; jail is reserved for aggravated facts (accidents, very high readings, repeats). Contesting turns on procedure: calibration/certification of the breathalyser, the testing procedure, gap between driving and test, and identity of the driver. These are technical defences an advocate evaluates against your papers — the ₹299 consultation before your date is well spent. Some states route 185 cases through **Virtual Courts** for plea-and-fine disposal.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "alert",
+        "title": "The escalations that really hurt",
+        "summary": "Accidents while drunk: criminal exposure + insurance denial.",
+        "detail": "An accident while over the limit transforms the case: injury/death brings **Section 281 BNS (rash driving; old 279 IPC)** and **Section 106 BNS (old 304A IPC)** — and courts treat intoxication as the aggravating fact pushing toward the culpable-homicide end (Section 105 BNS) in bad cases. **Insurers deny own-damage claims** for drunk driving (third-party victims are still paid — and the insurer recovers from you). Employment, visas and licence history carry the conviction. The cheapest defence remains ₹300 of cab fare."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "First-offence fine range",
+          "amount": "Up to ₹10,000",
+          "note": "Plus possible imprisonment up to 6 months"
+        },
+        {
+          "label": "Repeat within 3 years",
+          "amount": "Up to ₹15,000",
+          "note": "Up to 2 years; licence action likely"
+        },
+        {
+          "label": "Advocate for the court date",
+          "amount": "₹3,000–15,000",
+          "note": "Plea vs contest strategy"
+        },
+        {
+          "label": "Consultation first",
+          "amount": "₹299",
+          "note": "Read your challan/test papers before the date"
+        }
+      ],
+      "footnote": "This page is general information, not advice to beat checks. If an accident is involved, treat it as a serious criminal matter and engage an advocate immediately — statements made at the station shape everything after."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "drunk driving law india",
+      "drink and drive fine india",
+      "section 185 mv act punishment",
+      "breathalyser test refuse legal",
+      "drunk driving court process",
+      "sharab pikar gaadi chalane ki saza"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "traffic-challan-disputes",
+    "received-court-summons"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can I just pay the drunk-driving challan online like other fines?",
+        "a": "No — Section 185 is not compoundable by paying online; it is a court-triable offence requiring appearance (physical or virtual court where enabled). Portals will show the challan but route it to court. Ignoring the date escalates to warrants — see our summons guide."
+      },
+      {
+        "q": "Can I refuse the breathalyser?",
+        "a": "Refusal doesn't help: the MV Act framework lets police require testing (and take you for a medical/blood test), refusal supports a presumption against you and can add obstruction, and courts view it poorly. If you dispute a reading, the blood test is the accurate check — ask for it rather than refuse everything."
+      },
+      {
+        "q": "Will one drink really put me over the Indian limit?",
+        "a": "Quite possibly — 30mg/100ml is reached by many adults after a single standard drink, with wide variation by weight, food and time. There is no reliable self-estimate at these thresholds; the only safe operating rule in India is zero before driving."
+      },
+      {
+        "q": "What happens to my car when I'm caught?",
+        "a": "Police either hand it to a sober, licensed companion on the spot or detain it (memo issued); detained vehicles are released after the court process or on application — usually straightforward once the case is on track. Never argue custody at the roadside; sort it through the process."
+      },
+      {
+        "q": "Does a drunk-driving accident void my insurance?",
+        "a": "Own-damage claims: yes, drunk driving is a standard exclusion. Third-party victims are protected — the insurer pays them and recovers from you personally (pay-and-recover), which can be financially devastating. Criminal exposure escalates sharply with injuries — 281/106 BNS and worse on bad facts."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
