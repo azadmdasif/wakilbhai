@@ -1,0 +1,153 @@
+{
+  "slug": "quashing-fir-basics",
+  "category": "police-criminal",
+  "title": {
+    "en": "Quashing an FIR — When High Courts End Criminal Cases, Settlements and Costs"
+  },
+  "answerBox": {
+    "en": "A High Court can quash an FIR or criminal proceeding under Section 482 CrPC (now Section 528 BNSS) when the allegations, even taken at face value, disclose no offence — or when the parties have genuinely settled a private dispute (matrimonial, commercial, cheque cases). It is a discretionary, argued remedy: petitions cost ₹30,000–1,50,000+ in advocate fees and succeed on precise drafting, not volume."
+  },
+  "keyNumbers": {
+    "en": [
+      "482 CrPC → 528 BNSS",
+      "Settlement quashings common",
+      "₹30,000+ realistic cost"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Any stage",
+        "duration": "FIR to trial",
+        "startsFrom": "earlier is cleaner, before chargesheet ideal"
+      },
+      {
+        "label": "Settlement documentation",
+        "duration": "Before filing",
+        "startsFrom": "compromise deed + affidavits"
+      },
+      {
+        "label": "Interim protection",
+        "duration": "First hearing",
+        "startsFrom": "stay of investigation/arrest possible"
+      },
+      {
+        "label": "If dismissed",
+        "duration": "Next",
+        "startsFrom": "trial continues; SLP to SC in rare cases"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "scale",
+        "title": "The grounds that actually succeed",
+        "summary": "Bhajan Lal categories: no offence, absurd allegations, mala fides.",
+        "detail": "The Supreme Court's *State of Haryana v. Bhajan Lal* categories anchor quashing: allegations that **do not constitute any offence** even if fully accepted; allegations **so absurd** no prudent person could proceed; **legally barred** proceedings; and prosecutions that are **manifestly mala fide** — vengeance dressed as crime (business disputes converted to 420 FIRs are the classic). Quashing is NOT a mini-trial — the court will not weigh evidence; if your defence needs evidence, the remedy is trial/discharge, not 482."
+      },
+      {
+        "icon": "file-text",
+        "title": "Settlement-based quashing — the practical mainstay",
+        "summary": "Private disputes settled = proceedings serve no purpose.",
+        "detail": "Following *Gian Singh* and *Narinder Singh* (SC), High Courts quash proceedings in **predominantly private disputes** — matrimonial cases (498A settlements alongside divorce/mediation), property and commercial disputes, cheque-bounce and injury cases with compromise — where continuing prosecution serves no purpose. NOT quashable on settlement: heinous offences (murder, rape), and courts are cautious with corruption and grave economic offences. The **compromise deed + both parties' affidavits + appearance** are the petition's spine.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "gavel",
+        "title": "The petition and the hearing",
+        "summary": "High Court writ side; state + complainant respond; stay possible.",
+        "detail": "The quashing petition (**Section 482 CrPC, now Section 528 BNSS**) is filed in the High Court with the FIR, chargesheet (if filed), and the documents showing the case's hollowness or settlement. The State and complainant are heard; courts can grant **interim stay of investigation/arrest** meanwhile — often the immediate practical relief. Outcomes: quashed (case dead), partly quashed (some accused/sections dropped), or dismissed with liberty to raise defences at trial/discharge."
+      },
+      {
+        "icon": "shield",
+        "title": "Costs, timing, and the honest assessment",
+        "summary": "Not every bad case is quashable — get the merits read first.",
+        "detail": "Realistic advocate fees: **₹30,000–1,50,000+** by High Court and seniority; timelines weeks (settlement matters get early dates) to many months. File early — pre-chargesheet petitions on clean grounds read best. But the honest first step is a merits read: many harassing FIRs are better fought at **discharge** (before the trial court) or bail-plus-trial, cheaper and with evidence available. The ₹299 consultation exists for exactly this fork; our [false-case defence perspective](/help/police-criminal/anticipatory-bail-basics) pairs with it.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Court fee on the petition",
+          "amount": "Nominal",
+          "note": "High Court filing fees"
+        },
+        {
+          "label": "Advocate fees",
+          "amount": "₹30,000–1,50,000+",
+          "note": "High Court practice rates vary widely"
+        },
+        {
+          "label": "Mediation/settlement documentation",
+          "amount": "₹999–",
+          "note": "Compromise deed drafting"
+        },
+        {
+          "label": "Merits consultation first",
+          "amount": "₹299",
+          "note": "Quash vs discharge vs trial strategy"
+        }
+      ],
+      "footnote": "This page is general information. Quashing is discretionary High Court advocacy — outcomes turn on the specific FIR's wording and your documents; nothing here substitutes an advocate's reading of both."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "fir quash kaise hota hai",
+      "quashing petition 482 process",
+      "high court fir quashing grounds",
+      "fir quashing after compromise",
+      "498a quash settlement",
+      "quashing petition cost"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "police-not-filing-fir",
+    "anticipatory-bail-basics"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can any FIR be quashed if we pay/settle with the complainant?",
+        "a": "No — settlement quashing covers predominantly private disputes (matrimonial, commercial, personal injury). Heinous and society-facing offences (murder, rape, and generally grave corruption/economic crimes) are not quashed on compromise. And \"paying to settle\" a genuinely false extortionate FIR deserves advocacy, not payment — courts notice extortion patterns."
+      },
+      {
+        "q": "FIR vs chargesheet vs trial — when is quashing strongest?",
+        "a": "Earliest is cleanest: a petition against a bare FIR argues the allegations' face; post-chargesheet petitions face the \"material collected\" argument; mid-trial quashing is rare. That said, settlement-based quashing works at any stage. If the chargesheet is close, discharge before the trial court is the parallel lane to weigh."
+      },
+      {
+        "q": "Does filing a quashing petition stop my arrest?",
+        "a": "Not automatically — but High Courts frequently grant interim protection (no coercive steps/stay) on the first hearing in deserving petitions. Where arrest is the immediate fear and quashing grounds are weak, anticipatory bail is the faster, purpose-built remedy — see that guide."
+      },
+      {
+        "q": "What happens if the quashing petition is dismissed?",
+        "a": "The case simply continues — dismissal is not a finding of guilt, and your trial defences and discharge applications remain fully open (courts usually say so expressly). An SLP to the Supreme Court exists for strong cases, at real cost. Plan the ladder with your advocate before rung one."
+      },
+      {
+        "q": "How long does a quashing petition take?",
+        "a": "Settlement matters with both parties before the court: often disposed within weeks of listing. Contested merit-based petitions: several months to longer, depending on the High Court's board. Interim protection, where granted, holds the position meanwhile."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
