@@ -1,0 +1,157 @@
+{
+  "slug": "sextortion-blackmail",
+  "category": "cyber-fraud",
+  "title": {
+    "en": "Sextortion or Online Blackmail? Do Not Pay — Evidence, 1930 and Cybercrime Complaint"
+  },
+  "answerBox": {
+    "en": "If someone threatens to leak your photos, videos or a recorded call unless you pay: do not pay — paying triggers escalating demands, not deletion. Preserve the evidence, cut contact, and report on cybercrime.gov.in (anonymous reporting is available) within 24 hours. If you already paid, call 1930 immediately to try to freeze the money."
+  },
+  "keyNumbers": {
+    "en": [
+      "Pay ₹0 — ever",
+      "Report within 24 hours",
+      "1930 if you already paid"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Stop engaging, preserve evidence",
+        "duration": "Immediately",
+        "startsFrom": "from the first threat"
+      },
+      {
+        "label": "Call 1930",
+        "duration": "Golden hours",
+        "startsFrom": "if any money was already paid"
+      },
+      {
+        "label": "File on cybercrime.gov.in",
+        "duration": "24 hours",
+        "startsFrom": "ideally, from the threat"
+      },
+      {
+        "label": "Platform takedown reports",
+        "duration": "As they appear",
+        "startsFrom": "if anything is posted"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "shield",
+        "title": "Do not pay, do not negotiate",
+        "summary": "Payment never buys deletion — it marks you as a paying target.",
+        "detail": "Blackmailers work lists: one payment converts you into a repeat target and the demands **escalate**. In the organised video-call rackets, the \"police officer\" or \"YouTube manager\" who calls next is the same gang. Do not send money, gift cards or more images, and do not delete your account — going dark can wait until evidence is saved."
+      },
+      {
+        "icon": "file-text",
+        "title": "Preserve evidence, then cut contact",
+        "summary": "Screenshots of threats, profiles, payment demands — before blocking.",
+        "detail": "Screenshot the chats and threats **with the profile/number visible**, save call logs, screen-record the demand if it repeats, and note the UPI IDs/accounts demanded. Then block on every channel. Do not worry about the content of the material — police handle sextortion cases routinely and the offence is the blackmailer's, not yours."
+      },
+      {
+        "icon": "send",
+        "title": "Report on cybercrime.gov.in",
+        "summary": "Anonymous reporting exists; the offences are serious and cognizable.",
+        "detail": "File at [cybercrime.gov.in](https://cybercrime.gov.in) — the \"Report Women/Children Related Crime\" track allows **anonymous** complaints; otherwise report under cyber crime with your evidence. The threats are extortion — **Section 384 IPC (now Section 308 BNS)** — with **IT Act Section 67/67A** (publishing obscene/sexually explicit material), **Section 66E** (privacy violation) and, for captured images, voyeurism — **Section 354C IPC (now Section 77 BNS)**. If money was paid, also call **1930**.",
+        "serviceHint": "police-complaint-draft"
+      },
+      {
+        "icon": "alert",
+        "title": "Takedowns and follow-through",
+        "summary": "If anything gets posted, platform reporting removes it fast.",
+        "detail": "Report any uploaded content on the platform (non-consensual intimate imagery is priority-removed by Meta, YouTube, X), and [StopNCII.org](https://stopncii.org) can hash-block intimate images across major platforms without you sharing the image itself. If the harassment continues or the blackmailer knows you offline, take the complaint to the local cyber cell in person — an advocate-drafted complaint helps ensure the right sections are applied."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "cybercrime.gov.in / 1930 / platform takedowns",
+          "amount": "Free",
+          "note": "Including anonymous reporting and StopNCII"
+        },
+        {
+          "label": "Money already paid",
+          "amount": "₹0 more",
+          "note": "Do not pay to \"close the matter\" — report instead"
+        },
+        {
+          "label": "Cyber cell complaint drafted for you",
+          "amount": "₹199",
+          "note": "Correct sections + evidence annexure"
+        },
+        {
+          "label": "Advocate consultation",
+          "amount": "₹299",
+          "note": "Confidential; for ongoing threats or posted content"
+        }
+      ],
+      "footnote": "Victims are protected, not prosecuted — being deceived into a compromising video call is not an offence by you. Complaints of this kind are handled with confidentiality, and anonymous reporting exists precisely for this situation."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "sextortion complaint india",
+      "video call blackmail what to do",
+      "online blackmail complaint",
+      "whatsapp video call scam blackmail",
+      "someone threatening to leak photos",
+      "sextortion 1930 complaint"
+    ]
+  },
+  "relatedServiceIds": [
+    "police-complaint-draft",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "upi-fraud-money-recovery",
+    "hacked-whatsapp-instagram"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Will paying once make the blackmailer delete the video?",
+        "a": "No. In practically every reported case, payment is followed by bigger demands — you have proven you will pay. The gangs also resell target lists. The only exit that works is refusing, preserving evidence and reporting."
+      },
+      {
+        "q": "Can I complain without revealing my identity?",
+        "a": "Yes. cybercrime.gov.in has an anonymous reporting track for sexually abusive content, and even in a named complaint, the process is handled confidentially. Sextortion rackets are mass operations — the police attach you to an existing investigation more often than opening a fresh one."
+      },
+      {
+        "q": "What laws apply to sextortion in India?",
+        "a": "Extortion under Section 384 IPC (now Section 308 BNS); IT Act Sections 67/67A for publishing or threatening to publish obscene/sexually explicit material and 66E for privacy violation; voyeurism under Section 354C IPC (now Section 77 BNS) where images were captured; and cheating by personation (Section 419 IPC, now 319 BNS) for the fake profiles used."
+      },
+      {
+        "q": "The blackmailer claims to be a police or CBI officer demanding a \"settlement fine\". Is that real?",
+        "a": "No — this is the standard second act of the video-call racket. Real police do not demand money over WhatsApp calls, do not use personal UPI IDs, and do not \"settle\" offences by phone. Screenshot the impersonation (it is a separate offence) and include it in your complaint."
+      },
+      {
+        "q": "They posted the video/photo. What do I do first?",
+        "a": "Report the exact URL on the platform as non-consensual intimate imagery — these get priority takedown — and add the URL to your cybercrime complaint as posted evidence. StopNCII.org can fingerprint the image and block re-uploads across participating platforms without you uploading it anywhere."
+      },
+      {
+        "q": "I already paid. Is the money gone?",
+        "a": "Call 1930 immediately with the transaction details — if the money is still in the receiving account it can be frozen, exactly like a UPI fraud. Include the payment trail in the portal complaint; recovery follows the same freeze-and-refund chain described in our UPI fraud guide."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

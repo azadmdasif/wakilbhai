@@ -1,0 +1,155 @@
+{
+  "slug": "unpaid-invoice-business-dues",
+  "category": "money-recovery",
+  "title": {
+    "en": "Client Not Paying Your Invoice? Business Dues Recovery — Notice, MSME Route and Summary Suit"
+  },
+  "answerBox": {
+    "en": "For unpaid business invoices: written follow-ups with a deadline, then a ₹999 advocate's notice with interest, then court — a summary suit under Order 37 CPC on your written trail. If you hold Udyam (MSME) registration, the strongest lever applies: buyers must pay within 45 days, delayed payments carry compound interest at 3× the RBI bank rate, and MSME Samadhaan facilitation councils enforce it. Limitation: 3 years per invoice."
+  },
+  "keyNumbers": {
+    "en": [
+      "45-day MSME rule",
+      "3× bank-rate interest",
+      "3-year limitation"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Invoice due date + reminders",
+        "duration": "Per terms",
+        "startsFrom": "keep every reminder dated"
+      },
+      {
+        "label": "Advocate's notice",
+        "duration": "15 days",
+        "startsFrom": "deadline stated in the notice"
+      },
+      {
+        "label": "MSME Samadhaan reference",
+        "duration": "Anytime",
+        "startsFrom": "for Udyam-registered suppliers"
+      },
+      {
+        "label": "Suit limitation",
+        "duration": "3 years",
+        "startsFrom": "per invoice due date"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Tighten the paper first",
+        "summary": "PO/contract, delivery proof, invoice, acknowledgements.",
+        "detail": "Assemble per invoice: the **PO/work order or contract**, proof of delivery/completion (signed challans, email confirmations, deployed work), the invoice, and any **acknowledgement of the debt** — a \"we'll clear it next month\" email resets the 3-year limitation (Section 18, Limitation Act) and doubles as an admission. GST filings showing the buyer claimed input credit on your invoice are powerful corroboration."
+      },
+      {
+        "icon": "send",
+        "title": "Demand, then the ₹999 advocate notice",
+        "summary": "Most B2B dues settle at the notice with interest claimed.",
+        "detail": "Send a final written demand with a 7–15 day deadline. Then the **advocate's notice**: itemised invoices, contractual/late-payment interest (or 18% commercial claim), and the stated next step — summary suit or MSME reference. Finance teams route advocate notices to legal review, which is where realistic settlement offers originate.",
+        "serviceHint": "legal-notice-dispute"
+      },
+      {
+        "icon": "scale",
+        "title": "The MSME Samadhaan route — if you're registered",
+        "summary": "Statutory 45-day payment + 3× compound interest + council enforcement.",
+        "detail": "Udyam-registered micro/small suppliers get the **MSMED Act** override: payment due within **45 days** of acceptance regardless of contract terms, automatic **compound interest at 3× the RBI bank rate**, and enforcement by the state **Micro & Small Enterprises Facilitation Council** via **[samadhaan.msme.gov.in](https://samadhaan.msme.gov.in)** — file online with invoices and delivery proof. Councils conciliate then arbitrate; buyer appeals require **75% pre-deposit** of the award, which is why buyers settle. Not registered yet? Udyam registration is free and takes minutes — do it before the next invoice."
+      },
+      {
+        "icon": "gavel",
+        "title": "Court: summary suit — or insolvency pressure",
+        "summary": "Order 37 for clean claims; IBC only above ₹1 crore.",
+        "detail": "With written contracts and invoices, a **summary suit (Order 37 CPC)** denies the buyer a free defence — they need the court's leave. Claim interest and costs. **Lok Adalat** (see our [settlement guide](/help/money-recovery/friend-not-returning-money)) is the free compromise lane at any stage. The IBC operational-creditor route applies only to defaults of **₹1 crore+** — below that, it is notice + Samadhaan + suit. Cheque given and bounced? Run the [Section 138 route](/help/money-recovery/cheque-bounce-what-to-do) in parallel."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Advocate's notice",
+          "amount": "₹999",
+          "note": "WakilBhai; itemised + interest"
+        },
+        {
+          "label": "MSME Samadhaan filing",
+          "amount": "Free",
+          "note": "Online; Udyam registration also free"
+        },
+        {
+          "label": "Summary suit court fee",
+          "amount": "Ad valorem",
+          "note": "State slab on the claim"
+        },
+        {
+          "label": "Contract hardening for the future",
+          "amount": "₹499",
+          "note": "Vendor/service agreements with interest + jurisdiction clauses"
+        }
+      ],
+      "footnote": "Keep supplying only against cleared dues once an account turns sticky — fresh credit to a defaulting buyer is how recoverable claims become write-offs."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "client not paying invoice india",
+      "unpaid invoice legal action",
+      "business payment recovery process",
+      "msme samadhaan complaint process",
+      "msme 45 days payment rule",
+      "order 37 summary suit invoice"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-dispute",
+    "vendor-agreement"
+  ],
+  "relatedTemplateSlugs": [
+    "loan-repayment-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "friend-not-returning-money",
+    "cheque-bounce-what-to-do"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Does the 45-day MSME rule apply if my contract says 90-day payment terms?",
+        "a": "Yes — the MSMED Act overrides longer contractual credit periods: the statutory maximum is 45 days from acceptance (15 days where no period is agreed). Interest at 3× bank rate compounds monthly from day 46 regardless of what the PO says. The registration date matters: supplies made after Udyam registration get the protection."
+      },
+      {
+        "q": "The buyer disputes quality to avoid paying. Does that kill the claim?",
+        "a": "It complicates but rarely kills: contemporaneous delivery acceptance, absence of timely written rejection, continued use of the goods/work, and GST credit claimed on your invoice all cut against late-invented quality disputes. Councils and courts see the pattern constantly — your delivery documentation decides it."
+      },
+      {
+        "q": "How long does MSME Samadhaan actually take?",
+        "a": "The Act contemplates 90 days for council disposal; real timelines run 6–18 months by state. The pressure works earlier though — many buyers settle on receiving the council notice, because the 75% pre-deposit for appeal makes losing expensive. File and keep negotiating."
+      },
+      {
+        "q": "My buyer is a big company. Any extra levers?",
+        "a": "Several: listed and large companies must disclose MSME dues (MSME Form 1 half-yearly; audit disclosure of delayed payments), so a documented Samadhaan claim creates compliance noise. Interest to MSMEs is also income-tax disallowed for the buyer. Procurement teams settle to keep vendor-compliance records clean."
+      },
+      {
+        "q": "Can I recover the interest and legal costs too?",
+        "a": "Yes — contractual/late-payment interest or MSMED statutory interest is claimable as of right, and courts/councils award costs. In summary suits, interest from due date to realisation is standard. Claim them explicitly in the notice so settlement negotiations start from the full number."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

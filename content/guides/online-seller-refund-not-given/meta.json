@@ -1,0 +1,155 @@
+{
+  "slug": "online-seller-refund-not-given",
+  "category": "consumer-complaints",
+  "title": {
+    "en": "Online Seller Not Refunding Your Money? Complaint Ladder from Platform to Consumer Court"
+  },
+  "answerBox": {
+    "en": "When an online seller or marketplace refuses a due refund: exhaust the platform's grievance officer (the E-Commerce Rules give them 48 hours to acknowledge, one month to resolve), call the National Consumer Helpline 1915, then file on e-Daakhil — free for claims up to ₹5 lakh, from your own city. Card/UPI chargebacks through your bank run in parallel."
+  },
+  "keyNumbers": {
+    "en": [
+      "48-hr acknowledgement rule",
+      "1915 helpline free",
+      "₹0 court fee to ₹5 lakh"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Platform grievance officer",
+        "duration": "48 hrs / 1 month",
+        "startsFrom": "acknowledge / resolve (E-Commerce Rules)"
+      },
+      {
+        "label": "Bank chargeback window",
+        "duration": "ASAP",
+        "startsFrom": "dispute the card/UPI payment early"
+      },
+      {
+        "label": "1915 / NCH mediation",
+        "duration": "Weeks",
+        "startsFrom": "free convergence process"
+      },
+      {
+        "label": "e-Daakhil complaint",
+        "duration": "2 years",
+        "startsFrom": "from the cause of action"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Build the refund record",
+        "summary": "Order, payment, defect/non-delivery proof, and the policy.",
+        "detail": "Save the order confirmation, payment proof, delivery status, photos/video of the defective or wrong item (an **unboxing video** is gold), chat/call records, and — critically — a screenshot of the **refund/return policy as it stood at purchase**. Under the **Consumer Protection (E-Commerce) Rules, 2020**, sellers cannot refuse to take back defective/deficient goods or refuse refunds where amounts were charged for undelivered services."
+      },
+      {
+        "icon": "send",
+        "title": "Force the platform's grievance machinery",
+        "summary": "Named grievance officers with statutory clocks exist — use them.",
+        "detail": "Every marketplace must publish a **grievance officer** who acknowledges within **48 hours** and resolves within **one month**. Write formally (not just app tickets), cite the order and rule, and demand the refund with a deadline. Escalate simultaneously to the **National Consumer Helpline — 1915 / [consumerhelpline.gov.in](https://consumerhelpline.gov.in)** — its convergence process gets responses from partnered companies within weeks, free."
+      },
+      {
+        "icon": "banknote",
+        "title": "Chargeback: the parallel money lever",
+        "summary": "Your bank can reverse card/UPI payments for non-delivery.",
+        "detail": "Dispute the transaction with your card issuer/bank citing **goods not delivered / not as described** — card-network chargeback rules give real reversal rights within tight windows (typically 60–120 days from transaction), and RBI's UPI dispute framework covers failed/fraudulent debits. Attach your grievance trail. A successful chargeback often ends the matter before any court step.",
+        "serviceHint": "legal-notice-consumer"
+      },
+      {
+        "icon": "gavel",
+        "title": "e-Daakhil from your own city",
+        "summary": "No fee up to ₹5 lakh; platform + seller both as parties.",
+        "detail": "If the refund still hasn't come: a **₹999 advocate's notice** to the platform and seller (registered offices), then file on **[e-Daakhil](https://edaakhil.nic.in)** naming **both the marketplace and the seller** — filing where *you* reside or work. Claim the refund with interest, compensation for harassment, and costs. See the full process in our [consumer forum guide](/help/consumer-complaints/consumer-forum-complaint-guide); small-value cases are genuinely viable at zero court fee."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Platform grievance + 1915",
+          "amount": "Free",
+          "note": "Statutory machinery; keep everything written"
+        },
+        {
+          "label": "Bank chargeback",
+          "amount": "Free",
+          "note": "Dispute early — windows are 60–120 days"
+        },
+        {
+          "label": "Advocate's legal notice",
+          "amount": "₹999",
+          "note": "WakilBhai; to platform + seller"
+        },
+        {
+          "label": "e-Daakhil filing",
+          "amount": "₹0 up to ₹5L",
+          "note": "Slab fees above; no lawyer mandatory"
+        }
+      ],
+      "footnote": "COD orders lack the chargeback lever — prefer prepaid via credit card for expensive online purchases precisely because the dispute rights are stronger."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "online seller refund nahi de raha",
+      "flipkart amazon refund complaint",
+      "ecommerce refund rules india",
+      "online shopping refund consumer court",
+      "grievance officer ecommerce complaint",
+      "chargeback for non delivery india"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-consumer",
+    "consumer-complaint-draft"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "consumer-forum-complaint-guide",
+    "online-scam-complaint"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "The platform says \"seller's responsibility, not ours\". Is that right?",
+        "a": "No. The E-Commerce Rules make marketplaces responsible for grievance redressal and for not allowing unfair practices on their platform, and consumer commissions routinely hold platform and seller jointly liable. Name both — the platform has the deeper pocket and the compliance pressure."
+      },
+      {
+        "q": "How long do I have to file the consumer complaint?",
+        "a": "Two years from the cause of action (the refusal/deficiency). But act in days, not months: platform clocks (48 hours/1 month), chargeback windows (60–120 days) and evidence freshness all favour early movers."
+      },
+      {
+        "q": "My order was \"delivered\" but never arrived. Who bears that?",
+        "a": "The seller/platform must prove delivery to you — a courier scan is not gospel. Dispute in writing immediately, demand the POD (proof of delivery with signature/OTP), file the chargeback for non-delivery, and escalate. Commissions treat fake-delivery cases as deficiency plus unfair trade practice."
+      },
+      {
+        "q": "The seller offers only a coupon/wallet credit instead of a refund. Must I accept?",
+        "a": "No — where a refund is due (defective goods, non-delivery, cancellation per policy), you can insist on money to the original payment source. Wallet-credit-only terms for such cases sit poorly with the rules and are regularly overridden in commission orders."
+      },
+      {
+        "q": "Is a ₹2,000 dispute worth pursuing?",
+        "a": "Yes — the ladder up to e-Daakhil costs nothing but time: grievance officer, 1915, chargeback are all free, and filing itself has no fee at this value. Sellers know small claimants rarely persist; the ones who do usually get paid at the notice or helpline stage."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

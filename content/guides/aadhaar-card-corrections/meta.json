@@ -1,0 +1,156 @@
+{
+  "slug": "aadhaar-card-corrections",
+  "category": "government-paperwork",
+  "title": {
+    "en": "Aadhaar Corrections — Name, DOB, Address and Mobile: Limits, Documents and Stuck Cases"
+  },
+  "answerBox": {
+    "en": "Aadhaar updates have hard limits: name twice in a lifetime, date of birth once, gender once — address and mobile can change any number of times. Address updates work online (₹50); name/DOB/mobile need an enrolment centre visit (₹50–100). Rejections mostly trace to document mismatches; beyond-limit changes need UIDAI regional-office exception processing with strong proof."
+  },
+  "keyNumbers": {
+    "en": [
+      "Name: 2× lifetime",
+      "DOB: 1× lifetime",
+      "₹50–100 per update"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Online address update",
+        "duration": "Days–2 weeks",
+        "startsFrom": "myaadhaar.uidai.gov.in, ₹50"
+      },
+      {
+        "label": "Centre updates (name/DOB/mobile)",
+        "duration": "~1–2 weeks",
+        "startsFrom": "appointment + biometric verify"
+      },
+      {
+        "label": "Document-update refresh",
+        "duration": "Every 10 years",
+        "startsFrom": "UIDAI push; keep PoI/PoA current"
+      },
+      {
+        "label": "Exception cases (beyond limits)",
+        "duration": "Weeks–months",
+        "startsFrom": "UIDAI regional office route"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Know the limits before you burn them",
+        "summary": "Name 2×, DOB 1×, gender 1× — plan the target value.",
+        "detail": "UIDAI caps: **name — twice** in a lifetime, **date of birth — once**, **gender — once**; address/mobile/email/photo are unlimited. So fix toward the **final authoritative value** — usually the birth certificate/passport spelling — in one shot, aligned with your other IDs ([birth certificate first](/help/government-paperwork/birth-certificate-correction) where that is the anchor). DOB corrections need a **documentary proof of birth** (birth certificate/passport); \"declared age\" enrolments converting to documented DOB is precisely what the single chance is for."
+      },
+      {
+        "icon": "send",
+        "title": "Choose the right channel per field",
+        "summary": "Address online; name/DOB/biometrics at a centre.",
+        "detail": "**Address**: online at **[myAadhaar](https://myaadhaar.uidai.gov.in)** (₹50) with PoA documents, or the **Head-of-Family consent flow** when documents are in a relative's name. **Name/DOB/gender/mobile/biometrics**: book an **enrolment/update centre** (Aadhaar Seva Kendra) appointment — carry originals (scanned back to you), pay ₹50 (demographic) / ₹100 (with biometrics). Track with the URN; download the updated e-Aadhaar (as valid as the card). The 10-yearly **document update** (refresh PoI/PoA) keeps authentications smooth.",
+        "serviceHint": "affidavit-general"
+      },
+      {
+        "icon": "shield",
+        "title": "Rejections: read the reason, fix the gap",
+        "summary": "Mismatched documents cause most; affidavits + gazette bridge.",
+        "detail": "Common rejection causes: update-document name differing from the target name (bridge with the **one-and-the-same/name-change affidavit** and, for full name changes, the **[gazette route](/help/family-personal/name-change-process)** — UIDAI accepts gazette notifications as name proof), poor scans, or using non-listed documents (check UIDAI's valid-documents list). Repeated rejections with valid papers: raise a grievance on the UIDAI portal/**1947** helpline with the URNs, then escalate in writing to the **UIDAI Regional Office**."
+      },
+      {
+        "icon": "scale",
+        "title": "Beyond-limit and hard cases",
+        "summary": "Regional-office exception handling; RTI/appeals for silence.",
+        "detail": "Genuine needs beyond the caps (a wrong DOB burned by an earlier bad update, court-ordered name changes) go through **exception handling at the UIDAI Regional Office**: written request, the full document trail, sometimes a court order/gazette — processed case-by-case. Persistent silence yields to an **[RTI](/help/government-paperwork/rti-application-how-to)** on the file's status and the CPGRAMS grievance ladder. For fraud on your Aadhaar (unknown authentications, misuse), see the [identity-theft guide](/help/cyber-fraud/identity-theft-aadhaar-misuse) — locking biometrics is step one.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Address update (online)",
+          "amount": "₹50",
+          "note": "myAadhaar portal"
+        },
+        {
+          "label": "Centre updates",
+          "amount": "₹50–100",
+          "note": "Demographic / with biometrics"
+        },
+        {
+          "label": "Bridging affidavit / gazette help",
+          "amount": "₹199+",
+          "note": "WakilBhai drafting; gazette per that process"
+        },
+        {
+          "label": "e-Aadhaar download",
+          "amount": "Free",
+          "note": "Equally valid as the physical card"
+        }
+      ],
+      "footnote": "Aadhaar is downstream of your anchor documents — fix the birth certificate/passport first, then align Aadhaar, then everything else. Fixing Aadhaar to a value your anchors contradict wastes a lifetime cap."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "aadhaar name correction limit",
+      "aadhaar dob change documents",
+      "aadhaar address update online",
+      "aadhaar update rejected reason",
+      "aadhaar correction kitni baar",
+      "aadhaar mobile number update"
+    ]
+  },
+  "relatedServiceIds": [
+    "affidavit-general",
+    "name-change-affidavit"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "birth-certificate-correction",
+    "identity-theft-aadhaar-misuse"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "I've used my one DOB change and it's still wrong. Any hope?",
+        "a": "Yes, via exception handling: a written request to the UIDAI Regional Office with conclusive proof (birth certificate/passport, and where needed a court declaration of DOB) gets case-by-case processing. It is slower and evidence-hungry — but the cap is administrative, not absolute, for genuine documented errors."
+      },
+      {
+        "q": "My documents are in my pre-marriage name; Aadhaar should show my new name. Route?",
+        "a": "Marriage certificate is an accepted name-change proof for Aadhaar — carry it with your existing PoI at the centre. For bigger changes (full rename), the affidavit-ads-gazette route gives UIDAI the gazette notification it accepts without argument. This burns one of the two name-change chances — go directly to the final version."
+      },
+      {
+        "q": "Can I update a child's Aadhaar?",
+        "a": "Yes — children's biometrics are mandatorily updated at 5 and 15 (free within the window), and demographic corrections follow the same document rules with parent consent. Blue (Bal) Aadhaar for under-5s uses parental authentication. School-record alignment matters before board exams — fix mismatches early."
+      },
+      {
+        "q": "Is the mobile number update possible online?",
+        "a": "No — mobile/email changes need a centre visit with biometric verification (that linkage is the OTP security anchor). Address is the online-updatable field. Book the ASK appointment; the update reflects in about a week."
+      },
+      {
+        "q": "My address documents are in my father's/landlord's name. How do I update?",
+        "a": "Use the Head-of-Family flow (relative's consent + relationship proof) for family homes; for rentals, a registered rent agreement in your name works as PoA. UIDAI's valid-document list also includes bank statements, insurance, and government letters — one of them usually fits."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

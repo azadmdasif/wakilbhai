@@ -1,0 +1,153 @@
+{
+  "slug": "online-defamation-social-media",
+  "category": "cyber-fraud",
+  "title": {
+    "en": "Defamed or Abused Online? Takedowns, Defamation Law and Police Complaints"
+  },
+  "answerBox": {
+    "en": "For defamatory posts, fake profiles or online abuse: preserve evidence first (URLs, screenshots, archives), report to the platform under the IT Rules (grievance officers must acknowledge in 24 hours and act on some content in 36–72 hours), then choose your legal track — criminal defamation complaint (Section 356 BNS, old 499/500 IPC), a civil suit for damages and injunction, or both. Advocate advice early is essential: defamation cases reward precision."
+  },
+  "keyNumbers": {
+    "en": [
+      "24-hr platform acknowledgement",
+      "Defamation: 356 BNS",
+      "Preserve before reporting"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Preserve evidence",
+        "duration": "First",
+        "startsFrom": "before the poster deletes/edits"
+      },
+      {
+        "label": "Platform grievance report",
+        "duration": "24–72 hrs",
+        "startsFrom": "IT Rules action clocks"
+      },
+      {
+        "label": "Criminal complaint limitation",
+        "duration": "3 years",
+        "startsFrom": "from the publication"
+      },
+      {
+        "label": "Civil suit + injunction",
+        "duration": "Sooner = stronger",
+        "startsFrom": "delay weakens interim relief"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Preserve first — deletion is their first move",
+        "summary": "URLs, screenshots with timestamps, archives, witnesses.",
+        "detail": "Capture the **exact URLs**, full-page screenshots showing handle/date/time, the profile behind it, likes/shares (spread = damage), and archive copies (archive.org/archive.today). For serious matters get a **notarised/65B-certified** capture — the certificate makes it courtroom-ready. Only then report; content reported often vanishes, and with it your case."
+      },
+      {
+        "icon": "send",
+        "title": "Platform takedown under the IT Rules",
+        "summary": "Grievance officers with statutory clocks; fake profiles go fast.",
+        "detail": "Report through the platform's in-app tools AND its **India grievance officer** (published per the IT Rules, 2021): acknowledgement within **24 hours**, disposal within 15 days, and for content like impersonation and morphed/intimate imagery, removal within **24–72 hours** of complaint. **Fake profiles** impersonating you are the easy wins — impersonation violates every platform's terms and Section 66D IT Act. Escalate ignored complaints to the platform's appellate/grievance appellate committees (GAC portal).",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "scale",
+        "title": "Choose the legal track — criminal, civil, or both",
+        "summary": "Complaint before the Magistrate; suit for damages + injunction.",
+        "detail": "**Criminal defamation** — **Section 499/500 IPC (now Section 356 BNS)**: a complaint before the Magistrate (not an FIR in most cases — defamation is non-cognizable), punishable up to 2 years; truth-for-public-good and fair comment are defences the court weighs. **Civil defamation**: a suit for **damages and injunction** — interim orders directing takedown and restraining republication are the practical prize; courts grant them against identifiable defendants on strong prima facie cases. Abusive/threatening content adds **Section 351/352 BNS** (intimidation/insult) and, for women, **Section 79 BNS** (word/gesture insulting modesty) — those ARE FIR-able at the cyber cell."
+      },
+      {
+        "icon": "gavel",
+        "title": "Unknown trolls, and calibrating the response",
+        "summary": "John Doe orders, IP disclosure — and when not to sue.",
+        "detail": "Anonymous accounts: courts issue **John Doe (Ashok Kumar) orders** binding platforms to take down content and disclose subscriber/IP information; police can trace through the intermediary with the FIR. Calibrate before escalating: criminal defamation against journalists/critics invites free-speech blowback and long trials — for reputation repair, the takedown + civil injunction + a firm advocate's notice often achieves more, faster. A ₹299 consultation maps the track worth your facts."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Platform + GAC reporting",
+          "amount": "Free",
+          "note": "Statutory grievance machinery"
+        },
+        {
+          "label": "Advocate's takedown/defamation notice",
+          "amount": "₹999",
+          "note": "To poster and/or platform"
+        },
+        {
+          "label": "Criminal complaint / civil suit",
+          "amount": "Court fees + advocate",
+          "note": "Suits: ad valorem on damages claimed"
+        },
+        {
+          "label": "Strategy consultation",
+          "amount": "₹299",
+          "note": "Track choice + evidence review"
+        }
+      ],
+      "footnote": "This page is general information. Defamation law balances against free speech — opinions, satire and true statements for public good are protected; an advocate's read of your specific content before filing prevents expensive misfires."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "online defamation complaint india",
+      "fake profile complaint kaise kare",
+      "social media abuse legal action",
+      "defamation case process india",
+      "photo misuse social media complaint",
+      "takedown request social media india"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "police-complaint-draft"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "sextortion-blackmail",
+    "hacked-whatsapp-instagram"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Someone made a fake profile with my photos. FIR or platform report?",
+        "a": "Both, in that order of speed: the platform impersonation report usually kills the profile within days (carry ID proof of being the real person), while the cyber-cell complaint (66C/66D IT Act, 319 BNS cheating by personation) targets the person behind it — essential if the profile is used to defraud your contacts or harass."
+      },
+      {
+        "q": "Is truth a complete defence to defamation?",
+        "a": "Civil: substantially true statements defeat the claim. Criminal (356 BNS): truth must ALSO be for the public good — the first exception. Opinions and fair comment on public conduct are protected in both. This is why an advocate reads the exact words before you sue — or before you panic about being sued."
+      },
+      {
+        "q": "Can I get content removed without suing anyone?",
+        "a": "Often yes: platform policies (impersonation, harassment, nudity, private information) remove large classes of content on proper reports; the grievance-officer + GAC ladder handles refusals; and an advocate's notice to the poster produces voluntary deletion surprisingly often. Litigation is the escalation, not the entry point."
+      },
+      {
+        "q": "The defamer is anonymous. Is it hopeless?",
+        "a": "No — John Doe orders bind platforms to remove content against unnamed defendants, and both courts and police (with an FIR for the cognizable add-ons) can compel intermediaries to disclose registration IP/phone data. Anonymity slows the fight; it doesn't win it."
+      },
+      {
+        "q": "What damages do Indian courts actually award for online defamation?",
+        "a": "A wide range — token sums to crores in commercial-reputation cases; for individuals, realistic awards are modest, and the injunction + apology/retraction is often the real remedy. Claim honestly: inflated damage figures raise court fees (ad valorem) without raising outcomes."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

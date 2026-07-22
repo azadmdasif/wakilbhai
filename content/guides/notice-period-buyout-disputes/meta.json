@@ -1,0 +1,156 @@
+{
+  "slug": "notice-period-buyout-disputes",
+  "category": "job-salary",
+  "title": {
+    "en": "Notice Period and Buyout Disputes — What Employers Can Recover, What They Cannot"
+  },
+  "answerBox": {
+    "en": "Notice-period fights follow the contract: an agreed buyout clause lets you pay (or the employer deduct) basic-pay-based recovery for the unserved period — but employers cannot force you to keep working, cannot recover more than the contract allows, and cannot withhold your entire dues and documents as ransom. Negotiate in writing, compute the correct number, and settle FnF against documents."
+  },
+  "keyNumbers": {
+    "en": [
+      "Contract sets the buyout",
+      "No forced servitude",
+      "Documents ≠ ransom"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Resignation with notice offer",
+        "duration": "Day 0",
+        "startsFrom": "email; state willingness to serve/buy out"
+      },
+      {
+        "label": "Negotiation window",
+        "duration": "Notice period",
+        "startsFrom": "waiver/adjustment against leave"
+      },
+      {
+        "label": "FnF settlement",
+        "duration": "30–45 days",
+        "startsFrom": "from last working day, typically"
+      },
+      {
+        "label": "Disputes: notice + forums",
+        "duration": "After FnF",
+        "startsFrom": "per the wrongful-deduction routes"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Read what you actually signed",
+        "summary": "Notice length, buyout formula, discretion clauses.",
+        "detail": "The appointment letter/policy fixes: notice length (30–90 days typical), whether **buyout is a right or needs employer consent** (\"at the company's discretion\" clauses are common), the **recovery base** (basic pay vs gross — basic is the norm; gross-based recovery of a basic-based obligation is contestable), and leave adjustment. Screenshot the HR policy pages now — portals close with your access."
+      },
+      {
+        "icon": "scale",
+        "title": "Know the legal boundaries",
+        "summary": "They can recover money; they cannot compel service.",
+        "detail": "Courts do not force employees to serve out notice (**no specific performance of personal service** — Section 41, Specific Relief Act logic); the employer's remedy for short notice is **money per the contract** — liquidated recovery within Section 74's reasonableness. Conversely: earned salary, reimbursements and leave encashment are **your property** — blanket forfeiture beyond the contractual set-off, and document-withholding as pressure, are actionable ([relieving letter guide](/help/job-salary/relieving-letter-not-given)). New-employer buyout reimbursements are common — invoice trails matter for tax."
+      },
+      {
+        "icon": "banknote",
+        "title": "Negotiate the exit like a transaction",
+        "summary": "Waivers, leave set-off, garden leave — get it in writing.",
+        "detail": "Levers that work: **earned-leave adjustment** against notice (most policies allow), partial **waiver for handover quality** (managers can and do), garden leave, and joining-date flexibility from the new employer. Whatever is agreed — shortened notice, waived recovery — get it in an **email from HR/manager before** the last day; oral waivers evaporate at FnF. Compute your own FnF: salary till LWD + leave encashment + pro-rata bonus − contractual recovery. Dispute variances in writing, line by line.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "gavel",
+        "title": "When it turns hostile",
+        "summary": "Excess recovery, absconder-marking, threats — the responses.",
+        "detail": "**Excess recovery/withheld FnF**: the [unpaid-salary ladder](/help/job-salary/unpaid-salary-what-to-do) — demand, ₹999 notice, labour office (workmen) or civil claim. **\"Absconder\" marking** after a proper resignation trail: rebut in writing; your resignation email + acceptance defeats it in any BGV explanation. **Threats of \"legal action\" for leaving**: an employer's realistic claim is the contractual money, nothing criminal — bond-style threats have their own limits ([bond guide](/help/job-salary/employment-bond-enforceability)). Stay written, stay computed, settle against documents.",
+        "serviceHint": "legal-notice-unpaid-salary"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Buyout amount",
+          "amount": "Per contract",
+          "note": "Typically basic × unserved days"
+        },
+        {
+          "label": "Consultation (computation/strategy)",
+          "amount": "₹299",
+          "note": "FnF and recovery review"
+        },
+        {
+          "label": "Advocate's notice (withheld dues)",
+          "amount": "₹999",
+          "note": "When FnF/documents are hostage"
+        },
+        {
+          "label": "Labour office (workmen)",
+          "amount": "Free",
+          "note": "Conciliation on dues disputes"
+        }
+      ],
+      "footnote": "The clean exit is a negotiation, not a war: employers trade notice flexibility for handover certainty every day — ask early, in writing, with a plan."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "notice period buyout rules india",
+      "notice period nahi serve kiya to kya hoga",
+      "company notice period recovery salary",
+      "notice period waiver request",
+      "absconding employee consequences",
+      "fnf me notice recovery galat"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "legal-notice-unpaid-salary"
+  ],
+  "relatedTemplateSlugs": [
+    "resignation-letter"
+  ],
+  "relatedGuideSlugs": [
+    "relieving-letter-not-given",
+    "employment-bond-enforceability"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can my employer refuse my resignation entirely?",
+        "a": "No — employment is not bonded servitude; resignation is your unilateral right, subject to the contractual notice/money consequences. An employer can refuse to WAIVE notice, not refuse the resignation itself. Serve or buy out per contract and the exit is lawful."
+      },
+      {
+        "q": "The contract says 90 days but the new job needs me in 30. Realistic options?",
+        "a": "Stack: earned-leave adjustment, buyout of the balance (if the clause allows or HR consents), negotiated waiver for a strong handover, and new-employer buyout funding. Companies rarely litigate 60 days of notice against a documented, cooperative leaver — but get every concession in writing before your last day."
+      },
+      {
+        "q": "Recovery was computed on gross salary though the clause says basic. Do I just accept?",
+        "a": "No — dispute the FnF computation in writing citing the clause; recovery beyond the contract is an unauthorised deduction. The demand-notice-forum ladder applies to the excess exactly as to unpaid salary. Most payroll teams correct clause-vs-computation gaps when challenged precisely."
+      },
+      {
+        "q": "HR threatens to mark me \"absconding\" though I resigned by email. How bad is that?",
+        "a": "With your resignation email, acceptance/read receipts and handover trail, an absconder tag is factually false and defensible in any background check (\"documented resignation; dispute over notice recovery\"). Respond once in writing rebutting it, keep the trail, and let the notice + FnF negotiation resolve the substance."
+      },
+      {
+        "q": "Can they sue me for \"project loss\" beyond the notice recovery?",
+        "a": "Claims beyond the contractual liquidated recovery need proof of actual loss caused by your leaving per se — courts rarely entertain speculative project-loss claims against employees who followed the contract's exit mechanics. The buyout clause is generally the ceiling of realistic exposure."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

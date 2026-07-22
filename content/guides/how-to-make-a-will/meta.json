@@ -1,0 +1,159 @@
+{
+  "slug": "how-to-make-a-will",
+  "category": "family-personal",
+  "title": {
+    "en": "How to Make a Will in India — Validity Rules, Witnesses, and Why Registration Is Optional"
+  },
+  "answerBox": {
+    "en": "A valid will in India needs just three things: it must be in writing, signed by you, and attested by two witnesses who saw you sign — Section 63, Indian Succession Act. No stamp paper is needed, registration is optional (₹100–1,000 if you choose it), and you can change or revoke it anytime. A clear will costs almost nothing and prevents years of family litigation."
+  },
+  "keyNumbers": {
+    "en": [
+      "2 witnesses required",
+      "No stamp paper needed",
+      "Registration optional"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Make it now",
+        "duration": "Any age 18+",
+        "startsFrom": "sound mind is the only capacity test"
+      },
+      {
+        "label": "Register (optional)",
+        "duration": "Anytime",
+        "startsFrom": "sub-registrar; can be done later"
+      },
+      {
+        "label": "Update after life events",
+        "duration": "As they happen",
+        "startsFrom": "marriage, children, property changes"
+      },
+      {
+        "label": "Probate (after death)",
+        "duration": "Where needed",
+        "startsFrom": "mainly for wills made/property in presidency towns"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "List assets and decide shares",
+        "summary": "Everything you own, who gets what, in plain language.",
+        "detail": "Inventory what you own: property (with addresses/survey numbers), bank and demat accounts, FDs, insurance, vehicles, jewellery, digital assets. Then state **who gets what in unambiguous shares** — \"my flat at [address] to my daughter [full name]\" beats \"my property to my children equally\". Name an **executor** (a trusted person who will implement the will) and a guardian for minor children. Wills made under the Indian Succession Act govern most Indians; Muslim testamentary law differs (generally one-third of the estate by will) — take specific advice there."
+      },
+      {
+        "icon": "signature",
+        "title": "Execute it correctly — this is the validity core",
+        "summary": "You sign; two witnesses attest, seeing you sign.",
+        "detail": "Under **Section 63, Indian Succession Act**: the will must be in writing (any language, even handwritten), **signed by the testator**, and **attested by two or more witnesses** each of whom saw you sign and then signed in your presence. Choose witnesses who are *not* beneficiaries (a beneficiary-witness risks losing their legacy under Section 67), are younger/likely to outlive you, and are easy to trace. Date every page, sign every page, and state that this will revokes all earlier wills.",
+        "serviceHint": "will-drafting"
+      },
+      {
+        "icon": "shield",
+        "title": "Registration: optional, but useful",
+        "summary": "Not required for validity — adds tamper-proof evidence.",
+        "detail": "Registration at the sub-registrar (Registration Act, Section 18 — **optional** for wills) costs a nominal fee (commonly ₹100–1,000 by state) and puts a copy in official custody, making later allegations of forgery or substitution much harder. It does not need stamp duty. A registered will can still be revoked or replaced by a later will — the *latest valid will* always prevails. A medical fitness certificate on the same day is a common, sensible add-on for elderly testators."
+      },
+      {
+        "icon": "check",
+        "title": "Store, review, and tell the executor",
+        "summary": "A perfect will nobody can find helps no one.",
+        "detail": "Keep the signed original safe (bank locker with nominee access, or with your advocate), give the executor a copy or its location, and **review after every life event** — marriage, divorce, births, deaths, property purchases. To change it, either execute a fresh will (cleanest) or a codicil with the same two-witness formality. After death, the executor applies for **probate where required** — chiefly wills executed or property situated in Kolkata, Mumbai, Chennai — otherwise the will operates on its own strength."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Making the will yourself",
+          "amount": "Free",
+          "note": "Paper + two witnesses; no stamp paper"
+        },
+        {
+          "label": "Professional drafting",
+          "amount": "₹199",
+          "note": "WakilBhai will-drafting service, 1–3 days"
+        },
+        {
+          "label": "Registration (optional)",
+          "amount": "₹100–1,000",
+          "note": "Sub-registrar fee, varies by state"
+        },
+        {
+          "label": "Probate (only where needed, after death)",
+          "amount": "Court-fee slab",
+          "note": "Percentage-capped court fees by state"
+        }
+      ],
+      "footnote": "A will only speaks after death and can be re-made any number of times — the latest valid will prevails. Dying without one (intestate) distributes property by rigid succession rules and commonly triggers the family disputes a two-page will would have prevented."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "how to make a will in india",
+      "will banane ka tarika",
+      "is will registration compulsory",
+      "will without stamp paper valid",
+      "will witnesses rules india",
+      "will format india legal"
+    ]
+  },
+  "relatedServiceIds": [
+    "will-drafting",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "mutual-divorce-process-cost",
+    "maintenance-wife-children"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is a will on plain paper valid?",
+        "a": "Yes. A will needs no stamp paper and no particular form — writing, the testator's signature, and attestation by two witnesses who saw the signing (Section 63, Indian Succession Act) are the whole formality. Even a handwritten will meeting these is fully valid."
+      },
+      {
+        "q": "Is registering a will compulsory?",
+        "a": "No — registration is expressly optional for wills. It adds evidentiary strength (official custody, harder to allege forgery) for a nominal fee, which is why advocates recommend it for property-heavy estates, but an unregistered will is equally lawful."
+      },
+      {
+        "q": "Can a beneficiary be a witness?",
+        "a": "Avoid it. Under Section 67 of the Succession Act, a bequest to an attesting witness (or their spouse) is void — the will survives but that beneficiary loses their share. Use two independent witnesses and keep beneficiaries out of the attestation entirely."
+      },
+      {
+        "q": "Can my family challenge the will after I die?",
+        "a": "They can try — the usual grounds are lack of sound mind, coercion/undue influence, or forgery. Sound execution defeats these: independent witnesses, a doctor's fitness note for elderly testators, registration, and a clear statement of why any natural heir gets less. A professionally drafted, registered will rarely falls."
+      },
+      {
+        "q": "What happens if I die without a will?",
+        "a": "Intestate succession applies: the Hindu Succession Act's heir classes for Hindus, personal law for Muslims, the Indian Succession Act for Christians and Parsis. Property divides among heirs in fixed shares regardless of your wishes, and families then need legal-heir/succession certificates — see our succession certificate guide."
+      },
+      {
+        "q": "Do I need probate for the will to work?",
+        "a": "Only in defined cases — principally wills made in, or covering immovable property in, the presidency towns (Kolkata, Mumbai, Chennai). Elsewhere heirs commonly transfer assets on the will plus death certificate directly. Where probate is needed, it is a court petition with slab court fees — an advocate handles it."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

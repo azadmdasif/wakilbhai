@@ -1,0 +1,153 @@
+{
+  "slug": "hacked-whatsapp-instagram",
+  "category": "cyber-fraud",
+  "title": {
+    "en": "WhatsApp or Instagram Hacked? Account Recovery + Cyber Cell Complaint"
+  },
+  "answerBox": {
+    "en": "If your WhatsApp or Instagram is hacked, recover the account first — WhatsApp by re-registering your number with the SMS code (hacker logs out instantly), Instagram via instagram.com/hacked — then warn your contacts and report on cybercrime.gov.in within 24 hours. If the hacker asked anyone for money, call 1930 too. Everything is free."
+  },
+  "keyNumbers": {
+    "en": [
+      "Re-register in minutes",
+      "Report within 24 hours",
+      "₹0 recovery cost"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Re-register / start recovery",
+        "duration": "Immediately",
+        "startsFrom": "the moment you notice"
+      },
+      {
+        "label": "Warn contacts + preserve evidence",
+        "duration": "First hour",
+        "startsFrom": "before the hacker messages them"
+      },
+      {
+        "label": "File on cybercrime.gov.in",
+        "duration": "24 hours",
+        "startsFrom": "ideally, from discovery"
+      },
+      {
+        "label": "Call 1930",
+        "duration": "Golden hours",
+        "startsFrom": "if money was extracted from anyone"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "shield",
+        "title": "Take the account back",
+        "summary": "WhatsApp: re-register your number. Instagram: instagram.com/hacked.",
+        "detail": "For **WhatsApp**: reinstall/open the app, register your own number, and enter the SMS code — the hacker's session drops the moment you complete it; if it says try later (registration lock), email support@whatsapp.com with \"hacked account\" and your number. For **Instagram**: use [instagram.com/hacked](https://www.instagram.com/hacked/), or \"Get help logging in\", or the video-selfie identity check if the email/phone were changed. Turn on **two-step verification / 2FA** the moment you are back in."
+      },
+      {
+        "icon": "alert",
+        "title": "Warn contacts and preserve evidence",
+        "summary": "Hackers immediately ask your contacts for \"urgent\" money.",
+        "detail": "Post/message from any channel you still control that your account is compromised and to pay nothing. **Screenshot everything first** — the money-demand messages the hacker sent, changed profile, unknown devices in the security page, the phishing message that started it. These screenshots are the evidence for the police complaint and for anyone who actually paid."
+      },
+      {
+        "icon": "file-text",
+        "title": "Report on cybercrime.gov.in",
+        "summary": "Hacking is a standalone offence even if no money moved.",
+        "detail": "File at [cybercrime.gov.in](https://cybercrime.gov.in) under social-media/hacking complaints. Unauthorised access is punishable under **IT Act Section 66** (with Section 43), impersonating you to extract money is **Section 66D IT Act** and cheating by personation — **Section 419 IPC (now Section 319 BNS)**, cheating **Section 420 IPC (now Section 318 BNS)**. Attach your screenshots and the acknowledgement of recovery attempts.",
+        "serviceHint": "police-complaint-draft"
+      },
+      {
+        "icon": "phone",
+        "title": "If money moved: 1930 + bank, fast",
+        "summary": "Any contact who paid should follow the UPI-fraud golden-hour drill.",
+        "detail": "Whoever transferred money to the hacker should **call 1930 immediately** and file the financial-fraud complaint in their own name so the receiving account can be frozen — the drill in our [UPI fraud guide](/help/cyber-fraud/upi-fraud-money-recovery). You filing the hacking complaint + them filing the payment complaint links the chain for the police."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Account recovery (WhatsApp/Instagram)",
+          "amount": "Free",
+          "note": "Platform channels only — never \"recovery agents\""
+        },
+        {
+          "label": "cybercrime.gov.in / cyber cell complaint",
+          "amount": "Free",
+          "note": "National portal or the local cyber police station"
+        },
+        {
+          "label": "Complaint drafted for you",
+          "amount": "₹199",
+          "note": "WakilBhai documentation help"
+        },
+        {
+          "label": "Advocate consultation",
+          "amount": "₹299",
+          "note": "If extortion, defamation or business loss is involved"
+        }
+      ],
+      "footnote": "Paid \"Instagram recovery services\" advertising online are almost always scams themselves. Recovery flows only through the platform's own process and, for the criminal side, the police."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "whatsapp hacked what to do",
+      "instagram account hacked recovery",
+      "whatsapp hack complaint cyber cell",
+      "instagram hacked email changed",
+      "social media account hacked complaint india",
+      "whatsapp hacked money asked from contacts"
+    ]
+  },
+  "relatedServiceIds": [
+    "police-complaint-draft",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "upi-fraud-money-recovery",
+    "online-scam-complaint"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "How do I recover a hacked WhatsApp account?",
+        "a": "Sign in to WhatsApp with your own number and enter the SMS verification code — that alone logs the hacker out, since WhatsApp allows one active registration per number. If the hacker enabled two-step verification you don't know, wait for the 7-day reset or email support@whatsapp.com with \"hacked account\" and your number."
+      },
+      {
+        "q": "Instagram hacker changed my email and phone. Is the account gone?",
+        "a": "No. Go to instagram.com/hacked and choose \"My account was hacked\" — Instagram can verify you via a security code to your original contact points or a video selfie matched against your photos, and then reverses the takeover. Recovery may take a few days; keep the reference emails."
+      },
+      {
+        "q": "Is hacking someone's account a crime even if no money was taken?",
+        "a": "Yes. Unauthorised access to an account or device is an offence under Section 66 read with Section 43 of the IT Act, punishable with imprisonment up to 3 years and/or fine. Money extraction adds cheating by personation — Section 419 IPC (now Section 319 BNS) and Section 420 IPC (now Section 318 BNS)."
+      },
+      {
+        "q": "A friend paid money to my hacked account's \"emergency\" message. Who complains?",
+        "a": "Both of you. The friend who paid files the financial fraud complaint (1930 + portal) in their name — only the payer can claim that money trail. You file the hacking/impersonation complaint. Cross-reference each other's acknowledgement numbers so the police see one connected case."
+      },
+      {
+        "q": "How do I stop this happening again?",
+        "a": "Turn on two-step verification (WhatsApp) and 2FA with an authenticator app (Instagram), never share OTPs or \"screen share\" with strangers, and treat any \"vote for my contest / verify your account\" link as a phishing attempt — that is how most of these takeovers start."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

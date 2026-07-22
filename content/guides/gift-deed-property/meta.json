@@ -1,0 +1,155 @@
+{
+  "slug": "gift-deed-property",
+  "category": "property-tenancy",
+  "title": {
+    "en": "Gift Deed for Property — Stamp Duty Concessions for Family, Process and Revocation"
+  },
+  "answerBox": {
+    "en": "Gifting immovable property requires a registered gift deed: drafted, stamped, signed before two witnesses, accepted by the donee during the donor's lifetime, and registered at the sub-registrar (Section 123, Transfer of Property Act — an unregistered gift of property is void). Most states charge concessional stamp duty for gifts to close relatives (as low as ₹200 in Maharashtra for some family gifts; Delhi and others charge normal rates). Once accepted and registered, a gift is generally irrevocable."
+  },
+  "keyNumbers": {
+    "en": [
+      "Registration mandatory",
+      "Family concession duty",
+      "Generally irrevocable"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Draft + stamp the deed",
+        "duration": "Days",
+        "startsFrom": "with the family-concession check"
+      },
+      {
+        "label": "Acceptance by donee",
+        "duration": "Donor's lifetime",
+        "startsFrom": "legal requirement — record it in the deed"
+      },
+      {
+        "label": "Registration",
+        "duration": "4 months",
+        "startsFrom": "from execution (Registration Act)"
+      },
+      {
+        "label": "Mutation after registration",
+        "duration": "Weeks",
+        "startsFrom": "municipal/revenue records"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "What a valid gift needs",
+        "summary": "Voluntary, no consideration, acceptance in lifetime.",
+        "detail": "A gift (Sections 122–123, Transfer of Property Act) is a **voluntary transfer without consideration**, requiring: a competent donor with clear title, the donee's **acceptance during the donor's lifetime**, and for immovable property, a **registered deed attested by two witnesses** — unregistered property gifts are void (no \"gift on plain paper\" works). Even a rupee of consideration makes it a sale, with sale-level duty. Our **₹199 drafting** covers recitals of relationship, property schedule, acceptance and possession.",
+        "serviceHint": "gift-deed"
+      },
+      {
+        "icon": "banknote",
+        "title": "Stamp duty: where family gifts win",
+        "summary": "Concessional rates for blood relatives in many states.",
+        "detail": "Several states give **big concessions for gifts to close relatives**: Maharashtra — ₹200 duty for gifts of residential/agricultural property to spouse/children/grandchildren (plus metro cess/registration); UP — ₹5,000–7,000 range for family gifts (post-2022 concessions); Punjab/Haryana — exemptions/nominal for blood relations; others (Delhi) charge normal conveyance duty even in family. The definition of \"relative\" is state-specific — check the current schedule (or run our [stamp duty calculator](/tools/stamp-duty-calculator)) before choosing gift vs sale vs will."
+      },
+      {
+        "icon": "signature",
+        "title": "Execute and register like a sale",
+        "summary": "Sub-registrar appearance, witnesses, biometrics, then mutation.",
+        "detail": "Print on stamp paper/e-stamp of the computed value, sign before **two witnesses**, and register at the **sub-registrar** with both parties (or a valid POA) — ID, photos, PAN for higher values, and the property documents; the 4-month presentation window applies. After registration, complete **mutation** in municipal/revenue records and inform the housing society. Income-tax note: gifts from specified **relatives are tax-exempt** in the donee's hands (Section 56(2)(x)); gifts from non-relatives above ₹50,000 aggregate are taxable as income."
+      },
+      {
+        "icon": "shield",
+        "title": "Revocation — mostly, you cannot",
+        "summary": "Plan with the irrevocability in mind; conditions are possible.",
+        "detail": "A completed gift is **irrevocable** except: a revocation condition **agreed in the deed itself** for specified events (Section 126 TPA), or grounds that void any contract (fraud, coercion, undue influence — litigated, not presumed). Parents gifting to children have one special shield: the **Senior Citizens Act, Section 23** lets a maintenance tribunal declare a transfer void where the child fails to provide the agreed care — a powerful, purpose-built remedy. Structure alternatives (retaining life interest, will instead of gift) deserve a ₹299 consultation before signing away title."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Stamp duty",
+          "amount": "₹200–normal rates",
+          "note": "Family concessions state-wise; verify current"
+        },
+        {
+          "label": "Registration fee",
+          "amount": "~1% (often capped)",
+          "note": "Plus nominal charges"
+        },
+        {
+          "label": "Deed drafting",
+          "amount": "₹199",
+          "note": "WakilBhai; concession-aware recitals"
+        },
+        {
+          "label": "Structure consultation",
+          "amount": "₹299",
+          "note": "Gift vs will vs sale for your facts"
+        }
+      ],
+      "footnote": "A gift transfers title NOW and irrevocably — a will transfers on death and stays changeable. Choosing between them is the real decision; duty concessions should inform it, not drive it."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "gift deed property process",
+      "gift deed stamp duty family",
+      "property gift to son daughter",
+      "gift deed registration required",
+      "gift deed revocation rules",
+      "gift deed vs will"
+    ]
+  },
+  "relatedServiceIds": [
+    "gift-deed",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "property-registration-process",
+    "how-to-make-a-will"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can I gift property on plain paper or notarised deed to save duty?",
+        "a": "No — Section 123 TPA makes registration mandatory for gifts of immovable property; unregistered gifts pass nothing, whatever the notary stamped. The concessional family duty in many states removes most of the cost reason for shortcuts anyway."
+      },
+      {
+        "q": "Is a gift to my son/daughter taxable?",
+        "a": "No income tax for the donee — gifts from \"relatives\" (spouse, children, siblings, lineal ascendants/descendants and their spouses) are exempt under Section 56(2)(x) regardless of value. Stamp duty on the deed still applies per the state schedule. Later sale by the donee uses your original cost/holding period for capital gains."
+      },
+      {
+        "q": "Can a gifted property be taken back if relations sour?",
+        "a": "Generally no — completed gifts are irrevocable. The exceptions: a revocation condition written into the deed, vitiated consent proven in court, and for senior-citizen donors, the Section 23 Senior Citizens Act route where the transfer was premised on care that is refused. Deed-stage planning (life interest, conditions) is the real protection."
+      },
+      {
+        "q": "Can I gift my share in a jointly-owned property?",
+        "a": "Yes — an undivided share is giftable by the same registered-deed process; the donee steps into your share subject to co-owners's rights. Ancestral/HUF property is different: your power extends to your interest, and coparcenary rules constrain gifts of the whole — take advice for HUF property."
+      },
+      {
+        "q": "Gift deed vs transferring via a will — which is better for parents?",
+        "a": "Gift: immediate, irrevocable, concession duty now, and the child can deal with the property at once. Will: control retained for life, changeable, no duty now (only later succession steps), but probate/heir processes follow death. Parents needing care security should either retain a life interest in the gift or prefer a will — the Section 23 remedy exists but litigation is a poor plan."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

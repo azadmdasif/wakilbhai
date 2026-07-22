@@ -1,0 +1,155 @@
+{
+  "slug": "nda-agreement-essentials",
+  "category": "business-startup",
+  "title": {
+    "en": "NDA (Non-Disclosure Agreement) — What to Include, What's Enforceable in India"
+  },
+  "answerBox": {
+    "en": "An NDA protects your business information before you share it — with vendors, hires, investors or collaborators. The essentials: a precise definition of confidential information, permitted use, term (2–5 years typical), exclusions, and remedies including injunctions. Confidentiality clauses are enforceable in India; blanket non-competes after termination generally are not (Section 27, Contract Act)."
+  },
+  "keyNumbers": {
+    "en": [
+      "2–5 year term typical",
+      "Injunction = real remedy",
+      "₹499 drafting"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Sign before disclosure",
+        "duration": "Always",
+        "startsFrom": "NDAs do not work retroactively"
+      },
+      {
+        "label": "Term of confidentiality",
+        "duration": "2–5 years",
+        "startsFrom": "trade secrets: perpetual carve-out"
+      },
+      {
+        "label": "Breach: act fast",
+        "duration": "Immediately",
+        "startsFrom": "injunctions reward speed"
+      },
+      {
+        "label": "Return/destroy information",
+        "duration": "On termination",
+        "startsFrom": "certificate of destruction clause"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Define \"confidential information\" precisely",
+        "summary": "Too broad = unenforceable; too narrow = unprotected.",
+        "detail": "List what is actually being protected: **customer lists, pricing, source code, formulas, business plans, financials** — and mark whether oral disclosures count (require written confirmation within days for provability). Include standard **exclusions**: information already public, independently developed, or lawfully received from others. Courts enforce specific, reasonable definitions; \"everything ever discussed\" invites the agreement being read down."
+      },
+      {
+        "icon": "scale",
+        "title": "Choose mutual or one-way, and the permitted use",
+        "summary": "The information may be used ONLY for the stated purpose.",
+        "detail": "A **one-way NDA** fits vendors and hires receiving your information; a **mutual NDA** fits partnerships and M&A talks. The heart is the **purpose clause**: information may be used solely for evaluating/performing the stated engagement — using your client list to poach clients breaches even without \"disclosure\". Add non-solicitation of clients/staff during the term (reasonable restraints operating during a contract are enforceable)."
+      },
+      {
+        "icon": "shield",
+        "title": "Know the Indian enforceability lines",
+        "summary": "Confidentiality: yes. Post-term non-compete: mostly no.",
+        "detail": "Indian courts enforce confidentiality and trade-secret protection through damages and — critically — **injunctions** restraining use/disclosure. But **Section 27, Contract Act** voids agreements restraining lawful trade: a blanket \"shall not work in this industry for 2 years after leaving\" is generally unenforceable against employees, while confidentiality itself survives termination. Draft to protect information, not to imprison people — that distinction is what survives court.",
+        "serviceHint": "nda"
+      },
+      {
+        "icon": "gavel",
+        "title": "Remedies and execution mechanics",
+        "summary": "Injunction clause, damages, arbitration, and proper signing.",
+        "detail": "Provide expressly for **injunctive relief** (acknowledging damages are inadequate), damages/account of profits, **arbitration** with interim-relief carve-out (Section 9 Arbitration Act lets you rush to court for injunctions), governing law and jurisdiction. Execute on ₹100–500 stamp paper (state-wise) with signatures of authorised signatories. On breach: preserve evidence, send the cease-and-desist through an advocate, and move for interim injunction fast — delay is the enemy of secrecy remedies."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "NDA drafting",
+          "amount": "₹499",
+          "note": "WakilBhai; mutual or one-way"
+        },
+        {
+          "label": "Stamp duty",
+          "amount": "₹100–500",
+          "note": "State-wise agreement stamping"
+        },
+        {
+          "label": "Free basic template",
+          "amount": "Free",
+          "note": "Our NDA template for simple cases (below)"
+        },
+        {
+          "label": "Breach response (notice + strategy)",
+          "amount": "₹999 + ₹299",
+          "note": "Cease-and-desist + consultation"
+        }
+      ],
+      "footnote": "An NDA is deterrence plus a litigation foundation — pair it with practical controls (access limits, watermarks, need-to-know sharing), because the best trade-secret case is the leak that never happened."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "nda agreement india format",
+      "non disclosure agreement enforceable india",
+      "nda clauses india",
+      "mutual nda vs one way",
+      "nda breach remedies india",
+      "non compete clause india enforceable"
+    ]
+  },
+  "relatedServiceIds": [
+    "nda",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "nda-template"
+  ],
+  "relatedGuideSlugs": [
+    "founders-agreement-startup",
+    "partnership-deed-registration"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Are NDAs actually enforceable in India?",
+        "a": "Yes — confidentiality obligations are ordinary contract terms, enforced through injunctions and damages; Indian courts routinely restrain ex-employees and counterparties from using trade secrets. What fails is the overreach: post-termination non-competes and definitions so broad they restrain trade rather than protect information."
+      },
+      {
+        "q": "How long should an NDA last?",
+        "a": "Two to five years for general business information; genuine trade secrets (formulas, source code) deserve a carve-out lasting as long as the information stays secret. Perpetual terms for everything look unreasonable and invite reading-down — tier the durations by information type."
+      },
+      {
+        "q": "Someone breached my NDA. What do I actually do?",
+        "a": "Move in this order, fast: preserve evidence of the breach (emails, the leaked material, witnesses), advocate's cease-and-desist notice, then interim injunction — via Section 9 Arbitration Act if you have an arbitration clause, else civil court — plus damages/account of profits. Speed matters; months of inaction undermines the \"irreparable harm\" injunctions require."
+      },
+      {
+        "q": "Do investors sign NDAs before a pitch?",
+        "a": "VCs almost never do — they see too many similar decks and refuse liability. Protect yourself instead by staging disclosure: pitch the what, hold back the how (code, formulas, unit economics detail) until term-sheet stage, and watermark materials. NDAs are for vendors, hires, manufacturers and acquirers — not first pitches."
+      },
+      {
+        "q": "Is a scanned/e-signed NDA valid?",
+        "a": "Yes — electronic execution is recognised under the IT Act, and courts accept e-signed agreements; keep the signing trail (emails, e-sign certificates). Stamp duty compliance still applies for use in evidence, and can be regularised by adjudication if missed."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

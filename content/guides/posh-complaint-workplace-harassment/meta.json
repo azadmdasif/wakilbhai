@@ -1,0 +1,154 @@
+{
+  "slug": "posh-complaint-workplace-harassment",
+  "category": "job-salary",
+  "title": {
+    "en": "Workplace Sexual Harassment — Filing a POSH Complaint: ICC, Timelines and Protections"
+  },
+  "answerBox": {
+    "en": "Under the POSH Act, every workplace with 10+ employees must have an Internal Committee (IC). File your written complaint to the IC within 3 months of the incident (extendable by 3 more); the IC must complete its inquiry in 90 days, with recommendations acted on in 60 days. Interim reliefs — transfer, leave up to 3 months — are available during inquiry, and retaliation is itself punishable."
+  },
+  "keyNumbers": {
+    "en": [
+      "3-month filing window",
+      "90-day inquiry",
+      "Interim relief available"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "File with the IC",
+        "duration": "3 months",
+        "startsFrom": "from the incident (IC can extend 3 more)"
+      },
+      {
+        "label": "Conciliation (optional, no money)",
+        "duration": "If sought",
+        "startsFrom": "only at complainant's request"
+      },
+      {
+        "label": "IC inquiry completed",
+        "duration": "90 days",
+        "startsFrom": "from complaint"
+      },
+      {
+        "label": "Employer acts on report",
+        "duration": "60 days",
+        "startsFrom": "from IC recommendations"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Write the complaint — specific, dated, evidenced",
+        "summary": "Six copies to the IC with incidents, dates, witnesses.",
+        "detail": "Address a written complaint to the **Internal Committee** (the POSH policy/notice board names members — an external member and woman presiding officer are mandatory) describing each incident with **dates, places, what was said/done, and witnesses**; attach messages, emails, call logs. The Act covers quid pro quo demands, hostile-environment conduct, and harassment by **anyone at the workplace** — colleagues, seniors, clients, vendors — including at offsites and work travel. If writing is difficult, IC members must assist."
+      },
+      {
+        "icon": "shield",
+        "title": "Use the interim protections — they exist for you",
+        "summary": "Transfer, leave, no-contact — during the inquiry.",
+        "detail": "On request, the IC can recommend **interim measures**: transfer of you or the respondent, **leave up to 3 months** (beyond your entitlement), restraining the respondent from supervising/evaluating you, and no-contact directions. **Retaliation** — termination, demotion, hostile appraisals for complaining — violates the Act and service rules; document any and report it to the IC immediately as a fresh violation.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "scale",
+        "title": "The inquiry: your procedural rights",
+        "summary": "Natural justice, cross-examination via the IC, confidentiality.",
+        "detail": "The IC follows service rules/natural justice: both sides heard, evidence and witnesses examined, questions to the other side routed through the IC (no direct confrontation), minimum 3 members present, and strict **confidentiality** (Section 16 bars publication of identities; breach is penalised). The IC report recommends action — from apology/warning to termination — plus **compensation** to you (deductible from the respondent's salary), assessed on trauma, career loss and medical costs. Appeals lie to the court/tribunal within **90 days**."
+      },
+      {
+        "icon": "gavel",
+        "title": "No IC? Small workplace? Criminal overlap?",
+        "summary": "Local Committee, SHe-Box, and the parallel criminal route.",
+        "detail": "Workplaces under 10 employees or complaints **against the employer himself** go to the district **Local Committee** (through the District Officer/DM). The central **[SHe-Box portal](https://shebox.wcd.gov.in)** routes complaints to the right IC/LC and tracks them; an employer with no IC faces penalties up to ₹50,000 and licence consequences. The criminal law runs in parallel when you choose: **Section 354A IPC (now Section 75 BNS)** for sexual harassment, with stalking/voyeurism provisions alongside — an FIR does not need the IC's permission, and the IC route does not bar it."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "IC / Local Committee complaint",
+          "amount": "Free",
+          "note": "Statutory machinery inside the workplace"
+        },
+        {
+          "label": "SHe-Box filing",
+          "amount": "Free",
+          "note": "Central portal, routes + tracks"
+        },
+        {
+          "label": "Confidential consultation",
+          "amount": "₹299",
+          "note": "Strategy, drafting help, retaliation response"
+        },
+        {
+          "label": "Complaint drafting support",
+          "amount": "₹199",
+          "note": "Structured, dated incident complaint"
+        }
+      ],
+      "footnote": "Malicious-complaint penalties in the Act require proven malice — inability to prove an allegation is expressly NOT malice (Section 14). Genuine complainants should not be deterred by that clause."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "posh complaint process",
+      "workplace sexual harassment complaint india",
+      "internal committee complaint kaise kare",
+      "posh act time limit",
+      "she-box complaint online",
+      "office harassment legal action"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "wrongful-termination-options",
+    "how-to-file-fir"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "The incident was 5 months ago. Can I still complain?",
+        "a": "Yes — the IC can extend the 3-month window by another 3 months for reasons recorded (fear, ongoing harassment, not knowing the process all qualify). Beyond 6 months, the Local Committee/courts have shown flexibility in continuing-harassment situations; and the criminal route has its own longer limitations. File with an explanation rather than not filing."
+      },
+      {
+        "q": "What if the harasser is the founder/MD — the IC reports to him?",
+        "a": "Complaints against the employer go to the district Local Committee, not the IC — precisely for this conflict. SHe-Box routes it correctly. IC members' independence obligations and the external member requirement also exist for the senior-respondent problem; escalate to the LC if the IC is visibly captured."
+      },
+      {
+        "q": "Will my identity stay confidential?",
+        "a": "Section 16 prohibits publishing or disclosing the identities of complainant, respondent and witnesses, and inquiry contents — with penalties for breach. Internally, information flows on need-to-know within the IC process. Leaks by colleagues/management are themselves violations to record and report."
+      },
+      {
+        "q": "Can men file POSH complaints?",
+        "a": "The POSH Act's complainant is defined as an \"aggrieved woman\". Men facing workplace sexual harassment use service rules/HR policy (many companies extend gender-neutral internal policies), criminal law (assault/insult provisions in the BNS), and civil remedies. Company policy routes are worth checking first — most large employers now run gender-neutral processes."
+      },
+      {
+        "q": "I complained and was fired two weeks later. What are my options?",
+        "a": "Retaliation timing is powerful evidence: report it to the IC/LC as victimisation, and challenge the termination (see our wrongful-termination guide) with the POSH complaint as the mala fide backdrop. Courts and labour forums treat post-complaint terminations with deep suspicion — preserve the timeline meticulously."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

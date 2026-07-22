@@ -1,0 +1,156 @@
+{
+  "slug": "relieving-letter-not-given",
+  "category": "job-salary",
+  "title": {
+    "en": "Company Not Giving Relieving Letter or Experience Certificate? How to Force It"
+  },
+  "answerBox": {
+    "en": "An employer withholding your relieving letter or experience certificate after you served notice is using your career as leverage — usually to extract \"dues\" or block your exit. The fix: complete your exit obligations on paper, send a documented demand, then a ₹999 advocate's notice claiming the documents plus damages for the blocked joining. Most companies release papers within the notice period."
+  },
+  "keyNumbers": {
+    "en": [
+      "Serve notice on paper",
+      "15-day legal notice",
+      "₹999 advocate notice"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Resignation + notice period",
+        "duration": "Per contract",
+        "startsFrom": "email it; keep acceptance proof"
+      },
+      {
+        "label": "Exit formalities + handover",
+        "duration": "Last working day",
+        "startsFrom": "document every step"
+      },
+      {
+        "label": "Written demand for documents",
+        "duration": "7–15 days",
+        "startsFrom": "after FnF due date"
+      },
+      {
+        "label": "Advocate notice + escalation",
+        "duration": "15 days",
+        "startsFrom": "deadline in the notice"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Close your side of the exit, on record",
+        "summary": "Notice served, handover done, assets returned — provably.",
+        "detail": "Resign **by email**, get written acceptance, serve the contractual notice (or agree buyout in writing), complete the **handover** with an emailed summary, and return assets against an acknowledgement. Every withheld-letter fight begins with the employer claiming pending obligations — a documented clean exit removes their entire script."
+      },
+      {
+        "icon": "send",
+        "title": "Demand the documents in writing",
+        "summary": "HR + manager + founders, with a deadline.",
+        "detail": "After the full-and-final date passes, email HR (copy leadership): list the **relieving letter, experience certificate, FnF statement and Form 16**, cite your completed exit, set a **7–15 day deadline**, and state that the delay is blocking your onboarding (name the loss). Many companies release at this stage — the paper trail is doing the work. Use our free [resignation letter template](/templates/resignation-letter) at the start of this chain.",
+        "serviceHint": "legal-notice-unpaid-salary"
+      },
+      {
+        "icon": "gavel",
+        "title": "The ₹999 advocate notice — with a damages edge",
+        "summary": "Withholding documents to extort is actionable.",
+        "detail": "The advocate's notice demands the documents and any unpaid FnF, and puts the employer on notice of **damages**: a blocked joining (offer letters requiring the relieving letter are standard) converts withholding into quantifiable loss. Where \"dues\" are invented to justify withholding, the notice disputes them and demands the account. Employers weigh a ₹999-notice fight against their HR time and reputational risk — most fold."
+      },
+      {
+        "icon": "scale",
+        "title": "Escalation forums that actually apply",
+        "summary": "Labour office for workmen; civil suit for the rest; new-employer bridge.",
+        "detail": "Non-managerial staff: the **labour commissioner** conciliates document + FnF disputes free (see our [unpaid salary guide](/help/job-salary/unpaid-salary-what-to-do)). Managerial: civil suit for the documents, dues and damages — rarely needed past the notice. Meanwhile, bridge with the new employer: resignation email + acceptance + FnF proof and bank statements often substitute for a relieving letter; background-verification teams accept documented exits daily. IT employees in some states also have grievance cells (e.g. TN/Karnataka labour depts) that summon employers."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Written demands",
+          "amount": "Free",
+          "note": "The trail is the leverage"
+        },
+        {
+          "label": "Advocate's notice",
+          "amount": "₹999",
+          "note": "WakilBhai; documents + FnF + damages"
+        },
+        {
+          "label": "Labour office (workmen)",
+          "amount": "Free",
+          "note": "Conciliation route"
+        },
+        {
+          "label": "Consultation",
+          "amount": "₹299",
+          "note": "Buyout/bond disputes tangled with the letter"
+        }
+      ],
+      "footnote": "No statute forces a private employer to issue a relieving letter in most sectors — the pressure comes from contract, dues, damages and process. That pressure works; silence does not."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "relieving letter nahi de rahe",
+      "experience letter not given by company",
+      "company withholding relieving letter",
+      "relieving letter legal notice",
+      "exit documents not given complaint",
+      "background verification without relieving letter"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-unpaid-salary",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "resignation-letter",
+    "unpaid-salary-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "unpaid-salary-what-to-do",
+    "received-court-summons"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is a company legally required to give a relieving letter?",
+        "a": "No general statute mandates it (some state shops & establishments rules require service certificates), but contractual exit terms, the implied obligation to close a concluded employment, and the damages your blocked joining creates give real legal pressure. Practically, the advocate-notice stage releases most letters."
+      },
+      {
+        "q": "They say \"clear the notice-period recovery first\". Can they hold documents hostage?",
+        "a": "Genuine contractual dues can be set off in the FnF — but inventing or inflating them to hold your career hostage is actionable pressure. Dispute the computation in writing, offer to settle genuine amounts, and let the notice demand the documents against that settlement. Courts frown on document-hostage tactics."
+      },
+      {
+        "q": "I absconded without serving notice. Do I still have rights?",
+        "a": "Weaker ones — the employer can claim notice-period recovery and refuse a clean letter citing the abandoned exit. Best path: negotiate now — offer the buyout amount against issuance of documents, in writing. Even absconders are entitled to earned salary for days worked and their Form 16."
+      },
+      {
+        "q": "New employer needs the letter this week. Any faster bridge?",
+        "a": "Offer the documented-exit bundle: resignation email + acceptance, last salary slips, bank statements showing salary credits, and the FnF/asset-return trail. Most BGV processes accept this with a declaration. Simultaneously fire the advocate notice — a same-week release under notice pressure is common."
+      },
+      {
+        "q": "Can I complain to the labour commissioner just for documents?",
+        "a": "For workmen-category employees, yes — document and FnF grievances ride together in conciliation, and employers attending conciliation almost always hand over papers to close the file. Managerial employees use the notice + civil route instead."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

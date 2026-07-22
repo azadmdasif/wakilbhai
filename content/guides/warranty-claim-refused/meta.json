@@ -1,0 +1,155 @@
+{
+  "slug": "warranty-claim-refused",
+  "category": "consumer-complaints",
+  "title": {
+    "en": "Warranty Claim Refused? \"Physical Damage\", Voided Warranties and How to Fight Back"
+  },
+  "answerBox": {
+    "en": "Warranty refusals lean on three scripts — \"physical damage\", \"unauthorised repair voided it\", \"not covered\" — and all three are contestable: the seller must prove the exclusion actually caused the defect, statutory rights against inherent defects survive warranty fine print, and the 2019 Act polices unfair terms. Demand the refusal in writing, escalate via 1915, send the ₹999 notice, then e-Daakhil with lab testing if needed."
+  },
+  "keyNumbers": {
+    "en": [
+      "Refusal in writing — always",
+      "Exclusion ≠ automatic",
+      "₹0 filing to ₹5 lakh"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Claim within warranty, in writing",
+        "duration": "Now",
+        "startsFrom": "app/email, not just calls"
+      },
+      {
+        "label": "Demand written refusal grounds",
+        "duration": "Same visit",
+        "startsFrom": "job sheet must record them"
+      },
+      {
+        "label": "Brand + 1915 escalation",
+        "duration": "15 days",
+        "startsFrom": "deadline you set"
+      },
+      {
+        "label": "Consumer complaint",
+        "duration": "2 years",
+        "startsFrom": "from the refusal/defect"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Lock the claim into writing",
+        "summary": "Registered claim + job sheet + written refusal = your case.",
+        "detail": "Register the warranty claim through a recordable channel (brand app/email/portal) within the period, and at service: insist the **job sheet records the reported defect** and, if refused, the **exact written ground**. Verbal \"physical damage hai, warranty void\" evaporates in a forum; a written ground can be tested and defeated. Photograph the product's condition at handover — condition disputes are won by whoever documented first."
+      },
+      {
+        "icon": "shield",
+        "title": "Attack the standard refusal scripts",
+        "summary": "Causation is their burden; fine print has limits.",
+        "detail": "**\"Physical damage\"**: the exclusion applies only if the damage *caused* the defect — a cosmetic dent doesn't void a motherboard failure; demand their engineering basis. **\"Third-party repair/opened seal voided it\"**: blanket voiding regardless of causation sits badly with the 2019 Act's unfair-terms provisions — especially where their own service was unavailable/delayed. **\"Wear and tear/not covered\"**: read the warranty card's actual text — coverage disputes resolve on the document, and ambiguity reads against the drafter. Inherent manufacturing defects engage **statutory product-liability rights independent of the warranty's fine print**."
+      },
+      {
+        "icon": "send",
+        "title": "Escalate: brand, 1915, then the notice",
+        "summary": "The standard ladder with the written refusal attached.",
+        "detail": "Escalate to the brand's nodal/grievance contacts with the trail and a 15-day deadline; register on **[1915/consumerhelpline.gov.in](https://consumerhelpline.gov.in)** (brands respond to NCH dockets). Then the **₹999 advocate's notice** electing repair/replacement/refund. Extended/paid warranties sold by retailers and insurers-in-disguise: the seller of that warranty answers for it — name them too.",
+        "serviceHint": "legal-notice-consumer"
+      },
+      {
+        "icon": "gavel",
+        "title": "e-Daakhil with the testing lever",
+        "summary": "Commissions test products and read exclusions narrowly.",
+        "detail": "File on **e-Daakhil** ([process](/help/consumer-complaints/consumer-forum-complaint-guide)): claim the remedy plus compensation and costs; where causation is disputed, ask for **Section 38(2)(c) laboratory testing** — the independent report usually settles whether \"physical damage\" or an inherent defect explains the failure ([defective product guide](/help/consumer-complaints/defective-product-replacement) covers the pattern jurisprudence). Small-ticket electronics are worth filing: zero fees to ₹5 lakh and standard-form victories travel."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Brand escalation + 1915",
+          "amount": "Free",
+          "note": "Written trail is the work"
+        },
+        {
+          "label": "Advocate's notice",
+          "amount": "₹999",
+          "note": "Remedy election + deadline"
+        },
+        {
+          "label": "e-Daakhil + lab testing",
+          "amount": "₹0–slab + deposit",
+          "note": "Testing recoverable on winning"
+        },
+        {
+          "label": "Consultation",
+          "amount": "₹299",
+          "note": "Warranty-text read for your claim"
+        }
+      ],
+      "footnote": "Buy-side hygiene: register products on purchase, keep invoices digital, and claim early — mid-warranty claims documented in writing are the ones that survive refusal games."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "warranty claim rejected what to do",
+      "warranty void physical damage excuse",
+      "company warranty nahi de rahi",
+      "warranty refused consumer court",
+      "extended warranty claim rejected",
+      "seal broken warranty void india"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-consumer",
+    "consumer-complaint-draft"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "defective-product-replacement",
+    "consumer-forum-complaint-guide"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "The service centre says a tiny dent voids my entire warranty. True?",
+        "a": "No — exclusions are read narrowly and causally: they must show the physical damage caused the failure you reported. A dent on the casing does not explain a display or logic-board defect. Demand the written refusal and their technical basis; forums regularly reject cosmetic-damage voiding."
+      },
+      {
+        "q": "I got it repaired locally once because their centre was 300 km away. Warranty gone?",
+        "a": "Not automatically — blanket third-party-repair voiding regardless of causation is challengeable as an unfair term, particularly where authorised service was practically inaccessible and your repair didn't cause the current defect. It weakens but does not end the claim; inherent-defect rights survive."
+      },
+      {
+        "q": "Does an extended warranty from the retailer bind the manufacturer?",
+        "a": "It binds whoever sold/underwrote it — retailer or its insurer partner — on its own terms; the manufacturer's standard warranty and statutory rights run separately. Claim against the correct promisor, and array both in a forum complaint when they finger-point."
+      },
+      {
+        "q": "The product fails repeatedly right after each warranty repair. Options?",
+        "a": "That pattern converts a repair case into replacement/refund — repeated failure evidences an inherent defect that \"repair\" cannot cure. Job sheets are your proof. See our defective-product guide for the replacement jurisprudence; claim accordingly in the notice."
+      },
+      {
+        "q": "Is a verbal warranty promise by the dealer enforceable?",
+        "a": "Harder but not hopeless: invoices, ads, WhatsApp chats and showroom banners evidencing the promise are enforceable representations, and misleading sales promises are unfair trade practices. Get promises in writing at purchase — and screenshot the ad that induced you."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

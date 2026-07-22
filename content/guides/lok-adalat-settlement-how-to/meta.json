@@ -1,0 +1,155 @@
+{
+  "slug": "lok-adalat-settlement-how-to",
+  "category": "money-recovery",
+  "title": {
+    "en": "Lok Adalat: How the Free Settlement Court Works — Dates, Process and Finality"
+  },
+  "answerBox": {
+    "en": "Lok Adalats settle disputes by agreement with the force of a civil-court decree — free, fast, and final (no appeal). National Lok Adalats run roughly quarterly across every court complex; pending cases can be referred, and pre-litigation disputes (money claims, bank dues, challans, family settlements) can be placed directly through the District Legal Services Authority. Court fees already paid are refunded on settlement."
+  },
+  "keyNumbers": {
+    "en": [
+      "₹0 cost",
+      "~Quarterly national dates",
+      "Decree finality, no appeal"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Check the next National Lok Adalat",
+        "duration": "~Quarterly",
+        "startsFrom": "NALSA/state authority calendar"
+      },
+      {
+        "label": "Apply for reference",
+        "duration": "Weeks before",
+        "startsFrom": "via DLSA or the court where case pends"
+      },
+      {
+        "label": "Appear on the date",
+        "duration": "The day",
+        "startsFrom": "both parties; settlements same-day"
+      },
+      {
+        "label": "Award = decree",
+        "duration": "Immediate",
+        "startsFrom": "binding, executable, unappealable"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "scale",
+        "title": "Know what fits a Lok Adalat",
+        "summary": "Compromise-able disputes: money, banks, challans, family, accidents.",
+        "detail": "Lok Adalats (Legal Services Authorities Act, 1987) handle any dispute the parties can lawfully settle: **money recovery, bank/NBFC dues, cheque-bounce cases, traffic challans, MACT claims, labour dues, family/matrimonial settlements, utility bills**. Not fit: non-compoundable criminal offences and matters needing adjudication of rights no one will concede. The bench (judge + members) **conciliates — it cannot impose** a decision; no settlement simply returns the case to court, nothing lost."
+      },
+      {
+        "icon": "send",
+        "title": "Get your matter listed",
+        "summary": "Pending case: ask the court. Fresh dispute: apply to the DLSA.",
+        "detail": "For a **pending case**: file a short application (or just ask on a hearing date) to refer it to the next Lok Adalat — courts push settlement-suitable matters actively before National Lok Adalat dates. For a **pre-litigation dispute**: apply to the **District Legal Services Authority (DLSA)** at the district court complex — a simple application naming the opposite party and the claim; the DLSA issues a notice inviting them for settlement. Watch dates on **[nalsa.gov.in](https://nalsa.gov.in)** and state SLSA sites; banks and telecoms list thousands of accounts each date, and you can request your account be listed too.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "banknote",
+        "title": "Negotiate on the day — prepared",
+        "summary": "Know your number, your floor, and the instalment structure.",
+        "detail": "Come with the account worked out: principal, interest claimed, and your **realistic floor**. Typical outcomes: lump-sum discounts for same-day payment, or **instalment schedules recorded in the award** (missed instalments revive execution for the full recorded amount — put that clause in). For bank one-time settlements, Lok Adalat awards formalise the OTS with decree protection. Bring ID, case papers, and cheques/UPI capability — deals close same-day."
+      },
+      {
+        "icon": "gavel",
+        "title": "The award: decree force, executable, final",
+        "summary": "Settlement here is stronger than most court outcomes.",
+        "detail": "A Lok Adalat award is **deemed a civil-court decree** (Section 21): executable through the execution machinery if breached, **final with no appeal** — only rare writ challenges on fraud/consent grounds. **Court fees paid in the referred case are refunded** on settlement. For money claims this is the highest certainty-per-rupee forum in the system: free entry, same-day closure, decree-grade output."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Listing + proceedings",
+          "amount": "Free",
+          "note": "Both pending-case and pre-litigation"
+        },
+        {
+          "label": "Court-fee refund",
+          "amount": "On settlement",
+          "note": "Fees paid in the referred suit come back"
+        },
+        {
+          "label": "Advocate (optional)",
+          "amount": "Your choice",
+          "note": "Parties can appear themselves"
+        },
+        {
+          "label": "Pre-Adalat strategy consultation",
+          "amount": "₹299",
+          "note": "Number-setting + instalment structuring"
+        }
+      ],
+      "footnote": "Permanent Lok Adalats (public-utility disputes — transport, post, electricity, water) additionally CAN decide on merits up to ₹1 crore if conciliation fails — a distinct, stronger forum for utility grievances."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "lok adalat kya hai process",
+      "national lok adalat next date",
+      "lok adalat settlement process",
+      "pre litigation lok adalat application",
+      "lok adalat award final appeal",
+      "bank loan settlement lok adalat"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "legal-notice-dispute"
+  ],
+  "relatedTemplateSlugs": [
+    "loan-repayment-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "friend-not-returning-money",
+    "traffic-challan-disputes"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can the Lok Adalat force a settlement on me?",
+        "a": "No — it conciliates; consent is the only basis of an award. If you don't agree, the matter returns to the regular court exactly where it was. The finality applies only to what you voluntarily signed — which is also why you should arrive knowing your floor."
+      },
+      {
+        "q": "How do I find the next Lok Adalat date?",
+        "a": "National Lok Adalats are notified by NALSA (nalsa.gov.in) — typically four Saturdays a year — and state/district authorities hold additional ones. Your DLSA office at the district court, the court's notice board, and SLSA websites publish schedules and the camps' venue lists."
+      },
+      {
+        "q": "Is a Lok Adalat award weaker than a court judgment?",
+        "a": "Stronger in practice: it is a deemed decree with no appeal — a judgment can be appealed for years; the award cannot. Breached instalment settlements go straight to execution (attachment, etc.) on the recorded terms."
+      },
+      {
+        "q": "My cheque-bounce case is pending. Can it settle here?",
+        "a": "Yes — Section 138 NI Act cases are compoundable and are settled by the thousands at every National Lok Adalat, usually against payment schedules with the complaint closing on completion. It is often the fastest honourable exit for both sides."
+      },
+      {
+        "q": "What is a Permanent Lok Adalat and how is it different?",
+        "a": "A standing forum for public-utility services (transport, postal, telecom, electricity, water, insurance in some states) with a unique power: if conciliation fails, it can DECIDE the dispute on merits up to ₹1 crore, and that award too is final. For utility grievances it functions like a fast, free tribunal."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

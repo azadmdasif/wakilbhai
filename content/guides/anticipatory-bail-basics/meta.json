@@ -1,0 +1,152 @@
+{
+  "slug": "anticipatory-bail-basics",
+  "category": "police-criminal",
+  "title": {
+    "en": "Anticipatory Bail Explained — When It Applies, Process and Typical Costs"
+  },
+  "answerBox": {
+    "en": "Anticipatory bail is a court order directing that if you are arrested in a non-bailable case, you are released on bail immediately — Section 438 CrPC, now Section 482 BNSS. You apply to the Sessions Court or High Court before arrest, through an advocate; typical advocate fees run ₹10,000–₹50,000+ in Sessions Courts. This page explains the process; it is not legal advice."
+  },
+  "keyNumbers": {
+    "en": [
+      "Apply BEFORE arrest",
+      "Sessions or High Court",
+      "₹10,000+ advocate fee"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Consult an advocate",
+        "duration": "Immediately",
+        "startsFrom": "the moment you fear arrest / see the FIR"
+      },
+      {
+        "label": "File in Sessions Court",
+        "duration": "Days",
+        "startsFrom": "drafting + filing usually within the week"
+      },
+      {
+        "label": "Interim protection possible",
+        "duration": "First hearing",
+        "startsFrom": "courts often protect until final order"
+      },
+      {
+        "label": "High Court if rejected",
+        "duration": "Next step",
+        "startsFrom": "a Sessions rejection is not the end"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "scale",
+        "title": "Understand what it is — and is not",
+        "summary": "Pre-arrest protection in non-bailable cases, on conditions.",
+        "detail": "Anticipatory bail (Section 438 CrPC, **now Section 482 BNSS**) is a direction that if the police arrest you in the named case, you are released on bail at once — you never sit in custody. It is for **non-bailable offences** where arrest is feared (a hostile FIR, a family dispute turned criminal, business complaints). It does not stop the investigation, and courts refuse it in the gravest offence categories and where custody is genuinely needed."
+      },
+      {
+        "icon": "file-text",
+        "title": "When to move, and to which court",
+        "summary": "FIR registered or credible arrest threat — Sessions Court first, usually.",
+        "detail": "You can apply once there is a registered FIR naming you or a reasonable apprehension of arrest. The application normally goes to the **Sessions Court** first (the High Court is the alternative or the appeal path after rejection). It states the case facts, why arrest is unnecessary, your roots in the community, and your undertaking to cooperate. Courts frequently grant **interim protection** on the first hearing while the state replies."
+      },
+      {
+        "icon": "gavel",
+        "title": "The hearing and the conditions",
+        "summary": "The order comes with conditions — breaking them cancels it.",
+        "detail": "The public prosecutor opposes or concedes; the court weighs the FIR's gravity, your antecedents and flight risk. Typical conditions on grant: join the investigation when called, do not contact witnesses or tamper with evidence, do not leave the country without leave, and furnish a bond. **Violating a condition gets the bail cancelled** — treat the order's terms as strict law until the case ends."
+      },
+      {
+        "icon": "shield",
+        "title": "Why this is advocate territory",
+        "summary": "This is a contested court proceeding — not a form-filling exercise.",
+        "detail": "Anticipatory bail is argued, not applied for: the drafting frames whether the judge sees you as a cooperating citizen or a flight risk, and hearings move fast against a trained prosecutor. Engage a criminal advocate practising in that Sessions/High Court immediately — WakilBhai's ₹299 consultation connects you to one to assess urgency, forum and realistic prospects the same day. Nothing on this page substitutes that advice.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Court fee on the application",
+          "amount": "Nominal",
+          "note": "A few hundred rupees; varies by state"
+        },
+        {
+          "label": "Advocate — Sessions Court",
+          "amount": "₹10,000–₹50,000+",
+          "note": "By city, seniority and case gravity"
+        },
+        {
+          "label": "Advocate — High Court",
+          "amount": "₹25,000–₹1,00,000+",
+          "note": "Senior counsel raises this further"
+        },
+        {
+          "label": "First step: advocate consultation",
+          "amount": "₹299",
+          "note": "Same-day assessment via WakilBhai"
+        }
+      ],
+      "footnote": "Fee ranges are indicative market figures, not quotations. Anticipatory bail is a court proceeding requiring a practising criminal advocate — WakilBhai is a documentation and referral service and does not appear in court."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "anticipatory bail kya hai",
+      "anticipatory bail process india",
+      "anticipatory bail cost lawyer fees",
+      "pre arrest bail application",
+      "section 438 crpc bail",
+      "bnss 482 anticipatory bail"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "how-to-file-fir",
+    "police-not-filing-fir"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "When should I apply for anticipatory bail?",
+        "a": "As soon as there is a registered FIR naming you, or a concrete reason to fear arrest — a police notice, a complaint you know is being converted into an FIR. Applying early lets the court grant interim protection before any arrest attempt; applying after arrest is too late (that becomes regular bail)."
+      },
+      {
+        "q": "How long does anticipatory bail last?",
+        "a": "Following the Supreme Court in Sushila Aggarwal (2020), anticipatory bail is not automatically time-limited — it can protect you until the end of trial unless the court itself restricts its duration or cancels it for violation of conditions."
+      },
+      {
+        "q": "Can anticipatory bail be rejected? What then?",
+        "a": "Yes — gravity of the offence, custodial-interrogation need, or weak drafting all sink applications. A Sessions Court rejection can be taken to the High Court (and in rare cases beyond). Strategy on where to file first is exactly the judgment call your advocate makes."
+      },
+      {
+        "q": "Does anticipatory bail mean the case is over?",
+        "a": "No. The investigation and trial continue normally — you simply face them from liberty rather than custody. You must join the investigation when summoned and honour every condition; the protection is from arrest, not from the case."
+      },
+      {
+        "q": "Why can't I file it myself to save the fee?",
+        "a": "The statute does not bar it, but this is an argued, contested proceeding against the public prosecutor, where drafting and oral argument decide outcomes and a rejection creates a record the next court reads. In practice, self-represented anticipatory bail applications fare poorly — this is the one place not to economise."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

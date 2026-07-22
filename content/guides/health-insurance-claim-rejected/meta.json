@@ -1,0 +1,155 @@
+{
+  "slug": "health-insurance-claim-rejected",
+  "category": "consumer-complaints",
+  "title": {
+    "en": "Health or Life Insurance Claim Rejected? Ombudsman Route and the Grounds That Fail"
+  },
+  "answerBox": {
+    "en": "Health and life insurance rejections follow a fixed escalation: written complaint to the insurer's grievance cell (15 days), IRDAI's Bima Bharosa portal, then the Insurance Ombudsman — free, within 1 year, for claims up to ₹50 lakh. Key protections: after 8 years of premiums (5 for health per current norms) policies become largely incontestable, and \"pre-existing disease\" rejections fail without proof of concealment."
+  },
+  "keyNumbers": {
+    "en": [
+      "15-day insurer window",
+      "Moratorium after 5–8 yrs",
+      "Ombudsman: free, ₹50L cap"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Demand written rejection grounds",
+        "duration": "Day 1",
+        "startsFrom": "insurers must state reasons"
+      },
+      {
+        "label": "Grievance cell complaint",
+        "duration": "15 days",
+        "startsFrom": "insurer response window"
+      },
+      {
+        "label": "Bima Bharosa escalation",
+        "duration": "Next",
+        "startsFrom": "IRDAI-tracked grievance"
+      },
+      {
+        "label": "Insurance Ombudsman",
+        "duration": "1 year",
+        "startsFrom": "from final rejection"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Attack the stated ground, not the rejection",
+        "summary": "PED, non-disclosure, waiting period, \"not medically necessary\".",
+        "detail": "Common grounds and their weaknesses: **pre-existing disease (PED)** — fails unless the insurer proves you *knew and concealed* it at proposal; **non-disclosure** — must be material and within the contestability window; **waiting periods** — check the policy's actual schedule against your dates; **\"treatment not medically necessary\"** — countered by the treating doctor's certificate. Get the **complete rejection letter and policy wording**; vague repudiations are themselves a deficiency."
+      },
+      {
+        "icon": "shield",
+        "title": "Know the moratorium shields",
+        "summary": "Long-paid policies are largely incontestable.",
+        "detail": "Two heavyweight protections: **Section 45, Insurance Act** — a life policy cannot be questioned after **3 years** on any ground except proven fraud; and health insurance's **moratorium** — after **5 years of continuous coverage** (current IRDAI norms, previously 8), no claim can be contested for non-disclosure/PED except proven fraud. If your policy has crossed these lines, say so in the first written complaint — many repudiations die on this alone."
+      },
+      {
+        "icon": "send",
+        "title": "Escalate: grievance cell → Bima Bharosa → Ombudsman",
+        "summary": "The same free ladder as all insurance disputes.",
+        "detail": "Written complaint to the insurer's **Grievance Redressal Officer** (15-day clock), then **[Bima Bharosa](https://bimabharosa.irdai.gov.in)** (IRDAI tracking), then the **[Insurance Ombudsman](https://www.cioins.co.in)** within 1 year — free, no lawyer, awards up to **₹50 lakh** binding on the insurer. Attach the treating hospital's records and doctor certificates; medical-opinion disputes are decided on documents, and the insurer's panel-doctor opinion is not privileged over your treating doctor's.",
+        "serviceHint": "legal-notice-consumer"
+      },
+      {
+        "icon": "gavel",
+        "title": "Consumer commission for the big/harassment cases",
+        "summary": "Claims above ₹50L, death claims, bad-faith conduct.",
+        "detail": "For larger claims, death-claim disputes, or where you seek harassment compensation beyond the policy amount, the **consumer commission** route (our [consumer forum guide](/help/consumer-complaints/consumer-forum-complaint-guide)) is the forum — deficiency in service squarely covers wrongful repudiation, and commissions award claim + interest + compensation + costs. A ₹999 **advocate's notice** first; nominees file death claims with the same escalation rights."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Grievance cell / Bima Bharosa / Ombudsman",
+          "amount": "Free",
+          "note": "The entire regulatory ladder"
+        },
+        {
+          "label": "Advocate's legal notice",
+          "amount": "₹999",
+          "note": "WakilBhai; frames the medical rebuttal"
+        },
+        {
+          "label": "Consumer complaint",
+          "amount": "₹0–slab",
+          "note": "For claims/compensation beyond Ombudsman"
+        },
+        {
+          "label": "Consultation (claim strategy)",
+          "amount": "₹299",
+          "note": "Ground-wise assessment of the repudiation"
+        }
+      ],
+      "footnote": "Never accept a partial \"ex-gratia\" settlement without advice — accepting in full-and-final can extinguish the balance claim. Cashless denial at the hospital is not claim rejection; pay, preserve, and claim reimbursement with the same rights."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "health insurance claim rejected what to do",
+      "mediclaim reject complaint",
+      "insurance ombudsman health claim",
+      "pre existing disease claim rejection",
+      "life insurance claim repudiated",
+      "section 45 insurance act 3 years"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-consumer",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "consumer-forum-complaint-guide",
+    "vehicle-insurance-claim-rejected"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "The insurer says my illness was pre-existing. Can they reject on that?",
+        "a": "Only if the policy's PED waiting period genuinely applies AND they can show the condition existed and was known/concealed at proposal. Undiagnosed conditions you were unaware of are not concealment, and after the 5-year moratorium (continuous coverage), PED rejection needs proven fraud. Demand their evidence — often there is none beyond an underwriter's inference."
+      },
+      {
+        "q": "What is Section 45 and how does it protect a life insurance nominee?",
+        "a": "A life policy cannot be called in question after 3 years from issuance/revival on grounds of misstatement — only proven fraud survives, with the burden on the insurer. Death-claim repudiations of old policies citing \"non-disclosure\" routinely fail on Section 45; quote it in the first complaint."
+      },
+      {
+        "q": "Cashless was denied at the hospital. Is my claim over?",
+        "a": "No — cashless denial is a pre-authorisation decision, not a claim decision. Pay (or use the hospital's escalation), preserve every record and bill, and file for reimbursement; a later rejection then enters the normal grievance → Ombudsman → commission ladder with full rights."
+      },
+      {
+        "q": "How long does the Ombudsman take, and is the award binding?",
+        "a": "Recommendations/awards typically come within 3 months of a complete complaint; the award binds the insurer (payable within 30 days) but not you — if unsatisfied, the consumer commission remains open. It is the best effort-to-outcome ratio in insurance disputes."
+      },
+      {
+        "q": "The insurer deducted half the bill as \"unreasonable charges\". Can they?",
+        "a": "Deductions must trace to policy terms (room-rent capping proportionality, listed exclusions, sub-limits). Arbitrary \"reasonable and customary\" slashes are challengeable — itemise the deductions against the policy schedule in your complaint; ombudsmen restore unjustified cuts regularly."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

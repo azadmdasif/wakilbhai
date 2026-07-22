@@ -1,0 +1,156 @@
+{
+  "slug": "domestic-violence-complaint",
+  "category": "family-personal",
+  "title": {
+    "en": "Domestic Violence Complaint (DV Act) — Protection Orders, Residence Rights and the Process"
+  },
+  "answerBox": {
+    "en": "The Domestic Violence Act, 2005 protects women from physical, emotional, sexual and economic abuse in the household — with civil remedies that work fast: protection orders, the right to reside in the shared household, monetary relief and custody orders from the Magistrate. Complaints go through the Protection Officer, police, or directly to court; the Act contemplates disposal in 60 days, and no court fee applies."
+  },
+  "keyNumbers": {
+    "en": [
+      "Free — no court fee",
+      "Residence right protected",
+      "60-day disposal target"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Emergency: 181 / 100",
+        "duration": "Immediate",
+        "startsFrom": "women's helpline + police"
+      },
+      {
+        "label": "Application to Magistrate",
+        "duration": "Days",
+        "startsFrom": "via Protection Officer or directly"
+      },
+      {
+        "label": "First hearing",
+        "duration": "3 days",
+        "startsFrom": "the Act's target from filing"
+      },
+      {
+        "label": "Disposal target",
+        "duration": "60 days",
+        "startsFrom": "interim orders come much earlier"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "shield",
+        "title": "Know the protections — they are broad",
+        "summary": "Physical, verbal, emotional, sexual, economic abuse all count.",
+        "detail": "The **PWDVA, 2005** covers women in domestic relationships — wives, live-in partners, mothers, sisters, daughters — against **physical, sexual, verbal/emotional and economic abuse** (withholding money, dispossession, dowry demands). Respondents include the husband/partner and his relatives. The Act is **civil-protective**: its orders protect and provide; breach of a protection order is the criminal offence (Section 31). The **right to reside in the shared household** (Section 17) exists regardless of ownership — dispossession is what interim orders reverse fastest."
+      },
+      {
+        "icon": "phone",
+        "title": "Where to go: three doors, all valid",
+        "summary": "Protection Officer, police, or straight to the Magistrate.",
+        "detail": "Routes: the district **Protection Officer** (list with the DM/women & child department — they file the Domestic Incident Report and assist), **any police station** (which must inform you of DV Act rights; police also register FIRs for offences like **Section 498A IPC, now Section 85 BNS** — cruelty — where you choose the criminal track), a **service provider/shelter**, or **directly before the Judicial Magistrate**. Emergency: **181** (women's helpline) and 100/112. Free legal aid through DLSA is a statutory right — you never need to afford a lawyer to file.",
+        "serviceHint": "domestic-violence-complaint"
+      },
+      {
+        "icon": "gavel",
+        "title": "The orders the Magistrate can pass — fast",
+        "summary": "Protection, residence, monetary, custody, compensation.",
+        "detail": "On the application (Form II; our ₹199 service drafts it with the incident chronology): **protection orders** (stop violence, no contact at work, no dispossession), **residence orders** (stay in the shared household or alternate accommodation the respondent funds), **monetary relief** (maintenance, medical costs, lost earnings — enforceable like Section 125 orders), **temporary custody** of children, and **compensation**. Interim and **ex parte** orders issue on affidavit — protection does not wait for trial. First hearing target: 3 days; disposal: 60 days."
+      },
+      {
+        "icon": "scale",
+        "title": "Running the case — and the parallel tracks",
+        "summary": "Evidence, breach = arrest, and how DV interacts with 498A/divorce.",
+        "detail": "Keep the evidence spine: medical records, photos, messages, witness names, a dated incident diary. **Breach of a protection order is cognizable** — police must act, and that enforcement teeth is the Act's power. The DV case runs independently of (and alongside) any **498A/85 BNS FIR**, divorce or Section 125 maintenance — reliefs are coordinated, not exclusive. Settlements happen through court mediation; withdraw only on terms recorded in court. An advocate (or DLSA counsel) from the first hearing meaningfully improves interim orders.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "DV application",
+          "amount": "Free",
+          "note": "No court fee; Protection Officer assists free"
+        },
+        {
+          "label": "DLSA legal aid",
+          "amount": "Free",
+          "note": "Statutory right for women applicants"
+        },
+        {
+          "label": "Application drafting help",
+          "amount": "₹199",
+          "note": "WakilBhai; chronology + reliefs framed"
+        },
+        {
+          "label": "Private advocate (optional)",
+          "amount": "₹5,000–40,000",
+          "note": "City-wise; interim stage matters most"
+        }
+      ],
+      "footnote": "This page is information, not a substitute for immediate safety: in danger, call 100/112 and 181 first, reach a safe place, and let the shelter/Protection Officer network do what it exists for."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "domestic violence complaint process",
+      "gharelu hinsa complaint kaise kare",
+      "dv act protection order",
+      "right to residence shared household",
+      "498a vs dv act difference",
+      "protection officer domestic violence"
+    ]
+  },
+  "relatedServiceIds": [
+    "domestic-violence-complaint",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "maintenance-wife-children",
+    "mutual-divorce-process-cost"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can I be thrown out of my in-laws' house during the case?",
+        "a": "No — Section 17 gives you the right to reside in the shared household regardless of whose name it is in, and residence orders restrain dispossession (or fund alternate accommodation). Attempted eviction after an order is a criminal breach. The Supreme Court (Satish Chander Ahuja) confirmed the right extends to in-laws' owned homes where the relationship was domestic."
+      },
+      {
+        "q": "I'm in a live-in relationship. Does the DV Act cover me?",
+        "a": "Yes — \"relationship in the nature of marriage\" is expressly covered, and courts apply the Act to genuine live-in partnerships (shared household, duration, social presentation as partners). Protection, residence and monetary reliefs are all available."
+      },
+      {
+        "q": "What is the difference between a DV case and a 498A FIR?",
+        "a": "DV Act: civil-protective, fast interim orders, no arrests (until an order is breached) — it protects and provides. 498A (now Section 85 BNS): criminal prosecution of cruelty — punishment-oriented, police-driven. Many women run the DV case for protection/maintenance and decide separately on the criminal track; they are independent choices."
+      },
+      {
+        "q": "How fast do interim orders actually come?",
+        "a": "Ex parte interim orders on your affidavit can come on the first hearing — the Act targets a first hearing within 3 days of filing. Realistic practice varies by district, but protection and no-dispossession interims within days-to-weeks are normal; monetary interim relief follows income affidavits."
+      },
+      {
+        "q": "Can men file under the DV Act?",
+        "a": "The Act's aggrieved person is a woman. Men facing domestic abuse use general criminal law (hurt, intimidation under the BNS), civil injunctions, and divorce-law cruelty grounds. Senior citizens of either gender have the Senior Citizens Act tribunal route against abusive children — see our succession/parents guides."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

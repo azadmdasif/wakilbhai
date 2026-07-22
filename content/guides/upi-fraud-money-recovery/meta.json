@@ -1,0 +1,107 @@
+{
+  "slug": "upi-fraud-money-recovery",
+  "category": "cyber-fraud",
+  "title": {
+    "en": "Money Gone in UPI Fraud? Act in 24 Hours — 1930 Helpline, Bank & Cybercrime Portal"
+  },
+  "answerBox": {
+    "en": "If money left your account in a UPI fraud, act within the first 24 hours: call the national cyber helpline 1930 immediately so the amount can be frozen in the fraudster's account, report on cybercrime.gov.in, and complain to your bank in writing within 3 working days — RBI's zero-liability rules can make the bank bear the loss."
+  },
+  "keyNumbers": {
+    "en": ["Call 1930 immediately", "Bank within 3 working days", "₹0 helpline cost"]
+  },
+  "deadlines": {
+    "en": [
+      { "label": "Call 1930 & report online", "duration": "Golden hours", "startsFrom": "the moment money leaves" },
+      { "label": "Written complaint to your bank", "duration": "3 working days", "startsFrom": "from the fraud (zero-liability window)" },
+      { "label": "Limited-liability window", "duration": "4–7 days", "startsFrom": "capped liability if you report late" },
+      { "label": "Escalate to RBI Ombudsman", "duration": "After 30 days", "startsFrom": "if the bank doesn't resolve" }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "phone",
+        "title": "Call 1930 in the golden hours",
+        "summary": "The national cyber fraud helpline can freeze the money before it is withdrawn.",
+        "detail": "Call **1930** (Citizen Financial Cyber Fraud Reporting System) the moment you notice the debit. The system alerts the receiving bank/wallet to **freeze the fraudster's account** before the money is layered onward — recovery odds fall sharply after the first few hours. Keep your transaction ID (UTR), the amount, date-time and the UPI ID/number you paid ready."
+      },
+      {
+        "icon": "file-text",
+        "title": "File on cybercrime.gov.in within 24 hours",
+        "summary": "The written complaint on the national portal creates the official record.",
+        "detail": "Register the complaint on the National Cybercrime Reporting Portal — [cybercrime.gov.in](https://cybercrime.gov.in) — under \"Report Financial Fraud\". Upload screenshots of the transaction, SMS alerts, the fraudster's UPI ID/phone, and your bank statement entry. You get an acknowledgement number to track and quote everywhere else. UPI fraud by deception is cheating — **Section 420 IPC (now Section 318 BNS)** — plus IT Act Section 66D for cheating by personation using a computer.",
+        "serviceHint": "police-complaint-draft"
+      },
+      {
+        "icon": "banknote",
+        "title": "Complain to your bank within 3 working days",
+        "summary": "RBI's zero-liability rule: report in 3 working days and the bank bears the loss.",
+        "detail": "Email/write to your bank's fraud desk with the UTR and the 1930/portal acknowledgement. Under RBI's [customer-liability circular](https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11040) on unauthorised electronic transactions, your liability is **zero if you report within 3 working days** of the fraud (where the breach wasn't your negligence); reporting in **4–7 working days caps liability** (₹5,000–₹25,000 by account type). The bank must give shadow credit within 10 working days where the rule applies."
+      },
+      {
+        "icon": "gavel",
+        "title": "Escalate: FIR and RBI Ombudsman",
+        "summary": "If the amount is large or the bank stalls, escalate on both tracks.",
+        "detail": "For sizeable amounts, convert the portal complaint into an **FIR** at your local cyber cell or police station (any station must register a Zero FIR even outside jurisdiction). If the bank rejects or ignores your claim for **30 days**, file free with the **RBI Ombudsman** at [cms.rbi.org.in](https://cms.rbi.org.in). A documented trail — 1930 call, portal acknowledgement, bank complaint — is what wins both."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        { "label": "1930 helpline & cybercrime.gov.in", "amount": "Free", "note": "Government channels; no agent or fee involved" },
+        { "label": "Bank complaint & RBI Ombudsman", "amount": "Free", "note": "Ombudsman opens after the bank fails you for 30 days" },
+        { "label": "Cyber cell complaint drafted for you", "amount": "₹199", "note": "WakilBhai documentation help" },
+        { "label": "Advocate consultation (large amounts)", "amount": "₹299", "note": "Strategy call for high-value or stalled cases" }
+      ],
+      "footnote": "Beware \"recovery agents\" who promise your money back for an advance fee — that is a second fraud. Only the 1930/bank/ombudsman chain and the courts actually recover money."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "upi fraud money recovery",
+      "money debited upi fraud what to do",
+      "1930 cyber helpline complaint",
+      "cybercrime.gov.in complaint upi",
+      "bank liability upi fraud rbi",
+      "upi galat transaction fraud complaint"
+    ]
+  },
+  "relatedServiceIds": ["police-complaint-draft", "consultation-call"],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": ["consumer-forum-complaint-guide", "cheque-bounce-what-to-do"],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can money lost in UPI fraud actually be recovered?",
+        "a": "Yes, if you act fast. The 1930 system freezes money still sitting in the fraudster's account or wallet — recoveries happen mostly when reported within hours. Once the money is withdrawn or layered through multiple accounts, recovery needs the bank-liability route or court orders, which is slower."
+      },
+      {
+        "q": "What is RBI's zero-liability rule for UPI fraud?",
+        "a": "For unauthorised electronic transactions where the fault is not yours, RBI's 2017 customer-protection circular makes your liability zero if you report to the bank within 3 working days. Reporting within 4–7 working days caps your liability between ₹5,000 and ₹25,000 depending on account type; beyond that, the bank's board-approved policy applies."
+      },
+      {
+        "q": "I entered the UPI PIN myself after being tricked. Am I still protected?",
+        "a": "This is the contested zone. Banks often call PIN-authorised payments 'negligence', but where you were deceived into paying (fake collect requests, screen-share apps, impersonation), it is cheating under Section 420 IPC (now Section 318 BNS) and the 1930/FIR route still applies. Report fast anyway — the freeze does not depend on the liability question."
+      },
+      {
+        "q": "What details do I need before calling 1930?",
+        "a": "Your bank account/UPI app, the transaction ID (UTR), amount, date and time, the UPI ID or number that received the money, and the phone number linked to your account. Screenshots of the transaction and any chat with the fraudster strengthen the written portal complaint."
+      },
+      {
+        "q": "Is an FIR compulsory, or is the 1930 complaint enough?",
+        "a": "For small amounts the portal complaint may suffice — it reaches the police anyway. For large amounts, insurance claims, or money layered into other accounts, an FIR strengthens recovery and lets courts order banks to release frozen money. Any police station must take a Zero FIR even outside its jurisdiction."
+      },
+      {
+        "q": "The bank rejected my claim saying I shared the OTP. What now?",
+        "a": "Get the rejection in writing, then escalate: first the bank's nodal officer/internal ombudsman, and after 30 days without resolution, the RBI Ombudsman at cms.rbi.org.in — free and online. Deception-induced sharing is regularly treated differently from wilful negligence; a structured, advocate-reviewed complaint helps here."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "draftLocales": ["hi", "ur", "bn", "mr", "te", "ta", "gu"]
+}

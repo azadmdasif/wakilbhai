@@ -1,0 +1,155 @@
+{
+  "slug": "bank-charges-wrongly-deducted",
+  "category": "consumer-complaints",
+  "title": {
+    "en": "Bank Deducted Charges Wrongly? Hidden Fees, Reversals and the RBI Ombudsman"
+  },
+  "answerBox": {
+    "en": "Unexplained \"service charges\", minimum-balance penalties on wrongly-classified accounts, forced-insurance debits and duplicate fees are recoverable: dispute in writing with the branch/grievance cell, escalate to the bank's internal ombudsman, and after 30 days file free with the RBI Ombudsman at cms.rbi.org.in — which orders reversals and up to ₹1 lakh compensation for deficiency. Banks must publish and follow their schedule of charges."
+  },
+  "keyNumbers": {
+    "en": [
+      "30 days, then RBI CMS",
+      "Charges must be scheduled",
+      "Compensation to ₹1 lakh"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Dispute at branch/grievance cell",
+        "duration": "In writing, now",
+        "startsFrom": "with statement extracts"
+      },
+      {
+        "label": "Bank response window",
+        "duration": "30 days",
+        "startsFrom": "from your written complaint"
+      },
+      {
+        "label": "RBI Ombudsman filing",
+        "duration": "Within 1 year",
+        "startsFrom": "of the bank's reply/deadline lapse"
+      },
+      {
+        "label": "Unauthorised digital debits",
+        "duration": "3 working days",
+        "startsFrom": "report fast — zero-liability window"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Extract and classify every disputed charge",
+        "summary": "The statement audit: what, when, under what head.",
+        "detail": "Pull 12 months of statements and list each disputed debit: **minimum-balance charges** (were you told the account's category and MAB requirement? BSBD/zero-balance accounts cannot carry them), **\"service\"/\"maintenance\" fees** not in the schedule of charges, **forced insurance/add-on debits** you never consented to, SMS/annual-fee duplicates, and **auto-converted account upgrades** you didn't request. Banks must display their **schedule of charges** — download it; deviations are your case."
+      },
+      {
+        "icon": "send",
+        "title": "Written complaint up the bank's ladder",
+        "summary": "Branch → grievance cell → principal nodal officer.",
+        "detail": "Write (email/portal, not just branch visits): itemise the debits, cite the schedule/product terms, demand **reversal with interest**. No/poor response in ~10 days: escalate to the bank's **grievance redressal/principal nodal officer** (every bank publishes one). RBI's Charter of Customer Rights and fair-practice circulars bar **unilateral, unnotified charges** — notice before charge changes is mandatory. Keep the acknowledgement numbers; the clock to the Ombudsman runs on them.",
+        "serviceHint": "legal-notice-consumer"
+      },
+      {
+        "icon": "scale",
+        "title": "RBI Ombudsman: reversal machinery that works",
+        "summary": "cms.rbi.org.in — free, binding on the bank, compensation possible.",
+        "detail": "After **30 days** of no/unsatisfactory resolution, file at **[cms.rbi.org.in](https://cms.rbi.org.in)** (Integrated Ombudsman Scheme — banks, NBFCs, payment apps all covered) within 1 year: upload the complaint trail and statement extracts. The Ombudsman orders **reversals with interest** and **compensation up to ₹1 lakh** for time/harassment in deficiency cases. Deemed acceptance is real: banks that ignore CMS complaints face awards; most settle with a reversal offer within weeks of filing."
+      },
+      {
+        "icon": "gavel",
+        "title": "Beyond charges: the related recoveries",
+        "summary": "Unauthorised debits, mis-sold products, consumer forum.",
+        "detail": "**Unauthorised digital transactions** follow the zero-liability circular (report within 3 working days — see our [UPI fraud guide](/help/cyber-fraud/upi-fraud-money-recovery)). **Mis-sold insurance/investment products** bundled with loans/lockers: complain for cancellation and refund (free-look periods help if caught early); the Ombudsman handles mis-selling deficiency. For larger patterns or compensation beyond ₹1 lakh, the **consumer commission** remains open ([guide](/help/consumer-complaints/consumer-forum-complaint-guide)) — banks are service providers, and hidden-charge cases win there with the same paper trail."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Bank grievance + RBI CMS",
+          "amount": "Free",
+          "note": "The full regulatory ladder"
+        },
+        {
+          "label": "Advocate's notice (stubborn cases)",
+          "amount": "₹999",
+          "note": "Itemised reversal demand"
+        },
+        {
+          "label": "Consumer complaint",
+          "amount": "₹0–slab",
+          "note": "For compensation beyond the Ombudsman"
+        },
+        {
+          "label": "Statement audit help",
+          "amount": "₹299",
+          "note": "Consultation to classify the debits"
+        }
+      ],
+      "footnote": "Switch on transaction alerts and check statements quarterly — charge disputes raised within weeks reverse easily; those discovered years later fight presumption and patience."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "bank ne galat charge kata",
+      "bank hidden charges complaint",
+      "minimum balance charges refund",
+      "rbi ombudsman complaint bank charges",
+      "bank service charges rules",
+      "unauthorised deduction bank account"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-consumer",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "consumer-forum-complaint-guide",
+    "upi-fraud-money-recovery"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can the bank charge for not maintaining minimum balance without telling me?",
+        "a": "No — MAB requirements and penalty schedules must be disclosed at account opening and displayed/notified on change, penalties must be proportionate to the shortfall (RBI directions), and BSBD/zero-balance accounts carry none. Unnotified or disproportionate charges reverse on complaint — banks know this."
+      },
+      {
+        "q": "I found an insurance premium debiting yearly that I never bought. What now?",
+        "a": "Classic bundling mis-sale. Demand the policy documents and your signed consent; absent genuine consent, seek cancellation and full premium refund from bank + insurer (grievance cells of both, then RBI Ombudsman/IRDAI Bima Bharosa). Free-look cancellation applies within 15–30 days of policy receipt if caught early."
+      },
+      {
+        "q": "How far back can I claim wrongly-deducted charges?",
+        "a": "The Ombudsman looks at complaints filed within a year of the bank's final reply, but the underlying claim can cover a longer deduction history raised in that complaint; consumer forums apply the 2-year limitation from knowledge. Practically: claim the full audited list now — banks reverse multi-year MAB/fee errors when the schedule breach is clear."
+      },
+      {
+        "q": "The bank says charges are \"as per terms I accepted\". How do I counter?",
+        "a": "Ask for the specific term, the schedule version in force at each debit, and proof of notification of changes. Banks often cannot produce consent for upgrades/add-ons or notice of revisions — and unilateral variation without notice violates RBI's fair-practice framework. The gap between \"terms exist\" and \"these debits match them\" is where reversals live."
+      },
+      {
+        "q": "Does this work against payment apps and NBFCs too?",
+        "a": "Yes — the Integrated Ombudsman Scheme covers banks, NBFCs and payment-system participants (wallets/UPI apps) in one window at cms.rbi.org.in. Same ladder: written grievance to the entity, 30 days, then CMS."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

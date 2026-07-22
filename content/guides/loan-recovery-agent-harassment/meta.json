@@ -1,0 +1,155 @@
+{
+  "slug": "loan-recovery-agent-harassment",
+  "category": "money-recovery",
+  "title": {
+    "en": "Bank Recovery Agent Harassment? RBI Fair Practices Rules and Where to Complain"
+  },
+  "answerBox": {
+    "en": "Recovery agents of banks and NBFCs are bound by RBI's Fair Practices Code: calls only between 8 am and 7 pm, no abuse, threats or public humiliation, and agents must carry the lender's authorisation. Document the harassment, complain in writing to the bank's grievance officer, and escalate free to the RBI Ombudsman after 30 days. Owing money never legalises intimidation."
+  },
+  "keyNumbers": {
+    "en": [
+      "Calls only 8 am–7 pm",
+      "30 days, then RBI Ombudsman",
+      "₹999 lawyer's notice"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Document every incident",
+        "duration": "Immediately",
+        "startsFrom": "dates, numbers, recordings, witnesses"
+      },
+      {
+        "label": "Written complaint to the lender",
+        "duration": "Same week",
+        "startsFrom": "grievance officer, on record"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "duration": "After 30 days",
+        "startsFrom": "if the lender ignores or rejects"
+      },
+      {
+        "label": "Police complaint",
+        "duration": "As needed",
+        "startsFrom": "threats/abuse are criminal now, not later"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "shield",
+        "title": "Know the rules agents must follow",
+        "summary": "RBI's Fair Practices Code binds banks, NBFCs and their agents.",
+        "detail": "Under RBI's Fair Practices Code and outsourcing guidelines, lenders answer for their agents, who must: contact you only between **8:00 am and 7:00 pm** at agreed places, carry **identity and authorisation** from the lender, and never use abuse, threats, public shaming, or contact with your family/colleagues to humiliate you. RBI's [charter and circulars](https://www.rbi.org.in) make the *bank* accountable for agent misconduct — that accountability is your lever."
+      },
+      {
+        "icon": "file-text",
+        "title": "Document, then complain to the lender",
+        "summary": "A dated incident log + written grievance the bank must answer.",
+        "detail": "Keep a log: date, time, number, what was said, witnesses; record calls where possible and preserve messages. Then complain in writing to the **bank/NBFC's grievance redressal officer** (every lender must publish one) describing the incidents, citing the Fair Practices Code, and demanding the harassment stop and recovery be routed lawfully. The lender must respond — silence or a brush-off for **30 days** opens the Ombudsman door.",
+        "serviceHint": "legal-notice-dispute"
+      },
+      {
+        "icon": "send",
+        "title": "Escalate: RBI Ombudsman, free",
+        "summary": "cms.rbi.org.in — the regulator's own complaint machinery.",
+        "detail": "File online at [cms.rbi.org.in](https://cms.rbi.org.in) under the Integrated Ombudsman Scheme with your incident log and the lender's (non-)response. It is **free**, needs no lawyer, and lenders take Ombudsman complaints seriously — deficiency findings carry compensation powers (including for mental agony, up to ₹1 lakh). Simultaneously, a **₹999 advocate's notice** to the bank and its recovery agency, threatening criminal and regulatory action, very often ends the calls within days."
+      },
+      {
+        "icon": "gavel",
+        "title": "Criminal law still applies to agents",
+        "summary": "Threats and abuse are offences regardless of the loan.",
+        "detail": "Agents who threaten harm commit criminal intimidation — **Section 506 IPC (now Section 351 BNS)**; abuse and public humiliation can amount to insult intended to provoke breach of peace — **Section 504 IPC (now Section 352 BNS)**; unlawful entry or seizure of assets without due process is trespass/extortion territory. File at the local station or on [cybercrime.gov.in](https://cybercrime.gov.in) for phone-based harassment. Separately: genuine dues remain payable — negotiate restructuring or settlement through the lender's official channels, in writing, and see our [fake loan app guide](/help/cyber-fraud/fake-loan-app-harassment) if the \"lender\" is an illegal app."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Lender grievance + RBI Ombudsman",
+          "amount": "Free",
+          "note": "cms.rbi.org.in; no lawyer needed"
+        },
+        {
+          "label": "Advocate's notice to bank + agency",
+          "amount": "₹999",
+          "note": "WakilBhai; typically stops calls fast"
+        },
+        {
+          "label": "Police complaint drafting",
+          "amount": "₹199",
+          "note": "For threats/abuse incidents"
+        },
+        {
+          "label": "Consultation on settlement/restructuring",
+          "amount": "₹299",
+          "note": "Negotiate the actual debt lawfully"
+        }
+      ],
+      "footnote": "The debt and the harassment are separate questions: pay or settle what you owe through official, written channels — and pursue the harassment through the regulator and police without hesitation."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "recovery agent harassment complaint",
+      "bank recovery agent rules rbi",
+      "recovery agent calling family complaint",
+      "rbi ombudsman recovery agent",
+      "loan defaulter rights india",
+      "recovery agent threat police complaint"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-dispute",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "loan-repayment-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "fake-loan-app-harassment",
+    "friend-not-returning-money"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "What are recovery agents legally NOT allowed to do?",
+        "a": "Call outside 8 am–7 pm, use abusive language or threats, humiliate you before family/neighbours/colleagues, visit at odd hours or in intimidating groups, seize assets without due legal process, or operate without the lender's authorisation letter. Each violation is a Fair Practices Code breach the bank answers for — and threats are independently criminal."
+      },
+      {
+        "q": "Can agents seize my vehicle or belongings for an unpaid loan?",
+        "a": "Not by force. Even for hypothecated vehicles, the Supreme Court has repeatedly held repossession must follow due process — notice and lawful means, not musclemen. Forcible seizure is theft/extortion territory; note the incident, file the police complaint, and put the bank on notice."
+      },
+      {
+        "q": "Does complaining stop the loan from being recovered?",
+        "a": "No — and that is fine. Your complaint targets the method, not the debt. Interest and the lender's civil remedies (suit, SARFAESI for secured loans, arbitration) continue. Use the breathing room to negotiate restructuring or a settlement in writing through official channels."
+      },
+      {
+        "q": "What can the RBI Ombudsman actually give me?",
+        "a": "Directions to the lender to fix the deficiency, and compensation — including up to ₹1 lakh for mental agony and harassment in deserving cases. Beyond your case, Ombudsman findings feed RBI's supervision of the lender, which is why banks settle these complaints quickly."
+      },
+      {
+        "q": "The calls are about someone else's loan — I am just a reference or a relative.",
+        "a": "You have an even cleaner case: the lender has no recovery claim against you at all. Write to the grievance officer demanding your number be removed and harassment stop; escalate identically to the Ombudsman. Continuous calls to third parties are textbook Fair Practices violations."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

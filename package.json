@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "seo:ping": "tsx scripts/ping-indexnow.ts"
+    "seo:ping": "tsx scripts/ping-indexnow.ts",
+    "new:guide": "tsx scripts/new-guide.ts"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",

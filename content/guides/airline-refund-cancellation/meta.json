@@ -1,0 +1,155 @@
+{
+  "slug": "airline-refund-cancellation",
+  "category": "consumer-complaints",
+  "title": {
+    "en": "Flight Cancelled or Delayed? Airline Refund Rules, Compensation and AirSewa Complaints"
+  },
+  "answerBox": {
+    "en": "DGCA's rules bind airlines: cancellation without adequate notice means a full refund plus compensation (₹5,000–10,000 by flight length) or an acceptable alternative; long delays trigger meals and hotel accommodation; denied boarding pays up to ₹20,000. Refunds must reach you within 7 days for cards. Complain to the airline, then AirSewa (DGCA's portal), then the consumer commission — where airlines routinely lose refund cases."
+  },
+  "keyNumbers": {
+    "en": [
+      "Refund in 7 days (cards)",
+      "Cancellation comp to ₹10,000",
+      "Denied boarding to ₹20,000"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Claim at the airport/airline",
+        "duration": "Immediately",
+        "startsFrom": "in writing/app — get reference numbers"
+      },
+      {
+        "label": "Refund processing duty",
+        "duration": "7 days (cards)",
+        "startsFrom": "30 days for agent/cash bookings"
+      },
+      {
+        "label": "AirSewa escalation",
+        "duration": "After airline reply",
+        "startsFrom": "DGCA grievance portal"
+      },
+      {
+        "label": "Consumer complaint",
+        "duration": "2 years",
+        "startsFrom": "from the deficiency"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Know the CAR entitlements",
+        "summary": "DGCA Civil Aviation Requirements set the floor, not airline goodwill.",
+        "detail": "Under DGCA's **CAR Section 3, Series M** rules: **cancellation** without 2 weeks' notice (or an acceptable reschedule) = refund + compensation of **₹5,000/₹7,500/₹10,000** by block time; **delays** = meals/refreshments by wait length, **hotel accommodation** for overnight-class delays, and full refund if delay exceeds specified hours; **denied boarding** (overbooking) = alternate flight or compensation **up to ₹20,000**. Extraordinary circumstances (weather, ATC) exempt compensation — but never the refund."
+      },
+      {
+        "icon": "send",
+        "title": "Claim in writing, then AirSewa",
+        "summary": "Airline first with references; DGCA portal escalation.",
+        "detail": "File the claim in the airline's app/web complaint channel citing the CAR provision and your flight facts; keep boarding passes, cancellation SMS/emails and expense receipts (meals/hotel/alternate transport you had to buy). Unsatisfied? Escalate on **[AirSewa](https://airsewa.gov.in)** — the DGCA grievance portal where airlines answer under regulatory watch; nodal officers respond within set timelines. Refund timing is itself regulated: **7 days to the card**, immediate for cash, 30 days via agents.",
+        "serviceHint": "legal-notice-consumer"
+      },
+      {
+        "icon": "scale",
+        "title": "The traps: \"non-refundable\", OTAs and vouchers",
+        "summary": "Taxes always refund; agents can't hold your money; vouchers are optional.",
+        "detail": "Even on \"non-refundable\" fares, **statutory taxes and fees must be refunded** on cancellation by you — airlines keeping the full amount are wrong. Booked via an **OTA/agent**? The airline's refund duty stands, and the agent must pass it within the 30-day chain — chase both in writing. **Credit shells/vouchers instead of money**: your consent is required — you may insist on the monetary refund where the airline cancelled. International itineraries on foreign carriers layer their regimes (EU261 etc.) on top — claim under the stronger rule."
+      },
+      {
+        "icon": "gavel",
+        "title": "Consumer commission: where airlines pay up",
+        "summary": "Deficiency + compensation for the holiday that died.",
+        "detail": "Airlines are service providers, and commissions award **refund + interest + compensation** for consequential loss (missed connections, hotel losses, the ruined event) with costs — case law is rich and claimant-friendly on cancellations and refund delays. File on **e-Daakhil** ([process guide](/help/consumer-complaints/consumer-forum-complaint-guide)) from your city; a ₹999 **advocate's notice** first often shakes the refund loose. Claims to ₹5 lakh: zero court fee."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Airline + AirSewa complaints",
+          "amount": "Free",
+          "note": "Regulatory grievance chain"
+        },
+        {
+          "label": "Advocate's notice",
+          "amount": "₹999",
+          "note": "Computed claim incl. consequential losses"
+        },
+        {
+          "label": "e-Daakhil complaint",
+          "amount": "₹0–slab",
+          "note": "No fee up to ₹5 lakh"
+        },
+        {
+          "label": "Consultation",
+          "amount": "₹299",
+          "note": "Multi-leg/foreign-carrier claims"
+        }
+      ],
+      "footnote": "Save everything same-day: screenshots of delay boards, SMS timestamps, expense bills. Airline systems \"lose\" context quickly; passengers with receipts get paid."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "flight cancel refund rules india",
+      "flight delay compensation dgca",
+      "airline refund nahi de raha",
+      "airsewa complaint process",
+      "denied boarding compensation india",
+      "flight ticket refund consumer court"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-consumer",
+    "consumer-complaint-draft"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "consumer-forum-complaint-guide",
+    "online-seller-refund-not-given"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "The airline cancelled and offered only a credit shell. Must I accept?",
+        "a": "No — for airline-initiated cancellations the refund option is yours; credit vouchers require your consent. Decline in writing, demand the monetary refund citing the CAR, and escalate to AirSewa if pushed. Voucher-only stances collapsed legally post-2020; airlines know it."
+      },
+      {
+        "q": "How much compensation for a cancelled flight without notice?",
+        "a": "Alongside the full refund or alternate flight: ₹5,000 or one-way fare+fuel charge (whichever less) for blocks up to 1 hour, ₹7,500 for 1–2 hours, ₹10,000 beyond — unless you were informed 2+ weeks ahead or weather/ATC-type causes apply. Consequential losses go to the consumer forum on top."
+      },
+      {
+        "q": "My connecting flight was missed because the first leg was delayed. Who pays?",
+        "a": "Same-PNR connections: the airline must rebook you and provide care (meals/hotel); compensation follows the delay rules and consumer forums add consequential loss for genuinely missed onward plans. Separate-PNR self-connections are your risk legally — claim the delayed leg's entitlements and insurance."
+      },
+      {
+        "q": "I cancelled a non-refundable ticket. Do I get anything back?",
+        "a": "Yes — statutory taxes, user development fees and similar components must be refunded even on non-refundable fares; only the fare portion is forfeitable per fare rules. Airlines silently keeping taxes is a standard, winnable complaint."
+      },
+      {
+        "q": "How do EU/US rules interact for international flights?",
+        "a": "Flights departing the EU (any carrier) or on EU carriers into the EU attract EU261 compensation (€250–600) — often richer than DGCA's; US rules mandate refunds for cancellations. Claim under the most favourable applicable regime; forums here also entertain deficiency claims for foreign-carrier tickets sold in India."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

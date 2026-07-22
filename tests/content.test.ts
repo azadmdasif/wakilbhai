@@ -1,6 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import {
+  getAllGuides,
   getCategories,
+  getCategoryGuides,
+  getGuide,
   getGuideMetas,
   getServices,
   getTemplates,
@@ -81,5 +84,47 @@ describe('content layer', () => {
         expect(guide.answerBox[locale]).toBeTruthy();
       }
     }
+  });
+});
+
+describe('typed guide front-matter (GuideFrontmatter)', () => {
+  it('resolves and validates every guide in every locale', () => {
+    for (const locale of locales) {
+      const guides = getAllGuides(locale);
+      expect(guides.length).toBe(getGuideMetas().length);
+      for (const g of guides) {
+        expect(g.locale).toBe(locale);
+        expect(g.title).toBeTruthy();
+        expect(g.quickAnswer).toBeTruthy();
+        // reviewer is structured, not a raw string
+        expect(g.reviewer.name.startsWith('Adv.')).toBe(true);
+        expect(g.reviewer.barCouncil).toContain('Bar Council');
+        expect(g.reviewer.enrolment.length).toBeGreaterThan(0);
+        expect(typeof g.draft).toBe('boolean');
+      }
+    }
+  });
+
+  it('getGuide matches on locale + category + slug, and drops mismatches', () => {
+    const g = getGuide('en', 'money-recovery', 'cheque-bounce-what-to-do');
+    expect(g?.slug).toBe('cheque-bounce-what-to-do');
+    expect(g?.serviceSlug).toBe('legal-notice-cheque-bounce');
+    expect(g?.servicePrice).toBe(999);
+    expect(g?.costs?.rows.length).toBeGreaterThan(0);
+    // wrong category → undefined
+    expect(getGuide('en', 'property-tenancy', 'cheque-bounce-what-to-do')).toBeUndefined();
+  });
+
+  it('draft flag follows the guide\'s draftLocales per locale', () => {
+    expect(getGuide('en', 'money-recovery', 'cheque-bounce-what-to-do')?.draft).toBe(false);
+    // mr/te/ta/gu are the rollout locales, still in draft review
+    expect(getGuide('mr', 'money-recovery', 'cheque-bounce-what-to-do')?.draft).toBe(true);
+    expect(getGuide('ta', 'money-recovery', 'cheque-bounce-what-to-do')?.draft).toBe(true);
+  });
+
+  it('getCategoryGuides returns only that category, typed', () => {
+    const guides = getCategoryGuides('en', 'money-recovery');
+    expect(guides.every((g) => g.category === 'money-recovery')).toBe(true);
+    expect(guides.map((g) => g.slug)).toContain('cheque-bounce-what-to-do');
   });
 });

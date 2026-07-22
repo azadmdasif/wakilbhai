@@ -1,0 +1,155 @@
+{
+  "slug": "friend-not-returning-money",
+  "category": "money-recovery",
+  "title": {
+    "en": "Friend or Relative Not Returning Borrowed Money? Notice, Court and Lok Adalat Options"
+  },
+  "answerBox": {
+    "en": "To recover money lent to a friend or relative: first a written demand with a deadline, then an advocate's legal notice (₹999 with WakilBhai; most matters settle here), then court — a summary suit under Order 37 CPC where you have written proof, or small causes court for modest sums. File within 3 years of the loan falling due. Lok Adalat is the free settlement forum on the way."
+  },
+  "keyNumbers": {
+    "en": [
+      "3-year limitation",
+      "15-day legal notice",
+      "₹999 advocate notice"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Written demand with deadline",
+        "duration": "7–15 days",
+        "startsFrom": "your own message/letter first"
+      },
+      {
+        "label": "Advocate's legal notice",
+        "duration": "15 days",
+        "startsFrom": "deadline given in the notice"
+      },
+      {
+        "label": "File the suit",
+        "duration": "3 years",
+        "startsFrom": "from when repayment fell due"
+      },
+      {
+        "label": "Lok Adalat settlement",
+        "duration": "~Quarterly",
+        "startsFrom": "free compromise forum, pre- or post-filing"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Build the proof of the loan",
+        "summary": "Transfers, chats, witnesses — friendly loans are provable.",
+        "detail": "Collect the **bank/UPI transfer records** (the single best evidence), chats and messages where the borrower acknowledges the loan or promises repayment, any promissory note or cheque, and witnesses to the arrangement. A fresh **written acknowledgement extends the 3-year limitation** (Section 18, Limitation Act) — so a WhatsApp message saying \"I'll return it after Diwali\" is worth engineering before relations sour completely. Cash loans without any trail are the hardest; acknowledgements become everything."
+      },
+      {
+        "icon": "send",
+        "title": "Demand first, then the legal notice",
+        "summary": "The ₹999 advocate notice settles most friendly-loan disputes.",
+        "detail": "Send your own written demand with a 7–15 day deadline — polite, factual, on record. If ignored, an **advocate's legal notice** stating the loan facts, the amount with interest, and a 15-day deadline changes the psychology: it signals a suit is genuinely coming. A large share of friend/family loans are repaid or restructured at this stage, because the borrower's defence is usually embarrassment, not denial.",
+        "serviceHint": "legal-notice-dispute"
+      },
+      {
+        "icon": "gavel",
+        "title": "Court: summary suit or small causes",
+        "summary": "Written evidence unlocks the fast Order 37 route.",
+        "detail": "With written proof (transfer + acknowledgement/promissory note/cheque), file a **summary suit under Order 37 CPC** — the borrower must obtain the court's leave to defend, cutting off delay tactics. For modest sums, the **small causes court** (where your state has one) is faster and cheaper. Court fees are ad valorem on the claim (state slabs); claim **interest** from the due date. If they gave a cheque that bounced, the criminal Section 138 route runs in parallel — see our cheque bounce guide."
+      },
+      {
+        "icon": "scale",
+        "title": "Lok Adalat: the free settlement lane",
+        "summary": "Compromise with legal finality, at zero cost.",
+        "detail": "At any stage — even before filing (pre-litigation) — the matter can be placed before a **Lok Adalat** ([nalsa.gov.in](https://nalsa.gov.in)): a settlement reached there is a **decree, final and unappealable**, and court fees already paid are refunded. For relationships you want to preserve, this is the venue where a respected mediator turns \"when I can\" into a dated instalment schedule with a decree behind it."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Your own written demand",
+          "amount": "Free",
+          "note": "Message + letter; keep proof of delivery"
+        },
+        {
+          "label": "Advocate's legal notice",
+          "amount": "₹999",
+          "note": "WakilBhai, advocate-sent with dispatch proof"
+        },
+        {
+          "label": "Court fee on the suit",
+          "amount": "Ad valorem",
+          "note": "State slab on the claim amount"
+        },
+        {
+          "label": "Lok Adalat",
+          "amount": "Free",
+          "note": "Settlement decree; court fee refunded if suit filed"
+        }
+      ],
+      "footnote": "Interest: courts award reasonable interest even without a written rate — but never resort to threats or self-help recovery, which convert your civil claim into their criminal complaint."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "friend not returning money legally",
+      "dost se paise kaise wapas le",
+      "money lent to friend recovery india",
+      "legal notice for money recovery",
+      "summary suit order 37 money",
+      "lok adalat money settlement"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-dispute",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "loan-repayment-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "cheque-bounce-what-to-do",
+    "unpaid-salary-what-to-do"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "I lent cash with no proof. Can I still recover it?",
+        "a": "Harder, but yes — the claim then rests on acknowledgements. Get the borrower to admit the loan in writing (chat, email, voice note): \"return my ₹50,000\" answered with \"next month, promise\" is evidence. Witnesses to the lending and to demands also count. Build this record before sending any notice."
+      },
+      {
+        "q": "What is the time limit to sue for money lent?",
+        "a": "Three years from when repayment fell due (or from the loan date if no due date was fixed), under the Limitation Act. Every written acknowledgement of the debt within that window restarts the three years — which is why keeping the borrower talking on record matters."
+      },
+      {
+        "q": "Is lending money to a friend even legal without documents?",
+        "a": "Yes — an oral loan is a valid contract. Documentation only affects provability, not legality. (Very large recurring lending can attract state money-lending laws, but one-off personal loans between friends and family are outside them.)"
+      },
+      {
+        "q": "Can I file a police complaint instead of a civil case?",
+        "a": "Generally no — failure to repay is a civil dispute, and police will (rightly) refuse. A criminal angle arises only with cheating from the start (borrowed with no intention to repay — hard to prove) or a bounced cheque (Section 138 NI Act, a genuinely effective criminal lever)."
+      },
+      {
+        "q": "How does pre-litigation Lok Adalat work for money disputes?",
+        "a": "Apply to the District Legal Services Authority to place the dispute before the next Lok Adalat; the other side is invited, a conciliator brokers terms, and any settlement is recorded as a binding award with decree force. No fee, no appeal, relationship intact — the best first forum where both sides still talk."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

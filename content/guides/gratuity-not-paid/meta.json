@@ -1,0 +1,155 @@
+{
+  "slug": "gratuity-not-paid",
+  "category": "job-salary",
+  "title": {
+    "en": "Gratuity Not Paid? Eligibility, the 30-Day Rule and the Controlling Authority"
+  },
+  "answerBox": {
+    "en": "After 5 years of continuous service (4 years 240 days counts, per settled rulings), gratuity is your statutory right: 15 days' last-drawn wages per year of service, capped at ₹20 lakh. The employer must pay within 30 days of it falling due — else it carries interest. Not paid? Apply in Form I to the employer, then to the Controlling Authority (labour department) within 90 days: free, and the order is enforceable with interest."
+  },
+  "keyNumbers": {
+    "en": [
+      "5 yrs (240-day rule)",
+      "30-day payment duty",
+      "₹20 lakh cap"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Employer pays gratuity",
+        "duration": "30 days",
+        "startsFrom": "from leaving; interest after"
+      },
+      {
+        "label": "Form I claim to employer",
+        "duration": "30 days ideal",
+        "startsFrom": "from it falling due (delay condonable)"
+      },
+      {
+        "label": "Controlling Authority application",
+        "duration": "90 days",
+        "startsFrom": "from employer refusal/silence (Form N)"
+      },
+      {
+        "label": "Appeal",
+        "duration": "60 days",
+        "startsFrom": "to the appellate authority"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "check",
+        "title": "Confirm eligibility and compute the amount",
+        "summary": "15/26 × last wages × years; 6+ months rounds up.",
+        "detail": "Eligibility: **5 years of continuous service** on leaving (resignation, retirement, termination — and no minimum for death/disablement). Courts treat **4 years + 240 days** as qualifying. Formula (Payment of Gratuity Act, 1972): **last drawn (basic + DA) × 15/26 × completed years**, with 6+ months rounding up to a full year; cap **₹20,00,000**. Use our free [gratuity calculator](/tools/gratuity-calculator) for the exact figure — walk in knowing your number."
+      },
+      {
+        "icon": "file-text",
+        "title": "Claim it formally: Form I",
+        "summary": "The written claim starts every clock.",
+        "detail": "Send **Form I** (application for gratuity) to the employer with your service dates and computation — email plus registered post. The employer must determine and pay within **30 days** of gratuity falling due; beyond that, **simple interest** (government-notified rate) accrues automatically. Ignore any \"gratuity is included in CTC so nothing is payable\" line — CTC accounting does not extinguish the statutory payment.",
+        "serviceHint": "legal-notice-unpaid-salary"
+      },
+      {
+        "icon": "gavel",
+        "title": "Controlling Authority: the free tribunal that works",
+        "summary": "Form N to the labour department; hearings, order, interest.",
+        "detail": "On refusal or 30 days of silence, file **Form N** before the **Controlling Authority under the Payment of Gratuity Act** (Assistant/Deputy Labour Commissioner for your area) — nominal/no fee, no lawyer required, within **90 days** (condonable with reasons). The Authority summons the employer, decides service length and quantum, and orders payment **with interest**. Employers ignoring orders face recovery as land revenue and prosecution under the Act."
+      },
+      {
+        "icon": "shield",
+        "title": "Forfeiture: the narrow exception employers stretch",
+        "summary": "Only for termination on specified misconduct, with due process.",
+        "detail": "Gratuity can be forfeited **only** on termination for: wilful act/negligence causing damage (to the damage's extent), or riotous/violent conduct or an offence involving moral turpitude in employment — and only after a **proper disciplinary process and a termination order saying so**. Resignation cases have nothing to forfeit against. Employers claiming forfeiture without that record lose before the Authority — make them produce it."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Form I + Form N route",
+          "amount": "Free–nominal",
+          "note": "No lawyer required at the Authority"
+        },
+        {
+          "label": "Advocate's notice (speeds settlements)",
+          "amount": "₹999",
+          "note": "WakilBhai; computation + interest demand"
+        },
+        {
+          "label": "Interest on delay",
+          "amount": "Statutory",
+          "note": "Accrues automatically after 30 days"
+        },
+        {
+          "label": "Consultation (forfeiture disputes)",
+          "amount": "₹299",
+          "note": "Misconduct-termination cases"
+        }
+      ],
+      "footnote": "Gratuity is payable even if the establishment later shut down, and it cannot be attached for the employer's debts. The 90-day window is condonable — old claims are still worth filing with an explanation."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "gratuity not paid by employer",
+      "gratuity kitne saal me milti hai",
+      "gratuity 4 years 240 days rule",
+      "form i gratuity claim",
+      "controlling authority gratuity complaint",
+      "gratuity calculation formula"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-unpaid-salary",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "unpaid-salary-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "unpaid-salary-what-to-do",
+    "relieving-letter-not-given"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "I resigned at 4 years 8 months. Am I eligible?",
+        "a": "Almost certainly yes — courts (following Madras HC in Mettur Beardsell, widely applied) hold that 4 years + 240 days in the fifth year completes \"continuous service\". Compute on 5 years and claim; employers relying on a literal \"5 calendar years\" reading lose this point regularly before Controlling Authorities."
+      },
+      {
+        "q": "Does gratuity apply to my small company?",
+        "a": "The Act covers establishments with 10+ employees (on any day in the preceding year) — and once covered, always covered even if headcount later falls. Most registered companies, shops and factories qualify. Genuine sub-10 establishments are outside, unless they adopted gratuity contractually/by CTC promise, which is enforceable as contract."
+      },
+      {
+        "q": "My employer says gratuity was \"part of CTC\" and already paid in salary. Valid?",
+        "a": "No. CTC is a cost projection, not payment — the statutory gratuity falls due on qualifying exit and must be paid then. Unless they actually parked money in an approved gratuity fund paying you now, the CTC line is irrelevant before the Controlling Authority."
+      },
+      {
+        "q": "How long does the Controlling Authority route take?",
+        "a": "Typically 3–9 months from Form N to order in uncontested-fact cases — hearings are summary, and many employers settle at the first hearing once interest is accruing. Appeals (60 days, with deposit of the awarded amount for employers) rarely change straightforward computations."
+      },
+      {
+        "q": "Is gratuity taxable?",
+        "a": "For private-sector employees, gratuity received under the Act is exempt up to ₹20 lakh (lifetime, across employers) under Section 10(10) — statutory-formula amounts within the cap are effectively tax-free. Amounts beyond the formula/cap are taxed as salary. Government employees' gratuity is fully exempt."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

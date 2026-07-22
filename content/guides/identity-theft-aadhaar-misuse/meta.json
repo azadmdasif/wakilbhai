@@ -1,0 +1,153 @@
+{
+  "slug": "identity-theft-aadhaar-misuse",
+  "category": "cyber-fraud",
+  "title": {
+    "en": "Identity Theft and Aadhaar/PAN Misuse — Loans in Your Name, and How to Shut It Down"
+  },
+  "answerBox": {
+    "en": "Discovered a loan, SIM or account you never took? That is identity theft — punishable under IT Act Section 66C and the BNS cheating provisions. Response: pull your credit reports (each bureau must give one free annually), dispute the fraudulent account with the lender and bureau in writing, lock your Aadhaar biometrics on myAadhaar, check SIMs on Sanchar Saathi, and file on cybercrime.gov.in. Bureaus must resolve disputes within 30 days."
+  },
+  "keyNumbers": {
+    "en": [
+      "Free credit reports",
+      "30-day bureau resolution",
+      "Aadhaar biometric lock"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Pull all four credit reports",
+        "duration": "Today",
+        "startsFrom": "CIBIL, Experian, Equifax, CRIF"
+      },
+      {
+        "label": "Dispute with lender + bureau",
+        "duration": "In writing, now",
+        "startsFrom": "fraud flag on the account"
+      },
+      {
+        "label": "Bureau resolution duty",
+        "duration": "30 days",
+        "startsFrom": "from the dispute (CICRA)"
+      },
+      {
+        "label": "Police/portal complaint",
+        "duration": "24–48 hours",
+        "startsFrom": "the FIR anchors every dispute"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Map the damage",
+        "summary": "Credit reports + Sanchar Saathi + AA/bank statements.",
+        "detail": "Get your credit report from **all four bureaus** (CIBIL, Experian, Equifax, CRIF High Mark — one free full report each per year) and list every account/enquiry you don't recognise. Check **[sancharsaathi.gov.in](https://sancharsaathi.gov.in)** for SIMs on your ID, and your **Aadhaar authentication history** on [myAadhaar](https://myaadhaar.uidai.gov.in) for authentications you never made. The unknown-enquiries section matters — it shows attempts in progress."
+      },
+      {
+        "icon": "send",
+        "title": "Dispute everything, in parallel, in writing",
+        "summary": "Lender fraud desk + bureau dispute + the FIR anchor.",
+        "detail": "For each fraudulent account: written complaint to the **lender's fraud/grievance desk** (\"not my account — identity theft, investigate and close\") and a **dispute with the bureau** (online forms exist; follow with email). Under the **Credit Information Companies (Regulation) Act**, bureaus must resolve disputes within **30 days**. File the **cybercrime.gov.in complaint/FIR** early — identity theft is **Section 66C IT Act** plus cheating by personation **Section 419 IPC (now Section 319 BNS)** — because lenders take \"FIR attached\" disputes far more seriously.",
+        "serviceHint": "police-complaint-draft"
+      },
+      {
+        "icon": "shield",
+        "title": "Lock the identity rails",
+        "summary": "Aadhaar biometric lock, VID use, PAN vigilance.",
+        "detail": "On myAadhaar/mAadhaar: **lock your biometrics** (unlock temporarily when you genuinely need them) and use the **Virtual ID (VID)** instead of the Aadhaar number where accepted. Aadhaar misuse complaints also go to **UIDAI (1947 / help@uidai.gov.in)**. For PAN: check Form 26AS/AIS for transactions you never made and report misuse to the income-tax grievance portal. Change compromised-account credentials and enable app-based 2FA everywhere the identity touched."
+      },
+      {
+        "icon": "gavel",
+        "title": "Force the corrections and claim the damage",
+        "summary": "RBI Ombudsman for stonewalling lenders; score restoration.",
+        "detail": "A lender insisting you owe a fraudulent loan after your documented dispute: escalate to its nodal officer, then the **RBI Ombudsman** (cms.rbi.org.in) — wrongly reported accounts and ruined scores are deficiencies the Ombudsman corrects, with compensation possible. Demand written closure confirmations and updated bureau records (verify after 45–60 days). Persistent harassment for the fraudster's debt gets the recovery-agent treatment — see our [recovery agent guide](/help/money-recovery/loan-recovery-agent-harassment)."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Credit reports (annual)",
+          "amount": "Free",
+          "note": "One full report per bureau per year"
+        },
+        {
+          "label": "Disputes + UIDAI/portal complaints",
+          "amount": "Free",
+          "note": "All statutory channels"
+        },
+        {
+          "label": "Complaint documentation",
+          "amount": "₹199",
+          "note": "FIR/cyber complaint + dispute letters"
+        },
+        {
+          "label": "Consultation (large fraud)",
+          "amount": "₹299",
+          "note": "Multi-lender cleanup strategy"
+        }
+      ],
+      "footnote": "Set bureau alerts and repeat the four-report check annually — identity theft discovered at month 2 is a cleanup; discovered at year 2, an archaeology project."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "aadhaar misuse complaint",
+      "loan in my name fraud what to do",
+      "identity theft complaint india",
+      "pan card misuse check",
+      "cibil report fraud account dispute",
+      "aadhaar biometric lock kaise kare"
+    ]
+  },
+  "relatedServiceIds": [
+    "police-complaint-draft",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "sim-swap-fraud",
+    "fake-loan-app-harassment"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "A loan app says I owe money for a loan I never took. Do I have to pay?",
+        "a": "No — but you must dispute actively: written denial to the lender demanding their KYC/disbursement proof, bureau dispute, FIR/cyber complaint, and RBI Ombudsman if they persist. Silence looks like default; a documented identity-theft file shifts the burden to the lender to prove it lent to YOU."
+      },
+      {
+        "q": "How did someone get a loan with my Aadhaar/PAN?",
+        "a": "Leaked KYC bundles (photocopies submitted everywhere), phishing, and lax digital-lender onboarding — instant-loan apps verifying little. This is why biometric locking, VID usage, and writing \"for X purpose only, date\" on physical photocopies are worth the minor friction."
+      },
+      {
+        "q": "Will the fraudulent account ruin my credit score permanently?",
+        "a": "No — once the lender flags it as fraud/closes it and the bureau corrects the record (30-day duty), scores recover. Keep every closure confirmation; if the entry resurfaces (it happens on data refreshes), the paper trail forces immediate re-correction and supports compensation claims."
+      },
+      {
+        "q": "What does locking Aadhaar biometrics actually do?",
+        "a": "It blocks fingerprint/iris authentication entirely until you unlock — so nobody can eKYC a SIM or account with harvested biometrics. OTP-based Aadhaar authentication continues to work for you. Lock it and unlock on the rare day you need biometric verification."
+      },
+      {
+        "q": "Someone is running a business/GST number on my PAN. Who handles that?",
+        "a": "Report on the GST portal's fraud reporting (registrations against your PAN are visible via \"Search by PAN\"), the income-tax e-filing grievance for PAN misuse, and the police/cyber complaint for the underlying forgery — Sections 465/468 IPC (now 336/338 BNS). Tax demands from a fraudulent registration are defensible with that trail."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

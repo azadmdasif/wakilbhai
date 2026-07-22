@@ -1,0 +1,155 @@
+{
+  "slug": "vehicle-noc-re-registration",
+  "category": "vehicle-accident",
+  "title": {
+    "en": "Moving States with Your Vehicle — NOC, Re-Registration, Road Tax Refund and the BH Series"
+  },
+  "answerBox": {
+    "en": "Keeping a vehicle in another state beyond 12 months requires re-registration: take an NOC (Form 28) from your origin RTO, pay the new state's road tax, and apply for a new registration mark — then claim the origin state's pro-rata road tax refund. Most steps run on parivahan.gov.in. Frequently-transferred employees should consider the BH (Bharat) series, which removes the whole cycle."
+  },
+  "keyNumbers": {
+    "en": [
+      "12-month window",
+      "Form 28 NOC",
+      "Pro-rata tax refund"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Use in new state on old plates",
+        "duration": "12 months max",
+        "startsFrom": "from bringing the vehicle in"
+      },
+      {
+        "label": "NOC from origin RTO",
+        "duration": "1–4 weeks",
+        "startsFrom": "Form 28 application (online)"
+      },
+      {
+        "label": "New-state tax + re-registration",
+        "duration": "Weeks",
+        "startsFrom": "assignment of new mark"
+      },
+      {
+        "label": "Road-tax refund claim",
+        "duration": "Post re-registration",
+        "startsFrom": "origin state, with proof"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "NOC first: Form 28 from the origin RTO",
+        "summary": "Clearances checked, hypothecation consent needed.",
+        "detail": "Apply for the **NOC (Form 28**, in triplicate) at the RTO where the vehicle is registered — online on [parivahan.gov.in](https://parivahan.gov.in) in most states. The RTO verifies **no pending challans/taxes and no theft record** (CCTNS check), and a financed vehicle needs the **financier's consent**. The NOC notes the destination state. Validity is limited (commonly 6 months) — sequence your move accordingly."
+      },
+      {
+        "icon": "banknote",
+        "title": "Pay the new state's road tax + re-register",
+        "summary": "Form 20/27, address proof, tax on depreciated value.",
+        "detail": "In the new state: pay **road tax** (lifetime tax computed on the invoice value less depreciation — states differ meaningfully in rates), then apply for **assignment of a new registration mark (Forms 27/20)** with the NOC, RC, insurance, PUC, address proof and fees; fitness/inspection where required. Update the **insurance policy's registration details and address** — premiums and validity follow the vehicle's state. Hypothecation carries over onto the new RC.",
+        "serviceHint": "affidavit-general"
+      },
+      {
+        "icon": "check",
+        "title": "Claim the origin state's refund",
+        "summary": "Pro-rata lifetime tax comes back — most people forget.",
+        "detail": "After re-registration, claim the **pro-rata refund of lifetime road tax** from the origin state (application with the new RC, old RC/tax receipts, NOC copy — Form 16/state-specific). Refunds run on the unexpired-years proportion and take months; they are nonetheless real money on a car taxed at 8–15% of invoice value. File it — the state will not volunteer it."
+      },
+      {
+        "icon": "shield",
+        "title": "Or skip the cycle: the BH series",
+        "summary": "For transferable-job holders — one mark, pan-India.",
+        "detail": "Eligible owners — **central/state government employees and private-sector employees whose companies have offices in 4+ states/UTs** — can register new vehicles in the **BH (Bharat) series**: road tax paid in 2-year blocks, no re-registration on interstate moves. Existing-vehicle conversion to BH has been enabled progressively (check current rules on parivahan). For serially-transferred families, BH removes this guide's entire problem — choose it at purchase."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "NOC (Form 28)",
+          "amount": "₹100 approx",
+          "note": "Plus any pending dues cleared"
+        },
+        {
+          "label": "New-state road tax",
+          "amount": "State-wise %",
+          "note": "On depreciated value; the big number"
+        },
+        {
+          "label": "Re-registration + HSRP plates",
+          "amount": "₹500–1,500",
+          "note": "Fees + new high-security plates"
+        },
+        {
+          "label": "Refund recovered from origin state",
+          "amount": "Pro-rata",
+          "note": "File for it — months, but real money"
+        }
+      ],
+      "footnote": "Skipping re-registration invites seizure/penalties in the new state and complicates insurance claims — the 12-month grace is generous; use it to finish the paperwork, not to hide."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "vehicle noc for other state",
+      "car re registration another state process",
+      "road tax refund on vehicle transfer",
+      "bh series number plate eligibility",
+      "form 28 noc rto online",
+      "dusre state me gaadi register kaise kare"
+    ]
+  },
+  "relatedServiceIds": [
+    "affidavit-general",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "vehicle-ownership-transfer",
+    "traffic-challan-disputes"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Do I really need to re-register if I keep my old plates?",
+        "a": "Beyond 12 months of keeping the vehicle in the new state, yes (Section 47, MV Act) — enforcement varies but road-tax evasion penalties, checkpost seizures and insurance-claim friction all bite the overstayer. Students and genuinely temporary postings within the window are fine on old plates."
+      },
+      {
+        "q": "Can I do the whole process without traveling back to the origin state?",
+        "a": "Mostly yes: Form 28 NOC applications are online in most states, and documents move by post/representative. The refund claim is also by application. One practical dependency is clearing old challans — do that on the portal before applying, or the NOC stalls."
+      },
+      {
+        "q": "How is the new state's road tax calculated on my used car?",
+        "a": "On the original invoice value with age-based depreciation per that state's schedule, at that state's rate (roughly 6–15% band across states, higher for costlier vehicles/diesel in some). The refund from the origin state offsets part of it — always net the two before deciding whether re-registration or selling-and-rebuying makes sense."
+      },
+      {
+        "q": "Who can take a BH series registration?",
+        "a": "Government employees (centre/state/PSU) and private employees of companies with offices in four or more states/UTs — proof via employment certificate (Form 60). Tax runs in 2-year blocks at BH rates; the mark stays valid across India with no NOC/re-registration on moves."
+      },
+      {
+        "q": "What about my driving licence when I move states?",
+        "a": "Your DL is valid pan-India — no re-issue required. You may optionally update the address (helps with local processes); that is a simple application with address proof, doable online in most states via parivahan."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

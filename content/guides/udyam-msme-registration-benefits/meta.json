@@ -1,0 +1,156 @@
+{
+  "slug": "udyam-msme-registration-benefits",
+  "category": "business-startup",
+  "title": {
+    "en": "Udyam (MSME) Registration — Free Process, Real Benefits and the 45-Day Payment Weapon"
+  },
+  "answerBox": {
+    "en": "Udyam registration is free, online at udyamregistration.gov.in, needs only Aadhaar + PAN, and issues instantly — yet most small businesses and freelancers skip it and lose its biggest benefit: the MSMED Act right to be paid within 45 days, with compound interest at 3× the RBI bank rate enforced through MSME Samadhaan councils. Add priority-sector lending, collateral-free CGTMSE loans, and government-tender preferences."
+  },
+  "keyNumbers": {
+    "en": [
+      "Free + instant",
+      "45-day payment right",
+      "3× bank-rate interest"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Register on the official portal",
+        "duration": "30 minutes",
+        "startsFrom": "udyamregistration.gov.in — free"
+      },
+      {
+        "label": "Buyer payment duty",
+        "duration": "45 days max",
+        "startsFrom": "from acceptance of goods/services"
+      },
+      {
+        "label": "Samadhaan reference",
+        "duration": "On default",
+        "startsFrom": "online with invoices"
+      },
+      {
+        "label": "Annual updates",
+        "duration": "Yearly",
+        "startsFrom": "turnover/investment self-declaration syncs"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "check",
+        "title": "Check you qualify — you probably do",
+        "summary": "Micro/small/medium by investment + turnover; services count.",
+        "detail": "Classification (composite): **micro** — investment ≤ ₹1 crore and turnover ≤ ₹5 crore; **small** — ≤ ₹10 crore / ≤ ₹50 crore; **medium** — ≤ ₹50 crore / ≤ ₹250 crore. **Services qualify** — freelancers, agencies, consultants, traders (for most benefits) included; proprietorships, partnerships, LLPs, companies all register. Practically every reader of this page fits micro."
+      },
+      {
+        "icon": "file-text",
+        "title": "Register — free, official, 30 minutes",
+        "summary": "Aadhaar + PAN on udyamregistration.gov.in; beware paid clones.",
+        "detail": "On **[udyamregistration.gov.in](https://udyamregistration.gov.in)** (the ONLY official portal — lookalike sites charge for the free process): authenticate with **Aadhaar OTP**, add **PAN/GSTIN** (data auto-pulls from ITR/GST), classify your activity (NIC codes), and the **Udyam certificate with QR** issues instantly. No documents to upload, no fee, no renewal — annual figures sync from your filings. Our ₹499 assistance exists for those who want it done-with-you, but the process is genuinely DIY-friendly.",
+        "serviceHint": "udyam-registration"
+      },
+      {
+        "icon": "banknote",
+        "title": "Use benefit #1: the 45-day payment right",
+        "summary": "MSMED Act overrides contracts; Samadhaan enforces it.",
+        "detail": "Registered micro/small suppliers must be paid within **45 days of acceptance** — regardless of the PO's \"90-day terms\". Delay triggers **compound interest at 3× the RBI bank rate**, claimable via **[MSME Samadhaan](https://samadhaan.msme.gov.in)** facilitation councils (free online filing; buyer appeals need 75% pre-deposit). Buyers also face tax disallowance (Section 43B(h) — delayed MSME payments disallowed as expense) and disclosure duties — leverage that finance departments respect. Full recovery playbook: our [unpaid invoice guide](/help/money-recovery/unpaid-invoice-business-dues)."
+      },
+      {
+        "icon": "shield",
+        "title": "Stack the rest of the benefits",
+        "summary": "Collateral-free credit, tenders, subsidies, protections.",
+        "detail": "Registration unlocks: **collateral-free loans** under CGTMSE guarantee (banks lend against the guarantee, not your house), **priority-sector lending** classification, **government tender benefits** (EMD exemptions, price preference, 25% procurement target from MSEs), interest-subvention and state subsidy schemes, ISO/patent-fee reimbursements, and electricity/stamp concessions in several states. Banks and marketplaces increasingly ask for the Udyam number as standard vendor KYC — registration is becoming the default business ID.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Udyam registration",
+          "amount": "Free",
+          "note": "Official portal; beware paid clone sites"
+        },
+        {
+          "label": "Done-with-you assistance",
+          "amount": "₹499",
+          "note": "WakilBhai, incl. NIC classification"
+        },
+        {
+          "label": "Samadhaan filing",
+          "amount": "Free",
+          "note": "Interest computation help available"
+        },
+        {
+          "label": "Recovery notice (delayed payments)",
+          "amount": "₹999",
+          "note": "Advocate notice citing MSMED rights"
+        }
+      ],
+      "footnote": "Date matters: MSMED protections attach to supplies made while registered — register today so every invoice from tomorrow carries the 45-day/3× armour."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "udyam registration process free",
+      "msme registration benefits",
+      "msme 45 din payment rule",
+      "udyam certificate kaise banaye",
+      "msme samadhaan interest claim",
+      "collateral free loan msme cgtmse"
+    ]
+  },
+  "relatedServiceIds": [
+    "udyam-registration",
+    "legal-notice-dispute"
+  ],
+  "relatedTemplateSlugs": [
+    "nda-template"
+  ],
+  "relatedGuideSlugs": [
+    "unpaid-invoice-business-dues",
+    "freelance-contract-essentials"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "I'm a solo freelancer with no \"enterprise\". Can I register?",
+        "a": "Yes — service-providing individuals/proprietors register as micro enterprises with just Aadhaar + PAN; lakhs of freelancers hold Udyam certificates precisely for the 45-day payment right and easier business banking. Your name is the enterprise name if you have no brand."
+      },
+      {
+        "q": "Is there any fee or renewal for Udyam?",
+        "a": "None — registration is free and permanent, with annual self-declaration/auto-sync of figures. Any site charging for \"Udyam registration\" is an agent (at best) — the official portal is udyamregistration.gov.in. Reclassification happens automatically if you grow across thresholds."
+      },
+      {
+        "q": "Does the 45-day rule really override a signed 90-day payment contract?",
+        "a": "Yes — Section 15 MSMED Act caps agreed credit at 45 days for registered micro/small suppliers; longer contractual terms are void to that extent. Interest at 3× bank rate compounds monthly from day 46 (Section 16), and the buyer cannot even deduct it as expense. Councils enforce exactly this daily."
+      },
+      {
+        "q": "Will registering affect my taxes or add compliance?",
+        "a": "No new tax or filing burden — Udyam is an identity/benefit registration, not a tax registration. It pulls data FROM your ITR/GST rather than adding returns. GST registration remains governed by its own thresholds independently (see our GST guide)."
+      },
+      {
+        "q": "What is CGTMSE collateral-free credit in practice?",
+        "a": "Banks lend to MSEs with the CGTMSE trust guaranteeing large portions of the exposure (up to ₹5 crore cover) — so loans go through without property collateral. Approach the bank citing CGTMSE; approval still tests viability, but \"no collateral\" stops being an automatic no."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

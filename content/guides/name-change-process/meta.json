@@ -1,0 +1,155 @@
+{
+  "slug": "name-change-process",
+  "category": "family-personal",
+  "title": {
+    "en": "Legal Name Change in India — Affidavit, Newspaper Ads and Gazette, Step by Step"
+  },
+  "answerBox": {
+    "en": "A legal name change in India takes three steps: a notarised name-change affidavit (₹20–100 stamp paper), publication in two newspapers (one English, one regional — ₹500–1,500), and publication in the Gazette of India (₹1,100–1,700 typical fees). The full process runs 4–8 weeks, after which every ID — PAN, Aadhaar, passport — can be updated."
+  },
+  "keyNumbers": {
+    "en": [
+      "3 steps: affidavit → ads → gazette",
+      "4–8 weeks total",
+      "₹2,000–3,500 all-in"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Affidavit notarised",
+        "duration": "Day 1",
+        "startsFrom": "stamp paper + notary, same day"
+      },
+      {
+        "label": "Two newspaper ads",
+        "duration": "2–7 days",
+        "startsFrom": "one English + one regional daily"
+      },
+      {
+        "label": "Gazette publication",
+        "duration": "3–6 weeks",
+        "startsFrom": "from a complete application"
+      },
+      {
+        "label": "Update IDs",
+        "duration": "After gazette",
+        "startsFrom": "PAN, Aadhaar, passport, banks, records"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Step 1 — the name-change affidavit",
+        "summary": "Old name, new name, reason — sworn before a notary.",
+        "detail": "The affidavit states your old name, the new name, your address, and the reason (marriage, divorce, astrology/numerology, spelling correction, personal choice — all are acceptable). Execute it on **₹20–100 stamp paper** (state-dependent) and get it **notarised** or sworn before an Oath Commissioner. This affidavit is the foundation document every later step and ID office will ask for. Our ₹199 service drafts it correctly the first time.",
+        "serviceHint": "name-change-affidavit"
+      },
+      {
+        "icon": "send",
+        "title": "Step 2 — publish in two newspapers",
+        "summary": "One English daily + one regional-language daily.",
+        "detail": "Publish the prescribed announcement — old name, new name, address, affidavit date — in **two newspapers**: one English daily and one in the local language of your state. Cost is typically **₹500–1,500** for both classified insertions. Buy several original copies of each paper; the Gazette application and some ID offices want originals of the full page carrying the ad, with the masthead and date visible."
+      },
+      {
+        "icon": "check",
+        "title": "Step 3 — Gazette of India notification",
+        "summary": "The official publication that ends all argument.",
+        "detail": "Apply to the **Department of Publication, Govt. of India** ([egazette.gov.in](https://egazette.gov.in) / dop.nic.in) with the prescribed proforma, affidavit, newspaper originals, photos, ID proof and the fee (**₹1,100–1,700** for ordinary publication; state gazettes are an alternative for some purposes). Publication takes **3–6 weeks**; you then download the gazette copy carrying your entry. For government employees, the gazette route is mandatory; for passports after marriage, the affidavit + marriage certificate route often suffices without a gazette — check the specific office's rules."
+      },
+      {
+        "icon": "shield",
+        "title": "Update every ID in the right order",
+        "summary": "Gazette in hand, sweep PAN → Aadhaar → passport → banks.",
+        "detail": "With gazette + affidavit + newspaper ads, update: **PAN** (incometax.gov.in correction), **Aadhaar** (UIDAI centre — name changes need supporting proof), **passport** ([passportindia.gov.in](https://www.passportindia.gov.in) reissue), then voter ID, driving licence, bank accounts, insurance, property records and educational-board records where applicable (boards have their own correction windows and rules). Keep a folder of 10+ copies of everything — every office keeps a set."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Affidavit (stamp paper + notary)",
+          "amount": "₹100–300",
+          "note": "Drafting help ₹199 with WakilBhai"
+        },
+        {
+          "label": "Two newspaper advertisements",
+          "amount": "₹500–1,500",
+          "note": "Classified rates vary by paper/city"
+        },
+        {
+          "label": "Gazette of India fee",
+          "amount": "₹1,100–1,700",
+          "note": "Ordinary publication; check current schedule"
+        },
+        {
+          "label": "Total, typically",
+          "amount": "₹2,000–3,500",
+          "note": "Plus ID-update fees (PAN free, passport reissue fees apply)"
+        }
+      ],
+      "footnote": "Fees are indicative and change — verify the current Gazette fee schedule on egazette.gov.in before paying. Beware agents charging ₹10,000+ for what is a straightforward three-step process you can do directly."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "name change process india",
+      "naam change kaise kare legally",
+      "gazette name change online",
+      "name change affidavit format",
+      "newspaper ad for name change",
+      "name change after marriage documents"
+    ]
+  },
+  "relatedServiceIds": [
+    "name-change-affidavit",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "how-to-make-a-will",
+    "mutual-divorce-process-cost"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is the Gazette publication compulsory for a name change?",
+        "a": "Not always. Government employees must use the gazette route, and it is the strongest universal proof. But many offices accept less for specific cases — passport name change after marriage commonly needs only the marriage certificate and a joint affidavit. When in doubt, or for a complete change of name, do the gazette: it ends all future argument."
+      },
+      {
+        "q": "How long does the whole process take?",
+        "a": "The affidavit is same-day, newspaper ads appear within a week, and gazette publication takes roughly 3–6 weeks from a complete application — so 4–8 weeks end to end. ID updates after that proceed in parallel at each office's own pace."
+      },
+      {
+        "q": "Can I change my child's name?",
+        "a": "Yes — a parent/guardian executes the affidavit and follows the same newspaper + gazette process, with both parents' consent documents typically required. School-board records have their own correction procedures and deadlines, so start with the board's rules if certificates are the goal."
+      },
+      {
+        "q": "After marriage, must I take my spouse's surname legally?",
+        "a": "No — it is entirely optional. If you do adopt it, the marriage certificate plus a joint affidavit handles most updates (passport included) without a gazette. If you later revert after divorce, the full affidavit-ads-gazette route is the clean path."
+      },
+      {
+        "q": "My documents have different name spellings. Same process?",
+        "a": "Yes — minor spelling mismatches (Mohd/Mohammed, missing surname) are fixed with a \"one and the same person\" affidavit for small cases, or the full name-change process where an authoritative single spelling is needed across IDs. The affidavit is the ₹199 document that solves most of these."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

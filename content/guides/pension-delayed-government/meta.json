@@ -1,0 +1,157 @@
+{
+  "slug": "pension-delayed-government",
+  "category": "government-paperwork",
+  "title": {
+    "en": "Government Pension Delayed? Interest Rights, Grievance Ladders and CAT/Court Remedies"
+  },
+  "answerBox": {
+    "en": "Pension is deferred salary — a right, not a bounty (Supreme Court, D.S. Nakara). Delays typically trace to incomplete papers, unresolved audit objections, or files shuttling between the department, PAO and bank. The escalation that works: written follow-up with the Head of Office, CPENGRAMS grievance, appeal to the department's pension nodal officer — and interest on delayed gratuity/pension arrears is payable under the CCS Pension Rules when delay is administrative."
+  },
+  "keyNumbers": {
+    "en": [
+      "Pension = a right (SC)",
+      "Interest on delayed dues",
+      "CPENGRAMS grievances"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Pension papers preparation",
+        "duration": "1 year before retirement",
+        "startsFrom": "the rules' preparation timeline"
+      },
+      {
+        "label": "PPO issuance target",
+        "duration": "By retirement",
+        "startsFrom": "provisional pension if delayed"
+      },
+      {
+        "label": "Provisional pension right",
+        "duration": "Immediately",
+        "startsFrom": "100% provisional where papers pend"
+      },
+      {
+        "label": "Grievance/CAT escalation",
+        "duration": "After written chase",
+        "startsFrom": "CPENGRAMS → nodal → CAT/HC"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Locate where the file actually is",
+        "summary": "HOO → PAO → CPAO → bank: four stations, one stuck file.",
+        "detail": "The pipeline: your **Head of Office** compiles papers (service book, no-dues, Form 5/7), the **Pay & Accounts Office** issues the **PPO** (Pension Payment Order), CPAO (central)/treasury routes it, and the **pension-disbursing bank** starts payment. A written status request to the HOO + an **[RTI](/help/government-paperwork/rti-application-how-to)** asking \"which station holds the file, since when, and why\" identifies the choke point in two weeks — you cannot push a file you cannot locate."
+      },
+      {
+        "icon": "shield",
+        "title": "Invoke provisional pension — it exists for this",
+        "summary": "100% provisional pension + provisional gratuity while papers pend.",
+        "detail": "Where finalisation is delayed (audit objections, disciplinary shadows, paperwork), the rules (CCS Pension Rules — Rule 62/64 framework) mandate **provisional pension (100% of the entitlement)** and provisional gratuity — you are not meant to starve while offices reconcile. Demand it in writing citing the rule; the same applies in most state rule-sets. Family pension claims follow parallel provisional protections. Retirees under NPS/UPS have their own annuity/assured-payout timelines — the grievance machinery below covers them too.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "send",
+        "title": "The grievance ladder that moves files",
+        "summary": "CPENGRAMS + nodal officers + Pension Adalats.",
+        "detail": "File on **[CPENGRAMS](https://pensionersportal.gov.in)** (the pension-specific grievance system — DOPPW monitors disposal) with your PPO/file references; escalate within the portal and to the department's **pension nodal officer** and the **Directorate of Pension** (states). **Pension Adalats** (periodic, department-wise) resolve chronic cases on the spot — get yours listed. Banks sitting on started-but-stopped payments answer through the bank's grievance cell + the [RBI Ombudsman](/help/consumer-complaints/bank-charges-wrongly-deducted). Every step in writing; oral follow-ups produce sympathy, not PPOs.",
+        "serviceHint": "rti-application"
+      },
+      {
+        "icon": "gavel",
+        "title": "Interest — and the tribunal/court lane",
+        "summary": "Delayed dues carry interest; CAT/HC orders both fast.",
+        "detail": "Administrative delay in gratuity/pension attracts **interest** (CCS Pension Rules provide it on delayed gratuity; courts extend interest on arrears where delay is the department's — a consistent line since *D.S. Nakara* framed pension as a right). Stonewalled beyond months: central employees move the **Central Administrative Tribunal** (states: their tribunals/High Court writs) — pension matters are the tribunals' bread and butter, with directions + interest + costs routine. An advocate's **₹999 notice** to the department citing the rule-based interest liability often produces the PPO without the petition."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "CPENGRAMS/RTI/Adalat steps",
+          "amount": "Free–₹10",
+          "note": "The administrative ladder"
+        },
+        {
+          "label": "Advocate's notice to the department",
+          "amount": "₹999",
+          "note": "Rule-cited demand with interest"
+        },
+        {
+          "label": "CAT application",
+          "amount": "₹50 + advocate",
+          "note": "Tribunal fees are nominal"
+        },
+        {
+          "label": "Documentation/consultation",
+          "amount": "₹199/₹299",
+          "note": "Representation drafting + strategy"
+        }
+      ],
+      "footnote": "Start the paper chase a year before retirement — the rules schedule preparation then, and files completed pre-retirement rarely become this page's problem."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "pension delayed complaint government",
+      "pension nahi aa rahi kya kare",
+      "provisional pension rules",
+      "cpengrams pension grievance",
+      "gratuity delay interest government",
+      "cat case pension delay"
+    ]
+  },
+  "relatedServiceIds": [
+    "rti-application",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "rti-application-format",
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "rti-application-how-to",
+    "gratuity-not-paid"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "My PPO is stuck for months after retirement. What single step helps most?",
+        "a": "The RTI asking which office holds the file, since when, and the reason — paired with a CPENGRAMS grievance quoting the answer. Named-station accountability moves pension files better than any visit; add the provisional-pension demand so money flows meanwhile."
+      },
+      {
+        "q": "What is provisional pension and who sanctions it?",
+        "a": "Where final pension cannot be sanctioned by retirement (paperwork/audit/disciplinary pendency), the Head of Office must sanction provisional pension — now at 100% of the assessed entitlement — and provisional gratuity, adjustable on finalisation. It is a duty, not a favour: demand it in writing citing the rule."
+      },
+      {
+        "q": "Am I entitled to interest for the delay?",
+        "a": "Delayed gratuity carries statutory interest under the CCS framework when delay is administrative; for pension arrears, tribunals and courts award interest where the department caused the delay. Claim it expressly in your representations — silence waives what the rules would give."
+      },
+      {
+        "q": "Family pension after the pensioner's death is stuck. Same process?",
+        "a": "Yes with additions: death certificate, joint-photo PPO/nomination, and the family-pension conversion happen at the bank + PAO. The provisional protections and CPENGRAMS ladder apply equally; banks must not stop payment pending life-certificate technicalities where succession is clear. Escalate bank delays to the RBI Ombudsman."
+      },
+      {
+        "q": "Disciplinary proceedings were pending when I retired. Can they hold everything?",
+        "a": "They can withhold/withdraw pension only per the rules (with President/Governor-level sanction in serious cases) — but provisional pension is still payable during pendency, and gratuity withholding has defined limits. Long-stalled proceedings themselves are challengeable at CAT. Get rule-specific advice; blanket \"everything is frozen\" positions rarely survive scrutiny."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

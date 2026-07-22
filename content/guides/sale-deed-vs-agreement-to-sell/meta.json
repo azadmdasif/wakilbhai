@@ -1,0 +1,155 @@
+{
+  "slug": "sale-deed-vs-agreement-to-sell",
+  "category": "property-tenancy",
+  "title": {
+    "en": "Sale Deed vs Agreement to Sell — What Each Does, and the Mistakes That Cost Buyers"
+  },
+  "answerBox": {
+    "en": "An agreement to sell is the promise — it fixes price, timelines and conditions but transfers no ownership; the sale deed is the transfer itself, registered with full stamp duty. Buyers get burned by treating the agreement (or possession on it) as ownership: title passes only on the registered deed. Stamp both correctly, verify title before the agreement, and calendar the completion date — specific performance claims have a 3-year clock."
+  },
+  "keyNumbers": {
+    "en": [
+      "Agreement ≠ ownership",
+      "Deed = the transfer",
+      "3-year specific performance"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Title check before agreement",
+        "duration": "1–2 weeks",
+        "startsFrom": "before token/advance money"
+      },
+      {
+        "label": "Agreement to sell executed",
+        "duration": "Day 0",
+        "startsFrom": "advance paid against it"
+      },
+      {
+        "label": "Completion/sale deed date",
+        "duration": "As agreed",
+        "startsFrom": "calendar it — time matters"
+      },
+      {
+        "label": "Specific performance suit",
+        "duration": "3 years",
+        "startsFrom": "from the fixed date / refusal"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-file",
+        "title": "Understand the two documents' jobs",
+        "summary": "Promise now, transfer later — different law, different duty.",
+        "detail": "The **agreement to sell** (Section 54, TPA: it \"does not, of itself, create any interest in the property\") records price, advance, completion date, title-clearance and loan conditions, penalties and possession terms. The **sale deed** executes the transfer — registered, full duty paid, ownership passes. Registration of the agreement itself is optional in most states (Maharashtra's agreement-for-sale regime and builder sales under RERA differ — builder agreements MUST be registered), but registering it strengthens priority and is mandatory to claim possession-protection under Section 53A.",
+        "serviceHint": "sale-deed"
+      },
+      {
+        "icon": "shield",
+        "title": "The buyer-protection clauses that matter",
+        "summary": "Advance protection, title conditions, time-essence, penalties.",
+        "detail": "In the agreement, insist on: advance held refundable **with penalty** if the seller's title fails or he backs out; a **completion date with time as essence** (or courts read flexibility into it); seller's obligation to clear encumbrances/taxes; possession and risk terms; and **liquidated damages both ways**. Pay advances by bank transfer against signed receipts. NEVER pay large fractions on an unregistered agreement to a seller you haven't title-checked — that is how double-sale victims are made."
+      },
+      {
+        "icon": "scale",
+        "title": "If the seller backs out: specific performance",
+        "summary": "Courts can force the sale — the 2018 amendment strengthened it.",
+        "detail": "A ready-and-willing buyer can sue for **specific performance** — the court orders the seller to execute the deed. The 2018 Specific Relief Act amendment made specific performance the **rule rather than the exception** (no more easy escape by offering damages). Limitation: **3 years** from the fixed completion date or refusal. Protect the suit by lodging your agreement, notices showing your readiness (funds arranged), and a **lis pendens** registration once filed — it warns off resale buyers."
+      },
+      {
+        "icon": "gavel",
+        "title": "If the buyer defaults — and closing properly",
+        "summary": "Forfeiture limits, and the deed-day checklist.",
+        "detail": "Sellers: forfeit only **reasonable earnest money** on buyer default (courts cut excessive forfeitures; state RERA rules cap builder forfeitures ~10%). Buyers at closing: verify updated encumbrance certificate to the deed date, compute duty on the higher of price/circle value, complete TDS (1% above ₹50 lakh), and register with possession + originals handover recorded — then [mutation](/help/property-tenancy/property-registration-process). The agreement should die into the deed with a clause confirming full and final settlement."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Agreement to sell — stamp",
+          "amount": "₹100–0.25%",
+          "note": "State-wise; Maharashtra ATS regime differs"
+        },
+        {
+          "label": "Sale deed — full duty",
+          "amount": "4–8% + 1%",
+          "note": "The main event; calculator linked"
+        },
+        {
+          "label": "Drafting (either document)",
+          "amount": "₹199",
+          "note": "WakilBhai; buyer-protective clauses"
+        },
+        {
+          "label": "Specific performance suit",
+          "amount": "Ad valorem + advocate",
+          "note": "Court fee on property value"
+        }
+      ],
+      "footnote": "The agreement is where deals are won or lost — the deed just executes what the agreement secured. Spend the drafting attention there, and the title-check money before it."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "sale deed vs agreement to sell",
+      "agreement to sell ownership transfer",
+      "bayana agreement rules",
+      "seller backing out after agreement",
+      "specific performance property case",
+      "agreement to sell registration required"
+    ]
+  },
+  "relatedServiceIds": [
+    "sale-deed",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "property-registration-process",
+    "power-of-attorney-property"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "I have a registered agreement and possession. Am I the owner?",
+        "a": "No — ownership passes only by registered sale deed (Section 54 TPA). Registered agreement + possession gives you strong protective rights (Section 53A shields possession against the seller; specific performance compels the deed) — but banks, buyers and courts will not treat you as owner. Complete the deed."
+      },
+      {
+        "q": "The seller found a higher offer and wants to return my advance. Can he?",
+        "a": "Not unilaterally — you can refuse the refund and sue for specific performance (the 2018 amendment makes courts order the sale readily), with a 3-year window and lis pendens protection once filed. Alternatively negotiate compensated exit. Your leverage is directly proportional to your documented readiness — keep funds and notices provable."
+      },
+      {
+        "q": "Is token/bayana money refundable if I back out as buyer?",
+        "a": "The agreement governs: genuine earnest money can be forfeited on buyer default, but courts limit forfeiture to reasonable amounts actually reflecting loss — full-advance forfeitures get cut down. If the deal failed for seller-side reasons (title defects, non-disclosure), the advance returns with interest."
+      },
+      {
+        "q": "Should the agreement to sell be registered?",
+        "a": "Where optional, registration still helps: it evidences priority against later dealings, is compulsory if you want Section 53A possession protection, and deters seller double-dealing. For builder purchases, RERA mandates registered agreements for sale before taking beyond 10% — an unregistered builder \"booking\" beyond that is itself a violation."
+      },
+      {
+        "q": "What is lis pendens and why does it matter?",
+        "a": "A registered notice that litigation is pending over the property — any transfer during the suit is subject to its outcome (Section 52 TPA). Filed with your specific-performance suit, it destroys the resale market for a defaulting seller, which is often what brings him back to the table."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

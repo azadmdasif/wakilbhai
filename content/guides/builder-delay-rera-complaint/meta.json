@@ -1,0 +1,159 @@
+{
+  "slug": "builder-delay-rera-complaint",
+  "category": "property-tenancy",
+  "title": {
+    "en": "Builder Delaying Possession? File a RERA Complaint — Interest, Refund and Process"
+  },
+  "answerBox": {
+    "en": "If your builder has missed the possession date in the agreement, RERA gives you a choice: stay in the project and claim monthly interest for every month of delay, or exit with a full refund plus interest. Complaints are filed online on your state RERA portal for a fee of roughly ₹1,000–5,000, no lawyer mandatory, with a statutory 60-day disposal target."
+  },
+  "keyNumbers": {
+    "en": [
+      "Interest for EVERY month late",
+      "₹1,000–5,000 filing fee",
+      "60-day disposal target"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Check the agreement possession date",
+        "duration": "Day 1",
+        "startsFrom": "delay is counted from this date"
+      },
+      {
+        "label": "Written demand to the builder",
+        "duration": "15–30 days",
+        "startsFrom": "a deadline letter before filing"
+      },
+      {
+        "label": "File on the state RERA portal",
+        "duration": "Next",
+        "startsFrom": "online, with documents"
+      },
+      {
+        "label": "Statutory disposal target",
+        "duration": "60 days",
+        "startsFrom": "from filing (real timelines vary)"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Fix the delay on paper",
+        "summary": "Agreement date + demand letter = the foundation of the claim.",
+        "detail": "Pull out the **builder-buyer agreement** and note the promised possession date (plus any grace period). Verify the project's RERA registration on your state portal — registered projects (mandatory for most projects above 500 sq m / 8 units under the **Real Estate (Regulation and Development) Act, 2016**) are squarely within the authority's grip. Send the builder a written demand citing the delay and a 15–30 day deadline; their reply (or silence) becomes an exhibit."
+      },
+      {
+        "icon": "scale",
+        "title": "Choose: interest or exit",
+        "summary": "Section 18 RERA — stay with interest, or refund with interest.",
+        "detail": "Under **Section 18, RERA**, a delayed allottee elects: (a) **stay in the project** and receive interest for every month of delay until possession (at the prescribed rate — typically ~SBI MCLR + 2%), or (b) **withdraw** and claim a refund of the entire amount paid, with interest and compensation. Interest-and-stay suits buyers who want the flat; refund suits dead or hopeless projects. The election shapes the entire complaint — take the ₹299 consultation if unsure.",
+        "serviceHint": "rera-complaint"
+      },
+      {
+        "icon": "send",
+        "title": "File the complaint online",
+        "summary": "State portal, modest fee, documents uploaded — no lawyer mandatory.",
+        "detail": "File on your **state RERA portal** (table below) with: the agreement, payment receipts/ledger, the demand letter and reply, project registration details, and your relief election. Fees run roughly **₹1,000–5,000** by state and forum. RERA authorities and adjudicating officers have a **60-day disposal target** (Section 29); appearance is often permitted in person or by video. WakilBhai's ₹499 service prepares the complaint set for your state portal."
+      },
+      {
+        "icon": "gavel",
+        "title": "Orders, execution and the appeal ladder",
+        "summary": "RERA orders are enforceable as decrees — with recovery teeth.",
+        "detail": "Orders direct possession-with-interest or refund; non-compliance invites penalties and **recovery as arrears of land revenue** (the collector attaches the builder's assets). Appeals go to the state **REAT (Real Estate Appellate Tribunal)** within 60 days — builders appealing a refund must first deposit the amount. For NCR-scale insolvent builders, parallel remedies (consumer commission for pre-RERA periods, IBC for collapsed projects) need advocate mapping — one buyer group, one strategy."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "RERA complaint filing fee",
+          "amount": "₹1,000–5,000",
+          "note": "Varies by state and relief sought"
+        },
+        {
+          "label": "Complaint documentation by WakilBhai",
+          "amount": "₹499",
+          "note": "State-portal-ready complaint set"
+        },
+        {
+          "label": "Advocate (optional but useful)",
+          "amount": "₹10,000–50,000",
+          "note": "For contested/refund matters and REAT appeals"
+        },
+        {
+          "label": "Delay interest you can claim",
+          "amount": "~MCLR + 2%",
+          "note": "On your entire amount paid, per month of delay"
+        }
+      ],
+      "footnote": "Interest rates and fees are state-notified — verify on your state portal before filing. Booking amounts in unregistered projects and pre-2016 possession cases may route better through the consumer commission; get the forum choice checked."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "builder delay possession complaint",
+      "rera complaint online kaise kare",
+      "rera interest for delayed possession",
+      "builder refund rera process",
+      "rera complaint fees state wise",
+      "flat possession late what to do"
+    ]
+  },
+  "relatedServiceIds": [
+    "rera-complaint",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "consumer-forum-complaint-guide",
+    "rent-agreement-guide"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "How much interest can I claim for delayed possession?",
+        "a": "The RERA-prescribed rate in most states is around SBI's highest MCLR plus 2% per annum, applied to the entire amount you have paid, for every month from the promised date until actual possession. On a ₹50 lakh payment, that is roughly ₹45,000–50,000 per month of delay — which is why builders settle."
+      },
+      {
+        "q": "Can I get a full refund instead of waiting?",
+        "a": "Yes — Section 18 lets you withdraw from the project and claim the full amount paid with interest, plus compensation. Courts have held the choice is the allottee's, not the builder's. Practically, refunds from stressed builders take enforcement effort; interest-and-possession is often the faster real-world outcome in live projects."
+      },
+      {
+        "q": "Do I need a lawyer for a RERA complaint?",
+        "a": "Not mandatorily — the forms are online and many buyers self-file interest claims successfully. Refund claims, builder counter-arguments (force majeure, buyer default) and REAT appeals are where professional drafting visibly changes outcomes. Our ₹499 documentation covers the filing; add the ₹299 consultation for strategy."
+      },
+      {
+        "q": "The builder blames COVID/approvals for the delay. Does that excuse them?",
+        "a": "Only within limits. Authorities extended registrations for defined force-majeure windows, but promised possession dates in agreements otherwise bind the builder — vague \"approval delays\" are routinely rejected as excuses since obtaining approvals is the builder's statutory duty. The delay computation resumes after any officially granted extension."
+      },
+      {
+        "q": "My project is not RERA-registered. Can I still complain?",
+        "a": "Yes — twice over. Non-registration of a coverable project is itself a violation (penalty up to 10% of project cost), and you can file against the builder before RERA for that plus your relief; the consumer commission remains open as well. Report the unregistered project on the state portal — authorities act on these."
+      },
+      {
+        "q": "What if the builder ignores the RERA order?",
+        "a": "Execution is built in: RERA orders are enforceable as decrees, and unpaid amounts are recoverable as arrears of land revenue through the district collector — attachment of the builder's bank accounts and property. Persistent defiance also draws Section 63 penalties (daily fines) and, ultimately, imprisonment provisions."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

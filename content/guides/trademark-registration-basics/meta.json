@@ -1,0 +1,155 @@
+{
+  "slug": "trademark-registration-basics",
+  "category": "business-startup",
+  "title": {
+    "en": "Trademark Registration in India — Search, Classes, ₹4,500 Filing and the TM-to-® Journey"
+  },
+  "answerBox": {
+    "en": "A trademark protects your brand name/logo nationally: search the register first (free on the IP India portal), file TM-A in the right class(es) — government fee ₹4,500 per class for individuals/small enterprises (₹9,000 otherwise) — use ™ immediately, answer any examination objection, and if unopposed, registration (®) arrives in roughly 8–18 months. Registration lasts 10 years, renewable forever, and unlocks infringement remedies."
+  },
+  "keyNumbers": {
+    "en": [
+      "₹4,500/class (individuals)",
+      "~8–18 months to ®",
+      "10-year renewable term"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Public search before adopting",
+        "duration": "Day 0",
+        "startsFrom": "ipindia.gov.in free search"
+      },
+      {
+        "label": "Examination report reply",
+        "duration": "30 days",
+        "startsFrom": "from the report — miss it, application abandons"
+      },
+      {
+        "label": "Opposition window",
+        "duration": "4 months",
+        "startsFrom": "from journal publication"
+      },
+      {
+        "label": "Renewal",
+        "duration": "Every 10 years",
+        "startsFrom": "from registration date"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Search first, adopt second",
+        "summary": "The free public search saves rebrands and rejections.",
+        "detail": "Run the **[IP India public search](https://tmrsearch.ipindia.gov.in/tmrpublicsearch/)** (wordmark + phonetic) in your **class(es)** — the Nice classification's 45 classes group goods/services (e.g. 25 clothing, 35 retail/ads, 41 education, 42 software services). Identical/similar marks in your class = choose again now, not after printing packaging. Distinctiveness wins: coined words (invented names) register easily; descriptive terms (\"Best Quality Foods\") fight objections for years."
+      },
+      {
+        "icon": "send",
+        "title": "File TM-A — correctly classed and owned",
+        "summary": "₹4,500/class for individuals, startups, small enterprises.",
+        "detail": "File **TM-A** online (IP India e-filing): mark (word/logo/both — a wordmark protects the name across styling), owner (individual/firm/company — with **Udyam/Startup recognition the fee is ₹4,500 per class**; ₹9,000 otherwise), class(es), goods/services description, and **user date** (since-when use, with evidence — or \"proposed to be used\"). Use **™** from filing day. Multi-class strategy and specification drafting are where professional help pays — mis-classed filings protect the wrong thing.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "scale",
+        "title": "Examination, publication, opposition",
+        "summary": "Objections are normal — answer them in 30 days, always.",
+        "detail": "The examiner may object (**Section 9** descriptiveness / **Section 11** similarity) — a reasoned **reply within 30 days** (with evidence of use/distinctiveness) resolves most; hearings follow where needed. Accepted marks publish in the **TM Journal**; third parties get **4 months to oppose** — oppositions are contested mini-proceedings (advocate territory). Unopposed = **registration certificate**, and you graduate from ™ to **®**. Track status on the portal; abandonment for missed deadlines is the #1 avoidable death."
+      },
+      {
+        "icon": "shield",
+        "title": "Use it, renew it, enforce it",
+        "summary": "10-year cycles; infringement suits and cease-and-desists.",
+        "detail": "Registration gives the **exclusive right** to the mark in your classes: infringement suits (injunctions, damages, seizures) plus criminal provisions against counterfeiting; even pre-registration, **passing-off** protects established goodwill. Enforce early — an advocate's **cease-and-desist (₹999)** stops most small copycats. **Renew every 10 years** (₹9,000/class online); non-use for 5+ years invites removal. Register the domain and social handles the same week you file — brand protection is a bundle."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Government fee (TM-A)",
+          "amount": "₹4,500/class",
+          "note": "Individuals/startups/small enterprises; ₹9,000 others"
+        },
+        {
+          "label": "Professional drafting/response help",
+          "amount": "₹1,500–5,000+",
+          "note": "Filing + examination reply, market rates"
+        },
+        {
+          "label": "Cease-and-desist to a copycat",
+          "amount": "₹999",
+          "note": "WakilBhai advocate notice"
+        },
+        {
+          "label": "Renewal (10-yearly)",
+          "amount": "₹9,000/class",
+          "note": "Online, with surcharge windows if late"
+        }
+      ],
+      "footnote": "Filing yourself is legal and the portal works — but specification drafting, objection replies and oppositions reward experience; budget help where the brand is worth defending."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "trademark registration process india",
+      "trademark kaise register kare",
+      "trademark registration fees india",
+      "tm vs r symbol difference",
+      "trademark objection reply",
+      "brand name register kaise hota hai"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "nda"
+  ],
+  "relatedTemplateSlugs": [
+    "nda-template"
+  ],
+  "relatedGuideSlugs": [
+    "founders-agreement-startup",
+    "website-privacy-policy-terms"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can I use ™ without any registration?",
+        "a": "Yes — ™ merely asserts a claim and needs no filing (though it is customarily used from application). ® is reserved for registered marks; using ® without registration is an offence. The real protection ladder: use builds passing-off rights; registration adds statutory exclusivity and easier enforcement."
+      },
+      {
+        "q": "How long does registration actually take?",
+        "a": "Smooth applications (no objection/opposition): commonly 8–12 months now. With an examination objection: add months around the reply/hearing. With opposition: 1–3+ years of contest. Your ™ use and priority date are protected from filing throughout — file early, sell meanwhile."
+      },
+      {
+        "q": "Which class should a small online business file in?",
+        "a": "The class(es) covering what you actually sell — goods classes for products (e.g. 25 apparel, 30 foods) and often 35 (retail/e-commerce services) alongside; software/apps typically 9 and/or 42. Multi-class filings cost per class — cover today's core + the 2-year roadmap, not all 45."
+      },
+      {
+        "q": "Someone is using my registered brand name on Instagram. What do I do?",
+        "a": "Stack the remedies: platform IP-infringement report (registrations get fast takedowns), the ₹999 cease-and-desist, and an infringement suit with interim injunction for persistent offenders — courts grant these readily on a registration certificate. Preserve screenshots and their sales evidence first."
+      },
+      {
+        "q": "My application was objected under Section 11 citing a similar mark. Is it over?",
+        "a": "No — Section 11 objections are answered by distinguishing the marks/goods, coexistence evidence, or consent from the cited owner; a large share clear at reply or hearing stage. What kills applications is silence: the 30-day reply window missed = abandoned. Calendar it and respond."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

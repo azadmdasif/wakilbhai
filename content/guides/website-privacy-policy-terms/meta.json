@@ -1,0 +1,156 @@
+{
+  "slug": "website-privacy-policy-terms",
+  "category": "business-startup",
+  "title": {
+    "en": "Privacy Policy and Terms & Conditions for Your Website — What Indian Law Requires"
+  },
+  "answerBox": {
+    "en": "Any website or app collecting user data in India needs a privacy policy — the IT Act's SPDI Rules require one, and the DPDP Act, 2023 adds consent, purpose-limitation and grievance duties with penalties up to ₹250 crore for serious breaches. Terms & Conditions are your user contract: liability caps, acceptable use, refunds, governing law. Both drafted for ₹499 each."
+  },
+  "keyNumbers": {
+    "en": [
+      "DPDP penalties to ₹250 crore",
+      "Consent + purpose limitation",
+      "₹499 per document"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Before collecting any data",
+        "duration": "Day 0",
+        "startsFrom": "policy must precede collection"
+      },
+      {
+        "label": "Consent capture",
+        "duration": "At signup",
+        "startsFrom": "clear, affirmative, purpose-specific"
+      },
+      {
+        "label": "Grievance officer response",
+        "duration": "Defined window",
+        "startsFrom": "publish the contact + respond"
+      },
+      {
+        "label": "Breach notification",
+        "duration": "On breach",
+        "startsFrom": "to the Data Protection Board + users"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Privacy policy: the legally required disclosures",
+        "summary": "What you collect, why, with whom shared, how long kept.",
+        "detail": "Under the **SPDI Rules 2011** (IT Act s.43A regime) and the **[DPDP Act, 2023](https://www.meity.gov.in)**: disclose what personal data you collect, the **specific purposes**, third parties it is shared with (analytics, payment gateways, hosting), retention periods, security practices, user rights (access, correction, erasure), and the **grievance officer's contact**. Cookie and tracking disclosure belongs here too. Copy-pasted US policies fail Indian requirements — they miss the grievance officer and DPDP rights entirely.",
+        "serviceHint": "privacy-policy-drafting"
+      },
+      {
+        "icon": "shield",
+        "title": "DPDP Act compliance basics",
+        "summary": "Consent, purpose limitation, children's data, breach duties.",
+        "detail": "The DPDP Act requires **free, specific, informed, affirmative consent** (pre-ticked boxes don't count) or a legitimate-use ground; data used only for stated purposes; **verifiable parental consent for under-18s** (and no tracking/targeted ads at children); reasonable security; and **breach notification** to the Data Protection Board and affected users. Penalties scale to **₹250 crore** for serious security failures. Small businesses aren't exempt — obligations attach to processing, not size."
+      },
+      {
+        "icon": "scale",
+        "title": "Terms & Conditions: your user contract",
+        "summary": "Acceptable use, liability caps, refunds, IP, disputes.",
+        "detail": "The T&C should cover: account rules and **acceptable use**, your IP in the platform vs licence to user content, service availability disclaimers and **limitation of liability** (capped at fees paid is standard), **refund/cancellation policy** (mandatory disclosure for e-commerce under the Consumer Protection E-Commerce Rules 2020), termination rights, **governing law + jurisdiction/arbitration**. E-commerce additionally needs seller details, grievance officer, and country-of-origin disclosures.",
+        "serviceHint": "website-terms-conditions"
+      },
+      {
+        "icon": "check",
+        "title": "Deploy them so they actually bind",
+        "summary": "Clickwrap beats browsewrap; version and date everything.",
+        "detail": "Make acceptance explicit: an **\"I agree\" checkbox at signup/checkout** (clickwrap) is enforceably a contract; a footer link nobody clicks (browsewrap) is weak. Date and version the documents, log acceptances, present material changes for fresh consent, and keep the grievance officer's details current. Add the refund policy at the point of sale — hidden terms lose in consumer forums regardless of what they say."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Privacy policy drafting",
+          "amount": "₹499",
+          "note": "SPDI + DPDP compliant, WakilBhai"
+        },
+        {
+          "label": "Terms & conditions drafting",
+          "amount": "₹499",
+          "note": "Incl. e-commerce rule disclosures"
+        },
+        {
+          "label": "Refund policy add-on",
+          "amount": "₹499",
+          "note": "Where selling products/services"
+        },
+        {
+          "label": "DPDP compliance consultation",
+          "amount": "₹299",
+          "note": "Consent flows + data mapping basics"
+        }
+      ],
+      "footnote": "These documents are compliance floors, not shields against everything — align what the policy says with what your systems actually do; a policy promising deletion you don't perform is itself the violation."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "privacy policy for website india",
+      "terms and conditions website india legal",
+      "dpdp act compliance small business",
+      "privacy policy required by law india",
+      "ecommerce website legal requirements india",
+      "spdi rules privacy policy"
+    ]
+  },
+  "relatedServiceIds": [
+    "privacy-policy-drafting",
+    "website-terms-conditions"
+  ],
+  "relatedTemplateSlugs": [
+    "nda-template"
+  ],
+  "relatedGuideSlugs": [
+    "freelance-contract-essentials",
+    "online-scam-complaint"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "My website only has a contact form. Do I still need a privacy policy?",
+        "a": "Yes — names, emails and phone numbers are personal data; collecting them triggers the disclosure duties. A short-form policy suffices for minimal collection, but it must exist, name the purposes, and give the grievance contact."
+      },
+      {
+        "q": "Does the DPDP Act apply to my small business?",
+        "a": "Yes — it applies to digital personal data processing regardless of business size (with narrow exemptions for purely personal/household use). Penalties are capped case-wise by the Data Protection Board, which weighs gravity — but \"we are small\" is not an exemption; basic consent + security + grievance compliance is the floor."
+      },
+      {
+        "q": "Can I just copy a privacy policy from another website?",
+        "a": "It will describe their data practices, not yours — which creates the worst position: published promises you don't follow. Indian requirements (grievance officer, SPDI/DPDP rights language) are also missing from most foreign templates. A tailored ₹499 draft costs less than one consumer-forum complaint."
+      },
+      {
+        "q": "Are my Terms & Conditions actually binding on users?",
+        "a": "Yes, when acceptance is real: clickwrap \"I agree\" at signup binds like a signed contract, and Indian courts enforce reasonable terms (liability caps, jurisdiction, arbitration). Unconscionable terms and hidden material conditions — especially against consumers — get struck; keep refunds and key limits prominent."
+      },
+      {
+        "q": "What is legally mandatory for an e-commerce site specifically?",
+        "a": "The Consumer Protection (E-Commerce) Rules 2020: seller/business details, grievance officer with response timelines, refund-return-exchange policy, country of origin, no manipulated reviews/prices; plus GST-compliant invoicing and the privacy obligations. Marketplaces carry additional duties for listing third-party sellers."
+      }
+    ]
+  },
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

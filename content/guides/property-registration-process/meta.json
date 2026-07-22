@@ -1,0 +1,160 @@
+{
+  "slug": "property-registration-process",
+  "category": "property-tenancy",
+  "title": {
+    "en": "Property Registration in India — Steps, Documents, Stamp Duty and Costs"
+  },
+  "answerBox": {
+    "en": "Registering a property purchase has five steps: title verification, drafting the sale deed, paying stamp duty (typically 4–8% of the property value, varying by state and buyer gender) plus ~1% registration fee, executing the deed before the sub-registrar with two witnesses, and post-registration mutation. Registration is compulsory for sales of immovable property above ₹100 — an unregistered sale passes no title."
+  },
+  "keyNumbers": {
+    "en": [
+      "Stamp duty 4–8% by state",
+      "+~1% registration fee",
+      "4-month registration window"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Title check + agreement to sell",
+        "duration": "1–2 weeks",
+        "startsFrom": "before paying big money"
+      },
+      {
+        "label": "Stamp duty + slot booking",
+        "duration": "Days",
+        "startsFrom": "e-stamp and sub-registrar appointment"
+      },
+      {
+        "label": "Present deed for registration",
+        "duration": "4 months",
+        "startsFrom": "from execution (s.23 Registration Act)"
+      },
+      {
+        "label": "Mutation after registration",
+        "duration": "Weeks",
+        "startsFrom": "municipal/revenue records update"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "check",
+        "title": "Verify title before anything else",
+        "summary": "30 years of chain, encumbrance certificate, approvals.",
+        "detail": "Have an advocate examine the **chain of title** (ideally 30 years), the **encumbrance certificate** from the sub-registrar's office (shows mortgages/charges), current tax receipts, approved plan and occupancy certificate for built property, and RERA registration for under-construction flats. This step is where fraud dies — duplicate sales, mortgaged property and fake owners are all caught here, and no later step fixes a bad title cheaply.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "file-text",
+        "title": "Draft the sale deed properly",
+        "summary": "The deed is the title document your family will rely on for decades.",
+        "detail": "The sale deed recites the parties, the property schedule (boundaries, survey/flat numbers), the consideration and payment mode, possession delivery, and the seller's covenants of clear title and indemnity. TDS applies on purchases of ₹50 lakh+ (1% under Section 194-IA, deducted by the buyer). Get it drafted professionally — WakilBhai's sale-deed service (₹199) prepares a registration-ready deed.",
+        "serviceHint": "sale-deed"
+      },
+      {
+        "icon": "banknote",
+        "title": "Pay stamp duty — the state-wise variable",
+        "summary": "4–8% typically; concessions for women buyers in several states.",
+        "detail": "Stamp duty is a **state subject**: typical residential rates run **4–8%** of the higher of consideration or the government guideline/circle value, with **concessions for women buyers** in states like Delhi (4% vs 6%) and UP, plus ~**1% registration fee** (often capped). Metro cess and surcharges add fractions in some cities. Pay via e-stamp/e-GRAS for the exact computed amount — under-stamping surfaces at registration or, worse, in future litigation with penalties up to 10x. **Use our free [stamp duty calculator](/tools/stamp-duty-calculator)** for your state's current figure."
+      },
+      {
+        "icon": "signature",
+        "title": "Register at the sub-registrar, then mutate",
+        "summary": "Biometrics, witnesses, and the record update afterwards.",
+        "detail": "Book the sub-registrar slot (most states online), appear with the seller and **two witnesses**, carrying IDs, PANs, photos, the deed and duty proof; execution is recorded with photographs/biometrics (**Section 32A Registration Act**), and the deed must be presented within **4 months of execution** (Section 23). Collect the registered deed (same day to a couple of weeks). Then apply for **mutation** in municipal/revenue records — it does not confer title but aligns tax records and prevents later disputes; banks releasing loans insist on the full set."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Stamp duty",
+          "amount": "4–8% of value",
+          "note": "State-wise; women-buyer concessions in several states"
+        },
+        {
+          "label": "Registration fee",
+          "amount": "~1%",
+          "note": "Often capped at fixed maximums by state"
+        },
+        {
+          "label": "Sale deed drafting",
+          "amount": "₹199",
+          "note": "WakilBhai; advocate title check via consultation ₹299"
+        },
+        {
+          "label": "Misc (TDS 1% on ₹50L+, mutation fees)",
+          "amount": "Varies",
+          "note": "TDS is adjusted against seller's tax, not extra cost"
+        }
+      ],
+      "footnote": "Rates change with state budgets — verify the current schedule on your state registration portal or with our stamp duty calculator before buying e-stamps. Registration of a sale above ₹100 in value is compulsory (Section 17, Registration Act); an unregistered sale deed passes no ownership."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "property registration process india",
+      "plot registry kaise hoti hai",
+      "sale deed registration documents",
+      "stamp duty on property state wise",
+      "sub registrar office registration steps",
+      "property mutation after registry"
+    ]
+  },
+  "relatedServiceIds": [
+    "sale-deed",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "rent-agreement-11-month"
+  ],
+  "relatedGuideSlugs": [
+    "rent-agreement-guide",
+    "builder-delay-rera-complaint"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is property registration compulsory?",
+        "a": "Yes — Section 17 of the Registration Act makes registration compulsory for sale of immovable property worth over ₹100, i.e., effectively every sale. An unregistered sale deed does not transfer ownership and is inadmissible to prove title; at best it supports limited defensive rights. Never close a purchase on notarised papers alone."
+      },
+      {
+        "q": "How much stamp duty will I pay?",
+        "a": "Depends on your state, the property value (higher of actual price or circle/guideline rate), buyer gender and location: most states charge 4–8% plus about 1% registration fee. Delhi, for instance, charges 6% for men and 4% for women buyers. Run your numbers on our free stamp duty calculator before budgeting."
+      },
+      {
+        "q": "What is the deadline for registering a signed sale deed?",
+        "a": "Four months from execution (Section 23, Registration Act), extendable by another four months with a penalty up to 10x the registration fee (Section 25). Practically, sign and register on the same day — gaps between signing and registration are where disputes and second sales breed."
+      },
+      {
+        "q": "What is mutation, and is it the same as registration?",
+        "a": "No. Registration records the transfer of title; mutation updates municipal/revenue records so property tax and land records show your name. Mutation does not create ownership but skipping it causes friction in resale, loans and inheritance — apply right after registration with the deed copy."
+      },
+      {
+        "q": "Can I pay less duty by under-declaring the sale price?",
+        "a": "Duty is charged on the higher of the declared price and the government circle rate, so under-declaration mostly does not save duty — and it constitutes evasion with penalties, invites income-tax scrutiny (Section 56 deems the difference income), and caps your future capital-gains base. Declare the real price."
+      },
+      {
+        "q": "Do NRIs follow a different registration process?",
+        "a": "The process is identical; the practical differences are executing through a registered power of attorney if not present (POAs executed abroad need attestation/adjudication), FEMA limits on the kinds of property NRIs may buy (agricultural land is restricted), and TDS at higher rates when NRIs sell. A pre-purchase consultation sorts these in one call."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

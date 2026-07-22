@@ -1,0 +1,155 @@
+{
+  "slug": "lost-documents-fir-duplicates",
+  "category": "government-paperwork",
+  "title": {
+    "en": "Lost Important Documents? Police Report, Affidavit and Getting Duplicates"
+  },
+  "answerBox": {
+    "en": "Lost your certificates, RC, passport, PAN, or property papers? The universal sequence: lodge a police lost-report (online in most states, free), swear a lost-document affidavit (₹199 drafted), publish a newspaper notice where required (property papers, share certificates), and apply for the duplicate at the issuing authority with those proofs. Passports need the police report compulsorily."
+  },
+  "keyNumbers": {
+    "en": [
+      "Police report first (free)",
+      "₹199 affidavit",
+      "Duplicates: issuer-wise fees"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Police lost-report / e-FIR",
+        "duration": "Immediately",
+        "startsFrom": "protects against misuse claims"
+      },
+      {
+        "label": "Lost-document affidavit",
+        "duration": "Same day",
+        "startsFrom": "notarised, per issuer format"
+      },
+      {
+        "label": "Newspaper notice (where needed)",
+        "duration": "Days",
+        "startsFrom": "property/share documents typically"
+      },
+      {
+        "label": "Duplicate application",
+        "duration": "Issuer timelines",
+        "startsFrom": "1 week (PAN) to months (property)"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "shield",
+        "title": "Report the loss to the police — always",
+        "summary": "The lost report is your defence if the document is misused.",
+        "detail": "File a **lost-article report** at the local station or (in most states) the police **citizen portal e-lost-report** — takes minutes and is free. This report timestamps the loss, which is what protects you if the lost cheque-book, RC, or ID surfaces in a fraud later. For a lost **passport**, the police report is a statutory requirement for reissue; for genuinely stolen (not just lost) documents, insist on an **FIR** for theft."
+      },
+      {
+        "icon": "signature",
+        "title": "Swear the lost-document affidavit",
+        "summary": "The issuing authority's standard demand — get the recital right.",
+        "detail": "A notarised affidavit stating what was lost, where/when approximately, the police report number, that it hasn't been pledged/transferred, and an indemnity undertaking is demanded by most issuers — universities, RTOs, registrars, banks. Formats vary by issuer; our **₹199 service** drafts to the specific office's requirements, same day.",
+        "serviceHint": "lost-document-affidavit"
+      },
+      {
+        "icon": "send",
+        "title": "Newspaper notice for title-type documents",
+        "summary": "Property papers and share certificates need public notice.",
+        "detail": "Where the document embodies ownership — **original sale deeds, share certificates, some university degrees** — the issuer requires a **newspaper advertisement** inviting objections before issuing duplicates (₹300–1,500). For lost **property originals**, also alert your bank (if mortgaged) and consider a public notice through an advocate: lost title deeds are prime raw material for fraud, and your notice record defeats later \"bona fide purchaser\" claims."
+      },
+      {
+        "icon": "check",
+        "title": "Apply for the duplicate at each issuer",
+        "summary": "Each authority has its own route — the proofs above unlock all.",
+        "detail": "With report + affidavit (+ notice where needed): **PAN** — reprint via NSDL/UTIITSL (~₹50–110, a week); **RC** — Form 26 duplicate at the RTO; **driving licence** — LLD form online; **passport** — reissue application with the police report on [passportindia.gov.in](https://www.passportindia.gov.in); **marksheets/degrees** — university duplicate cell (fees + months, start early); **property deed** — certified copy from the sub-registrar (the registry copy always exists) plus your loss trail for title continuity; **Aadhaar** — reprint free/nominal from UIDAI. Certified registry copies are legally sufficient for most property purposes."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Police lost report",
+          "amount": "Free",
+          "note": "Online in most states, instant PDF"
+        },
+        {
+          "label": "Affidavit drafted + notarised",
+          "amount": "₹199 + notary",
+          "note": "WakilBhai, issuer-specific format"
+        },
+        {
+          "label": "Newspaper notice (if required)",
+          "amount": "₹300–1,500",
+          "note": "Title-type documents"
+        },
+        {
+          "label": "Duplicate fees",
+          "amount": "Issuer-wise",
+          "note": "PAN ~₹100; RC ~₹300; degrees vary"
+        }
+      ],
+      "footnote": "Digitise everything once recovered: DigiLocker holds Aadhaar, PAN, RC, DL, and many board certificates as legally valid originals under the IT Act — the lost-document problem mostly disappears once your records live there."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "lost documents what to do",
+      "documents kho gaye kya kare",
+      "lost document affidavit format",
+      "duplicate marksheet process",
+      "lost property papers duplicate",
+      "lost rc book duplicate apply"
+    ]
+  },
+  "relatedServiceIds": [
+    "lost-document-affidavit",
+    "affidavit-general"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "affidavits-common-uses",
+    "how-to-file-fir"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is a police FIR compulsory for lost documents?",
+        "a": "A lost-article report (not a full FIR) suffices for most duplicates and takes minutes online; a theft FIR is appropriate when documents were stolen. Passports specifically require the police report for reissue. Either way, report first — it is your misuse shield."
+      },
+      {
+        "q": "I lost the original sale deed of my property. Is my ownership at risk?",
+        "a": "Ownership survives — the registered deed exists in the sub-registrar's records, and certified copies are obtainable and legally usable. Do the full trail though: police report, affidavit, newspaper notice, and inform any mortgagee bank — because lost originals are what property fraudsters use, your documented loss record is the antidote."
+      },
+      {
+        "q": "How do I get duplicate school/college marksheets?",
+        "a": "Each board/university has a duplicate cell: application form, lost-document affidavit, police report copy, fee (₹100–1,000 typically), and often a newspaper ad for degrees. Timelines run weeks to months — start before you need them for a job or visa. Many boards now issue digitally via DigiLocker, which is faster."
+      },
+      {
+        "q": "Someone found and is misusing my lost ID. What do I do?",
+        "a": "Your lost report already timestamps that the document left your control. Additionally: for financial misuse file on cybercrime.gov.in/1930 (see our identity-fraud guides), inform the issuer to flag/reissue the ID, and file an FIR for cheating by personation — Section 419 IPC (now Section 319 BNS)."
+      },
+      {
+        "q": "Are DigiLocker documents legally valid replacements?",
+        "a": "Yes — documents issued into DigiLocker by the issuing authority are deemed equivalent to originals under IT Act rules, and police, RTOs and airlines accept them. Pull your Aadhaar, PAN, RC, DL and available certificates into it now; the next loss then costs you nothing."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

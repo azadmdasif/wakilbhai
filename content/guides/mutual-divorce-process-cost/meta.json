@@ -1,0 +1,159 @@
+{
+  "slug": "mutual-divorce-process-cost",
+  "category": "family-personal",
+  "title": {
+    "en": "Mutual Divorce: Process, Timeline and Cost — Cooling Period and When It Can Be Waived"
+  },
+  "answerBox": {
+    "en": "A mutual-consent divorce takes two motions in the family court: the first petition, a cooling period of 6 months (which the court can waive after Amardeep Singh, 2017, where reconciliation is hopeless and issues are settled), then the second motion and decree. Realistic total cost: ₹15,000–₹75,000 including advocate fees; timeline 6–18 months, or a few months with waiver."
+  },
+  "keyNumbers": {
+    "en": [
+      "2 court motions",
+      "6-month cooling (waivable)",
+      "₹15,000–75,000 typical"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Separation before filing",
+        "duration": "1 year",
+        "startsFrom": "living separately (HMA s.13B requirement)"
+      },
+      {
+        "label": "First motion recorded",
+        "duration": "Weeks",
+        "startsFrom": "from filing the joint petition"
+      },
+      {
+        "label": "Cooling period",
+        "duration": "6–18 months",
+        "startsFrom": "second motion window after the first (waivable)"
+      },
+      {
+        "label": "Second motion → decree",
+        "duration": "Weeks",
+        "startsFrom": "consent reconfirmed, decree granted"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Settle everything first, on paper",
+        "summary": "Maintenance/alimony, child custody, property, streedhan — all agreed.",
+        "detail": "Mutual divorce (Section 13B Hindu Marriage Act; parallel provisions for Special Marriage Act and Divorce Act couples) requires **1 year of living separately** and genuine agreement. Before filing, settle in writing: one-time alimony or waiver, **child custody and visitation**, division of property and joint loans, return of streedhan/jewellery, and who bears the case cost. This settlement becomes part of the petition — vagueness here is what reopens fights later. Our ₹199 drafting service prepares the settlement terms and petition annexures.",
+        "serviceHint": "mutual-divorce-draft"
+      },
+      {
+        "icon": "gavel",
+        "title": "First motion at the family court",
+        "summary": "Joint petition, statements recorded, cooling clock starts.",
+        "detail": "Both spouses file the joint petition with marriage proof, separation evidence and the settlement, and the court records your statements confirming free consent. From this date the **cooling period** runs: the second motion can be moved after **6 months** (and must be within 18 months). The wait exists to allow reconsideration — either spouse can withdraw consent during it, which is why the settlement should be executed, not just promised."
+      },
+      {
+        "icon": "clock",
+        "title": "The 6-month waiver, when it applies",
+        "summary": "Amardeep Singh (2017): the cooling period is directory, not mandatory.",
+        "detail": "In *Amardeep Singh v. Harveen Kaur* (2017) the Supreme Court held the 6-month wait **can be waived** where the marriage is beyond salvage: the separation has already been long (the 1 year + the case period commonly exceeds the statutory intent), mediation has failed, and all issues — alimony, custody, property — stand settled. File a waiver application with the second motion papers; courts grant it routinely on clean facts, collapsing the timeline to a few months."
+      },
+      {
+        "icon": "check",
+        "title": "Second motion and decree",
+        "summary": "Consent reconfirmed, decree of divorce granted.",
+        "detail": "On the second motion both spouses reconfirm consent; the court verifies the settlement is honoured (alimony paid, custody arrangements in place) and passes the **decree of divorce** — the marriage ends that day. Collect certified copies of the decree for records, remarriage, passport and property mutations. If either spouse stops cooperating between motions, the mutual route fails and only contested divorce remains — advocate advice at that fork is essential."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Court fee on the petition",
+          "amount": "Nominal",
+          "note": "A few hundred rupees; varies by state"
+        },
+        {
+          "label": "Advocate fees (both motions)",
+          "amount": "₹15,000–₹75,000",
+          "note": "By city and complexity; metros higher"
+        },
+        {
+          "label": "Settlement + petition drafting help",
+          "amount": "₹199",
+          "note": "WakilBhai documentation service"
+        },
+        {
+          "label": "Timeline",
+          "amount": "6–18 months",
+          "note": "A few months where the waiver is granted"
+        }
+      ],
+      "footnote": "Figures are indicative market ranges. Divorce requires court proceedings through a practising advocate — WakilBhai prepares documentation and connects you to advocates; it does not appear in court."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "mutual divorce process india",
+      "mutual divorce me kitna time lagta hai",
+      "mutual divorce cost lawyer fees",
+      "6 month cooling period waiver divorce",
+      "section 13b hindu marriage act",
+      "mutual consent divorce documents"
+    ]
+  },
+  "relatedServiceIds": [
+    "mutual-divorce-draft",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "received-court-summons",
+    "how-to-file-fir"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "What is the minimum time for a mutual divorce?",
+        "a": "The statute contemplates first motion + 6 months + second motion. With a waiver under Amardeep Singh (2017), couples with a long separation and a complete settlement have obtained decrees within 2–4 months of filing. Without waiver, 7–12 months is typical end to end."
+      },
+      {
+        "q": "Can the 6-month cooling period really be waived?",
+        "a": "Yes — the Supreme Court held the period is directory. Courts look for: separation well over a year, failed mediation/reconciliation, all issues (alimony, custody, property) genuinely settled, and no coercion. A waiver application is filed with reasons; on clean facts it is granted routinely."
+      },
+      {
+        "q": "What if my spouse withdraws consent after the first motion?",
+        "a": "Consent must subsist until the decree — withdrawal ends the mutual route, leaving contested divorce on fault grounds. This is why executing the settlement (payments made, documents exchanged) before or at the first motion matters: performed settlements keep both sides committed."
+      },
+      {
+        "q": "How is alimony decided in a mutual divorce?",
+        "a": "By agreement — that is the point of the mutual route. One-time lump sums are most common because they close the matter finally; the amount reflects incomes, marriage duration and needs. The agreed figure goes into the petition and the court records it in the decree, making it enforceable."
+      },
+      {
+        "q": "Do both of us need to appear in court?",
+        "a": "Both spouses must join both motions — personally as a rule, though courts increasingly permit video-conference appearance for a spouse abroad, and exemptions exist in genuine hardship. Powers of attorney are accepted narrowly; plan the two appearances rather than around them."
+      },
+      {
+        "q": "We are not Hindus — does the same process apply?",
+        "a": "The two-motion structure with a cooling period runs in parallel across laws: Section 13B HMA (Hindus, Sikhs, Jains, Buddhists), Section 28 Special Marriage Act (civil marriages), Section 10A Divorce Act (Christians). Muslim law follows its own framework (including mubarat by mutual agreement) — take specific advice there."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

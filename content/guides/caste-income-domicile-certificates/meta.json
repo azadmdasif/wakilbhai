@@ -1,0 +1,155 @@
+{
+  "slug": "caste-income-domicile-certificates",
+  "category": "government-paperwork",
+  "title": {
+    "en": "Caste, Income and Domicile Certificates — Who Issues Them, Documents and Timelines"
+  },
+  "answerBox": {
+    "en": "Caste, income and domicile (residence) certificates are issued by your tehsil/SDM office — applied online through state e-district portals in almost every state. Typical requirements: ID and address proof, a sworn affidavit, and for caste certificates, proof of a relative's prior certificate or community records. Fees are nominal (₹20–100); statutory timelines run 7–30 days under state service-guarantee laws."
+  },
+  "keyNumbers": {
+    "en": [
+      "Apply on e-district portals",
+      "₹20–100 fees",
+      "7–30 day service guarantee"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Online application + upload",
+        "duration": "Day 1",
+        "startsFrom": "state e-district/service portal"
+      },
+      {
+        "label": "Field/record verification",
+        "duration": "1–3 weeks",
+        "startsFrom": "patwari/revenue enquiry where done"
+      },
+      {
+        "label": "Statutory issue timeline",
+        "duration": "7–30 days",
+        "startsFrom": "state Right to Public Services Acts"
+      },
+      {
+        "label": "Income certificate validity",
+        "duration": "6–12 months",
+        "startsFrom": "issue date; renew per scheme rules"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Know which certificate and which authority",
+        "summary": "Tehsildar/SDM issues all three; formats differ by purpose.",
+        "detail": "**Caste certificate** (SC/ST/OBC — and the central OBC **non-creamy-layer** format for central jobs/institutes), **income certificate** (family income for scholarships, EWS, fee waivers), and **domicile/residence certificate** (state quotas, admissions) are all issued by the **tehsildar/SDM/revenue office** of your residence. Central-format OBC-NCL and EWS certificates have prescribed proformas — name the exact purpose in the application so the right format issues."
+      },
+      {
+        "icon": "send",
+        "title": "Apply online on your state portal",
+        "summary": "e-district portals cover all three; track by application number.",
+        "detail": "Every major state runs these through its e-district/citizen portal (linked from **[india.gov.in](https://www.india.gov.in)** service directory) — create the account, pick the certificate service, fill the family/income/residence details, upload documents and pay the **₹20–100** fee. Documents commonly needed: Aadhaar, address proof, ration card, passport photo, **supporting affidavit** (our ₹199 drafting covers the state format), plus salary slips/ITR for income and old caste records for caste.",
+        "serviceHint": "self-declaration-form"
+      },
+      {
+        "icon": "check",
+        "title": "Caste certificates: the lineage evidence",
+        "summary": "A relative's certificate or old records anchor verification.",
+        "detail": "Verification for caste certificates leans on **lineage**: a parent's/grandparent's caste certificate, old school records (TC showing caste), land/revenue records, or community verification by the patwari. Migrant families are certified by the state of **origin's** records — a person's caste status doesn't change by migration, but which state issues (and whether the new state recognises it for its quotas) follows origin-state rules. OBC **non-creamy-layer** additionally screens parental income/office — renewed as income changes."
+      },
+      {
+        "icon": "clock",
+        "title": "Chase timelines with the service-guarantee law",
+        "summary": "RTPS Acts fix deadlines — and appeal officers exist.",
+        "detail": "Most states' **Right to Public Services Acts** notify deadlines for these certificates (commonly **7–30 days**) with appellate officers empowered to penalise defaulting officials. If your application sits: file the RTPS appeal citing the notified timeline, and an **[RTI application](/help/government-paperwork/rti-application-how-to)** asking the status and officer holding the file — the named-officer effect moves stuck files. Renew income certificates per scheme rules (commonly valid 6–12 months); caste and domicile certificates generally don't expire."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Application fee",
+          "amount": "₹20–100",
+          "note": "State-wise; some free categories"
+        },
+        {
+          "label": "Supporting affidavit",
+          "amount": "₹199",
+          "note": "WakilBhai drafting, state format"
+        },
+        {
+          "label": "CSC/e-Mitra assisted filing",
+          "amount": "₹30–100",
+          "note": "If not self-filing online"
+        },
+        {
+          "label": "Statutory timeline",
+          "amount": "7–30 days",
+          "note": "Per state RTPS notification"
+        }
+      ],
+      "footnote": "False caste/income declarations invite prosecution and cancellation of everything obtained — benefits, admissions, jobs — with recovery. These certificates are checked against records; apply on truth, appeal on delay."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "caste certificate apply online",
+      "income certificate documents required",
+      "domicile certificate kaise banaye",
+      "obc non creamy layer certificate",
+      "ews certificate process",
+      "tehsil certificate application status"
+    ]
+  },
+  "relatedServiceIds": [
+    "self-declaration-form",
+    "affidavit-general"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "rti-application-how-to",
+    "affidavits-common-uses"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "How long is an income certificate valid?",
+        "a": "Commonly 6 months to 1 year from issue (state-wise), because income changes annually — scholarship and EWS schemes state the freshness they need. Caste certificates are generally lifetime documents; OBC non-creamy-layer status needs periodic renewal since it depends on current parental income."
+      },
+      {
+        "q": "My father never made a caste certificate. Can I still get one?",
+        "a": "Yes — lineage can be proved through other records: grandparents' certificates, old school registers recording caste, revenue records, or community/panchayat verification. The enquiry takes longer without a direct parental certificate, but absence of one is not a bar."
+      },
+      {
+        "q": "I moved states. Which state issues my certificates?",
+        "a": "Domicile follows genuine residence per the new state's rules (period-of-residence conditions apply). Caste follows the family's state of origin — the origin state certifies, and central institutions accept it; state-quota recognition in the new state depends on that state's policy. Income certificates issue where you reside."
+      },
+      {
+        "q": "The application has been pending for months. What actually works?",
+        "a": "Two levers: the state Right to Public Services appeal (cites the notified deadline; officers face fines) and an RTI asking the file's status and the officer responsible. Both convert quiet delay into recorded accountability — most stuck certificates issue within weeks of that combination."
+      },
+      {
+        "q": "What is the EWS certificate and who qualifies?",
+        "a": "The Economically Weaker Section certificate (10% quota for non-SC/ST/OBC) requires family income below ₹8 lakh and asset ceilings (land/house limits) — issued by the same tehsil/SDM machinery on the central proforma, valid for the financial year. Income + asset affidavits and verification apply."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "slug": "power-of-attorney-property",
+  "category": "property-tenancy",
+  "title": {
+    "en": "Power of Attorney for Property — Types, Registration, NRI Use and the Sale Ban"
+  },
+  "answerBox": {
+    "en": "A power of attorney lets someone act for you in property matters — but know its limits: the Supreme Court (Suraj Lamp, 2011) holds that property cannot be SOLD via GPA; sales need registered sale deeds. POAs authorising registration or dealing with property should themselves be registered (₹500–2,000 typical duty); NRIs execute before the Indian consulate and get it adjudicated/stamped in India within 3 months of receipt."
+  },
+  "keyNumbers": {
+    "en": [
+      "GPA sale = void (Suraj Lamp)",
+      "Registration for property POAs",
+      "NRI: consulate + 3 months"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Draft: general vs special",
+        "duration": "Days",
+        "startsFrom": "scope decides validity risk"
+      },
+      {
+        "label": "Registration/notarisation",
+        "duration": "At execution",
+        "startsFrom": "sub-registrar for property powers"
+      },
+      {
+        "label": "NRI adjudication in India",
+        "duration": "3 months",
+        "startsFrom": "from receipt of the foreign-executed POA"
+      },
+      {
+        "label": "Revocation notice",
+        "duration": "When needed",
+        "startsFrom": "registered revocation + public notice"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Choose the right instrument",
+        "summary": "Special POA for one task beats a general POA for everything.",
+        "detail": "A **General POA** grants broad management powers (rent collection, maintenance, litigation, registration); a **Special POA** authorises one act — sign this sale deed, register that document, appear at one office. Prefer the **narrowest instrument that does the job**: specific powers are honoured smoothly and abused rarely. Name the property precisely, list powers expressly (banks/registrars read them literally), set a validity period, and include revocation terms. Our **₹199 drafting** structures both types.",
+        "serviceHint": "power-of-attorney"
+      },
+      {
+        "icon": "scale",
+        "title": "The Suraj Lamp rule — no property sales by GPA",
+        "summary": "\"GPA sales\" convey nothing; registered sale deeds only.",
+        "detail": "In *Suraj Lamp v. State of Haryana* (2011) the Supreme Court held that the GPA-plus-agreement-plus-will \"sale\" package **does not transfer title** — immovable property passes only by **registered sale deed**. A POA can authorise the attorney to **execute and register a deed on the owner's behalf**, which is legitimate; a POA sold as the transaction itself is a void shortcut. Buying property \"on GPA\" is buying litigation — walk away or regularise with a proper deed."
+      },
+      {
+        "icon": "signature",
+        "title": "Execution, stamping and registration",
+        "summary": "Property POAs: register; interstate/NRI wrinkles matter.",
+        "detail": "Execute before witnesses; **notarise** management POAs, and **register at the sub-registrar** those authorising registration/dealing with immovable property (several states mandate it; duty typically **₹500–2,000**, but POAs to non-relatives authorising sale attract near-conveyance duty in some states — an anti-evasion rule). **NRIs**: execute before the **Indian Embassy/Consulate**, then have it **stamped/adjudicated in India within 3 months** of receipt (Section 18, Stamp Act); apostille routes also work for Hague countries. Registrars reject vague or stale POAs — recent, specific, registered wins."
+      },
+      {
+        "icon": "shield",
+        "title": "Running and revoking it safely",
+        "summary": "POAs die with the principal; revocation needs the same formality.",
+        "detail": "A POA is **agency, not transfer**: the attorney must act in your interest, accounts are demandable, and the POA **terminates on the principal's death** (or insolvency/incapacity, unless structured otherwise) — deals signed after death are void. **Revoke** by a registered revocation deed (mirroring the original's registration), notice to the attorney, and public notice where third parties may rely; POAs \"coupled with interest\" (securing the attorney's own interest) are the narrow irrevocable class. Periodic review of outstanding POAs is basic property hygiene.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Drafting",
+          "amount": "₹199",
+          "note": "WakilBhai; general or special"
+        },
+        {
+          "label": "Stamp duty",
+          "amount": "₹500–2,000 typical",
+          "note": "Sale-authorising POAs to non-relatives: higher in some states"
+        },
+        {
+          "label": "Registration fee",
+          "amount": "Nominal",
+          "note": "Sub-registrar; NRI consular fees separate"
+        },
+        {
+          "label": "Revocation deed + notices",
+          "amount": "₹199–999",
+          "note": "Registered revocation + public notice"
+        }
+      ],
+      "footnote": "Give powers like you hand over keys: to named people, for named tasks, for limited time — and take them back in writing the moment the task ends."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "power of attorney property rules",
+      "gpa se property sale valid",
+      "poa registration stamp duty",
+      "nri power of attorney india property",
+      "special power of attorney format",
+      "power of attorney revocation process"
+    ]
+  },
+  "relatedServiceIds": [
+    "power-of-attorney",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "property-registration-process",
+    "gift-deed-property"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is buying a flat \"on GPA\" safe if it's cheap?",
+        "a": "No — after Suraj Lamp, a GPA \"sale\" conveys no title: you get possession and paper, not ownership; resale, loans and inheritance all jam. The discount is the price of the defect. Either the seller executes a registered sale deed (possibly via a POA-holder, which is fine) or the deal isn't one."
+      },
+      {
+        "q": "Does my POA need registration or is notarisation enough?",
+        "a": "Management/rent/litigation POAs: notarisation generally suffices. POAs authorising execution/registration of documents or dealing with immovable property: register them — several states mandate it, registrars demand it, and a registered POA forecloses later authenticity fights. When in doubt for property, register."
+      },
+      {
+        "q": "How does an NRI give a POA for property in India?",
+        "a": "Sign before the Indian Embassy/Consulate (or notary + apostille in Hague countries), courier it to India, and have it adjudicated/stamped within 3 months of receipt, registering where the use requires. The attorney then acts with that POA + your ID proofs. Specific-purpose POAs sail through registrar scrutiny fastest."
+      },
+      {
+        "q": "Can my attorney sell the property to himself?",
+        "a": "Self-dealing is a classic abuse: unless the POA explicitly authorises sale to the attorney (rare and scrutinised), such transfers are voidable for breach of fiduciary duty and fraud. Draft with express prohibitions, price floors, and sale-proceeds routing to your account — and prefer special POAs naming the intended buyer."
+      },
+      {
+        "q": "The property owner died — is the POA still valid for the pending registration?",
+        "a": "No — agency ends at death; a deed signed by the attorney after the principal's death is void, however genuine the transaction. The legal heirs must execute instead (succession steps first — see our succession guide). Check principal-alive status is a registrar's standard question for stale POAs."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

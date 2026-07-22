@@ -1,0 +1,155 @@
+{
+  "slug": "how-to-file-fir",
+  "category": "police-criminal",
+  "title": {
+    "en": "How to File an FIR — Online, at the Station, and the Zero FIR Rule"
+  },
+  "answerBox": {
+    "en": "To file an FIR, go to any police station and narrate the offence — for cognizable offences the police must register it free of cost and give you a copy immediately. Under the new BNSS you can also report electronically (e-FIR) and any station must take a Zero FIR even if the crime happened elsewhere. This page is general information, not legal advice."
+  },
+  "keyNumbers": {
+    "en": [
+      "FIR is free",
+      "Free copy immediately",
+      "Any station: Zero FIR"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Report the offence",
+        "duration": "ASAP",
+        "startsFrom": "delay invites questions later"
+      },
+      {
+        "label": "Police register cognizable FIR",
+        "duration": "Immediately",
+        "startsFrom": "on receiving your information"
+      },
+      {
+        "label": "e-FIR signature at station",
+        "duration": "3 days",
+        "startsFrom": "electronic reports must be signed within 3 days"
+      },
+      {
+        "label": "Free FIR copy to you",
+        "duration": "Immediately",
+        "startsFrom": "on registration — it is your right"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Know what an FIR is for",
+        "summary": "FIRs are for cognizable offences — theft, assault, fraud, and worse.",
+        "detail": "An FIR (First Information Report) starts the police investigation of a **cognizable offence** — one where police can act without court permission (theft, robbery, cheating, assault, sexual offences). It was Section 154 CrPC, **now Section 173 BNSS**. For non-cognizable matters (simple defamation, minor scuffles) police record an NCR and you are pointed to the Magistrate instead."
+      },
+      {
+        "icon": "send",
+        "title": "File it: station, online, or Zero FIR",
+        "summary": "Any station must take it; many states accept e-FIRs for some offences.",
+        "detail": "Go to the police station and narrate the incident — orally or in writing. **BNSS Section 173 now expressly allows electronic reporting** (sign the record at the station within 3 days), and most states run online portals for theft/lost-property e-FIRs. If the crime happened in another area, insist on a **Zero FIR**: any station registers it with number \"0\" and transfers it to the right station. Women reporting sexual offences can require recording by a woman officer."
+      },
+      {
+        "icon": "check",
+        "title": "Get the contents right",
+        "summary": "Who, what, when, where — facts, not conclusions.",
+        "detail": "The FIR should carry: your name and address, date-time-place of the offence, what happened in sequence, names/descriptions of accused if known, witnesses, and what was lost/damaged (with numbers — amounts, vehicle plates, IMEI). Stick to facts you know first-hand. **Read it before signing** — you sign what the officer wrote, and the FIR's first version matters for the whole case. You are entitled to a **free copy immediately**."
+      },
+      {
+        "icon": "gavel",
+        "title": "After registration — and when to get an advocate",
+        "summary": "Investigation follows; serious matters deserve professional help.",
+        "detail": "Police investigate, may call you to record statements, and file a chargesheet or closure report before the Magistrate. Track status on your state police portal/CCTNS. For serious offences, property frauds, or anything where the other side has influence, a criminal advocate protects the record from the start — a short consultation before or right after filing is money well spent. If the police refuse to register at all, our [FIR-refusal guide](/help/police-criminal/police-not-filing-fir) covers the escalation ladder.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "FIR registration + first copy",
+          "amount": "Free",
+          "note": "Demanding money for an FIR is itself misconduct"
+        },
+        {
+          "label": "Later certified copies",
+          "amount": "Nominal",
+          "note": "Small court/copying fee if needed"
+        },
+        {
+          "label": "Complaint drafted for you",
+          "amount": "₹199",
+          "note": "Written complaint annexure with the facts in order"
+        },
+        {
+          "label": "Criminal advocate consultation",
+          "amount": "₹299",
+          "note": "Recommended for serious or contested matters"
+        }
+      ],
+      "footnote": "Filing a knowingly false FIR is itself an offence (Section 182/211 IPC, now Sections 217/248 BNS). This page is general information — for advice on your specific case, consult a practising criminal advocate."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "how to file fir",
+      "fir online kaise kare",
+      "zero fir kya hai",
+      "fir police station process",
+      "e-fir online complaint",
+      "fir copy rights free"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "police-complaint-draft"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "upi-fraud-money-recovery",
+    "online-scam-complaint"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can police refuse to file my FIR?",
+        "a": "For a cognizable offence, no — registration is mandatory (Lalita Kumari v. Govt. of UP; now codified in BNSS Section 173). At most, for certain offence ranges they may hold a preliminary enquiry for up to 14 days. If refused, use the escalation route: written complaint to the SP, then the Magistrate under Section 156(3) CrPC (now Section 175(3) BNSS) — see our dedicated guide."
+      },
+      {
+        "q": "What is a Zero FIR?",
+        "a": "An FIR registered at a police station that does not have territorial jurisdiction over the crime, numbered \"0\" and transferred to the correct station. It exists so no victim is turned away for being at the \"wrong\" station, and the BNSS makes it statutory. Insist on it by name if the crime happened elsewhere."
+      },
+      {
+        "q": "Can I file an FIR online?",
+        "a": "Two ways: BNSS Section 173 permits reporting by electronic communication — you then sign the record at the station within 3 days — and most state police portals offer e-FIR for specified offences like vehicle theft and lost property. For serious offences, going in person remains faster and cleaner."
+      },
+      {
+        "q": "FIR vs police complaint vs NCR — what is the difference?",
+        "a": "An FIR is the formal registration of a cognizable offence that triggers police investigation. An NCR (non-cognizable report) merely records a minor matter — police need a Magistrate's order to investigate it. A \"complaint\" can also be made directly to a Magistrate, which is the fallback when police refuse to act."
+      },
+      {
+        "q": "Does an FIR mean the person I named will be arrested?",
+        "a": "No. An FIR starts an investigation, not punishment — arrest depends on the offence, the evidence and arrest guidelines; the accused may seek anticipatory bail. Conversely, being named in an FIR yourself is the point at which to consult a criminal advocate immediately."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

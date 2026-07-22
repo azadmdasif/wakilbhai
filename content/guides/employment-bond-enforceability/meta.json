@@ -1,0 +1,156 @@
+{
+  "slug": "employment-bond-enforceability",
+  "category": "job-salary",
+  "title": {
+    "en": "Employment Bonds in India — When \"Pay ₹2 Lakh If You Leave\" Is Actually Enforceable"
+  },
+  "answerBox": {
+    "en": "Training bonds are not automatically void — but they are enforceable only as reasonable compensation for genuine investment: real, costed training, a proportionate bond amount, and a sensible period. Courts cut inflated figures to actual loss (Section 74, Contract Act), and post-employment non-competes are void (Section 27). An employer's remedy is money, never forced service or seized certificates."
+  },
+  "keyNumbers": {
+    "en": [
+      "Genuine training = key test",
+      "Courts cut to actual loss",
+      "Non-compete after exit: void"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Before signing",
+        "duration": "Read + negotiate",
+        "startsFrom": "bond amount, period, trigger events"
+      },
+      {
+        "label": "On leaving early",
+        "duration": "Notice + stance",
+        "startsFrom": "respond to demands in writing"
+      },
+      {
+        "label": "If sued",
+        "duration": "Per summons",
+        "startsFrom": "contest quantum with the reasonableness law"
+      },
+      {
+        "label": "Certificates seized?",
+        "duration": "Immediately",
+        "startsFrom": "demand return — retention is unlawful"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "scale",
+        "title": "The enforceability test courts apply",
+        "summary": "Restraint during employment OK; penalty must match investment.",
+        "detail": "Bonds operating **during employment** (serve X years after funded training or compensate) are not restraints of trade — they are valid promises, IF: the employer shows **genuine, quantifiable investment** (certified training, courses, onboarding programmes with real cost), the amount approximates that investment, and the period is proportionate. Under **Section 74, Contract Act**, courts award **reasonable compensation not exceeding actual loss** — the ₹5 lakh bond for a two-week induction gets slashed. **Post-employment non-competes are void** under **Section 27** (confidentiality survives — see our [NDA guide](/help/business-startup/nda-agreement-essentials))."
+      },
+      {
+        "icon": "file-file",
+        "title": "Before signing: shrink the exposure",
+        "summary": "Negotiate specifics — vague bonds hurt everyone.",
+        "detail": "Negotiate: a **defined training description with its cost**, pro-rata reduction over the bond period (50% served = 50% liability), triggers limited to voluntary exit (not termination/redundancy), and exclusion of garden-variety on-the-job learning. Refuse **blank promissory notes/undated cheques** as \"security\" — a widespread, abusive practice; a signed cheque converts a contestable civil claim into Section 138 leverage against you. If already given, note it in writing now.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "file-text",
+        "title": "Leaving early: respond, don't abscond",
+        "summary": "Your written stance frames any later suit.",
+        "detail": "Resign properly ([notice guide](/help/job-salary/notice-period-buyout-disputes)), and answer bond demands in writing: acknowledge the clause, demand the **break-up of actual training expenditure**, offer the reasonable/pro-rata figure where genuine investment exists, and dispute the balance citing Section 74. Employers with real training records settle near actuals; those with none usually stop at the demand letter. **Never surrender originals** — and if certificates are already held, demand return in writing: retention as bond security has been condemned by courts and invites your own action.",
+        "serviceHint": "legal-notice-unpaid-salary"
+      },
+      {
+        "icon": "gavel",
+        "title": "If sued — or threatened with worse",
+        "summary": "Civil quantum fight; criminal threats are pressure tactics.",
+        "detail": "A bond suit is a **civil damages claim**: the employer must prove the training, its cost and your breach; your defence attacks quantum and genuineness — outcomes cluster at actual-cost-or-less. Threats of \"criminal action for absconding\" are noise — breach of an employment bond is not a crime (a misused security cheque is the one real risk; get advice fast if one exists). Practical note: most bond disputes die at the letters stage; sue-worthy cases are the minority where real training money moved. A ₹299 consultation prices your actual exposure in one sitting."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Exposure assessment consultation",
+          "amount": "₹299",
+          "note": "Bond + training facts = realistic number"
+        },
+        {
+          "label": "Response/settlement letter",
+          "amount": "₹999",
+          "note": "Advocate reply to bond demands"
+        },
+        {
+          "label": "Certificates-retention notice",
+          "amount": "₹999",
+          "note": "Demand return of originals"
+        },
+        {
+          "label": "If sued: defence",
+          "amount": "Advocate fees",
+          "note": "Quantum contest; often settles"
+        }
+      ],
+      "footnote": "Public-sector/specialist bonds (doctors' service bonds, funded foreign training) sit at the enforceable end — the analysis is investment-proportionality, not a blanket rule either way."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "employment bond legal india",
+      "training bond enforceable or not",
+      "bond todne par kya hoga",
+      "company bond 2 lakh leave early",
+      "service agreement bond validity",
+      "certificates kept by company bond"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "legal-notice-unpaid-salary"
+  ],
+  "relatedTemplateSlugs": [
+    "resignation-letter"
+  ],
+  "relatedGuideSlugs": [
+    "notice-period-buyout-disputes",
+    "relieving-letter-not-given"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is every employment bond illegal in India?",
+        "a": "No — that is the popular myth. Bonds compensating genuine training investment are valid contracts; what the law refuses is penal enforcement: amounts get trimmed to proven actual loss, and service can never be compelled. The practical question is always \"what did they really spend on you?\""
+      },
+      {
+        "q": "I resigned 8 months into a 2-year, ₹3 lakh bond after a 1-month training. Exposure?",
+        "a": "Realistically: the demonstrable cost of that month's training (often modest), possibly pro-rated for your 8 months served — not ₹3 lakh. Demand the expenditure break-up, offer the reasonable figure, and hold. Most employers settle or drop at that point."
+      },
+      {
+        "q": "The company is holding my degree certificates until I pay the bond. Legal?",
+        "a": "No — retaining an employee's original certificates as bond security is unlawful pressure; courts and even police (for refusal after demand) treat it seriously. Demand return in writing, escalate with the ₹999 notice, and note that their unlawful retention weakens whatever bond claim they had."
+      },
+      {
+        "q": "I signed a blank cheque as bond security and they threaten a cheque-bounce case. Serious?",
+        "a": "Yes — treat it seriously: a filled-and-bounced cheque creates Section 138 proceedings you must defend (the defence: no legally enforceable debt beyond actual training cost, and the blank-cheque circumstances). Get advice immediately, put the disputed-liability position in writing NOW, and negotiate the cheque's return in any settlement."
+      },
+      {
+        "q": "Can they stop me joining a competitor citing the bond?",
+        "a": "No — post-employment non-competes are void under Section 27, and no injunction will stop your new job. What survives: confidentiality/trade-secret duties and, during employment, exclusivity. The bond's money claim (if genuine) and your career move are separate lanes."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

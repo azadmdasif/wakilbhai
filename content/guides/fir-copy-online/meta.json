@@ -1,0 +1,154 @@
+{
+  "slug": "fir-copy-online",
+  "category": "police-criminal",
+  "title": {
+    "en": "How to Get an FIR Copy Online — State Portals, Your Rights and Certified Copies"
+  },
+  "answerBox": {
+    "en": "The informant is entitled to a free FIR copy immediately on registration, and accused persons can obtain it too — the Supreme Court (Youth Bar Association, 2016) directs police to upload FIRs online within 24 hours (72 in remote areas), except in sensitive categories. Every state police website has an FIR view/download section; certified copies come from the station or court for a nominal fee."
+  },
+  "keyNumbers": {
+    "en": [
+      "Free copy — your right",
+      "Online within 24 hrs",
+      "Certified copy: nominal"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Informant's free copy",
+        "duration": "Immediately",
+        "startsFrom": "on registration — s.173 BNSS"
+      },
+      {
+        "label": "Police upload online",
+        "duration": "24–72 hrs",
+        "startsFrom": "Youth Bar Association directions"
+      },
+      {
+        "label": "Accused seeking copy",
+        "duration": "Anytime",
+        "startsFrom": "portal, station, or court application"
+      },
+      {
+        "label": "Certified copy",
+        "duration": "Days",
+        "startsFrom": "station/court copying section"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Know your entitlements",
+        "summary": "Informant: free, instant. Accused: entitled too. Victims: yes.",
+        "detail": "The **informant** gets a copy **free of cost, forthwith** (Section 154(2) CrPC, **now Section 173(2) BNSS**). An **accused** person is entitled to the FIR — via the online upload, the station, or an application to the Magistrate (and in any case with the chargesheet documents under Section 207 CrPC/**230 BNSS**). Victims who aren't the informant can also obtain it. Refusing the informant a copy is a service violation worth escalating by name."
+      },
+      {
+        "icon": "send",
+        "title": "Download it from the state police portal",
+        "summary": "Every state runs FIR view/download — know the search keys.",
+        "detail": "Find your state police website's **\"View FIR\"/\"FIR download\"** service (citizen portal/CCTNS front-ends; the national [digitalpolice.gov.in](https://digitalpolice.gov.in) portal links state services). Search by **FIR number + police station + year**, or by name/date range where enabled. The *Youth Bar Association of India* (SC, 2016) directions require upload within **24 hours** (72 for connectivity-poor areas) — non-upload is challengeable before the concerned court/DGP grievance cell.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "shield",
+        "title": "The sensitive-category exception",
+        "summary": "Sexual offences, POCSO, terrorism — not public, but parties still get it.",
+        "detail": "FIRs in **sensitive categories** — sexual offences, POCSO, insurgency/terrorism and the like — are not uploaded publicly, by design (victim privacy). Parties still obtain copies through the station/court channel; an accused's entitlement operates through certified-copy applications rather than the public portal. Identity-protection rules (no publishing victim identities — Section 72 BNS) bind everyone handling such copies."
+      },
+      {
+        "icon": "check",
+        "title": "Certified copies and what to do with discrepancies",
+        "summary": "Court copying section; compare portal vs certified text.",
+        "detail": "For court, visa or insurance use, get a **certified copy** — from the police station or the Magistrate's court copying section (nominal fee, days). Compare the certified text against the portal copy and your narration: material discrepancies (facts recorded differently from what you reported) should be flagged fast — a follow-up written statement to the SHO/SP preserves your version before the investigation hardens around the wrong one. An advocate's eye on the FIR's sections and framing is the cheapest early case audit.",
+        "serviceHint": "police-complaint-draft"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Informant's first copy",
+          "amount": "Free",
+          "note": "Statutory right at registration"
+        },
+        {
+          "label": "Portal download",
+          "amount": "Free",
+          "note": "State police websites, 24–72 hr upload"
+        },
+        {
+          "label": "Certified copy",
+          "amount": "₹10–100",
+          "note": "Copying fees, station/court"
+        },
+        {
+          "label": "FIR review consultation",
+          "amount": "₹299",
+          "note": "Sections + framing audit by an advocate"
+        }
+      ],
+      "footnote": "Save the downloaded PDF with its number and date immediately — portals archive and reorganise, and the FIR is the document every later proceeding begins from."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "fir copy online download",
+      "fir number se copy kaise nikale",
+      "view fir state police portal",
+      "certified copy of fir process",
+      "accused ko fir copy kaise mile",
+      "fir online check by name"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "police-complaint-draft"
+  ],
+  "relatedTemplateSlugs": [],
+  "relatedGuideSlugs": [
+    "how-to-file-fir",
+    "regular-bail-process"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "I am named in an FIR. Can I legally get its copy before arrest?",
+        "a": "Yes — the Youth Bar Association directions exist precisely so accused persons can access FIRs early (except sensitive categories); the portal, station, or an application to the jurisdictional Magistrate all work. Getting it early is step zero of the defence — including for anticipatory bail (see that guide)."
+      },
+      {
+        "q": "The portal shows nothing for my FIR number. What now?",
+        "a": "Check station/year selectors first (numbering repeats per station per year). If genuinely absent beyond 24–72 hours, apply at the station in writing, and escalate non-upload to the district police grievance cell/DGP portal citing Youth Bar Association — non-sensitive FIRs must be uploaded."
+      },
+      {
+        "q": "Is a portal printout valid for court or insurance?",
+        "a": "For information and most insurance/administrative uses, yes. Courts and some agencies want certified copies — obtain from the copying section for a nominal fee. The certified copy also fixes the authoritative text if portal versions differ."
+      },
+      {
+        "q": "The FIR records my complaint wrongly. Can it be corrected?",
+        "a": "An FIR once registered is not \"edited\", but you can immediately submit a supplementary written statement to the SHO/SP putting the correct facts on record, which the investigation must consider — and material manipulation is challengeable before the Magistrate. Speed matters; do it before statements and reports stack on the error."
+      },
+      {
+        "q": "Can I find out if any FIR exists against me at all?",
+        "a": "State portals with name-search make it visible; otherwise, a lawyer's check at the district court/police, or an RTI to the district police asking whether any FIR names you (subject to exemptions), surfaces it. Job/visa verifications use police clearance certificates, which run this check formally."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

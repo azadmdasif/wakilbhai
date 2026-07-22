@@ -1,0 +1,155 @@
+{
+  "slug": "online-scam-complaint",
+  "category": "cyber-fraud",
+  "title": {
+    "en": "Scammed Online? Where to Complain — Fake Shopping, Job and Investment Frauds"
+  },
+  "answerBox": {
+    "en": "For any online scam — fake shopping site, work-from-home job fraud, or an investment/trading app that vanished — report on cybercrime.gov.in and call 1930 if money moved, ideally within 24 hours. Complaints are free. For paid products and services, the consumer commission on e-Daakhil is a parallel route within 2 years."
+  },
+  "keyNumbers": {
+    "en": [
+      "Report within 24 hours",
+      "1930 if money moved",
+      "₹0 to complain"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Call 1930 (money paid)",
+        "duration": "Golden hours",
+        "startsFrom": "from the payment"
+      },
+      {
+        "label": "File on cybercrime.gov.in",
+        "duration": "24 hours",
+        "startsFrom": "ideally, from discovery"
+      },
+      {
+        "label": "Bank chargeback/dispute",
+        "duration": "ASAP",
+        "startsFrom": "card/UPI dispute with your bank"
+      },
+      {
+        "label": "Consumer commission (e-Daakhil)",
+        "duration": "2 years",
+        "startsFrom": "from the cause of action"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "shield",
+        "title": "Stop further payments and freeze",
+        "summary": "Cut every channel the scammer has to you or your money.",
+        "detail": "Do not pay any \"release fee\", \"tax\" or \"verification charge\" — follow-up demands are part of the script. If money moved, call **1930** immediately and ask your bank to dispute/chargeback the transaction. Block the numbers and profiles, but **screenshot everything first**."
+      },
+      {
+        "icon": "file-text",
+        "title": "Collect evidence before it disappears",
+        "summary": "Screenshots, payment proofs, URLs, phone numbers, ads.",
+        "detail": "Save the website/app URL, the ad that hooked you (Instagram/Telegram/WhatsApp), chats, the receiver UPI IDs/account numbers, and your payment records (UTR numbers). Scam pages get deleted fast — your screenshots become the primary evidence for the police and the bank."
+      },
+      {
+        "icon": "send",
+        "title": "Report on cybercrime.gov.in",
+        "summary": "One national portal covers shopping, job and investment frauds.",
+        "detail": "File under \"Report Other Cybercrime\" or financial fraud at [cybercrime.gov.in](https://cybercrime.gov.in) with your evidence bundle. Online cheating is **Section 420 IPC (now Section 318 BNS)**; impersonation online adds **IT Act Section 66D**. Job frauds demanding fees and fake investment platforms are the same offence dressed differently. Track the acknowledgement number; escalate to your local cyber cell if nothing moves in 2–3 weeks.",
+        "serviceHint": "police-complaint-draft"
+      },
+      {
+        "icon": "scale",
+        "title": "Use the consumer route in parallel",
+        "summary": "Paid for a product/service that never came? e-Daakhil also applies.",
+        "detail": "Where you paid a business for goods/services (fake or non-delivering shopping sites, paid \"job placement\" services), you are also a consumer: complain via the [National Consumer Helpline 1915](https://consumerhelpline.gov.in) and file on **e-Daakhil** within 2 years. Claims up to ₹5 lakh have no court fee. See our consumer forum guide for the full process."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "cybercrime.gov.in / 1930 / 1915",
+          "amount": "Free",
+          "note": "All government channels"
+        },
+        {
+          "label": "Consumer complaint on e-Daakhil",
+          "amount": "₹0–slab",
+          "note": "No fee up to ₹5 lakh claims"
+        },
+        {
+          "label": "Complaint drafted by us",
+          "amount": "₹199",
+          "note": "Cyber cell / police complaint documentation"
+        },
+        {
+          "label": "Advocate consultation",
+          "amount": "₹299",
+          "note": "For large losses or cross-state fraud"
+        }
+      ],
+      "footnote": "Never pay anyone who promises recovery of scammed money for an upfront fee — legitimate recovery flows only through the 1930 freeze, your bank, the police and the consumer commission."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "online scam complaint india",
+      "fake shopping website fraud complaint",
+      "online job fraud complaint",
+      "investment app fraud what to do",
+      "telegram trading scam complaint",
+      "cyber fraud complaint online"
+    ]
+  },
+  "relatedServiceIds": [
+    "police-complaint-draft",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "consumer-complaint-letter"
+  ],
+  "relatedGuideSlugs": [
+    "upi-fraud-money-recovery",
+    "consumer-forum-complaint-guide"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Where do I complain about an online scam in India?",
+        "a": "The National Cybercrime Reporting Portal (cybercrime.gov.in) is the single national channel; call 1930 first if money moved so it can be frozen. For paid products/services, the consumer commission via e-Daakhil is a parallel remedy, and the National Consumer Helpline (1915) mediates free."
+      },
+      {
+        "q": "I paid a fee for a work-from-home job that turned out fake. Is that a crime?",
+        "a": "Yes — collecting money on a false promise of employment is cheating under Section 420 IPC (now Section 318 BNS). Report on cybercrime.gov.in with the ad, chats and payment proof. Genuine employers do not charge registration or training deposits before hiring."
+      },
+      {
+        "q": "The scam website has vanished. Can anything still be done?",
+        "a": "Yes. Your payment trail is the anchor: the receiving account exists even after the site is gone, and can be frozen or traced by the bank and police. This is why screenshots, UTR numbers and receiver details taken early matter so much."
+      },
+      {
+        "q": "Can I get a chargeback for a card payment to a scam site?",
+        "a": "Often, yes. Dispute the transaction with your card issuer immediately, citing fraud/non-delivery — card network rules allow chargebacks within tight windows. Attach your cybercrime complaint acknowledgement; it materially strengthens the dispute."
+      },
+      {
+        "q": "Investment app showed profits but blocks withdrawal unless I pay \"tax\". Should I pay?",
+        "a": "No. The displayed profit is fake and the \"tax\"/\"withdrawal fee\" is the actual extraction step of the scam. Stop paying, preserve the app screenshots and payment trail, call 1930 for the amounts already paid, and file the portal complaint."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Sneha Iyer, Bar Council of Tamil Nadu & Puducherry, TN/1187/2013",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

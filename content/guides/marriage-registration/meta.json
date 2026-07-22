@@ -1,0 +1,156 @@
+{
+  "slug": "marriage-registration",
+  "category": "family-personal",
+  "title": {
+    "en": "Marriage Registration — Registering an Already-Solemnised Marriage, Documents and Fees"
+  },
+  "answerBox": {
+    "en": "Already married by religious ceremony? Registration records that marriage officially: apply to the marriage registrar (online in most states) with the wedding proof — invitation card, photos, priest's certificate — plus age/address documents and witnesses; the certificate issues in days to weeks for fees of ₹100–500. The Supreme Court (Seema v. Ashwani Kumar) directs registration of all marriages, and several states make it compulsory."
+  },
+  "keyNumbers": {
+    "en": [
+      "Certificate in days–weeks",
+      "₹100–500 fees",
+      "SC: register all marriages"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Apply (many states online)",
+        "duration": "Anytime",
+        "startsFrom": "soon after marriage is cleanest"
+      },
+      {
+        "label": "Late-registration penalties",
+        "duration": "State-wise",
+        "startsFrom": "small fines beyond 30–90 days in some states"
+      },
+      {
+        "label": "Verification/appearance",
+        "duration": "One visit",
+        "startsFrom": "both spouses + witnesses"
+      },
+      {
+        "label": "Certificate issue",
+        "duration": "Days–weeks",
+        "startsFrom": "same day in several states"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Pick the right registration law",
+        "summary": "HMA Section 8, state rules, or SMA Section 15.",
+        "detail": "Routes: **Hindu Marriage Act Section 8** registration (Hindus, Buddhists, Jains, Sikhs — with state marriage registration rules), **state compulsory-registration laws** (covering all communities in many states), or **SMA Section 15** registration of an existing marriage (any couple, giving the marriage SMA-certificate status — useful for interfaith recognition and some foreign uses; note the 30-day notice applies to this route too in most offices). Muslim marriages: the nikahnama is proof, and state registration is additionally available/required by several states' rules."
+      },
+      {
+        "icon": "send",
+        "title": "Apply with the marriage evidence",
+        "summary": "Card, photos, priest certificate, IDs, witnesses.",
+        "detail": "Standard pack: application (online portals in Delhi, Maharashtra, UP, Karnataka etc.), **proof of the ceremony** (invitation card, 2–4 wedding photographs showing rituals, priest/gurudwara/temple certificate where available), both spouses' age and address proofs, photos, the **marriage affidavit** (date/place/rituals — our ₹199 drafting), and **witnesses** (commonly 2–3, who attended or know of the marriage). Divorce decree/death certificate for remarriages.",
+        "serviceHint": "marriage-affidavit"
+      },
+      {
+        "icon": "check",
+        "title": "Appear, verify, collect",
+        "summary": "One office visit for most; certificate follows.",
+        "detail": "Both spouses (and witnesses, where required) appear before the **registrar/SDM** on the appointment date with originals; verification is brief, signatures/biometrics recorded, and the **certificate issues same-day to a few weeks** by state. Late registration years after the wedding is routinely accepted with the affidavit explaining delay (small penalty fees in some states). Errors on the certificate: apply for correction with proofs immediately — mismatches with passports cause the classic downstream pain."
+      },
+      {
+        "icon": "shield",
+        "title": "Why the certificate matters",
+        "summary": "Passports, visas, banking, property, and dispute protection.",
+        "detail": "The certificate is the operative proof for **spouse passports/visas, joint bank/property matters, insurance and pension claims, and name-change processes** ([guide](/help/family-personal/name-change-process)) — and in disputes, registration forecloses \"there was no marriage\" denials (bigamy defences, maintenance resistance). *Seema v. Ashwani Kumar* (2006) directs all marriages be registered for exactly these protective reasons. Unregistered religious marriages remain legally valid — but proving them when it matters is harder; register now while proof is easy.",
+        "serviceHint": "consultation-call"
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Registration fees",
+          "amount": "₹100–500",
+          "note": "Late-registration penalties small, state-wise"
+        },
+        {
+          "label": "Marriage affidavit (couple)",
+          "amount": "₹199 + notary",
+          "note": "WakilBhai drafting"
+        },
+        {
+          "label": "Document pack help",
+          "amount": "₹199–499",
+          "note": "Application + annexure preparation"
+        },
+        {
+          "label": "Apostille (use abroad)",
+          "amount": "₹50/doc + service",
+          "note": "MEA apostille for foreign authorities"
+        }
+      ],
+      "footnote": "Register within the first months of marriage while photos, cards and witnesses are at hand — the same registration attempted 15 years later is an evidence hunt."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "marriage registration process",
+      "shaadi ka registration kaise kare",
+      "marriage certificate documents required",
+      "marriage registration online",
+      "late marriage registration penalty",
+      "hindu marriage act section 8 registration"
+    ]
+  },
+  "relatedServiceIds": [
+    "marriage-affidavit",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "court-marriage-process",
+    "name-change-process"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is my religious marriage invalid without registration?",
+        "a": "No — a marriage validly solemnised by personal-law ceremony is legally valid unregistered. Registration is proof, not validity (except where a state's compulsory law imposes consequences). But every practical process — passports, visas, claims — wants the certificate, and courts direct registration; treat it as essential paperwork."
+      },
+      {
+        "q": "We married years ago. Can we still register?",
+        "a": "Yes — late registration is routine: the affidavit explains the delay, evidence (photos, card, witnesses, children's birth certificates naming both parents) establishes the marriage, and small late fees apply in some states. Offices register decades-old marriages regularly for pension/visa needs."
+      },
+      {
+        "q": "What is the difference between registering under HMA and SMA Section 15?",
+        "a": "HMA Section 8 records a Hindu-law marriage — quick, no notice period. SMA Section 15 converts an existing marriage into an SMA-registered one (secular statute) — useful for interfaith couples and certain foreign recognitions, but with SMA conditions and usually the notice process. Most same-faith couples want the simple HMA/state-rules route."
+      },
+      {
+        "q": "One spouse is abroad — can we register without them?",
+        "a": "Registration generally needs both spouses' participation; options include waiting for a visit, some states' provisions for representation through attested documents/POA at specific steps, or registering at the Indian consulate's processes where applicable. Plan it around travel — a week's visit usually suffices."
+      },
+      {
+        "q": "The certificate has a spelling error in a name. How do I fix it?",
+        "a": "Apply to the issuing registrar for correction with ID proofs (and the marriage affidavit) — routine for clerical errors. Do it before the error propagates into passports and visas; a certificate matching both spouses' IDs exactly is the whole point of the exercise."
+      }
+    ]
+  },
+  "reviewer": "Adv. Priya Sharma, Bar Council of Delhi, D/1284/2016",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}

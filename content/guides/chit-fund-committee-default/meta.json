@@ -1,0 +1,155 @@
+{
+  "slug": "chit-fund-committee-default",
+  "category": "money-recovery",
+  "title": {
+    "en": "Chit Fund or Committee (BC) Default? Recovering Your Money from Foremen and Members"
+  },
+  "answerBox": {
+    "en": "Registered chit funds are governed by the Chit Funds Act, 1982 — disputes go to the Registrar of Chits, whose arbitration awards are enforceable as decrees, and the foreman's security deposit with the Registrar backs your claim. Unregistered \"committees\" (BCs) are contract + criminal territory: acknowledgements, legal notice, civil suit — and cheating/criminal-breach-of-trust FIRs where the organiser absconds. The BUDS Act 2019 adds attachment of assets for unregulated deposit schemes."
+  },
+  "keyNumbers": {
+    "en": [
+      "Registrar arbitration route",
+      "Foreman security deposit",
+      "BUDS Act asset attachment"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Written demand to foreman/organiser",
+        "duration": "Immediately",
+        "startsFrom": "with your payment record"
+      },
+      {
+        "label": "Registrar of Chits complaint",
+        "duration": "Next",
+        "startsFrom": "registered chits: arbitration reference"
+      },
+      {
+        "label": "FIR (absconding organiser)",
+        "duration": "Fast",
+        "startsFrom": "assets move quickly — so must you"
+      },
+      {
+        "label": "Civil suit limitation",
+        "duration": "3 years",
+        "startsFrom": "from default/acknowledgement"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Establish what the scheme legally is",
+        "summary": "Registered chit, unregistered committee, or a deposit scam.",
+        "detail": "Check whether the chit is **registered** (chit agreement, registration number, Registrar of Chits of the state — ask or verify at the registrar's office). Registered chits give you the Act's machinery and the **foreman's 100% security deposit** held with the Registrar. An informal **committee/BC** is a mutual contract among members — enforceable, but without the statutory net. A scheme promising fixed \"returns\" to non-participants may be an **unregulated deposit scheme** — squarely inside the [BUDS Act, 2019](https://www.indiacode.nic.in) with its attachment machinery."
+      },
+      {
+        "icon": "send",
+        "title": "Assemble payments and demand",
+        "summary": "Passbook, receipts, transfers, the member list — then notice.",
+        "detail": "Collect your chit passbook/receipts, bank/UPI records of contributions, the member list and the agreement (or chat records for informal BCs — the group chat usually documents everything). Send the foreman/organiser a **written demand**; for prized-but-unpaid or wound-up chits, follow with the **₹999 advocate's notice** to the foreman and sureties. Members who received the pot and stopped contributing get the same treatment — their liability to the fund is several and provable.",
+        "serviceHint": "legal-notice-dispute"
+      },
+      {
+        "icon": "scale",
+        "title": "Registered chits: the Registrar's arbitration",
+        "summary": "Cheap, purpose-built, decree-force awards against the deposit.",
+        "detail": "Under **Sections 64–71, Chit Funds Act**, disputes between subscribers and foremen go to the **Registrar (or nominee) as arbitrator** — filing fees are small, procedure summary, and the **award executes as a civil decree**, with the foreman's security deposit available. Complain in parallel to the Registrar's supervisory side: registrars can inspect, freeze fresh chit business, and wind up defaulting foremen — pressure that produces settlements."
+      },
+      {
+        "icon": "gavel",
+        "title": "Fraud/absconding: criminal + BUDS attachment",
+        "summary": "FIR fast; BUDS competent authority attaches assets.",
+        "detail": "Organiser vanished or diverting funds? File the **FIR immediately** — cheating **Section 420 IPC (now Section 318 BNS)** and criminal breach of trust **Section 406 IPC (now Section 316 BNS)**; group FIRs by multiple members get economic-offences-wing attention. For unregulated deposit schemes, the **BUDS Act** empowers the state's competent authority to **attach the scheme's and promoters' assets** and repay depositors through designated courts — ask the district collector's office who the notified competent authority is, and get every victim to file. Speed decides recovery: attachable assets evaporate."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Registrar arbitration (registered chits)",
+          "amount": "Small fee",
+          "note": "Summary procedure, decree-force award"
+        },
+        {
+          "label": "Advocate's notice",
+          "amount": "₹999",
+          "note": "Foreman + sureties / organiser"
+        },
+        {
+          "label": "FIR + BUDS complaint",
+          "amount": "Free",
+          "note": "Group filings multiply pressure"
+        },
+        {
+          "label": "Consultation (scheme classification)",
+          "amount": "₹299",
+          "note": "Which regime applies decides the route"
+        }
+      ],
+      "footnote": "Joining next time: prefer registered chits (verify at the Registrar), never hand cash without receipts, and treat schemes promising assured returns for \"just depositing\" as presumptively illegal under BUDS."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "chit fund fraud complaint",
+      "committee wale paise nahi de rahe",
+      "chit fund default recovery",
+      "registrar of chits complaint",
+      "buds act complaint deposit scheme",
+      "bc committee money recovery"
+    ]
+  },
+  "relatedServiceIds": [
+    "legal-notice-dispute",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "loan-repayment-demand-letter"
+  ],
+  "relatedGuideSlugs": [
+    "friend-not-returning-money",
+    "online-scam-complaint"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Our committee was informal — no registration, just a group. Is my money legally recoverable?",
+        "a": "Yes — an informal BC is a contract among members: your contribution record and the group's chats/records support a civil claim against the organiser (and pot-takers who stopped paying). It lacks the Chit Funds Act machinery, so the route is notice → suit/Lok Adalat, plus FIR where dishonesty is evident."
+      },
+      {
+        "q": "What does the foreman's security deposit mean for me?",
+        "a": "A registered chit's foreman deposits 100% of the chit value with the Registrar before starting. On default, arbitration awards can be satisfied from it — which is why the registered-chit route has meaningfully better recovery odds than informal committees."
+      },
+      {
+        "q": "The organiser is paying some members and stalling others. Does that matter legally?",
+        "a": "Selective payment strengthens the dishonesty inference for the criminal complaint and shows funds exist — cite it in the FIR and the Registrar complaint. It also justifies urgency: interim attachment (civil or BUDS) before remaining funds are distributed to favourites."
+      },
+      {
+        "q": "Is a \"double your money\" or fixed-return scheme the same as a chit?",
+        "a": "No — a chit rotates the members' own pot by auction/lot; a scheme taking deposits against promised returns is deposit-taking, which unregistered entities cannot lawfully do. BUDS Act 2019 criminalises such schemes and provides the attachment-and-repayment machinery; report to police and the competent authority."
+      },
+      {
+        "q": "Many of us are affected. Do we file together or separately?",
+        "a": "Both: one joint/group FIR (or multiple FIRs consolidated) for the criminal side — numbers move EOW/police priority — and individual claims (arbitration/suit) for your specific amounts. Coordinated victims also file the BUDS application together, which accelerates the attachment decision."
+      }
+    ]
+  },
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
