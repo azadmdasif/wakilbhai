@@ -1,0 +1,155 @@
+{
+  "slug": "police-not-filing-fir",
+  "category": "police-criminal",
+  "title": {
+    "en": "Police Not Filing Your FIR? SP Complaint and the Magistrate Route, Step by Step"
+  },
+  "answerBox": {
+    "en": "If a police station refuses to register your FIR for a cognizable offence, the law gives you a ladder: send the complaint in writing to the Superintendent of Police, and if there is still no FIR within about 15 days, apply to the Judicial Magistrate under Section 156(3) CrPC (now Section 175(3) BNSS) to order registration. Refusal itself is punishable."
+  },
+  "keyNumbers": {
+    "en": [
+      "SP complaint by post",
+      "~15 days, then Magistrate",
+      "156(3) → 175(3) BNSS"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "Ask for written refusal / try Zero FIR",
+        "duration": "Same day",
+        "startsFrom": "at the station"
+      },
+      {
+        "label": "Written complaint to the SP",
+        "duration": "Immediately after",
+        "startsFrom": "registered post; SP may order the FIR"
+      },
+      {
+        "label": "Wait for SP action",
+        "duration": "~15 days",
+        "startsFrom": "from your SP complaint"
+      },
+      {
+        "label": "Magistrate application 175(3) BNSS",
+        "duration": "Next",
+        "startsFrom": "court can order the police to register"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Fix the refusal on paper",
+        "summary": "Convert the verbal brush-off into evidence.",
+        "detail": "Submit your complaint in **writing** at the station and demand an acknowledgement (stamped copy or DD entry number). If they will not take it, note the date, time and officer name, and try a **Zero FIR** at another station. Many states also accept complaints on their police portal — the acknowledgement number proves you reported. This paper trail is what the SP and the Magistrate will act on."
+      },
+      {
+        "icon": "send",
+        "title": "Escalate to the Superintendent of Police",
+        "summary": "Section 154(3) CrPC — now 173(4) BNSS — exists exactly for this.",
+        "detail": "Post your written complaint to the **SP/Commissioner** by registered post with acknowledgement, stating the offence facts and that the station refused registration. If satisfied a cognizable offence is disclosed, the SP investigates or orders a subordinate to register the FIR. Keep the postal receipt — the next forum asks for proof you exhausted this step. Simultaneously, a copy to the State Human Rights Commission or police complaints authority adds pressure in stubborn cases."
+      },
+      {
+        "icon": "gavel",
+        "title": "Apply to the Judicial Magistrate",
+        "summary": "The court can order the police to register and investigate.",
+        "detail": "If roughly **15 days** pass without action, file an application under **Section 156(3) CrPC (now Section 175(3) BNSS)** before the Judicial Magistrate having jurisdiction, attaching your complaint, the refusal evidence and the SP posting proof — BNSS now requires showing you used the SP route first. The Magistrate can direct FIR registration, or treat it as a complaint case and proceed on your evidence. This application is where an advocate genuinely earns their fee: drafting it to disclose the cognizable offence cleanly decides the outcome.",
+        "serviceHint": "consultation-call"
+      },
+      {
+        "icon": "shield",
+        "title": "Know the pressure points",
+        "summary": "Refusal to register is itself an offence and a service violation.",
+        "detail": "Deliberate failure to record information about a cognizable offence is punishable (Section 166A IPC, **now Section 199 BNS** — for certain offences), and the Supreme Court in *Lalita Kumari* made registration mandatory. Quoting the provision and the judgment, politely, at each stage often ends the matter early. For offences against women and children, refusal invites the harsher clause — mention it explicitly in the SP complaint."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "SP complaint (registered post)",
+          "amount": "₹50–100",
+          "note": "Postage; the complaint itself is free"
+        },
+        {
+          "label": "Magistrate application 175(3) BNSS",
+          "amount": "Nominal court fee",
+          "note": "Varies by state; modest"
+        },
+        {
+          "label": "Advocate for the 175(3) application",
+          "amount": "₹2,000–10,000",
+          "note": "Typical range by city; strongly recommended"
+        },
+        {
+          "label": "Complaint drafted / consultation",
+          "amount": "₹199 / ₹299",
+          "note": "WakilBhai documentation + advocate call"
+        }
+      ],
+      "footnote": "This page is general information about the process, not legal advice. The Magistrate application is a court proceeding — have it drafted or at least reviewed by a practising criminal advocate."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "police not filing fir what to do",
+      "fir register nahi kar rahe complaint",
+      "sp complaint fir refusal",
+      "156(3) application magistrate fir",
+      "police refuse fir complaint online",
+      "bnss 175(3) application"
+    ]
+  },
+  "relatedServiceIds": [
+    "consultation-call",
+    "police-complaint-draft"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "how-to-file-fir",
+    "upi-fraud-money-recovery"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Is the police refusing an FIR actually illegal?",
+        "a": "For a cognizable offence, yes. Lalita Kumari v. Govt. of UP made registration mandatory, the BNSS codifies it, and Section 166A IPC (now Section 199 BNS) punishes officers who fail to record specified offences. At most, police may hold a time-bound preliminary enquiry in defined categories."
+      },
+      {
+        "q": "How long should I wait after the SP complaint?",
+        "a": "There is no fixed statutory clock, but around 15 days is the accepted practice before moving the Magistrate — BNSS Section 175(3) expects you to show the SP route was used. Keep the registered-post receipt and any SP office acknowledgement as annexures."
+      },
+      {
+        "q": "What can the Magistrate actually do under 175(3) BNSS?",
+        "a": "Three things: order the police to register the FIR and investigate; monitor that investigation; or treat your application as a complaint case and record your evidence directly. Which lever the court pulls depends on how clearly your application discloses a cognizable offence — draft it carefully."
+      },
+      {
+        "q": "Can I go straight to court and skip the SP?",
+        "a": "Under the BNSS, no — Section 175(3) requires supporting affidavits showing the Section 173(4) route (SP complaint) was exhausted. The sequence station → SP → Magistrate is now effectively mandatory, which is why documenting each refusal matters."
+      },
+      {
+        "q": "The offence happened in another district. Does refusal for jurisdiction hold?",
+        "a": "No. Jurisdiction is never a ground to refuse — the station must record a Zero FIR and transfer it. Name the concept at the counter; if still refused, the same SP-then-Magistrate ladder applies, with the refusal noted in your complaint."
+      }
+    ]
+  },
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "reviewer": "Adv. Rohan Mehta, Bar Council of Maharashtra & Goa, MAH/2214/2011",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
