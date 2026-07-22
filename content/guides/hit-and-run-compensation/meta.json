@@ -1,0 +1,155 @@
+{
+  "slug": "hit-and-run-compensation",
+  "category": "vehicle-accident",
+  "title": {
+    "en": "Hit-and-Run Accident? The Government Compensation Scheme — ₹2 Lakh for Death, ₹50,000 for Injury"
+  },
+  "answerBox": {
+    "en": "When the offending vehicle is never traced, victims of hit-and-run accidents claim from the central government scheme under Section 161 MV Act: ₹2,00,000 for death and ₹50,000 for grievous injury (rates from April 2022). File the FIR immediately, then apply to the district Claims Enquiry Officer with the FIR and medical/post-mortem records. If the vehicle is traced later, a full MACT claim opens."
+  },
+  "keyNumbers": {
+    "en": [
+      "₹2 lakh (death)",
+      "₹50,000 (grievous injury)",
+      "FIR is the foundation"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "FIR at the local station",
+        "duration": "Immediately",
+        "startsFrom": "record it as hit-and-run, vehicle untraced"
+      },
+      {
+        "label": "Medical / post-mortem records",
+        "duration": "Days",
+        "startsFrom": "grievous-hurt certification matters"
+      },
+      {
+        "label": "Apply to Claims Enquiry Officer",
+        "duration": "Within months",
+        "startsFrom": "district scheme application"
+      },
+      {
+        "label": "If vehicle traced later",
+        "duration": "6 months",
+        "startsFrom": "full MACT claim; scheme amount adjusts"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "FIR first — insist on \"vehicle untraced\"",
+        "summary": "The scheme exists precisely for unidentified vehicles.",
+        "detail": "Report immediately and ensure the FIR records the accident and that the **vehicle fled unidentified**. The police's final report confirming the vehicle remained untraced is the key document for the scheme. Collect witness details and any CCTV leads — if the vehicle IS traced, you exit the capped scheme and file a full, uncapped [MACT claim](/help/vehicle-accident/accident-compensation-mact) instead, which is better."
+      },
+      {
+        "icon": "phone",
+        "title": "Get the injury/death documented precisely",
+        "summary": "\"Grievous hurt\" certification decides the ₹50,000 eligibility.",
+        "detail": "For injuries, the hospital record and medico-legal certificate should establish **grievous hurt** (fractures, permanent damage, 20+ days hospitalisation — the IPC/BNS grievous-hurt definitions apply). For death, the post-mortem report and death certificate. The driver who fled faces prosecution — **Section 304A IPC (now Section 106 BNS**, with the stricter hit-and-run clause in 106(2)) — but your compensation does not wait for him to be found."
+      },
+      {
+        "icon": "send",
+        "title": "Apply under the scheme to the district officer",
+        "summary": "Claims Enquiry Officer → District Committee → insurer-run fund pays.",
+        "detail": "File the scheme application (Compensation to Victims of Hit and Run Motor Accidents Scheme, 2022) with the **Claims Enquiry Officer** of your district (SDM/taluk office handles it in most states) attaching FIR, police untraced report, medical/PM records, and legal-heir proof for death claims. The District Level Committee sanctions and the designated insurer (GIC-administered fund) pays **₹2,00,000 (death) / ₹50,000 (grievous injury)** into your bank account. Our ₹199 documentation service prepares the application set.",
+        "serviceHint": "accident-affidavit"
+      },
+      {
+        "icon": "scale",
+        "title": "Track it — and keep the MACT door open",
+        "summary": "Follow up with the committee; traced vehicles reopen full claims.",
+        "detail": "The scheme contemplates disposal within a few months — follow up in writing with the enquiry officer and committee. If police later trace the vehicle, file the **MACT claim within 6 months of tracing**; the scheme amount already received is deducted from the tribunal award, never forfeited. Beware touts offering to \"arrange\" scheme money for a cut — the process is free and direct."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Scheme application",
+          "amount": "Free",
+          "note": "No fee at any stage; payment to your bank account"
+        },
+        {
+          "label": "Fixed compensation",
+          "amount": "₹2,00,000 / ₹50,000",
+          "note": "Death / grievous injury (2022 rates)"
+        },
+        {
+          "label": "Application documentation help",
+          "amount": "₹199",
+          "note": "WakilBhai affidavit + application set"
+        },
+        {
+          "label": "Consultation (traced-vehicle strategy)",
+          "amount": "₹299",
+          "note": "When the MACT route opens"
+        }
+      ],
+      "footnote": "Simple injuries (non-grievous) are outside the scheme. Amounts and procedure are set by the 2022 central scheme — verify current figures at the enquiry office; some states add ex-gratia on top."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "hit and run compensation india",
+      "hit and run case me muavza",
+      "unknown vehicle accident compensation",
+      "section 161 mv act scheme",
+      "hit and run 2 lakh compensation apply",
+      "accident vehicle bhaag gaya compensation"
+    ]
+  },
+  "relatedServiceIds": [
+    "accident-affidavit",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "general-affidavit-format"
+  ],
+  "relatedGuideSlugs": [
+    "accident-compensation-mact",
+    "how-to-file-fir"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Who pays hit-and-run compensation if there is no insurer?",
+        "a": "A central fund administered through the General Insurance Council/designated insurers under Section 161 MV Act — built from insurance contributions precisely for untraced-vehicle victims. The sanctioning happens through your district's Claims Enquiry Officer and District Level Committee."
+      },
+      {
+        "q": "What counts as \"grievous injury\" for the ₹50,000?",
+        "a": "The grievous-hurt categories of criminal law: fractures, permanent privation of sight/hearing, loss of limb or joint use, disfiguration, or injuries causing 20+ days of severe bodily pain/hospitalisation. The medico-legal certificate's wording controls — ensure the treating doctor records the classification."
+      },
+      {
+        "q": "Is there a deadline for the scheme application?",
+        "a": "The 2022 scheme expects claims within a reasonable period and committees can entertain explained delays, but practically: apply within 6 months of the police confirming the vehicle untraced. Sooner filings sail; stale ones invite avoidable scrutiny."
+      },
+      {
+        "q": "The police traced the vehicle after I took the scheme money. What now?",
+        "a": "Good news — file the full MACT claim within 6 months of tracing. The ₹2 lakh/₹50,000 already paid is simply deducted from the tribunal award; a genuine death claim commonly computes to many times the scheme amount, so tracing is worth pushing the police on."
+      },
+      {
+        "q": "The fleeing driver — what does the new law do to him?",
+        "a": "Section 106(1) BNS punishes death by rash/negligent driving (up to 5 years); Section 106(2) targets fleeing without reporting — up to 10 years. The stricter clause's enforcement has been politically deferred amid transporter protests, but prosecution under 106(1)/304A-era law proceeds regardless. Your compensation is independent of his trial."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
