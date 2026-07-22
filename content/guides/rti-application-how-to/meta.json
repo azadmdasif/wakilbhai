@@ -1,0 +1,155 @@
+{
+  "slug": "rti-application-how-to",
+  "category": "government-paperwork",
+  "title": {
+    "en": "How to File an RTI Application — Format, ₹10 Fee, and the 30-Day Clock"
+  },
+  "answerBox": {
+    "en": "Any citizen can file an RTI application to any public authority: write your questions, pay the ₹10 fee, and address it to the department's Public Information Officer — online at rtionline.gov.in for central departments, or by post/state portals for state bodies. The PIO must reply within 30 days (48 hours for life-and-liberty matters). First appeal is free; second appeal goes to the Information Commission."
+  },
+  "keyNumbers": {
+    "en": [
+      "₹10 application fee",
+      "30-day reply deadline",
+      "Free for BPL applicants"
+    ]
+  },
+  "deadlines": {
+    "en": [
+      {
+        "label": "PIO must reply",
+        "duration": "30 days",
+        "startsFrom": "from receipt (48 hrs life/liberty)"
+      },
+      {
+        "label": "Transfer to right authority",
+        "duration": "5 days",
+        "startsFrom": "if misaddressed, s.6(3) transfer"
+      },
+      {
+        "label": "First appeal",
+        "duration": "30 days",
+        "startsFrom": "from reply/deadline lapse; to senior officer"
+      },
+      {
+        "label": "Second appeal",
+        "duration": "90 days",
+        "startsFrom": "to the Information Commission"
+      }
+    ]
+  },
+  "steps": {
+    "en": [
+      {
+        "icon": "file-text",
+        "title": "Frame questions that must be answered",
+        "summary": "Ask for records and specifics, not opinions.",
+        "detail": "RTI (Right to Information Act, 2005) fetches **information held in records**: file notings, status of your application, copies of documents, reasons recorded, action taken on a complaint, expenditure details. Ask numbered, specific questions (\"provide the current status and file noting on application no. X dated Y\"). PIOs cannot answer \"why is the department inefficient\" — they must supply records. Exemptions (s.8 — security, privacy of others, cabinet papers) exist but are narrow and the PIO must justify invoking them."
+      },
+      {
+        "icon": "send",
+        "title": "File it: online, post, or in person",
+        "summary": "rtionline.gov.in for the centre; state portals or post for states.",
+        "detail": "Central ministries/departments: **[rtionline.gov.in](https://rtionline.gov.in)** — pay the **₹10 fee** online and track digitally. State bodies: the state RTI portal where one exists, or **registered post** to \"The Public Information Officer, [department]\" with a ₹10 IPO/court-fee stamp/DD per state rules. **BPL applicants pay nothing** (attach proof). No reasons need be given for seeking information — the Act forbids asking why. Our ₹199 service drafts the application with legally-tight questions.",
+        "serviceHint": "rti-application"
+      },
+      {
+        "icon": "clock",
+        "title": "The 30-day clock and what replies must contain",
+        "summary": "Information, or a justified refusal — silence is a deemed refusal.",
+        "detail": "The PIO must respond within **30 days** (35 via assistant PIO; **48 hours** where life or liberty is at stake). Copying charges (₹2/page) may be demanded — the clock pauses till you pay. A refusal must cite the exact exemption; **silence beyond 30 days is a deemed refusal** and the information must then be provided free. Misaddressed applications must be transferred to the right authority within 5 days (s.6(3)) — so a wrong guess still works."
+      },
+      {
+        "icon": "gavel",
+        "title": "Appeals: free, and they bite",
+        "summary": "First appeal in-house; second to the Information Commission.",
+        "detail": "No/bad reply? File the **first appeal within 30 days** to the department's First Appellate Authority (free; cite the application and the failure). Still stuck: **second appeal within 90 days** to the Central/State **Information Commission** — which can order disclosure and impose **penalties up to ₹25,000 on the PIO personally** (₹250/day of delay). That personal penalty is why RTI appeals get answered. Persistent stonewalling on public-interest matters can also go to the High Court."
+      }
+    ]
+  },
+  "costs": {
+    "en": {
+      "rows": [
+        {
+          "label": "Application fee",
+          "amount": "₹10",
+          "note": "Free for BPL card holders"
+        },
+        {
+          "label": "Copying charges",
+          "amount": "₹2/page",
+          "note": "A4; inspection of records ₹5/hour after first hour"
+        },
+        {
+          "label": "First + second appeals",
+          "amount": "Free",
+          "note": "No fee at either appellate stage (most states)"
+        },
+        {
+          "label": "Professionally drafted RTI",
+          "amount": "₹199",
+          "note": "WakilBhai; free format below"
+        }
+      ],
+      "footnote": "RTI applies to public authorities — government departments, PSUs, and substantially government-funded bodies. Private companies are outside it directly, but information about them held by regulators is fair game."
+    }
+  },
+  "searchKeywords": {
+    "en": [
+      "rti application kaise kare",
+      "rti online apply process",
+      "rti format in english",
+      "rti fees and time limit",
+      "rti first appeal process",
+      "rti se jankari kaise nikale"
+    ]
+  },
+  "relatedServiceIds": [
+    "rti-application",
+    "consultation-call"
+  ],
+  "relatedTemplateSlugs": [
+    "rti-application-format"
+  ],
+  "relatedGuideSlugs": [
+    "police-not-filing-fir",
+    "name-change-process"
+  ],
+  "faqs": {
+    "en": [
+      {
+        "q": "Can the department ask why I want the information?",
+        "a": "No — Section 6(2) expressly bars asking for reasons. You need only your contact details and the fee. Any PIO demanding justification is violating the Act; note it in your first appeal."
+      },
+      {
+        "q": "What if I sent the RTI to the wrong department?",
+        "a": "Section 6(3) obliges the receiving authority to transfer it to the correct one within 5 days and inform you. Your 30-day clock runs from the transferee's receipt. So file your best guess rather than not filing."
+      },
+      {
+        "q": "What information can be refused?",
+        "a": "Section 8 exemptions: national security, trade secrets and commercial confidence, personal information with no public-interest nexus, cabinet papers pending decision, and information barred by courts. Even then, severability applies — the non-exempt part must be given — and the public-interest override can defeat several exemptions."
+      },
+      {
+        "q": "The PIO simply never replied. What now?",
+        "a": "That is a deemed refusal: file the first appeal citing the lapse — information ordered after a deemed refusal comes free of copying charges. If the first appeal also fails, the second appeal puts the PIO at risk of a personal penalty up to ₹25,000, which reliably concentrates minds."
+      },
+      {
+        "q": "Can RTI help my stuck personal file (pension, certificate, complaint)?",
+        "a": "It is the classic use: ask for the current status, the officer holding the file, file notings, and the prescribed timeline for disposal. Files move when inaction becomes a documented record with names attached — many stuck matters resolve within the 30-day RTI window itself."
+      }
+    ]
+  },
+  "reviewer": "Adv. Arjun Nair, Bar Council of Kerala, KER/0973/2012",
+  "updatedAt": "2026-07-22",
+  "publishedAt": "2026-07-22",
+  "author": "WakilBhai Editorial Team",
+  "draftLocales": [
+    "hi",
+    "ur",
+    "bn",
+    "mr",
+    "te",
+    "ta",
+    "gu"
+  ]
+}
