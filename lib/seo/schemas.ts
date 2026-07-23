@@ -119,6 +119,31 @@ export function personSchema({
   };
 }
 
+export interface SoftwareAppSchemaInput {
+  name: string;
+  description: string;
+  url: string;
+}
+
+/**
+ * SoftwareApplication node for a free tool/calculator. Modelled as a free
+ * web utility (price 0) provided by the WakilBhai organisation.
+ */
+export function softwareApplicationSchema({ name, description, url }: SoftwareAppSchemaInput) {
+  return {
+    '@context': CONTEXT,
+    '@type': 'SoftwareApplication',
+    name,
+    description,
+    url,
+    applicationCategory: 'BusinessApplication',
+    operatingSystem: 'Web',
+    isAccessibleForFree: true,
+    offers: { '@type': 'Offer', price: 0, priceCurrency: 'INR' },
+    provider: orgRef(),
+  };
+}
+
 /** FAQPage node. Returns null for an empty list so nothing is emitted. */
 export function faqSchema(faqs: { q: string; a: string }[]) {
   if (faqs.length === 0) return null;

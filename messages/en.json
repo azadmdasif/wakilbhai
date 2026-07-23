@@ -307,7 +307,10 @@
         "deposit": "Security deposit (₹, optional)",
         "propertyValue": "Property value (₹)",
         "dutyResult": "Estimated stamp duty",
-        "baseResult": "Calculated on"
+        "baseResult": "Calculated on",
+        "promise": "Estimate the stamp duty on a rent agreement, sale deed or gift deed, state by state.",
+        "whatMeans": "Stamp duty is the state tax that makes a document legally valid. This estimate uses published headline rates; states add surcharges, cesses and concessions, so treat it as a ballpark. Underpaying can make the document inadmissible in court until you pay the shortfall plus a penalty.",
+        "shareResult": "Estimated stamp duty for {state}: {value}"
       },
       "cheque": {
         "title": "Cheque Bounce Deadline Calculator",
@@ -319,7 +322,10 @@
         "complaintDeadline": "Last date to file the complaint",
         "maxFine": "Fine on conviction can extend to",
         "interim": "Interim compensation (up to 20%) can be",
-        "expired": "The 30-day notice window has passed for this presentation. If the cheque is still within its 3-month validity, you can present it again to restart the timeline."
+        "expired": "The 30-day notice window has passed for this presentation. If the cheque is still within its 3-month validity, you can present it again to restart the timeline.",
+        "promise": "Get every Section 138 cheque-bounce deadline from the day your cheque bounced.",
+        "whatMeans": "These are the hard deadlines in a cheque-bounce case: send the demand notice within 30 days of the return memo, the drawer gets 15 days to pay, and if they do not you must file the complaint within the next 30 days. Miss one and the case can fail.",
+        "shareResult": "My cheque-bounce complaint deadline is {value}"
       },
       "gratuity": {
         "title": "Gratuity Calculator",
@@ -329,8 +335,15 @@
         "result": "Gratuity payable",
         "notEligible": "Gratuity generally requires at least 5 years of continuous service.",
         "countedYears": "Years counted (6+ extra months round up)",
-        "capNote": "Capped at the statutory maximum of ₹20,00,000."
-      }
+        "capNote": "Capped at the statutory maximum of ₹20,00,000.",
+        "promise": "Estimate the gratuity your employer owes you under the Payment of Gratuity Act.",
+        "whatMeans": "This is the gratuity your employer should pay on exit — 15 days' wages (last basic + DA) for every completed year, once you have five years' continuous service. It is the statutory minimum; your contract may promise more. Eligibility for borderline service can be argued, so take advice.",
+        "shareResult": "My gratuity comes to ₹{value}"
+      },
+      "whatMeansHeading": "What this means",
+      "shareResultLabel": "Share result on WhatsApp",
+      "shareSuffix": "— calculated free at {url}",
+      "shareGeneric": "I used WakilBhai's free legal tools — {url}"
     },
     "city": {
       "title": "Rent Agreement in {city} — Stamp Duty, Process and Online Drafting",
