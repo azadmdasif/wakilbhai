@@ -7,14 +7,15 @@ import { getDict } from '@/lib/dictionaries';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { getCategories, getGuideMetas, getTemplates } from '@/lib/content';
 import { getReviews } from '@/content/reviews';
-import { getTools, toolTitle } from '@/lib/tools';
+import { getToolsOrdered, toolHeadings } from '@/lib/tools';
 import { buildWhatsAppUrl, whatsAppLawyerMessage } from '@/lib/whatsapp';
 import SearchBox from '@/components/SearchBox';
 import CategoryIcon from '@/components/CategoryIcon';
 import TrackedLink from '@/components/TrackedLink';
 import HowItWorks from '@/components/HowItWorks';
 import Reviews from '@/components/Reviews';
-import { DownloadIcon, ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon, WhatsAppIcon } from '@/components/Icons';
+import ToolCard from '@/components/tools/ToolCard';
+import { ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon, WhatsAppIcon } from '@/components/Icons';
 
 /** Section header: title (start) + exactly one action link (end). */
 function SectionHeader({ title, action }: { title: string; action: React.ReactNode }) {
@@ -169,39 +170,32 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      {/* Free tools & templates */}
+      {/* Free tools — top 4 from the shared registry (single source with /tools). */}
       <section>
         <SectionHeader
           title={dict.ui.home.toolsTitle}
           action={
-            <Link href={href('/templates')} className={actionLinkClass}>
-              {dict.ui.home.seeAllTemplates} →
+            <Link href={href('/tools')} className={actionLinkClass}>
+              {dict.ui.home.seeAllTools} →
             </Link>
           }
         />
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {getTools().map((tool) => (
-            <Link
-              key={tool.slug}
-              href={href(`/tools/${tool.slug}`)}
-              className="bg-gray-900 border border-brand-gold/30 rounded-2xl p-5 hover:border-brand-gold transition-colors"
-            >
-              <RupeeIcon className="w-6 h-6 text-brand-gold mb-3" />
-              <p className="font-bold text-white text-sm">{toolTitle(dict, tool.widget)}</p>
-              <p className="text-xs text-brand-gold mt-2">{dict.ui.template.free}</p>
-            </Link>
-          ))}
-          {templates.slice(0, 1).map((template) => (
-            <Link
-              key={template.slug}
-              href={href(`/templates/${template.slug}`)}
-              className="bg-gray-900 border border-gray-800 rounded-2xl p-5 hover:border-brand-gold/50 transition-colors"
-            >
-              <DownloadIcon className="w-6 h-6 text-brand-gold mb-3" />
-              <p className="font-bold text-white text-sm">{template.title[locale]}</p>
-              <p className="text-xs text-brand-gold mt-2">{dict.ui.template.free}</p>
-            </Link>
-          ))}
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {getToolsOrdered()
+            .slice(0, 4)
+            .map((tool) => {
+              const { title, promise } = toolHeadings(dict, tool.widget);
+              return (
+                <ToolCard
+                  key={tool.slug}
+                  href={href(`/tools/${tool.slug}`)}
+                  widget={tool.widget}
+                  name={title}
+                  promise={promise}
+                  freeLabel={dict.ui.template.free}
+                />
+              );
+            })}
         </div>
       </section>
 
