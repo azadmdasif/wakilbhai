@@ -1,4 +1,5 @@
 import type { Localized } from './i18n';
+import type { LimitationUnit } from './data/limitation';
 
 // ---------- Stamp duty ----------
 
@@ -81,6 +82,12 @@ function addMonths(date: Date, months: number): Date {
   return out;
 }
 
+function addYears(date: Date, years: number): Date {
+  const out = new Date(date);
+  out.setFullYear(out.getFullYear() + years);
+  return out;
+}
+
 export function computeChequeBounce(amount: number, memoDate: Date, noticeDate?: Date): ChequeBounceResult {
   const notice = noticeDate ?? new Date();
   const paymentWindowEnds = addDays(notice, 15);
@@ -113,4 +120,39 @@ export function computeGratuity(lastDrawnSalary: number, years: number, extraMon
   const raw = Math.round((15 / 26) * lastDrawnSalary * countedYears);
   const gratuity = eligible ? Math.min(raw, GRATUITY_CAP_INR) : 0;
   return { eligible, countedYears, gratuity, capped: eligible && raw > GRATUITY_CAP_INR };
+}
+
+// ---------- Limitation deadline ----------
+
+/** The last date to file, counting a limitation window forward from a start date. */
+export function computeLimitationDeadline(startDate: Date, value: number, unit: LimitationUnit): Date {
+  switch (unit) {
+    case 'years':
+      return addYears(startDate, value);
+    case 'months':
+      return addMonths(startDate, value);
+    case 'days':
+      return addDays(startDate, value);
+  }
+}
+
+// ---------- Employment notice period ----------
+
+export interface NoticePeriodResult {
+  /** The last working day = served date + the notice length. */
+  lastWorkingDay: Date;
+  /** Whole days from today until the last working day (negative if past). */
+  daysRemaining: number;
+}
+
+export function computeNoticePeriod(servedDate: Date, value: number, unit: 'days' | 'months'): NoticePeriodResult {
+  const lastWorkingDay = unit === 'months' ? addMonths(servedDate, value) : addDays(servedDate, value);
+  const today = new Date();
+  const msPerDay = 1000 * 60 * 60 * 24;
+  const daysRemaining = Math.ceil(
+    (Date.UTC(lastWorkingDay.getFullYear(), lastWorkingDay.getMonth(), lastWorkingDay.getDate()) -
+      Date.UTC(today.getFullYear(), today.getMonth(), today.getDate())) /
+      msPerDay,
+  );
+  return { lastWorkingDay, daysRemaining };
 }

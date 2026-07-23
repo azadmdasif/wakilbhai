@@ -12,7 +12,7 @@ const faq = z.object({ q: z.string().min(1), a: z.string().min(1) });
 const localizedFaqs = localized(z.array(faq));
 
 /** Every interactive tool widget. Add a widget → add its WIDGETS entry + dict block. */
-export const toolWidgets = ['cheque-bounce', 'stamp-duty', 'gratuity'] as const;
+export const toolWidgets = ['cheque-bounce', 'limitation', 'notice-period', 'stamp-duty', 'gratuity'] as const;
 export type ToolWidget = (typeof toolWidgets)[number];
 
 const toolConfigSchema = z.object({
@@ -27,7 +27,7 @@ const toolConfigSchema = z.object({
 export type ToolConfig = z.infer<typeof toolConfigSchema> & { title?: Localized };
 
 /** Which dict.ui.calc sub-block a widget reads its title/promise/whatMeans from. */
-type CalcKey = 'stamp' | 'cheque' | 'gratuity';
+type CalcKey = 'stamp' | 'cheque' | 'gratuity' | 'limitation' | 'notice';
 
 /**
  * Per-widget metadata. `order` is the display priority across the tools hub and
@@ -35,6 +35,8 @@ type CalcKey = 'stamp' | 'cheque' | 'gratuity';
  */
 export const WIDGETS: Record<ToolWidget, { dictKey: CalcKey; order: number }> = {
   'cheque-bounce': { dictKey: 'cheque', order: 1 },
+  'limitation': { dictKey: 'limitation', order: 2 },
+  'notice-period': { dictKey: 'notice', order: 3 },
   'stamp-duty': { dictKey: 'stamp', order: 5 },
   'gratuity': { dictKey: 'gratuity', order: 6 },
 };
@@ -69,6 +71,10 @@ function toolBlock(dict: Dict, widget: ToolWidget) {
       return c.cheque;
     case 'gratuity':
       return c.gratuity;
+    case 'limitation':
+      return c.limitation;
+    case 'notice':
+      return c.notice;
   }
 }
 

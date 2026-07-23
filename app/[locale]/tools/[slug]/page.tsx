@@ -7,12 +7,15 @@ import { getService, getGuideMeta } from '@/lib/content';
 import { getTool, getTools, toolHeadings } from '@/lib/tools';
 import stampData from '@/content/calculators/stamp-duty.json';
 import type { StampDutyData } from '@/lib/calculators';
+import { LIMITATION } from '@/lib/data/limitation';
 import { SITE_URL } from '@/lib/site';
 import ToolShell from '@/components/tools/ToolShell';
 import type { CtaLadderService } from '@/components/cta/CtaLadder';
 import StampDutyCalculator from '@/components/calculators/StampDutyCalculator';
 import ChequeBounceCalculator from '@/components/calculators/ChequeBounceCalculator';
 import GratuityCalculator from '@/components/calculators/GratuityCalculator';
+import LimitationChecker, { type LimitationChoice } from '@/components/calculators/LimitationChecker';
+import NoticePeriodCalculator from '@/components/calculators/NoticePeriodCalculator';
 
 export function generateStaticParams() {
   return locales.flatMap((locale) => getTools().map((tool) => ({ locale, slug: tool.slug })));
@@ -54,6 +57,29 @@ export default async function ToolPage({ params }: { params: Promise<{ locale: s
     ? { href: href(`/help/${relatedMeta.category}/${relatedMeta.slug}`), title: relatedMeta.title[locale] }
     : undefined;
 
+  // Resolve the limitation lookup rows (localized label + "counted from" +
+  // window text + matching guide link) once, on the server.
+  let limitationChoices: LimitationChoice[] = [];
+  if (tool.widget === 'limitation') {
+    const L = dict.ui.calc.limitation;
+    const items = L.items as Record<string, { label: string; countedFrom: string }>;
+    limitationChoices = LIMITATION.map((e) => {
+      const { value, unit } = e.window;
+      const word = (value === 1 ? L.unitOne : L.unitOther)[unit];
+      const g = e.guideSlug ? getGuideMeta(e.guideSlug) : undefined;
+      return {
+        id: e.id,
+        label: items[e.id].label,
+        countedFrom: items[e.id].countedFrom,
+        windowLabel: `${value} ${word}`,
+        citation: e.citation,
+        value,
+        unit,
+        guideHref: g ? href(`/help/${g.category}/${g.slug}`) : undefined,
+      };
+    });
+  }
+
   return (
     <ToolShell
       locale={locale}
@@ -72,6 +98,10 @@ export default async function ToolPage({ params }: { params: Promise<{ locale: s
       )}
       {tool.widget === 'cheque-bounce' && <ChequeBounceCalculator locale={locale} strings={dict.ui.calc} shareUrl={canonicalUrl} />}
       {tool.widget === 'gratuity' && <GratuityCalculator locale={locale} strings={dict.ui.calc} shareUrl={canonicalUrl} />}
+      {tool.widget === 'limitation' && (
+        <LimitationChecker locale={locale} strings={dict.ui.calc} shareUrl={canonicalUrl} choices={limitationChoices} />
+      )}
+      {tool.widget === 'notice-period' && <NoticePeriodCalculator locale={locale} strings={dict.ui.calc} shareUrl={canonicalUrl} />}
     </ToolShell>
   );
 }

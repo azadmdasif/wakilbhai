@@ -343,7 +343,85 @@
       "whatMeansHeading": "What this means",
       "shareResultLabel": "Share result on WhatsApp",
       "shareSuffix": "— calculated free at {url}",
-      "shareGeneric": "I used WakilBhai's free legal tools — {url}"
+      "shareGeneric": "I used WakilBhai's free legal tools — {url}",
+      "limitation": {
+        "title": "Limitation Period Checker",
+        "promise": "Find how long you have to take a matter to court — and the day the clock starts.",
+        "whatMeans": "The limitation period is the deadline to file a case. File after it and the court will usually reject the matter, however strong it is. The clock starts from the 'counted from' event shown, not the day you decide to act — so check early. Courts can sometimes condone delay, but never rely on it.",
+        "shareResult": "The limitation period for my matter is {value}",
+        "selectLabel": "What is your matter about?",
+        "startLabel": "Date the cause arose (optional)",
+        "windowLabel": "Time limit to file",
+        "countedFromLabel": "Counted from",
+        "deadlineLabel": "Your last date to file",
+        "sourceLabel": "Source",
+        "guideLinkLabel": "Read the guide",
+        "items": {
+          "money-lent": {
+            "label": "Money lent / loan not repaid",
+            "countedFrom": "when the loan was due to be repaid"
+          },
+          "breach-of-contract": {
+            "label": "Breach of a contract",
+            "countedFrom": "the date the contract was broken"
+          },
+          "price-of-goods": {
+            "label": "Unpaid price of goods sold",
+            "countedFrom": "the date the goods were delivered"
+          },
+          "arrears-of-rent": {
+            "label": "Arrears of rent",
+            "countedFrom": "when each month's rent fell due"
+          },
+          "security-deposit": {
+            "label": "Security deposit not returned",
+            "countedFrom": "when the deposit became refundable (on vacating)"
+          },
+          "immovable-possession": {
+            "label": "Possession of immovable property",
+            "countedFrom": "when the possession became adverse to you"
+          },
+          "property-partition": {
+            "label": "Partition of family property",
+            "countedFrom": "when you were excluded or ousted"
+          },
+          "cheque-138": {
+            "label": "Cheque bounce (criminal complaint)",
+            "countedFrom": "the end of the 15-day payment window after the notice"
+          },
+          "consumer-complaint": {
+            "label": "Consumer complaint",
+            "countedFrom": "the date the cause of action arose"
+          },
+          "residuary": {
+            "label": "Any other civil matter",
+            "countedFrom": "when your right to sue first accrued"
+          }
+        },
+        "unitOne": {
+          "years": "year",
+          "months": "month",
+          "days": "day"
+        },
+        "unitOther": {
+          "years": "years",
+          "months": "months",
+          "days": "days"
+        }
+      },
+      "notice": {
+        "title": "Notice Period Calculator",
+        "promise": "Work out your last working day from the date your resignation or notice was served.",
+        "whatMeans": "Your last working day is the notice-served date plus the notice period in your contract. Serving proper notice — or paying salary in lieu — usually lets you leave cleanly. If the employer waives or shortens it, agree that in writing. This is a date estimate, not advice on disputes over recovery or buyout.",
+        "shareResult": "My last working day is {value}",
+        "servedLabel": "Date notice was served",
+        "periodLabel": "Notice period in your contract",
+        "unitDays": "Days",
+        "unitMonths": "Months",
+        "lastDayLabel": "Last working day",
+        "remainingLabel": "Days remaining from today",
+        "servedPast": "That last working day is already in the past based on today's date."
+      }
     },
     "city": {
       "title": "Rent Agreement in {city} — Stamp Duty, Process and Online Drafting",

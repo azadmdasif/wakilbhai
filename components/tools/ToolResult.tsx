@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import ShareResult from './ShareResult';
 
 export interface ResultRow {
@@ -21,6 +22,7 @@ export default function ToolResult({
   message,
   warning,
   note,
+  link,
   share,
 }: {
   primary?: { label: string; value: string };
@@ -28,6 +30,7 @@ export default function ToolResult({
   message?: string;
   warning?: string;
   note?: string;
+  link?: { href: string; label: string };
   share: { message: string; label: string };
 }) {
   return (
@@ -63,8 +66,13 @@ export default function ToolResult({
 
       {note && <p className="mt-5 text-xs leading-relaxed text-[#6B7280]">{note}</p>}
 
-      <div className="mt-5">
+      <div className="mt-5 flex flex-wrap items-center gap-4">
         <ShareResult message={share.message} label={share.label} />
+        {link && (
+          <Link href={link.href} className="text-sm font-semibold text-brand-red underline-offset-4 hover:underline">
+            {link.label} →
+          </Link>
+        )}
       </div>
     </div>
   );
