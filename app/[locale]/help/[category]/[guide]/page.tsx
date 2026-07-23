@@ -1,12 +1,15 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { locales, localePath, isLocale, localeLang, type Locale } from '@/lib/i18n';
+import { locales, localePath, isLocale, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { SITE_URL } from '@/lib/site';
 import { getCategory, getLocalizedGuide, getGuideMeta, getGuideMetas, getService, getTemplate, guideLocales } from '@/lib/content';
+import { parseReviewer } from '@/lib/content/schema';
+import { findPersonByName, isRealReviewer } from '@/content/people';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import ByLine from '@/components/guide/ByLine';
 import JsonLd from '@/components/seo/JsonLd';
 import { articleSchema, breadcrumbSchema, faqSchema } from '@/lib/seo/schemas';
 import MdxContent from '@/components/MdxContent';
@@ -52,18 +55,6 @@ export async function generateMetadata({
   });
 }
 
-function formatDate(iso: string, locale: Locale): string {
-  // numberingSystem: 'latn' keeps digits Latin (₹/dates read the same across
-  // scripts) even where the locale's default numbering is native.
-  return new Date(`${iso}T00:00:00Z`).toLocaleDateString(localeLang[locale], {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'UTC',
-    numberingSystem: 'latn',
-  });
-}
-
 /** Body is "real" prose only if something survives stripping MDX comments/whitespace. */
 function hasBodyProse(body: string): boolean {
   return body.replace(/\{\/\*[\s\S]*?\*\/\}/g, '').trim().length > 0;
@@ -86,6 +77,13 @@ export default async function GuidePage({
   const primaryService = guide.relatedServiceIds.map(getService).find(Boolean);
   const templates = guide.relatedTemplateSlugs.map(getTemplate).filter((t) => t !== undefined);
   const canonicalUrl = `${SITE_URL}${href(`/help/${categorySlug}/${guideSlug}`)}`;
+
+  // Resolve the byline against the people registry. The reviewer is only
+  // credited (in the byline and the Article schema) when they are a genuine,
+  // non-placeholder advocate — otherwise we honestly show "Review pending".
+  const reviewerName = parseReviewer(guide.reviewer).name;
+  const reviewerPerson = findPersonByName(reviewerName);
+  const realReviewer = isRealReviewer(reviewerPerson) ? reviewerPerson : undefined;
 
   // ── Structured slots resolved from front-matter (template owns the order) ──
   const deadlines = guide.deadlines?.[locale];
@@ -126,7 +124,7 @@ export default async function GuidePage({
             datePublished: guide.publishedAt,
             dateModified: guide.updatedAt,
             authorName: guide.author,
-            reviewerName: guide.reviewer,
+            reviewerName: realReviewer ? `Adv. ${realReviewer.name}` : undefined,
             url: canonicalUrl,
           }),
           faqSchema(guide.faqs[locale]),
@@ -154,20 +152,19 @@ export default async function GuidePage({
           {guide.title[locale]}
         </h1>
 
-        {/* Meta row: Updated · Written by · Reviewed by Adv. */}
-        <div className="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-[#6B7280]">
-          <span>
-            {dict.common.updatedOn}: <time dateTime={guide.updatedAt}>{formatDate(guide.updatedAt, locale)}</time>
-          </span>
-          <span aria-hidden>·</span>
-          <span>
-            {gt.writtenBy} {guide.author}
-          </span>
-          <span aria-hidden>·</span>
-          <span>
-            {gt.reviewedBy} {guide.reviewer}
-          </span>
-        </div>
+        {/* Meta row: Updated · Written by · Reviewed by Adv. (or Review pending). */}
+        <ByLine
+          locale={locale}
+          authorName={guide.author}
+          reviewerName={reviewerName}
+          updatedAt={guide.updatedAt}
+          labels={{
+            updatedOn: dict.common.updatedOn,
+            writtenBy: gt.writtenBy,
+            reviewedBy: gt.reviewedBy,
+            reviewPending: gt.reviewPending,
+          }}
+        />
 
         {/* 60-second answer: the featured-snippet + AI-quote target. id is the
             scroll anchor the StickyGuideBar watches. */}

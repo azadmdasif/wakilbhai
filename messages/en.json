@@ -227,7 +227,8 @@
       "reviewedBy": "Reviewed by",
       "costsTitle": "Costs & what to expect",
       "decisionTitle": "Which path applies to you?",
-      "stepsTitle": "Step-by-step: what to do"
+      "stepsTitle": "Step-by-step: what to do",
+      "reviewPending": "Review pending"
     },
     "template": {
       "indexTitle": "Free legal document templates",
@@ -419,6 +420,18 @@
       "citiesBody": "Documents and consultations are delivered online across India — every state, in English, Hindi, Bengali and Urdu (more languages rolling out). Court appearances, where needed, are by independent advocates in your city.",
       "howHeading": "How it works",
       "disclaimerNote": "We are not a law firm and do not give legal advice. Our guides are general information; for advice on your specific matter, consult a qualified advocate — we can connect you to one for free on WhatsApp."
+    },
+    "people": {
+      "authorRole": "Author",
+      "reviewerRole": "Advocate reviewer",
+      "barCouncil": "Bar Council",
+      "enrolment": "Enrolment no.",
+      "areasHeading": "Practice areas",
+      "pendingTitle": "Verification pending",
+      "pendingBody": "This partner profile is being finalised. Until it is verified, guides list “Review pending” and we do not claim this advocate has reviewed them.",
+      "authorMetaDesc": "{name} — author at WakilBhai, India's plain-language legal documentation service.",
+      "reviewerMetaDesc": "Adv. {name}, {barCouncil} — an independent advocate partner who reviews WakilBhai legal guides.",
+      "backToGuides": "Browse legal guides"
     }
   },
   "meta": {

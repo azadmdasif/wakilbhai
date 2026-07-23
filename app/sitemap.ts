@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { locales, localePath, type Locale } from '@/lib/i18n';
 import { SITE_URL } from '@/lib/site';
 import { getCategories, getGuideMetas, getServices, getTemplates, guideLocales } from '@/lib/content';
+import { getPeople } from '@/content/people';
 import { getTools } from '@/lib/tools';
 import { getBuildableCities } from '@/lib/locations';
 
@@ -64,6 +65,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       locales: guideLocales(g),
     })),
+
+    // People profiles — only verified (non-placeholder) entries are indexed.
+    ...getPeople()
+      .filter((p) => !p.placeholder)
+      .map((p) => ({ path: `/people/${p.slug}`, priority: 0.3 })),
 
     // Templates, tools, services, city landing pages
     ...getTemplates().map((t) => ({ path: `/templates/${t.slug}` })),

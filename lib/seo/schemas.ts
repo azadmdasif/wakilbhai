@@ -78,6 +78,47 @@ export function articleSchema({
   };
 }
 
+export interface PersonSchemaInput {
+  name: string;
+  url: string;
+  /** e.g. "Advocate" or "Author". */
+  jobTitle?: string;
+  description?: string;
+  /** Practice / editorial areas → `knowsAbout`. */
+  knowsAbout?: string[];
+  /** Enrolling Bar Council → modelled as the affiliated organisation. */
+  affiliation?: string;
+  image?: string;
+}
+
+/**
+ * Person node for a /people/{slug} profile (guide author or advocate reviewer).
+ * `worksFor` is the WakilBhai organisation; an advocate's Bar Council is
+ * attached as `affiliation`. Optional fields are omitted when absent.
+ */
+export function personSchema({
+  name,
+  url,
+  jobTitle,
+  description,
+  knowsAbout,
+  affiliation,
+  image,
+}: PersonSchemaInput) {
+  return {
+    '@context': CONTEXT,
+    '@type': 'Person',
+    name,
+    url,
+    ...(jobTitle ? { jobTitle } : {}),
+    ...(description ? { description } : {}),
+    ...(knowsAbout && knowsAbout.length ? { knowsAbout } : {}),
+    ...(affiliation ? { affiliation: { '@type': 'Organization', name: affiliation } } : {}),
+    ...(image ? { image } : {}),
+    worksFor: orgRef(),
+  };
+}
+
 /** FAQPage node. Returns null for an empty list so nothing is emitted. */
 export function faqSchema(faqs: { q: string; a: string }[]) {
   if (faqs.length === 0) return null;
