@@ -51,7 +51,7 @@ export default function StampDutyCalculator({ locale, data, strings, shareUrl }:
         onSubmit={(e) => {
           e.preventDefault();
           setSubmitted(true);
-          trackEvent('calculator_complete', { calculator: 'stamp-duty', state, docType });
+          trackEvent('tool_used', { tool: 'stamp-duty' });
         }}
       >
         <div className="grid gap-5 sm:grid-cols-2">
@@ -101,7 +101,7 @@ export default function StampDutyCalculator({ locale, data, strings, shareUrl }:
           primary={{ label: T.dutyResult, value: `₹${inr.format(result.duty)}` }}
           rows={[{ label: T.baseResult, value: `₹${inr.format(result.baseAmount)}` }]}
           note={strings.estimateNote}
-          share={{ message: shareMessage, label: strings.shareResultLabel }}
+          share={{ message: shareMessage, label: strings.shareResultLabel, slug: shareUrl.split('/').pop() ?? '' }}
         />
       )}
     </div>

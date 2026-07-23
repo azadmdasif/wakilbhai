@@ -7,6 +7,7 @@ import FaqAccordion from '@/components/FaqAccordion';
 import Disclaimer from '@/components/Disclaimer';
 import CtaLadder, { type CtaLadderService } from '@/components/cta/CtaLadder';
 import JsonLd from '@/components/seo/JsonLd';
+import ScrollDepth from '@/components/analytics/ScrollDepth';
 import { softwareApplicationSchema, faqSchema, breadcrumbSchema } from '@/lib/seo/schemas';
 
 export interface ToolShellRelatedGuide {
@@ -52,6 +53,7 @@ export default function ToolShell({
 
   return (
     <div className="mx-auto max-w-3xl pb-24 lg:pb-0">
+      <ScrollDepth slug={slug} />
       <JsonLd
         data={[
           softwareApplicationSchema({ name: title, description: promise, url: canonicalUrl }),

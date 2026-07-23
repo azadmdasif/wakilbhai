@@ -34,7 +34,7 @@ export default function SearchBox({ locale, placeholder, label, noResultsText, a
     e.preventDefault();
     const q = query.trim();
     if (!q) return;
-    trackEvent('search', { query: q.slice(0, 100), locale, submitted: true });
+    trackEvent('search_query', { q: q.slice(0, 100) });
     setOpen(false);
     router.push(`${localePath(locale, '/help')}?q=${encodeURIComponent(q)}`);
   };
@@ -86,7 +86,7 @@ export default function SearchBox({ locale, placeholder, label, noResultsText, a
     // Debounced funnel events: what people search, and what we miss.
     if (debounceRef.current) clearTimeout(debounceRef.current);
     debounceRef.current = setTimeout(() => {
-      trackEvent(found.length === 0 ? 'search_zero_results' : 'search', { query: value.trim().slice(0, 100), locale });
+      trackEvent('search_query', { q: value.trim().slice(0, 100), results: found.length });
     }, 800);
   };
 

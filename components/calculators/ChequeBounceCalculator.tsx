@@ -45,7 +45,7 @@ export default function ChequeBounceCalculator({ locale, strings, shareUrl }: Pr
         onSubmit={(e) => {
           e.preventDefault();
           setSubmitted(true);
-          trackEvent('calculator_complete', { calculator: 'cheque-bounce' });
+          trackEvent('tool_used', { tool: 'cheque-bounce' });
         }}
       >
         <div>
@@ -76,7 +76,7 @@ export default function ChequeBounceCalculator({ locale, strings, shareUrl }: Pr
           ]}
           warning={noticeWindowExpired ? T.expired : undefined}
           note={strings.estimateNote}
-          share={{ message: shareMessage, label: strings.shareResultLabel }}
+          share={{ message: shareMessage, label: strings.shareResultLabel, slug: shareUrl.split('/').pop() ?? '' }}
         />
       )}
     </div>

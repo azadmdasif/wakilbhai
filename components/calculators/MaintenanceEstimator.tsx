@@ -38,7 +38,7 @@ export default function MaintenanceEstimator({ strings, shareUrl }: Props) {
         onSubmit={(e) => {
           e.preventDefault();
           setSubmitted(true);
-          trackEvent('calculator_complete', { calculator: 'maintenance' });
+          trackEvent('tool_used', { tool: 'maintenance' });
         }}
       >
         <div>
@@ -58,7 +58,7 @@ export default function MaintenanceEstimator({ strings, shareUrl }: Props) {
         <ToolResult
           primary={{ label: T.rangeLabel, value: rangeText }}
           note={T.note}
-          share={{ message: shareMessage, label: strings.shareResultLabel }}
+          share={{ message: shareMessage, label: strings.shareResultLabel, slug: shareUrl.split('/').pop() ?? '' }}
         />
       )}
     </div>

@@ -39,7 +39,7 @@ export default function NoticePeriodCalculator({ locale, strings, shareUrl }: Pr
         onSubmit={(e) => {
           e.preventDefault();
           setSubmitted(true);
-          trackEvent('calculator_complete', { calculator: 'notice-period' });
+          trackEvent('tool_used', { tool: 'notice-period' });
         }}
       >
         <div>
@@ -68,7 +68,7 @@ export default function NoticePeriodCalculator({ locale, strings, shareUrl }: Pr
           rows={[{ label: T.remainingLabel, value: String(Math.max(result.daysRemaining, 0)) }]}
           warning={result.daysRemaining < 0 ? T.servedPast : undefined}
           note={strings.estimateNote}
-          share={{ message: shareMessage, label: strings.shareResultLabel }}
+          share={{ message: shareMessage, label: strings.shareResultLabel, slug: shareUrl.split('/').pop() ?? '' }}
         />
       )}
     </div>

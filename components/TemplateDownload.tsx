@@ -17,7 +17,7 @@ export default function TemplateDownload({
   label: string;
 }) {
   const download = (format: string) => {
-    trackEvent('template_download', { template: slug, format, gated: false });
+    trackEvent('template_download', { slug, format });
     const a = document.createElement('a');
     a.href = `/templates/${slug}.${format}`;
     a.download = '';

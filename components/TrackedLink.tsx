@@ -1,20 +1,28 @@
 'use client';
 
 import Link from 'next/link';
-import { trackEvent } from '@/lib/analytics';
+import { trackEvent, type EventMap, type EventName } from '@/lib/analytics';
 
-interface TrackedLinkProps {
+interface TrackedLinkProps<K extends EventName> {
   href: string;
-  event: 'cta_click' | 'whatsapp_click' | 'whatsapp_cta_click';
-  props?: Record<string, string | number | boolean>;
+  event: K;
+  props: EventMap[K];
   external?: boolean;
   className?: string;
   children: React.ReactNode;
   ariaLabel?: string;
 }
 
-/** Link/anchor that fires a funnel event on click. */
-export default function TrackedLink({ href, event, props, external, className, children, ariaLabel }: TrackedLinkProps) {
+/** Link/anchor that fires a typed funnel event on click. */
+export default function TrackedLink<K extends EventName>({
+  href,
+  event,
+  props,
+  external,
+  className,
+  children,
+  ariaLabel,
+}: TrackedLinkProps<K>) {
   const onClick = () => trackEvent(event, props);
   if (external) {
     return (

@@ -55,7 +55,7 @@ export default function RentAgreementCost({ locale, data, strings, shareUrl }: P
         onSubmit={(e) => {
           e.preventDefault();
           setSubmitted(true);
-          trackEvent('calculator_complete', { calculator: 'rent-cost', state });
+          trackEvent('tool_used', { tool: 'rent-cost' });
         }}
       >
         <div className="grid gap-5 sm:grid-cols-2">
@@ -91,7 +91,7 @@ export default function RentAgreementCost({ locale, data, strings, shareUrl }: P
             { label: T.registrationLabel, value: `₹${inr.format(registration)}` },
           ]}
           note={strings.estimateNote}
-          share={{ message: shareMessage, label: strings.shareResultLabel }}
+          share={{ message: shareMessage, label: strings.shareResultLabel, slug: shareUrl.split('/').pop() ?? '' }}
         />
       )}
     </div>

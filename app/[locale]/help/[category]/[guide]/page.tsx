@@ -10,6 +10,7 @@ import { parseReviewer } from '@/lib/content/schema';
 import { findPersonByName, isRealReviewer } from '@/content/people';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ByLine from '@/components/guide/ByLine';
+import ScrollDepth from '@/components/analytics/ScrollDepth';
 import JsonLd from '@/components/seo/JsonLd';
 import { articleSchema, breadcrumbSchema, faqSchema } from '@/lib/seo/schemas';
 import MdxContent from '@/components/MdxContent';
@@ -116,6 +117,7 @@ export default async function GuidePage({
 
   return (
     <div className="mx-auto max-w-3xl pb-24 lg:pb-0">
+      <ScrollDepth slug={guideSlug} />
       <JsonLd
         data={[
           articleSchema({
@@ -276,7 +278,7 @@ export default async function GuidePage({
 
         {/* Growth loop: forward the guide into family/community WhatsApp groups. */}
         <div className="mt-12 border-t border-black/10 pt-8">
-          <ShareOnWhatsApp locale={locale} title={guide.title[locale]} url={canonicalUrl} label={gt.shareOnWhatsApp} />
+          <ShareOnWhatsApp locale={locale} title={guide.title[locale]} url={canonicalUrl} slug={guideSlug} label={gt.shareOnWhatsApp} />
         </div>
 
         <p className="mt-8 border-t border-black/10 pt-6 text-xs leading-relaxed text-[#6B7280]">{gt.disclaimer}</p>

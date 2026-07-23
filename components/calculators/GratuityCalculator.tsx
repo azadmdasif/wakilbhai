@@ -38,7 +38,7 @@ export default function GratuityCalculator({ strings, shareUrl }: Props) {
         onSubmit={(e) => {
           e.preventDefault();
           setSubmitted(true);
-          trackEvent('calculator_complete', { calculator: 'gratuity' });
+          trackEvent('tool_used', { tool: 'gratuity' });
         }}
       >
         <div>
@@ -64,13 +64,13 @@ export default function GratuityCalculator({ strings, shareUrl }: Props) {
             primary={{ label: T.result, value: `₹${inr.format(result.gratuity)}` }}
             rows={[{ label: T.countedYears, value: String(result.countedYears) }]}
             note={`${result.capped ? `${T.capNote} ` : ''}${strings.estimateNote}`}
-            share={{ message: shareMessage, label: strings.shareResultLabel }}
+            share={{ message: shareMessage, label: strings.shareResultLabel, slug: shareUrl.split('/').pop() ?? '' }}
           />
         ) : (
           <ToolResult
             message={T.notEligible}
             note={strings.estimateNote}
-            share={{ message: shareMessage, label: strings.shareResultLabel }}
+            share={{ message: shareMessage, label: strings.shareResultLabel, slug: shareUrl.split('/').pop() ?? '' }}
           />
         )
       )}

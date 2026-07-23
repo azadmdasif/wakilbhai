@@ -50,8 +50,8 @@ export default function CtaLadder({
           <p className="mt-1 text-sm text-white/85">{strings.delivered.replace('{days}', String(service.days))}</p>
           <TrackedLink
             href={localePath(locale, `/services/${service.slug}`)}
-            event="cta_click"
-            props={{ cta: 'ladder-primary', service: service.slug }}
+            event="cta_ladder_click"
+            props={{ tier: 'primary', service: service.slug }}
             className="mt-4 flex min-h-[48px] w-full items-center justify-center rounded-full bg-white px-6 text-base font-bold text-brand-red transition-colors hover:bg-gray-100"
           >
             {strings.getItDone}
@@ -61,8 +61,8 @@ export default function CtaLadder({
 
       <TrackedLink
         href={whatsappHref}
-        event="whatsapp_cta_click"
-        props={{ context: 'ladder-secondary' }}
+        event="cta_ladder_click"
+        props={{ tier: 'secondary' }}
         external
         className="flex min-h-[48px] items-center justify-center gap-2 rounded-full border-2 border-whatsapp px-6 py-3 text-center font-bold text-whatsapp transition-colors hover:bg-whatsapp hover:text-white"
       >
@@ -72,8 +72,8 @@ export default function CtaLadder({
 
       <TrackedLink
         href={consultHref}
-        event="cta_click"
-        props={{ cta: 'ladder-tertiary' }}
+        event="cta_ladder_click"
+        props={{ tier: 'tertiary' }}
         className="py-1 text-center text-sm font-medium text-[#6B7280] underline-offset-4 hover:text-brand-red hover:underline"
       >
         {strings.complex}

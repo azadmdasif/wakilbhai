@@ -66,6 +66,8 @@ export default async function LocaleLayout({
   if (!isLocale(locale)) notFound();
   const dict = getDict(locale as Locale);
   const navT = dict.nav;
+  // GA4 measurement id (G-…); the Ads tag (GTAG_ID) always loads gtag.js.
+  const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
   const nav = [
     { path: '/', text: navT.home },
@@ -107,12 +109,19 @@ export default async function LocaleLayout({
           <WhatsAppLawyerButton label={dict.common.whatsappLawyerFree} />
         </div>
         <Analytics />
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GTAG_ID}`} strategy="afterInteractive" />
+        {/* gtag.js drives both the Google Ads tag (GTAG_ID) and GA4
+            (NEXT_PUBLIC_GA_ID, when set). Both configs are gated on Do Not
+            Track, so DNT users get no GA cookies or pageviews — which is why no
+            cookie banner is needed (see README → Analytics). */}
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID ?? GTAG_ID}`} strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', '${GTAG_ID}');`}
+var _dnt = navigator.doNotTrack=='1'||window.doNotTrack=='1'||navigator.msDoNotTrack=='1';
+if(!_dnt){
+gtag('config', '${GTAG_ID}');${GA_ID ? `\ngtag('config', '${GA_ID}');` : ''}
+}`}
         </Script>
       </body>
     </html>

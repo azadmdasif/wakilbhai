@@ -31,7 +31,7 @@ export default function ToolResult({
   warning?: string;
   note?: string;
   link?: { href: string; label: string };
-  share: { message: string; label: string };
+  share: { message: string; label: string; slug: string };
 }) {
   return (
     <div className="mt-5 rounded-2xl border border-black/10 bg-white/70 p-6" role="status">
@@ -67,7 +67,7 @@ export default function ToolResult({
       {note && <p className="mt-5 text-xs leading-relaxed text-[#6B7280]">{note}</p>}
 
       <div className="mt-5 flex flex-wrap items-center gap-4">
-        <ShareResult message={share.message} label={share.label} />
+        <ShareResult message={share.message} label={share.label} slug={share.slug} />
         {link && (
           <Link href={link.href} className="text-sm font-semibold text-brand-red underline-offset-4 hover:underline">
             {link.label} →

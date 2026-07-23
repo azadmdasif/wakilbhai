@@ -60,7 +60,7 @@ export default function LimitationChecker({ locale, strings, shareUrl, choices }
             value={id}
             onChange={(e) => {
               setId(e.target.value);
-              trackEvent('calculator_complete', { calculator: 'limitation', matter: e.target.value });
+              trackEvent('tool_used', { tool: 'limitation' });
             }}
             className={toolInput}
           >
@@ -80,7 +80,7 @@ export default function LimitationChecker({ locale, strings, shareUrl, choices }
         rows={rows}
         note={strings.estimateNote}
         link={choice.guideHref ? { href: choice.guideHref, label: L.guideLinkLabel } : undefined}
-        share={{ message: shareMessage, label: strings.shareResultLabel }}
+        share={{ message: shareMessage, label: strings.shareResultLabel, slug: shareUrl.split('/').pop() ?? '' }}
       />
     </div>
   );

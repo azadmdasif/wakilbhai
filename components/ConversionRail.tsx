@@ -40,15 +40,15 @@ export default function ConversionRail({ locale, dict, service, referralOnly, wh
           <p className="text-sm text-gray-400">{rail.referralText}</p>
           <TrackedLink
             href={consultHref}
-            event="cta_click"
-            props={{ cta: 'consultation', context }}
+            event="service_order_click"
+            props={{ service: 'consultation-call', context }}
             className="block text-center font-bold py-3 px-6 rounded-full bg-brand-red text-white hover:bg-red-700 transition-colors"
           >
             {rail.referralCta}
           </TrackedLink>
           <TrackedLink
             href={whatsappUrl}
-            event="whatsapp_click"
+            event="whatsapp_cta_click"
             props={{ context }}
             external
             className="flex items-center justify-center gap-2 font-bold py-3 px-6 rounded-full bg-gray-800 text-white hover:bg-gray-700 transition-colors"
@@ -61,15 +61,15 @@ export default function ConversionRail({ locale, dict, service, referralOnly, wh
           <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-gray-950/95 backdrop-blur border-t border-gray-800 p-3 flex gap-3">
             <TrackedLink
               href={consultHref}
-              event="cta_click"
-              props={{ cta: 'consultation', context }}
+              event="service_order_click"
+              props={{ service: 'consultation-call', context }}
               className="flex-1 text-center font-bold py-3 px-4 rounded-full bg-brand-red text-white text-sm"
             >
               {rail.referralCta}
             </TrackedLink>
             <TrackedLink
               href={whatsappUrl}
-              event="whatsapp_click"
+              event="whatsapp_cta_click"
               props={{ context }}
               external
               ariaLabel={rail.whatsappCta}
@@ -100,15 +100,15 @@ export default function ConversionRail({ locale, dict, service, referralOnly, wh
         </div>
         <TrackedLink
           href={orderHref}
-          event="cta_click"
-          props={{ cta: 'order', service: service.id, context }}
+          event="service_order_click"
+          props={{ service: service.id, context }}
           className="block text-center font-bold py-3 px-6 rounded-full bg-brand-red text-white hover:bg-red-700 transition-colors"
         >
           {rail.orderCta}
         </TrackedLink>
         <TrackedLink
           href={whatsappUrl}
-          event="whatsapp_click"
+          event="whatsapp_cta_click"
           props={{ context }}
           external
           className="flex items-center justify-center gap-2 font-bold py-3 px-6 rounded-full bg-gray-800 text-white hover:bg-gray-700 transition-colors"
@@ -121,15 +121,15 @@ export default function ConversionRail({ locale, dict, service, referralOnly, wh
         <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-gray-950/95 backdrop-blur border-t border-gray-800 p-3 flex items-center gap-3">
           <TrackedLink
             href={orderHref}
-            event="cta_click"
-            props={{ cta: 'order', service: service.id, context }}
+            event="service_order_click"
+            props={{ service: service.id, context }}
             className="flex-1 text-center font-bold py-3 px-4 rounded-full bg-brand-red text-white text-sm"
           >
             {rail.orderCta} · ₹{service.priceINR}
           </TrackedLink>
           <TrackedLink
             href={whatsappUrl}
-            event="whatsapp_click"
+            event="whatsapp_cta_click"
             props={{ context }}
             external
             ariaLabel={rail.whatsappCta}
