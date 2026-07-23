@@ -5,6 +5,7 @@ import { getDict } from '@/lib/dictionaries';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { getLawyers } from '@/lib/content';
 import PageHeading from '@/components/PageHeading';
+import BciComplianceNote from '@/components/BciComplianceNote';
 import { MapPinIcon } from '@/components/Icons';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -67,7 +68,10 @@ export default async function LawyerDirectoryPage({ params }: { params: Promise<
           </Link>
         ))}
       </div>
-      <p className="text-xs text-gray-500 text-center mt-10">{T.note}</p>
+      <div className="mt-10 max-w-2xl mx-auto">
+        <BciComplianceNote dict={dict} />
+        <p className="text-xs text-gray-500 text-center mt-6">{T.note}</p>
+      </div>
     </div>
   );
 }

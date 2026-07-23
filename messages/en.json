@@ -168,7 +168,8 @@
     "backHome": "Back to homepage",
     "whatsappLawyerFree": "WhatsApp Lawyer — Free",
     "about": "About",
-    "editorialPolicy": "Editorial Policy"
+    "editorialPolicy": "Editorial Policy",
+    "disclaimerFull": "WakilBhai is a documentation service, not a law firm — nothing on this site is legal advice, and using it creates no advocate–client relationship. We prepare documents and, when you ask, connect you with independent advocates who alone are responsible for any advice they give."
   },
   "ui": {
     "search": {
@@ -432,6 +433,26 @@
       "authorMetaDesc": "{name} — author at WakilBhai, India's plain-language legal documentation service.",
       "reviewerMetaDesc": "Adv. {name}, {barCouncil} — an independent advocate partner who reviews WakilBhai legal guides.",
       "backToGuides": "Browse legal guides"
+    },
+    "compliance": {
+      "bciTitle": "Bar Council of India compliance",
+      "bciNote": "Under Bar Council of India rules, advocates may not advertise or solicit work. WakilBhai is an independent technology platform — not a law firm — that connects you with independent advocates only at your request. We do not rank, recommend or endorse any advocate, and nothing here is an advertisement or solicitation by an advocate. Any engagement, scope and fees are agreed directly between you and the advocate."
+    },
+    "editorial": {
+      "title": "Editorial & Review Policy",
+      "metaDesc": "How WakilBhai researches guides from official sources, gets them reviewed by advocates, re-verifies them every quarter, and how to report an error.",
+      "intro": "Every WakilBhai guide is researched from primary, official sources, written in plain language, and reviewed by an independent advocate before it goes live. Here is exactly how we work — and how to tell us when something is wrong.",
+      "researchHeading": "How we research",
+      "researchBody": "We start from primary law — statutes on India Code, official court and tribunal portals, government scheme pages and state-government notifications — not from other blogs. We record the section numbers and links we relied on, and quote both the old and new law where sections have changed (for example, IPC and the BNS).",
+      "sourcesHeading": "Official sources we cite",
+      "sourcesIntro": "We link out to the original source so you can verify everything yourself. The portals we rely on most:",
+      "reviewHeading": "How advocates review our content",
+      "reviewBody": "Before publishing, a draft is sent to an independent advocate enrolled with a State Bar Council for legal review. Until a real advocate has reviewed a specific guide, its byline honestly shows “Review pending” — we never display a reviewer's name for a review that has not happened.",
+      "freshnessHeading": "Freshness & re-verification",
+      "freshnessBody": "Law and fees change. We re-verify every guide against its official sources at least once every quarter, and sooner when the law changes. Each guide shows an honest “Updated on” date reflecting its last real review.",
+      "correctionsHeading": "Found an error? Tell us",
+      "correctionsBody": "If anything here is out of date or wrong, please tell us — we fix verified errors quickly and update the date. The fastest way to reach the editorial team is WhatsApp.",
+      "correctionsCta": "Report a correction on WhatsApp"
     }
   },
   "meta": {
