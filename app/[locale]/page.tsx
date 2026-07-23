@@ -5,14 +5,16 @@ import heroImg from '@/public/hero.png';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { buildMetadata } from '@/lib/seo/metadata';
-import { getCategories, getGuideMetas, getTemplates, getTestimonials } from '@/lib/content';
+import { getCategories, getGuideMetas, getTemplates } from '@/lib/content';
+import { getReviews } from '@/content/reviews';
 import { getTools, toolTitle } from '@/lib/tools';
 import { buildWhatsAppUrl, whatsAppLawyerMessage } from '@/lib/whatsapp';
 import SearchBox from '@/components/SearchBox';
 import CategoryIcon from '@/components/CategoryIcon';
 import TrackedLink from '@/components/TrackedLink';
 import HowItWorks from '@/components/HowItWorks';
-import { StarIcon, DownloadIcon, ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon, WhatsAppIcon } from '@/components/Icons';
+import Reviews from '@/components/Reviews';
+import { DownloadIcon, ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon, WhatsAppIcon } from '@/components/Icons';
 
 /** Section header: title (start) + exactly one action link (end). */
 function SectionHeader({ title, action }: { title: string; action: React.ReactNode }) {
@@ -222,35 +224,14 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <HowItWorks dict={dict} />
       </section>
 
-      {/* Reviews */}
-      <section>
-        <SectionHeader
-          title={dict.ui.home.reviewsTitle}
-          action={
-            <Link href={href('/talk-to-a-lawyer')} className={actionLinkClass}>
-              {dict.ui.home.talkToLawyer} →
-            </Link>
-          }
-        />
-        <div className="grid md:grid-cols-3 gap-8">
-          {getTestimonials().map((testimonial) => (
-            <div key={testimonial.id} className="bg-gray-900 p-8 rounded-2xl shadow-lg h-full flex flex-col">
-              <div className="flex-grow">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <StarIcon key={i} className="w-5 h-5 text-brand-gold" />
-                  ))}
-                </div>
-                <p className="text-gray-300 italic">“{testimonial.feedback[locale]}”</p>
-              </div>
-              <div className="mt-6">
-                <p className="font-bold text-white">{testimonial.name}</p>
-                <p className="text-sm text-gray-500">{testimonial.location}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* Verifiable reviews — renders nothing until real reviews exist (no fake filler). */}
+      <Reviews
+        reviews={getReviews()}
+        locale={locale}
+        title={dict.ui.home.reviewsTitle}
+        strings={dict.ui.reviews}
+        gbpUrl={process.env.GBP_REVIEW_URL}
+      />
     </div>
   );
 }

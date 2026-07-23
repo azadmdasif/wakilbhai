@@ -453,6 +453,11 @@
       "correctionsHeading": "ভুল পেয়েছেন? আমাদের জানান",
       "correctionsBody": "এখানে কিছু পুরনো বা ভুল থাকলে অনুগ্রহ করে আমাদের জানান — আমরা যাচাই করা ভুল দ্রুত ঠিক করি এবং তারিখ আপডেট করি। সম্পাদকীয় দলের সঙ্গে যোগাযোগের দ্রুততম উপায় WhatsApp।",
       "correctionsCta": "WhatsApp-এ ভুল জানান"
+    },
+    "reviews": {
+      "googleCta": "Google-এ আমাদের রিভিউ দিন",
+      "googleBadge": "Google রিভিউ",
+      "whatsappBadge": "WhatsApp"
     }
   },
   "meta": {

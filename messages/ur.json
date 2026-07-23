@@ -453,6 +453,11 @@
       "correctionsHeading": "غلطی ملی؟ ہمیں بتائیں",
       "correctionsBody": "اگر یہاں کچھ پرانا یا غلط ہے تو براہ کرم ہمیں بتائیں — ہم تصدیق شدہ غلطیاں جلد درست کرتے ہیں اور تاریخ اپ ڈیٹ کرتے ہیں۔ ادارتی ٹیم تک پہنچنے کا تیز ترین طریقہ WhatsApp ہے۔",
       "correctionsCta": "WhatsApp پر غلطی بتائیں"
+    },
+    "reviews": {
+      "googleCta": "Google پر ہمیں ریویو دیں",
+      "googleBadge": "Google ریویو",
+      "whatsappBadge": "WhatsApp"
     }
   },
   "meta": {

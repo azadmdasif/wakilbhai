@@ -453,6 +453,11 @@
       "correctionsHeading": "Found an error? Tell us",
       "correctionsBody": "If anything here is out of date or wrong, please tell us — we fix verified errors quickly and update the date. The fastest way to reach the editorial team is WhatsApp.",
       "correctionsCta": "Report a correction on WhatsApp"
+    },
+    "reviews": {
+      "googleCta": "Review us on Google",
+      "googleBadge": "Google review",
+      "whatsappBadge": "WhatsApp"
     }
   },
   "meta": {
