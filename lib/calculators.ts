@@ -156,3 +156,24 @@ export function computeNoticePeriod(servedDate: Date, value: number, unit: 'days
   );
   return { lastWorkingDay, daysRemaining };
 }
+
+// ---------- Maintenance (educational range only) ----------
+
+export interface MaintenanceRange {
+  low: number;
+  high: number;
+}
+
+/**
+ * A deliberately BROAD, educational maintenance range from the payer's net
+ * monthly income and the number of dependants. There is no statutory formula —
+ * courts decide case-by-case — so this is a conversation starter, never a
+ * prediction. Rounded to the nearest ₹500.
+ */
+export function computeMaintenanceRange(netMonthlyIncome: number, dependants = 1): MaintenanceRange {
+  const d = Math.max(1, dependants);
+  const lowPct = Math.min(0.15 + 0.05 * (d - 1), 0.3);
+  const highPct = Math.min(0.3 + 0.05 * (d - 1), 0.5);
+  const round500 = (n: number) => Math.round(n / 500) * 500;
+  return { low: round500(netMonthlyIncome * lowPct), high: round500(netMonthlyIncome * highPct) };
+}

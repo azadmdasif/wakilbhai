@@ -421,6 +421,26 @@
         "lastDayLabel": "Last working day",
         "remainingLabel": "Days remaining from today",
         "servedPast": "That last working day is already in the past based on today's date."
+      },
+      "maintenance": {
+        "title": "Maintenance Estimator",
+        "promise": "See the rough range courts use for spousal and child maintenance — then get free advice.",
+        "whatMeans": "Maintenance has no fixed formula. Courts weigh both sides' income, needs, the standard of living during the relationship, and the number of dependants. This tool shows only a broad educational range from the payer's income; your actual amount can be well above or below it. Treat it as a starting point for a conversation, not a promise.",
+        "shareResult": "I estimated a maintenance range of {value} on WakilBhai",
+        "disclaimer": "Maintenance is decided case-by-case by a court — there is no guaranteed amount. This range is educational only and does not account for your specific facts. Please speak to an advocate about your situation (free on WhatsApp).",
+        "incomeLabel": "Payer's net monthly income (₹)",
+        "dependantsLabel": "Number of dependants (spouse + children)",
+        "rangeLabel": "Educational maintenance range (per month)",
+        "note": "Illustrative range only — not a prediction of what a court will order."
+      },
+      "rentCost": {
+        "title": "Rent Agreement Cost Estimator",
+        "promise": "Estimate the stamp duty and registration cost of your rent agreement, state by state.",
+        "whatMeans": "Making a rent agreement official has two costs: stamp duty (a state tax on the agreement) and a registration charge to record it. This estimate uses published headline rates and a common 1% registration assumption; your state may charge a flat fee or add cess. Confirm on your state's e-stamp/registration portal before paying.",
+        "shareResult": "My rent agreement costs about {value} in {state}",
+        "stampLabel": "Estimated stamp duty",
+        "registrationLabel": "Estimated registration charge",
+        "totalLabel": "Estimated total cost"
       }
     },
     "city": {

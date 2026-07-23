@@ -16,6 +16,8 @@ import ChequeBounceCalculator from '@/components/calculators/ChequeBounceCalcula
 import GratuityCalculator from '@/components/calculators/GratuityCalculator';
 import LimitationChecker, { type LimitationChoice } from '@/components/calculators/LimitationChecker';
 import NoticePeriodCalculator from '@/components/calculators/NoticePeriodCalculator';
+import MaintenanceEstimator from '@/components/calculators/MaintenanceEstimator';
+import RentAgreementCost from '@/components/calculators/RentAgreementCost';
 
 export function generateStaticParams() {
   return locales.flatMap((locale) => getTools().map((tool) => ({ locale, slug: tool.slug })));
@@ -102,6 +104,10 @@ export default async function ToolPage({ params }: { params: Promise<{ locale: s
         <LimitationChecker locale={locale} strings={dict.ui.calc} shareUrl={canonicalUrl} choices={limitationChoices} />
       )}
       {tool.widget === 'notice-period' && <NoticePeriodCalculator locale={locale} strings={dict.ui.calc} shareUrl={canonicalUrl} />}
+      {tool.widget === 'maintenance' && <MaintenanceEstimator locale={locale} strings={dict.ui.calc} shareUrl={canonicalUrl} />}
+      {tool.widget === 'rent-cost' && (
+        <RentAgreementCost locale={locale} data={stampData as unknown as StampDutyData} strings={dict.ui.calc} shareUrl={canonicalUrl} />
+      )}
     </ToolShell>
   );
 }
