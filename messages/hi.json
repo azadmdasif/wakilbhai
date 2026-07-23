@@ -180,7 +180,13 @@
       "askWhatsApp": "WhatsApp पर हमसे पूछें",
       "guides": "गाइड",
       "templates": "टेम्पलेट",
-      "services": "सेवाएं"
+      "services": "सेवाएं",
+      "pageTitle": "खोज",
+      "resultsFor": "परिणाम",
+      "zeroHeading": "हमने यह गाइड अभी नहीं लिखी है",
+      "zeroLine": "अपनी समस्या बताएं और अभी WhatsApp पर मुफ़्त मदद पाएं — हम इसके लिए गाइड भी जोड़ेंगे।",
+      "searchAction": "खोजें",
+      "tools": "टूल"
     },
     "home": {
       "categoriesTitle": "समस्या के हिसाब से देखें",

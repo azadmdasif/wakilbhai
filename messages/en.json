@@ -180,7 +180,13 @@
       "askWhatsApp": "Ask us on WhatsApp",
       "guides": "Guides",
       "templates": "Templates",
-      "services": "Services"
+      "services": "Services",
+      "pageTitle": "Search",
+      "resultsFor": "Results for",
+      "zeroHeading": "We haven't written this guide yet",
+      "zeroLine": "Tell us your problem and get free help on WhatsApp now — we'll add a guide for it too.",
+      "searchAction": "Search",
+      "tools": "Tool"
     },
     "home": {
       "categoriesTitle": "Browse by problem",

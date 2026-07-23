@@ -28,15 +28,14 @@ export default function SearchBox({ locale, placeholder, label, noResultsText, a
   const loadingRef = useRef(false);
   const rootRef = useRef<HTMLDivElement>(null);
 
-  // On submit (Enter / search button), log the query and route to /help.
-  // Prompt 42 will replace this with a real /search?q= results page.
+  // On submit (Enter / search button), log the query and route to /search.
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const q = query.trim();
     if (!q) return;
     trackEvent('search_query', { q: q.slice(0, 100) });
     setOpen(false);
-    router.push(`${localePath(locale, '/help')}?q=${encodeURIComponent(q)}`);
+    router.push(`${localePath(locale, '/search')}?q=${encodeURIComponent(q)}`);
   };
 
   // Lazy-load the index + Fuse.js only when the user engages with search,

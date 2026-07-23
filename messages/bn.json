@@ -180,7 +180,13 @@
       "askWhatsApp": "WhatsApp-এ আমাদের জিজ্ঞাসা করুন",
       "guides": "গাইড",
       "templates": "টেমপ্লেট",
-      "services": "পরিষেবা"
+      "services": "পরিষেবা",
+      "pageTitle": "খুঁজুন",
+      "resultsFor": "ফলাফল",
+      "zeroHeading": "আমরা এই গাইডটি এখনও লিখিনি",
+      "zeroLine": "আপনার সমস্যা জানান এবং এখনই WhatsApp-এ বিনামূল্যে সাহায্য নিন — আমরা এর জন্য গাইডও যোগ করব।",
+      "searchAction": "খুঁজুন",
+      "tools": "টুল"
     },
     "home": {
       "categoriesTitle": "সমস্যা অনুযায়ী দেখুন",

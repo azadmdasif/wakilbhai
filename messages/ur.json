@@ -180,7 +180,13 @@
       "askWhatsApp": "واٹس ایپ پر ہم سے پوچھیں",
       "guides": "گائیڈز",
       "templates": "ٹیمپلیٹس",
-      "services": "خدمات"
+      "services": "خدمات",
+      "pageTitle": "تلاش",
+      "resultsFor": "نتائج",
+      "zeroHeading": "ہم نے یہ گائیڈ ابھی نہیں لکھی",
+      "zeroLine": "اپنا مسئلہ بتائیں اور ابھی WhatsApp پر مفت مدد پائیں — ہم اس کے لیے گائیڈ بھی شامل کریں گے۔",
+      "searchAction": "تلاش کریں",
+      "tools": "ٹول"
     },
     "home": {
       "categoriesTitle": "مسئلے کے حساب سے دیکھیں",
