@@ -1,0 +1,31 @@
+{
+  "_comment": "GEO (Generative Engine Optimization) test set. Paste each question into ChatGPT, Perplexity, Gemini and check Google AI Overviews once a month. Log whether a WakilBhai page was cited/linked in scripts/geo-log.csv. `target` is the WakilBhai page we want cited. `lang` reflects how a tier-2/3 India user really types (Hinglish included). See scripts/seo-monitor.md for the runbook.",
+  "engines": ["chatgpt", "perplexity", "gemini", "google_ai_overview"],
+  "questions": [
+    { "id": "cheque-bounce", "lang": "hi-en", "question": "cheque bounce hone par kya kare", "target": "/help/money-recovery/cheque-bounce-what-to-do" },
+    { "id": "deposit-not-returned", "lang": "en", "question": "landlord not returning security deposit India what to do", "target": "/help/property-tenancy/security-deposit-not-returned" },
+    { "id": "upi-fraud", "lang": "en", "question": "UPI fraud money recovery how to get money back", "target": "/help/cyber-fraud/upi-fraud-money-recovery" },
+    { "id": "unpaid-salary", "lang": "hi-en", "question": "company salary nahi de rahi to kya kare", "target": "/help/job-salary/unpaid-salary-what-to-do" },
+    { "id": "file-fir", "lang": "en", "question": "how to file an FIR online in India", "target": "/help/police-criminal/how-to-file-fir" },
+    { "id": "police-not-filing-fir", "lang": "hi-en", "question": "police FIR nahi likh rahi to kya kare", "target": "/help/police-criminal/police-not-filing-fir" },
+    { "id": "anticipatory-bail", "lang": "en", "question": "what is anticipatory bail and how to apply India", "target": "/help/police-criminal/anticipatory-bail-basics" },
+    { "id": "rent-agreement", "lang": "hi-en", "question": "rent agreement kaise banaye 11 month", "target": "/help/property-tenancy/rent-agreement-guide" },
+    { "id": "consumer-complaint", "lang": "en", "question": "how to file a consumer complaint online e-daakhil", "target": "/help/consumer-complaints/consumer-forum-complaint-guide" },
+    { "id": "sextortion", "lang": "en", "question": "online sextortion blackmail what to do India", "target": "/help/cyber-fraud/sextortion-blackmail" },
+    { "id": "loan-app-harassment", "lang": "hi-en", "question": "loan app harassment ki complaint kaise kare", "target": "/help/cyber-fraud/fake-loan-app-harassment" },
+    { "id": "mutual-divorce", "lang": "en", "question": "mutual divorce process and cost in India", "target": "/help/family-personal/mutual-divorce-process-cost" },
+    { "id": "maintenance-wife", "lang": "en", "question": "maintenance for wife section 125 India how much", "target": "/help/family-personal/maintenance-wife-children" },
+    { "id": "make-a-will", "lang": "en", "question": "how to make a will in India valid without registration", "target": "/help/family-personal/how-to-make-a-will" },
+    { "id": "name-change", "lang": "en", "question": "legal name change process India gazette affidavit", "target": "/help/family-personal/name-change-process" },
+    { "id": "builder-delay-rera", "lang": "en", "question": "builder delaying possession RERA complaint how to file", "target": "/help/property-tenancy/builder-delay-rera-complaint" },
+    { "id": "friend-not-returning-money", "lang": "hi-en", "question": "dost paise wapas nahi de raha legal action", "target": "/help/money-recovery/friend-not-returning-money" },
+    { "id": "traffic-challan", "lang": "hi-en", "question": "traffic challan kaise check kare aur online bhare", "target": "/help/police-criminal/traffic-challan-disputes" },
+    { "id": "court-summons", "lang": "hi-en", "question": "court se summons aaya hai kya kare", "target": "/help/police-criminal/received-court-summons" },
+    { "id": "online-scam", "lang": "en", "question": "cheated in online shopping scam how to get refund India", "target": "/help/cyber-fraud/online-scam-complaint" },
+    { "id": "recovery-agent", "lang": "en", "question": "loan recovery agent harassment RBI complaint", "target": "/help/money-recovery/loan-recovery-agent-harassment" },
+    { "id": "succession-certificate", "lang": "en", "question": "succession certificate vs legal heir certificate difference", "target": "/help/family-personal/succession-certificate-legal-heir" },
+    { "id": "property-registration", "lang": "en", "question": "property registration process and stamp duty India", "target": "/help/property-tenancy/property-registration-process" },
+    { "id": "gratuity-calc", "lang": "en", "question": "gratuity calculation formula India eligibility 5 years", "target": "/tools/gratuity-calculator" },
+    { "id": "stamp-duty-rent", "lang": "en", "question": "stamp duty on rent agreement in Maharashtra how much", "target": "/tools/stamp-duty-calculator" }
+  ]
+}
