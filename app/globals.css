@@ -5,6 +5,10 @@
 body {
   background-color: #030712;
   color: #f3f4f6;
+  /* Mobile safety net: a stray wide child never creates a horizontal scrollbar.
+     `clip` (not `hidden`) avoids establishing a scroll container, so the
+     sticky header keeps working. */
+  overflow-x: clip;
 }
 
 /* --- Indic & Nastaliq typography ------------------------------------------

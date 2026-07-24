@@ -83,7 +83,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           aria-hidden
         />
         <div className="absolute inset-0 bg-black/70"></div>
-        <div className="relative text-center pt-20 pb-24 px-4">
+        <div className="relative px-4 pt-14 pb-16 text-center sm:pt-20 sm:pb-24">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white font-display tracking-tight mb-3">
             {dict.home.heroTitle}
           </h1>

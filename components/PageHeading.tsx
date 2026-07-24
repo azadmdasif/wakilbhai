@@ -1,8 +1,8 @@
 export default function PageHeading({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
-    <div className="text-center mb-12">
-      <h1 className="text-4xl md:text-5xl font-extrabold text-white font-display mb-4">{title}</h1>
-      {subtitle && <p className="max-w-2xl mx-auto text-lg text-gray-400">{subtitle}</p>}
+    <div className="mb-8 text-center sm:mb-12">
+      <h1 className="mb-3 font-display text-3xl font-extrabold text-white sm:mb-4 sm:text-4xl md:text-5xl">{title}</h1>
+      {subtitle && <p className="mx-auto max-w-2xl text-base text-gray-400 sm:text-lg">{subtitle}</p>}
     </div>
   );
 }
