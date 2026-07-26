@@ -5,13 +5,17 @@ import heroImg from '@/public/hero.png';
 import { isLocale, localePath, type Locale } from '@/lib/i18n';
 import { getDict } from '@/lib/dictionaries';
 import { buildMetadata } from '@/lib/seo/metadata';
-import { getCategories, getGuideMetas, getTemplates, getTestimonials } from '@/lib/content';
-import { getTools, toolTitle } from '@/lib/tools';
+import { getCategories, getGuideMetas, getTemplates } from '@/lib/content';
+import { getReviews } from '@/content/reviews';
+import { getToolsOrdered, toolHeadings } from '@/lib/tools';
 import { buildWhatsAppUrl, whatsAppLawyerMessage } from '@/lib/whatsapp';
 import SearchBox from '@/components/SearchBox';
 import CategoryIcon from '@/components/CategoryIcon';
 import TrackedLink from '@/components/TrackedLink';
-import { StarIcon, DownloadIcon, ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon, WhatsAppIcon, PenSquareIcon, GavelIcon } from '@/components/Icons';
+import HowItWorks from '@/components/HowItWorks';
+import Reviews from '@/components/Reviews';
+import ToolCard from '@/components/tools/ToolCard';
+import { ShieldIcon, RupeeIcon, GlobeIcon, DocumentIcon, WhatsAppIcon } from '@/components/Icons';
 
 /** Section header: title (start) + exactly one action link (end). */
 function SectionHeader({ title, action }: { title: string; action: React.ReactNode }) {
@@ -57,12 +61,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     { icon: RupeeIcon, text: dict.ui.home.trust4 },
   ];
 
-  const steps = [
-    { icon: WhatsAppIcon, text: dict.ui.home.step1 },
-    { icon: PenSquareIcon, text: dict.ui.home.step2 },
-    { icon: GavelIcon, text: dict.ui.home.step3 },
-  ];
-
   // Homepage has no guide context → the generic free-consult prefill.
   const whatsappHref = buildWhatsAppUrl(whatsAppLawyerMessage());
 
@@ -85,7 +83,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           aria-hidden
         />
         <div className="absolute inset-0 bg-black/70"></div>
-        <div className="relative text-center pt-20 pb-24 px-4">
+        <div className="relative px-4 pt-14 pb-16 text-center sm:pt-20 sm:pb-24">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white font-display tracking-tight mb-3">
             {dict.home.heroTitle}
           </h1>
@@ -172,39 +170,32 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      {/* Free tools & templates */}
+      {/* Free tools — top 4 from the shared registry (single source with /tools). */}
       <section>
         <SectionHeader
           title={dict.ui.home.toolsTitle}
           action={
-            <Link href={href('/templates')} className={actionLinkClass}>
-              {dict.ui.home.seeAllTemplates} →
+            <Link href={href('/tools')} className={actionLinkClass}>
+              {dict.ui.home.seeAllTools} →
             </Link>
           }
         />
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {getTools().map((tool) => (
-            <Link
-              key={tool.slug}
-              href={href(`/tools/${tool.slug}`)}
-              className="bg-gray-900 border border-brand-gold/30 rounded-2xl p-5 hover:border-brand-gold transition-colors"
-            >
-              <RupeeIcon className="w-6 h-6 text-brand-gold mb-3" />
-              <p className="font-bold text-white text-sm">{toolTitle(dict, tool.widget)}</p>
-              <p className="text-xs text-brand-gold mt-2">{dict.ui.template.free}</p>
-            </Link>
-          ))}
-          {templates.slice(0, 1).map((template) => (
-            <Link
-              key={template.slug}
-              href={href(`/templates/${template.slug}`)}
-              className="bg-gray-900 border border-gray-800 rounded-2xl p-5 hover:border-brand-gold/50 transition-colors"
-            >
-              <DownloadIcon className="w-6 h-6 text-brand-gold mb-3" />
-              <p className="font-bold text-white text-sm">{template.title[locale]}</p>
-              <p className="text-xs text-brand-gold mt-2">{dict.ui.template.free}</p>
-            </Link>
-          ))}
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {getToolsOrdered()
+            .slice(0, 4)
+            .map((tool) => {
+              const { title, promise } = toolHeadings(dict, tool.widget);
+              return (
+                <ToolCard
+                  key={tool.slug}
+                  href={href(`/tools/${tool.slug}`)}
+                  widget={tool.widget}
+                  name={title}
+                  promise={promise}
+                  freeLabel={dict.ui.template.free}
+                />
+              );
+            })}
         </div>
       </section>
 
@@ -224,50 +215,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             </TrackedLink>
           }
         />
-        <div className="grid sm:grid-cols-3 gap-4">
-          {steps.map((step, i) => (
-            <div key={step.text} className="flex items-center gap-4 bg-gray-900 border border-gray-800 rounded-2xl p-5">
-              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-red/15 text-brand-red font-extrabold font-display">
-                {i + 1}
-              </span>
-              <div className="flex items-center gap-2">
-                <step.icon className="w-5 h-5 text-brand-gold shrink-0" />
-                <p className="font-bold text-white text-sm">{step.text}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <HowItWorks dict={dict} />
       </section>
 
-      {/* Reviews */}
-      <section>
-        <SectionHeader
-          title={dict.ui.home.reviewsTitle}
-          action={
-            <Link href={href('/talk-to-a-lawyer')} className={actionLinkClass}>
-              {dict.ui.home.talkToLawyer} →
-            </Link>
-          }
-        />
-        <div className="grid md:grid-cols-3 gap-8">
-          {getTestimonials().map((testimonial) => (
-            <div key={testimonial.id} className="bg-gray-900 p-8 rounded-2xl shadow-lg h-full flex flex-col">
-              <div className="flex-grow">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <StarIcon key={i} className="w-5 h-5 text-brand-gold" />
-                  ))}
-                </div>
-                <p className="text-gray-300 italic">“{testimonial.feedback[locale]}”</p>
-              </div>
-              <div className="mt-6">
-                <p className="font-bold text-white">{testimonial.name}</p>
-                <p className="text-sm text-gray-500">{testimonial.location}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* Verifiable reviews — renders nothing until real reviews exist (no fake filler). */}
+      <Reviews
+        reviews={getReviews()}
+        locale={locale}
+        title={dict.ui.home.reviewsTitle}
+        strings={dict.ui.reviews}
+        gbpUrl={process.env.GBP_REVIEW_URL}
+      />
     </div>
   );
 }

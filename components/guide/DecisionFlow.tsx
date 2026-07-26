@@ -73,8 +73,10 @@ export default function DecisionFlow({
   const outcomeIsWhatsApp = outcome?.href?.includes('wa.me');
   const outcomeInternal = outcome?.href?.startsWith('/');
 
-  const onOutcomeClick = () =>
-    trackEvent(outcomeIsWhatsApp ? 'whatsapp_cta_click' : 'cta_click', { context: 'decision-flow', outcome: current });
+  const onOutcomeClick = () => {
+    // Only the WhatsApp outcome is a funnel event; internal outcomes are plain navigation.
+    if (outcomeIsWhatsApp) trackEvent('whatsapp_cta_click', { context: 'decision-flow' });
+  };
 
   const outcomeClass = `mt-3 inline-flex min-h-[48px] items-center gap-2 rounded-full px-6 py-3 text-start font-bold text-white transition-colors ${
     outcomeIsWhatsApp ? 'bg-whatsapp hover:bg-green-700' : 'bg-brand-red hover:bg-red-700'

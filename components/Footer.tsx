@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { localePath, type Locale } from '@/lib/i18n';
 import type { Dict } from '@/lib/dictionaries';
 import { getGuideMetas } from '@/lib/content';
+import Disclaimer from './Disclaimer';
 import { TwitterIcon, FacebookIcon, LinkedInIcon } from './Icons';
 
 export default function Footer({ locale, dict }: { locale: Locale; dict: Dict }) {
@@ -66,6 +67,7 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: Dict })
               <li><Link href={href('/templates')} className="hover:text-brand-gold transition-colors">{navT.documents}</Link></li>
               <li><Link href={href('/lawyers')} className="hover:text-brand-gold transition-colors">{navT.findLawyer}</Link></li>
               <li><Link href={href('/about')} className="hover:text-brand-gold transition-colors">{dict.common.about}</Link></li>
+              <li><Link href={href('/how-it-works')} className="hover:text-brand-gold transition-colors">{navT.howItWorks}</Link></li>
               <li><Link href={href('/editorial-policy')} className="hover:text-brand-gold transition-colors">{dict.common.editorialPolicy}</Link></li>
               <li><Link href={href('/contact')} className="hover:text-brand-gold transition-colors">{navT.contact}</Link></li>
               <li><Link href={href('/privacy')} className="hover:text-brand-gold transition-colors">{dict.legal.privacyTitle}</Link></li>
@@ -89,9 +91,7 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: Dict })
         )}
         <div className="mt-12 border-t border-gray-800 pt-8 text-center text-sm">
           <p>&copy; {year} WakilBhai. {dict.common.allRightsReserved}</p>
-          <p className="mt-2 text-xs max-w-2xl mx-auto">
-            <strong>{dict.legal.disclaimerTitle}:</strong> {dict.common.disclaimer}
-          </p>
+          <Disclaimer dict={dict} className="mt-2 max-w-2xl mx-auto border-t-0 pt-0 text-center" />
         </div>
       </div>
     </footer>

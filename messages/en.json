@@ -10,7 +10,8 @@
     "blog": "Blog",
     "guides": "Help Guides",
     "documents": "Free Documents",
-    "whyUs": "Why Us"
+    "whyUs": "Why Us",
+    "howItWorks": "How It Works"
   },
   "home": {
     "heroTitle": "Legal Work. Without Tension.",
@@ -167,7 +168,8 @@
     "backHome": "Back to homepage",
     "whatsappLawyerFree": "WhatsApp Lawyer — Free",
     "about": "About",
-    "editorialPolicy": "Editorial Policy"
+    "editorialPolicy": "Editorial Policy",
+    "disclaimerFull": "WakilBhai is a documentation service, not a law firm — nothing on this site is legal advice, and using it creates no advocate–client relationship. We prepare documents and, when you ask, connect you with independent advocates who alone are responsible for any advice they give."
   },
   "ui": {
     "search": {
@@ -178,7 +180,13 @@
       "askWhatsApp": "Ask us on WhatsApp",
       "guides": "Guides",
       "templates": "Templates",
-      "services": "Services"
+      "services": "Services",
+      "pageTitle": "Search",
+      "resultsFor": "Results for",
+      "zeroHeading": "We haven't written this guide yet",
+      "zeroLine": "Tell us your problem and get free help on WhatsApp now — we'll add a guide for it too.",
+      "searchAction": "Search",
+      "tools": "Tool"
     },
     "home": {
       "categoriesTitle": "Browse by problem",
@@ -197,7 +205,8 @@
       "step3": "Advocate sends it",
       "startOnWhatsApp": "Start free on WhatsApp",
       "reviewsTitle": "Reviews",
-      "talkToLawyer": "Talk to a lawyer"
+      "talkToLawyer": "Talk to a lawyer",
+      "seeAllTools": "See all tools"
     },
     "rail": {
       "heading": "Get this done for you",
@@ -226,7 +235,8 @@
       "reviewedBy": "Reviewed by",
       "costsTitle": "Costs & what to expect",
       "decisionTitle": "Which path applies to you?",
-      "stepsTitle": "Step-by-step: what to do"
+      "stepsTitle": "Step-by-step: what to do",
+      "reviewPending": "Review pending"
     },
     "template": {
       "indexTitle": "Free legal document templates",
@@ -304,7 +314,10 @@
         "deposit": "Security deposit (₹, optional)",
         "propertyValue": "Property value (₹)",
         "dutyResult": "Estimated stamp duty",
-        "baseResult": "Calculated on"
+        "baseResult": "Calculated on",
+        "promise": "Estimate the stamp duty on a rent agreement, sale deed or gift deed, state by state.",
+        "whatMeans": "Stamp duty is the state tax that makes a document legally valid. This estimate uses published headline rates; states add surcharges, cesses and concessions, so treat it as a ballpark. Underpaying can make the document inadmissible in court until you pay the shortfall plus a penalty.",
+        "shareResult": "Estimated stamp duty for {state}: {value}"
       },
       "cheque": {
         "title": "Cheque Bounce Deadline Calculator",
@@ -316,7 +329,10 @@
         "complaintDeadline": "Last date to file the complaint",
         "maxFine": "Fine on conviction can extend to",
         "interim": "Interim compensation (up to 20%) can be",
-        "expired": "The 30-day notice window has passed for this presentation. If the cheque is still within its 3-month validity, you can present it again to restart the timeline."
+        "expired": "The 30-day notice window has passed for this presentation. If the cheque is still within its 3-month validity, you can present it again to restart the timeline.",
+        "promise": "Get every Section 138 cheque-bounce deadline from the day your cheque bounced.",
+        "whatMeans": "These are the hard deadlines in a cheque-bounce case: send the demand notice within 30 days of the return memo, the drawer gets 15 days to pay, and if they do not you must file the complaint within the next 30 days. Miss one and the case can fail.",
+        "shareResult": "My cheque-bounce complaint deadline is {value}"
       },
       "gratuity": {
         "title": "Gratuity Calculator",
@@ -326,7 +342,112 @@
         "result": "Gratuity payable",
         "notEligible": "Gratuity generally requires at least 5 years of continuous service.",
         "countedYears": "Years counted (6+ extra months round up)",
-        "capNote": "Capped at the statutory maximum of ₹20,00,000."
+        "capNote": "Capped at the statutory maximum of ₹20,00,000.",
+        "promise": "Estimate the gratuity your employer owes you under the Payment of Gratuity Act.",
+        "whatMeans": "This is the gratuity your employer should pay on exit — 15 days' wages (last basic + DA) for every completed year, once you have five years' continuous service. It is the statutory minimum; your contract may promise more. Eligibility for borderline service can be argued, so take advice.",
+        "shareResult": "My gratuity comes to ₹{value}"
+      },
+      "whatMeansHeading": "What this means",
+      "shareResultLabel": "Share result on WhatsApp",
+      "shareSuffix": "— calculated free at {url}",
+      "shareGeneric": "I used WakilBhai's free legal tools — {url}",
+      "limitation": {
+        "title": "Limitation Period Checker",
+        "promise": "Find how long you have to take a matter to court — and the day the clock starts.",
+        "whatMeans": "The limitation period is the deadline to file a case. File after it and the court will usually reject the matter, however strong it is. The clock starts from the 'counted from' event shown, not the day you decide to act — so check early. Courts can sometimes condone delay, but never rely on it.",
+        "shareResult": "The limitation period for my matter is {value}",
+        "selectLabel": "What is your matter about?",
+        "startLabel": "Date the cause arose (optional)",
+        "windowLabel": "Time limit to file",
+        "countedFromLabel": "Counted from",
+        "deadlineLabel": "Your last date to file",
+        "sourceLabel": "Source",
+        "guideLinkLabel": "Read the guide",
+        "items": {
+          "money-lent": {
+            "label": "Money lent / loan not repaid",
+            "countedFrom": "when the loan was due to be repaid"
+          },
+          "breach-of-contract": {
+            "label": "Breach of a contract",
+            "countedFrom": "the date the contract was broken"
+          },
+          "price-of-goods": {
+            "label": "Unpaid price of goods sold",
+            "countedFrom": "the date the goods were delivered"
+          },
+          "arrears-of-rent": {
+            "label": "Arrears of rent",
+            "countedFrom": "when each month's rent fell due"
+          },
+          "security-deposit": {
+            "label": "Security deposit not returned",
+            "countedFrom": "when the deposit became refundable (on vacating)"
+          },
+          "immovable-possession": {
+            "label": "Possession of immovable property",
+            "countedFrom": "when the possession became adverse to you"
+          },
+          "property-partition": {
+            "label": "Partition of family property",
+            "countedFrom": "when you were excluded or ousted"
+          },
+          "cheque-138": {
+            "label": "Cheque bounce (criminal complaint)",
+            "countedFrom": "the end of the 15-day payment window after the notice"
+          },
+          "consumer-complaint": {
+            "label": "Consumer complaint",
+            "countedFrom": "the date the cause of action arose"
+          },
+          "residuary": {
+            "label": "Any other civil matter",
+            "countedFrom": "when your right to sue first accrued"
+          }
+        },
+        "unitOne": {
+          "years": "year",
+          "months": "month",
+          "days": "day"
+        },
+        "unitOther": {
+          "years": "years",
+          "months": "months",
+          "days": "days"
+        }
+      },
+      "notice": {
+        "title": "Notice Period Calculator",
+        "promise": "Work out your last working day from the date your resignation or notice was served.",
+        "whatMeans": "Your last working day is the notice-served date plus the notice period in your contract. Serving proper notice — or paying salary in lieu — usually lets you leave cleanly. If the employer waives or shortens it, agree that in writing. This is a date estimate, not advice on disputes over recovery or buyout.",
+        "shareResult": "My last working day is {value}",
+        "servedLabel": "Date notice was served",
+        "periodLabel": "Notice period in your contract",
+        "unitDays": "Days",
+        "unitMonths": "Months",
+        "lastDayLabel": "Last working day",
+        "remainingLabel": "Days remaining from today",
+        "servedPast": "That last working day is already in the past based on today's date."
+      },
+      "maintenance": {
+        "title": "Maintenance Estimator",
+        "promise": "See the rough range courts use for spousal and child maintenance — then get free advice.",
+        "whatMeans": "Maintenance has no fixed formula. Courts weigh both sides' income, needs, the standard of living during the relationship, and the number of dependants. This tool shows only a broad educational range from the payer's income; your actual amount can be well above or below it. Treat it as a starting point for a conversation, not a promise.",
+        "shareResult": "I estimated a maintenance range of {value} on WakilBhai",
+        "disclaimer": "Maintenance is decided case-by-case by a court — there is no guaranteed amount. This range is educational only and does not account for your specific facts. Please speak to an advocate about your situation (free on WhatsApp).",
+        "incomeLabel": "Payer's net monthly income (₹)",
+        "dependantsLabel": "Number of dependants (spouse + children)",
+        "rangeLabel": "Educational maintenance range (per month)",
+        "note": "Illustrative range only — not a prediction of what a court will order."
+      },
+      "rentCost": {
+        "title": "Rent Agreement Cost Estimator",
+        "promise": "Estimate the stamp duty and registration cost of your rent agreement, state by state.",
+        "whatMeans": "Making a rent agreement official has two costs: stamp duty (a state tax on the agreement) and a registration charge to record it. This estimate uses published headline rates and a common 1% registration assumption; your state may charge a flat fee or add cess. Confirm on your state's e-stamp/registration portal before paying.",
+        "shareResult": "My rent agreement costs about {value} in {state}",
+        "stampLabel": "Estimated stamp duty",
+        "registrationLabel": "Estimated registration charge",
+        "totalLabel": "Estimated total cost"
       }
     },
     "city": {
@@ -398,6 +519,63 @@
       "back": "Back",
       "startOver": "Start over",
       "result": "Result"
+    },
+    "about": {
+      "title": "About WakilBhai",
+      "metaDesc": "Who runs WakilBhai, how our documents are prepared and advocate-reviewed, the cities we serve — and what we are not: a documentation service, not a law firm.",
+      "positioning": "WakilBhai is a documentation service working with independent advocates — not a law firm.",
+      "whoHeading": "Who runs WakilBhai",
+      "whoBody": "WakilBhai is run by a small documentation team working with a network of independent practising advocates across India. We write plain-language legal guides, prepare documents, and connect people to advocates — in the languages India actually speaks.",
+      "networkHeading": "The advocate partner network",
+      "networkBody": "Our partner advocates are independent professionals enrolled with their State Bar Councils. They review our guides, review and sign legal notices sent through us, and take up consultations. They are not our employees, and your engagement for legal advice is with the advocate directly.",
+      "processHeading": "How documents are prepared",
+      "processStep1Title": "Drafted",
+      "processStep1Body": "Our documentation team prepares your document from your details, using formats refined across hundreds of matters.",
+      "processStep2Title": "Advocate-reviewed",
+      "processStep2Body": "A partner advocate reviews the draft. Legal notices go out under the advocate's name and signature.",
+      "processStep3Title": "Sent & delivered",
+      "processStep3Body": "You receive the final document in 1–3 working days — with dispatch proof for notices, and printing/notary guidance where needed.",
+      "citiesHeading": "Where we serve",
+      "citiesBody": "Documents and consultations are delivered online across India — every state, in English, Hindi, Bengali and Urdu (more languages rolling out). Court appearances, where needed, are by independent advocates in your city.",
+      "howHeading": "How it works",
+      "disclaimerNote": "We are not a law firm and do not give legal advice. Our guides are general information; for advice on your specific matter, consult a qualified advocate — we can connect you to one for free on WhatsApp."
+    },
+    "people": {
+      "authorRole": "Author",
+      "reviewerRole": "Advocate reviewer",
+      "barCouncil": "Bar Council",
+      "enrolment": "Enrolment no.",
+      "areasHeading": "Practice areas",
+      "pendingTitle": "Verification pending",
+      "pendingBody": "This partner profile is being finalised. Until it is verified, guides list “Review pending” and we do not claim this advocate has reviewed them.",
+      "authorMetaDesc": "{name} — author at WakilBhai, India's plain-language legal documentation service.",
+      "reviewerMetaDesc": "Adv. {name}, {barCouncil} — an independent advocate partner who reviews WakilBhai legal guides.",
+      "backToGuides": "Browse legal guides"
+    },
+    "compliance": {
+      "bciTitle": "Bar Council of India compliance",
+      "bciNote": "Under Bar Council of India rules, advocates may not advertise or solicit work. WakilBhai is an independent technology platform — not a law firm — that connects you with independent advocates only at your request. We do not rank, recommend or endorse any advocate, and nothing here is an advertisement or solicitation by an advocate. Any engagement, scope and fees are agreed directly between you and the advocate."
+    },
+    "editorial": {
+      "title": "Editorial & Review Policy",
+      "metaDesc": "How WakilBhai researches guides from official sources, gets them reviewed by advocates, re-verifies them every quarter, and how to report an error.",
+      "intro": "Every WakilBhai guide is researched from primary, official sources, written in plain language, and reviewed by an independent advocate before it goes live. Here is exactly how we work — and how to tell us when something is wrong.",
+      "researchHeading": "How we research",
+      "researchBody": "We start from primary law — statutes on India Code, official court and tribunal portals, government scheme pages and state-government notifications — not from other blogs. We record the section numbers and links we relied on, and quote both the old and new law where sections have changed (for example, IPC and the BNS).",
+      "sourcesHeading": "Official sources we cite",
+      "sourcesIntro": "We link out to the original source so you can verify everything yourself. The portals we rely on most:",
+      "reviewHeading": "How advocates review our content",
+      "reviewBody": "Before publishing, a draft is sent to an independent advocate enrolled with a State Bar Council for legal review. Until a real advocate has reviewed a specific guide, its byline honestly shows “Review pending” — we never display a reviewer's name for a review that has not happened.",
+      "freshnessHeading": "Freshness & re-verification",
+      "freshnessBody": "Law and fees change. We re-verify every guide against its official sources at least once every quarter, and sooner when the law changes. Each guide shows an honest “Updated on” date reflecting its last real review.",
+      "correctionsHeading": "Found an error? Tell us",
+      "correctionsBody": "If anything here is out of date or wrong, please tell us — we fix verified errors quickly and update the date. The fastest way to reach the editorial team is WhatsApp.",
+      "correctionsCta": "Report a correction on WhatsApp"
+    },
+    "reviews": {
+      "googleCta": "Review us on Google",
+      "googleBadge": "Google review",
+      "whatsappBadge": "WhatsApp"
     }
   },
   "meta": {

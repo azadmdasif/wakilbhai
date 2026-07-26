@@ -63,7 +63,7 @@ export default function WhatsAppLawyerButton({ label }: { label: string }) {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}
-      onClick={() => trackEvent('whatsapp_cta_click', { path })}
+      onClick={() => trackEvent('whatsapp_cta_click', { context: 'floating-button' })}
       className={[
         'fixed z-50 bottom-4 inset-x-4 sm:inset-x-auto sm:end-6',
         'inline-flex items-center justify-center gap-2 min-h-[44px]',

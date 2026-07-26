@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { localePath, splitLocaleFromPath, type Locale } from '@/lib/i18n';
+import { localePath, type Locale } from '@/lib/i18n';
 import { buildWhatsAppUrl, whatsAppLawyerMessage } from '@/lib/whatsapp';
 import { trackEvent } from '@/lib/analytics';
 import { WhatsAppIcon } from '@/components/Icons';
@@ -38,7 +38,6 @@ export default function StickyGuideBar({
   labels: { whatsApp: string; getItDone: string; dismiss: string };
 }) {
   const pathname = usePathname() || '/';
-  const [, path] = splitLocaleFromPath(pathname);
 
   const [passedQuickAnswer, setPassedQuickAnswer] = useState(false);
   const [nearFooter, setNearFooter] = useState(false);
@@ -111,7 +110,7 @@ export default function StickyGuideBar({
           target="_blank"
           rel="noopener noreferrer"
           tabIndex={shown ? 0 : -1}
-          onClick={() => trackEvent('whatsapp_cta_click', { path, context: 'sticky-guide-bar' })}
+          onClick={() => trackEvent('whatsapp_cta_click', { context: 'sticky-guide-bar' })}
           aria-label={labels.whatsApp}
           className="flex h-11 min-w-0 items-center justify-center gap-1.5 rounded-full bg-whatsapp px-2 text-[11px] font-bold leading-tight text-white sm:text-sm"
         >
@@ -124,7 +123,7 @@ export default function StickyGuideBar({
           <Link
             href={localePath(locale, `/services/${service.slug}`)}
             tabIndex={shown ? 0 : -1}
-            onClick={() => trackEvent('cta_click', { cta: 'order', service: service.slug, context: 'sticky-guide-bar' })}
+            onClick={() => trackEvent('service_order_click', { service: service.slug, context: 'sticky-guide-bar' })}
             aria-label={`${labels.getItDone}: ${service.name}, ₹${service.price}`}
             className="flex h-11 min-w-0 items-center justify-center rounded-full bg-brand-red px-2 text-xs font-bold text-white sm:text-sm"
           >

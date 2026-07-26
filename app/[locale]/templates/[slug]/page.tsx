@@ -107,8 +107,8 @@ export default async function TemplatePage({ params }: { params: Promise<{ local
             </div>
             <TrackedLink
               href={href(`/services/${relatedService.id}`)}
-              event="cta_click"
-              props={{ cta: 'template-upsell', service: relatedService.id }}
+              event="service_order_click"
+              props={{ service: relatedService.id, context: 'template-upsell' }}
               className="shrink-0 rounded-full bg-brand-red px-6 py-3 text-center font-bold text-white hover:bg-red-700 transition-colors"
             >
               {T.getDrafted}

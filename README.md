@@ -29,9 +29,42 @@ gracefully when a var is absent.
 | `NEXT_PUBLIC_TWITTER_URL` | Footer Twitter/X link | Icon is hidden when unset. |
 | `NEXT_PUBLIC_FACEBOOK_URL` | Footer Facebook link | Icon is hidden when unset. |
 | `NEXT_PUBLIC_LINKEDIN_URL` | Footer LinkedIn link | Icon is hidden when unset. |
+| `NEXT_PUBLIC_GA_ID` | GA4 analytics | `G-…` measurement id. When unset, only the Google Ads tag loads. |
+| `GBP_REVIEW_URL` | "Review us on Google" link | Google Business Profile review URL; the slot is hidden when unset. |
 
 `NEXT_PUBLIC_*` vars are inlined into the client bundle at build time, so a build
 is required after changing them.
+
+## Analytics
+
+Funnel analytics run through a single typed layer, `lib/analytics.ts`. Every
+event has a fixed props shape, so call sites can't drift:
+
+| Event | Props | Fired from |
+| --- | --- | --- |
+| `whatsapp_cta_click` | `{ context }` | every free-WhatsApp-consult CTA |
+| `service_order_click` | `{ service, context? }` | paid document/service order CTAs |
+| `template_download` | `{ slug, format? }` | template downloads |
+| `tool_used` | `{ tool }` | a calculator run to a result |
+| `search_query` | `{ q, results? }` | every site search (zero-result queries are the content roadmap) |
+| `cta_ladder_click` | `{ tier, service? }` | the three CtaLadder tiers |
+| `share_whatsapp` | `{ slug }` | guide/tool result peer-shares |
+| `scroll_75` | `{ slug }` | reader reaches 75% depth of a guide/tool |
+
+Events fan out to Vercel Analytics and GA4 (`gtag`).
+
+**Privacy / no cookie banner.** We deliberately ship **no cookie-consent
+banner**. This is safe because:
+
+- **Do Not Track is respected end to end.** `lib/analytics.ts` sends no events
+  when the browser signals DNT, and the GA/Ads `gtag('config', …)` calls in the
+  root layout are wrapped in a DNT check — so a DNT user gets **no GA cookies and
+  no pageviews** at all.
+- Analytics are first-party, aggregate funnel measurement (no ad-personalisation
+  audiences are built here), which keeps us within the "basic GA config" bar.
+
+If the site later targets EU visitors or turns on ad-personalisation, revisit
+this: a consent banner + GA Consent Mode would then be required.
 
 ### Getting the verification tokens
 

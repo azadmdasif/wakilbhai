@@ -51,9 +51,13 @@ Content is available in English, Hindi, Bengali, Urdu, Marathi, Telugu, Tamil an
 
 ## Free tools
 
-- [Cheque bounce interest/compensation calculator](https://www.wakilbhai.com/tools/cheque-bounce-calculator)
-- [Stamp duty calculator](https://www.wakilbhai.com/tools/stamp-duty-calculator)
-- [Gratuity calculator](https://www.wakilbhai.com/tools/gratuity-calculator)
+- [Cheque bounce deadline calculator](https://www.wakilbhai.com/tools/cheque-bounce-calculator): Every Section 138 deadline from the day your cheque bounced — demand notice, 15-day payment window and complaint dates.
+- [Limitation period checker](https://www.wakilbhai.com/tools/limitation-period-checker): How long you have to take a matter to court and the day the clock starts, from the Limitation Act, 1963 schedule.
+- [Notice period calculator](https://www.wakilbhai.com/tools/notice-period-calculator): Your last working day from the date resignation or notice was served.
+- [Rent agreement cost estimator](https://www.wakilbhai.com/tools/rent-agreement-cost): Stamp duty plus registration cost of a rent agreement, state by state.
+- [Stamp duty calculator](https://www.wakilbhai.com/tools/stamp-duty-calculator): Stamp duty on a rent agreement, sale deed or gift deed, state by state.
+- [Gratuity calculator](https://www.wakilbhai.com/tools/gratuity-calculator): The gratuity your employer owes under the Payment of Gratuity Act.
+- [Maintenance estimator](https://www.wakilbhai.com/tools/maintenance-estimator): A broad educational range for spousal and child maintenance (courts decide case-by-case).
 
 ## Browse
 

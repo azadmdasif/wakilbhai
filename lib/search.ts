@@ -1,4 +1,4 @@
-import { getGuideMetas, getServices, getTemplates } from './content';
+import { getCategory, getGuideMetas, getServices, getTemplates } from './content';
 import { getTools, toolTitle } from './tools';
 import { getDict } from './dictionaries';
 import { localePath, type Locale } from './i18n';
@@ -8,6 +8,10 @@ export interface SearchDoc {
   title: string;
   keywords: string[];
   url: string;
+  /** The 60-second answer (guides) — serves as both description and quickAnswer. */
+  answer?: string;
+  /** Localized category name (guides) — searchable + shown as a badge. */
+  category?: string;
   /** Price shown next to services. */
   priceINR?: number;
 }
@@ -21,6 +25,8 @@ export function buildSearchIndex(locale: Locale): SearchDoc[] {
       title: guide.title[locale],
       keywords: [...guide.searchKeywords[locale], ...guide.searchKeywords.en],
       url: localePath(locale, `/help/${guide.category}/${guide.slug}`),
+      answer: guide.answerBox[locale],
+      category: getCategory(guide.category)?.title[locale],
     });
   }
   for (const template of getTemplates()) {
